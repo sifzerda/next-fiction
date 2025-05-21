@@ -9,6 +9,8 @@ to do
 
 - [ ] add a 'chapter' entry to prisma schema/db and link it to comment, so every comment not only is linked to a user, but also has a subject, so when you display comments, it doesnt' display every comment, only the ones left on the relevant chapter page
 
+- [ ] resize text or spacing in sidebar or alter so all the links fit
+
 This is a next app I was making...
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
