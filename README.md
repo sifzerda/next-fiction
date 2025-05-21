@@ -7,7 +7,7 @@ to do
 - [x] footer content
 - [ ] page elements (title/quote/banner/text sections)
 
-
+- [ ] add a 'chapter' entry to prisma schema/db and link it to comment, so every comment not only is linked to a user, but also has a subject, so when you display comments, it doesnt' display every comment, only the ones left on the relevant chapter page
 
 This is a next app I was making...
 
