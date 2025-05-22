@@ -1,14 +1,14 @@
-// src/app/scary words.js
+// src/app/references.js
 import Layout from '../../components/Layout';
 
-function ScaryWords() {
+function TheLastWords() {
   return (
     <Layout>
-      <h1 className="text-2xl font-bold mb-4">Scary words</h1>
+      <h1 className="text-2xl font-bold mb-4">The Last Words</h1>
       <p>If you have questions, please reach out!</p>
       {/* Add your contact form or details here */}
     </Layout>
   );
 }
 
-export default ScaryWords;
+export default TheLastWords;

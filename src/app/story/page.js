@@ -1,10 +1,10 @@
-// src/app/scary words.js
+// src/app/story.js
 import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import Image from "next/image";
 
-function Techniques() {
+function Story() {
   return (
     <Layout>
       {/* 1st Banner Box */}
@@ -116,4 +116,4 @@ function Techniques() {
   );
 }
 
-export default Techniques;
+export default Story;
