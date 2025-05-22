@@ -1,6 +1,5 @@
 // src/components/Layout.js
 import Header from './Header';
-import Navigation from './Navigation';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 
@@ -8,7 +7,6 @@ function Layout({ children }) {
   return (
     <div className="min-h-screen bg-white text-black flex flex-col">
       <Header />
-      <Navigation />
 
       <div className="flex flex-col sm:flex-row pt-28">
         <aside className="w-full sm:w-56 bg-gray-100 dark:bg-gray-900 p-6">

@@ -17,7 +17,7 @@ export default {
         borderBlue: "#062c4c",
         blue: "#2684ff",
         lBlue: "#4f9bff",
-        llBlue: "rgb(0, 217, 255)",
+        llBlue: "#00d9ff",
         cyan: "#01fff7",
         lightestBlue: "#63f8f1",
         volt: "#c8ff00",

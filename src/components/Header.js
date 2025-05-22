@@ -1,30 +1,106 @@
-// src/components/Header.js
+// src/components/Header.js (header + navigation bar)
 'use client';
 
-import Image from "next/image";
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import Image from 'next/image';
+import FMLogo from '../app/assets/FMLogo.png';
 
 function Header() {
-  return (
-    <header
-      role="banner"
-      className="w-full h-12 bg-bootstrapDark text-white px-6 flex items-center justify-between fixed top-0 left-0 z-40 sm:pl-64"
-    >
-      <div className="flex items-center gap-2 h-full">
-        <div className="relative h-full w-8"> 
-          {/* Constrain height to header (48px), width adjusts automatically */}
-          <Image
-            src="/vercel.svg" // Replace with your logo path
-            alt="Site Logo"
-            fill
-            style={{ objectFit: 'contain' }}
-            priority
-          />
-        </div>
-        <span className="text-sm sm:text-base font-semibold">My Website</span>
-      </div>
+  const pathname = usePathname();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-      <div className="text-sm sm:text-base font-semibold">My Website</div>
-      <div className="text-xs sm:text-sm">Welcome back</div>
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    setIsLoggedIn(!!token);
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    window.location.href = '/';
+  };
+
+  const links = [
+    { href: '/', label: 'About' },
+    { href: '/contact', label: 'Contact' },
+    { href: '/', label: 'Horror Map' },
+  ];
+
+  if (isLoggedIn) {
+    links.push({ href: '#', label: 'Logout', onClick: handleLogout });
+  } else {
+    links.push(
+      { href: '/signup', label: 'Signup' },
+      { href: '/login', label: 'Login' }
+    );
+  }
+
+  return (
+<header className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white border-b-2 border-yellow shadow">
+  {/* Top Header Row – Responsive Layout */}
+  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center relative px-6 py-2 space-y-1 sm:space-y-0">
+    
+    {/* Left-Aligned Logo on sm+ */}
+<div className="hidden sm:block absolute top-1 left-2 h-24 w-24">
+  <div className="relative w-full h-full">
+    <Image
+      src={FMLogo}
+      alt="Site Logo"
+      fill
+      style={{ objectFit: 'contain' }}
+      priority
+    />
+  </div>
+</div>
+
+{/* Centered Logo on small screens (bigger size) */}
+<div className="block sm:hidden mx-auto h-24 w-24">
+  <div className="relative w-full h-full">
+    <Image
+      src={FMLogo}
+      alt="Site Logo"
+      fill
+      style={{ objectFit: 'contain' }}
+      priority
+    />
+  </div>
+</div>
+
+    {/* Title – always centered */}
+   <div className="hidden sm:block text-sm sm:text-base font-semibold text-center">FICTION MAP</div>
+   
+    {/* Welcome back – center on small, right on sm+ */}
+<div className="hidden sm:block text-sm absolute top-1/2 right-4 transform -translate-y-1/2">
+  Welcome back
+</div>
+  </div>
+
+      {/* Navigation Row */}
+      <nav className="h-16 flex items-center justify-center px-6">
+        <ul className="flex flex-wrap justify-center items-center space-x-1 sm:space-x-2">
+          {links.map(({ href, label, onClick }) => (
+            <li key={label}>
+              {onClick ? (
+                <button
+                  onClick={onClick}
+                  className="border border-borderblue px-2 py-1 rounded hover:text-minty hover:border-gray-400 transition cursor-pointer bg-transparent text-white text-sm"
+                >
+                  {label}
+                </button>
+              ) : (
+                <Link
+                  href={href}
+                  className={`border border-borderblue px-2 py-1 rounded hover:text-minty hover:border-gray-400 transition text-sm ${pathname === href ? 'underline font-semibold' : ''
+                    }`}
+                >
+                  {label}
+                </Link>
+              )}
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
   );
 }

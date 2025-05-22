@@ -1,5 +1,6 @@
 // src/app/About.js
 import Layout from '../components/Layout';
+import splashPic from './assets/splashPic.jpg';
 import Image from "next/image";
 
 function About() {
@@ -16,14 +17,14 @@ function About() {
         </blockquote>
       </div>
 
-      {/* 2nd Banner Box with Image */}
-      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
+      {/* Centered Image Below Banner */}
+      <div className="w-full flex justify-center mt-10">
         <Image
-          src="/your-image.jpg" // Replace with actual path
-          alt="Atmospheric horror background"
-          width={1600}
-          height={400}
-          className="w-full h-auto object-cover"
+          src={splashPic}
+          alt="Visual related to techniques"
+          width={300}
+          height={300}
+          className="border border-black w-full max-w-[400px] h-auto object-cover rounded shadow"
           priority
         />
       </div>
@@ -32,7 +33,7 @@ function About() {
       <section className="w-full max-w-screen-xl mx-auto mt-10 px-4 text-black flex gap-4">
         {/* Text Column */}
         <div className="flex-1">
-          <h3 className="text-xl font-bold mb-2">About the Techniques</h3>
+          <h3 className="text-xl font-bold mb-2 text-center">About the Techniques</h3>
 
           <p className="text-sm mb-4 font-rubik">
             This is a smaller sibling blog to my other site Fiction Map. It's a resource
