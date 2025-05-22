@@ -1,4 +1,4 @@
-// src/app/references.js
+// src/app/setting.js
 import Layout from '../../components/Layout';
 
 function Setting() {

@@ -1,4 +1,4 @@
-// src/app/references.js
+// src/app/dialogue.js
 import Layout from '../../components/Layout';
 
 function Dialogue() {

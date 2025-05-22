@@ -1,4 +1,4 @@
-// src/app/references.js
+// src/app/theLastWords.js
 import Layout from '../../components/Layout';
 
 function TheLastWords() {

@@ -1,4 +1,4 @@
-// src/app/references.js
+// src/app/conflict.js
 import Layout from '../../components/Layout';
 
 function Conflict() {

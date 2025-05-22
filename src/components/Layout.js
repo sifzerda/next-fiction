@@ -11,7 +11,7 @@ function Layout({ children }) {
       <Navigation />
 
       <div className="flex flex-col sm:flex-row pt-28">
-        <aside className="w-full sm:w-64 bg-gray-100 dark:bg-gray-900 p-6">
+        <aside className="w-full sm:w-56 bg-gray-100 dark:bg-gray-900 p-6">
           <Sidebar />
         </aside>
 

@@ -1,4 +1,4 @@
-// src/app/references.js
+// src/app/title.js
 import Layout from '../../components/Layout';
 
 function Title() {

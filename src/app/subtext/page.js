@@ -1,4 +1,4 @@
-// src/app/references.js
+// src/app/subtext.js
 import Layout from '../../components/Layout';
 
 function Subtext() {

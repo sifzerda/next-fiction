@@ -8,7 +8,7 @@ function Story() {
   return (
     <Layout>
       {/* 1st Banner Box */}
-      <div className="bg-transparent border border-white text-white rounded-t-md rounded-b-none px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto shadow">
+      <div className="bg-bootstrapDark border border-black text-white rounded-t-md rounded-b-none px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto shadow">
         <h1 className="font-amatic-sc text-xl font-semibold mb-2 text-center">Story</h1>
 
         <blockquote className="text-sm italic mb-2">
@@ -25,7 +25,7 @@ function Story() {
       </div>
 
       {/* 2nd Banner Box with Image */}
-      <div className="bg-transparent border border-white rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
+      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
         <Image
           src="/your-image.jpg" // Replace with actual path
           alt="Atmospheric horror background"
@@ -37,7 +37,7 @@ function Story() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-10 px-4 text-white flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-10 px-4 text-black flex gap-4">
         {/* Text Column */}
         <div className="flex-1">
           <h3 className="text-xl font-bold mb-2">About the Techniques</h3>
@@ -63,20 +63,20 @@ function Story() {
           <CommentList />
 
          {/* Back to Top Link */}
-          <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-black rounded shadow hover:bg-gray-200 transition">Back to Top</a>
+          <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-black rounded border border-gray-400 shadow hover:bg-gray-200 transition">Back to Top</a>
 
         </div>
 
         {/* Vertical Boxes on the Right */}
         <div className="flex flex-col gap-4">
           {/* About Box */}
-          <div className="w-36 bg-gray-800 border border-white text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-36 bg-minty border border-black text-black flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-red-500">About</div>
             <p className="font-source-code-pro text-xs mt-1">Learn more about our story and mission.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-36 bg-gray-800 border border-white text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-36 bg-minty border border-black text-black flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-red-500">Index</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">
@@ -92,7 +92,7 @@ function Story() {
           </div>
 
           {/* Also See Box */}
-          <div className="w-36 bg-gray-800 border border-white text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-36 bg-minty border border-black text-black flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-red-500">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">

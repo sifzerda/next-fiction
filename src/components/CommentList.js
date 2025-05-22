@@ -30,14 +30,15 @@ function CommentList() {
       <h2 className="text-xl font-semibold">Comments</h2>
       {comments.length === 0 && <p>No comments yet.</p>}
       {comments.map((comment) => (
-        <div key={comment.id} className="border p-4 rounded shadow-sm bg-gray-900 text-white">
-          <div className="flex justify-between text-sm text-minty font-source-code-pro mb-2">
-            <span>{comment.user?.username || 'Anonymous'}</span>
-            <span>{new Date(comment.createdAt).toLocaleString()}</span>
-
-          </div>
-          <p className="text-white">{comment.content}</p>
-        </div>
+<div
+  key={comment.id}
+  className="bg-white text-gray-800 p-3 rounded-lg shadow-md border border-gray-400">
+  <div className="flex justify-between text-sm text-gray-500 font-mono mb-1">
+    <span>{comment.user?.username || 'Anonymous'}</span>
+    <span>{new Date(comment.createdAt).toLocaleString()}</span>
+  </div>
+  <p className="text-sm leading-relaxed">{comment.content}</p>
+</div>
       ))}
     </div>
   );

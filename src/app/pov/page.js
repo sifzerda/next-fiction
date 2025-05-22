@@ -1,4 +1,4 @@
-// src/app/references.js
+// src/app/pov.js
 import Layout from '../../components/Layout';
 
 function POV() {

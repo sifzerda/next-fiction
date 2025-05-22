@@ -77,7 +77,7 @@ function CommentForm() {
 
   if (!user) {
     return (
-      <div className="bg-minty text-black px-4 py-2 rounded">
+      <div className="bg-minty text-black px-4 py-2 rounded border border-gray-400">
         <p>Please log in to leave a comment.</p>
       </div>
     );
