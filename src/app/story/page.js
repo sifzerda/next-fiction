@@ -9,7 +9,7 @@ function Story() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="bg-transparent border border-white text-white rounded-t-md rounded-b-none px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto shadow">
-        <h1 className="font-amatic-sc text-xl font-semibold mb-2 text-center">Techniques</h1>
+        <h1 className="font-amatic-sc text-xl font-semibold mb-2 text-center">Story</h1>
 
         <blockquote className="text-sm italic mb-2">
           “It is a mistake to fancy that horror is associated inextricably with darkness, silence, and solitude.”

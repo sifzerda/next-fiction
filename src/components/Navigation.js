@@ -41,7 +41,7 @@ function Navigation() {
   return (
     <nav
       role="navigation"
-      className="fixed top-12 left-0 w-full h-16 z-30 bg-black text-white px-6 sm:pl-64 border-b-2 border-borderblue"
+      className="fixed top-12 left-0 w-full h-16 z-30 bg-gray-900 text-white px-6 sm:pl-64 border-b-2 border-yellow"
     >
       <ul className="flex flex-wrap justify-center items-center h-full space-x-0">
         {links.map(({ href, label, onClick }) => (

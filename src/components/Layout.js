@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 function Layout({ children }) {
   return (
-    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col">
+    <div className="min-h-screen bg-white text-black flex flex-col">
       <Header />
       <Navigation />
 
