@@ -37,44 +37,40 @@ function Header() {
   }
 
   return (
-<header className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white border-b-2 border-yellow shadow">
-  {/* Top Header Row – Responsive Layout */}
-  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center relative px-6 py-2 space-y-1 sm:space-y-0">
-    
-    {/* Left-Aligned Logo on sm+ */}
-<div className="hidden sm:block absolute top-1 left-2 h-24 w-24">
-  <div className="relative w-full h-full">
-    <Image
-      src={FMLogo}
-      alt="Site Logo"
-      fill
-      style={{ objectFit: 'contain' }}
-      priority
-    />
-  </div>
-</div>
+    <header className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white border-b-2 border-yellow shadow">
+      {/* Top Header Row – Responsive Layout */}
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center relative px-6 py-2 space-y-1 sm:space-y-0">
 
-{/* Centered Logo on small screens (bigger size) */}
-<div className="block sm:hidden mx-auto h-24 w-24">
-  <div className="relative w-full h-full">
-    <Image
-      src={FMLogo}
-      alt="Site Logo"
-      fill
-      style={{ objectFit: 'contain' }}
-      priority
-    />
-  </div>
-</div>
+        {/* Left-Aligned Logo on sm+ */}
+        <div className="hidden sm:block absolute top-1 left-2 h-24 w-24">
+          <div className="relative w-full h-full">
+            <Image
+              src={FMLogo}
+              alt="Site Logo"
+              fill
+              style={{ objectFit: 'contain' }}
+              priority
+            />
+          </div>
+        </div>
 
-    {/* Title – always centered */}
-   <div className="hidden sm:block text-sm sm:text-base font-semibold text-center">FICTION MAP</div>
-   
-    {/* Welcome back – center on small, right on sm+ */}
-<div className="hidden sm:block text-sm absolute top-1/2 right-4 transform -translate-y-1/2">
-  Welcome back
-</div>
-  </div>
+        {/* Centered Logo on small screens (bigger size) */}
+        <div className="block sm:hidden mx-auto h-24 w-24">
+          <div className="relative w-full h-full">
+            <Image
+              src={FMLogo}
+              alt="Site Logo"
+              fill
+              style={{ objectFit: 'contain' }}
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Title – always centered */}
+        <div className="hidden sm:block text-sm sm:text-base font-semibold text-center text-llBlue">FICTION MAP</div>
+
+      </div>
 
       {/* Navigation Row */}
       <nav className="h-16 flex items-center justify-center px-6">
@@ -84,16 +80,14 @@ function Header() {
               {onClick ? (
                 <button
                   onClick={onClick}
-                  className="border border-borderblue px-2 py-1 rounded hover:text-minty hover:border-gray-400 transition cursor-pointer bg-transparent text-white text-sm"
-                >
+                  className="border border-llBlue px-2 py-1 rounded hover:text-white hover:border-gray-400 transition cursor-pointer bg-transparent text-llBlue text-sm">
                   {label}
                 </button>
               ) : (
                 <Link
                   href={href}
-                  className={`border border-borderblue px-2 py-1 rounded hover:text-minty hover:border-gray-400 transition text-sm ${pathname === href ? 'underline font-semibold' : ''
-                    }`}
-                >
+                  className={`border border-llBlue px-2 py-1 rounded hover:text-white hover:border-white transition text-llBlue text-sm ${pathname === href ? 'font-semibold' : ''
+                    }`}>
                   {label}
                 </Link>
               )}
