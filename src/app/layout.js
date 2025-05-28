@@ -50,8 +50,7 @@ export default function RootLayout({ children }) {
         ${amatic.variable} 
         ${rubik.variable} 
         ${sourceCodePro.variable} 
-        antialiased`}
-      >
+        antialiased`}>
         {children}
       </body>
     </html>

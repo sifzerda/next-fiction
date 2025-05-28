@@ -42,13 +42,13 @@ function Sidebar() {
         className="
     w-full bg-bootstrapDark text-llBlue p-4 z-10 flex flex-col items-center gap-4
     sm:w-56 sm:h-screen sm:fixed sm:top-0 sm:left-0 sm:items-start sm:pt-28 sm:border-r-2 sm:border-yellow
-    pt-[4rem]">
+    pt-44">
       <nav className="w-full">
         <ul className="flex flex-col items-center gap-1 sm:items-start sm:pl-4 sm:mt-6">
           {links.map(({ href, label }) => (
             <li key={href}>
               <Link
-                href={href} className={`text-sm hover:text-yellow ${pathname === href ? 'underline font-semibold' : ''}`}>
+                href={href} className={`text-sm hover:text-yellow ${pathname === href ? 'font-semibold text-white uppercase' : ''}`}>
                 {label}
               </Link>
             </li>
