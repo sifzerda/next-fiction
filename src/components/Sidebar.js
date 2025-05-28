@@ -43,8 +43,7 @@ function Sidebar() {
     pt-36 border border-llBlue">
       <nav className="w-full">
        <h2 className="text-yellow text-lg font-semibold mb-2 text-center sm:text-left sm:mt-8">Index</h2>
-        <ul
-  className="flex flex-col items-center gap-1 sm:items-start sm:pl-4 sm:mt-6">
+        <ul className="flex flex-col items-center gap-1 sm:items-start sm:pl-4 sm:mt-6">
           {links.map(({ href, label }) => (
             <li key={href}>
               <Link
