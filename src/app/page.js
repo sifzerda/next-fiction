@@ -8,7 +8,7 @@ function About() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="font-geistMono uppercase text-xl font-semibold mb-2 text-center">About</h1>
+        <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">About</h1>
 
         <blockquote className="text-sm italic mb-2">
           “If an eternal traveler should journey in any direction, he would find after untold centuries that the same volumes are repeated in the same disorder—which, repeated, becomes order: the Order. ”
@@ -32,7 +32,7 @@ function About() {
       <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
         {/* Text Column */}
         <div className="flex-1">
-          <h3 className="text-xl font-bold mb-2 text-center">About the Techniques</h3>
+          <h3 className="text-xl font-bold mb-2 text-center">About this Site</h3>
 
           <p className="text-sm mb-4 font-rubik">
             This is a smaller sibling blog to my other site Fiction Map. It's a resource

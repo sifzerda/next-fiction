@@ -18,7 +18,7 @@
 
 # Description <a name="description"></a>
 
-A serverless SPA app router NEXT.js app. This is a blog which provides an in-depth guide on fiction and narrative writing. There are 25+ pages each covering a separate topic on writing, including plot, dialogue, characters, conflict, theme, settings, etc. The back-end is handled serverless on a Prisma Neon database on Vercel. It enables user registration for basic account access, and user authentication by JWT. Users can leave comments on each page, and contact me via a contact form on the contact page.
+This is a blog which provides an in-depth guide on fiction and narrative writing. There are 25+ pages each covering a separate topic on writing, including plot, dialogue, characters, conflict, theme, settings, etc. 
 
 The aim was to create a comprehensive guide for fiction-writing, compiling the most useful advice I've found in various how-to-write guides all in one single place. It cites professional advice, techniques, and examples. The guide assumes the user knows nothing about fiction-writing and explains concepts in depth. 
 
@@ -45,7 +45,7 @@ The aim was to create a comprehensive guide for fiction-writing, compiling the m
 
 ![screenshot](https://github.com/user-attachments/assets/f88a64b6-5f3c-4e1f-a250-0ac4eb3a823a)
 
-App URL:
+URL:
 
 https://fiction-map.vercel.app/
 
@@ -55,6 +55,8 @@ https://fiction-map.vercel.app/
 - npm run start
 
 # Usage <a name="usage"></a>
+
+A serverless SPA app router NEXT.js app. The back-end is handled serverless on a Prisma Neon database on Vercel. It enables user registration for basic account access, and user authentication by JWT. Users can leave comments on each page, and contact me via a contact form on the contact page.
 
 User authentication with JWTs allow users to create an account, which stores user posts on subjects. Each page displays a separate comment list. The user profile page shows a user's posts. Registered users are welcome to leave comments, criticism, and feedback on the pages if any part of the site has been helpful to your writing.
 
