@@ -37,8 +37,9 @@ ul {
   gap: 1rem;
 }
 
-/* back to top btn */
+/* back to top btn and scrollbar settings */
 
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
