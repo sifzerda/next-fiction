@@ -36,8 +36,8 @@ const sourceCodePro = Source_Code_Pro({
 });
 
 export const metadata = {
-  title: "The Horror Map",
-  description: "Tips and Techniques for Horror Fiction Writing",
+  title: "The Fiction Map",
+  description: "Tips and Techniques for Fiction Writing",
 };
 
 export default function RootLayout({ children }) {

@@ -1,19 +1,19 @@
-// src/app/premise.js
+// src/app/story.js
 "use client"; 
 import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
-import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
+import storyBanner from '../assets/storybanner.png'; // Adjust the path as necessary
 import Image from "next/image";
 import Link from "next/link";
 
-function Premise() {
+function Story() {
   return (
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Premise</h1>
+        <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Story</h1>
 
         <blockquote className="text-sm italic mb-2">
           “Whatever good or bad fortune may come our way we can always give it meaning and transform it into something of value.”
@@ -29,7 +29,7 @@ function Premise() {
 
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
+        <Image src={storyBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
       </div>
 
       {/* New Section Below Banners */}
@@ -462,8 +462,6 @@ function Premise() {
               <li className="mb-px">
                 <a href="#post-pixarstorytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a>
               </li>
-
-
             </ol>
           </div>
 
@@ -491,4 +489,4 @@ function Premise() {
   );
 }
 
-export default Premise;
+export default Story;
