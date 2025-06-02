@@ -90,28 +90,31 @@ return (
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">
-                <a href="#post-storytelling" className="hover:underline hover:text-white">1.1 Storytelling</a>
+                <a href="#post-storytelling" className="hover:underline hover:text-white">3.1: Plotting in a Vacuum</a>
               </li>
               <li className="mb-px">
-                <a href="#post-whatisastory" className="hover:underline hover:text-white">1.2 What Is A Story?</a>
+                <a href="#post-whatisastory" className="hover:underline hover:text-white">3.2: Types of Plots</a>
               </li>
               <li className="mb-px">
-                <a href="#post-mainelementsofstory" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a>
+                <a href="#post-mainelementsofstory" className="hover:underline hover:text-white">3.3: The Inciting Incident</a>
               </li>
               <li className="mb-px">
-                <a href="#post-josephcampbellmyths" className="hover:underline hover:text-white">1.5 Joseph Campbell’s Myths</a>
+                <a href="#post-josephcampbellmyths" className="hover:underline hover:text-white">3.4: Three Act Structure</a>
               </li>
               <li className="mb-px">
-                <a href="#post-mythsandmisconceptions" className="hover:underline hover:text-white">1.6 Myths and Misconceptions</a>
+                <a href="#post-mythsandmisconceptions" className="hover:underline hover:text-white">3.5: Three Right-Angled Turns</a>
               </li>
               <li className="mb-px">
-                <a href="#post-philosophyofstory" className="hover:underline hover:text-white">1.7 The Philosophy of Storytelling</a>
+                <a href="#post-philosophyofstory" className="hover:underline hover:text-white">3.6: Chiastic Structure</a>
               </li>
               <li className="mb-px">
-                <a href="#post-medium" className="hover:underline hover:text-white">1.8 Medium</a>
+                <a href="#post-medium" className="hover:underline hover:text-white">3.7: Plots with Problems</a>
               </li>
               <li className="mb-px">
-                <a href="#post-pixarstorytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a>
+                <a href="#post-pixarstorytelling" className="hover:underline hover:text-white">3.8: Story Planning</a>
+              </li>
+                            <li className="mb-px">
+                <a href="#post-pixarstorytelling" className="hover:underline hover:text-white">3.9: Romance: Three Kinds</a>
               </li>
             </ol>
           </div>
@@ -121,13 +124,13 @@ return (
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">
+                <a href="/story" className="hover:underline hover:text-white">Story</a>
+              </li>
+              <li className="mb-px">
                 <a href="/premise" className="hover:underline hover:text-white">Premise</a>
               </li>
               <li className="mb-px">
-                <a href="/plot" className="hover:underline hover:text-white">Plot</a>
-              </li>
-              <li className="mb-px">
-                <a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a>
+                <a href="/title" className="hover:underline hover:text-white">Title</a>
               </li>
             </ol>
           </div>

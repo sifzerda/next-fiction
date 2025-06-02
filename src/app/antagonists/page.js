@@ -82,7 +82,7 @@ return (
           {/* About Box */}
           <div className="w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
-            <p className="font-source-code-pro text-xs mt-1">A story is a collection of events which altogether create a meaningful whole that is greater than the sum of its parts.</p>
+            <p className="font-source-code-pro text-xs mt-1">The antagonist is the main character whose goal provides the main source of conflict and obstacle to the protagonist.</p>
           </div>
 
           {/* Index Box */}
@@ -90,28 +90,25 @@ return (
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">
-                <a href="#post-storytelling" className="hover:underline hover:text-white">1.1 Storytelling</a>
+                <a href="#post-what-is-an-antagonist" className="hover:underline hover:text-white">16.1: What is an Antagonist?</a>
               </li>
               <li className="mb-px">
-                <a href="#post-whatisastory" className="hover:underline hover:text-white">1.2 What Is A Story?</a>
+                <a href="#post-importance-antagonist" className="hover:underline hover:text-white">16.2: The Importance of Antagonism</a>
               </li>
               <li className="mb-px">
-                <a href="#post-mainelementsofstory" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a>
+                <a href="#post-antagonistic-forces" className="hover:underline hover:text-white">16.3: Antagonistic Forces</a>
               </li>
               <li className="mb-px">
-                <a href="#post-josephcampbellmyths" className="hover:underline hover:text-white">1.5 Joseph Campbell’s Myths</a>
+                <a href="#post-degrees-of-antagonism" className="hover:underline hover:text-white">16.4: Degrees of Antagonism</a>
               </li>
               <li className="mb-px">
-                <a href="#post-mythsandmisconceptions" className="hover:underline hover:text-white">1.6 Myths and Misconceptions</a>
+                <a href="#post-negation-of-negation" className="hover:underline hover:text-white">16.5: The Negation of a Negation</a>
               </li>
               <li className="mb-px">
-                <a href="#post-philosophyofstory" className="hover:underline hover:text-white">1.7 The Philosophy of Storytelling</a>
+                <a href="#post-protagonist=antagonist" className="hover:underline hover:text-white">16.6: Protagonist = Antagonist</a>
               </li>
               <li className="mb-px">
-                <a href="#post-medium" className="hover:underline hover:text-white">1.8 Medium</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-pixarstorytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a>
+                <a href="#post-how-to-create-antagonist" className="hover:underline hover:text-white">16.7: How to Create an Antagonist</a>
               </li>
             </ol>
           </div>
@@ -121,10 +118,10 @@ return (
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">
-                <a href="/premise" className="hover:underline hover:text-white">Premise</a>
+                <a href="/conflict" className="hover:underline hover:text-white">Conflict</a>
               </li>
               <li className="mb-px">
-                <a href="/plot" className="hover:underline hover:text-white">Plot</a>
+                <a href="/mainCharacters" className="hover:underline hover:text-white">Main Characters</a>
               </li>
               <li className="mb-px">
                 <a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a>
