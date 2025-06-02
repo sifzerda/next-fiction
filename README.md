@@ -218,3 +218,4 @@ Changes:
 - ~~Made footnotes a dynamic context (see components)~~ changed to zustand store
 - added '  overflow-y: scroll;' to html on globals.css
 - changed yellow border to ridge
+- added contact form

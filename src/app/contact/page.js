@@ -9,9 +9,11 @@ function Contact() {
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-[60vh] w-full px-4 text-center">
-        <div className="max-w-md w-full">
-          <h1 className="text-2xl font-bold mb-2 bg-bootstrapDark rounded-md text-yellow">Contact Me</h1>
-          <p className="mb-3">If you have comments or questions, let me know!</p>
+        <div className="max-w-md w-full space-y-4">
+          <h1 className="text-2xl font-bold bg-bootstrapDark text-yellow px-4 py-2 rounded-md">
+            Contact Me
+          </h1>
+          <p className="text-black">If you have comments or questions, let me know!</p>
 
           <div className="bg-bootstrapDark rounded-2xl shadow-lg p-6">
             <form
@@ -31,25 +33,25 @@ function Contact() {
                 name="name"
                 placeholder="Your Name / Reference"
                 required
-                className="p-2 border rounded text-black"
+                className="p-2 border border-gray-300 rounded text-black"
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Your Email"
                 required
-                className="p-2 border rounded text-black"
+                className="p-2 border border-gray-300 rounded text-black"
               />
               <textarea
                 name="message"
                 placeholder="Your Message"
                 required
                 rows="5"
-                className="p-2 border rounded text-black"
+                className="p-2 border border-gray-300 rounded text-black"
               />
               <button
                 type="submit"
-                className="bg-yellow text-black py-2 px-4 rounded hover:bg-llBlue hover:text-white transition"
+                className="bg-yellow text-black font-semibold py-2 px-4 rounded hover:bg-llBlue hover:text-white transition"
               >
                 Send
               </button>

@@ -26,12 +26,9 @@ function Signup() {
       const data = text ? JSON.parse(text) : {};
 
       if (res.ok) {
-        // Store JWT in localStorage
         if (data.token) {
           localStorage.setItem('token', data.token);
         }
-
-        // Redirect user
         router.push('/');
       } else {
         setMessage(data.message || data.error || 'Signup failed.');
@@ -44,37 +41,51 @@ function Signup() {
 
   return (
     <Layout>
-      <h1 className="text-2xl font-bold mb-4">Signup</h1>
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4 max-w-sm">
-        <input
-          type="username"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          required
-          className="border p-2 rounded text-black placeholder-gray-400"
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={e => setEmail(e.target.value)}
-          required
-          className="border p-2 rounded text-black placeholder-gray-400"
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={e => setPassword(e.target.value)}
-          required
-          className="border p-2 rounded text-black placeholder-gray-400"
-        />
-        <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">
-          Sign Up
-        </button>
-      </form>
-      {message && <p className="mt-4 text-red-500">{message}</p>}
+      <div className="flex flex-col items-center justify-center min-h-[40vh] w-full px-4 text-center">
+        <div className="max-w-md w-full space-y-4">
+          <h1 className="text-2xl font-bold bg-bootstrapDark text-yellow px-4 py-2 rounded-md">
+            Signup
+          </h1>
+
+          <div className="bg-bootstrapDark rounded-2xl shadow-lg p-6">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+              <input
+                type="text"
+                placeholder="Username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                required
+                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
+              />
+              <button
+                type="submit"
+                className="bg-yellow text-black font-semibold py-2 px-4 rounded hover:bg-llBlue hover:text-white transition"
+              >
+                Sign Up
+              </button>
+              {message && (
+                <p className="text-sm text-yellow text-center mt-2">{message}</p>
+              )}
+            </form>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 }
