@@ -1,5 +1,5 @@
 // src/app/signup/page.js
-'use client';
+"use client";
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -55,28 +55,24 @@ function Signup() {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
-                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
-              />
+                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400" />
               <input
                 type="email"
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
-              />
+                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400" />
               <input
                 type="password"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
-              />
+                className="p-2 border border-gray-300 rounded text-black placeholder-gray-400" />
               <button
                 type="submit"
-                className="bg-yellow text-black font-semibold py-2 px-4 rounded hover:bg-llBlue hover:text-white transition"
-              >
+                className="bg-yellow text-black font-semibold py-2 px-4 rounded hover:bg-llBlue hover:text-white transition">
                 Sign Up
               </button>
               {message && (

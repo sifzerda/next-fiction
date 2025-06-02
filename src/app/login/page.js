@@ -48,8 +48,7 @@ export default function Login() {
                 className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                required
-              />
+                required />
 
               <input
                 type="password"
@@ -57,13 +56,11 @@ export default function Login() {
                 className="p-2 border border-gray-300 rounded text-black placeholder-gray-400"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                required
-              />
+                required />
 
               <button
                 type="submit"
-                className="bg-yellow text-black font-semibold py-2 px-4 rounded hover:bg-llBlue hover:text-white transition"
-              >
+                className="bg-yellow text-black font-semibold py-2 px-4 rounded hover:bg-llBlue hover:text-white transition">
                 Login
               </button>
 
