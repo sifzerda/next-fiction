@@ -1,5 +1,12 @@
 // src/app/antagonists.js
+"use client"; 
 import Layout from '../../components/Layout';
+import CommentForm from '../../components/CommentForm';
+import CommentList from '../../components/CommentList';
+import FootnoteRef from '../../components/FootnoteRef';
+import antagBanner from '../assets/antagbanner.jpg'; // Adjust the path as necessary
+import Image from "next/image";
+import Link from "next/link";
 
 function Antagonists() {
 return (
@@ -22,7 +29,7 @@ return (
 
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
+        <Image src={antagBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
       </div>
 
       {/* New Section Below Banners */}

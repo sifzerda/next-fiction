@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
-import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
+import plotBanner from '../assets/plotbanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,7 +29,7 @@ return (
 
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
+        <Image src={plotBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
       </div>
 
       {/* New Section Below Banners */}
