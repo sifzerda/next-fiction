@@ -38,7 +38,10 @@ function Header() {
   }
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white border-b-2 border-yellow shadow">
+    <header
+  className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white shadow border-b-2"
+  style={{ borderBottomColor: 'yellow', borderBottomStyle: 'ridge' }} 
+>
       {/* Top Header Row – Responsive Layout */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center relative px-6 space-y-1 sm:space-y-0">
 

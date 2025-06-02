@@ -462,8 +462,6 @@ function Story() {
               <li className="mb-px">
                 <a href="#post-pixarstorytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a>
               </li>
-
-
             </ol>
           </div>
 

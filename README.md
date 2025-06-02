@@ -217,3 +217,4 @@ Changes:
 - removed extra router links from main and app.jsx /
 - ~~Made footnotes a dynamic context (see components)~~ changed to zustand store
 - added '  overflow-y: scroll;' to html on globals.css
+- changed yellow border to ridge

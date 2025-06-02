@@ -2,10 +2,12 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="w-full fixed bottom-0 left-0 z-20 border-t-2 border-yellow bg-bootstrapDark text-sm text-gray-600">
+    <footer
+      className="w-full fixed bottom-0 left-0 z-20 border-t-2 bg-bootstrapDark text-sm text-gray-600"
+      style={{ borderTopColor: 'yellow', borderTopStyle: 'ridge' }}
+    >
       <div className="max-w-7xl mx-auto px-2 py-2 flex flex-col sm:flex-row justify-center items-center gap-4">
         <div className="flex flex-wrap justify-center items-center gap-4">
-
           {/* ================================================= */}
           <a
             href="https://react-td-portfolio.netlify.app/"
@@ -22,7 +24,6 @@ function Footer() {
             />
             <span className="transition group-hover:text-yellow">sifzerda</span>
           </a>
-
           {/* ================================================= */}
           <a
             href="https://github.com/sifzerda/next-fiction"
@@ -43,7 +44,6 @@ function Footer() {
         </div>
       </div>
     </footer>
-
   );
 }
 
