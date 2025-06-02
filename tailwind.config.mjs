@@ -31,12 +31,14 @@ export default {
         bootstrapLighter: "#364459",
         bootstrapLightest: "#96a4b3",
         gold: "#ffc107",
-
+        hYellow: "#FFFF00",
+        hRed: "#F17078",
       },
       fontFamily: {
         'amatic-sc': ['var(--font-amatic-sc)', 'cursive'],
         'source-code-pro': ['var(--font-source-code-pro)', 'monospace'],
         'rubik': ['var(--font-rubik)', 'sans-serif'],
+        'edu': ['var(--font-edu-au)', 'cursive'],
       },
     },
   },
