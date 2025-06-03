@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
-import storyBanner from '../assets/storybanner.png'; // Adjust the path as necessary
+import storyBanner from '../assets/storybanner.png'; 
 import Image from "next/image";
 import Link from "next/link";
 
@@ -40,7 +40,8 @@ function Story() {
           <h3 id="post-storytelling" className="mb-2 font-semibold">1.1 Storytelling</h3>
 
           <p className="text-sm mb-4 font-rubik">
-            The most important skill you need to write fiction is storytelling. Robert McKee defines storytelling as: <i>“the creative conversion of life itself to a more powerful, clearer, more meaningful experience.” </i>
+            The most important skill you need to write fiction is storytelling. Robert McKee defines storytelling as: 
+            <span className="italic">“the creative conversion of life itself to a more powerful, clearer, more meaningful experience.” </span>
             <FootnoteRef text="Robert McKee, Story, Substance, Structure, Style and the Principles of Screenwriting." />
           </p>
 
@@ -48,7 +49,7 @@ function Story() {
             He says the essence of storytelling is the ability to evoke a story with a single, silent image. That is the basis of what a storyteller is trying to do.
           </p>
 
-          <h3 id="post-whatisastory" className="mb-2 font-semibold">1.2 What is a Story?</h3>
+          <h3 id="post-what-is-astory" className="mb-2 font-semibold">1.2 What is a Story?</h3>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.2.2 The Opposite of Expectation</h4>
 
@@ -84,7 +85,7 @@ function Story() {
           </div>
 
           <p className="text-sm mb-4 font-rubik">
-            In the first example, the series of events is vague and unconnected. But in the story, all the events build up and make sense at the conclusion –
+            In the first example, the series of events is vague and unconnected. But in the story, all the events build up and make sense at the conclusion —
             every detail had a reason to be there; nothing was random or trivial. The series of events has an overall meaning.
           </p>
 
@@ -95,16 +96,20 @@ function Story() {
           </p>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.2.4 	An Explosion</h4>
-          <p className="text-sm mb-4 font-rubik">Burnett and Burnett<FootnoteRef text="Hallie & Whit Burnett, Fiction Writer's Handbook." /> say that all stories have an explosion, “...in which all parts of the whole are expelled...”
+          <p className="text-sm mb-4 font-rubik">Burnett and Burnett
+            <FootnoteRef text="Hallie & Whit Burnett, Fiction Writer's Handbook." /> 
+            say that all stories have an explosion, “...in which all parts of the whole are expelled...”
             piece by piece, “...from an existing pattern — the lives of the characters are jolted from their rhythm, and chaos is produced in their universe.” In some stories the explosion is fast and shattering,
             in others, muted and delayed. It may occur at the beginning, middle or end, or the fuse may be lit early and the explosion happen later, but by the end there must be some kind of resolution or meaning
             created, a sense of something new created from the previous, subverted status quo.</p>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.2.5 	Difference Between &#39;Story&#39; and &#39;Idea&#39;</h4>
 
-          <p className="text-sm mb-4 font-rubik">Bob Mayer<FootnoteRef text="Bob Mayer, Fiction Writer's Toolkit." /> makes a good point that “[an] idea is not [a] story.”  How you tell the idea is the story.
+          <p className="text-sm mb-4 font-rubik">Bob Mayer
+            <FootnoteRef text="Bob Mayer, Fiction Writer's Toolkit." /> 
+            makes a good point that “[an] idea is not [a] story.”  How you tell the idea is the story.
             Different writers can come up with the same idea, but tell different stories. Some good ideas cannot be made into good stories. Conversely, some bad ideas can be made into good stories (you may have
-            heard a critic/reviewer say something like, &#39;in the hands of another writer, this idea would not have worked…’)</p>
+            heard a critic/reviewer say something like, &#39;in the hands of another writer, this idea would not have worked...&#39;)</p>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.2.6 	Difference between &#39;Story&#39; and &#39;Plot&#39;</h4>
 
@@ -112,7 +117,9 @@ function Story() {
           <p className="text-sm mb-4 font-rubik">The terms &#39;story&#39; and &#39;plot&#39; are often used interchangeably, but don&#39;t mean the same things. The same stories tend to get told and retold, but they always have different plots.</p>
           <p className="text-sm mb-4 font-rubik">A &#39;story&#39; refers to the sequence of events, arranged chronologically, which generate particular meaningfulness. The emphasis is on the events and the order they are arranged in, which creates
             meaning. If visiting an old, decrepit house at night is a main event, we know this refers to the category &#39;ghost story.&#39;</p>
-          <p className="text-sm mb-4 font-rubik">Conversely, “[a] plot is what you do with that story,”<FootnoteRef text="Hallie & Whit Burnett, Fiction Writer's Handbook." />  — how you selectively arrange the events chronologically or artistically
+          <p className="text-sm mb-4 font-rubik">Conversely, “[a] plot is what you do with that story,”
+            <FootnoteRef text="Hallie & Whit Burnett, Fiction Writer's Handbook." />  
+            — how you selectively arrange the events chronologically or artistically
             to create particular meaning, emotions or emphasis. Ten stories may all be ghost stories with the same events (haunted house, dead former tenants, cemetery, ghost, etc), but they will have different plots. One may happen within a single day,
             or a single hour (like in Stephen King&#39;s 1408), and by direct first-person events, another may be spaced over hundreds of years and be uncovered through after-the-fact research done by the protagonist.</p>
 
@@ -121,7 +128,7 @@ function Story() {
 
           <p className="text-sm mb-4 font-rubik">If your story is like other good stories, that&#39;s good. If your plot is like other good plots, that&#39;s bad.</p>
 
-          <h3 id="post-mainelementsofstory" className="mb-2 font-semibold">1.3 The Main Elements of a Story</h3>
+          <h3 id="post-main-elements-of-story" className="mb-2 font-semibold">1.3 The Main Elements of a Story</h3>
 
           <p className="text-sm mb-4 font-rubik">These are the main elements of story structure, in order of priority:</p>
           <FootnoteRef text="Mark Twain." />
@@ -198,11 +205,12 @@ function Story() {
           <p className="text-sm mb-4 font-rubik">Also, make the protagonist&#39;s rise/loss proportionate to the radicalism of their beliefs; a protagonist who is spectacularly polarised should
             fail spectacularly; a protagonist whose beliefs are more nuanced or equivocal may fail partly and win partly.</p>
 
-          <h3 id="post-josephcampbellmyths" className="mb-2 font-semibold">1.5 Joseph Campbell’s Myths</h3>
+          <h3 id="post-joseph-campbell-myths" className="mb-2 font-semibold">1.5 Joseph Campbell&#39;s Myths</h3>
 
           <p className="text-sm mb-4 font-rubik">No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being &#39;The Adventure of the Hero,&#39;
             more commonly known as <i>&#39;The Hero&#39;s Journey.&#39;</i>
-            <FootnoteRef text="Joseph Campbell, The Hero With A Thousand Faces." /></p>
+            <FootnoteRef text="Joseph Campbell, The Hero With A Thousand Faces." />
+            </p>
 
           <p className="text-sm mb-4 font-rubik">Campbell argues that virtually every story (including folk tales, mythologies and fairy tales) is a variation on his formula.</p>
           <p className="text-sm mb-4 font-rubik">The way the myths manifest in stories is manifold: the myths may occur in stories literally or symbolically, overtly or impliedly, and be present in physical or
@@ -212,7 +220,7 @@ function Story() {
           <p className="text-sm mb-4 font-rubik">For a detailed summary of the Hero's Journey, see
             <Link href="/herojourney" className="text-midBlue hover:underline">this page</Link></p>
 
-          <h3 id="post-mythsandmisconceptions" className="mb-2 font-semibold">1.6 Myths and Misconceptions</h3>
+          <h3 id="post-myths-and-misconceptions" className="mb-2 font-semibold">1.6 Myths and Misconceptions</h3>
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.6.1 Write What You Know</h4>
           <p className="text-sm mb-4 font-rubik">Writers are commonly instructed to &#39;Write what [they] know.&#39; But, as Alice LaPlante says, this can be limiting.
             <FootnoteRef text="Alice LaPlante, The Making of a Story: A Norton Guide to Creative Writing." />
@@ -222,7 +230,8 @@ function Story() {
           <p className="text-sm mb-4 font-rubik">You can write anything you want. Stephen Crane wrote about the American Civil War in The Red Badge of Courage, even though he&#39;d never been to war.
             Your writing will be better if you research your chosen topic/s first, or while writing. Don&#39;t let anyone discourage you from writing about something you have not personally experienced,
             otherwise you risk writing nothing more ambitious than what Robert McKee
-            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." /> calls &#39;the personal story,&#39; — basically a fictionalized diary entry.</p>
+            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." /> 
+            calls &#39;the personal story,&#39; — basically a fictionalized diary entry.</p>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.6.2 	Don&#39;t Take Ideas from Other Writers</h4>
           <p className="text-sm mb-4 font-rubik">Anyone who gives a blanket proscription against &#39;stealing&#39; ideas (it&#39;s not really &#39;borrowing&#39; if you never give them back) is out of touch with writing practice.
@@ -278,7 +287,7 @@ function Story() {
           <p className="text-sm mb-4 font-rubik">It&#39;s no defence to a charge that your story is unbelievable or boring or poorly structured or nonsensical to say &#39;but it was like that in real life.&#39; Lots of things, all kinds of things, happen in real life, and most of them aren&#39;t story-worthy.
             Stories aren&#39;t real life like characters aren&#39;t real people.</p>
 
-          <h3 id="post-philosophyofstory" className="mb-2 font-semibold">1.7 The Philosophy of Storytelling</h3>
+          <h3 id="post-philosophy-of-story" className="mb-2 font-semibold">1.7 The Philosophy of Storytelling</h3>
           <p className="text-sm mb-4 font-rubik">Misery, Conflict and Struggle are the lifeblood of captivating story. If you don&#39;t want to write about those things, or you can&#39;t, your story won&#39;t be worth telling.</p>
 
           <p className="text-sm mb-4 font-rubik">Robert McKee
@@ -372,7 +381,7 @@ function Story() {
             <li>Did critical events happen in the past?
               <ol className="list-decimal list-inside ml-6 mt-2 space-y-1 text-sm text-gray-700">
                 <li>
-                  This suits literature which is less focused on showing the ‘here and now’ than film
+                  This suits literature which is less focused on showing the &#39;here and now&#39; than film
                 </li>
               </ol>
             </li>
@@ -387,7 +396,7 @@ function Story() {
             </li>
           </ol>
 
-          <h3 id="post-pixarstorytelling" className="mb-2 font-semibold">1.9 Pixar Storytelling</h3>
+          <h3 id="post-pixar-storytelling" className="mb-2 font-semibold">1.9 Pixar Storytelling</h3>
           <p className="text-sm mb-4 font-rubik">Animation company Pixar has a list of tips which it has used in its films:</p>
           <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
             <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
@@ -442,25 +451,25 @@ function Story() {
                 <a href="#post-storytelling" className="hover:underline hover:text-white">1.1 Storytelling</a>
               </li>
               <li className="mb-px">
-                <a href="#post-whatisastory" className="hover:underline hover:text-white">1.2 What Is A Story?</a>
+                <a href="#post-what-is-a-story" className="hover:underline hover:text-white">1.2 What Is A Story?</a>
               </li>
               <li className="mb-px">
-                <a href="#post-mainelementsofstory" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a>
+                <a href="#post-main-elements-of-story" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a>
               </li>
               <li className="mb-px">
-                <a href="#post-josephcampbellmyths" className="hover:underline hover:text-white">1.5 Joseph Campbell’s Myths</a>
+                <a href="#post-joseph-campbell-myths" className="hover:underline hover:text-white">1.5 Joseph Campbell&#39;s Myths</a>
               </li>
               <li className="mb-px">
-                <a href="#post-mythsandmisconceptions" className="hover:underline hover:text-white">1.6 Myths and Misconceptions</a>
+                <a href="#post-myths-and-misconceptions" className="hover:underline hover:text-white">1.6 Myths and Misconceptions</a>
               </li>
               <li className="mb-px">
-                <a href="#post-philosophyofstory" className="hover:underline hover:text-white">1.7 The Philosophy of Storytelling</a>
+                <a href="#post-philosophy-of-story" className="hover:underline hover:text-white">1.7 The Philosophy of Storytelling</a>
               </li>
               <li className="mb-px">
                 <a href="#post-medium" className="hover:underline hover:text-white">1.8 Medium</a>
               </li>
               <li className="mb-px">
-                <a href="#post-pixarstorytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a>
+                <a href="#post-pixar-storytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a>
               </li>
             </ol>
           </div>
