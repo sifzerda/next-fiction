@@ -33,7 +33,7 @@ function Description() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse sm:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 

@@ -34,7 +34,7 @@ function Plot() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse sm:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 
@@ -623,13 +623,13 @@ function Plot() {
         {/* Vertical Boxes on the Right */}
         <div className="flex flex-col gap-4">
           {/* About Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">A plot maps out the whole core structure of a story, through each scene, from beginning to end.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">
@@ -663,7 +663,7 @@ function Plot() {
           </div>
 
           {/* Also See Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
               <li className="mb-px">
