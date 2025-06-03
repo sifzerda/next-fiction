@@ -46,10 +46,7 @@ function Sidebar() {
         <ul className="flex flex-col items-center gap-1 sm:items-start sm:pl-4 sm:mt-0">
           {links.map(({ href, label }) => (
             <li key={href}>
-              <Link
-                href={href} className={`text-sm hover:text-yellow ${pathname === href ? 'font-semibold text-white uppercase' : ''}`}>
-                {label}
-              </Link>
+              <Link href={href} className={`text-sm hover:text-yellow ${pathname === href ? 'font-semibold text-white uppercase' : ''}`}>{label}</Link>
             </li>
           ))}
         </ul>
