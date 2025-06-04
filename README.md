@@ -219,3 +219,14 @@ Changes:
 - added '  overflow-y: scroll;' to html on globals.css
 - changed yellow border to ridge
 - added contact form
+
+
+
+
+
+Calendar stuff:
+
+npm install @fullcalendar/react @fullcalendar/daygrid @fullcalendar/interaction
+npm install react-big-calendar date-fns
+npm install react-big-calendar react-dnd react-dnd-html5-backend date-fns
+Code is in /scenes/page.js.
