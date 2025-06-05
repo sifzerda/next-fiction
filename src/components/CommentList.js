@@ -9,21 +9,21 @@ function CommentList() {
   const pathname = usePathname();
   const page = pathname.replace('/', '') || 'home'; // default to "home" if "/"
 
-  useEffect(() => {
-    async function fetchComments() {
-      try {
-        const res = await fetch(`/api/comments?page=${pathname}`);
-        if (!res.ok) throw new Error('Failed to fetch');
-        const data = await res.json();
-        setComments(data);
-      } catch (error) {
-        console.error(error);
-      } finally {
-        setLoading(false);
-      }
+useEffect(() => {
+  async function fetchComments() {
+    try {
+      const res = await fetch(`/api/comments?page=${page}`);
+      if (!res.ok) throw new Error('Failed to fetch');
+      const data = await res.json();
+      setComments(data);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setLoading(false);
     }
-    fetchComments();
-  }, [page]);
+  }
+  fetchComments();
+}, [page]);
 
   if (loading) return <p>Loading comments...</p>;
 

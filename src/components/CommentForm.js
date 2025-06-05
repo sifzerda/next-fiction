@@ -96,9 +96,8 @@ function CommentForm() {
         required
       />
       <button type="submit"
-        className="bg-blue-600 text-white px-4 py-2 rounded"
+        className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition"
         disabled={loading}>
-        Submit
         {loading ? 'Submitting...' : 'Submit'}
       </button>
       {message && <p className="text-sm mt-2">{message}</p>}

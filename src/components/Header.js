@@ -56,7 +56,7 @@ function Header() {
           {onClick ? (
             <button
               onClick={onClick}
-              className="block border border-llBlue px-2 py-1 rounded hover:text-yellow hover:border-yellow transition cursor-pointer bg-transparent text-llBlue text-sm"
+              className="block uppercase border border-llBlue px-2 py-1 rounded hover:text-yellow hover:border-yellow transition cursor-pointer bg-transparent text-llBlue text-sm"
             >
               {label}
             </button>
