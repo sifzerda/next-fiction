@@ -9,15 +9,16 @@ export async function POST(req) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { content } = await req.json();
-    if (!content) {
-      return NextResponse.json({ error: 'Missing comment content' }, { status: 400 });
+    const { content, page } = await req.json();
+    if (!content || !page) {
+      return NextResponse.json({ error: 'Missing content or page' }, { status: 400 });
     }
 
     const comment = await prisma.comment.create({
       data: {
         content,
         userId: user.sub,
+        page,
       },
     });
 
@@ -28,9 +29,13 @@ export async function POST(req) {
   }
 }
 
-export async function GET() {
+export async function GET(req) {
   try {
+    const { searchParams } = new URL(req.url);
+    const page = searchParams.get('page');
+
     const comments = await prisma.comment.findMany({
+      where: page ? { page } : {},
       include: { user: true },
       orderBy: { createdAt: 'desc' },
     });

@@ -21,11 +21,12 @@ function decodeJWT(token) {
 }
 
 function CommentForm() {
+  const [loading, setLoading] = useState(false);
   const [content, setContent] = useState('');
   const [message, setMessage] = useState('');
   const [user, setUser] = useState(null);
   const pathname = usePathname(); // get current route
-  const page = pathname.replace('/', '') || 'home'; // fallback to 'home' if on "/"
+  const page = pathname.split('/')[1] || 'home'; // fallback to 'home' if on "/"
 
   useEffect(() => {
     const token = localStorage.getItem('token');
@@ -37,7 +38,7 @@ function CommentForm() {
 
     const decoded = decodeJWT(token);
     if (decoded) {
-      setUser({ id: decoded.userId, email: decoded.email });
+      setUser({ id: decoded.sub || decoded.userId, email: decoded.email });
     } else {
       console.error("❌ Invalid JWT.");
       setUser(null);
@@ -47,30 +48,33 @@ function CommentForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMessage('');
-
     if (!user) {
       setMessage('You must be logged in to comment.');
       return;
     }
-
-    const token = localStorage.getItem('token');
-
-    const res = await fetch('/api/comments', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${token}`,
-      },
-      body: JSON.stringify({ content, page }), // send the page slug
-    });
-
-    if (res.ok) {
-      setMessage('✅ Comment submitted!');
-      setContent('');
-      window.location.reload();
-    } else {
-      const data = await res.json();
-      setMessage(data.error || '❌ Submission failed');
+    setLoading(true);
+    try {
+      const token = localStorage.getItem('token');
+      const res = await fetch('/api/comments', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({ content, page }),
+      });
+      if (res.ok) {
+        setMessage('✅ Comment submitted!');
+        setContent('');
+        window.location.reload();
+      } else {
+        const data = await res.json();
+        setMessage(data.error || '❌ Submission failed');
+      }
+    } catch (error) {
+      setMessage('❌ Submission failed');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -91,7 +95,12 @@ function CommentForm() {
         placeholder="Write your comment..."
         required
       />
-      <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">Submit</button>
+      <button type="submit"
+        className="bg-blue-600 text-white px-4 py-2 rounded"
+        disabled={loading}>
+        Submit
+        {loading ? 'Submitting...' : 'Submit'}
+      </button>
       {message && <p className="text-sm mt-2">{message}</p>}
     </form>
   );

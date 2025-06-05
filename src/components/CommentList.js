@@ -12,7 +12,7 @@ function CommentList() {
   useEffect(() => {
     async function fetchComments() {
       try {
-        const res = await fetch(`/api/comments?page=${page}`);
+        const res = await fetch(`/api/comments?page=${pathname}`);
         if (!res.ok) throw new Error('Failed to fetch');
         const data = await res.json();
         setComments(data);
