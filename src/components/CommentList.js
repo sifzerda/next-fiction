@@ -1,16 +1,18 @@
-// src/components/CommentList.js
 'use client';
 
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 function CommentList() {
   const [comments, setComments] = useState([]);
   const [loading, setLoading] = useState(true);
+  const pathname = usePathname();
+  const page = pathname.replace('/', '') || 'home'; // default to "home" if "/"
 
   useEffect(() => {
     async function fetchComments() {
       try {
-        const res = await fetch('/api/comments');
+        const res = await fetch(`/api/comments?page=${page}`);
         if (!res.ok) throw new Error('Failed to fetch');
         const data = await res.json();
         setComments(data);
@@ -21,7 +23,7 @@ function CommentList() {
       }
     }
     fetchComments();
-  }, []);
+  }, [page]);
 
   if (loading) return <p>Loading comments...</p>;
 
@@ -30,15 +32,16 @@ function CommentList() {
       <h2 className="text-xl font-semibold">Comments</h2>
       {comments.length === 0 && <p>No comments yet.</p>}
       {comments.map((comment) => (
-<div
-  key={comment.id}
-  className="bg-white text-gray-800 p-3 rounded-lg shadow-md border border-gray-400">
-  <div className="flex justify-between text-sm text-gray-500 font-mono mb-1">
-    <span>{comment.user?.username || 'Anonymous'}</span>
-    <span>{new Date(comment.createdAt).toLocaleString()}</span>
-  </div>
-  <p className="text-sm leading-relaxed">{comment.content}</p>
-</div>
+        <div
+          key={comment.id}
+          className="bg-white text-gray-800 p-3 rounded-lg shadow-md border border-gray-400"
+        >
+          <div className="flex justify-between text-sm text-gray-500 font-mono mb-1">
+            <span>{comment.user?.username || 'Anonymous'}</span>
+            <span>{new Date(comment.createdAt).toLocaleString()}</span>
+          </div>
+          <p className="text-sm leading-relaxed">{comment.content}</p>
+        </div>
       ))}
     </div>
   );

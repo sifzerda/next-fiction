@@ -1,7 +1,7 @@
-// src/components/CommentForm.js
-'use client';
+"use client";
 
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation'; // <-- import this to get the current route
 
 function decodeJWT(token) {
   try {
@@ -24,6 +24,8 @@ function CommentForm() {
   const [content, setContent] = useState('');
   const [message, setMessage] = useState('');
   const [user, setUser] = useState(null);
+  const pathname = usePathname(); // get current route
+  const page = pathname.replace('/', '') || 'home'; // fallback to 'home' if on "/"
 
   useEffect(() => {
     const token = localStorage.getItem('token');
@@ -33,11 +35,9 @@ function CommentForm() {
       return;
     }
 
-    // Optionally, decode the token client-side to get user info
     const decoded = decodeJWT(token);
     if (decoded) {
-      console.log("✅ Decoded JWT:", decoded);
-      setUser({ id: decoded.userId, email: decoded.email }); // assuming your JWT has `userId`
+      setUser({ id: decoded.userId, email: decoded.email });
     } else {
       console.error("❌ Invalid JWT.");
       setUser(null);
@@ -59,15 +59,14 @@ function CommentForm() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${token}`,  // send JWT in Authorization header
+        Authorization: `Bearer ${token}`,
       },
-      body: JSON.stringify({ content }),
+      body: JSON.stringify({ content, page }), // send the page slug
     });
 
     if (res.ok) {
       setMessage('✅ Comment submitted!');
       setContent('');
-      // Refresh the page automatically:
       window.location.reload();
     } else {
       const data = await res.json();
@@ -77,7 +76,7 @@ function CommentForm() {
 
   if (!user) {
     return (
-      <div className="bg-llllBlue  text-black px-4 py-2 rounded border border-gray-400">
+      <div className="bg-llllBlue text-black px-4 py-2 rounded border border-gray-400">
         <p>Please log in to leave a comment.</p>
       </div>
     );
