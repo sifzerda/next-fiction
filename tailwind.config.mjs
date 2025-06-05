@@ -24,6 +24,7 @@ export default {
         cyan: "#01fff7",
         lightestBlue: "#63f8f1",
         volt: "#c8ff00",
+        hGreen: "#00ff00",
         darkBlue: "#072752",
         yellow: "#e5dc15", 
         darkYellow: "#c2bb11", 
