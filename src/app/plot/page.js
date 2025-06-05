@@ -611,7 +611,7 @@ function Plot() {
             is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
 
           <hr className="my-6 border-t border-gray-400" />
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-plot-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -658,6 +658,9 @@ function Plot() {
               </li>
               <li className="mb-px">
                 <a href="#post-romance-three-kinds" className="hover:underline hover:text-white">3.9: Romance: Three Kinds</a>
+              </li>
+                            <li className="mb-px">
+                <a href="#post-plot-comments" className="hover:underline hover:text-white">Comments</a>
               </li>
             </ol>
           </div>

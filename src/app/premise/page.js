@@ -308,7 +308,7 @@ function Premise() {
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
           <hr className="my-6 border-t border-gray-400" />
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-premise-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -345,6 +345,9 @@ function Premise() {
               </li>
               <li className="mb-px">
                 <a href="#post-the-strange-sandwich" className="hover:underline hover:text-white">2.5: The 'Strange Sandwich'</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-premise-comments" className="hover:underline hover:text-white">Comments</a>
               </li>
             </ol>
           </div>

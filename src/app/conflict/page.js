@@ -171,7 +171,7 @@ function Conflict() {
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
           <hr className="my-6 border-t border-gray-400" />
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-conflict-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -211,6 +211,9 @@ function Conflict() {
               </li>
               <li className="mb-px">
                 <a href="#post-plans-must-be-complicated" className="hover:underline hover:text-white">5.6 Plans Must Be Complicated</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-conflict-comments" className="hover:underline hover:text-white">Comments</a>
               </li>
             </ol>
           </div>

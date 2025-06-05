@@ -151,7 +151,7 @@ function Themes() {
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
           <hr className="my-6 border-t border-gray-400" />
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-themes-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -191,6 +191,9 @@ function Themes() {
               </li>
               <li className="mb-px">
                 <a href="#post-variations-on-a-theme" className="hover:underline hover:text-white">4.6: Variations on a Theme</a>
+              </li>
+                            <li className="mb-px">
+                <a href="#post-themes-comments" className="hover:underline hover:text-white">Comments</a>
               </li>
             </ol>
           </div>
