@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
+import Tooltip from '../../components/Tooltip';
 import scenesBanner from '../assets/scenesbanner.jpg';
 import Image from "next/image";
 
@@ -195,7 +196,7 @@ function Scenes() {
           <p className="text-sm mb-4 font-rubik">Basically, the purpose of a story is to tell people what they don’t already know. As a simple rule, fiction is where the opposite of what’s expected happens. If what’s expected does happen, the audience doesn’t need to be told; they already know.</p>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">6.5.1 	What is it?</h4>
-          <p className="text-sm mb-4 font-rubik">It sounds like a New Age Movement championed by Oprah Winfrey, but it's not. Memorable fiction presents and balances opposites.</p>
+          <p className="text-sm mb-4 font-rubik">It sounds like a New Age Movement but it's not. Memorable fiction presents and balances opposites.</p>
           <p className="text-sm mb-4 font-rubik">Two characters who are opposites have a diametric relationship. A protagonist thrown into a situation which is the furthest from expectation, is in a diametric relationship with that plot occurrence. A setting which contains features totally unexpected, has diametric aspects.</p>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">6.5.3 	Why Is It Important?</h4>
@@ -293,11 +294,87 @@ function Scenes() {
           <p className="text-sm mb-4 font-rubik">You may have already suggested this question in your title, your book design, your tagline, hook, and blurb, but the question should be raised by the first scene; that’s the last chance you get to ask it, otherwise your first chapter is going to be extraneous.</p>
 
           <p className="text-sm mb-4 font-rubik text-boldPurple">(4) Don’t Infodump</p>
+          <p className="text-sm mb-4 font-rubik">The first scene has the responsibility of getting your reader ‘up to speed’ in your fictional world. But that doesn’t give you unfettered license to rain exposition down in buckets.</p>
+          <p className="text-sm mb-4 font-rubik">Then readers got wise and so authors made the first chapter an ‘into the thick of the action’ chapter, and shifted the exposition down one chapter, to chapter two. Which is no better.</p>
+          <p className="text-sm mb-4 font-rubik">The best way to inform the reader is to smuggle info in; link information with images/scenes. Place writing constraints on yourself to prevent dropping crucial words. Don’t let anyone tell you this will take longer. Think; how long would it take you to ‘show’: (1) your main character’s job; (2) their spouse’s name; (3) the name of their town and country; and (3) a hobby of theirs? Here’s an example, doing it in 4 sentences:</p>
 
 
+
+
+
+
+          <p className="text-sm mb-4 font-rubik">Here’s an extended example from ‘Under the Volcano’</p>
+
+      <div className="p-4 mb-6 rounded bg-gray-50 shadow space-y-4 text-gray-800">
+      <p className="italic">
+        Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother’s house
+        <Tooltip number={1} text="Hugh’s slow pace suggests he is reluctant to see his brother" />,
+        his brother’s jacket balanced on his shoulder
+        <Tooltip number={2} text="Contrasting with above, Hugh’s possession of his brother’s jacket as if it were his own suggests he retains affection for his brother – so we know it’s not that he dislikes his brother, but there’s something troubling between them." />,
+        one arm thrust almost to the elbow through the twin handles of his brother’s small gladstone bag, his pistol in the checkered holster lazily slapping his thigh: eyes in my feet, I must have, as well as straw, he thought, stopping on the edge of the deep pothole, and then his heart and the world stopped too; the horse half over the hurdle, the diver, the guillotine, the hanged man falling, the murderer’s bullet, and the cannon’s breath, in Spain or China frozen in mid-air, the wheel, the piston, poised —
+        <Tooltip number={3} text="Hugh is very distracted, maybe deeply troubled." />
+      </p>
+
+      <p className="italic">
+        Yvonne, or something woven from the filaments of the past that looked like her
+        <Tooltip number={4} text="This suggests Hugh has not seen Yvonne for a long time." />,
+        was working in the garden, and at a little distance appeared clothed entirely in sunlight. Now she stood up straight — she was wearing yellow slacks
+        <Tooltip number={5} text="Yvonne’s mood is better than Hugh’s; she’s working outside in the sun and wearing yellow;" />
+        — and was squinting at him, one hand raised to shield her eyes from the sun.
+      </p>
+
+      <p className="italic">
+        Hugh jumped over the pothole to the grass; disentangling himself from the bag he knew an instant’s paralysed confusion, and reluctance to meet the past.
+        <Tooltip number={6} text="Hugh did not expect to find Yvonne at his brother’s, but is eager to see her;" />
+        The bag, decanted on the faded rustic seat, disgorged into its lid a bald toothbrush, a rusty safety-razor, his brother’s shirt, and a second-hand copy of Jack London’s Valley of the Moon, bought yesterday for fifteen centavos at the German bookstore opposite Sandborns in Mexico City
+        <Tooltip number={7} text="Hugh planned to stay at his brother’s house – more subtly, the fact that the bag’s overnight contents is detailed only after Yvonne is identified, suggests that Hugh may not have been set on staying with his brother, and only became certain of it after he saw Yvonne was there;" />
+        Yvonne was waving.
+      </p>
+
+      <p className="italic">
+        And he was advancing (just as on the Ebro they were retreating) the borrowed jacket still somehow balanced, half slung on his shoulder, his broad hat in one hand, the cable, folded, still somehow in the other.
+      </p>
+
+      <p className="italic">
+        ‘Hullo, Hugh. Gosh, I thought for a moment you were Bill Hodson
+        <Tooltip number={8} text="This suggests Yvonne has not seen Hugh in a long time, and perhaps did not expect to see him – even though she was forewarned – suggesting, she doesn’t have the same excitement to see him as he has seeing her;" />
+        Geoffrey said you were here. How nice to see you again.’
+      </p>
+
+      <p className="italic">
+        Yvonne brushed the dirt from her palms and held out her hand,
+        <Tooltip number={9} text="The dirt on palms (and her lack of embarrassment thereof) further suggests she doesn’t receive him as a ‘special’ guest;" />
+        which he did not grip, nor even feel at first, then dropped as if carelessly, becoming conscious of a pain in his heart and also of a faint giddiness.
+        <Tooltip number={10} text="This hints that Yvonne is involved in whatever was troubling Hugh, above;" />
+        ‘How absolutely something or other.’
+        <Tooltip number={11} text="‘How absolutely something or other’ undoes the effect of her previous ‘How nice to see you again’ and cements her indifference at Hugh’s arrival." />
+        When did you get here?’
+      </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <p className="text-sm mb-4 font-rubik">In the story, Yvonne and Hugh only know each other through Hugh’s brother, Geoffrey – who Yvonne is in an on-again-off-again relationship with. Notice how this scene refers to this by interposing the ‘brother’ between them without even making him present.</p>
 
           <p className="text-sm mb-4 font-rubik text-boldPurple">(5) Active, Not Passive</p>
-
+          <p className="text-sm mb-4 font-rubik">An active scene depicts a plot moment in real time. A passive scene is anything other than a big plot moment; it ‘catches’ the reader up on the story in between plot moments. It provides description, exposition, or gives characters a breather to react emotionally to events. It’s like the ‘previously on …’ segment at the start of a TV series episode.</p>
+          <p className="text-sm mb-4 font-rubik">You need active scenes to keep the story moving, but your story can’t just be active scenes, otherwise you will fatigue and/or confuse the reader. An effective story structure has a natural pattern of hills (active scenes) and valleys (passive scenes). However, the first scene must be an ‘active’ scene, not a passive one. This means you have to be thrown into the thick of some plot action immediately.</p>
+          <p className="text-sm mb-4 font-rubik">Whatever comes later, your first scene cannot start with exposition, or start by summarizing an active event that has previously happened, or merely suggest an active event will happen in the following chapters, or flashback to an active event in the middle of a passive scene (better to start the active event in present tense, and then ‘flashforward’).</p>
+          <p className="text-sm mb-4 font-rubik">An example of a first scene that is passive is in the novel, The Chalk Man.
+            <FootnoteRef text="The Chalk Man, C. J. Tudor." />
+            In the first scene, a dead girl is described lying in the forest, which is then found by the killer, who removes and takes away the head. This is passive because we are being shown the aftermath of an active event (a murder). We are having the aftermath of an active event summarized to us. There are no characters, no plot and no action going on here, just description; just a dead body doing nothing.</p>
+          <p className="text-sm mb-4 font-rubik">Instead, the first scene should have been about a girl (who we assume is the main character) who is introduced and briefly characterized to us, before shockingly being stalked, and chased down, and killed in the forest, and then finishing with her head being taken. Better, the chapter ends the moments she’s killed, and we get the first description of her body later, in another active scene when an investigating detective stumbles upon her gruesome and (to our surprise) now headless remains.</p>
 
           <p className="text-sm mb-4 font-rubik text-boldPurple">(6) Microcosm</p>
           <p className="text-sm mb-4 font-rubik">Just as you can have a ‘microcosm’ first line, you can have a ‘microcosm’ first scene – anything ‘first’ can be a microcosm, the point is it’s a miniaturized taste of the larger offering, like a synecdoche. A microcosm is like a rehearsal for the main story; characters are shown ‘in practice’ for the roles they will acquire later, later plot threads are teased, story elements are shown symbolically which later crystallize as literal.</p>
@@ -349,11 +426,10 @@ function Scenes() {
           <p className="text-sm mb-4 font-rubik">In a traditional fantasy, the knight slays the dragon and rescues the princess. The slaying of the dragon (the climax) might be the most exciting part, but I’m willing to bet a lot of people would think the rescue (dénouement) is the best/most satisfying part.</p>
           <p className="text-sm mb-4 font-rubik">Imagine 2 variants of this fantasy story:</p>
 
-          <p className="text-sm mb-4 font-rubik"><span className="font-bold">[A strong climax and a weak dénouement]:</span>
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
-              <li>The knight slays the dragon only to discover it has already killed the princess; </li>
-            </ol></p>
-
+          <p className="text-sm mb-4 font-rubik"><span className="font-bold">[A strong climax and a weak dénouement]:</span></p>
+          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <li>The knight slays the dragon only to discover it has already killed the princess; </li>
+          </ol>
 
           <p className="text-sm mb-4 font-rubik"><span className="font-bold">[A weak climax and a strong dénouement]:</span></p>
           <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
