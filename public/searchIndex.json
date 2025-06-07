@@ -1,0 +1,21 @@
+[
+  {
+    "title": "About Us",
+    "url": "/about",
+    "content": "We’ve been servicing vehicles in the area since 1995. Our skilled mechanics specialize in everything from diagnostics to full rebuilds..."
+  },
+  {
+    "title": "Services",
+    "url": "/services",
+    "content": "We offer a full range of vehicle services including logbook servicing, brake repairs, suspension upgrades, and roadworthy inspections..."
+  },
+  {
+    "title": "Contact",
+    "url": "/contact",
+    "content": "Call us at 123-456 or email hello@mechanicsite.com. We're located at 123 Workshop Lane and open 8am–5pm Mon–Sat..."
+  }
+]
+
+
+
+{/* make each page, and paste all the content minus html tags */}
