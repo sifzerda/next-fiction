@@ -296,9 +296,7 @@ function Scenes() {
           <p className="text-sm mb-4 font-rubik text-boldPurple">(4) Don’t Infodump</p>
           <p className="text-sm mb-4 font-rubik">The first scene has the responsibility of getting your reader ‘up to speed’ in your fictional world. But that doesn’t give you unfettered license to rain exposition down in buckets.</p>
           <p className="text-sm mb-4 font-rubik">Then readers got wise and so authors made the first chapter an ‘into the thick of the action’ chapter, and shifted the exposition down one chapter, to chapter two. Which is no better.</p>
-          <p className="text-sm mb-4 font-rubik">The best way to inform the reader is to smuggle info in; link information with images/scenes. Place writing constraints on yourself to prevent dropping crucial words. Don’t let anyone tell you this will take longer. Think; how long would it take you to ‘show’: (1) your main character’s job; (2) their spouse’s name; (3) the name of their town and country; and (3) a hobby of theirs? Here’s an example, doing it in 4 sentences:</p>
-
-          <p className="text-sm mb-4 font-rubik">Here’s an extended example from ‘Under the Volcano’</p>
+          <p className="text-sm mb-4 font-rubik">Here’s an extended example of how to smuggle details into a scene from ‘Under the Volcano’</p>
 
           <div className="p-4 mb-6 rounded bg-gray-50 shadow space-y-4 text-gray-800">
             <p className="italic">
