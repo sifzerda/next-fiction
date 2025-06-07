@@ -1,21 +1,137 @@
 [
-  {
-    "title": "About Us",
-    "url": "/about",
-    "content": "We’ve been servicing vehicles in the area since 1995. Our skilled mechanics specialize in everything from diagnostics to full rebuilds..."
-  },
-  {
-    "title": "Services",
-    "url": "/services",
-    "content": "We offer a full range of vehicle services including logbook servicing, brake repairs, suspension upgrades, and roadworthy inspections..."
-  },
-  {
-    "title": "Contact",
-    "url": "/contact",
-    "content": "Call us at 123-456 or email hello@mechanicsite.com. We're located at 123 Workshop Lane and open 8am–5pm Mon–Sat..."
-  }
+    {
+        "title": "About",
+        "url": "/about",
+        "content": "..."
+    },
+    {
+        "title": "Contact",
+        "url": "/contact",
+        "content": "..."
+    },
+    {
+        "title": "Story",
+        "url": "/story",
+        "content": "..."
+    },
+    {
+        "title": "Premise",
+        "url": "/premise",
+        "content": "..."
+    },
+    {
+        "title": "Plot",
+        "url": "/plot",
+        "content": "..."
+    },
+    {
+        "title": "Themes",
+        "url": "/themes",
+        "content": "..."
+    },
+    {
+        "title": "Conflict",
+        "url": "/conflict",
+        "content": "..."
+    },
+    {
+        "title": "Main Characters",
+        "url": "/mainCharacters",
+        "content": "..."
+    },
+    {
+        "title": "Secondary Characters",
+        "url": "/SecondaryCharacters",
+        "content": "..."
+    },
+    {
+        "title": "Setting",
+        "url": "/setting",
+        "content": "..."
+    },
+    {
+        "title": "Subtext",
+        "url": "/subtext",
+        "content": "..."
+    },
+    {
+        "title": "Description",
+        "url": "/description",
+        "content": "..."
+    },
+    {
+        "title": "Dialogue",
+        "url": "/dialogue",
+        "content": "..."
+    },
+    {
+        "title": "Suspense",
+        "url": "/suspense",
+        "content": "..."
+    },
+    {
+        "title": "POV",
+        "url": "/pov",
+        "content": "..."
+    },
+    {
+        "title": "Voice",
+        "url": "/voice",
+        "content": "..."
+    },
+    {
+        "title": "Antagonists",
+        "url": "/antagonists",
+        "content": "..."
+    },
+    {
+        "title": "The First Words",
+        "url": "/theFirstWords",
+        "content": "..."
+    },
+    {
+        "title": "The Next Words",
+        "url": "/theNextWords",
+        "content": "..."
+    },
+    {
+        "title": "The Last Words",
+        "url": "/theLastWords",
+        "content": "..."
+    },
+    {
+        "title": "Writing Devices",
+        "url": "/writingDevices",
+        "content": "..."
+    },
+    {
+        "title": "WritersBlock",
+        "url": "/writersBlock",
+        "content": "..."
+    },
+    {
+        "title": "Editing",
+        "url": "/editing",
+        "content": "..."
+    },
+    {
+        "title": "Title",
+        "url": "/title",
+        "content": "..."
+    },
+    {
+        "title": "Logline",
+        "url": "/logline",
+        "content": "..."
+    },
+    {
+        "title": "Synopsis",
+        "url": "/synopsis",
+        "content": "..."
+    },
+    {
+        "title": "References",
+        "url": "/references",
+        "content": "..."
+    }
 ]
-
-
-
-{/* make each page, and paste all the content minus html tags */}
