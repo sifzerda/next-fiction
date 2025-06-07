@@ -15,10 +15,7 @@ function FootnoteRef({ text }) {
 
   return (
     <span
-      className="relative cursor-pointer inline-block"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-    >
+      className="relative cursor-pointer inline-block" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
       <sup className="text-blue-500 text-xs align-super">
         {indexRef.current}
       </sup>
