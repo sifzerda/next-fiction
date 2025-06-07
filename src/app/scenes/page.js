@@ -298,72 +298,54 @@ function Scenes() {
           <p className="text-sm mb-4 font-rubik">Then readers got wise and so authors made the first chapter an ‘into the thick of the action’ chapter, and shifted the exposition down one chapter, to chapter two. Which is no better.</p>
           <p className="text-sm mb-4 font-rubik">The best way to inform the reader is to smuggle info in; link information with images/scenes. Place writing constraints on yourself to prevent dropping crucial words. Don’t let anyone tell you this will take longer. Think; how long would it take you to ‘show’: (1) your main character’s job; (2) their spouse’s name; (3) the name of their town and country; and (3) a hobby of theirs? Here’s an example, doing it in 4 sentences:</p>
 
-
-
-
-
-
           <p className="text-sm mb-4 font-rubik">Here’s an extended example from ‘Under the Volcano’</p>
 
-      <div className="p-4 mb-6 rounded bg-gray-50 shadow space-y-4 text-gray-800">
-      <p className="italic">
-        Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother’s house
-        <Tooltip number={1} text="Hugh’s slow pace suggests he is reluctant to see his brother" />,
-        his brother’s jacket balanced on his shoulder
-        <Tooltip number={2} text="Contrasting with above, Hugh’s possession of his brother’s jacket as if it were his own suggests he retains affection for his brother – so we know it’s not that he dislikes his brother, but there’s something troubling between them." />,
-        one arm thrust almost to the elbow through the twin handles of his brother’s small gladstone bag, his pistol in the checkered holster lazily slapping his thigh: eyes in my feet, I must have, as well as straw, he thought, stopping on the edge of the deep pothole, and then his heart and the world stopped too; the horse half over the hurdle, the diver, the guillotine, the hanged man falling, the murderer’s bullet, and the cannon’s breath, in Spain or China frozen in mid-air, the wheel, the piston, poised —
-        <Tooltip number={3} text="Hugh is very distracted, maybe deeply troubled." />
-      </p>
+          <div className="p-4 mb-6 rounded bg-gray-50 shadow space-y-4 text-gray-800">
+            <p className="italic">
+              Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother’s house
+              <Tooltip number={1} text="Hugh’s slow pace suggests he is reluctant to see his brother" />,
+              his brother’s jacket balanced on his shoulder
+              <Tooltip number={2} text="Contrasting with above, Hugh’s possession of his brother’s jacket as if it were his own suggests he retains affection for his brother – so we know it’s not that he dislikes his brother, but there’s something troubling between them." />,
+              one arm thrust almost to the elbow through the twin handles of his brother’s small gladstone bag, his pistol in the checkered holster lazily slapping his thigh: eyes in my feet, I must have, as well as straw, he thought, stopping on the edge of the deep pothole, and then his heart and the world stopped too; the horse half over the hurdle, the diver, the guillotine, the hanged man falling, the murderer’s bullet, and the cannon’s breath, in Spain or China frozen in mid-air, the wheel, the piston, poised —
+              <Tooltip number={3} text="Hugh is very distracted, maybe deeply troubled." />
+            </p>
 
-      <p className="italic">
-        Yvonne, or something woven from the filaments of the past that looked like her
-        <Tooltip number={4} text="This suggests Hugh has not seen Yvonne for a long time." />,
-        was working in the garden, and at a little distance appeared clothed entirely in sunlight. Now she stood up straight — she was wearing yellow slacks
-        <Tooltip number={5} text="Yvonne’s mood is better than Hugh’s; she’s working outside in the sun and wearing yellow;" />
-        — and was squinting at him, one hand raised to shield her eyes from the sun.
-      </p>
+            <p className="italic">
+              Yvonne, or something woven from the filaments of the past that looked like her
+              <Tooltip number={4} text="This suggests Hugh has not seen Yvonne for a long time." />,
+              was working in the garden, and at a little distance appeared clothed entirely in sunlight. Now she stood up straight — she was wearing yellow slacks
+              <Tooltip number={5} text="Yvonne’s mood is better than Hugh’s; she’s working outside in the sun and wearing yellow;" />
+              — and was squinting at him, one hand raised to shield her eyes from the sun.
+            </p>
 
-      <p className="italic">
-        Hugh jumped over the pothole to the grass; disentangling himself from the bag he knew an instant’s paralysed confusion, and reluctance to meet the past.
-        <Tooltip number={6} text="Hugh did not expect to find Yvonne at his brother’s, but is eager to see her;" />
-        The bag, decanted on the faded rustic seat, disgorged into its lid a bald toothbrush, a rusty safety-razor, his brother’s shirt, and a second-hand copy of Jack London’s Valley of the Moon, bought yesterday for fifteen centavos at the German bookstore opposite Sandborns in Mexico City
-        <Tooltip number={7} text="Hugh planned to stay at his brother’s house – more subtly, the fact that the bag’s overnight contents is detailed only after Yvonne is identified, suggests that Hugh may not have been set on staying with his brother, and only became certain of it after he saw Yvonne was there;" />
-        Yvonne was waving.
-      </p>
+            <p className="italic">
+              Hugh jumped over the pothole to the grass; disentangling himself from the bag he knew an instant’s paralysed confusion, and reluctance to meet the past.
+              <Tooltip number={6} text="Hugh did not expect to find Yvonne at his brother’s, but is eager to see her;" />
+              The bag, decanted on the faded rustic seat, disgorged into its lid a bald toothbrush, a rusty safety-razor, his brother’s shirt, and a second-hand copy of Jack London’s Valley of the Moon, bought yesterday for fifteen centavos at the German bookstore opposite Sandborns in Mexico City
+              <Tooltip number={7} text="Hugh planned to stay at his brother’s house – more subtly, the fact that the bag’s overnight contents is detailed only after Yvonne is identified, suggests that Hugh may not have been set on staying with his brother, and only became certain of it after he saw Yvonne was there;" />
+              Yvonne was waving.
+            </p>
 
-      <p className="italic">
-        And he was advancing (just as on the Ebro they were retreating) the borrowed jacket still somehow balanced, half slung on his shoulder, his broad hat in one hand, the cable, folded, still somehow in the other.
-      </p>
+            <p className="italic">
+              And he was advancing (just as on the Ebro they were retreating) the borrowed jacket still somehow balanced, half slung on his shoulder, his broad hat in one hand, the cable, folded, still somehow in the other.
+            </p>
 
-      <p className="italic">
-        ‘Hullo, Hugh. Gosh, I thought for a moment you were Bill Hodson
-        <Tooltip number={8} text="This suggests Yvonne has not seen Hugh in a long time, and perhaps did not expect to see him – even though she was forewarned – suggesting, she doesn’t have the same excitement to see him as he has seeing her;" />
-        Geoffrey said you were here. How nice to see you again.’
-      </p>
+            <p className="italic">
+              ‘Hullo, Hugh. Gosh, I thought for a moment you were Bill Hodson
+              <Tooltip number={8} text="This suggests Yvonne has not seen Hugh in a long time, and perhaps did not expect to see him – even though she was forewarned – suggesting, she doesn’t have the same excitement to see him as he has seeing her;" />
+              Geoffrey said you were here. How nice to see you again.’
+            </p>
 
-      <p className="italic">
-        Yvonne brushed the dirt from her palms and held out her hand,
-        <Tooltip number={9} text="The dirt on palms (and her lack of embarrassment thereof) further suggests she doesn’t receive him as a ‘special’ guest;" />
-        which he did not grip, nor even feel at first, then dropped as if carelessly, becoming conscious of a pain in his heart and also of a faint giddiness.
-        <Tooltip number={10} text="This hints that Yvonne is involved in whatever was troubling Hugh, above;" />
-        ‘How absolutely something or other.’
-        <Tooltip number={11} text="‘How absolutely something or other’ undoes the effect of her previous ‘How nice to see you again’ and cements her indifference at Hugh’s arrival." />
-        When did you get here?’
-      </p>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <p className="italic">
+              Yvonne brushed the dirt from her palms and held out her hand,
+              <Tooltip number={9} text="The dirt on palms (and her lack of embarrassment thereof) further suggests she doesn’t receive him as a ‘special’ guest;" />
+              which he did not grip, nor even feel at first, then dropped as if carelessly, becoming conscious of a pain in his heart and also of a faint giddiness.
+              <Tooltip number={10} text="This hints that Yvonne is involved in whatever was troubling Hugh, above;" />
+              ‘How absolutely something or other.’
+              <Tooltip number={11} text="‘How absolutely something or other’ undoes the effect of her previous ‘How nice to see you again’ and cements her indifference at Hugh’s arrival." />
+              When did you get here?’
+            </p>
+          </div>
 
           <p className="text-sm mb-4 font-rubik">In the story, Yvonne and Hugh only know each other through Hugh’s brother, Geoffrey – who Yvonne is in an on-again-off-again relationship with. Notice how this scene refers to this by interposing the ‘brother’ between them without even making him present.</p>
 
