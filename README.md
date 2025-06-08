@@ -66,6 +66,7 @@ User authentication with JWTs allow users to create an account, which stores use
 - Prisma: queries on users and comments
 - Postgres, Vercel neon: stores user accounts and comments
 - Zustand: store dynamically managing footnote assignment
+- Fuse: index site content to enable sitewide keyword search
 
 ## Footnotes
 
@@ -230,3 +231,5 @@ npm install @fullcalendar/react @fullcalendar/daygrid @fullcalendar/interaction
 npm install react-big-calendar date-fns
 npm install react-big-calendar react-dnd react-dnd-html5-backend date-fns
 Code is in /scenes/page.js.
+
+npm install fuse.js
