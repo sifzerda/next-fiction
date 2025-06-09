@@ -28,12 +28,12 @@ function Sidebar() {
     { href: '/theNextWords', label: 'The Next Words' },
     { href: '/theLastWords', label: 'The Last Words' },
     { href: '/writingDevices', label: 'Writing Devices' },
-    { href: '/writersBlock', label: 'Writers Block [OBSELETE]' },
+    { href: '/writersBlock', label: 'Writers Block [X]' },
     { href: '/editing', label: 'Editing' },
     { href: '/marketing', label: 'Marketing' },
-    { href: '/title', label: 'Title [OBSELETE]' },
-    { href: '/logline', label: 'Logline [OBSELETE]' },
-    { href: '/synopsis', label: 'Synopsis [OBSELETE]' },
+    { href: '/title', label: 'Title [X]' },
+    { href: '/logline', label: 'Logline [X]' },
+    { href: '/synopsis', label: 'Synopsis [X]' },
     { href: '/references', label: 'References' },
   ];
 
