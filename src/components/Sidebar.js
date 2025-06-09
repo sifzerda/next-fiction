@@ -28,11 +28,12 @@ function Sidebar() {
     { href: '/theNextWords', label: 'The Next Words' },
     { href: '/theLastWords', label: 'The Last Words' },
     { href: '/writingDevices', label: 'Writing Devices' },
-    { href: '/writersBlock', label: 'Writers Block' },
+    { href: '/writersBlock', label: 'Writers Block [OBSELETE]' },
     { href: '/editing', label: 'Editing' },
-    { href: '/title', label: 'Title' },
-    { href: '/logline', label: 'Logline' },
-    { href: '/synopsis', label: 'Synopsis' },
+    { href: '/marketing', label: 'Marketing' },
+    { href: '/title', label: 'Title [OBSELETE]' },
+    { href: '/logline', label: 'Logline [OBSELETE]' },
+    { href: '/synopsis', label: 'Synopsis [OBSELETE]' },
     { href: '/references', label: 'References' },
   ];
 
@@ -42,11 +43,18 @@ function Sidebar() {
     sm:w-56 sm:h-screen sm:fixed sm:top-0 sm:left-0 sm:items-start sm:pt-28 sm:border-r-2 sm:border-yellow
     border border-llBlue">
       <nav className="w-full">
-       <h2 className="text-yellow text-lg font-semibold mb-1 text-center sm:text-left sm:mt-6">Index</h2>
+        <h2 className="text-yellow text-lg font-semibold mb-1 text-center sm:text-left sm:mt-6">Index</h2>
         <ul className="flex flex-col items-center gap-1 sm:items-start sm:pl-4 sm:mt-0">
           {links.map(({ href, label }) => (
-            <li key={href}>
-              <Link href={href} className={`text-sm hover:text-yellow ${pathname === href ? 'font-semibold text-white uppercase' : ''}`}>{label}</Link>
+            <li key={href} className="w-full">
+              <Link
+                href={href}
+                className={`
+          block w-full px-2 py-1 rounded-sm
+          text-sm hover:bg-white hover:text-bootstrapDark transition
+          ${pathname === href ? 'font-semibold text-white uppercase' : ''}`}>
+                {label}
+              </Link>
             </li>
           ))}
         </ul>
