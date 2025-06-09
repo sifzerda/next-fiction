@@ -222,7 +222,7 @@ Changes:
 - added contact form
 
 
-
+//============================================================//
 
 
 Calendar stuff:
@@ -233,3 +233,19 @@ npm install react-big-calendar react-dnd react-dnd-html5-backend date-fns
 Code is in /scenes/page.js.
 
 npm install fuse.js
+
+//===========================================================//
+
+
+PAGES TO DO:
+
+- [ ] description
+- [ ] dialogue
+- [ ] voice
+- [ ] antagonists
+- [ ] the first words
+- [ ] the next words
+- [ ] the last words
+- [ ] writing devices + writer's block
+- [ ] marketing: title + synopsis + logline
+- [ ] references
