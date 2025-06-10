@@ -239,13 +239,18 @@ npm install fuse.js
 
 PAGES TO DO:
 
-- [ ] description
-- [ ] dialogue
-- [ ] voice
-- [ ] antagonists
-- [ ] the first words
-- [ ] the next words
-- [ ] the last words
+- [x] description
+- [x] dialogue
+- [x] voice
+- [x] antagonists
+- [x] the first words
+- [x] the next words
+- [x] the last words
 - [ ] writing devices + writer's block
 - [ ] marketing: title + synopsis + logline
 - [ ] references
+
+
+Stuff to check:
+- every page has a index link to comments
+- check all index links work and are correct
