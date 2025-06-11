@@ -22,13 +22,26 @@ export default function SearchBar() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         className="
-          w-full px-2 py-1 border border-llBlue rounded bg-transparent text-llBlue text-sm
-          focus:outline-none focus:border-yellow hover:border-yellow transition"
-      />
-      <button
+          w-full px-2 py-1 border border-llBlue rounded:sm bg-bootstrapDark text-llBlue text-sm
+          focus:outline-none focus:border-yellow hover:border-yellow transition" />
+       <button
         type="submit"
-        className="absolute right-1 top-1 bottom-1 px-3 bg-yellow rounded text-llBlue font-semibold hover:bg-yellow-600 transition"
-      >
+        className="
+          absolute right-1 top-1 bottom-1
+          px-4
+          border border-llBlue
+          bg-bootstrapDark
+          rounded:sm
+          text-llBlue
+          text-sm
+          uppercase
+          hover:text-yellow
+          hover:border-yellow
+          transition
+          cursor-pointer
+          flex items-center justify-center
+          whitespace-nowrap
+        ">
         Search
       </button>
     </form>
