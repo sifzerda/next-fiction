@@ -238,6 +238,7 @@ npm install fuse.js
 
 //===========================================================//
 
+ADD IDs to pages to find chunks via search
 
 PAGES TO DO:
 
@@ -256,3 +257,4 @@ PAGES TO DO:
 Stuff to check:
 - every page has a index link to comments
 - check all index links work and are correct
+
