@@ -6,7 +6,7 @@ import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
 import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
-import Link from "next/link";
+//import Link from "next/link";
 
 function WritersDevices() {
 return (

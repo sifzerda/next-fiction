@@ -7,7 +7,7 @@ function About() {
   return (
     <Layout>
       {/* 1st Banner Box */}
-      <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
+      <div id="searchbar" className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">About</h1>
 
         <blockquote className="text-sm italic mb-2">
