@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-import { chromium } from 'playwright';
+import puppeteer from 'puppeteer';
 
-const BASE_URL = 'http://localhost:3000'; // Change if needed
+const BASE_URL = 'http://localhost:3000'; // Adjust to your dev URL
 const OUTPUT_FILE = path.resolve(process.cwd(), 'public/searchIndex.json');
 
 // List your app routes here — adjust to match your app's actual pages
@@ -36,7 +36,7 @@ const routes = [
 ];
 
 (async () => {
-  const browser = await chromium.launch();
+  const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
 
   const results = [];
@@ -44,19 +44,18 @@ const routes = [
   for (const route of routes) {
     const url = BASE_URL + route;
     console.log(`Crawling ${url} ...`);
-    await page.goto(url, { waitUntil: 'networkidle' });
+    await page.goto(url, { waitUntil: 'networkidle0' });
 
     const { textContent, pageTitle } = await page.evaluate(() => {
-      // Remove global layout elements we want to exclude from indexing
+      // Remove unwanted elements (nav, footer, etc.)
       document.querySelectorAll('nav, header, footer, aside, button').forEach(el => el.remove());
 
-      // Recursive text extractor excluding links and buttons
       function getVisibleText(element) {
         if (!element) return '';
 
         if (
-          element.tagName === 'A' || // Exclude links
-          element.tagName === 'BUTTON' // Exclude buttons
+          element.tagName === 'A' || // skip links
+          element.tagName === 'BUTTON' // skip buttons
         ) return '';
 
         if (
@@ -80,10 +79,8 @@ const routes = [
         return text;
       }
 
-      // Extract all visible text from the whole body
       const textContent = getVisibleText(document.body).replace(/\s+/g, ' ').trim();
 
-      // Use first h1 on the page as title, fallback to 'No Title'
       let pageTitle = 'No Title';
       const h1 = document.querySelector('h1');
       if (h1) pageTitle = h1.textContent.trim();
@@ -100,7 +97,7 @@ const routes = [
 
   await browser.close();
 
-  // Write results array to JSON file
+  // Write to JSON file
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2));
-  console.log(`✅ Search index written to ${OUTPUT_FILE}`);
+  console.log(`✅ Search index saved to ${OUTPUT_FILE}`);
 })();

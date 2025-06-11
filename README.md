@@ -40,6 +40,7 @@ The aim was to create a comprehensive guide for fiction-writing, compiling the m
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white) 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) 
+![Puppeteer](https://img.shields.io/badge/Puppeteer-white.svg?style=for-the-badge&logo=Puppeteer&logoColor=black)
 
 # Visuals <a name="visuals"></a>
 
@@ -67,6 +68,7 @@ User authentication with JWTs allow users to create an account, which stores use
 - Postgres, Vercel neon: stores user accounts and comments
 - Zustand: store dynamically managing footnote assignment
 - Fuse: index site content to enable sitewide keyword search
+- Puppeteer: scrapes text content for indexing
 
 ## Footnotes
 
