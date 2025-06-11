@@ -18,7 +18,7 @@ function highlightMatches(text, matchesForKey) {
 
   for (const [start, end] of indices) {
     if (start > lastIndex) parts.push(text.slice(lastIndex, start));
-    parts.push(<mark key={start} className="bg-yellow-300 text-black">{text.slice(start, end + 1)}</mark>);
+    parts.push(<mark key={start} className="bg-hYellow text-black">{text.slice(start, end + 1)}</mark>);
     lastIndex = end + 1;
   }
   if (lastIndex < text.length) parts.push(text.slice(lastIndex));
@@ -62,7 +62,7 @@ export default function SearchResultsPage() {
   if (!query.trim()) {
     return (
       <Layout>
-        <div id="searchbar" className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
+        <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
           <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">
             Search
           </h1>
@@ -75,7 +75,7 @@ export default function SearchResultsPage() {
   if (!resultsByRoute) {
     return (
       <Layout>
-        <div id="searchbar" className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
+        <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
           <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">
             Search
           </h1>
@@ -90,7 +90,7 @@ export default function SearchResultsPage() {
   if (totalResults === 0) {
     return (
       <Layout>
-        <div id="searchbar" className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
+        <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
           <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">
             Search
           </h1>
@@ -103,7 +103,7 @@ export default function SearchResultsPage() {
   return (
     <Layout>
       {/* Banner */}
-      <div id="searchbar" className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
+      <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">
           Search results for "{query}" ({totalResults} {totalResults === 1 ? 'result' : 'results'})
         </h1>
@@ -122,19 +122,20 @@ export default function SearchResultsPage() {
               </span>
             </h2>
 
-            <ul className="list-disc list-inside space-y-2">
-              {items.map(({ title, content, matches }, i) => {
-                const titleMatches = matches?.filter(m => m.key === 'title');
-                const contentMatches = matches?.filter(m => m.key === 'content');
-                return (
-                  <li key={i} className="text-gray-700">
-                    <strong>{highlightMatches(title, titleMatches)}</strong>:{" "}
-                    {highlightMatches(content.slice(0, 150), contentMatches)}
-                    ...
-                  </li>
-                );
-              })}
-            </ul>
+<ul className="list-disc list-inside space-y-2">
+  {items.map(({ title, content, url, matches }, i) => {
+    const titleMatches = matches?.filter(m => m.key === 'title');
+    const contentMatches = matches?.filter(m => m.key === 'content');
+    return (
+      <li key={i}>
+        <Link href={url} className="block text-blue-700 hover:underline">
+          <strong>{highlightMatches(title, titleMatches)}</strong>:{" "}
+          {highlightMatches(content.slice(0, 150), contentMatches)}...
+        </Link>
+      </li>
+    );
+  })}
+</ul>
           </article>
         ))}
       </section>
