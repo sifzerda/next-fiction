@@ -122,20 +122,20 @@ export default function SearchResultsPage() {
               </span>
             </h2>
 
-<ul className="list-disc list-inside space-y-2">
-  {items.map(({ title, content, url, matches }, i) => {
-    const titleMatches = matches?.filter(m => m.key === 'title');
-    const contentMatches = matches?.filter(m => m.key === 'content');
-    return (
-      <li key={i}>
-        <Link href={url} className="block text-blue-700 hover:underline">
-          <strong>{highlightMatches(title, titleMatches)}</strong>:{" "}
-          {highlightMatches(content.slice(0, 150), contentMatches)}...
-        </Link>
-      </li>
-    );
-  })}
-</ul>
+            <ul className="list-disc list-inside space-y-2">
+              {items.map(({ title, content, url, matches }, i) => {
+                const titleMatches = matches?.filter(m => m.key === 'title');
+                const contentMatches = matches?.filter(m => m.key === 'content');
+                return (
+                  <li key={i}>
+                    <Link href={url} className="block text-blue-700 hover:underline">
+                      <strong>{highlightMatches(title, titleMatches)}</strong>:{" "}
+                      {highlightMatches(content.slice(0, 150), contentMatches)}...
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </article>
         ))}
       </section>
