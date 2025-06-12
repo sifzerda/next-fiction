@@ -49,12 +49,30 @@ function findIndices(text, query) {
 // Utility to create a snippet limited in length centered on match
 function createSnippet(text, start, end, snippetLength = 100) {
   const snippetHalf = Math.floor(snippetLength / 2);
-  const snippetStart = Math.max(0, start - snippetHalf);
-  const snippetEnd = Math.min(text.length, end + snippetHalf);
-  return {
-    snippet: text.slice(snippetStart, snippetEnd),
-    offset: snippetStart,
-  };
+  let snippetStart = Math.max(0, start - snippetHalf);
+  let snippetEnd = Math.min(text.length, end + snippetHalf);
+  // Expand snippetStart backward to nearest sentence boundary or whitespace
+  for (let i = snippetStart; i > 0; i--) {
+    const char = text[i];
+    if (char === '.' || char === '?' || char === '!' || char === '\n') {
+      snippetStart = i + 1; // start just after punctuation
+      break;
+    }
+    if (i === 1) snippetStart = 0; // beginning of text
+  }
+  // Expand snippetEnd forward to nearest sentence boundary or whitespace
+  for (let i = snippetEnd; i < text.length; i++) {
+    const char = text[i];
+    if (char === '.' || char === '?' || char === '!' || char === '\n') {
+      snippetEnd = i + 1; // include punctuation
+      break;
+    }
+    if (i === text.length - 1) snippetEnd = text.length;
+  }
+  // Trim snippet to avoid leading/trailing spaces
+  let snippet = text.slice(snippetStart, snippetEnd).trim();
+  // Calculate offset relative to original text start
+  return { snippet, offset: snippetStart };
 }
 
 export default function SearchResultsPage() {
@@ -122,53 +140,53 @@ export default function SearchResultsPage() {
             useExtendedSearch: true,
           });
 
-filtered = [];
+          filtered = [];
 
-fuse.search(`'${rawQuery}`).forEach(({ item, matches }) => {
-  if (!matches) {
-    // No matches info, push whole item as is
-    filtered.push(item);
-    return;
-  }
+          fuse.search(`'${rawQuery}`).forEach(({ item, matches }) => {
+            if (!matches) {
+              // No matches info, push whole item as is
+              filtered.push(item);
+              return;
+            }
 
-  // Handle content matches: one result per match snippet
-  const contentMatches = matches.filter((m) => m.key === "content");
-  contentMatches.forEach((contentMatch) => {
-    if (!item.content) return;
+            // Handle content matches: one result per match snippet
+            const contentMatches = matches.filter((m) => m.key === "content");
+            contentMatches.forEach((contentMatch) => {
+              if (!item.content) return;
 
-    // For each individual match range in indices, create separate entries
-    contentMatch.indices.forEach(([start, end]) => {
-      const { snippet, offset } = createSnippet(item.content, start, end, 100);
+              // For each individual match range in indices, create separate entries
+              contentMatch.indices.forEach(([start, end]) => {
+                const { snippet, offset } = createSnippet(item.content, start, end, 100);
 
-      // Adjust indices to snippet-relative
-      const adjustedIndices = [[start - offset, end - offset]];
+                // Adjust indices to snippet-relative
+                const adjustedIndices = [[start - offset, end - offset]];
 
-      // Include other matches too, but adjust only content matches that fall into snippet? Optional
-      // Here, just add the single content match for highlight simplicity
+                // Include other matches too, but adjust only content matches that fall into snippet? Optional
+                // Here, just add the single content match for highlight simplicity
 
-      filtered.push({
-        ...item,
-        content: snippet,
-        matches: [{ key: "content", indices: adjustedIndices }],
-      });
-    });
-  });
+                filtered.push({
+                  ...item,
+                  content: snippet,
+                  matches: [{ key: "content", indices: adjustedIndices }],
+                });
+              });
+            });
 
-  // Handle title matches as separate entries
-  const titleMatches = matches.filter((m) => m.key === "title");
-  titleMatches.forEach((titleMatch) => {
-    filtered.push({
-      ...item,
-      content: "", // no content snippet
-      matches: [titleMatch],
-    });
-  });
+            // Handle title matches as separate entries
+            const titleMatches = matches.filter((m) => m.key === "title");
+            titleMatches.forEach((titleMatch) => {
+              filtered.push({
+                ...item,
+                content: "", // no content snippet
+                matches: [titleMatch],
+              });
+            });
 
-  // If no content or title matches? Just push the item once
-  if (contentMatches.length === 0 && titleMatches.length === 0) {
-    filtered.push(item);
-  }
-});
+            // If no content or title matches? Just push the item once
+            if (contentMatches.length === 0 && titleMatches.length === 0) {
+              filtered.push(item);
+            }
+          });
         }
 
         // Group by route with separate entries per match
@@ -248,13 +266,12 @@ fuse.search(`'${rawQuery}`).forEach(({ item, matches }) => {
                 return (
                   <article
                     key={i}
-                    className="bg-white border border-gray-300 rounded-xl shadow p-4"
-                  >
+                    className="bg-white border border-gray-300 rounded-xl shadow p-4">
                     <h3 className="text-base font-semibold mb-1">
+                      {"Page: "}
                       <Link
                         href={match.url}
-                        className="text-blue-600 hover:underline break-words"
-                      >
+                        className="text-blue-600 hover:underline break-words">
                         {highlightMatches(match.title, titleMatches)}
                       </Link>
                     </h3>
