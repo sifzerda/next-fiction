@@ -554,18 +554,18 @@ function TheNextWords() {
 
           <p>For example:</p>
 
-          <p className='indent-text-1'><u>With Expletives: </u>There were two aeroplanes on the runway.
+          <p className='indent-8 mb-2'><u>With Expletives: </u>There were two aeroplanes on the runway.
             <br></br><u>With Expletives: </u>Two aeroplanes idled on the runway.</p>
 
-          <p className='indent-text-1'><u>With Expletives: </u>The plane began to circle.
+          <p className='indent-8 mb-2'><u>With Expletives: </u>The plane began to circle.
             <br></br><u>With Expletives: </u>The plane circled.</p>
 
           <h4>18.1.13 	Double Words</h4>
           <p>What is wrong with this paragraph?</p>
-          <p className='indent-text-1'><i>I went over to her place to see how she was getting on on my way home one evening. Once I got there, the patient gave me a list of symptoms she had had. Scanning it, I gave her her list back. I didn't think she was suicidal then, but later that evening when I realised it it was too late. At the time, I was merely thinking 'What she is is a time waster.'</i></p>
+          <p className='indent-8 mb-2'><i>I went over to her place to see how she was getting on on my way home one evening. Once I got there, the patient gave me a list of symptoms she had had. Scanning it, I gave her her list back. I didn't think she was suicidal then, but later that evening when I realised it it was too late. At the time, I was merely thinking 'What she is is a time waster.'</i></p>
 
           <p>It only takes two seconds to restructure the sentences, and reads better for it, e.g.</p>
-          <p className='indent-text-1'><i>On my way home one evening, I went by her place to see how she was getting on. Once there, the patient gave me a list of her symptoms. I scanned it and gave it back to her, merely feeling irritated by her wasting my time. Later that evening, I realised she had been suicidal, but by then it was too late.</i></p>
+          <p className='indent-8 mb-2'><i>On my way home one evening, I went by her place to see how she was getting on. Once there, the patient gave me a list of her symptoms. I scanned it and gave it back to her, merely feeling irritated by her wasting my time. Later that evening, I realised she had been suicidal, but by then it was too late.</i></p>
           <p>Also see this version from the song 'Que será será' -- <i>Whatever will be, will be.</i> Ironically, as 'Que será será' itself means ‘whatever will be, will be,’ it’s a fourfold repetition. </p>
 
           <h3 id="post-do-this">18.2: Do This!</h3>
@@ -647,9 +647,9 @@ function TheNextWords() {
           <p>No writer actually stringently adheres to the rules of punctuation. However, average and bad writers break the rules at the wrong times, whereas good and great writers break the rules at the right times. Which rules you break identifies your writing ‘voice’.</p>
           <p>Punctuation: it isn't just for neatness in fiction writing; it affects pacing. A comma will provide a short break in speech or events, a full stop will effect a longer break. Think about how fast things are happening (or how fast your POV – point of view – character is noticing events) and in what order they’re happening, and whether the events are causatively linked.</p>
           <p>Commas create a pause, slowing down your writing to a measured pace. Don’t slow down where you want to speed up, e.g:</p>
-          <p className='indent-text-1'>Suddenly, he ran from the room.</p>
+          <p className='indent-8 mb-2'>Suddenly, he ran from the room.</p>
           <p>A ‘comma splice’ does the opposite, linking two separate sentences together, it increases pace, e.g.</p>
-          <p className='indent-text-1'>Suddenly he ran from the room, making Mary jump.</p>
+          <p className='indent-8 mb-2'>Suddenly he ran from the room, making Mary jump.</p>
 
           <h4>18.2.2 	Sentences: </h4>
           <p>Some basic tips from Burnett and Burnett:
@@ -686,11 +686,11 @@ function TheNextWords() {
             <FootnoteRef text="George Orwell, Politics and The English Language." />
             <i>“Never use the passive where you can use the active.”</i>  The active voice will give your writing a sense of immediacy and flow, facilitating the reader’s engagement and interest. </p>
 
-          <p className='indent-text-1'><u>Passive voice:</u><i>The tents were taken by Jeff. The sleeping bags were taken by Mary.</i> </p>
-          <p className='indent-text-1'><u>Passive voice:</u><i>Jeff took the tents. Mary took the sleeping bags. </i> </p>
+          <p className='indent-8 mb-2'><u>Passive voice:</u><i>The tents were taken by Jeff. The sleeping bags were taken by Mary.</i> </p>
+          <p className='indent-8 mb-2'><u>Passive voice:</u><i>Jeff took the tents. Mary took the sleeping bags. </i> </p>
 
           <p>Ignoring Orwell’s hyperbole, know where the passive voice is more appropriate: where you suggest the subject is not acting, but being acted upon. Roy Clark says: <i>“Active verbs move the action and reveal the actors. Passive verbs emphasize the receiver, the victim.”</i><FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies For Every Writer." />  For instance:</p>
-          <p className='indent-text-1'><i>“The night was loaded with omens.” </i>
+          <p className='indent-8 mb-2'><i>“The night was loaded with omens.” </i>
             <FootnoteRef text="Travels with Charley: In Search of America, John Steinbeck." />
           </p>
           <p>You would not write “Omens loaded the night,” because though the night is the subject, the omens are the active force.</p>
@@ -722,7 +722,7 @@ function TheNextWords() {
 
           <p>The above is fairly basic and goes without saying, but descriptions can increasingly subtle or elaborate as you need them to be. Also, they should not attach to every single line of dialogue, otherwise the reader will fatigue of characters who read like they have attention deficits. In Stendahl’s <i>The Red and the Black</i> the frequency and specifity of detail in the descriptions surrounding dialogue are unprecedented to the extent of making characters sound mentally unbalanced (which I suspect was intentional). </p>
           <p>Here's an example of dialogue in a conversation:</p>
-          <p className='indent-text-1'> <i>"Our good Mrs. Dudley likes doors, doesn't she? She can certainly” -- and their eyes met -- "get out fast in any direction if she wants to."  </i> <FootnoteRef text="The Haunting of Hill House, Shirley Jackson." /></p>
+          <p className='indent-8 mb-2'> <i>"Our good Mrs. Dudley likes doors, doesn't she? She can certainly” -- and their eyes met -- "get out fast in any direction if she wants to."  </i> <FootnoteRef text="The Haunting of Hill House, Shirley Jackson." /></p>
           <p>The abrupt eye contact gives a sense not only that the protagonist's interest has been evoked by the latter part of the statement, but also of both characters thinking the same thing, and the possibility startles both of them, and an unspoken sense of unease communicated between the characters.</p>
 
           <h3 id="post-writing-cheats-and-hacks">18.3 Writing ‘cheats’ and ‘hacks’</h3>
@@ -730,16 +730,16 @@ function TheNextWords() {
           <h4>18.3.1 	Adding frustration by taking away grammar</h4>
           <p>When people get really riled up, their articulation suffers, their grammar suffers, and they are more likely to use the wrong word. You can therefore, suggest frustration by making fairly small grammatical, and forgivable, almost unnoticeable grammatical errors. It’s more effective if the character normally speaks in an average or educated way.</p>
           <p>This is a modified example from my own writing:</p>
-          <p className='indent-text-1'> <i>"That and all the work I've done is just a make believe."  </i> </p>
+          <p className='indent-8 mb-2'> <i>"That and all the work I've done is just a make believe."  </i> </p>
           <p>There are two small grammatical errors in the above: (1) starting ‘that and’ creates a sentence fragment; (2) ‘make believe’ is preceded by ‘a’ when it is an abstract noun, not a concrete noun. If you know this character is relatively intelligent, it makes more sense they are frustrated when they say this. In this way you create dialogue which could even avoid adverbs or dialogue tags which confirm his anger (e.g. ‘he said angrily’ or ‘he shouted’).</p>
           <p>Here’s another example (from a different source)
             <FootnoteRef text="Ghostgirl, Tonya Hurley." />
           </p>
 
-          <p className='indent-text-1'> <i>"But it's so farfetched. I keep trying to conjure up what kind of situation could produce this.”   </i> </p>
-          <p className='indent-text-1'> <i>“It couldn't be real," Lucy replied. "It'd have to be a group of some kind. A porn ring, maybe. Pedophiliacs?"    </i> </p>
-          <p className='indent-text-1'> <i>There was silence.    </i> </p>
-          <p className='indent-text-1'> <i>“Torey," Lucy said, her voice almost plaintive. I looked over. "This is Pecking, for Pete's sake. It's not like up in the city."    </i> </p>
+          <p className='indent-8 mb-2'> <i>"But it's so farfetched. I keep trying to conjure up what kind of situation could produce this.”   </i> </p>
+          <p className='indent-8 mb-2'> <i>“It couldn't be real," Lucy replied. "It'd have to be a group of some kind. A porn ring, maybe. Pedophiliacs?"    </i> </p>
+          <p className='indent-8 mb-2'> <i>There was silence.    </i> </p>
+          <p className='indent-8 mb-2'> <i>“Torey," Lucy said, her voice almost plaintive. I looked over. "This is Pecking, for Pete's sake. It's not like up in the city."    </i> </p>
           <p>Here, the unusual pronunciation of 'paedophiles' emphasises how out of depth and familiarity 'Lucy' is with the subject matter – paeodophiles evidently just don’t happen in her home town.</p>
           <p>Don’t overdo it – these techniques shouldn’t hit the reader in the face and cause them to read the sentence twice.</p>
 
@@ -789,7 +789,7 @@ function TheNextWords() {
           <p className="boldPurple">iii. Deny reader alternate interpretations </p>
           <p>Telling is more appropriate where you want to convey how unavoidably obvious an observation is, e.g.</p>
 
-          <p className='indent-text-1'> <i>Sanita looked shattered, utterly exhausted. Her face looked pale against the brightly coloured vest she wore, and her hair, usually one of her physical charms, was hanging limply across her face, stuck to her forehead and cheeks with dried sweat. She hadn’t even wanted to come to India in the first place, but had finally agreed just to be with me. </i> <FootnoteRef text="The Backpacker, John Harris." /></p>
+          <p className='indent-8 mb-2'> <i>Sanita looked shattered, utterly exhausted. Her face looked pale against the brightly coloured vest she wore, and her hair, usually one of her physical charms, was hanging limply across her face, stuck to her forehead and cheeks with dried sweat. She hadn’t even wanted to come to India in the first place, but had finally agreed just to be with me. </i> <FootnoteRef text="The Backpacker, John Harris." /></p>
           <p>Here, the unavoidable observation is that the protagonist's girlfriend 'Sanita' is miserable and it's the protagonist's fault, no matter what he thinks. The telling word is 'shattered,' which immediately leaves no room for subjective interpretation. The subsequent sentences ('Her face...') give us 'showing' description but its tied to the 'shattered' 'telling' description -- merely elaborating what being shattered looks like for Sanita, rather than allowing us to interpret her expression for ourselves. </p>
 
           <h4>18.3.3 	The ‘Triangle’</h4>
@@ -802,17 +802,17 @@ function TheNextWords() {
           <p>Sometimes you can break the above rule of invisibility (see: 13.2.5) and deliberately flout good English for a particular effect. See this example (Hemingway – who else?) the context for this is that the characters are driving in a car which struggles to get up a hill:</p>
 
           <p className="boldPurple">Example #1: Bad grammar: </p>
-          <p className='indent-text-1'> <i>The woods were gone; the road had left the river to climb; the radiator was boiling; the young man looked annoyedly and suspiciously at the steam and rusty water; the engine was grinding, with both Guy’s feet on the first-speed pedal, up and up, back and forth and up, and, finally, out level.<FootnoteRef text="Che Ti Dice La Patria?, Ernest Hemingway." /></i></p>
+          <p className='indent-8 mb-2'> <i>The woods were gone; the road had left the river to climb; the radiator was boiling; the young man looked annoyedly and suspiciously at the steam and rusty water; the engine was grinding, with both Guy’s feet on the first-speed pedal, up and up, back and forth and up, and, finally, out level.<FootnoteRef text="Che Ti Dice La Patria?, Ernest Hemingway." /></i></p>
           <p>This whole paragraph reads awkwardly, artificially, and laboriously (note the grammatically cumbersome ‘annoyedly and suspiciously’). But that’s what makes it effective. The paragraph is describing a car having trouble, to the characters’ frustration. The effort and frustration evoked by reading this paragraph mirrors the effort and frustration felt by the characters trying to get the car up the hill. Similarly, there is a sense of relief once the prose returns to the usual straightforward style afterwards.</p>
           <p>Here’s another example, not breaking good grammar, but deliberately reading awkwardly:</p>
 
           <p className="boldPurple">Example #2: Awkward prose: </p>
-          <p className='indent-text-1'> <i>She didn’t say anything. He was wearing blue jeans, a black leather jacket zipped to his throat, a long red wool scarf around his neck, and a Dodgers baseball cap. It was too hot a day for the leather jacket and scarf. She didn’t find that detail significant. It caught her attention, she touched it briefly and then let it go. She looked but did not see. They were standing on a curb. The meeting was in a community room across the boulevard. She wasn’t afraid yet.<FootnoteRef text="Tall Tales from the Mekong Delta, Kate Braverman." /> </i> </p>
+          <p className='indent-8 mb-2'> <i>She didn’t say anything. He was wearing blue jeans, a black leather jacket zipped to his throat, a long red wool scarf around his neck, and a Dodgers baseball cap. It was too hot a day for the leather jacket and scarf. She didn’t find that detail significant. It caught her attention, she touched it briefly and then let it go. She looked but did not see. They were standing on a curb. The meeting was in a community room across the boulevard. She wasn’t afraid yet.<FootnoteRef text="Tall Tales from the Mekong Delta, Kate Braverman." /> </i> </p>
           <p>The awkward part comes from the ‘they were standing on a curb’ which seems to come out of nowhere. The paragraph describes a woman being trailed by an odd and overly enthusiastic man, and the sentence ‘intrudes’ into the paragraph the way the man ‘intrudes’ into the woman’s space, evoking the sense of awkwardness and disquiet the woman feels.</p>
 
           <p className="boldPurple">Example #3: Irony </p>
           <p>Bad grammar can be used to communicate humour or facetiousness, teasing, or otherwise that the speaker is not being serious, e.g.</p>
-          <p className='indent-text-1'> <i>“You’re actually kind of beautiful/smart [etc].”    </i> </p>
+          <p className='indent-8 mb-2'> <i>“You’re actually kind of beautiful/smart [etc].”    </i> </p>
           <p>The above phrasing could communicate sarcasm, because the qualifier (‘kind of’) mitigates the compliment. This is also less obnoxious than the usual, tired technique of expressing sarcasm by italics.</p>
 
           <h4>18.3.5 	Projection  </h4>
@@ -829,7 +829,7 @@ function TheNextWords() {
           <p>The Periodic Sentence is a type of sentence structure where the main point of the sentence comes right at the end, so the sentence doesn’t read as complete/meaningful until you reach the final word. It’s a stylistic device for building suspense. You normally hear dramatic revelations delivered through periodic sentences. </p>
           <p><u>Examples:</u></p>
 
-          <p className='indent-text-1'>
+          <p className='indent-8 mb-2'>
             <p><i>That morning, after the thunder died and the hail stopped, and the bus made it along the rain-slicked roads, we finally got to school.</i></p>
             <p><i>Because of all the strange stories going around, I never went back to the house.</i></p>
             <p><i>While waiting at the station, it finally occurred to Joe that the train wasn’t going to arrive. </i></p>
@@ -898,15 +898,15 @@ function TheNextWords() {
           <p>This tip comes from David Carroll:
             <FootnoteRef text="A Manual of Writer's Tricks, David Carroll." />
           </p>
-          <p className='indent-text-1'> “After making a strategic or dramatic point, move away from your subject for a moment, then return with sudden force.”</p>
+          <p className='indent-8 mb-2'> “After making a strategic or dramatic point, move away from your subject for a moment, then return with sudden force.”</p>
           <p>The ‘moment’ may only last a sentence.</p>
 
           <h4>18.3.14 	Literalize Metaphors</h4>
           <p>You can build scenes and events from making literal metaphors; here's a really obvious example that you shouldn't actually use:</p>
           <p><u>Metaphor:</u></p>
-          <p className='indent-text-1'>My mother and father fought all the time, leaving me to pick up the pieces afterwards.</p>
+          <p className='indent-8 mb-2'>My mother and father fought all the time, leaving me to pick up the pieces afterwards.</p>
           <p><u>Literal:</u></p>
-          <p className='indent-text-1'>My mother picked up the figurine on the mantel and threw it at my father. It missed and crashed against the wall. I got down and began sweeping up the pieces.</p>
+          <p className='indent-8 mb-2'>My mother picked up the figurine on the mantel and threw it at my father. It missed and crashed against the wall. I got down and began sweeping up the pieces.</p>
 
           <h4>18.3.13 	Breaking Grammar</h4>
           <p>As to writing proscriptions: generally, never say never. Breaking a writing rule is always a choice at the discretion of the writer. There are reasons for, reasons against. You have to be smart enough to know the difference. Dreyer  provides exceptions to a list of common writing rules:<FootnoteRef text="Dreyer's English, Benjamin Dreyer." /></p>
@@ -927,12 +927,12 @@ function TheNextWords() {
 
           <p className="boldPurple">5. The Passive Voice Is to Be Avoided </p>
           <p>Maybe this was the case in William Strunk's time, but this rule is becoming more obselete by the day. </p>
-          <p className='indent-text-1'>'The floors were swept, the beds made, the rooms aired out.'</p>
+          <p className='indent-8 mb-2'>'The floors were swept, the beds made, the rooms aired out.'</p>
           <p>Passive voice is fine here <i>"[s]ince the point of interest is the cleanness of the house and not the identity of the cleaner."</i></p>
 
           <p className="boldPurple">6. Sentence Fragments. They're Bad </p>
           <p>Sometimes sentence fragments convey something -- abrupt, paramount, solemn, busy -- that would be lost in a properly formed sentence. Here's an example:</p>
-          <p className='indent-text-1'>Fog everywhere. Fog up the river, where it flows among green aits and meadows; fog down the river, where it rolls defiled among the tiers of shipping, and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on the yards, and hovering in the rigging of great ships; fog drooping on the gunwales of barges and small boats. Fog in the eyes and throats of ancient Greenwich pensioners, wheezing by the firesides of their wards; fog in the stem and bowl of the afternoon pipe of the wrathful skipper, down in his close cabin; fog cruelly pinching the toes and fingers of his shivering little apprentice boy on deck. Chance people on the bridges peeping over the parapets into a nether sky of fog, with fog all round them, as if they were up in a balloon, and hanging in the misty clouds.<FootnoteRef text="Bleak House, Charles Dickens." /></p>
+          <p className='indent-8 mb-2'>Fog everywhere. Fog up the river, where it flows among green aits and meadows; fog down the river, where it rolls defiled among the tiers of shipping, and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on the yards, and hovering in the rigging of great ships; fog drooping on the gunwales of barges and small boats. Fog in the eyes and throats of ancient Greenwich pensioners, wheezing by the firesides of their wards; fog in the stem and bowl of the afternoon pipe of the wrathful skipper, down in his close cabin; fog cruelly pinching the toes and fingers of his shivering little apprentice boy on deck. Chance people on the bridges peeping over the parapets into a nether sky of fog, with fog all round them, as if they were up in a balloon, and hanging in the misty clouds.<FootnoteRef text="Bleak House, Charles Dickens." /></p>
 
           <p className="boldPurple">7. A Person Must Be a 'Who' </p>
           <p>When you place a ‘that’ after a noun, you objectify it, alternatively, a ‘who’ after a noun personifies it.</p>

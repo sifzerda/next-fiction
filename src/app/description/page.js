@@ -100,7 +100,7 @@ function Description() {
           <p>For the trade to be feasible, your words must have value. Your words attain value according to the laws of supply and demand: when you limit supply, you raise demand. The more information you provide, the less value it will have. Writers who spill their guts immediately convey that their words have such little value they can be spilled without consequence (as the saying goes, ‘empty vessels make the most noise’). So ensure you don’t ramble or meander or flood the story with detail. This makes it seem you have the time to do so, implying your time is of little value. </p>
           <p>This requirement creates a paradox: your story must be packed with content, but withhold critical information, however, all the information you disclose must be important, whilst you can’t give away all the important information.</p>
           <p>The rule of Information Economy, simply is: </p>
-          <p className='indent-text-1'>Withhold all the information your reader wants.</p>
+          <p className='indent-8 mb-2'>Withhold all the information your reader wants.</p>
           <p>You raise and sustain an informational economy by:</p>
           <ol>
             <li>Early narrative should raise unrestricted promise;</li>
@@ -119,39 +119,39 @@ function Description() {
           <h4>11.3.2 	Le Mot Juste</h4>
           <p>Good description makes use of word poverty; getting the most mileage out of the least words. Here’s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn’t get a surprise? Good description makes use of word poverty; getting the most mileage out of the least words. Here’s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn’t get a surprise? </p>
           <p>Here’s an example:  </p>
-          <p className='indent-text-1'><i>The Television Centre...is a vision of the future with huge, glassed-in newsrooms, and reception areas that look like they've been hit with [a] pastel bomb...</i>
+          <p className='indent-8 mb-2'><i>The Television Centre...is a vision of the future with huge, glassed-in newsrooms, and reception areas that look like they've been hit with [a] pastel bomb...</i>
             <FootnoteRef text="Danny Wallace, Yes Man, (non-fiction)." />
           </p>
 
           <p>This description gives you an immediate, top-down sense of what the whole building looks like, particularly visually stimulating phrases like ‘vision of the future’ and ‘pastel bomb.’</p>
           <p>Another example:</p>
-          <p className='indent-text-1'><i>"The door opened finally on a forbiddingly dark and chilly vestibule."</i>
+          <p className='indent-8 mb-2'><i>"The door opened finally on a forbiddingly dark and chilly vestibule."</i>
             <FootnoteRef text="Claudia Osborne, Over My Head, (non-fiction)." />
           </p>
 
           <p>'Dark' and 'chilly' both do separate work, and the unusual word choice in 'vestibule' is more effective than 'room' 'corridor' or 'hallway' by carrying a sense of medieval oldness, like a chamber.</p>
           <p>There are two adverbs: finally and forbiddingly. Without them, the sentence is:</p>
 
-          <p className='indent-text-1'><i>"The door opened on a dark and chilly vestibule."</i></p>
+          <p className='indent-8 mb-2'><i>"The door opened on a dark and chilly vestibule."</i></p>
           <p>Forbiddingly could have been dropped (as a dark, chilly place is forbidding by implication), but there's an argument for the necessity of 'finally', it suggests the protagonist has come a long way thus far, and this is the last stop, whether they like it or not. This is the resting place. Without 'finally' you lose that connotation, and it would cause the reader to wonder what the protagonist is doing here. 'Finally' suggests the answer: the protagonist has come a long way. They need to rest; this place had better do.</p>
           <p>Out of curiousity, the word's place in the sentence is critical as well. We can't rearrange the word:</p>
-          <p className='indent-text-1'><i>"Finally, the door opened on a dark and chilly vestibule."</i></p>
+          <p className='indent-8 mb-2'><i>"Finally, the door opened on a dark and chilly vestibule."</i></p>
 
           <p>The problem with this structure is it suggests the protagonist is relieved to reach this place, which is the opposite of the desired effect. Plus, it&apos;s not the protagonist who is thinking &apos;finally&apos; but the act the of the door opening which suggests an ominous &apos;final&apos; destination.</p>
           <p>Changing the location of a single word can make a huge difference. Example:</p>
-          <p className='indent-text-1'><i>The tommy gun fit weirdly into a violin case, making a gangster look like he was going to a music recital.</i>
+          <p className='indent-8 mb-2'><i>The tommy gun fit weirdly into a violin case, making a gangster look like he was going to a music recital.</i>
             <FootnoteRef text="William Elliott Hazelgrove, Shots Fired in Terminal 2: A Witness to the Fort Lauderdale Shooting Reflects on America's Mass Shooting Epidemic, (non-fiction)" />
           </p>
           <p>The problem word here is 'weirdly'; its location makes it sound like the positioning of the gun in the violin case is awkward, though we know from context what is in fact weird is the gun being in the case at all.   </p>
           <p>A better sentence might be:</p>
 
-          <p className='indent-text-1'><i>The tommy gun, weirdly, fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
+          <p className='indent-8 mb-2'><i>The tommy gun, weirdly, fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
           <p>Or:</p>
-          <p className='indent-text-1'><i>Weirdly, the tommy gun fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
+          <p className='indent-8 mb-2'><i>Weirdly, the tommy gun fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
           <p>Note, there’s an argument that the word ‘weirdly’ didn’t need to be in the sentence at all; after all, it’s implied that a gun in a violin case is weird.</p>
           <h5>11.3.3 	Implication by Imagery</h5>
           <p>Here’s an example of the above rule:</p>
-          <p className='indent-text-1'>The main street of Starbuck is deserted, save four men in hunting camo outside Archie's Meats and Groceries, loading paper bundles of bloody meat into the back of a pickup truck. Only the store and hotel restaurant appear to be open.
+          <p className='indent-8 mb-2'>The main street of Starbuck is deserted, save four men in hunting camo outside Archie's Meats and Groceries, loading paper bundles of bloody meat into the back of a pickup truck. Only the store and hotel restaurant appear to be open.
             <FootnoteRef text="Tom Jolkinen, Curtains, (note: this is non-fiction)." />
           </p>
           <p>Hopefully you have a picture of the scene in your mind. Consider this image for a moment. If you’re like me, you would have pictured a regional street (as opposed to a CBD) maybe even rural or remote, sparsely built up. Yet nothing in the paragraph explicitly says that. </p>
@@ -214,31 +214,31 @@ function Description() {
           </ol>
 
           <p>Here’s a clear example of a similie doing work direct description can not:</p>
-          <p className='indent-text-1'><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i><FootnoteRef text="Autobiography of a Face, Lucy Grealy." /></p>
+          <p className='indent-8 mb-2'><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i><FootnoteRef text="Autobiography of a Face, Lucy Grealy." /></p>
           <p>This provides a vivid picture of the room and the lighting and is more dynamic than saying the room is a dim, intrusive, murky, heavy, oppressive, yellowy-green.</p>
           <p>If you do decide to use figures of speech, here are some general rules for using them properly and effectively. </p>
 
           <h4>11.5.1 	Metaphors alter, Similies add to</h4>
           <p>Generally, a metaphor does not need to be ‘like’ the thing you describe (it could even be starkly different), as long as it puts the right picture in your reader’s mind. A metaphor can significantly change the way your reader might have otherwise imagined something. Similes, however, generally do need to be like the thing you describe, aiming to clarify it and add greater detail – </p>
-          <p className='indent-text-1'><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i><FootnoteRef text="Ghost House, Alexandra Adornetto." /></p>
+          <p className='indent-8 mb-2'><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i><FootnoteRef text="Ghost House, Alexandra Adornetto." /></p>
           <p>Here, the thing (the name ‘Isobel’) is not like the simile (the tolling of a bell). Even if you argue that the phoneme ‘bel’ onomatopoeically sounds like the clang of a bell, you have to selectively ignore the other two syllables ‘Is’ and ‘o’. </p>
 
           <h4>11.5.2 	High-fidelity</h4>
           <p>The similarity has to be crystal clear to the reader, not strained or contorted. By using a figure of speech instead of a plain description, you are implying that it is a higher fidelity description of the thing even than describing the thing itself directly. ‘Good enough’ is not good enough – </p>
-          <p className='indent-text-1'><i>Rory’s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i><FootnoteRef text="Ghost House, Alexandra Adornetto." /></p>
+          <p className='indent-8 mb-2'><i>Rory’s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i><FootnoteRef text="Ghost House, Alexandra Adornetto." /></p>
           <p>The sound of teeth clattering does not have enough fidelity to coins falling on a wooden floor to justify this simile. Coins falling on a wooden floor is a racket; teeth chattering is not. It’s a simile that has to be contorted in the mind to work.</p>
 
           <h4>11.5.3 	Tone consistency</h4>
           <p>A figure of speech should keep in tone with the thing being described:</p>
-          <p className='indent-text-1'><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i> <FootnoteRef text="Down Around Midnight, Robert Sabbag." /> </p>
+          <p className='indent-8 mb-2'><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i> <FootnoteRef text="Down Around Midnight, Robert Sabbag." /> </p>
 
           <p>Here, this overly-romantic similie is actually talking about being triggered by PTSD, inappropriately conveying that PTSD is pleasurable.</p>
           <p>A tonally dissonant figure of speech may convey satirical/ironic/humourous purpose – this is called ‘Bathos’. Here’s an intentional example: </p>
-          <p className='indent-text-1'>The ballerina rose gracefully en pointe and extended one slender leg behind her, like a dog at a fire hydrant.  </p>
+          <p className='indent-8 mb-2'>The ballerina rose gracefully en pointe and extended one slender leg behind her, like a dog at a fire hydrant.  </p>
 
           <h4>11.5.4 	Relatable</h4>
           <p>A figure of speech will fail if the reader doesn’t know what you’re talking about. Figures of speech should not contain exclusive, unusual things that only few people have experienced (least of all the writer): </p>
-          <p className='indent-text-1'><i>I felt like I was wading into uncharted waters without a life raft.</i> <FootnoteRef text="Ghost House, Alexandra Adornetto." /> </p>
+          <p className='indent-8 mb-2'><i>I felt like I was wading into uncharted waters without a life raft.</i> <FootnoteRef text="Ghost House, Alexandra Adornetto." /> </p>
           <p>I’ve never waded into ‘uncharted waters’ without a life raft (and I suspect the author never has, either), so this simile is already bad. It’s also a cliché.</p>
 
           <h3 id="post-the-hierarchy-of-best-description">11.6: The Hierarchy of Best Description</h3>
@@ -268,12 +268,12 @@ function Description() {
           <h3 id="post-break-up-adjectives">11.7: Break Up Adjectives</h3>
           <p>Let's say you want to describe something in particular detail and you need to use numerous adjectives to get the description sufficiently specific. Instead of saying: 'A forest of huge, gnarled, grey, straight, balding oak trees.' </p>
           <p>Let's say there's no adjective you can delete in that sentence without removing some essential meaning. You should break adjectives up into separate sentences, like this: </p>
-          <p className='indent-text-1'><i>A forest of gnarled grey pine. Their branches reached up straight some twenty metres into the sky. Although mostly balding, a number of them still bore flowers.</i></p>
+          <p className='indent-8 mb-2'><i>A forest of gnarled grey pine. Their branches reached up straight some twenty metres into the sky. Although mostly balding, a number of them still bore flowers.</i></p>
           <p>Make sure each sentence refers to a separate sub-topic; for instance, above, the first sentence gives a general overview of what the collective looks like: an oak forest. The next sentence focuses on the height of the oaks. The third sentence focuses on the seasonal stage of the oaks; the fact they don't have many leaves is not due to being winter, but from age, because they still flower.</p>
 
           <h3 id="post-how-frequent-should-description-be">11.8: How Frequent Should Description Be?</h3>
           <p>As a reliable, general rule, Sol Stein  gives the advice to break up every three sentences of dialogue with a description (of character, or setting, etc). He says:</p>
-          <p className='indent-text-1'>“Most exchanges in dialogue should be brief. A speech should be not more than three sentences. If a speech has to run longer, break it up with interruptions from other speakers or by an action or a thought.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
+          <p className='indent-8 mb-2'>“Most exchanges in dialogue should be brief. A speech should be not more than three sentences. If a speech has to run longer, break it up with interruptions from other speakers or by an action or a thought.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
 
           <h3 id="post-make-the-abstract-concrete">11.9: Make the Abstract Concrete</h3>
           <p>If you're a stickler for the 'show don't tell' rule (ideally, all writers should be), you may hate writing scenes with one character feeling emotions and feel resigned to writing those emotions.</p>
@@ -281,7 +281,7 @@ function Description() {
           <p>Example: A character is going somewhere and feels anxious/nervous about getting to the destination (e.g. an exam). Rather than say 'Protagonist felt anxious...' maybe it has been raining and the soil path has turned mushy (providing a tiny physical obstacle). If by car, their preferred road is blocked or slowed by construction works, and they opt for a road that has potholes. This will make the reader groan with empathy.</p>
           <p>Make it a bit unusual so the reader doesn't immediately catch on. Making it rain because the protagonist is sad, or thunder when angry, is too obvious.</p>
           <p>Here is an example:</p>
-          <p className='indent-text-1'><i>The sight of water, limpid, pale, was a soothing contrast to the fierce sun above their heads.</i><FootnoteRef text="Don't Look Now, Daphne Du Maurier." /></p>
+          <p className='indent-8 mb-2'><i>The sight of water, limpid, pale, was a soothing contrast to the fierce sun above their heads.</i><FootnoteRef text="Don't Look Now, Daphne Du Maurier." /></p>
           <p>At this point in the story, the main character feels a mixture of sadness and anger. Rather than merely state that -- which would not evoke the feelings -- the description of colourless, tepid water evokes the sadness, while the blazing, glaring sun evokes the anger.</p>
 
           <h3 id="post-describe-things-as-other-things">11.10: Describe Things as Other Things</h3>
@@ -532,9 +532,9 @@ function Description() {
           <h3 id="post-description-in-action">11.19: Description in Action</h3>
           <p>Description should strive to effect ‘action’ as much as possible, occurring <strong>presently</strong> rather than in the past. Even a simple, trivial, innocuous gesture (see below example) will sound more dynamic and interesting if presented as if happening, rather than having happened. A sense of change, movement, and activity is preferred than a static, unchanging, unmoving scene. </p>
           <p>Example (paraphrased from an actual novel):<FootnoteRef text="Disclosure, Michael Crichton." /></p>
-          <p className="indent-text-1">Her legs were crossed, one expensive leather heel aloft.</p>
+          <p className="indent-8 mb-2">Her legs were crossed, one expensive leather heel aloft.</p>
           <p>Fixed example:</p>
-          <p className="indent-text-1">She crossed her legs, raising one expensive leather heel into the air.</p>
+          <p className="indent-8 mb-2">She crossed her legs, raising one expensive leather heel into the air.</p>
           <p>Rather than use the above description to punctuate a still, lifeless scene, a skilful writer will use such a description to further punctuate an already moving, changing scene, or charged dialogue, emphasizing a sense of direction change or momentum and motion.</p>
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}

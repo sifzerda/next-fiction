@@ -251,7 +251,7 @@ PAGES TO DO:
 - [x] the first words
 - [x] the next words
 - [x] the last words
-- [ ] writing devices + writer's block
+- [x] writing devices + writer's block
 - [ ] marketing: title + synopsis + logline
 - [ ] references
 

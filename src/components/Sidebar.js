@@ -28,19 +28,15 @@ function Sidebar() {
     { href: '/theNextWords', label: 'The Next Words' },
     { href: '/theLastWords', label: 'The Last Words' },
     { href: '/writingDevices', label: 'Writing Devices' },
-    { href: '/writersBlock', label: 'Writers Block [X]' },
     { href: '/editing', label: 'Editing' },
     { href: '/marketing', label: 'Marketing' },
-    { href: '/title', label: 'Title [X]' },
-    { href: '/logline', label: 'Logline [X]' },
-    { href: '/synopsis', label: 'Synopsis [X]' },
     { href: '/references', label: 'References' },
   ];
 
   return (
     <aside role="complementary" className="
-    w-full bg-bootstrapDark text-llBlue p-4 z-10 flex flex-col items-center gap-4 pt-32 
-    sm:w-56 sm:h-screen sm:fixed sm:top-0 sm:left-0 sm:items-start sm:pt-28 sm:border-r-2 sm:border-yellow
+    w-full bg-bootstrapDark text-llBlue p-4 z-10 flex flex-col items-center gap-4 pt-52 
+    sm:pt-28 sm:w-56 sm:h-screen sm:fixed sm:top-0 sm:left-0 sm:items-start sm:pt-28 sm:border-r-2 sm:border-yellow
     border border-llBlue">
       <nav className="w-full">
         <h2 className="text-yellow text-lg font-semibold mb-1 text-center sm:text-left sm:mt-6">Index</h2>

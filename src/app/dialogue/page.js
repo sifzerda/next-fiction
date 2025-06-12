@@ -265,7 +265,7 @@ function Dialogue() {
           <p>Introducing even more complexity: Information asymmetry.</p>
           <p>This is a term I’ve borrowed from economics, but the general concept is useful for writing purposes. In the context of fiction, information asymmetry is where different characters possess significant differences in information.</p>
           <u>Example #1</u>
-          <p className='indent-text-1'>Two friends, A and B, are talking on the phone about a third person, C. A knows B is infatuated with C, and tries to arrange a date between them by going out as a threesome, and then ducking out at the last minute (leaving B and C alone together). B knows he/she likes C (i.e. as a friend), but doesn’t know he/she loves C (or self-denial). B also doesn’t know that C is standing right next to A during the phone call, and the phone is on loudspeaker. C likes B but doesn’t know how B feels about them. </p>
+          <p className='indent-8 mb-2'>Two friends, A and B, are talking on the phone about a third person, C. A knows B is infatuated with C, and tries to arrange a date between them by going out as a threesome, and then ducking out at the last minute (leaving B and C alone together). B knows he/she likes C (i.e. as a friend), but doesn’t know he/she loves C (or self-denial). B also doesn’t know that C is standing right next to A during the phone call, and the phone is on loudspeaker. C likes B but doesn’t know how B feels about them. </p>
           <p>Sol Stein calls this ‘The Actors Studio technique’, and refers to ‘information’ as ‘scripts’: </p>
 
           <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
@@ -309,14 +309,14 @@ function Dialogue() {
           <p>When you read dialogue it potentially contains two kinds of information: the content (what is uttered), and the description (how it’s uttered). </p>
           <p>e.g – </p>
 
-          <p className='indent-text-1'><strong>"What are you doing?!"</strong>[(1) content]<strong> she screamed.</strong> [(2) NS description]</p>
+          <p className='indent-8 mb-2'><strong>"What are you doing?!"</strong>[(1) content]<strong> she screamed.</strong> [(2) NS description]</p>
           <p>In this example, the eye is drawn to two sources to get information (1) and (2) – and the second doesn’t tell you anything you didn’t already know. This is less efficient than if it only had to look at one source, which you can do (and should try to do) if you use said.</p>
           <p>e.g – </p>
-          <p className='indent-text-1'>"What are you doing?!" she screamed.</p>
+          <p className='indent-8 mb-2'>"What are you doing?!" she screamed.</p>
           <p>In the above example, ‘said’ doesn’t tell us anything so we’re restricted to examining the dialogue itself for information. It already tells us she screams because you can’t imagine someone saying the above without screaming or yelling or otherwise. So ‘she screamed’ – or similar – is redundant. </p>
           <p>You want to get into a mindset where NS are detrimental. For instance, imagine using ‘said’ is free, but NS cost money, $1.00 each, or $100.00, whatever makes you disinclined to use them. This will make you try to pack as many clues about the way speech is conveyed into the dialogue itself. This will make your dialogue more punchy and interesting. </p>
           <p>You should only use a NS when ‘said’ does not convey what you intend. This may be where a character is being ironic or humourous. But even that’s debatable, e.g. – </p>
-          <p className='indent-text-1'>“You should only use a NS when ‘said’ doesn’t convey what you intend,” I said. “Or your character is called ‘Said’.”</p>
+          <p className='indent-8 mb-2'>“You should only use a NS when ‘said’ doesn’t convey what you intend,” I said. “Or your character is called ‘Said’.”</p>
 
           <p>Here is a scene just in dialogue. Notice how you can hear the tones of voice just by the wording alone, absent attribution:<FootnoteRef text="Prey, Michael Crichton." /></p>
 
