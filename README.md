@@ -238,7 +238,9 @@ npm install fuse.js
 
 //===========================================================//
 
-ADD IDs to pages to find chunks via search
+ADD IDs to pages to find chunks via search (optional)
+
+- once page content all finished, reIndex with extract-text.js
 
 PAGES TO DO:
 
