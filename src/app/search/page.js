@@ -122,35 +122,53 @@ export default function SearchResultsPage() {
             useExtendedSearch: true,
           });
 
-          filtered = fuse.search(`'${rawQuery}`).map(({ item, matches }) => {
-            // Limit content snippet length per result to avoid large blocks
-            let snippet = item.content || "";
-            let matchesAdjusted = matches || [];
+filtered = [];
 
-            // If content match exists, trim content to snippet around first content match
-            const contentMatch = matchesAdjusted.find((m) => m.key === "content");
-            if (contentMatch && item.content) {
-              const [start, end] = contentMatch.indices[0];
-              const { snippet: s, offset } = createSnippet(item.content, start, end, 100);
-              snippet = s;
-              // Adjust match indices to snippet offsets
-              matchesAdjusted = matchesAdjusted.map((m) => {
-                if (m.key === "content") {
-                  return {
-                    ...m,
-                    indices: m.indices.map(([s, e]) => [s - offset, e - offset]),
-                  };
-                }
-                return m;
-              });
-            }
+fuse.search(`'${rawQuery}`).forEach(({ item, matches }) => {
+  if (!matches) {
+    // No matches info, push whole item as is
+    filtered.push(item);
+    return;
+  }
 
-            return {
-              ...item,
-              content: snippet,
-              matches: matchesAdjusted,
-            };
-          });
+  // Handle content matches: one result per match snippet
+  const contentMatches = matches.filter((m) => m.key === "content");
+  contentMatches.forEach((contentMatch) => {
+    if (!item.content) return;
+
+    // For each individual match range in indices, create separate entries
+    contentMatch.indices.forEach(([start, end]) => {
+      const { snippet, offset } = createSnippet(item.content, start, end, 100);
+
+      // Adjust indices to snippet-relative
+      const adjustedIndices = [[start - offset, end - offset]];
+
+      // Include other matches too, but adjust only content matches that fall into snippet? Optional
+      // Here, just add the single content match for highlight simplicity
+
+      filtered.push({
+        ...item,
+        content: snippet,
+        matches: [{ key: "content", indices: adjustedIndices }],
+      });
+    });
+  });
+
+  // Handle title matches as separate entries
+  const titleMatches = matches.filter((m) => m.key === "title");
+  titleMatches.forEach((titleMatch) => {
+    filtered.push({
+      ...item,
+      content: "", // no content snippet
+      matches: [titleMatch],
+    });
+  });
+
+  // If no content or title matches? Just push the item once
+  if (contentMatches.length === 0 && titleMatches.length === 0) {
+    filtered.push(item);
+  }
+});
         }
 
         // Group by route with separate entries per match
