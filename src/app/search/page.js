@@ -1,57 +1,162 @@
-'use client';
+"use client";
 
-import { useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import Fuse from 'fuse.js';
-import Link from 'next/link';
-import Layout from '../../components/Layout';
+import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
+import Fuse from "fuse.js";
+import Link from "next/link";
+import Layout from "../../components/Layout";
 
-// Helper to highlight matches (same as before)
+// Highlight matched substrings
 function highlightMatches(text, matchesForKey) {
-  if (!matchesForKey) return text;
+  if (!matchesForKey || matchesForKey.length === 0) return text;
 
   let lastIndex = 0;
   const parts = [];
 
-  const indices = matchesForKey.flatMap(m => m.indices);
+  // Flatten all indices to highlight
+  const indices = matchesForKey.flatMap((m) => m.indices);
   indices.sort((a, b) => a[0] - b[0]);
 
   for (const [start, end] of indices) {
     if (start > lastIndex) parts.push(text.slice(lastIndex, start));
-    parts.push(<mark key={start} className="bg-hYellow text-black">{text.slice(start, end + 1)}</mark>);
+    parts.push(
+      <mark key={start} className="bg-hYellow text-black">
+        {text.slice(start, end + 1)}
+      </mark>
+    );
     lastIndex = end + 1;
   }
-  if (lastIndex < text.length) parts.push(text.slice(lastIndex));
 
+  if (lastIndex < text.length) parts.push(text.slice(lastIndex));
   return parts;
+}
+
+// Find all instances of exact substring in text for highlighting
+function findIndices(text, query) {
+  const indices = [];
+  const lowerText = text.toLowerCase();
+  const lowerQuery = query.toLowerCase();
+  let index = 0;
+
+  while ((index = lowerText.indexOf(lowerQuery, index)) !== -1) {
+    indices.push([index, index + query.length - 1]);
+    index += query.length;
+  }
+
+  return indices.length > 0 ? [{ indices }] : [];
+}
+
+// Utility to create a snippet limited in length centered on match
+function createSnippet(text, start, end, snippetLength = 100) {
+  const snippetHalf = Math.floor(snippetLength / 2);
+  const snippetStart = Math.max(0, start - snippetHalf);
+  const snippetEnd = Math.min(text.length, end + snippetHalf);
+  return {
+    snippet: text.slice(snippetStart, snippetEnd),
+    offset: snippetStart,
+  };
 }
 
 export default function SearchResultsPage() {
   const searchParams = useSearchParams();
-  const query = searchParams.get('q') || '';
+  const query = searchParams.get("q") || "";
   const [resultsByRoute, setResultsByRoute] = useState(null);
 
   useEffect(() => {
-    if (!query.trim()) {
+    if (!query.trim() || query.trim().length < 2) {
       setResultsByRoute(null);
       return;
     }
 
-    fetch('/searchIndex.json')
-      .then(res => res.json())
-      .then(data => {
-        const fuse = new Fuse(data, {
-          keys: ['title', 'content'],
-          threshold: 0.5,
-          ignoreLocation: true,
-          includeMatches: true,
-          findAllMatches: true,
-        });
+    fetch("/searchIndex.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const isExact = query.startsWith('"') && query.endsWith('"');
+        const rawQuery = isExact ? query.slice(1, -1).trim() : query.trim().toLowerCase();
 
-        const searchResults = fuse.search(query);
-        const grouped = searchResults.reduce((acc, { item, matches }) => {
+        if (!rawQuery) {
+          setResultsByRoute(null);
+          return;
+        }
+
+        let filtered = [];
+
+        if (isExact) {
+          data.forEach((item) => {
+            // Exact matches in content
+            const contentMatches = findIndices(item.content || "", rawQuery);
+            contentMatches.forEach((match) => {
+              const [start, end] = match.indices[0];
+              const { snippet, offset } = createSnippet(item.content || "", start, end, 100);
+              filtered.push({
+                ...item,
+                content: snippet,
+                matches: [{ key: "content", indices: [[start - offset, end - offset]] }],
+              });
+            });
+
+            // Exact matches in title (each a separate result)
+            if (item.title?.toLowerCase().includes(rawQuery)) {
+              const titleMatches = findIndices(item.title, rawQuery);
+              titleMatches.forEach((tm) => {
+                filtered.push({
+                  ...item,
+                  content: "", // no snippet needed for title-only match
+                  matches: [{ key: "title", indices: tm.indices }],
+                });
+              });
+            }
+          });
+        } else {
+          // Fuzzy search with Fuse.js
+          const fuse = new Fuse(data, {
+            keys: [
+              { name: "title", weight: 0.7 },
+              { name: "content", weight: 0.3 },
+            ],
+            threshold: 0.2,
+            distance: 100,
+            ignoreLocation: true,
+            includeMatches: true,
+            minMatchCharLength: 3,
+            useExtendedSearch: true,
+          });
+
+          filtered = fuse.search(`'${rawQuery}`).map(({ item, matches }) => {
+            // Limit content snippet length per result to avoid large blocks
+            let snippet = item.content || "";
+            let matchesAdjusted = matches || [];
+
+            // If content match exists, trim content to snippet around first content match
+            const contentMatch = matchesAdjusted.find((m) => m.key === "content");
+            if (contentMatch && item.content) {
+              const [start, end] = contentMatch.indices[0];
+              const { snippet: s, offset } = createSnippet(item.content, start, end, 100);
+              snippet = s;
+              // Adjust match indices to snippet offsets
+              matchesAdjusted = matchesAdjusted.map((m) => {
+                if (m.key === "content") {
+                  return {
+                    ...m,
+                    indices: m.indices.map(([s, e]) => [s - offset, e - offset]),
+                  };
+                }
+                return m;
+              });
+            }
+
+            return {
+              ...item,
+              content: snippet,
+              matches: matchesAdjusted,
+            };
+          });
+        }
+
+        // Group by route with separate entries per match
+        const grouped = filtered.reduce((acc, item) => {
           if (!acc[item.url]) acc[item.url] = [];
-          acc[item.url].push({ ...item, matches });
+          acc[item.url].push(item);
           return acc;
         }, {});
 
@@ -105,38 +210,48 @@ export default function SearchResultsPage() {
       {/* Banner */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">
-          Search results for "{query}" ({totalResults} {totalResults === 1 ? 'result' : 'results'})
+          Search results for "{query}" ({totalResults} {totalResults === 1 ? "result" : "results"})
         </h1>
       </div>
 
-      {/* Results Section */}
-      <section className="w-full max-w-screen-xl mx-auto mt-6 px-6 text-black flex flex-col gap-8">
-        {Object.entries(resultsByRoute).map(([url, items]) => (
-          <article key={url} className="bg-white rounded shadow p-4 border border-gray-300">
-            <h2 className="text-xl font-semibold mb-3">
-              <Link href={url} className="text-blue-600 hover:underline break-words">
-                {url}
-              </Link>{' '}
-              <span className="text-gray-600 text-sm">
-                ({items.length} {items.length === 1 ? 'match' : 'matches'})
-              </span>
+      {/* Results grouped by route */}
+      <section className="w-full max-w-screen-xl mx-auto mt-6 px-6 text-black flex flex-col gap-10">
+        {Object.entries(resultsByRoute).map(([url, matches]) => (
+          <div key={url}>
+            <h2 className="text-lg font-bold text-blue-700 underline mb-4 break-words">
+              <Link href={url}>{url}</Link>
             </h2>
 
-            <ul className="list-disc list-inside space-y-2">
-              {items.map(({ title, content, url, matches }, i) => {
-                const titleMatches = matches?.filter(m => m.key === 'title');
-                const contentMatches = matches?.filter(m => m.key === 'content');
+            <div className="flex flex-col gap-6">
+              {matches.map((match, i) => {
+                const titleMatches = match.matches?.filter((m) => m.key === "title");
+                const contentMatches = match.matches?.filter((m) => m.key === "content");
+
                 return (
-                  <li key={i}>
-                    <Link href={url} className="block text-blue-700 hover:underline">
-                      <strong>{highlightMatches(title, titleMatches)}</strong>:{" "}
-                      {highlightMatches(content.slice(0, 150), contentMatches)}...
-                    </Link>
-                  </li>
+                  <article
+                    key={i}
+                    className="bg-white border border-gray-300 rounded-xl shadow p-4"
+                  >
+                    <h3 className="text-base font-semibold mb-1">
+                      <Link
+                        href={match.url}
+                        className="text-blue-600 hover:underline break-words"
+                      >
+                        {highlightMatches(match.title, titleMatches)}
+                      </Link>
+                    </h3>
+                    {match.content && (
+                      <p className="text-sm text-gray-800">
+                        <Link href={match.url} className="hover:underline">
+                          {highlightMatches(match.content, contentMatches)}...
+                        </Link>
+                      </p>
+                    )}
+                  </article>
                 );
               })}
-            </ul>
-          </article>
+            </div>
+          </div>
         ))}
       </section>
     </Layout>
