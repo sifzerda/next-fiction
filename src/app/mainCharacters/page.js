@@ -32,7 +32,7 @@ function MainCharacters() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 
@@ -708,10 +708,6 @@ function MainCharacters() {
           a character who is passive is "effectively dead." A character is passive if they don't want anything. If they don't want anything, they have no reason to act.</p>
         <p><span className="underline">Tangible Want:</span> the want must be defined enough (by object, event, person, date, time, quantity, etc) so that it's clear to the reader when the protagonist has achieved it. A clearly defined want such as 'save my best friend,' is effective, whereas 'save the world,' is too general.</p>
         <p><span className="underline">Effect:</span> 'want' comes from Old English 'vant' meaning 'absence' or 'lacking.' The absence of the thing must weigh on the protagonist in some palpable way, e.g. cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize, it changes them or their life in some corresponding way. The object itself doesn't need to be big or dramatic as long as its effect or consequences would be significant.</p>
- 
-
-
-
 
         <hr className="my-6 border-t border-gray-400" />
         <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
@@ -723,18 +719,20 @@ function MainCharacters() {
         <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
       </div>
 
-      {/* Vertical Boxes on the Right */}
-      <div className="flex flex-col gap-4">
-        {/* About Box */}
-        <div className="w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+        {/* Vertical Boxes on the Right */}
+        <div className="flex flex-col gap-4 items-center md:items-start">
+          {/* About Box */}
+          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
           <div className="font-semibold mb-1 text-yellow">About</div>
           <p className="font-source-code-pro text-xs mt-1">The main characters are those most critically affected by the plot, with the most at stake.</p>
         </div>
 
-        {/* Index Box */}
-        <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-          <div className="font-semibold mb-1 text-yellow">Index</div>
-          <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+           {/* Index Box */}
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+            <div className="font-semibold mb-1 text-yellow">Index</div>
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
             <li className="mb-px">
               <a href="#post-the-people-with-the-most-at-stake" className="hover:underline hover:text-white">7.1: The People with the Most at Stake</a>
             </li>
@@ -819,9 +817,12 @@ function MainCharacters() {
         </div>
 
         {/* Also See Box */}
-        <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-          <div className="font-semibold mb-1 text-yellow">Also See</div>
-          <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+
+            <div className="font-semibold mb-1 text-yellow">Also See</div>
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
             <li className="mb-px">
               <a href="/secondaryCharacters" className="hover:underline hover:text-white">Secondary Characters</a>
             </li>

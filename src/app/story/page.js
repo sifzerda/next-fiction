@@ -49,7 +49,7 @@ function Story() {
             He says the essence of storytelling is the ability to evoke a story with a single, silent image. That is the basis of what a storyteller is trying to do.
           </p>
 
-          <h3 id="post-what-is-astory" className="mb-2 font-semibold">1.2 What is a Story?</h3>
+          <h3 id="post-what-is-a-story" className="mb-2 font-semibold">1.2 What is a Story?</h3>
 
           <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.2.2 The Opposite of Expectation</h4>
 
@@ -435,74 +435,46 @@ function Story() {
           <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
         </div>
 
-{/* Vertical Boxes on the Right */}
-<div className="flex flex-col gap-4 items-center md:items-start">
-  {/* About Box */}
-  <div
-    id="about-box"
-    className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left"
-  >
-    <div className="font-semibold mb-1 text-yellow">About</div>
-    <p className="font-source-code-pro text-xs mt-1">
-      A story is a collection of events which altogether create a meaningful whole that is greater than the sum of its parts.
-    </p>
-  </div>
+        {/* Vertical Boxes on the Right */}
+        <div className="flex flex-col gap-4 items-center md:items-start">
+          {/* About Box */}
+          <div
+            id="about-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+            <div className="font-semibold mb-1 text-yellow">About</div>
+            <p className="font-source-code-pro text-xs mt-1">A story is a collection of events which altogether create a meaningful whole that is greater than the sum of its parts.</p>
+          </div>
 
- {/* Index Box */}
-  <div
-    id="index-box"
-    className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left"
-  >
-    <div className="font-semibold mb-1 text-yellow">Index</div>
-    <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-      <li className="mb-px">
-        <a href="#post-storytelling" className="hover:underline hover:text-white">1.1 Storytelling</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-what-is-a-story" className="hover:underline hover:text-white">1.2 What Is A Story?</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-main-elements-of-story" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-joseph-campbell-myths" className="hover:underline hover:text-white">1.5 Joseph Campbell&#39;s Myths</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-myths-and-misconceptions" className="hover:underline hover:text-white">1.6 Myths and Misconceptions</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-philosophy-of-story" className="hover:underline hover:text-white">1.7 The Philosophy of Storytelling</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-medium" className="hover:underline hover:text-white">1.8 Medium</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-pixar-storytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a>
-      </li>
-      <li className="mb-px">
-        <a href="#post-story-comments" className="hover:underline hover:text-white">Comments</a>
-      </li>
-    </ol>
-  </div>
+          {/* Index Box */}
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+            <div className="font-semibold mb-1 text-yellow">Index</div>
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
+              <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">1.1 Storytelling</a></li>
+              <li className="mb-px"><a href="#post-what-is-a-story" className="hover:underline hover:text-white">1.2 What Is A Story?</a></li>
+              <li className="mb-px"><a href="#post-main-elements-of-story" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a></li>
+              <li className="mb-px"><a href="#post-joseph-campbell-myths" className="hover:underline hover:text-white">1.5 Joseph Campbell&#39;s Myths</a></li>
+              <li className="mb-px"><a href="#post-myths-and-misconceptions" className="hover:underline hover:text-white">1.6 Myths and Misconceptions</a></li>
+              <li className="mb-px"><a href="#post-philosophy-of-story" className="hover:underline hover:text-white">1.7 The Philosophy of Storytelling</a></li>
+              <li className="mb-px"><a href="#post-medium" className="hover:underline hover:text-white">1.8 Medium</a></li>
+              <li className="mb-px"><a href="#post-pixar-storytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a></li>
+              <li className="mb-px"><a href="#post-story-comments" className="hover:underline hover:text-white">Comments</a></li>
+            </ol>
+          </div>
 
- {/* Also See Box */}
-  <div
-    id="also-see-box"
-    className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left"
-  >
-    <div className="font-semibold mb-1 text-yellow">Also See</div>
-    <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
-      <li className="mb-px">
-        <a href="/premise" className="hover:underline hover:text-white">Premise</a>
-      </li>
-      <li className="mb-px">
-        <a href="/plot" className="hover:underline hover:text-white">Plot</a>
-      </li>
-      <li className="mb-px">
-        <a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a>
-      </li>
-    </ol>
-  </div>
+          {/* Also See Box */}
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+
+            <div className="font-semibold mb-1 text-yellow">Also See</div>
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
+              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
+              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Plot</a></li>
+              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a></li>
+            </ol>
+          </div>
 
         </div>
 

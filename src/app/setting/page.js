@@ -32,7 +32,7 @@ function Setting() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 
@@ -132,17 +132,19 @@ function Setting() {
         </div>
 
         {/* Vertical Boxes on the Right */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center md:items-start">
           {/* About Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">A setting is a construction of place or the relevant details of place which accentuates the story or gives characters' props to play out story drama.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="#post-what-is-a-setting" className="hover:underline hover:text-white">9.1: What is a Setting?</a></li>
               <li className="mb-px"><a href="#post-enhance-interest-and-conflict" className="hover:underline hover:text-white">9.2: Enhance Interest and Conflict</a></li>
               <li className="mb-px"><a href="#post-describing-setting" className="hover:underline hover:text-white">9.3: Describing Setting</a></li>
@@ -152,9 +154,11 @@ function Setting() {
           </div>
 
           {/* Also See Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="/themes" className="hover:underline hover:text-white">Themes</a></li>
               <li className="mb-px"><a href="/scenes" className="hover:underline hover:text-white">Scenes</a></li>
               <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>

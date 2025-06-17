@@ -36,7 +36,7 @@ function Header() {
   return (
    <header
   className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white shadow border-b-2"
-  style={{ borderBottomColor: 'yellow', borderBottomStyle: 'ridge' }}
+  style={{ borderBottomColor: 'yellow', indent-8 mb-2BottomStyle: 'ridge' }}
 >
   {/* Top Header Row – Responsive Layout */}
   <div className="relative px-6 py-5 sm:py-5" style={{ minHeight: '5rem' }}>
@@ -56,7 +56,7 @@ function Header() {
           {onClick ? (
             <button
               onClick={onClick}
-              className="block uppercase border border-llBlue px-2 py-1 rounded hover:text-yellow hover:border-yellow transition cursor-pointer bg-transparent text-llBlue text-sm"
+              className="block uppercase indent-8 mb-2 border-llBlue px-2 py-1 rounded hover:text-yellow hover:border-yellow transition cursor-pointer bg-transparent text-llBlue text-sm"
             >
               {label}
             </button>

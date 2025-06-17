@@ -49,7 +49,7 @@ function Voice() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 
@@ -153,17 +153,20 @@ function Voice() {
         </div>
 
         {/* Vertical Boxes on the Right */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center md:items-start">
           {/* About Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">A writer's voice is an expression of their personality or individuality created through their writing style: their word choice, syntax, and tone.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
+
               <li className="mb-px"><a href="#post-what-is-voice" className="hover:underline hover:text-white">15.1: What is Voice?</a></li>
               <li className="mb-px"><a href="#post-how-to-create-voice" className="hover:underline hover:text-white">15.2: How to Create Voice</a></li>
               <li className="mb-px"><a href="#post-be-quiet" className="hover:underline hover:text-white">15.3: Be Quiet</a></li>
@@ -173,9 +176,14 @@ function Voice() {
           </div>
 
           {/* Also See Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+
             <div className="font-semibold mb-1 text-yellow">Also See</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
+
+
               <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
               <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Plot</a></li>
               <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a></li>

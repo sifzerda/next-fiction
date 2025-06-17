@@ -39,7 +39,7 @@ function WritersDevices() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 
@@ -284,17 +284,20 @@ function WritersDevices() {
         </div>
 
         {/* Vertical Boxes on the Right */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center md:items-start">
           {/* About Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">This chapter covers various narrative concepts and devices which can enhance your writing and help combat writer's block.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
+
               <li className="mb-px"><a href="#post-general-info" className="hover:underline hover:text-white">20.1: General info</a></li>
               <li className="mb-px"><a href="#post-offer/promise" className="hover:underline hover:text-white">20.2: Offer/Promise</a></li>
               <li className="mb-px"><a href="#post-blocking" className="hover:underline hover:text-white">20.3: Blocking</a></li>
@@ -315,9 +318,14 @@ function WritersDevices() {
           </div>
 
           {/* Also See Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+
             <div className="font-semibold mb-1 text-yellow">Also See</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
+
+
               <li className="mb-px"><a href="/conflict" className="hover:underline hover:text-white">Conflict</a></li>
               <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>
               <li className="mb-px"><a href="/story" className="hover:underline hover:text-white">Story</a></li>

@@ -27,7 +27,7 @@ function Conflict() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse sm:flex-row gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 
@@ -182,18 +182,21 @@ function Conflict() {
           <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
         </div>
 
-        {/* Vertical Boxes on the Right */}
-        <div className="flex flex-col gap-4">
+       {/* Vertical Boxes on the Right */}
+        <div className="flex flex-col gap-4 items-center md:items-start">
           {/* About Box */}
-          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">Conflict is made up in the obstacles which keep the protagonist struggling to attain their goals.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
+
               <li className="mb-px">
                 <a href="#post-what-is-conflict" className="hover:underline hover:text-white">5.1. What is Conflict?</a>
               </li>
@@ -219,9 +222,12 @@ function Conflict() {
           </div>
 
           {/* Also See Box */}
-          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+
             <div className="font-semibold mb-1 text-yellow">Also See</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px">
                 <a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a>
               </li>

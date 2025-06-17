@@ -34,7 +34,8 @@ function Plot() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse sm:flex-row gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
+
         {/* Text Column */}
         <div className="flex-1">
 
@@ -432,7 +433,7 @@ function Plot() {
             <p className="text-boldPurple font-bold">I. The Lost Sock</p>
             <p className="text-sm mb-4 font-rubik">The plot is too slight or trivial.</p>
             <p className="text-sm mb-4 font-rubik">The plot of a story “should be important enough to change someone's life forever.”
-              <FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." /> 
+              <FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." />
               It should also have broad interest — just because you find something fascinating, doesn't mean the broader public does.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
@@ -621,17 +622,20 @@ function Plot() {
         </div>
 
         {/* Vertical Boxes on the Right */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center md:items-start">
           {/* About Box */}
-          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">A plot maps out the whole core structure of a story, through each scene, from beginning to end.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
+
               <li className="mb-px">
                 <a href="#post-storytelling" className="hover:underline hover:text-white">3.1: Plotting in a Vacuum</a>
               </li>
@@ -659,16 +663,20 @@ function Plot() {
               <li className="mb-px">
                 <a href="#post-romance-three-kinds" className="hover:underline hover:text-white">3.9: Romance: Three Kinds</a>
               </li>
-                            <li className="mb-px">
+              <li className="mb-px">
                 <a href="#post-plot-comments" className="hover:underline hover:text-white">Comments</a>
               </li>
             </ol>
           </div>
 
           {/* Also See Box */}
-          <div className="w-full sm:w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+
             <div className="font-semibold mb-1 text-yellow">Also See</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
+
               <li className="mb-px">
                 <a href="/story" className="hover:underline hover:text-white">Story</a>
               </li>

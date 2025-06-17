@@ -39,7 +39,7 @@ function TheLastWords() {
       </div>
 
       {/* New Section Below Banners */}
-      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex gap-4">
+      <section className="w-full max-w-screen-xl mx-auto mt-0 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
 
@@ -104,17 +104,20 @@ function TheLastWords() {
         </div>
 
         {/* Vertical Boxes on the Right */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center md:items-start">
           {/* About Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">The end of a piece of writing should resolve or conclude previously established issues and conflict.</p>
           </div>
 
           {/* Index Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="index-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
+
               <li className="mb-px"><a href="#post-what-is-an-ending" className="hover:underline hover:text-white">19.1: What is an Ending?</a></li>
               <li className="mb-px"><a href="#post-ending-a-scene" className="hover:underline hover:text-white">19.2: Ending a Scene</a></li>
               <li className="mb-px"><a href="#post-ending-a-chapter" className="hover:underline hover:text-white">19.3: Ending a Chapter</a></li>
@@ -125,9 +128,14 @@ function TheLastWords() {
           </div>
 
           {/* Also See Box */}
-          <div className="w-36 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div
+            id="also-see-box"
+            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+
             <div className="font-semibold mb-1 text-yellow">Also See</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight">
+            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
+
+
               <li className="mb-px"><a href="/theFirstWords" className="hover:underline hover:text-white">The First Words</a></li>
               <li className="mb-px"><a href="/theNextWords" className="hover:underline hover:text-white">The Next Words</a></li>
               <li className="mb-px"><a href="/editing" className="hover:underline hover:text-white">Editing</a></li>
