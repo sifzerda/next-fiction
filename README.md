@@ -113,18 +113,18 @@ This project is substantially complete, with minor formalization and addition of
 
 # To Do <a name="to-do"></a>
 
-- [ ] add basic formatting:
-  - [ ] colours
-  - [ ] links/nav
-- [ ] add header component 
+- [x] add basic formatting:
+  - [x] colours
+  - [x] links/nav
+- [x] add header component 
 - [x] footer content
-- [ ] page elements (title/quote/banner/text sections)
+- [x] page elements (title/quote/banner/text sections)
 
-- [ ] condense logline, synopsis and title as 'marketing'
+- [x] condense logline, synopsis and title as 'marketing'
 
-- [ ] add a 'chapter' entry to prisma schema/db and link it to comment, so every comment not only is linked to a user, but also has a subject, so when you display comments, it doesn't display every comment, only the ones left on the relevant chapter page
+- [x] add a 'chapter' entry to prisma schema/db and link it to comment, so every comment not only is linked to a user, but also has a subject, so when you display comments, it doesn't display every comment, only the ones left on the relevant chapter page
 
-- [ ] resize text or spacing in sidebar or alter so all the links fit
+- [x] resize text or spacing in sidebar or alter so all the links fit
 
 Changes (for similarly updating horror map)
 - uppcase'd nav links
@@ -196,8 +196,8 @@ banners are 1200 x 400
 
 - [ ] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
-- [ ] remove the blue footnotes sections out of each chapter
-- [ ] style the footnotes with black tooltip styling
+- [x] remove the blue footnotes sections out of each chapter
+- [x] style the footnotes with black tooltip styling
 - [x] style the under the volcano part in scenes like the nexus stuff (with footnotes)
 
 ### LATER:
@@ -255,6 +255,6 @@ PAGES TO DO:
 
 
 Stuff to check:
-- every page has a index link to comments
-- check all index links work and are correct
-- change all quote boxes to the blockquote br format
+- [ ] every page has a index link to comments
+- [ ] check all index links work and are correct
+- [ ] change all quote boxes to the blockquote br format
