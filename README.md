@@ -223,9 +223,7 @@ Changes:
 - changed yellow border to ridge
 - added contact form
 
-
 //============================================================//
-
 
 Calendar stuff:
 
@@ -252,11 +250,11 @@ PAGES TO DO:
 - [x] the next words
 - [x] the last words
 - [x] writing devices + writer's block
-- [ ] marketing: title + synopsis + logline
-- [ ] references
+- [x] marketing: title + synopsis + logline
+- [x] references
 
 
 Stuff to check:
 - every page has a index link to comments
 - check all index links work and are correct
-
+- change all quote boxes to the blockquote br format

@@ -11,7 +11,7 @@ function About() {
         <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">About</h1>
 
         <blockquote className="text-sm italic mb-2">
-          “If an eternal traveler should journey in any direction, he would find after untold centuries that the same volumes are repeated in the same disorder—which, repeated, becomes order: the Order. ”
+          “If an eternal traveler should journey in any direction, he would find after untold centuries that the same volumes are repeated in the same disorder — which, repeated, becomes order: the Order.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— 'The Library of Babel', Jorge Luis Borges</span>
         </blockquote>
