@@ -31,11 +31,15 @@ function POV() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-point-of-view">14.1: What Is Point of View?</h3>
 
           <p>DEFINE POV</p>
           <p>At this point, you may have already decided which Point of View (POV) you are going to use. In many cases it’ll be an intuitive decision.</p>
           <p>The types of POVs are:</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-first-person">14.2: First Person</h3>
           <p>The narrator is your main character themselves, e.g.
@@ -70,10 +74,14 @@ function POV() {
           <p>The story is narrated by a supporting character, e.g. Stephen King’s ‘Rita Hayworth and the Shawshank Redemption,’ or F. Scott Fitzgerald’s ‘The Great Gatsby,’ or Harper Lee’s ‘To Kill a Mockingbird,’ or Jeffrey Eugenides’ ‘The Virgin Suicides.’ You want the supporting character to have a less exciting life, or is modest, naïve, average intelligence (or slightly above average, but less than the protagonist), and other traits that tend the reader to believe they would be a more credible reporter of the protagonist than the protagonist himself. </p>
           <p>Probably goes without saying, but the supporting character should be someone with a special relationship to the protagonist. They can’t be anyone. Like you need to justify why the protagonist is the main character, you need to justify why the supporting character is the narrator. Do they have special information about the protagonist, or special access to the protagonist’s thoughts, feelings or behaviour?</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-second-person">14.3: Second Person</h3>
           <p>The narrator is not a character and speaks to the reader as if the reader was the main character, e.g.</p>
           <p className="text-midBluey">You looked longingly at Mary, hoping she would notice you. She not only noticed you, she said: “I wish you would take me in your arms.” You noticed Mary’s mother, watching from the window, and hoped she thought you were a perfect match.</p>
           <p>You can probably avoid this one for most purposes. It doesn’t read naturally and readers will find incongruence between their real self and their fictional ‘self’ jarring – however, you can get around this with hypotheticals, e.g. ‘If you visit that street today, you will find that the house has been knocked down…’</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-third-person">14.4: Third Person</h3>
           <p>The main character is described by the narrator, who is not themselves a character. This is the main POV, and should be your default if you don’t know which POV to choose (you can always change it later, anyway). Use it unless you have a really good reason not to.</p>
@@ -95,6 +103,8 @@ function POV() {
           <p className="text-midBluey">Sarah saw Kevin look longingly at Mary, as if hoping she would notice him. Mary not only noticed him, she said: “I wish you would take me in your arms.” Then Sarah noticed Mary’s mother watching from the window, and wondered if Mary’s mother thought Kevin and Mary were a perfect match.
             <FootnoteRef text="Sol Stein, On Writing." /></p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-multiple-shifting-narrators">14.5: Multiple Shifting Narrators</h3>
           <p>You may have multiple, equally interesting characters who all have different knowledge about their situation, or you want to show two or more different sides to a situation, or otherwise want more freedom and scope to describe the story. For any of these reasons, you may have multiple narrators coming into the story at different points. They may give an account of entirely new events, or give their account events previously described by another narrator. </p>
           <p>A couple of rules:</p>
@@ -104,6 +114,8 @@ function POV() {
 
           <h4>14.4.2 	POV consistency</h4>
           <p>You can change the narrator, but don’t change the type of POV mid-story. For instance, if your first narrator speaks in first person, and you want a second narrator, they must also speak in first person. Doing otherwise is annoying and confusing, but also raises unfortunate implications, like that your characters are less than equal, or one has more/less insight than the other, or one’s thoughts and feelings are more important than the others, etc. </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-which-pov-to-use">14.6: Which POV to Use</h3>
           <p>The practicalities of POV are that it determines:</p>
@@ -135,6 +147,8 @@ function POV() {
           <p>He concludes: "Bias aside, you ordinarily pick a stance to give readers the best angle on the unfolding story." </p>
           <p>"Each story can be told from many points of view," said Don Murray, the dean of American newspaper writing coaches. “It is the writer’s task to choose the point of view that will help the reader see the subject.”</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-implied-change-of-pov">14.7: Implied Change of POV</h3>
           <p>Ensure you don’t accidentally change perspective. You may do this by describing characters thoughts and feelings which only they would be aware of. </p>
           <p>If you do this deliberately, Mittelmark and Newman advise that, if your perspective change lasts less than one page, dump it.</p>
@@ -148,7 +162,7 @@ function POV() {
 
           {/* ------------------------------------------------- comment Form footnotes --------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

@@ -39,18 +39,18 @@ return (
 
           <h3 id="post-storytelling" className="mb-2 font-semibold">1.1 Storytelling</h3>
 
-          <p className="text-sm mb-4 font-rubik">
+          <p>
             The most important skill you need to write fiction is storytelling. Robert McKee defines storytelling as: <i>“the creative conversion of life itself to a more powerful, clearer, more meaningful experience.” </i>
             <FootnoteRef text="Robert McKee, Story, Substance, Structure, Style and the Principles of Screenwriting." />
           </p>
 
-          <p className="text-sm mb-4 font-rubik">
+          <p>
             He says the essence of storytelling is the ability to evoke a story with a single, silent image. That is the basis of what a storyteller is trying to do.
           </p>
 
           <h3 id="post-whatisastory" className="mb-2 font-semibold">1.2 What is a Story?</h3>
 
-          <h4 className="text-base font-semibold italic text-black mt-4 mb-2">1.2.2 The Opposite of Expectation</h4>
+          <h4>1.2.2 The Opposite of Expectation</h4>
 
 
 
@@ -67,7 +67,7 @@ return (
 
 
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

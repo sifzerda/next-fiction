@@ -31,6 +31,8 @@ function Subtext() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-subtext">10.1: What is subtext?</h3>
 
           <p>Stories are made up of text and subtext. Text is the surficial and literal meaning conveyed by the words. Subtext is the latent implied (or belied) meaning. </p>
@@ -84,6 +86,8 @@ function Subtext() {
           <p>The author’s job is to portray the extreme heights and drops of human experience. However, it’s those extremes that people are least likely to expose to one another in the open. In a practical sense, people don’t normally go up to each other and say, ‘I hate you,’ or ‘I love you.’ Subtext is a compromise for this inherent contradiction – having your characters say what they mean without having to confess it.  </p>
           <p>Also, readers don’t want to be told the story; they want to find it out for themselves. If your story has no subtext, the reader will feel like they have no brain. </p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-symbolism">10.2 Symbolism</h3>
           <p>Symbolism is far less important than subtext, so don’t worry too much about it, but it’s still worth knowing what it is and what it does.</p>
           <p>Differences between symbolism and subtext:</p>
@@ -118,7 +122,7 @@ function Subtext() {
 
           {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

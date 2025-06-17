@@ -53,6 +53,8 @@ function Voice() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-voice">15.1: What is Voice?</h3>
 
           <p>'Voice' refers to the individuality of your writing. It's also referred to as 'style' i.e. writing style. Just like you can distinguish different people’s voices in a room, you should be able to distinguish different authors’ writing voices out of a pile of texts.</p>
@@ -93,7 +95,9 @@ function Voice() {
             <li>Win their long-term confidence so that they keep reading.</li>
           </ol>
 
-          <h2 id="post-how-to-create-voice">15.2: How to Create Voice</h2>
+          <hr /> {/* ---------------------------------------------------------*/}
+
+          <h3 id="post-how-to-create-voice">15.2: How to Create Voice</h3>
 
           <p>You create your own writing voice/style in two ways:</p>
 
@@ -106,7 +110,9 @@ function Voice() {
 
           <p>The styles you incorporate will include writers you naturally write like, and writers you wish you wrote like. Somewhere in between you’ll find a happy medium. If you read a lot, you will also pick up lots of writing tricks and techniques from different authors - who, you won't particularly wish to write like - but which you will minutely be inspired by in very select ways. You will also critically learn the styles you don't want to emulate, and you should take note what those styles did which made you dislike them.</p>
 
-          <h2 id="post-be-quiet">15.3: Be Quiet</h2>
+          <hr /> {/* ---------------------------------------------------------*/}
+
+          <h3 id="post-be-quiet">15.3: Be Quiet</h3>
 
           <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
             <p className="italic">One must be careful to distinguish between those who write beautiful things and those who write things beautifully
@@ -135,6 +141,8 @@ function Voice() {
 
           <p>Don’t worry too much about actively modifying your writing style (and if you are consciously striving to write in a ‘voice’, then it isn’t your real voice). Focus more on writing in a natural, comfortable way, Also, realise that writing style may surface as much in your editing technique as your writing technique – which words you remove and how you rearrange and re-write your sentences.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-contrast">15.4: Contrast</h3>
 
           <p>If you’re interested in learning what your writing voice sounds/reads like, try these two activities: Get a book by an author whose voice you’re familiar with, choose a random chapter and attempt the write the subsequent chapter. If you already know what happens in the subsequent chapter, your chapter will probably mimic that, and the difference will be the pure writing styles of the author and yourself.</p>
@@ -142,7 +150,7 @@ function Voice() {
 
           {/* ---------------------------------------------------------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

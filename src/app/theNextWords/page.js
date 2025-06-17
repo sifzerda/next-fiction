@@ -45,7 +45,9 @@ function TheNextWords() {
         {/* Text Column */}
         <div className="flex-1">
 
-          <h3 id="post-storytelling" className="mb-2 font-semibold">18.1: Don't Do This!</h3>
+          <hr /> {/* ---------------------------------------------------------*/}
+
+          <h3 id="post-dont-do-this" className="mb-2 font-semibold">18.1: Don't Do This!</h3>
 
           <p>Before detailing what to do, here’s a general list of things not to do:</p>
 
@@ -440,6 +442,7 @@ function TheNextWords() {
           <p>Ben Yagoda says that many clichés modernly derive from advertising and PR catchphrases, like ‘new and improved’ and ‘the secret to [brand]...’ ‘reinvent’ ‘new strategy’ and ‘it changed my life.’ He provides a list of words and phrases to avoid which he identifies as – if not already clichés – quickly heading that way:
             <FootnoteRef text="Ben Yagoda, How to Not Write Bad." />
           </p>
+
           <u>How to Not Write Bad, Ben Yagoda.</u>
           <ol>
             <li>That being said </li>
@@ -568,6 +571,8 @@ function TheNextWords() {
           <p className='indent-8 mb-2'><i>On my way home one evening, I went by her place to see how she was getting on. Once there, the patient gave me a list of her symptoms. I scanned it and gave it back to her, merely feeling irritated by her wasting my time. Later that evening, I realised she had been suicidal, but by then it was too late.</i></p>
           <p>Also see this version from the song 'Que será será' -- <i>Whatever will be, will be.</i> Ironically, as 'Que será será' itself means ‘whatever will be, will be,’ it’s a fourfold repetition. </p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-do-this">18.2: Do This!</h3>
           <p>Now for something completely different: It's a collection of tips for writing in general.</p>
 
@@ -677,10 +682,13 @@ function TheNextWords() {
 
           <h4>18.2.3 	Paragraphs</h4>
           <p>Each paragraph introduces a new thought and concludes it.</p>
+         
           <h4>18.2.4 	If it’s not right, re-write:</h4>
           <p>Another general rule: avoid over-thinking your writing, and avoid cluttering your writing with intention. Go with a style and stick with it – don’t make a sentence try to achieve four different effects all at once. If, for whatever reason, it doesn’t sound/read right, even if that’s the way you wanted/needed it to sound, change it. I haven’t heard of many writers being condemned because their writing is ‘too dumb’ or ‘too simple’, but an inordinate number of writers fall upon the sword of over-description because they are overly anxious to sound clever and ‘writerly’ or ‘lit’ry’ (as Joe Hill would say).</p>
+         
           <h4>18.2.5 	The rule of invisibility: </h4>
           <p>As I stated about writing voice/style, good writing is invisible. Think of your writing like a window to some parallel universe, the world of your story. People look through a window – they don’t look at it. If your writing is so anxious and self-congratulatory that it makes people notice the words themselves, something is wrong (unless you are deliberately trying to alienate the reader, a la House of Leaves). Unless your writing is clear and transparent, in every other case – dirt-stained or a stained-glass masterpiece – your writing is only a distraction from the world beyond it.</p>
+         
           <h4>18.2.6 	Use the Active Voice </h4>
           <p>Always use the active voice where possible. George Orwell says:
             <FootnoteRef text="George Orwell, Politics and The English Language." />
@@ -725,8 +733,11 @@ function TheNextWords() {
           <p className='indent-8 mb-2'> <i>"Our good Mrs. Dudley likes doors, doesn't she? She can certainly” -- and their eyes met -- "get out fast in any direction if she wants to."  </i> <FootnoteRef text="The Haunting of Hill House, Shirley Jackson." /></p>
           <p>The abrupt eye contact gives a sense not only that the protagonist's interest has been evoked by the latter part of the statement, but also of both characters thinking the same thing, and the possibility startles both of them, and an unspoken sense of unease communicated between the characters.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-writing-cheats-and-hacks">18.3 Writing ‘cheats’ and ‘hacks’</h3>
           <p>I preface this by saying writing involves a lot of work, including reading, researching, redoing, and practising, and accepting criticism, and learning. But it cannot be said there aren’t shortcuts or insights which require less effort but create more effect.</p>
+          
           <h4>18.3.1 	Adding frustration by taking away grammar</h4>
           <p>When people get really riled up, their articulation suffers, their grammar suffers, and they are more likely to use the wrong word. You can therefore, suggest frustration by making fairly small grammatical, and forgivable, almost unnoticeable grammatical errors. It’s more effective if the character normally speaks in an average or educated way.</p>
           <p>This is a modified example from my own writing:</p>
@@ -958,6 +969,8 @@ function TheNextWords() {
           <p className="boldPurple">10. Never Introduce a List with ‘Like’ </p>
           <p>Form dictates you replace the ‘like’ with ‘such as.’ But this is a pedantic departure from how people use language in real life.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-professional-advice">18.4: Professional Advice</h3>
 
           <p>Here are a bunch of tips from Sol Stein:
@@ -979,7 +992,7 @@ function TheNextWords() {
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

@@ -38,6 +38,8 @@ function Dialogue() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-dialogue">12.1: What is Dialogue?</h3>
 
           <p>First, what dialogue is <i>not: </i><strong>it is not real speech. </strong>Dialogue is the illusion, or semblance, of real speech.</p>
@@ -55,6 +57,8 @@ function Dialogue() {
             <li>since it is hot, something planned cannot take place, or the weather will affect the event; or </li>
             <li>his complaint is somehow blaming someone else, or expressing his complaining nature.</li>
           </ol>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-brevity">12.2: Brevity</h3>
           <p>Dialogue should be written with brevity – less is more. Writing can be dialogue-driven, however, my personal rule is to get away with writing the least amount without compromising meaning. That may even mean cutting dialogue altogether in favour of describing that character’s behaviour (description – of action; not in general – should be given priority over dialogue, i.e. show don’t tell). </p>
@@ -85,6 +89,8 @@ function Dialogue() {
           </ol>
 
           <p>Character A’s repetition isn’t redundant here because it conveys that A is distressed and in denial, not thinking clearly and is caught in a loop – the dialogue is not short, sharp, focused and forward-looking because A’s mental state is none of those things. </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-make-dialogue-olbique">12.3: Make Dialogue Oblique</h3>
           <p>You want dialogue to create conflicts but also protract tension. To achieve the first, dialogue should be confrontational. To achieve the second, it should be indirect – Sol Stein uses the term ‘oblique’. This means dialogue doesn’t directly reveal what the speaker is actually thinking. Dialogue is like a game of tennis. The oblique return, says Sol Stein,
@@ -187,10 +193,14 @@ function Dialogue() {
           <p>Stein says, “Non sequiturs, words that don't follow from what came before[…] add flavor in dialogue.” See the word ‘No’ in DD example #1.</p>
           <p>The main thing to remember is you’re not locked into making exchanges fit convention. Dodgem dialogue does not hit back at the speaker head on; it gives a sideway reply and careens off in some other direction.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-action/reaction">12.4: Action/Reaction</h3>
           <p>No one goes into a conversation knowing exactly what they’re going to say beforehand. What you say in a conversation is partly reliant upon the responses you get from the other person. Thus, dialogue should not read as a one-sided pre-planned speech. Sequences of dialogue should be broken up into patterns of action/reaction that are continuously shaping the speaker's behavior. There is a constant updating of what the speaker says based on the real-time feedback they receive from the listener.</p>
           <p>Make each exchange short to give the conversation the rhythm of a tennis match. Back, forth, back, forth….etc. To keep it from getting to predictable, fragment the speech with silent reactions that cause the speaker to change the beat. A well-placed silence can be more compelling than words.</p>
           <p>People can also react to their own words and actions, for instance if they speak rashly or in high emotion, or with uncertainty, or under pressure. Characters may have dialogues with themselves while speaking to another.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-12-5">12.5: Adding Activity to Dialogue</h3>
           <p>In real life, it’s rare that people will stop what they are doing, absorb you in their unbroken gaze and talk clearly at you for the duration of the conversation. People often talk to each other in and around menial tasks; making a snack or a drink, walking the dog, checking their phone or laptop, driving in the car. A really concise writer will use those menial tasks to convey information so no words are wasted. </p>
@@ -220,6 +230,8 @@ function Dialogue() {
           </ol>
 
           <p>The above implies B is not coming or does not want to come; as the act of drinking a coffee is not something rushed, it implies B is passively defying A’s desire to go. This form of introducing conflict is more effective in allowing conflict to build without release, than if you had A and B explicitly butt heads.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-12-6">12.6: Adding Conflict to Dialogue</h3>
           <p>Good dialogue happens when characters are under tension. </p>
@@ -260,6 +272,8 @@ function Dialogue() {
             <li><u>Clashing Intentions: </u>characters find themselves in undesirable or unfamiliar positions, talking about things or to people they don’t feel comfortable with, people from a different social background, or who don’t respect or challenge them, etc.</li>
           </ol>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-12-7">12.7: Information Asymmetry</h3>
 
           <p>Introducing even more complexity: Information asymmetry.</p>
@@ -279,6 +293,8 @@ function Dialogue() {
             <p></p><i>— Sol Stein </i>
           </div>
           <p>The ‘script’ is information or knowledge or maybe a mere suspicion; it may be something your character was previously told, or a conclusion from direct experience. It doesn’t matter which character’s information is ‘true’ – if either – only that they’re not irrational for believing it. </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-dialogue-tags">12.8: Dialogue Tags</h3>
 
@@ -337,7 +353,9 @@ function Dialogue() {
             <p><i>“You undercut me, you sabotage me, you turn the children against me. I see what you’re doing. Don’t think I don’t. You are not supportive of me at all. After all these years of marriage, I must say it’s a lousy thing to do to your wife.”</i></p>
           </div>
 
-          <h2 id="post-people-avoid-jinxing">12.9: People Avoid 'Jinxing'</h2>
+          <hr /> {/* ---------------------------------------------------------*/}
+
+          <h3 id="post-people-avoid-jinxing">12.9: People Avoid 'Jinxing'</h3>
           <p>Here’s a mistake writers can tend to make: characters spelling out bad possibilities (mainly to escalate drama). </p>
           <p>Example:</p>
           <p className="code-left">
@@ -373,6 +391,8 @@ function Dialogue() {
 
           <p>But a caveat: sometimes people do point out bad things and dramatise them. But usually they have some ulterior reason for doing so. For instance, consider why someone might say, “I lost my life savings on the slots,” as opposed to, “I didn’t lose that much,” Or “My uncle spent his last moments in agonizing pain,” as opposed to, “my uncle passed away”. If there is a genuine reason for your character to talk like this, it may add character depth and pathos.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-concrete-abstract-statements">12.10: Concrete/Abstract Statements</h3>
           <p>If you want dialogue to foster closeness between characters, have them use concrete statements (“I got robbed yesterday,” “I don’t like hail,” “He lied.”). Avoid abstract statements (“I believe in justice,” “I hate awful weather,” “He’s just like all the others,”).</p>
           <p>This not only fosters closeness and a sense of knowing characters better, but also fosters closeness between character and reader, and makes characters more interesting.</p>
@@ -395,14 +415,19 @@ function Dialogue() {
 
           <p>You now have more of a sense of these characters. It also creates closeness because people only much such personal or vulnerable admissions if they like or feel close to the person they are talking to.</p>
           <p>Generating this closeness is helpful where you have to suggest that some time has passed and relative strangers have gotten to know each other better. </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-dont-take-sides">12.11: Don't Take Sides</h3>
           <p>Sol Stein discourages taking sides with one party in dialogue exchange, and if <i>“you find yourself wedded to the beliefs of one of the characters, try your damndest to make the other character win the argument.”</i></p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-when-to-avoid-dialogue">12.12: When To Avoid Dialogue</h3>
           <p>Sometimes you might notice a story eschews dialogue and just summarises what a character has said. A well-known example is in Stephen King’s ‘The Shining’, where the bartender’s dialogue is only summarized, not spoken. This implies the bartender does not literally speak; he is ghost, or an invention of the protagonist’s psychosis. That’s an extreme example.</p>
           <p>Here is another example:
             <FootnoteRef text="Tall Tales from the Mekong Delta, Kate Braverman." />
-            </p>
+          </p>
           <p className="code-left">
             <code><i>“I’m Lenny,” he said, extending his hand. “What’s your name?”
               She told him. She was holding a bag with packages of cookies in it. After the meeting, she had an appointment with her psychiatrist, then a manicure. She kept walking.
@@ -412,7 +437,7 @@ function Dialogue() {
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

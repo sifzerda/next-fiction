@@ -48,7 +48,9 @@ function Editing() {
         {/* Text Column */}
         <div className="flex-1">
 
-          <h3 id="post-storytelling" className="mb-2 font-semibold">22.1: General Deadweights</h3>
+          <hr /> {/* ---------------------------------------------------------*/}
+
+          <h3 id="post-general-deadweights" className="mb-2 font-semibold">22.1: General Deadweights</h3>
 
           <p><strong>I. Adverbs:</strong> words which add to a verb, e.g. ‘Thoroughly’, ‘Laughingly’, ‘Harshly’, etc;</p>
           <ol>
@@ -174,6 +176,8 @@ function Editing() {
           <p className="italic">B: “I don’t know.”</p>
           <p>Therefore, the echo would not be a ‘deadweight’, because it’s carrying some essential meaning; it’s doing ‘work.’ So it’s necessary to keep it. Keep in mind using ungrammatical or ‘odd’ dialogue is an effective way to infer meaning.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-pronouns">22.2: Pronouns</h3>
           <p>Amateur writers often start sentences with pronouns (e.g. the main character), and the description that follows orbit around the pronouns, i.e. character-focused writing. So it sounds like every sentence starts ‘I.’ This is partly due to the interiority of modern writing (see 13.1.6 Starve the Ego, Feed the Soul). It gets grating fast, and you risk your character boring the reader (really bad, because they’re stuck with the character the entire story). By removing pronouns you push yourself to describe more interesting things; your setting, events, other characters, etc. Your story stops sounding like a page from your main character’s diary and starts being about the actual experiences and events happening. This facilitates your reader to pretend they are the main character, and wonder ‘what if this was me; what would I do in this situation?’ Your reader will thank you for that experience. Taking the focus off your protagonist also makes them more mysterious and interesting, too.</p>
           <p>See these examples and consider which you prefer:</p>
@@ -184,6 +188,8 @@ function Editing() {
           <p className="italic">The front door had a hole instead of a knob., but opened with a nudge. Dim inside. Then the iron weight door slammed shut, and it was a fog of black. One step forward scuffed carpet, the next scraped concrete. Further steps were muffled again by carpet. The light switch wasn't on the left wall, or the right. There was a dragging sound between footsteps. Then silence. It was funny, what Damien said about this house. The dragging sound came again, but from a different room. It took a moment to find the door again. There was no knob on the inside, either. The door felt like a rock wall. It only opened from the outside.</p>
 
           <p>In (2) because I removed pronouns, description moved off the protagonist, forcing me to add description to the setting, to fill up the paragraph. This reads better as reader is more interested in the place, in this scene, than the character.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-right-branching-sentences">22.3: Right-Branching Sentences</h3>
           <p>Roy Peter Clark
@@ -200,11 +206,15 @@ function Editing() {
           <p className="italic"><span className="hYellow">A bill </span> that would exclude tax income from the assessed value of new homes from the state education funding formula <span className="hYellow">could mean </span> a loss of revenue for Chesapeake County schools.</p>
           <p>Here, the subject ‘bill’ is too separate from the verb ‘could mean.’</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-start-and-end-strong">22.4: Start and End Strong</h3>
 
           <p>This comprises two bits of advice; (1) Use the strongest combinations of verbs/adverbs. For instance replace ‘he went quickly’ with ‘he dashed.’</p>
           <p>(2) Place strong ‘headline’ words at the start of sentences, and at the end. This makes sentences sound full and complete.  For this reason, you hear the advice not to end on a preposition, e.g. ‘I like school, well, kind of.’</p>
           <p>Ask yourself, what information is the most important in this sentence?</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-guarding-word-territory">22.5: Guarding Word Territory</h3>
           <p>Roy Clark coined the useful concept ‘word territory’. It basically means giving important words their own space. Don’t repeat key words unless the emphasis is necessary. For instance, <i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i><FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /></p>

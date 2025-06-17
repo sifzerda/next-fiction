@@ -26,8 +26,10 @@ function Subtext() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           {/* Instructional Guides */}
-          <h3 id="post-instructional-guides" className="mt-6 font-semibold text-lg">Instructional Guides</h3>
+          <h3 id="post-instructional-guides" className="mt-6 font-semibold text-lg">I. Instructional Guides</h3>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
@@ -56,9 +58,11 @@ function Subtext() {
             <li>Stephens-Davidowitz, Seth. <em>Everybody Lies</em>. Random House, 2017.</li>
             <li>Yagoda, Ben. <em>How to Not Write Bad</em>. Riverhead Books, 2013.</li>
           </ol>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Fiction */}
-          <h3 id="post-fiction" className="mt-6 font-semibold text-lg">Fiction</h3>
+          <h3 id="post-fiction" className="mt-6 font-semibold text-lg">II. Fiction</h3>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
@@ -87,9 +91,11 @@ function Subtext() {
             <li>Stephens-Davidowitz, Seth. <em>Everybody Lies</em>. Random House, 2017.</li>
             <li>Yagoda, Ben. <em>How to Not Write Bad</em>. Riverhead Books, 2013.</li>
           </ol>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Non-Fiction */}
-          <h3 id="post-nonfiction" className="mt-6 font-semibold text-lg">Non-Fiction</h3>
+          <h3 id="post-nonfiction" className="mt-6 font-semibold text-lg">III. Non-Fiction</h3>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
@@ -118,9 +124,11 @@ function Subtext() {
             <li>Stephens-Davidowitz, Seth. <em>Everybody Lies</em>. Random House, 2017.</li>
             <li>Yagoda, Ben. <em>How to Not Write Bad</em>. Riverhead Books, 2013.</li>
           </ol>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Other */}
-          <h3 id="post-other" className="mt-6 font-semibold text-lg">Other</h3>
+          <h3 id="post-other" className="mt-6 font-semibold text-lg">IV. Other</h3>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
@@ -150,13 +158,8 @@ function Subtext() {
             <li>Yagoda, Ben. <em>How to Not Write Bad</em>. Riverhead Books, 2013.</li>
           </ol>
 
-          {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}
+          <hr /> {/* ---------------------------------------------------------*/}
 
-          <hr className="my-6 border-t border-gray-400" />
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
-
-          <CommentForm />
-          <CommentList />
 
           {/* Back to Top Link */}
           <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
@@ -164,11 +167,6 @@ function Subtext() {
 
         {/* Vertical Boxes on the Right */}
         <div className="flex flex-col gap-4 items-center md:items-start">
-          {/* About Box */}
-          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
-            <div className="font-semibold mb-1 text-yellow">About</div>
-            <p className="font-source-code-pro text-xs mt-1">Subtext is the deeper or hidden meaning implied by the story text.</p>
-          </div>
 
           {/* Index Box */}
           <div
@@ -177,23 +175,10 @@ function Subtext() {
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
 
-              <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">10.1: What is subtext?</a></li>
-              <li className="mb-px"><a href="#post-whatisastory" className="hover:underline hover:text-white">10.2: Symbolism</a></li>
-            </ol>
-          </div>
-
-          {/* Also See Box */}
-          <div
-            id="also-see-box"
-            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
-            <div className="font-semibold mb-1 text-yellow">Also See</div>
-            <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-
-              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Themes</a></li>
-              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Conflict</a></li>
-              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Dialogue</a></li>
+              <li className="mb-px"><a href="#post-instructional-guides" className="hover:underline hover:text-white">I. Instructional Guides</a></li>
+              <li className="mb-px"><a href="#post-fiction" className="hover:underline hover:text-white">II. Fiction</a></li>
+              <li className="mb-px"><a href="#post-non-fiction" className="hover:underline hover:text-white">III. Non-Fiction</a></li>
+              <li className="mb-px"><a href="#post-other" className="hover:underline hover:text-white">IV. Other</a></li>
             </ol>
           </div>
 

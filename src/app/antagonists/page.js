@@ -47,9 +47,13 @@ function Antagonists() {
         {/* Text Column */}
         <div className="flex-1">
 
-          <h3 id="post-storytelling" className="mb-2 font-semibold">16.1: What is an Antagonist?</h3>
+          <hr /> {/* ---------------------------------------------------------*/}
+
+          <h3 id="post-what-is-an-antagonist" className="mb-2 font-semibold">16.1: What is an Antagonist?</h3>
 
           <p>DEFINE ANTAGONISM/ANTAGONIST</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-importance-of-an-antagonist">16.2: The Importance of an Antagonist</h3>
 
@@ -68,8 +72,12 @@ function Antagonists() {
           <p>Applying the law of conservatism, a compelling villain faces a dilemma (like the protagonist does), putting them in a position requiring them to choose between two or more undesirable options. Like anyone, they want to choose the option that is least desirable for themselves. Unfortunately, this choice has a negative consequence for the protagonist.</p>
           <p>Alternatively, the villain faces a positive dilemma: a choice between good things. They want the best option, however, this choice has negative consequences for the protagonist. </p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-antagonistic-forces">16.3: Antagonistic Forces</h3>
           <p>Another point: antagonists don’t have to be living entities, they can be forces. These are the stories which don’t have ‘bad guys,’ just people making decisions, for better or worse. Whatever form the antagonist takes, it’s job is to oppose the protagonist’s will, desire and progress.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-degrees-of-antagonism">16.4: Degrees of Antagonism</h3>
           <p>Your antagonist doesn’t have to be the exact opposite of your protagonist. An antagonist who is in some ways similar or even identical to the protagonist (or someone close to the protagonist, e.g. lover, family, friend) may be more compelling. </p>
@@ -79,6 +87,8 @@ function Antagonists() {
           <p>You may have both antagonistic forces in your story: the protagonist progresses past contrary sub-antagonists until finally facing off against the contradictory head antagonist.</p>
           <p>Alternatively, your head antagonist starts off contrary, but transforms into a contradictory antagonist by the end.</p>
           <p>If you find your protagonist too ‘good’ and your antagonist too ‘evil’, Sol Stein suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /> </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-negation-of-a-negation">16.5: The Negation of a Negation</h3>
           <p>This is a concept introduced by Robert McKee.<FootnoteRef text="Story: Style, Structure, Substance, and the Principles of Screenwriting." /></p>
@@ -107,9 +117,13 @@ function Antagonists() {
           <p>You don’t have to make the positive and negative values strictly opposites.</p>
           <p>Take the example of Romeo and Juliet. Some interpret Romeo and Juliet as mocking the destruction and melodrama of teen love, which would make love a negative value in that play. In addition, the teens’ parents grudging war is also a negative value. Both result in the destruction of the protagonists. ‘Hate’ on one side, ‘love’ on the other, and both negative. The only value left to be positive, is a middle position; a more realistic, restrained, mature form of love and tolerance; a love that recognises the other side isn’t perfect and has flaws.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-protagonist-equals-antagonist">16.6: Protagonist = Antagonist</h3>
 
           <p>You don’t necessarily need to displace the forces of antagonism into a separate entity. It’s possible to make your protagonist his/her own antagonist. This doesn’t mean the main character is the ‘bad guy,’ like McTeague’s greed screwing everyone over, or Patrick Bateman killing people. It also doesn’t mean your protagonist is trying to be a good guy but going about it in a questionable way, like Edmond Dantes getting extreme, vindictive revenge on wrongdoers. It means your protagonist is the ‘good guy’ but his/her personal flaws and failings threaten to prevent them from achieving the ultimate plot goal. An example are the parents in the short story, ‘The Monkey’s Paw,’ not villainous characters, however their (understandable) horror and desperation causes them to make an unwise decision/s.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-how-to-create-an-antagonist">16.7: How to Create an Antagonist</h3>
           <p>If you have a protagonist and a plot (goals) you’re already on the way to creating an antagonist. You just need to:</p>
@@ -138,7 +152,7 @@ function Antagonists() {
 
                 {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

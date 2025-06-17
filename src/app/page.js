@@ -34,7 +34,7 @@ function About() {
         <div className="flex-1">
           <h3 className="text-xl font-bold mb-2 text-center">About this Site</h3>
 
-          <p className="text-sm mb-4 font-rubik">
+          <p>
             This is a smaller sibling blog to my other site Fiction Map. It's a resource
             for writers looking to improve their craft and write scarier, better horror stories.
           </p>

@@ -47,12 +47,16 @@ function Suspense() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-storytelling" className="mb-2 font-semibold">13.1 What is Suspense?</h3>
 
           <p>Suspense is basically just holding off on resolving conflict or answering plot-related questions for as long as possible. It’s necessary if you want the reader to keep reading until the end. </p>
           <p>Burnett and Burnett
             <FootnoteRef text="Hallie Burnett and Whit Burnett, Fiction Writer's Handbook." />
             says suspense is “that half-revealed something which makes us ask for more,” and is ‘essential’ even if only “a matter of how a girl will make up her mind, or a young man turn his back on his fears.”</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-how-to-create-suspense">13.2 How to Create Suspense</h3>
           <p>One way of providing suspense is, obviously, to stubbornly refuse to provide a resolution until the very end of the story.</p>
@@ -72,6 +76,8 @@ function Suspense() {
 
           <p>The layman definition of suspense tends to associate suspense building with raising the stakes. That is one form of suspense building but it’s not the only one. In order to build suspense, all you need to do is supply information, or create events which lend the final outcome more weight.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-tension">13.3 Tension</h3>
 
           <h4>13.3.1 What Is Tension?</h4>
@@ -90,6 +96,8 @@ function Suspense() {
           <p>You slow pacing by adding detail. A way to speed pacing up is what Sol Stein calls ‘skipping for effect’. This is where you selectively omit information. For example:<FootnoteRef text="The Country Husband, John Cheever." /></p>
 
           <p className="italic">He washed his body, shaved his jaws, drank his coffee, and missed the seven-thirty-one.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-pacing">13.4 Pacing</h3>
 
@@ -156,7 +164,7 @@ function Suspense() {
 
           {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

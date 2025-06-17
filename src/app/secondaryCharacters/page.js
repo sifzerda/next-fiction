@@ -36,6 +36,8 @@ function SecondaryCharacters() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-a-secondary-character" className="mb-2 font-semibold">8.1: What is A Secondary Character?</h3>
 
           <p>DEFINE A SECONDARY CHARACTER.</p>
@@ -45,8 +47,12 @@ function SecondaryCharacters() {
           <p>Less important characters should be introduced only as necessary. For instance, if a character attends school, you need to depict teachers and other students, but if school isn’t a major setting, they don’t need as much attention and should only behave and be described in ways which say something about the important characters. In other words, it’s a bit like the main characters are planets and the side characters are moons which orbit around them. The behavior of side characters should be designated by the character arc or trajectory of – where do you want your main characters to go and how will the side characters help/hinder them? What do you want to say about your main characters and how will that description be communicated (expressly or by conduct) by the side characters? Side characters are like the wheels of a car, or the oil that lubricates the wheels; whereas main characters are the passengers (the plot is the driver). When the bus stops, the wheels stop and are forgotten, and it’s the passengers who get off and arrive at the destination.</p>
           <p>You should avoid having your side characters say things heavily charged with emotion (joy, fear, anger, lust). It's not going to have a meaningful effect because side characters do not have arcs, so you have provided no build-up for their reaction. Therefore, worst of all, the spontaneity may in fact be taken for comedy.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-fire-some-extras">8.3: Fire Some Extras</h3>
           <p> Every side character must serve an individual purpose. If your protagonist has a group of friends, every single member of that group must serve a separate function in the story – and not ‘the female friend,’ ‘the black friend,’ ‘the gay friend,’ etc. If your protagonist only needs one friend, then give them only one friend.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-perfect-friend">8.4: The Perfect Friend</h3>
           <p>Fiction writing has a cliché about protagonists having ‘perfect’ friends. These are either the ‘people you wish were your friends’ or the sycophantic lapdogs of the protagonist. </p>
@@ -55,12 +61,14 @@ function SecondaryCharacters() {
           <p>You want to avoid writing either of these characters. Going by writing standards, these characters are far from perfect. </p>
           <p>The problem is these characters don’t challenge your protagonist in any way. Best friend characters should put your protagonist in situations which expose aspects of your protagonist, but not necessarily gratify them. Characters should disagree and compromise.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-idiosyncratic-characters">8.5: Idiosyncratic Characters</h3>
           <h5>(1) TYPE </h5>
           <p>.... </p>
           <p>.... </p>
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

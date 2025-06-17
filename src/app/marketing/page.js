@@ -41,9 +41,13 @@ function Marketing() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-purpose-of-a-synopsis">25.1 Purpose of a Synopsis</h3>
 
           <p>Now that you’ve written your story, you want to think about marketing and publishing. Most publishers require a synopsis to generate interest in your manuscript. This is critical because if the synopsis is no good, they won’t look at your manuscript. However, a synopsis must be written differently to your story.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-what-is-a-synopsis">25.2 What Is A Synopsis?</h3>
           <p>A synopsis is a summary of your story. It is not a sample of your ability to write in general, or your ability to write:</p>
@@ -108,9 +112,13 @@ function Marketing() {
             </li>
           </ol>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-the-value-of-a-synopsis">25.3 The Value of a Synopsis</h3>
           <p>Contrary to commonsense, a synopsis is not just valuable to create once you’ve finished writing your story, it’s valuable at all stages of the story-writing process. It’s also worthwhile creating chapter synopses, so that your chapter achieves only as much as needed to perform its purpose. If you do this, you’ll find you don’t need to write your synopsis at the end, because you’ll already have one.</p>
           <p>Still, I accept this is a boring, IKEA set-up, factory-production mode of story-writing. Many writers like to leave some elements of the story for later, make things up as they go, and that’s fine as long as it’s productive. The key thing is to know what’s essential to plan beforehand, and what you can leave up to later inspiration.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-how-to-write-a-synopsis">25.4 How To Write A Synopsis</h3>
           <p>Even though your synopsis is not your story and will not show off your writing ability, you ideally want your synopsis to make your publisher think, ‘I want to read that’. Yes, the synopsis will inevitably water down and spoil your plot and remove all mystery, but realistically, if the publisher doesn’t feel interested by the end of your synopsis, what’s going to convince them to read the manuscript and subsequently want to publish your story?</p>
@@ -263,6 +271,8 @@ function Marketing() {
           <p>Notice how this structure breaks the plot into two kinds of information: (1) a physical happening, action or behaviour, followed by; (2) what the character thinks of feels about the event, which suggest the action the character will take next. Reading only the events gives you the basic plot. Reading only the effects gives you the basic character arc. There is a problem if, at any stage, the character’s thoughts or feelings do not match the character’s subsequent actions. </p>
           <p>At this point you can keep adding detail as required. You’ll find compared to a top-down method, with one of these two bottom-up methods it is easier to keep the size of your synopsis/summary controlled.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-a-logline">25.5 What Is A Logline?</h3>
 
           <p>In Dante’s Inferno, the punishment of writing a logline sits between the 5th-6th level of Hell. You do it over and over until you get it right (you never do). If it sounds scary, don’t worry, you have to murder about 10 people to be punished with it in the afterlife. </p>
@@ -271,10 +281,14 @@ function Marketing() {
           <p>A less obvious example: for ‘Harry Potter and the Philosopher’s Stone’ – ‘A young boy learns he is a wizard on his tenth birthday, and goes to a wizarding boarding school to learn magic.’</p>
           <p>There is no ‘perfect’ logline, and different authors will phrase loglines slightly differently, but all loglines (at least, for the same story) will converge on the same ideas.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-the-purpose-of-a-logline">24.2 The Purpose of a Logline</h3>
           <p>Some publishers demand them. Even if the publisher doesn’t ask for it, it’s worth writing one anyway, because you can use it for marketing your story; even if you’re published your publisher may or may not require you to do marketing activities, like book signings, interviews, etc. Having a rehearsed line is better than making something up on the spot, or rambling, or accidentally spoiling your story to a potential reader. </p>
           <p>Even if no one ever sees your logline, it’s still useful for personal, story-planning purposes. It tells you what your story is supposed to do, and gives you a simple direction to follow. When you get lost or your story gets too complicated, you can look at your logline and remind yourself what you’re writing.</p>
           <p>A bad logline may be a warning bell that your story sucks. When all it takes is writing one single sentence, wouldn’t you rather save time doing that litmus test, than discovering it after committing 150,000 long words?</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-features-of-a-good-logline">24.3 Features of a Good Logline</h3>
           <p>Blake Snyder lists features of good loglines, including:
@@ -387,6 +401,8 @@ function Marketing() {
           <p>This is only an example. In reality, you may need to rearrange elements and alter how many scenes they generate. But it’s a starting point to experiment with. The advantage of starting with structure is you aim to have a full outlined story before you start writing it. You troubleshoot plot issues long before sinking time into writing. This is the opposite approach of most fiction dabblers, and in my opinion, only lets them down; wasting time labouring under the sunk cost fallacy trying to fix a broken plot only because they’ve come so far with it.</p>
           <p>Once you've got your scenes, you can start giving them beats. Snyder says you can structure scenes in the above way: giving each scene a ‘catalyst’ and ‘midpoint’ and ‘all is lost’ etc, in bitesize forms. Maybe that’s too pedantic at this stage, but it’s possible. Every scene starts with a hero, an expectation, an obstacle, a change, a possible reward or goal and a possible ‘death.’ And if your scenes don’t have these beats, then where’s the momentum and interest?</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-loglines-need-causation">24.4 Loglines Need Causation</h3>
           <p>In this age of loglines and elevator pitches we're pressured to think of our stories as single sentences which encapulate the entire plot. You can make your story idea so simple that it obliterates causation, which doesn't help in the planning stages, where you're trying to link necessary plot events together. </p>
 
@@ -405,6 +421,8 @@ function Marketing() {
           </ol>
 
           <p>Both summaries work to simplify the plot -- neither is incorrect -- but if the story hadn't yet been written and you were at the front-end of story planning, which summary would help you more? Probably summary #2 because it implies causation.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-what-is-an-effective-title">25.9: What is An Effective Title?</h3>
 
@@ -465,6 +483,8 @@ function Marketing() {
               <FootnoteRef text="War of the Worlds, H. G. Wells." />
             </li>
           </ol>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-tips">25.10: Tips</h3>
 

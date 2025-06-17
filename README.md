@@ -258,3 +258,4 @@ Stuff to check:
 - [ ] every page has a index link to comments
 - [ ] check all index links work and are correct
 - [ ] change all quote boxes to the blockquote br format
+- [ ] replace tailwind classname's with custom classes, e.g. shorten h3, h4....s to < h4 > and p.... to < p > 

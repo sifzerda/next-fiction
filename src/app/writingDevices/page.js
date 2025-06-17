@@ -43,9 +43,13 @@ function WritersDevices() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-general" className="mb-2 font-semibold">20.1: GENERAL</h3>
 
           <p>GENERAL INFO HERE</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-offer/promise">20.2: Offer/Promise</h3>
 
@@ -65,6 +69,8 @@ function WritersDevices() {
           <p>Subsequently denying the development of that idea constitutes 'blocking' - see below. </p>
           <p>Example: In Pet Sematary, by establishing that the 'Sematary' resurrects creatures, King makes an offer that a character will die and be resurrected. If the main character decided not to resurrect someone at the last minute, it would result in the offer being 'blocked' (below).</p>
           <p>When the original offer/expectation is not met, but substituted with something else, this is called a 'counter offer'. If successful, the substitute will be something even better than the original offer. If unsuccessful, it will be something less interesting - however, an unsuccessful counter offer doesn't constitute a block. Blocks can have the effect of pulling the audience out of the story altogether, 'ripping' the story away from them, whereas an unsuccessful counter offer will merely make the audience less interested/invested.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-blocking">20.3: Blocking</h3>
           <p>This refers to denying the development of an idea. This doesn't mean concluding an idea by going outside the audience's expectations, it means actively choking the idea and preventing any further development at all.</p>
@@ -105,11 +111,17 @@ function WritersDevices() {
           <p className='indent-8 mb-2'>“What does that mean?”   </p>
           <p className='indent-8 mb-2'>“You’ll see,” she said, and crossed the road.<FootnoteRef text="The Fisherman, John Langerman." /></p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-reincorporation">20.4: Reincorporation</h3>
           <p>Revisiting an idea established earlier on in a story. For instance, Chekhov said that if a gun is shown in Act one, it must go off by Act three.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-raising-the-stakes">20.5: Raising the Stakes</h3>
           <p>As the name suggests, making failure potentially risky (or more risky) for a protagonist.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-setting-the-story">20.6: Setting the Story</h3>
 
@@ -122,6 +134,8 @@ function WritersDevices() {
           <p>Example: In The Events At Poroth Farm
             <FootnoteRef text="The Events At Poroth Farm, T.E.D. Klein." />
             at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people’s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-self-awareness">20.7: Self-Awareness</h3>
           <p>Characters referencing writing devices in-story, e.g. 'that's so meta'. On a sliding scale of '1' (least self-aware) to '3' (most self-aware), it includes: </p>
@@ -137,6 +151,8 @@ function WritersDevices() {
           <p>On the other hand, cultural references: brand names, references to other media, celebrities, etc, can date your writing as well as betray socioeconomic class.</p>
           <p>When it's self-referential, it detracts from realism; it reminds the author they're reading a story. It's like the protagonist is speaking directly to the reader, saying, "I know I'm only a character in a story." Worse, it can read like the <i>author</i> is speaking directly to the reader, saying, "I know it's only a story."</p>
           <p>Self-referentiality is one of those 'avant-gardist' styles. Remember the rule for using extra-conventional writing techniques? (hint, see: REF). You should not use them unless: (a) there is no other way you can convey your idea; (b) you are a wizard at the conventional stuff (and can therefore 'graduate' to higher forms).</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-irony">20.8: Irony</h3>
           <h4>20.6.1 What Is Irony?</h4>
@@ -192,13 +208,19 @@ function WritersDevices() {
             <FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
             says, like with symbolism, “to point at irony destroys it.” It cannot be obvious.  </p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-writers-block">20.9: What is Writer's Block?</h3>
 
           <p>DEFINE WRITER'S BLOCK, SPECULATE ON ORIGIN</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-imagine-saying-it">20.10: Imagine Saying It</h3>
           <p>Thought experiment: If struggling for the simplest way to voice ideas, imagine conveying the information to a lay person orally. This can help to pull you out of the pressure you often subconsciously place on yourself to sound ‘writerly’ or ‘literary’, and will help you decide what the most crucial information is from out of a bunch of different ideas;</p>
           <p>Experiment with variations of this, e.g. pretend you are trying to sum up the idea and are short for time, compared to conveying the information with all the time in the world;</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-right-idea-will-come">21.3: The Right Idea Will Come</h3>
           <p>Don’t freak out because you feel your story lacks substance or doesn’t sound original or just doesn’t sound right. If the idea is meant to be, it’ll write itself in own time. Ideas come from everywhere, and come eventually;</p>
@@ -206,6 +228,8 @@ function WritersDevices() {
             <li>Try reading other books dealing with the same subject matter – including non-fiction (and as many different kinds of books, to reduce the risk of plagiarism, intentional or otherwise);</li>
             <li>There’s no harm in taking a break from your writing, because a good idea will play on your mind whether you like it or not, and eventually something (something you read, or hear in the news, or watch on TV) will jar an idea again. The more you get away from the story the more you will appreciate it with a fresh mind, making the creative process more productive;  </li>
           </ul>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-constrain-your-writing">21.4: Constrain your Writing</h3>
           <p>A writing constraint is where you set rules delimiting what and how you write. Robert Frost said that writing free (unconstrained) verse is like playing tennis with no net. Sounds contradictory, but constraints are necessary to inspire creativity.  </p>
@@ -232,13 +256,17 @@ function WritersDevices() {
           <p>You can and should invent your own. A writing constraint can be any rule you want, and you can employ them anywhere in your writing, as long as you avoid employing them so often that your writing ends up sounding artificial and strange.</p>
           <p>You don’t have to be consistent. You can break your own constraints. You might, for example, impose a rule in one chapter against using the letter ‘e’, but break that rule once – and that one exception may be used to communicate something very important.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-from-another-authors-pov">21.5: From Another Author’s POV</h3>
           <p>If you’re struggling with an idea, try to imagine how it might be done if your favourite author wrote it (particularly if your favourite author writes in that genre).</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-as-a-movie">21.6: As A Movie</h3>
           <p>Same as above, but imagine if the idea played out as a movie. This will help write scenes which have more immediacy, because you can’t film a scene with abstract content.</p>
 
-          <h2 id="post-21-7" className="blog-post-title">21.7: The Lover’s Quarrel</h2>
+          <h3 id="post-21-7" className="blog-post-title">21.7: The Lover’s Quarrel</h3>
           <p>This is a writing exercise from Sol Stein
             <FootnoteRef text="Sol Stein, Stein On Writing." />
             for application in romance scene/s. You aim to fill in the dialogue below which both conveys that the characters are in love, but are having a quarrel (without outright stating it). The more creatively you can suggest these pieces of information, the better. Try to work the dialogue into an imagined scene, setting or event. Here’s a hint: the characters don’t have to be talking directly at each other (could be making an observation or statement).</p>
@@ -266,6 +294,8 @@ function WritersDevices() {
           <p className='indent-8 mb-2'>"You didn't have to."</p>
           <p className='indent-8 mb-2'>"Isn't it obvious?"</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 className="blog-write-what-you-love">21.8: Write What You Love</h3>
           <p>This is a tip from Stephen King; ask yourself, “Am I Having Fun?”
             <FootnoteRef text="Stephen King, Chapter 1: Everything You Need To Know About Writing Successfully — in Ten Minutes, The Writer's Handbook 1988." />
@@ -273,7 +303,7 @@ function WritersDevices() {
 
           {/* ============================================================= */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />

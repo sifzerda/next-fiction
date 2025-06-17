@@ -36,6 +36,8 @@ function MainCharacters() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-the-people-with-the-most-at-stake">7.1: The People with the Most at Stake</h3>
 
           <p>It’s been said a story should focus on the characters who stand to lose the most, or have the most at stake. We like to hear stories about people who have something to lose—family, careers, ideals, opportunities, reputations, realistic hopes and dreams.</p>
@@ -47,6 +49,8 @@ function MainCharacters() {
           <p>This is a big problem today because cultural relativism has increased sentiment that stories should be democratic, that 'everyone deserves to have their story told' and 'every story is equally important as every other story.' It’s no longer politically correct to only be interested in the King and the Queen; we must be equally in demand of the peasant’s tale now, too. You also see this in media where the same story is being told but from a different character’s perspective. This is bad form; characters are not interchangeable as protagonists, any more than the protagonist and antagonist are interchangeable. There’s a reason why a certain character is the protagonist, and not another character.</p>
           <p>Whether real life is or should be democratic, it's not so in good storytelling.</p>
           <p>In Tom Stoppard’s absurdist play ‘Rosencrantz and Guildenstern are Dead,’ the titular bit parts from Shakespeare’s Hamlet are the main characters; the play makes fun of the fact that their entire existence and designation is to be side characters in Hamlet – outside of which, they don’t properly ‘exist.’ The play recognizes that it’s absurd to pretend that by ‘shifting the camera’ those characters become the protagonists in their own story. It’s as absurd as saying you would have won a race if only the winner had switched places with you.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-ditch-the-wimp">7.2: Ditch the Wimp</h3>
           <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">“...[I]nteresting characters are almost always characters who are active—risk-takers—highly motivated toward a goal.”</div>
@@ -72,6 +76,8 @@ function MainCharacters() {
           <p><span className="font-bold">(2) Symbol: </span></p>
           <p>The character embodies some message or thematic concern you want the story to communicate. If it’s a compelling, conflicting thematic concern, you have the opportunity to make a ‘deep’ character, and one who is extremely intertwined with the story. This is the kind of character readers want to keep checking in on, to see how they are progressing. The disadvantage to this is that if your character is too theme-based, they may come off a caricature, or a mere mouthpiece for a particular view.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-ingredients-of-a-character">7.4: Ingredients of a Character</h3>
           <p>Characters aren’t just a laundry list of static traits. The same character might act a certain way in one context, and then different in another. They may use a different style of communication and adopt different mannerisms in the presence of their relatives, than their friends, than their enemies, than members of the royal family.</p>
 
@@ -83,7 +89,7 @@ function MainCharacters() {
           <p><span className="font-bold">(1)	Personality </span></p>
           <p>This is an inclusive term which Stein says “...refers to the distinctive traits of an individual, a set of behaviors, attitudes, manners, and mannerisms that identify a person. Personality speaks of an individual’s makeup, nature, and combined traits, his essence. It means the specialness of a person, which in some may involve likability, power, charm, magnetism, and charisma. The constituent parts of personality are disposition, temperament, individuality, and eccentricity.”</p>
 
-          <p className="text-sm mb-4 font-rubik"><span className="font-bold">(2)	Disposition </span></p>
+          <p><span className="font-bold">(2)	Disposition </span></p>
           <p>This is a character’s “...attitude toward the people and places of the world, her customary response, particularly her emotional response. Disposition can involve a person’s qualities, outlook, mood, frame of mind, inclination, bent, bias, tendency, and direction, her proclivity, predilection, penchant, and propensity. Today, disposition is sometimes thought of as a predisposition, a mind-set.”</p>
 
           <p><span className="font-bold">(3)	Temperament </span></p>
@@ -135,7 +141,7 @@ function MainCharacters() {
           <h4>7.4.1.1	Direct and Indirect Characterisation</h4>
           <p>Hart distinguishes between direct and indirect characterization:
             <FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
-            </p>
+          </p>
           <p className="font-bold text-boldPurple">I.	Direct characterisation</p>
           <p>This is where you simply describe character traits.</p>
           <p>Hart says: "the best modern fiction and nonfiction writers let a character’s visible persona speak for itself, the method [Janet] Burroway calls 'direct characterization.' They may occasionally comment on character. But mostly they choose to include details that lead readers to certain inevitable conclusions about the character they are describing."</p>
@@ -157,6 +163,8 @@ function MainCharacters() {
 
           <p className="font-bold text-midBluey">(4) Anecdotes </p>
           <p>When an anecdote is told about a character, it's like they briefly author their own story; the character's choice of recollection, the details they focus on, and the descriptions they use tell us about them (sometimes even more than the subject matter of the anecdote).</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-how-to-write-character">7.5: How to Write Character</h3>
           <p>You should aim to reveal your character through inference. This means simply describing the character (showing, rather than telling) should be the last resort. Here’s a list of techniques used to reveal character through inference:</p>
@@ -211,8 +219,12 @@ function MainCharacters() {
           <p>Characters should have an immediate physical reaction for everything that happens to them. Show your character’s reaction through behaviour (not thought or feeling). The reader can infer your character’s thought or feeling by their behaviour.</p>
           <p>This rule also goes the other way: if your character has a reaction, there must be a prior, physical cause for it. A character can’t just suddenly get up and decide to confront their boss; something must set it off – and not a thought or feeling or memory; but a physical action.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-incentivizing">7.6: Incentivizing</h3>
           <p>You may give your character a personality or set of traits which seems inconsistent with the way your plot needs them to act. This is not a problem or an obstacle. You hear a lot of criticism about characters acting ‘out of character’, when they do something strange. It’s not a question of acting ‘out of character’; in real life when someone acts ‘out of character’ it creates a mystery and makes that person more interesting. This doesn’t mean you can make your characters act however you want without justification. It’s an issue of incentivizing, i.e. using the carrot or the whip.  A character who ‘acts out of character’ is merely a character who has not been appropriately incentivised to act. If you want your character to do something odd, you have to use a bigger whip or carrot – this requires being in tune with your character’s hopes and fears. If a person is under an incredible amount of pressure, it’s not ‘out of character’ for them to react bizarrely. </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-maximum-capacity">7.7: Maximum Capacity</h3>
           <p>As a basic rule, Frey
@@ -220,6 +232,8 @@ function MainCharacters() {
             says characters must always be acting at ‘maximum capacity.’ This means your protagonist’s action must always be moving toward their plot relevant goals. Your character doesn’t get a ‘day off’ from the plot. If you want to slow down your protagonist’s progression, you need to create obstacles. These can be external or internal. By ‘internal’ I don’t mean ‘change of mind’ or ‘indecision’, I mean personal demons or flaws.</p>
           <p>This also doesn’t mean your character must be one-track, and can’t be overwhelmed with multiple different possible options. The distinction is; your character cannot be torn between two options, one they want with 25% certainty, and another they want with 28% certainty. They can’t be ambivalent, in other words. If your character is overwhelmed with options, they must want, with certainty, all of those options with 100% certainty (but only may select one).</p>
           <p>As Frey says, “If the character agonizes, so much the better.”</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-foil">7.8: The Foil</h3>
           <p>A ‘foil’ is a character who diametrically opposes another character – whether in traits, ideas, actions, background, etc. The opposition is designed to highlight certain traits in a character (usually the protagonist). Foils may generate conflict. It should be emphasized that foils are not necessarily enemies – they could be family, friends, lovers, colleagues, mentor/protégé, etc. They may not even agree on what kind of relationship they are in (e.g. see Hill House example below) . The more unusual the foil pairing, the more conflict. Foil relations are far more flexible, varied and creative than the protagonist/antagonist or hero/villain dynamic, and they are morally neutral. Merely that the characters disagree over an issue does not create a foil relationship. </p>
@@ -251,12 +265,16 @@ function MainCharacters() {
           <p>For instance, character 1 loses a loved one in an accident, which character 2 witnesses and becomes traumatised by it. At the climax, character 2 loses a loved one in an accident which character 1 witnesses and becomes traumatised by it.</p>
           <p>Another example: at the start, character 1 falls in love with character 2. By the end of the story, character 1 has fallen out of love with character 2 (from lack of reciprocity) but now character 2 has finally fallen in love with character 1.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-the-rpa-method">7.9: The RPA Method</h3>
           <p>When people create characters, they often start with a real life person, whose personality they attempt to insert wholesale into their novel. The problem with this is the risk the character's personality not being appropriate for the plot.</p>
           <p>A better way of creating characters is my 'RPA' method. This creates characters the opposite way; figuring out personality before considering a real life person. This method emphasizes identifying ‘role’ at an early stage so that characters are only created out of necessity:</p>
           <p><span className="font-bold">(1) Role:</span>Consider what function your character has; they may be: - an obstacle; - an ally; - a foil; - in support of the theme; - in opposition of the theme; etc. You may have worked out all the possible roles in your story just by knowing the genre - e.g. in a fantasy, you might have a hero, a villain, a love interest, a mentor, a loyal friend, a rival, etc.</p>
           <p><span className="font-bold">(1) Personality: </span>Now that you have a role, you should consider the kind of the personality that would be a good fit. The personality may make the role-player unusual (e.g. a cowardly hero), or commonplace, but should raise interest somehow. There ideally should be a sense of conflict in relation to another character (or the same character) raised by the chosen personality. As an example, think of Harry and Hermione in the HP series. Harry's role is the hero, while Hermione's is the sidekick, however Hermione's personality includes being generally an intelligent and proficient spellcaster than Harry, which raises an unusual dynamic and potential for conflict.</p>
           <p><span className="font-bold">(1) Avatar:</span>Now your character has a role and a personality, you need to write them as if they were a real person. You can try your hand at that, but it'll be easier if you use a real person you actually know as a template, on which your character is overlaid. In particular, this will make your character's dialogue sound more unique and natural and befitting, and it will minimise the temptation of writing yourself into the character, in default of one.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-trivia-model">7.10: The Trivia Model</h3>
 
@@ -314,6 +332,8 @@ function MainCharacters() {
           <p>For instance, let’s say your answers to hypothetical (5) is a person with a tendency to cheat (e.g. someone very difficult to satisfy or tie down in a relationship), but your answer to (2) is that your character is furious and feels categorically betrayed. This makes your character seem a little gullible or too trusting.</p>
           <p>You can try to weave a story around this to resolve it: your character is too trusting at the beginning, but toughens up after heartbreak. Or, the dream person gives your character some personal reassurance that they’ve changed, only to revert back to cheating. Etc. </p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-character-vs-characterization">7.11: Character vs Characterization</h3>
           <p>Robert McKee
             <FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
@@ -329,11 +349,14 @@ function MainCharacters() {
           <p>McKee states that Character and Action should have an inverse relationship in your story. In other words, the more action in your story, the less complex character should be, and vice versa. This is because character complexity distracts the reader from the acts of daring heroism – apparently?</p>
           <p><span className="underline">Caveat:</span> I would take this tip with a grain of salt: Firstly, because this tip applied to screenwriting he was talking about movies, specifically, not literature. In a film, character is usually developed through exchanges of dialogue (words), so it necessitates slowing down the pace. But in literature, everything is words, so it’s less of a problem. Secondly, it’s broad; the action genre doesn’t need extra mandate to be dumb. Alexandre Dumas seemed to do pretty well juggling gripping action set pieces with complex characters. </p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-the-animal-vegetable-or-object-method">7.12: The 'Animal, Vegetable, or Object' Method</h3>
           <p>A cheat way to create a character -- physical appearance, personality and arc/role -- is to make them embody an object, force of nature or animal. The stranger or more innocuous, the better. </p>
           <p>For example, a very skinny, red-haired character dressed in all black, calling to mind a matchstick. This is a highly evocative image, suggesting the character was emotionally/figuratively 'on fire' previously, or has a tendency to catch 'on fire' in the right circumstances. Alternatively, it could evoke a person who has lived a frequently charged and excited life, but are now ‘burnt out’. To create more intrigue the character may initially act in contradiction of the metaphor (e.g. matchstick person is passive, composed, cool and acquiescent) and only later as plot events unfold does their 'true nature' begin to reveal itself.</p>
           <p>Ideally, you will fill in gaps about the character as you go, allowing you to make departures from the metaphor and making your character feel more like a living person than a walking metaphor.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-murrays-psychological-needs">7.13: Murray's Psychological Needs</h3>
           <p>Henry Murray formulated categories of psychological needs which people spend their lifetimes pursuing.  These may be useful in character creation, worth considering in giving characters motivation and values.</p>
@@ -513,17 +536,23 @@ function MainCharacters() {
 
           <p>As an unwritten rule, suicides make bad – ineffective – protagonists.  However, you can adapt these categories for a protagonist (or antagonist) who suffers a metaphorical ‘death’ – e.g. a social death, a psychological death, a financial death, a relational death – or loss of other thing which gives the protagonist’s life meaning (remember Blake Snyder’s ‘Stasis = Death’ concept). The above categories are great anchors for motivating protagonist or antagonist, creating a turning point or ‘rock bottom’ pushing your character into action, or change.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-poignant-character-building">7.14: Poignant Character-Building</h3>
 
           <h3 id="post-introducing-your-character">7.15: Introducing Your Character</h3>
           <p>The first time one of your main characters is introduced is important not accidental. </p>
           <p>Once you have created your characters, you may be tempted to introduce them by having them sit around talking about themselves, their interests and aspirations, the way people get to know each other in real life. Avoid this; the way you introduce characters is to basically throw them into the story based on their reason for existence, possibly through a ‘Microcosmic’ scene.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-the-law-of-conservatism">7.16: The Law of Conservatism</h3>
           <p>In real life, McKee
             <FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
             states people are conservative (I use my own term ‘economic’) – that is, they go for the easiest option unless incentivized to do something more difficult.   </p>
           <p>The problem is, characters who behave like this in a story are boring. You need to keep throwing up incentives to push your characters to behave more progressively, unexpectedly, or desperately. Your characters shouldn’t just be surprising the reader, they should be surprising themselves.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-return-to-the-status-quo">7.17: Return to the Status Quo</h3>
           <p>Where the law of conservatism relates to characters, the law of status quo relates to events and consequences. The general idea with both is that unless something weird happens, people and events should carry on normally, i.e. you should avoid situations and characters which are weird by default. Weirdness by design alienates most people.</p>
@@ -564,6 +593,8 @@ function MainCharacters() {
           <p>Answer: The status quo, or law of conservativism, is a baseline and at some point in your story (usually, at least, at the inciting incident) you need to deviate from it to make interesting and surprising things happen. So every writer is going to need to know how to shift from status quo at some point, and ideally, continue to do this throughout the plot.</p>
           <p>You have to create a motivation that incentivizes against or is greater than the impulse to conform to the status quo.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-its-happened-before-itll-happen-again">7.18: It's Happened Before, It'll Happen Again</h3>
           <p>Let’s say you want to show that a character is anticipating a particular outcome, which motivates their present day behaviour. You could just ‘tell’ the reader what it is. But it’s better if you ‘show’. It also comes off as more realistic; in real life a lot of people don’t really have ‘contingency plans’ in order for the future. </p>
           <p>One thing you can do is to show the future outcome has happened in the past, and played out a certain way. </p>
@@ -571,11 +602,15 @@ function MainCharacters() {
           <p>Another example is when Jud Crandall takes the family to visit the Pet Sematary;<FootnoteRef text="Pet Sematary, Stephen King." /> Louis carrying baby Gage in a Gerry pack baby carrier. This eerily reflects his carrying deceased Gage to the Micmac burial ground later, but also, this understatedly functions to make that second trip psychologically easier on Louis and the reader, as if he’s done the trip with Gage once, he can do it again. </p>
           <p>This technique is also a good way of avoiding contravening the ‘People avoid Jinxing’ rule.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-better-never-than-late">7.19: Better Never Than Late</h3>
           <p>As a rough rule, main characters should not be introduced past the first third of a novel. There are exceptions -- one is where you've acknowledged a character early on, even if you don't show them.</p>
           <p>Example: In 'Sphere',
             <FootnoteRef text="Sphere, Michael Crichton." />
             the main character explores an alien spacecraft with his team members. All of these characters are main characters, because of their direct contact/engagement with the subject matter of the story, therefore they need to be introduced early on. However, Crichton instead introduces (i.e. gives them a couple of lines of dialogue about themselves) all but one of the team members -- the last one is seen by the main character and his name acknowledged. This creates a sense we look forward to being reintroduced to this character later, and this allows Crichton to delay the introduction.  </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-depth">7.20: Depth</h3>
           <p>Bad characterization lacks depth. However, don’t confuse shallow characterization with paucity of detail (as empty vessels can make a racket). The question is: are you divulging the right detail? You should not reveal anything but the right detail, and leave everything else a mystery.</p>
@@ -594,12 +629,16 @@ function MainCharacters() {
             <li>A character is hiding things, even from the reader;</li>
           </ol>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-multi-dimensionality">7.21: Multi-Dimensionality</h3>
           <p>A lot of lip service is paid to ‘multi-dimensional’ characters, compared to ‘one or two dimensional’ characters. But what does this mean?</p>
           <p>As with depth (above) you do not make a character more dimensional by supplying more and more information about them.</p>
           <p>McKee
             <FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
             says that the dimensionality of characters refers to contradiction. No one is wholly consistent. We experience cognitive dissonance. We pursue goals which, at the same time, make us feel guilty. We engage in relationships with people knowing they hurt us. We defy people’s expectations of us. We act one way in one situation, and another way in another.   </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-raising-the-stakes">7.22: Raising the Stakes</h3>
           <p>Characters must risk something in order to gain. You must ask what your character stands to lose if they don’t triumph at the end – what is the worst thing that will happen if your protagonist doesn’t get what they want at the end? If the answer is ‘nothing’, (i.e. life would go back to normal) your story needs work. </p>
@@ -612,12 +651,16 @@ function MainCharacters() {
           <p>It’s frustrating, contrived and lazy when a protagonist gains something, only to lose it, and finally gain it again. It invalidates the reader’s sense of satisfaction of the protagonist overcoming the obstacle the first time. It also cheapens the acquisition in general; even once the protagonist reclaims the thing, what’s preventing it from being taken again, and again?</p>
           <p>The protagonist should not perform the same action twice. Each time your protagonist overcomes an obstacle it should feel unique. </p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-number-of-characters">7.23: Number of Characters</h3>
           <p>McKee
             <FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
             makes a helpful point: For every event in your story, each character will have a different reaction. And – </p>
           <p className="italic">“If two characters in your cast share the same attitude and react in kind to whatever occurs, you must either collapse the two into one, or expel one from the story. When characters react the same, you minimize opportunities for conflict. Instead, the writer's strategy must be to maximize these opportunities.”</p>
           <p>One way you can increase conflict using characters is for different characters to have something at stake in the main characters decisions. For example, protagonist must make decision X, which involves mutually exclusive choice 1 and 2. Character A wants Protagonist to make choice 1 because of personal impact it would have on them. Character B wants choice 2 because of same. </p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-strange-sandwich">7.24 The 'Strange Sandwich'</h3>
           <p>Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). </p>
@@ -626,11 +669,15 @@ function MainCharacters() {
             states that, “...dull characters become more interesting against exotic backgrounds …[and] complicated and alien individuals stand out best against simplicity.”</p>
           <p>In other words, don’t place an oddball in an odd land, and don’t place an unremarkable wallflower in a wallpaper town.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-earn-what-you-learn">7.25. Earn What You Learn</h3>
           <p>A character can't mature if they don't start young. They can't learn if they already know. They can't preach if they haven't practiced. Your character can't learn to be good if they were good in the first place. They can't learn the value of friendship if they've always had friends -- and never not had friends. Basically, characters can't be said to grow or change if there's no growth, and no change. </p>
           <p>In all these cases, they haven't earned the moral message.  </p>
           <p>This happens when writers are too fond of their character; they want their cake and to eat it, too. They want their character to learn to do the right thing, but never have them do the wrong thing. But if you want to show your character learning to be good, you have to show them doing a correspondingly bad thing and suffering for it.</p>
           <p>You also have to be careful that the suffering properly incentivises your character: if your character does a trivially bad thing and gets an inordinately severe punishment, it doesn’t teach your character to be good; it just teaches them that justice is unfair and they must try harder not to get caught – if anything, it gives them a motivation for revenge against the good guys.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-naming-your-character">7.26 Naming Your Character</h3>
           <p>Like the book’s title, character names are important. You can get names ‘wrong’, for example:</p>
@@ -686,158 +733,161 @@ function MainCharacters() {
             </p>
           </div>
           <p>There is a broader principle to be derived from Stein’s advice. That is words that are ‘smooth’ or reading obstacles. I.e. how reflexively read is the name as a word? Does the eye have to slow and the mind concentrate to process and parse the name/word? Some extreme examples in the works of Lovecraft: Cthulhu; Nyarlathotep; these are unthinkably horrible names to have to parse multiple times in a story, but the entities they describe are supposed to be unthinkably horrible, so it works. </p>
-        
 
-        <h3 id="post-transference">7.27 Transference</h3>
-        <p>Sometimes your character won't admit or accept what they feel. How do you say that your character is in love, or terrified, or irritated, if they don't recognise it or refuse to acknowledge it?</p>
-        <p>One way is to displace the feeling onto someone or something else (preferably a concrete thing, e.g. an outward behaviour). Suggestively, the character is quick to interpret another's behaviour as due to the relevant feeling, because it's the one that's on his/her mind. This is a psychological phenomenon called ‘transference.’</p>
-        <p>Example:
-          <FootnoteRef text="The Exorcist, William Peter Blatty." />
-        </p>
-        <p className="italic">The air was thin and still in the darkness. Some cats at a garbage can scurried in fright as he crossed toward the house. </p>
-        <p>At this point in the story the protagonist here is feeling "haunted." He also wants to believe he has no rational reason to feel afraid. Therefore, there would be a conflict if he was himself described as frightened (e.g, if the cats startled him). It wouldn't ring true with his self-denial.</p>
-        <p>This is a great, simple example because it ‘transfers’ two sensations: (1) the character is frightened; and (2) the character feels short of breath due to fright. We get inside the character’s head and feelings without being told what he is feeling.</p>
+          <hr /> {/* ---------------------------------------------------------*/}
 
-        <h3 id="post-active-protagonist">7.28: Active Protagonist</h3>
-        <p>According to John Yorke,  a character who is passive is "effectively dead."</p>
-        <p>A character is passive if they don't want anything.</p>
-        <p>The protagonist must want something tangible. 'Love,' 'success,' 'power,' 'money' and 'happiness' are too vague. The goal must be tangible so that it's clear to the reader when the protagonist has achieved it. The prize must be more than 'something nice if I had it.' It's absence must weigh on the protagonist in some palpable way, and emphasised by events in the story.</p>
-        <p>What makes a protagonist:</p>
-        <p><span className="underline">Want:</span> According to John Yorke,
-          <FootnoteRef text="John Yorke, How Stories Work and Why We Tell Them." />
-          a character who is passive is "effectively dead." A character is passive if they don't want anything. If they don't want anything, they have no reason to act.</p>
-        <p><span className="underline">Tangible Want:</span> the want must be defined enough (by object, event, person, date, time, quantity, etc) so that it's clear to the reader when the protagonist has achieved it. A clearly defined want such as 'save my best friend,' is effective, whereas 'save the world,' is too general.</p>
-        <p><span className="underline">Effect:</span> 'want' comes from Old English 'vant' meaning 'absence' or 'lacking.' The absence of the thing must weigh on the protagonist in some palpable way, e.g. cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize, it changes them or their life in some corresponding way. The object itself doesn't need to be big or dramatic as long as its effect or consequences would be significant.</p>
+          <h3 id="post-transference">7.27 Transference</h3>
+          <p>Sometimes your character won't admit or accept what they feel. How do you say that your character is in love, or terrified, or irritated, if they don't recognise it or refuse to acknowledge it?</p>
+          <p>One way is to displace the feeling onto someone or something else (preferably a concrete thing, e.g. an outward behaviour). Suggestively, the character is quick to interpret another's behaviour as due to the relevant feeling, because it's the one that's on his/her mind. This is a psychological phenomenon called ‘transference.’</p>
+          <p>Example:
+            <FootnoteRef text="The Exorcist, William Peter Blatty." />
+          </p>
+          <p className="italic">The air was thin and still in the darkness. Some cats at a garbage can scurried in fright as he crossed toward the house. </p>
+          <p>At this point in the story the protagonist here is feeling "haunted." He also wants to believe he has no rational reason to feel afraid. Therefore, there would be a conflict if he was himself described as frightened (e.g, if the cats startled him). It wouldn't ring true with his self-denial.</p>
+          <p>This is a great, simple example because it ‘transfers’ two sensations: (1) the character is frightened; and (2) the character feels short of breath due to fright. We get inside the character’s head and feelings without being told what he is feeling.</p>
 
-        <hr className="my-6 border-t border-gray-400" />
-        <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <hr /> {/* ---------------------------------------------------------*/}
 
-        <CommentForm />
-        <CommentList />
+          <h3 id="post-active-protagonist">7.28: Active Protagonist</h3>
+          <p>According to John Yorke,  a character who is passive is "effectively dead."</p>
+          <p>A character is passive if they don't want anything.</p>
+          <p>The protagonist must want something tangible. 'Love,' 'success,' 'power,' 'money' and 'happiness' are too vague. The goal must be tangible so that it's clear to the reader when the protagonist has achieved it. The prize must be more than 'something nice if I had it.' It's absence must weigh on the protagonist in some palpable way, and emphasised by events in the story.</p>
+          <p>What makes a protagonist:</p>
+          <p><span className="underline">Want:</span> According to John Yorke,
+            <FootnoteRef text="John Yorke, How Stories Work and Why We Tell Them." />
+            a character who is passive is "effectively dead." A character is passive if they don't want anything. If they don't want anything, they have no reason to act.</p>
+          <p><span className="underline">Tangible Want:</span> the want must be defined enough (by object, event, person, date, time, quantity, etc) so that it's clear to the reader when the protagonist has achieved it. A clearly defined want such as 'save my best friend,' is effective, whereas 'save the world,' is too general.</p>
+          <p><span className="underline">Effect:</span> 'want' comes from Old English 'vant' meaning 'absence' or 'lacking.' The absence of the thing must weigh on the protagonist in some palpable way, e.g. cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize, it changes them or their life in some corresponding way. The object itself doesn't need to be big or dramatic as long as its effect or consequences would be significant.</p>
 
-        {/* Back to Top Link */}
-        <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
-      </div>
+          <hr /> {/* ---------------------------------------------------------*/}
+          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+
+          <CommentForm />
+          <CommentList />
+
+          {/* Back to Top Link */}
+          <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
+        </div>
 
         {/* Vertical Boxes on the Right */}
         <div className="flex flex-col gap-4 items-center md:items-start">
           {/* About Box */}
           <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
-          <div className="font-semibold mb-1 text-yellow">About</div>
-          <p className="font-source-code-pro text-xs mt-1">The main characters are those most critically affected by the plot, with the most at stake.</p>
-        </div>
+            <div className="font-semibold mb-1 text-yellow">About</div>
+            <p className="font-source-code-pro text-xs mt-1">The main characters are those most critically affected by the plot, with the most at stake.</p>
+          </div>
 
-           {/* Index Box */}
+          {/* Index Box */}
           <div
             id="index-box"
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-            <li className="mb-px">
-              <a href="#post-the-people-with-the-most-at-stake" className="hover:underline hover:text-white">7.1: The People with the Most at Stake</a>
-            </li>
-            <li className="mb-px">
-              <a href="#post-ditch-the-wimp" className="hover:underline hover:text-white">7.2: Ditch the Wimp</a>
-            </li>
-            <li className="mb-px">
-              <a href="#post-two-sources" className="hover:underline hover:text-white">7.3: Two Sources</a>
-            </li>
-            <li className="mb-px">
-              <a href="#post-ingredients-of-a-character" className="hover:underline hover:text-white">7.4: Ingredients of a Character</a>
-            </li>
-            <li className="mb-px">
-              <a href="#post-how-to-write-character" className="hover:underline hover:text-white">7.5: How to Write Character</a>
-            </li>
+              <li className="mb-px">
+                <a href="#post-the-people-with-the-most-at-stake" className="hover:underline hover:text-white">7.1: The People with the Most at Stake</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-ditch-the-wimp" className="hover:underline hover:text-white">7.2: Ditch the Wimp</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-two-sources" className="hover:underline hover:text-white">7.3: Two Sources</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-ingredients-of-a-character" className="hover:underline hover:text-white">7.4: Ingredients of a Character</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-how-to-write-character" className="hover:underline hover:text-white">7.5: How to Write Character</a>
+              </li>
 
-            <li className="mb-px">
-              <a href="#post-maximum-capacity" className="hover:underline hover:text-white">7.7: Maximum Capacity</a>
-            </li>
+              <li className="mb-px">
+                <a href="#post-maximum-capacity" className="hover:underline hover:text-white">7.7: Maximum Capacity</a>
+              </li>
 
-            <li className="mb-px">
-              <a href="#post-the-foil" className="hover:underline hover:text-white">7.8: The Foil</a>
-            </li>
-            <li className="mb-px">
-              <a href="#post-the-rpa-method" className="hover:underline hover:text-white">7.9: The RPA Method</a>
-            </li>
-            <li className="mb-px">
-              <a href="#post-character-vs-characterization" className="hover:underline hover:text-white">7.11: Character vs Characterization</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-the-animal-vegetable-or-object-method" className="hover:underline hover:text-white">7.12: The 'Animal, Vegetable, or Object' Method</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-murrays-psychological-needs" className="hover:underline hover:text-white">7.13: Murray's Psychological Needs</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-poignant-character-building" className="hover:underline hover:text-white">7.14: Poignant Character-Building</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-introducing-your-character" className="hover:underline hover:text-white">7.15: Introducing Your Character</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-the-law-of-conservatism" className="hover:underline hover:text-white">7.16: The Law of Conservatism</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-return-to-the-status-quo" className="hover:underline hover:text-white">7.17: Return to the Status Quo</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-its-happened-before-itll-happen-again" className="hover:underline hover:text-white">7.18: It's Happened Before, It'll Happen Again</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-better-never-than-late" className="hover:underline hover:text-white">7.19: Better Never Than Late</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-depth" className="hover:underline hover:text-white">7.20: Depth</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-multi-dimensionality" className="hover:underline hover:text-white">7.21: Multi-Dimensionality</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-raising-the-stakes" className="hover:underline hover:text-white">7.22: Raising the Stakes</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-number-of-characters" className="hover:underline hover:text-white">7.23: Number of Characters</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-the-strange-sandwich" className="hover:underline hover:text-white">7.24: The 'Strange Sandwich'</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-earn-what-you-learn" className="hover:underline hover:text-white">7.25: Earn What You Learn</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-naming-your-character" className="hover:underline hover:text-white">7.26: Naming Your Character</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-transference" className="hover:underline hover:text-white">7.27: Transference</a>
-            </li>
-                        <li className="mb-px">
-              <a href="#post-active-protagonist" className="hover:underline hover:text-white">7.28: Active Protagonist</a>
-            </li>
-          </ol>
-        </div>
+              <li className="mb-px">
+                <a href="#post-the-foil" className="hover:underline hover:text-white">7.8: The Foil</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-the-rpa-method" className="hover:underline hover:text-white">7.9: The RPA Method</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-character-vs-characterization" className="hover:underline hover:text-white">7.11: Character vs Characterization</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-the-animal-vegetable-or-object-method" className="hover:underline hover:text-white">7.12: The 'Animal, Vegetable, or Object' Method</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-murrays-psychological-needs" className="hover:underline hover:text-white">7.13: Murray's Psychological Needs</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-poignant-character-building" className="hover:underline hover:text-white">7.14: Poignant Character-Building</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-introducing-your-character" className="hover:underline hover:text-white">7.15: Introducing Your Character</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-the-law-of-conservatism" className="hover:underline hover:text-white">7.16: The Law of Conservatism</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-return-to-the-status-quo" className="hover:underline hover:text-white">7.17: Return to the Status Quo</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-its-happened-before-itll-happen-again" className="hover:underline hover:text-white">7.18: It's Happened Before, It'll Happen Again</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-better-never-than-late" className="hover:underline hover:text-white">7.19: Better Never Than Late</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-depth" className="hover:underline hover:text-white">7.20: Depth</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-multi-dimensionality" className="hover:underline hover:text-white">7.21: Multi-Dimensionality</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-raising-the-stakes" className="hover:underline hover:text-white">7.22: Raising the Stakes</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-number-of-characters" className="hover:underline hover:text-white">7.23: Number of Characters</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-the-strange-sandwich" className="hover:underline hover:text-white">7.24: The 'Strange Sandwich'</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-earn-what-you-learn" className="hover:underline hover:text-white">7.25: Earn What You Learn</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-naming-your-character" className="hover:underline hover:text-white">7.26: Naming Your Character</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-transference" className="hover:underline hover:text-white">7.27: Transference</a>
+              </li>
+              <li className="mb-px">
+                <a href="#post-active-protagonist" className="hover:underline hover:text-white">7.28: Active Protagonist</a>
+              </li>
+            </ol>
+          </div>
 
-        {/* Also See Box */}
+          {/* Also See Box */}
           <div
             id="also-see-box"
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-            <li className="mb-px">
-              <a href="/secondaryCharacters" className="hover:underline hover:text-white">Secondary Characters</a>
-            </li>
-            <li className="mb-px">
-              <a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a>
-            </li>
-            <li className="mb-px">
-              <a href="antagonists" className="hover:underline hover:text-white">Antagonists</a>
-            </li>
-          </ol>
+              <li className="mb-px">
+                <a href="/secondaryCharacters" className="hover:underline hover:text-white">Secondary Characters</a>
+              </li>
+              <li className="mb-px">
+                <a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a>
+              </li>
+              <li className="mb-px">
+                <a href="antagonists" className="hover:underline hover:text-white">Antagonists</a>
+              </li>
+            </ol>
+          </div>
+
         </div>
 
-      </div>
-
-    </section>
+      </section>
 
     </Layout >
   );

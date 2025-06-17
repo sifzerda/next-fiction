@@ -36,9 +36,13 @@ function Setting() {
         {/* Text Column */}
         <div className="flex-1">
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-what-is-a-setting">9.1: What is a Setting?</h3>
 
           <p>DEFINE SETTING.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-enhance-interest-and-conflict">9.2: Enhance Interest and Conflict</h3>
           <p>It's a mistake to see setting as a passive element of a story, like the 'virtual wallpaper' that papers the background of the action. Approaching setting as an afterthought, by uncritical intuition, or coin-flipping between alternatives, or wanting to vicariously 'visit' the scene for personal reasons, are all great ways to <i>not</i> select your setting.</p>
@@ -67,6 +71,8 @@ function Setting() {
             <li>Scenes should provide obstacle to the protagonist, not provide obstacle to the story.</li>
           </ol>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-describing-setting">9.3: Describing Setting</h3>
 
           <p>Physical objects should be given physical descriptions. </p>
@@ -82,6 +88,8 @@ function Setting() {
               <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
             </p>
           </div>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-setting-as-character">9.4: Setting as Character</h3>
 
@@ -103,11 +111,15 @@ function Setting() {
 
           <p>The underlined text shows what is already contained in the source by the immediate cut to the setting (the mist), and keeps us in the scene in real time, without removing us from the scene and putting us inside the protagonist's head.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3 id="post-sub-setting">9.5: Sub-Setting </h3>
 
           <p>You don't have to change the location to get a different setting. Just change some details. Change the time of day (or night) or weather, or move in time to action a setting change.</p>
           <p>Note that changing a setting can have a different effect than switching to a new setting. A setting that performs the exact same function despite looking different, can be reassuring and provide a sense of stability and routine, or a return to order. Conversely, a formerly familiar setting that now appears different  or foreign can represent uncertainty and be unsettling. </p>
           <p>Otherwise, if the setting hasn't changed, it may provide a foil to emphasise how much the character has changed by contrast.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-setting-is-relative">9.6: Setting is Relative </h3>
 
@@ -121,7 +133,7 @@ function Setting() {
 
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
-          <hr className="my-6 border-t border-gray-400" />
+          <hr /> {/* ---------------------------------------------------------*/}
           <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
