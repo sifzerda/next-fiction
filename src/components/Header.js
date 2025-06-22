@@ -43,18 +43,19 @@ function Header() {
     </h1>
   </div>
 
-  {/* Top Row: Title left, Search right on sm+ */}
-  <div
-    className="hidden sm:flex items-center justify-between px-6 py-5"
-    style={{ minHeight: "5rem" }}>
-    <h1 className="font-edu text-4xl text-llBlue drop-shadow-sm leading-none text-left">
-      Fiction Map
-    </h1>
+{/* Top Row: Title left, Search right on sm+ */}
+<div
+  className="hidden sm:flex items-center justify-between px-6 py-5"
+  style={{ minHeight: "5rem" }}>
+  <h1 className="font-edu text-4xl text-llBlue drop-shadow-sm leading-none text-left">
+    Fiction Map
+  </h1>
 
-    <div className="w-48 sm:w-64">
-       <SearchBar data={searchIndex} />
-    </div>
+  {/* Make this responsive: full width up to md, then wider on md+ and lg+ */}
+  <div className="w-full md:w-96 lg:w-[500px]">
+    <SearchBar data={searchIndex} />
   </div>
+</div>
 
   {/* Navigation Row */}
   <nav className="flex items-center justify-center px-6 py-2 sm:pt-0">
