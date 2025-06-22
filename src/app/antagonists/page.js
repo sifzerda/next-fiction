@@ -153,7 +153,7 @@ function Antagonists() {
                 {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-antagonists-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -176,7 +176,6 @@ function Antagonists() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
               <li className="mb-px"><a href="#post-what-is-an-antagonist" className="hover:underline hover:text-white">16.1: What is an Antagonist?</a></li>
               <li className="mb-px"><a href="#post-importance-antagonist" className="hover:underline hover:text-white">16.2: The Importance of Antagonism</a></li>
               <li className="mb-px"><a href="#post-antagonistic-forces" className="hover:underline hover:text-white">16.3: Antagonistic Forces</a></li>
@@ -184,6 +183,7 @@ function Antagonists() {
               <li className="mb-px"><a href="#post-negation-of-negation" className="hover:underline hover:text-white">16.5: The Negation of a Negation</a></li>
               <li className="mb-px"><a href="#post-protagonist=antagonist" className="hover:underline hover:text-white">16.6: Protagonist = Antagonist</a></li>
               <li className="mb-px"><a href="#post-how-to-create-antagonist" className="hover:underline hover:text-white">16.7: How to Create an Antagonist</a></li>
+              <li className="mb-px"><a href="#post-antagonists-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

@@ -359,7 +359,7 @@ function TheFirstWords() {
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-first-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -382,7 +382,6 @@ function TheFirstWords() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
               <li className="mb-px"><a href="#post-why-the-first-words-matter" className="hover:underline hover:text-white">17.1: Why the First Words Matter</a></li>
               <li className="mb-px"><a href="#post-the-4-ws" className="hover:underline hover:text-white">17.2: The 4 'W's</a></li>
               <li className="mb-px"><a href="#post-wide-or-narrow" className="hover:underline hover:text-white">17.3: Wide or Narrow</a></li>
@@ -390,7 +389,7 @@ function TheFirstWords() {
               <li className="mb-px"><a href="#post-a-big-scene-and-a-small-scene" className="hover:underline hover:text-white">17.5: A Big Scene and a Small Scene</a></li>
               <li className="mb-px"><a href="#post-order-of-information" className="hover:underline hover:text-white">17.5: Order of Information</a></li>
               <li className="mb-px"><a href="#post-first-line" className="hover:underline hover:text-white">17.7: First Line</a></li>
-              <li className="mb-px"><a href="#post-the-first-words-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-first-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

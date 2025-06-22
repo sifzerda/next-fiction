@@ -438,7 +438,7 @@ function Dialogue() {
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-dialogue-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -475,10 +475,6 @@ function Dialogue() {
               <li className="mb-px"><a href="#post-dont-take-sides" className="hover:underline hover:text-white">12.11: Don't Take Sides</a></li>
               <li className="mb-px"><a href="#post-when-to-avoid-dialogue" className="hover:underline hover:text-white">12.12: When To Avoid Dialogue</a></li>
               <li className="mb-px"><a href="#post-dialogue-comments" className="hover:underline hover:text-white">Comments</a></li>
-
-
-
-
             </ol>
           </div>
 

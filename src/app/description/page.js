@@ -579,7 +579,7 @@ function Description() {
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-description-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />

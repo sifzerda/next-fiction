@@ -163,7 +163,7 @@ function POV() {
           {/* ------------------------------------------------- comment Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-pov-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -197,6 +197,7 @@ function POV() {
               <li className="mb-px"><a href="#post-multiple-shifting-narrators" className="hover:underline hover:text-white">14.5: Multiple Shifting Narrators</a></li>
               <li className="mb-px"><a href="#post-which-pov-to-use" className="hover:underline hover:text-white">14.6: Which POV to Use</a></li>
               <li className="mb-px"><a href="#post-implied-change-of-pov" className="hover:underline hover:text-white">14.7: Implied Change of POV</a></li>
+              <li className="mb-px"><a href="#post-pov-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

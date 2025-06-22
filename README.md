@@ -253,7 +253,6 @@ PAGES TO DO:
 - [x] marketing: title + synopsis + logline
 - [x] references
 
-
 Stuff to check:
 - [ ] every page has a index link to comments
 - [ ] check all index links work and are correct

@@ -134,7 +134,7 @@ function Setting() {
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-setting-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -162,6 +162,7 @@ function Setting() {
               <li className="mb-px"><a href="#post-describing-setting" className="hover:underline hover:text-white">9.3: Describing Setting</a></li>
               <li className="mb-px"><a href="#post-setting-as-character" className="hover:underline hover:text-white">9.4: Setting as Character</a></li>
               <li className="mb-px"><a href="#post-sub-setting" className="hover:underline hover:text-white">9.5: Sub-Setting</a></li>
+              <li className="mb-px"><a href="#post-setting-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

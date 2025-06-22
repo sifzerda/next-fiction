@@ -304,7 +304,7 @@ function WritersDevices() {
           {/* ============================================================= */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-wd-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -327,7 +327,6 @@ function WritersDevices() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
               <li className="mb-px"><a href="#post-general-info" className="hover:underline hover:text-white">20.1: General info</a></li>
               <li className="mb-px"><a href="#post-offer/promise" className="hover:underline hover:text-white">20.2: Offer/Promise</a></li>
               <li className="mb-px"><a href="#post-blocking" className="hover:underline hover:text-white">20.3: Blocking</a></li>
@@ -343,7 +342,7 @@ function WritersDevices() {
               <li className="mb-px"><a href="#post-as-a-movie" className="hover:underline hover:text-white">20.13: As a Movie</a></li>
               <li className="mb-px"><a href="#post-the-lovers-quarrel" className="hover:underline hover:text-white">20.14: The Lover's Quarrel</a></li>
               <li className="mb-px"><a href="#post-write-what-you-love" className="hover:underline hover:text-white">21.15: Write What You Love</a></li>
-              <li className="mb-px"><a href="#post-writers-devices-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-wd-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

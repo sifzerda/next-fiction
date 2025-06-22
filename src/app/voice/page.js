@@ -151,7 +151,7 @@ function Voice() {
           {/* ---------------------------------------------------------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-voice-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -174,7 +174,6 @@ function Voice() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
               <li className="mb-px"><a href="#post-what-is-voice" className="hover:underline hover:text-white">15.1: What is Voice?</a></li>
               <li className="mb-px"><a href="#post-how-to-create-voice" className="hover:underline hover:text-white">15.2: How to Create Voice</a></li>
               <li className="mb-px"><a href="#post-be-quiet" className="hover:underline hover:text-white">15.3: Be Quiet</a></li>

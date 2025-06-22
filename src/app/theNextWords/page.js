@@ -993,7 +993,7 @@ function TheNextWords() {
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-next-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -1016,11 +1016,11 @@ function TheNextWords() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
               <li className="mb-px"><a href="#post-dont-do-this" className="hover:underline hover:text-white">18.1: Don't Do This!</a></li>
               <li className="mb-px"><a href="#post-do-this" className="hover:underline hover:text-white">18.2: Do This!</a></li>
               <li className="mb-px"><a href="#post-writing-hacks" className="hover:underline hover:text-white">18.3: Writing 'Hacks'</a></li>
               <li className="mb-px"><a href="#post-professional-advice" className="hover:underline hover:text-white">18.4: Professional Advice</a></li>
+              <li className="mb-px"><a href="#post-next-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

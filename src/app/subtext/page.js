@@ -123,7 +123,7 @@ function Subtext() {
           {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-subtext-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -146,9 +146,9 @@ function Subtext() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
               <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">10.1: What is subtext?</a></li>
               <li className="mb-px"><a href="#post-whatisastory" className="hover:underline hover:text-white">10.2: Symbolism</a></li>
+              <li className="mb-px"><a href="#post-subtext-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

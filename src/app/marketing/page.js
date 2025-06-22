@@ -522,16 +522,16 @@ function Marketing() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li><a href="#post-purpose-of-a-synopsis" className="hover:underline hover:text-white">25.1&nbsp;&nbsp;&nbsp;&nbsp;Purpose of a Synopsis</a></li>
-              <li><a href="#post-what-is-a-synopsis" className="hover:underline hover:text-white">25.2&nbsp;&nbsp;&nbsp;&nbsp;What Is A Synopsis?</a></li>
-              <li><a href="#post-the-value-of-a-synopsis" className="hover:underline hover:text-white">25.3&nbsp;&nbsp;&nbsp;&nbsp;The Value of a Synopsis</a></li>
-              <li><a href="#post-how-to-write-a-synopsis" className="hover:underline hover:text-white">25.4&nbsp;&nbsp;&nbsp;&nbsp;How To Write A Synopsis</a></li>
-              <li><a href="#post-what-is-a-logline" className="hover:underline hover:text-white">25.5&nbsp;&nbsp;&nbsp;&nbsp;What Is A Logline?</a></li>
-              <li><a href="#post-the-purpose-of-a-logline" className="hover:underline hover:text-white">25.6&nbsp;&nbsp;&nbsp;&nbsp;The Purpose of a Logline</a></li>
-              <li><a href="#post-features-of-a-good-logline" className="hover:underline hover:text-white">25.7&nbsp;&nbsp;&nbsp;&nbsp;Features of a Good Logline</a></li>
-              <li><a href="#post-loglines-need-causation" className="hover:underline hover:text-white">25.8&nbsp;&nbsp;&nbsp;&nbsp;Loglines Need Causation</a></li>
-              <li><a href="#post-what-is-an-effective-title" className="hover:underline hover:text-white">25.9&nbsp;&nbsp;&nbsp;&nbsp;What is an Effective Title?</a></li>
-              <li><a href="#post-tips" className="hover:underline hover:text-white">25.10&nbsp;&nbsp;&nbsp;&nbsp;Tips</a></li>
+              <li><a href="#post-purpose-of-a-synopsis" className="hover:underline hover:text-white">25.1 Purpose of a Synopsis</a></li>
+              <li><a href="#post-what-is-a-synopsis" className="hover:underline hover:text-white">25.2 What Is A Synopsis?</a></li>
+              <li><a href="#post-the-value-of-a-synopsis" className="hover:underline hover:text-white">25.3 The Value of a Synopsis</a></li>
+              <li><a href="#post-how-to-write-a-synopsis" className="hover:underline hover:text-white">25.4 How To Write A Synopsis</a></li>
+              <li><a href="#post-what-is-a-logline" className="hover:underline hover:text-white">25.5 What Is A Logline?</a></li>
+              <li><a href="#post-the-purpose-of-a-logline" className="hover:underline hover:text-white">25.6 The Purpose of a Logline</a></li>
+              <li><a href="#post-features-of-a-good-logline" className="hover:underline hover:text-white">25.7 Features of a Good Logline</a></li>
+              <li><a href="#post-loglines-need-causation" className="hover:underline hover:text-white">25.8 Loglines Need Causation</a></li>
+              <li><a href="#post-what-is-an-effective-title" className="hover:underline hover:text-white">25.9 What is an Effective Title?</a></li>
+              <li><a href="#post-tips" className="hover:underline hover:text-white">25.10 Tips</a></li>
               <li><a href="#post-marketing-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>

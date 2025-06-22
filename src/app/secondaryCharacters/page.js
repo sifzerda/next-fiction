@@ -69,7 +69,7 @@ function SecondaryCharacters() {
           <p>.... </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-secoChar-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -92,24 +92,13 @@ function SecondaryCharacters() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px">
-                <a href="#post-storytelling" className="hover:underline hover:text-white">8.1: What is A Secondary Character?</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-whatisastory" className="hover:underline hover:text-white">8.2: Orbit the Main Character</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-mainelementsofstory" className="hover:underline hover:text-white">8.3: Fire Some Extras</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-josephcampbellmyths" className="hover:underline hover:text-white">8.4: The Perfect Friend</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-mythsandmisconceptions" className="hover:underline hover:text-white">8.5: Idiosyncratic Characters</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-philosophyofstory" className="hover:underline hover:text-white">8.6: The Role Model</a>
-              </li>
+              <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">8.1: What is A Secondary Character?</a></li>
+              <li className="mb-px"><a href="#post-whatisastory" className="hover:underline hover:text-white">8.2: Orbit the Main Character</a></li>
+              <li className="mb-px"><a href="#post-mainelementsofstory" className="hover:underline hover:text-white">8.3: Fire Some Extras</a></li>
+              <li className="mb-px"><a href="#post-josephcampbellmyths" className="hover:underline hover:text-white">8.4: The Perfect Friend</a></li>
+              <li className="mb-px"><a href="#post-mythsandmisconceptions" className="hover:underline hover:text-white">8.5: Idiosyncratic Characters</a></li>
+              <li className="mb-px"><a href="#post-philosophyofstory" className="hover:underline hover:text-white">8.6: The Role Model</a></li>
+            <li className="mb-px"><a href="#post-secoChar-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 

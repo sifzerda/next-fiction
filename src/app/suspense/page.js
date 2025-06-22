@@ -165,7 +165,7 @@ function Suspense() {
           {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-suspense-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -188,19 +188,11 @@ function Suspense() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px">
-                <a href="#post-what-is-suspense" className="hover:underline hover:text-white">13.1 What is Suspense?</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-how-to-create-suspense" className="hover:underline hover:text-white">13.2 How to Create Suspense</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-tension" className="hover:underline hover:text-white">13.3 Tension</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-pacing" className="hover:underline hover:text-white">13.4 Pacing</a>
-              </li>
+              <li className="mb-px"><a href="#post-what-is-suspense" className="hover:underline hover:text-white">13.1 What is Suspense?</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-suspense" className="hover:underline hover:text-white">13.2 How to Create Suspense</a></li>
+              <li className="mb-px"><a href="#post-tension" className="hover:underline hover:text-white">13.3 Tension</a></li>
+              <li className="mb-px"><a href="#post-pacing" className="hover:underline hover:text-white">13.4 Pacing</a></li>
+              <li className="mb-px"><a href="#post-suspense-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -211,17 +203,9 @@ function Suspense() {
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-
-              <li className="mb-px">
-                <a href="/premise" className="hover:underline hover:text-white">Conflict</a>
-              </li>
-              <li className="mb-px">
-                <a href="/plot" className="hover:underline hover:text-white">Subtext</a>
-              </li>
-              <li className="mb-px">
-                <a href="/synopsis" className="hover:underline hover:text-white">Writing Devices</a>
-              </li>
+              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Conflict</a></li>
+              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Subtext</a></li>
+              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Writing Devices</a></li>
             </ol>
           </div>
 
