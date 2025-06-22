@@ -55,6 +55,11 @@ https://fiction-map.vercel.app/
 - npm install i
 - npm run start
 
+## To scrape page content for search indexing:
+
+- npm run start or dev
+- node extract-text.mjs
+
 # Usage <a name="usage"></a>
 
 A serverless SPA app router NEXT.js app. The back-end is handled serverless on a Prisma Neon database on Vercel. It enables user registration for basic account access, and user authentication by JWT. Users can leave comments on each page, and contact me via a contact form on the contact page.
