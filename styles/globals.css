@@ -48,6 +48,12 @@ ol {
   font-family: var(--font-rubik), sans-serif;
 }
 
+li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25;
+}
+
 .fn {
   font-family: 'Source Code Pro', monospace;
   display: flex;
@@ -64,6 +70,17 @@ ol {
   padding-left: 0;
   margin-left: 0;
   text-indent: 0;
+}
+
+/* light-colour box */
+
+.custom-box {
+  padding: 0.75rem;      
+  margin-bottom: 0.75rem;   
+  border-radius: 0.25rem;   
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db; 
+  font-family: 'Rubik', sans-serif; 
 }
 
 /* back to top btn and scrollbar settings */

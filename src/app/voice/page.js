@@ -21,7 +21,7 @@ function Voice() {
           <span className="font-rubik block text-right font-medium mt-1">— Hallie & Whit Burnett</span>
         </blockquote>
         <blockquote className="text-sm italic mb-2">
-          “If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn’t matter a damn how you write.”
+          “If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn&#39;t matter a damn how you write.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Somerset Maugham</span>
         </blockquote>
@@ -57,7 +57,7 @@ function Voice() {
 
           <h3 id="post-what-is-voice">15.1: What is Voice?</h3>
 
-          <p>'Voice' refers to the individuality of your writing. It's also referred to as 'style' i.e. writing style. Just like you can distinguish different people’s voices in a room, you should be able to distinguish different authors’ writing voices out of a pile of texts.</p>
+          <p>'Voice' refers to the individuality of your writing. It's also referred to as 'style' i.e. writing style. Just like you can distinguish different people&#39;s voices in a room, you should be able to distinguish different authors&#39; writing voices out of a pile of texts.</p>
 
           <p>Sol Stein says voice has two components: <i>'the originality of what is said and the originality of the way it is said.'</i>
             <FootnoteRef text="Sol Stein, Stein on Writing: A Master Editor of Some of the Most Successful Writers of Our Century Shares His Craft Techniques and Strategies." />
@@ -77,7 +77,7 @@ function Voice() {
             <FootnoteRef text="Ben Yagoda, How to Not Write Bad." />
             explains: There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.</p>
 
-          <p>Another term for this is the 'middle style'; sometimes it’s claimed to be “transparent” prose. That’s because it’s clear, precise, and concise and doesn’t call attention to itself.</p>
+          <p>Another term for this is the 'middle style'; sometimes it&#39;s claimed to be “transparent” prose. That&#39;s because it&#39;s clear, precise, and concise and doesn&#39;t call attention to itself.</p>
           <p>William Hazlitt gave it some other names, and a good characterization, back in 1821:</p>
 
           <p><i>“To write a genuine familiar or truly English style, is to write as anyone would speak in common conversation, who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity.”</i>
@@ -85,8 +85,8 @@ function Voice() {
           </p>
 
           <p>He also gives an example of voiceless – soulless – writing:</p>
-          <p><i>‘Not only do journalists possess an undying passion to uncover and showcase relevant information to enhance the public’s knowledge on current events, but exhibit a willingness to go to great lengths to obtain stories fit to print.’ </i></p>
-          <p>It has all the telltale signs of mindless writing: wordiness, clichés, and catchphrases poorly used; subjects and verbs that don’t line up; incorrect use of words; faulty parallelism.</p>
+          <p><i>‘Not only do journalists possess an undying passion to uncover and showcase relevant information to enhance the public&#39;s knowledge on current events, but exhibit a willingness to go to great lengths to obtain stories fit to print.&#39; </i></p>
+          <p>It has all the telltale signs of mindless writing: wordiness, clichés, and catchphrases poorly used; subjects and verbs that don&#39;t line up; incorrect use of words; faulty parallelism.</p>
 
           <p>The purpose of style is not merely to sound “amusing or lyrical or emotive or profound or fun” but to:<FootnoteRef text="David Carroll, A Manual of Writer's Tricks." /></p>
           <ol>
@@ -103,24 +103,24 @@ function Voice() {
 
           <h5>(1) By practicing writing</h5>
 
-          <p>The only way you can critique and develop your own writing is by actually writing and read and critically appraise what you’ve written, sometimes months or years after writing it. By doing so, you will attune yourself to your existing style and be able to decide what you like and dislike about it. This will inform the styles which you subsequently are inspired by.</p>
+          <p>The only way you can critique and develop your own writing is by actually writing and read and critically appraise what you&#39;ve written, sometimes months or years after writing it. By doing so, you will attune yourself to your existing style and be able to decide what you like and dislike about it. This will inform the styles which you subsequently are inspired by.</p>
           <p>For instance, if you are concerned your writing waffles too much, you might take special notice of concise writing styles, and make effort to emulate them.</p>
 
           <h5>(2) By reading and incorporating other writing styles</h5>
 
-          <p>The styles you incorporate will include writers you naturally write like, and writers you wish you wrote like. Somewhere in between you’ll find a happy medium. If you read a lot, you will also pick up lots of writing tricks and techniques from different authors - who, you won't particularly wish to write like - but which you will minutely be inspired by in very select ways. You will also critically learn the styles you don't want to emulate, and you should take note what those styles did which made you dislike them.</p>
+          <p>The styles you incorporate will include writers you naturally write like, and writers you wish you wrote like. Somewhere in between you&#39;ll find a happy medium. If you read a lot, you will also pick up lots of writing tricks and techniques from different authors - who, you won't particularly wish to write like - but which you will minutely be inspired by in very select ways. You will also critically learn the styles you don't want to emulate, and you should take note what those styles did which made you dislike them.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-be-quiet">15.3: Be Quiet</h3>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="italic">One must be careful to distinguish between those who write beautiful things and those who write things beautifully
               <FootnoteRef text="Somerset Maugham." />
             </p>
           </div>
 
-          <p>The best voice/style is the least noticeable. Like symbolism, voice is not something you want shoved in your face while you’re reading – it’s something you appreciate in afterthought.</p>
+          <p>The best voice/style is the least noticeable. Like symbolism, voice is not something you want shoved in your face while you&#39;re reading – it&#39;s something you appreciate in afterthought.</p>
 
           <p>Bickham says:
             <FootnoteRef text="Jack Bickham, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." />
@@ -139,14 +139,14 @@ function Voice() {
             <FootnoteRef text="William Sloane, The Craft of Writing." />
             Your style should recreate your tone of voice. The paradoxical thing about style is it's like an accent; you shouldn't be aware of your own.</p>
 
-          <p>Don’t worry too much about actively modifying your writing style (and if you are consciously striving to write in a ‘voice’, then it isn’t your real voice). Focus more on writing in a natural, comfortable way, Also, realise that writing style may surface as much in your editing technique as your writing technique – which words you remove and how you rearrange and re-write your sentences.</p>
+          <p>Don&#39;t worry too much about actively modifying your writing style (and if you are consciously striving to write in a ‘voice&#39;, then it isn&#39;t your real voice). Focus more on writing in a natural, comfortable way, Also, realise that writing style may surface as much in your editing technique as your writing technique – which words you remove and how you rearrange and re-write your sentences.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-contrast">15.4: Contrast</h3>
 
-          <p>If you’re interested in learning what your writing voice sounds/reads like, try these two activities: Get a book by an author whose voice you’re familiar with, choose a random chapter and attempt the write the subsequent chapter. If you already know what happens in the subsequent chapter, your chapter will probably mimic that, and the difference will be the pure writing styles of the author and yourself.</p>
-          <p>If you haven’t yet read the subsequent chapter, this activity will still work, but it will also show you as the differences in structuring, plotting and pacing, between the author and yourself, which is also informative (works better if you haven’t read the subsequent chapter). </p>
+          <p>If you&#39;re interested in learning what your writing voice sounds/reads like, try these two activities: Get a book by an author whose voice you&#39;re familiar with, choose a random chapter and attempt the write the subsequent chapter. If you already know what happens in the subsequent chapter, your chapter will probably mimic that, and the difference will be the pure writing styles of the author and yourself.</p>
+          <p>If you haven&#39;t yet read the subsequent chapter, this activity will still work, but it will also show you as the differences in structuring, plotting and pacing, between the author and yourself, which is also informative (works better if you haven&#39;t read the subsequent chapter). </p>
 
           {/* ---------------------------------------------------------------------------------------------- */}
 
@@ -186,11 +186,8 @@ function Voice() {
           <div
             id="also-see-box"
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-
               <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
               <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Plot</a></li>
               <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a></li>

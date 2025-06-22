@@ -52,7 +52,7 @@ function Header() {
   </h1>
 
   {/* Make this responsive: full width up to md, then wider on md+ and lg+ */}
-  <div className="w-full md:w-96 lg:w-[500px]">
+  <div className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[384px] lg:max-w-[500px] h-8 overflow-hidden">
     <SearchBar data={searchIndex} />
   </div>
 </div>

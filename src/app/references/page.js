@@ -41,7 +41,7 @@ function Subtext() {
             <li>Hart, Jack. <em>Storycraft: Complete Guide to Writing Creative Nonfiction</em>. University of Chicago Press, 2011.</li>
             <li>King, Stephen. <em>On Writing</em>. Scribner, 2000.</li>
             <li>King, Stephen. <em>Danse Macabre</em>. Berkley, 1981.</li>
-            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes’</em>. Unpublished, N/A.</li>
+            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes&#39;</em>. Unpublished, N/A.</li>
             <li>Macauley, Robie, & Lanning, George. <em>Technique In Fiction (2nd ed)</em>. Macmillan, 1979.</li>
             <li>Mayer, Bob. <em>70 Solutions to Common Writing Mistakes</em>. Writer's Digest Books, 2005.</li>
             <li>Mayer, Bob. <em>Fiction Writers Toolkit</em>. Writer's Digest Books, 2009.</li>
@@ -74,7 +74,7 @@ function Subtext() {
             <li>Hart, Jack. <em>Storycraft: Complete Guide to Writing Creative Nonfiction</em>. University of Chicago Press, 2011.</li>
             <li>King, Stephen. <em>On Writing</em>. Scribner, 2000.</li>
             <li>King, Stephen. <em>Danse Macabre</em>. Berkley, 1981.</li>
-            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes’</em>. Unpublished, N/A.</li>
+            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes&#39;</em>. Unpublished, N/A.</li>
             <li>Macauley, Robie, & Lanning, George. <em>Technique In Fiction (2nd ed)</em>. Macmillan, 1979.</li>
             <li>Mayer, Bob. <em>70 Solutions to Common Writing Mistakes</em>. Writer's Digest Books, 2005.</li>
             <li>Mayer, Bob. <em>Fiction Writers Toolkit</em>. Writer's Digest Books, 2009.</li>
@@ -107,7 +107,7 @@ function Subtext() {
             <li>Hart, Jack. <em>Storycraft: Complete Guide to Writing Creative Nonfiction</em>. University of Chicago Press, 2011.</li>
             <li>King, Stephen. <em>On Writing</em>. Scribner, 2000.</li>
             <li>King, Stephen. <em>Danse Macabre</em>. Berkley, 1981.</li>
-            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes’</em>. Unpublished, N/A.</li>
+            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes&#39;</em>. Unpublished, N/A.</li>
             <li>Macauley, Robie, & Lanning, George. <em>Technique In Fiction (2nd ed)</em>. Macmillan, 1979.</li>
             <li>Mayer, Bob. <em>70 Solutions to Common Writing Mistakes</em>. Writer's Digest Books, 2005.</li>
             <li>Mayer, Bob. <em>Fiction Writers Toolkit</em>. Writer's Digest Books, 2009.</li>
@@ -140,7 +140,7 @@ function Subtext() {
             <li>Hart, Jack. <em>Storycraft: Complete Guide to Writing Creative Nonfiction</em>. University of Chicago Press, 2011.</li>
             <li>King, Stephen. <em>On Writing</em>. Scribner, 2000.</li>
             <li>King, Stephen. <em>Danse Macabre</em>. Berkley, 1981.</li>
-            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes’</em>. Unpublished, N/A.</li>
+            <li>King, Stephen. <em>‘Writing Successfully in 10 Minutes&#39;</em>. Unpublished, N/A.</li>
             <li>Macauley, Robie, & Lanning, George. <em>Technique In Fiction (2nd ed)</em>. Macmillan, 1979.</li>
             <li>Mayer, Bob. <em>70 Solutions to Common Writing Mistakes</em>. Writer's Digest Books, 2005.</li>
             <li>Mayer, Bob. <em>Fiction Writers Toolkit</em>. Writer's Digest Books, 2009.</li>

@@ -43,16 +43,16 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-theme" className="mb-2 font-semibold">4.1: What is Theme?</h3>
+          <h3 id="post-what-is-theme">4.1: What is Theme?</h3>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p>[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified.”</p>
             <span className="italic">— Robert Meredith and John Fitzgerald
               <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
             </span>
           </div>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p>[Themes are v]alues, the positive/negative charges of life, [which] are at the soul of our art. The writer shapes story around a perception of what's worth living for, what's worth dying for, what's foolish to pursue, the meaning of justice, truth — the essential values.</p>
             <span className="italic">— Robert McKee
               <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
@@ -64,7 +64,7 @@ function Themes() {
             <FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
             which just keep repeating themselves. This is a virtue, as good themes endure, they speak to universal human experience -- they're not meant to reinvent the wheel. Hart quoted Paula LaRoque's list of themes or archetypes:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Quest,</li>
             <li>Search,</li>
             <li>Journey,</li>
@@ -90,7 +90,7 @@ function Themes() {
           </ol>
 
           <p>Hart also adds:</p>
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Maturation,</li>
             <li>Accepting flaws,</li>
             <li>Persistence in the face of longstanding or difficult challenges,</li>
@@ -100,10 +100,10 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-thematic-conceit" className="mb-2 font-semibold">4.2: The Thematic Conceit</h3>
+          <h3 id="post-the-thematic-conceit">4.2: The Thematic Conceit</h3>
           <p>The theme can be phrased as a question, which the story answers. What are the central questions you want to put to the reader and write in order to answer? e.g. — </p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Love: can it survive unimaginable trauma?</li>
             <li>Time: is there any acceptable restitution if it's been lost?</li>
             <li>Entertainment: Does it make people dumber?</li>
@@ -118,14 +118,14 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-inciting-question" className="mb-2 font-semibold">4.3: The Inciting Question</h3>
+          <h3 id="post-the-inciting-question">4.3: The Inciting Question</h3>
           <p>For commercial writing, your premise and your thematic concern are the most vital commercial aspects of your story, because you draw upon them whenever you try to advertise your book. Consider a book is the primary advertisement for itself: ideally, your title, cover design, tagline, hook, and blurb will refer to your premise. All other advertisements will be based on these.</p>
           <p>Another way of putting it is each of your title, cover design, tagline, hook and blurb should ask a question that makes the reader want to read your book, e.g. 'What if you were the last to know?'' or 'Would you do it?'' This is not the theme, but a thematic question, a question which converges back on your theme.</p>
           <p>These also don't have to be literal questions, but should elicit a question, for instance: 'He looked at the closed casket as it disappeared into the ground, feeling the weight of being the only person who knew the body wasn't in there,'' (Theme: Honesty) or 'She allowed him to remove her white veil, and got a better look at his face. And - That's not Ivan. (Theme: Identity)</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-to-create-a-theme" className="mb-2 font-semibold">4.4: How to Create a Theme</h3>
+          <h3 id="post-how-to-create-a-theme">4.4: How to Create a Theme</h3>
           <p>There are different methods for developing a theme:</p>
           <h4>4.3.1 	Synecdoche</h4>
           <p>Synecdoche is where a part of a thing represents the whole thing, or the whole represents a part.</p>
@@ -137,11 +137,11 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-dont-preach" className="mb-2 font-semibold">4.5: Don't Preach</h3>
+          <h3 id="post-dont-preach">4.5: Don't Preach</h3>
           <p>Under '1.1. The Main Elements of a Story,' Theme came last on the list. Plot comes first because your reader wants to be entertained above all else. If they wanted to learn something they would read non-fiction. </p>
           <p>When you make THEME come first, you end up with a lecture - or worse, propaganda - not a story. Your plot bends to facilitate your opinion, rather than reflect the most interesting arrangement of events.</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p>[If there's] one fault that stands out above all others...by the young and inexperienced [writers], it is the tendency to sermonize and editorialize to drive home the theme...[This] novelist is convinced of the validity of his wisdom, gained from experience, and he wants…to persuade others about [his] truth...as a result he begins to lecture the reader.</p>
             <span className="italic">— Robert Meredith and John Fitzgerald
               <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
@@ -150,7 +150,7 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-variations-on-a-theme" className="mb-2 font-semibold">4.6: Variations on a Theme</h3>
+          <h3 id="post-variations-on-a-theme">4.6: Variations on a Theme</h3>
           <p>This topic is an intersection of themes and character creation.</p>
           <p>You might select a premise or theme for your story but be unsure how to create and populate your plot with scenes that flow from your central idea or premise rather than just being 'really cool things that happen' which you just thought up.</p>
           <p>One technique you can apply is to think of stories as an exploration of an idea or premise, and have the freedom to explore all “variations on a theme”, or idea. Variations may be embodied in other characters whose own dramas vie with the protagonist for resolution. Additionally making these dramas a zero sum game can raise the stakes and also ensure the dramas are relevant to the protagonists'. Once you populate your plot with these variations major scenes and ideas may start to write themselves.</p>
@@ -164,7 +164,7 @@ function Themes() {
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 id="post-themes-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-themes-comments">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -189,27 +189,13 @@ function Themes() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px">
-                <a href="#post-what-is-theme" className="hover:underline hover:text-white">4.1: What is Theme?</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-the-thematic-conceit" className="hover:underline hover:text-white">4.2: The Thematic Conceit</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-the-inciting-question" className="hover:underline hover:text-white">4.3: The Inciting Question</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-how-to-create-a-theme" className="hover:underline hover:text-white">4.4: How to Create a Theme</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-dont-preach" className="hover:underline hover:text-white">4.5: Don't Preach</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-variations-on-a-theme" className="hover:underline hover:text-white">4.6: Variations on a Theme</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-themes-comments" className="hover:underline hover:text-white">Comments</a>
-              </li>
+              <li className="mb-px"><a href="#post-what-is-theme" className="hover:underline hover:text-white">4.1: What is Theme?</a></li>
+              <li className="mb-px"><a href="#post-the-thematic-conceit" className="hover:underline hover:text-white">4.2: The Thematic Conceit</a></li>
+              <li className="mb-px"><a href="#post-the-inciting-question" className="hover:underline hover:text-white">4.3: The Inciting Question</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-a-theme" className="hover:underline hover:text-white">4.4: How to Create a Theme</a></li>
+              <li className="mb-px"><a href="#post-dont-preach" className="hover:underline hover:text-white">4.5: Don't Preach</a></li>
+              <li className="mb-px"><a href="#post-variations-on-a-theme" className="hover:underline hover:text-white">4.6: Variations on a Theme</a></li>
+              <li className="mb-px"><a href="#post-themes-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -217,18 +203,11 @@ function Themes() {
           <div
             id="also-see-box"
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px">
-                <a href="/plot" className="hover:underline hover:text-white">Plot</a>
-              </li>
-              <li className="mb-px">
-                <a href="/subtext" className="hover:underline hover:text-white">Subtext</a>
-              </li>
-              <li className="mb-px">
-                <a href="/voice" className="hover:underline hover:text-white">Voice</a>
-              </li>
+              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Plot</a></li>
+              <li className="mb-px"><a href="/subtext" className="hover:underline hover:text-white">Subtext</a></li>
+              <li className="mb-px"><a href="/voice" className="hover:underline hover:text-white">Voice</a></li>
             </ol>
           </div>
 

@@ -55,7 +55,7 @@ function WritersDevices() {
 
           <p>This refers to story details making an implied promise to the audience that a particular idea will later unfold in a particular way. </p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p>“Make frequent promises that excitement or insight will soon be revealed to the reader. Sometimes an entire story can be made to turn on a single promise of things to come. In Treasure Island we are kept reading both by the tantalizing premise of buried treasure and the fact that somebody's going to find it. Will it be the pirates or Jim Hawkins's band?”</p>
             <p><i>— David Carroll</i>
               <FootnoteRef text="David Carroll, A Manual of Writer's Tricks." />
@@ -74,24 +74,24 @@ function WritersDevices() {
 
           <h3 id="post-blocking">20.3: Blocking</h3>
           <p>This refers to denying the development of an idea. This doesn't mean concluding an idea by going outside the audience's expectations, it means actively choking the idea and preventing any further development at all.</p>
-          <p>Example: Really overused blocking is where an event was just a dream, or worse; the whole story was a dream. In effect, everything shown contained in the dream can be entirely severed from the plot (if you were recounting the plot to someone, you wouldn’t mention the dream as if it was part of the plot). Therefore it’s like it didn’t even happen at all (literally, it did not actually happen).</p>
+          <p>Example: Really overused blocking is where an event was just a dream, or worse; the whole story was a dream. In effect, everything shown contained in the dream can be entirely severed from the plot (if you were recounting the plot to someone, you wouldn&#39;t mention the dream as if it was part of the plot). Therefore it&#39;s like it didn&#39;t even happen at all (literally, it did not actually happen).</p>
 
           <h4>20.2.1 Examples of Blocked Promises: </h4>
           <p><strong>The 'Warning'</strong></p>
           <p className="indent-8 mb-2">X: “Where are you heading?”</p>
-          <p className="indent-8 mb-2">Y: “I’m staying in Slains Hotel tonight.”</p>
-          <p className="indent-8 mb-2">X: “Don’t you know it’s haunted? Don’t you stay in that place, I’m telling you, bad things will happen.” </p>
+          <p className="indent-8 mb-2">Y: “I&#39;m staying in Slains Hotel tonight.”</p>
+          <p className="indent-8 mb-2">X: “Don&#39;t you know it&#39;s haunted? Don&#39;t you stay in that place, I&#39;m telling you, bad things will happen.” </p>
           <p className="mb-1">Corrected version #1:</p>
           <p className="indent-8 mb-2">X: “Where are you heading?”</p>
-          <p className="indent-8 mb-2">Y: “I’m going camping on Fog Mountain.”</p>
-          <p className="indent-8 mb-2">X: “Yeah? I know the place. Weren’t you up there last year?”</p>
+          <p className="indent-8 mb-2">Y: “I&#39;m going camping on Fog Mountain.”</p>
+          <p className="indent-8 mb-2">X: “Yeah? I know the place. Weren&#39;t you up there last year?”</p>
           <p className="indent-8 mb-2">Y: “No, never been.”</p>
-          <p className="indent-8 mb-2">X: “You sure? I could swear I remember you coming up. Or someone who looked just like you. Said you’d never come back.”</p>
+          <p className="indent-8 mb-2">X: “You sure? I could swear I remember you coming up. Or someone who looked just like you. Said you&#39;d never come back.”</p>
 
           <p>Corrected version #2:</p>
           <p className="indent-8 mb-2">X: “Where are you heading?”</p>
-          <p className="indent-8 mb-2">Y: “I’m going diving in Deadwood Lake.”</p>
-          <p className="indent-8 mb-2">X: “Sounds like fun. I shuttle between Elmville and Mapledale regularly. Always pass the lake. But I’ve never stopped there. Not once. Never seen anyone swimming either. It’s interesting. You enjoy yourself.”</p>
+          <p className="indent-8 mb-2">Y: “I&#39;m going diving in Deadwood Lake.”</p>
+          <p className="indent-8 mb-2">X: “Sounds like fun. I shuttle between Elmville and Mapledale regularly. Always pass the lake. But I&#39;ve never stopped there. Not once. Never seen anyone swimming either. It&#39;s interesting. You enjoy yourself.”</p>
 
           <p><strong>'Fortune Telling'</strong></p>
           <p className="indent-8 mb-2">X: Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.<FootnoteRef text="Carrie, Stephen King." /></p>
@@ -99,17 +99,17 @@ function WritersDevices() {
           <p><strong>'Cryptic Gobbledygook'</strong></p>
           <p className="indent-8 mb-2">“The Mother,” Marie said. </p>
           <p className="indent-8 mb-2">“What?”  </p>
-          <p className="indent-8 mb-2">“The statue you’re staring at. It’s of the Mother.”   </p>
-          <p className="indent-8 mb-2">“Who’s that?”   </p>
+          <p className="indent-8 mb-2">“The statue you&#39;re staring at. It&#39;s of the Mother.”   </p>
+          <p className="indent-8 mb-2">“Who&#39;s that?”   </p>
           <p className="indent-8 mb-2">“A very old goddess.”   </p>
           <p className="indent-8 mb-2">“Oh. What about this?” I pointed my knife at the road.   </p>
           <p className="indent-8 mb-2">“That takes you to a city.”   </p>
           <p className="indent-8 mb-2">“A city?”   </p>
-          <p className='indent-8 mb-2'>“A city by the sea,” she said. “I don’t think you’d care to visit it.”   </p>
+          <p className='indent-8 mb-2'>“A city by the sea,” she said. “I don&#39;t think you&#39;d care to visit it.”   </p>
           <p className='indent-8 mb-2'>“By the sea?”   </p>
-          <p className='indent-8 mb-2'>“It’s different here.”   </p>
+          <p className='indent-8 mb-2'>“It&#39;s different here.”   </p>
           <p className='indent-8 mb-2'>“What does that mean?”   </p>
-          <p className='indent-8 mb-2'>“You’ll see,” she said, and crossed the road.<FootnoteRef text="The Fisherman, John Langerman." /></p>
+          <p className='indent-8 mb-2'>“You&#39;ll see,” she said, and crossed the road.<FootnoteRef text="The Fisherman, John Langerman." /></p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -126,14 +126,14 @@ function WritersDevices() {
           <h3 id="post-setting-the-story">20.6: Setting the Story</h3>
 
           <h4>20.5.1 Setting the Story: The Microcosm</h4>
-          <p>One methodical way of starting a story (as opposed to starting anywhere you like) is to dedicate the first chapter to some miniature episode in the main characters lives, which acts as a microcosm of the main story/themes. Clever intros can even subtly spoil the whole story, if you read into them correctly on a second read. This first chapter should be somewhat dislocated (but not entirely remote) from the plot (thus, an ‘episode’). It should promptly introduce all the main characters, and table the main issue/conflicts, without resolution. A good ‘microcosm’ intro may be provocative, quirky or interesting or controversial, and grab the reader. They’re also economic because they quickly sieve out the disinterested readers: if you don’t like the intro, you won’t like the rest.</p>
-          <p><u>Example: </u> The Invitation (2015): although a film, there is a good example. The main characters accidently hit a fox with the car, and have to euthanize it. This doesn’t directly relate to the plot, but does reduce the entire conflict in the film, being: when is it acceptable – if at all – to assist a miserable or suffering person to suicide?</p>
+          <p>One methodical way of starting a story (as opposed to starting anywhere you like) is to dedicate the first chapter to some miniature episode in the main characters lives, which acts as a microcosm of the main story/themes. Clever intros can even subtly spoil the whole story, if you read into them correctly on a second read. This first chapter should be somewhat dislocated (but not entirely remote) from the plot (thus, an ‘episode&#39;). It should promptly introduce all the main characters, and table the main issue/conflicts, without resolution. A good ‘microcosm&#39; intro may be provocative, quirky or interesting or controversial, and grab the reader. They&#39;re also economic because they quickly sieve out the disinterested readers: if you don&#39;t like the intro, you won&#39;t like the rest.</p>
+          <p><u>Example: </u> The Invitation (2015): although a film, there is a good example. The main characters accidently hit a fox with the car, and have to euthanize it. This doesn&#39;t directly relate to the plot, but does reduce the entire conflict in the film, being: when is it acceptable – if at all – to assist a miserable or suffering person to suicide?</p>
 
           <h4>20.5.2 Setting the Story: The Question</h4>
-          <p>Another - similar - way to start a story is to pose a question or raise an issue which isn’t properly realised or answered by the reader until they have all the details of the story. The question or issue can once again be put to the reader at the very end of the story, with new significance. The advantage of this method is that it deals with both start and end in one swoop.</p>
+          <p>Another - similar - way to start a story is to pose a question or raise an issue which isn&#39;t properly realised or answered by the reader until they have all the details of the story. The question or issue can once again be put to the reader at the very end of the story, with new significance. The advantage of this method is that it deals with both start and end in one swoop.</p>
           <p>Example: In The Events At Poroth Farm
             <FootnoteRef text="The Events At Poroth Farm, T.E.D. Klein." />
-            at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people’s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
+            at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people&#39;s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -157,20 +157,20 @@ function WritersDevices() {
           <h3 id="post-irony">20.8: Irony</h3>
           <h4>20.6.1 What Is Irony?</h4>
           <p>The common understanding of irony is reality contradicting expectation; one thing is predicted, the opposite happens, and there is an odd or amusing lack of sync in the sequence of events. For a brief moment, the universal narrative is incoherent.</p>
-          <p>On a deeper level, irony in reality communicates cosmic blindness. A rational mind can comprehend what ‘should’ have happened, which the larger universe was blind to. </p>
-          <p>Unlike the cosmic order, you - the author - are not blind, and unlike the universe, your story is entirely governed by a single intention. Yet, stories have irony because the art is modelled off reality. But irony in reality doesn’t have a ‘point’; it’s the result of blind, coincidental accident, an unusual but statistical inevitability according to the laws of probability. Conversely, narrative irony exists only to serve a particular point; it’s calculated for a specific end. </p>
+          <p>On a deeper level, irony in reality communicates cosmic blindness. A rational mind can comprehend what ‘should&#39; have happened, which the larger universe was blind to. </p>
+          <p>Unlike the cosmic order, you - the author - are not blind, and unlike the universe, your story is entirely governed by a single intention. Yet, stories have irony because the art is modelled off reality. But irony in reality doesn&#39;t have a ‘point&#39;; it&#39;s the result of blind, coincidental accident, an unusual but statistical inevitability according to the laws of probability. Conversely, narrative irony exists only to serve a particular point; it&#39;s calculated for a specific end. </p>
           <p>...You might say this is ironic?</p>
 
           <h4>20.6.2 Difference between Irony and Coincidence</h4>
           <p>This is an understandable confusion because the two concepts are so alike. Generally, Irony is characterised by the contrast of opposites, whereas coincidence is characterised by the comparison of similarity or relatedness. Something may fall short of being ironic, but may be a coincidence. </p>
           <p>Compare:</p>
-          <p>If a prisoner on death row is pardoned and goes free on the day he was going to be executed, it’s merely a coincidence that the release date and execution date are <strong>the same</strong>. Contrast if the pardon comes one minute after the prisoner is executed, it’s ironic that the prisoner was supposed to be released, but <strong>the opposite</strong> happened; he was executed.</p>
-          <p>If someone with a fear of flying takes a plane ride and the plane crashes, it is an (unfortunate) coincidence that the passenger’s fear and the actual event, are <strong>the same</strong>. Contrast if the plane ride was advised by the person’s psychologist for the purpose of curing the phobia through fear exposure. Then it’s ironic that the event was supposed to reinforce that air travel is relatively safe, but <strong>the opposite</strong> happened; there was a plane crash. </p>
+          <p>If a prisoner on death row is pardoned and goes free on the day he was going to be executed, it&#39;s merely a coincidence that the release date and execution date are <strong>the same</strong>. Contrast if the pardon comes one minute after the prisoner is executed, it&#39;s ironic that the prisoner was supposed to be released, but <strong>the opposite</strong> happened; he was executed.</p>
+          <p>If someone with a fear of flying takes a plane ride and the plane crashes, it is an (unfortunate) coincidence that the passenger&#39;s fear and the actual event, are <strong>the same</strong>. Contrast if the plane ride was advised by the person&#39;s psychologist for the purpose of curing the phobia through fear exposure. Then it&#39;s ironic that the event was supposed to reinforce that air travel is relatively safe, but <strong>the opposite</strong> happened; there was a plane crash. </p>
 
           <p><i><strong>When to use coincidence:</strong></i></p>
           <p>As stated above, story creates meaning out of a series of events. Coincidence is the opposite; events or circumstances thrown together by pure chance. If your story is pure coincidence, there is no meaning to be derived. However, like irony, coincidence happens in real, so the artform must incorporate it sometimes for a degree of realism.</p>
-          <p>If you are going to rely on coincidence to set up events, use it early, and build meaning out of it later. Don’t use coincidences past the halfway mark of your story, and above all, don’t end on a coincidence (this is called a ‘Deus Ex Machina’).  The meaning in a story should expand and develop throughout the story, until you reach the end, where the meaning of everything becomes clear. If there is a big coincidence at the end, it detracts from the meaningfulness.</p>
-          <p>As the story progresses, events should rely less and less on chance, and increasingly on character’s actions and intentions.</p>
+          <p>If you are going to rely on coincidence to set up events, use it early, and build meaning out of it later. Don&#39;t use coincidences past the halfway mark of your story, and above all, don&#39;t end on a coincidence (this is called a ‘Deus Ex Machina&#39;).  The meaning in a story should expand and develop throughout the story, until you reach the end, where the meaning of everything becomes clear. If there is a big coincidence at the end, it detracts from the meaningfulness.</p>
+          <p>As the story progresses, events should rely less and less on chance, and increasingly on character&#39;s actions and intentions.</p>
 
           <h4>20.6.3 Purposes of Irony</h4>
           <p>Irony may serve to:</p>
@@ -191,19 +191,19 @@ function WritersDevices() {
           <h4>20.6.4 	Kinds of Irony</h4>
           <p>There are multiple kinds of irony, namely:</p>
           <p><i><strong>(1) Verbal Irony:</strong></i></p>
-          <p>This is irony that comes out in dialogue; a speaker’s intention is the opposite of what they are saying. For example, when it’s raining and someone says “Nice weather.” </p>
-          <p>Arguably, it’s also ‘verbal’ irony when a waiter drops and breaks a plate, and the chef claps in applause (sarcastically).</p>
+          <p>This is irony that comes out in dialogue; a speaker&#39;s intention is the opposite of what they are saying. For example, when it&#39;s raining and someone says “Nice weather.” </p>
+          <p>Arguably, it&#39;s also ‘verbal&#39; irony when a waiter drops and breaks a plate, and the chef claps in applause (sarcastically).</p>
           <p>Here is a written example of verbal irony:</p>
           <p className='indent-8 mb-2'>[…] whoever could find out a fair, cheap, and easy method of making [destitute] children sound, useful members of the commonwealth, would deserve so well of the public as to have his statue set up for a preserver of the nation.</p>
           <p className='indent-8 mb-2'>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.<FootnoteRef text="A Modest Proposal, Jonathan Swift." /></p>
 
           <p><i><strong> (2) Situational Irony</strong></i></p>
-          <p>This is where the result of a situation is the opposite of what you’d expect. For example, in O. Henry’s <i>The Gift of the Magi</i>, a husband sells his watch to buy his wife a hair comb, while his wife sells her hair to buy her husband a watch chain.</p>
-          <p>In the film <i>Ruthless People</i>, a woman is kidnapped but gives her basement prison a makeover; installing a spa, and while confined there, exercises and eats healthy, and loses weight. As a result, she is grateful to her kidnappers; so grateful in fact that when they tell her they’re going to let her go because her husband won’t pay the ransom, she promises to get it for them.</p>
+          <p>This is where the result of a situation is the opposite of what you&#39;d expect. For example, in O. Henry&#39;s <i>The Gift of the Magi</i>, a husband sells his watch to buy his wife a hair comb, while his wife sells her hair to buy her husband a watch chain.</p>
+          <p>In the film <i>Ruthless People</i>, a woman is kidnapped but gives her basement prison a makeover; installing a spa, and while confined there, exercises and eats healthy, and loses weight. As a result, she is grateful to her kidnappers; so grateful in fact that when they tell her they&#39;re going to let her go because her husband won&#39;t pay the ransom, she promises to get it for them.</p>
 
           <p><i><strong> (3) Dramatic Irony</strong></i></p>
           <p>This is where the audience or reader knows a critical piece of information – unknown by a character – which dramatically alters their perception of a situation. This is basically situational irony, except the reader has knowledge which allows them to perceive the irony of the situation before it actually happens.</p>
-          <p>For example, in Romeo and Juliet, we know Juliet’s intention to fake her death, where Romeo – failing to get the message – does not. This creates tragic irony when Romeo mistakes her for actually being dead, and kills himself.</p>
+          <p>For example, in Romeo and Juliet, we know Juliet&#39;s intention to fake her death, where Romeo – failing to get the message – does not. This creates tragic irony when Romeo mistakes her for actually being dead, and kills himself.</p>
           <p>As Robert McKee
             <FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
             says, like with symbolism, “to point at irony destroys it.” It cannot be obvious.  </p>
@@ -217,23 +217,23 @@ function WritersDevices() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-imagine-saying-it">20.10: Imagine Saying It</h3>
-          <p>Thought experiment: If struggling for the simplest way to voice ideas, imagine conveying the information to a lay person orally. This can help to pull you out of the pressure you often subconsciously place on yourself to sound ‘writerly’ or ‘literary’, and will help you decide what the most crucial information is from out of a bunch of different ideas;</p>
+          <p>Thought experiment: If struggling for the simplest way to voice ideas, imagine conveying the information to a lay person orally. This can help to pull you out of the pressure you often subconsciously place on yourself to sound ‘writerly&#39; or ‘literary&#39;, and will help you decide what the most crucial information is from out of a bunch of different ideas;</p>
           <p>Experiment with variations of this, e.g. pretend you are trying to sum up the idea and are short for time, compared to conveying the information with all the time in the world;</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-right-idea-will-come">21.3: The Right Idea Will Come</h3>
-          <p>Don’t freak out because you feel your story lacks substance or doesn’t sound original or just doesn’t sound right. If the idea is meant to be, it’ll write itself in own time. Ideas come from everywhere, and come eventually;</p>
+          <p>Don&#39;t freak out because you feel your story lacks substance or doesn&#39;t sound original or just doesn&#39;t sound right. If the idea is meant to be, it&#39;ll write itself in own time. Ideas come from everywhere, and come eventually;</p>
           <ul>
             <li>Try reading other books dealing with the same subject matter – including non-fiction (and as many different kinds of books, to reduce the risk of plagiarism, intentional or otherwise);</li>
-            <li>There’s no harm in taking a break from your writing, because a good idea will play on your mind whether you like it or not, and eventually something (something you read, or hear in the news, or watch on TV) will jar an idea again. The more you get away from the story the more you will appreciate it with a fresh mind, making the creative process more productive;  </li>
+            <li>There&#39;s no harm in taking a break from your writing, because a good idea will play on your mind whether you like it or not, and eventually something (something you read, or hear in the news, or watch on TV) will jar an idea again. The more you get away from the story the more you will appreciate it with a fresh mind, making the creative process more productive;  </li>
           </ul>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-constrain-your-writing">21.4: Constrain your Writing</h3>
           <p>A writing constraint is where you set rules delimiting what and how you write. Robert Frost said that writing free (unconstrained) verse is like playing tennis with no net. Sounds contradictory, but constraints are necessary to inspire creativity.  </p>
-          <p>The whole point of poetry is to generate creative connections through restricted verse. When you see awful poetry it’s likely because the poet didn’t apply constraints to their writing, they just wrote whatever came to mind.</p>
+          <p>The whole point of poetry is to generate creative connections through restricted verse. When you see awful poetry it&#39;s likely because the poet didn&#39;t apply constraints to their writing, they just wrote whatever came to mind.</p>
           <p>Some examples of constraints include:</p>
           <ol>
             <li><u>Mandated vocabulary:</u> avoid using a particular word/s or otherwise limits the word use in some way;</li>
@@ -247,30 +247,30 @@ function WritersDevices() {
             <li><u>Repetition:</u> Finding ways to work the same word or phrase into a story, multiple times</li>
             <li><u>Aliteration:</u> relying on a certain letter to start words;</li>
             <li><u>First letter acronyms:</u> the first letter of each sentence in a paragraph/s must spell out a sentence;</li>
-            <li><u>Concrete instead of abstract descriptions:</u> (e.g. ‘smile’, but not ‘happy’);</li>
+            <li><u>Concrete instead of abstract descriptions:</u> (e.g. ‘smile&#39;, but not ‘happy&#39;);</li>
             <li><u>Double entendres:</u> phrases that hold two simultaneous meanings, commonly with sexual undertones;</li>
             <li><u>Straining metaphors:</u> making the description of one thing sound like and evoke something entirely different.</li>
           </ol>
 
-          <p>Placing constraints on your writing makes writing easier, because it gives you bright, clear lines about what and how to write. It’s like being given a writing prompt as opposed to being asked to write whatever you want. The freedom conferred in the latter can be its own prison.</p>
+          <p>Placing constraints on your writing makes writing easier, because it gives you bright, clear lines about what and how to write. It&#39;s like being given a writing prompt as opposed to being asked to write whatever you want. The freedom conferred in the latter can be its own prison.</p>
           <p>You can and should invent your own. A writing constraint can be any rule you want, and you can employ them anywhere in your writing, as long as you avoid employing them so often that your writing ends up sounding artificial and strange.</p>
-          <p>You don’t have to be consistent. You can break your own constraints. You might, for example, impose a rule in one chapter against using the letter ‘e’, but break that rule once – and that one exception may be used to communicate something very important.</p>
+          <p>You don&#39;t have to be consistent. You can break your own constraints. You might, for example, impose a rule in one chapter against using the letter ‘e&#39;, but break that rule once – and that one exception may be used to communicate something very important.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-from-another-authors-pov">21.5: From Another Author’s POV</h3>
-          <p>If you’re struggling with an idea, try to imagine how it might be done if your favourite author wrote it (particularly if your favourite author writes in that genre).</p>
+          <h3 id="post-from-another-authors-pov">21.5: From Another Author&#39;s POV</h3>
+          <p>If you&#39;re struggling with an idea, try to imagine how it might be done if your favourite author wrote it (particularly if your favourite author writes in that genre).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-as-a-movie">21.6: As A Movie</h3>
-          <p>Same as above, but imagine if the idea played out as a movie. This will help write scenes which have more immediacy, because you can’t film a scene with abstract content.</p>
+          <p>Same as above, but imagine if the idea played out as a movie. This will help write scenes which have more immediacy, because you can&#39;t film a scene with abstract content.</p>
 
-          <h3 id="post-21-7" className="blog-post-title">21.7: The Lover’s Quarrel</h3>
+          <h3 id="post-21-7" className="blog-post-title">21.7: The Lover&#39;s Quarrel</h3>
           <p>This is a writing exercise from Sol Stein
             <FootnoteRef text="Sol Stein, Stein On Writing." />
-            for application in romance scene/s. You aim to fill in the dialogue below which both conveys that the characters are in love, but are having a quarrel (without outright stating it). The more creatively you can suggest these pieces of information, the better. Try to work the dialogue into an imagined scene, setting or event. Here’s a hint: the characters don’t have to be talking directly at each other (could be making an observation or statement).</p>
-          <p><strong>Lovers’ Quarrel in Ten Brief Exchanges:</strong></p>
+            for application in romance scene/s. You aim to fill in the dialogue below which both conveys that the characters are in love, but are having a quarrel (without outright stating it). The more creatively you can suggest these pieces of information, the better. Try to work the dialogue into an imagined scene, setting or event. Here&#39;s a hint: the characters don&#39;t have to be talking directly at each other (could be making an observation or statement).</p>
+          <p><strong>Lovers&#39; Quarrel in Ten Brief Exchanges:</strong></p>
           <p className='indent-8 mb-2'>He:</p>
           <p className='indent-8 mb-2'>She:</p>
           <p className='indent-8 mb-2'>He:</p>
@@ -299,7 +299,7 @@ function WritersDevices() {
           <h3 className="blog-write-what-you-love">21.8: Write What You Love</h3>
           <p>This is a tip from Stephen King; ask yourself, “Am I Having Fun?”
             <FootnoteRef text="Stephen King, Chapter 1: Everything You Need To Know About Writing Successfully — in Ten Minutes, The Writer's Handbook 1988." />
-            The answer needn’t always be ‘yes.’ But if it’s never ‘yes,’ then you have a problem. Go back to writing what you really enjoy.</p>
+            The answer needn&#39;t always be ‘yes.&#39; But if it&#39;s never ‘yes,&#39; then you have a problem. Go back to writing what you really enjoy.</p>
 
           {/* ============================================================= */}
 

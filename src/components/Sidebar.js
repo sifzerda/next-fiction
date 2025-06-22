@@ -39,14 +39,14 @@ function Sidebar() {
     sm:pt-28 sm:w-52 sm:h-screen sm:fixed sm:top-0 sm:left-0 sm:items-start sm:pt-28 sm:border-r-2 sm:border-yellow
     border border-llBlue">
       <nav className="w-full">
-        <h2 className="text-yellow text-lg font-semibold mb-1 text-center sm:text-left sm:mt-6">Index</h2>
-        <ul className="flex flex-col items-center gap-1 sm:items-start sm:pl-4 sm:mt-0">
+        <h2 className="text-yellow text-lg font-semibold mb-1 mt-9 text-center sm:text-left">Index</h2>
+        <ul className="flex flex-col items-center gap-0 sm:items-start sm:pl-4 sm:mt-0">
           {links.map(({ href, label }) => (
             <li key={href} className="w-full">
               <Link
                 href={href}
                 className={`
-          block w-full px-2 py-1 rounded-sm
+          block w-full px-2 py-[1.6px] rounded-sm
           text-sm hover:bg-white hover:text-bootstrapDark transition
           ${pathname === href ? 'font-semibold text-white uppercase' : ''}`}>
                 {label}

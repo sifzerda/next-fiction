@@ -40,7 +40,8 @@ export default function SearchBar() {
           transition
           cursor-pointer
           flex items-center justify-center
-          whitespace-nowrap">
+          whitespace-nowrap
+        ">
         Search
       </button>
     </form>

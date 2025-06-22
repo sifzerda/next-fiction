@@ -70,9 +70,9 @@ function Story() {
           <p>This unifying factor is what the story is &#39;really&#39; about, and should itself be simple; expressible in little
             more than a single sentence.</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="font-bold py-1">A Series of Events:</p>
-            <p className="text-sm">
+            <p>
               He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of wine at the liquor store. Later, he
               washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and went in. He greeted all the people,
               said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not talk to the girl at all. Then people
@@ -81,7 +81,7 @@ function Story() {
             <hr /> {/* ---------------------------------------------------------*/}
 
             <p className="font-bold py-1">A Story:</p>
-            <p className="text-sm">He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of
+            <p>He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of
               wine at the liquor store. Later, he washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and
               went in. He greeted all the people, said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not
               talk to the girl at all. Then people began to leave. The girl refused to open his wine. They had it at her place, instead. But they didn&#39;t talk
@@ -134,11 +134,11 @@ function Story() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-main-elements-of-story" className="mb-2 font-semibold">1.3 The Main Elements of a Story</h3>
+          <h3 id="post-main-elements-of-story">1.3 The Main Elements of a Story</h3>
 
           <p>These are the main elements of story structure, in order of priority:</p>
           <FootnoteRef text="Mark Twain." />
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li className="mb-2">PLOT;</li>
             <li className="mb-2">CHARACTERS;</li>
             <li className="mb-2">SETTING;</li>
@@ -157,13 +157,13 @@ function Story() {
             movie scripts and found that the vast majority of stories actually fall into 6 different categories:
             <FootnoteRef text="Seth Stephens-Davidowitz, Everybody Lies." /></p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
-            <li className="mb-2">Rags to Riches (rise);</li>
-            <li className="mb-2">Riches to Rags (fall);</li>
-            <li className="mb-2">Man in a Hole (fall, then rise);</li>
-            <li className="mb-2">Icarus (rise, then fall);</li>
-            <li className="mb-2">Cinderella (rise, then fall, then rise);</li>
-            <li className="mb-2">Oedipus (fall, then rise, then fall).</li>
+          <ol>
+            <li>Rags to Riches (rise);</li>
+            <li>Riches to Rags (fall);</li>
+            <li>Man in a Hole (fall, then rise);</li>
+            <li>Icarus (rise, then fall);</li>
+            <li>Cinderella (rise, then fall, then rise);</li>
+            <li>Oedipus (fall, then rise, then fall).</li>
           </ol>
 
           <p>Incidentally they found Harry Potter and the Deathly Hallows (among others) was an exception: in which the hero falls, rises,
@@ -174,15 +174,15 @@ function Story() {
             lists a number of traditional story structures, many of them ancient archetypes:</p>
 
           <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
-            <li className="mb-2">Winning the Prize;</li>
-            <li className="mb-2">Winning or losing a loved one;</li>
-            <li className="mb-2">The blessing becomes the curse;</li>
-            <li className="mb-2">Overcoming obstacles;</li>
-            <li className="mb-2">The wasteland restored;</li>
-            <li className="mb-2">Rising from the ashes;</li>
-            <li className="mb-2">The ugly duckling;</li>
-            <li className="mb-2">The emperor has no clothes;</li>
-            <li className="mb-2">Descent into the underworld (The Orphic Myth);</li>
+            <li>Winning the Prize;</li>
+            <li>Winning or losing a loved one;</li>
+            <li>The blessing becomes the curse;</li>
+            <li>Overcoming obstacles;</li>
+            <li>The wasteland restored;</li>
+            <li>Rising from the ashes;</li>
+            <li>The ugly duckling;</li>
+            <li>The emperor has no clothes;</li>
+            <li>Descent into the underworld (The Orphic Myth);</li>
           </ol>
 
           <h4>1.4.1 Rise or Fall?</h4>
@@ -211,7 +211,7 @@ function Story() {
           <p>Also, make the protagonist&#39;s rise/loss proportionate to the radicalism of their beliefs; a protagonist who is spectacularly polarised should
             fail spectacularly; a protagonist whose beliefs are more nuanced or equivocal may fail partly and win partly.</p>
 
-          <h3 id="post-joseph-campbell-myths" className="mb-2 font-semibold">1.5 Joseph Campbell&#39;s Myths</h3>
+          <h3 id="post-joseph-campbell-myths">1.5 Joseph Campbell&#39;s Myths</h3>
 
           <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being &#39;The Adventure of the Hero,&#39;
             more commonly known as <i>&#39;The Hero&#39;s Journey.&#39;</i>
@@ -226,7 +226,7 @@ function Story() {
           <p>For a detailed summary of the Hero's Journey, see
             <Link href="/herojourney" className="text-midBlue hover:underline">this page</Link></p>
 
-          <h3 id="post-myths-and-misconceptions" className="mb-2 font-semibold">1.6 Myths and Misconceptions</h3>
+          <h3 id="post-myths-and-misconceptions">1.6 Myths and Misconceptions</h3>
           <h4>1.6.1 Write What You Know</h4>
           <p>Writers are commonly instructed to &#39;Write what [they] know.&#39; But, as Alice LaPlante says, this can be limiting.
             <FootnoteRef text="Alice LaPlante, The Making of a Story: A Norton Guide to Creative Writing." />
@@ -254,8 +254,8 @@ function Story() {
             <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             says about writing &#39;instinct&#39;:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <p className="text-sm">“...[W]hat the novice mistakes for craft is simply his unconscious absorption of story elements from every novel, film, or play he's ever encountered. As he writes, he matches his work by trial and error against a model built up from accumulated
+          <div className="custom-box">
+            <p>“...[W]hat the novice mistakes for craft is simply his unconscious absorption of story elements from every novel, film, or play he's ever encountered. As he writes, he matches his work by trial and error against a model built up from accumulated
               reading and watching. The unschooled writer calls this "instinct," but it's merely habit and it's rigidly limiting…But the haphazard groping toward or revolt against the sum of unconsciously ingrained repetitions is not, in any sense, technique, and leads to screenplays
               clogged with clichés of either the commercial or the art house variety.”</p>
           </div>
@@ -277,7 +277,7 @@ function Story() {
 
           <h4>1.6.3 Show don&#39;t Tell</h4>
           <p>As a basic rule, description which &#39;shows&#39; should be prioritized before description which &#39;tells&#39;. But there are exceptions, such as:</p>
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>To designate a passage of time separating critical &#39;showing&#39; scenes;</li>
             <li>To provide a break from the intensity of a scene;</li>
             <li>To provide a transition between scenes;</li>
@@ -293,23 +293,23 @@ function Story() {
           <p>It&#39;s no defence to a charge that your story is unbelievable or boring or poorly structured or nonsensical to say &#39;but it was like that in real life.&#39; Lots of things, all kinds of things, happen in real life, and most of them aren&#39;t story-worthy.
             Stories aren&#39;t real life like characters aren&#39;t real people.</p>
 
-          <h3 id="post-philosophy-of-story" className="mb-2 font-semibold">1.7 The Philosophy of Storytelling</h3>
+          <h3 id="post-philosophy-of-story">1.7 The Philosophy of Storytelling</h3>
           <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don&#39;t want to write about those things, or you can&#39;t, your story won&#39;t be worth telling.</p>
 
           <p>Robert McKee
             <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             puts it better:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <p className="text-sm">“As Jean-Paul Sartre expressed it, the essence of reality is scarcity, a universal and eternal lacking. There isn't enough of anything in this world to go around. Not enough food, not enough love, not enough justice, and never enough time [...] Writers who cannot grasp the truth of our transitory
+          <div className="custom-box">
+            <p>“As Jean-Paul Sartre expressed it, the essence of reality is scarcity, a universal and eternal lacking. There isn't enough of anything in this world to go around. Not enough food, not enough love, not enough justice, and never enough time [...] Writers who cannot grasp the truth of our transitory
               existence, who have been mislead by the counterfeit comforts of the modern world, who believe that life is easy once you know how to play the game, give conflict a false inflection. Their scripts fail for one of two reasons: either a glut of meaningless and absurdly violent conflict, or a vacancy of meaningful and honestly expressed conflict.</p>
-            <p className="text-sm">The former are exercises in turbo special effects, written by those who follow textbook imperatives to create conflict, but, because they're disinterested in or insensitive to the honest struggles of life, devise phony, overwrought excuses for mayhem.</p>
-            <p className="text-sm">The latter are tedious portraits written in reaction against conflict itself. These writers take the Pollyanna view that life would really be nice ... if it weren't for conflict. Therefore, their films avoid it in favor of low-key depictions to suggest that if we learned to communicate a little better, be a little more charitable,
+            <p>The former are exercises in turbo special effects, written by those who follow textbook imperatives to create conflict, but, because they're disinterested in or insensitive to the honest struggles of life, devise phony, overwrought excuses for mayhem.</p>
+            <p>The latter are tedious portraits written in reaction against conflict itself. These writers take the Pollyanna view that life would really be nice ... if it weren't for conflict. Therefore, their films avoid it in favor of low-key depictions to suggest that if we learned to communicate a little better, be a little more charitable,
               respect the environment, humanity could return to paradise. But if history has taught us anything, it's that when toxic nightmare is finally cleaned up, the homeless provided shelter, and the world converted to solar energy, each of us will still be up to our eyebrows in mulch.”</p>
           </div>
           <p>Yikes.</p>
 
-          <h3 id="post-medium" className="mb-2 font-semibold">1.8 Medium</h3>
+          <h3 id="post-medium">1.8 Medium</h3>
           <p>It&#39;s worth considering whether your story makes the most of your chosen medium (writing/literature). Your story might make a great film, or video game, but a poor novel. Right now, audiences love superhero comics, superhero films and superhero video games, but no one reads superhero novels. The superhero genre seems to need images to work.</p>
           <p>Compare with horror. Most horror is uniquely suited to written media because it&#39;s largely &#39;visual-avoidant&#39; by undermining visual and direct information in favour of other forms (inference, sound, anecdote, etc). For instance, in horror, the last thing you want to do is give away the 'visual' or the 'sighting' prematurely (if at all). Not to say visual horror
             is ineffective — it has the intensity of fireworks, but unfortunately, also has the lifespan of fireworks. The visual horror creator has to keep contriving to put the source of horror out of sight &#39;until later.&#39;</p>
@@ -322,7 +322,7 @@ function Story() {
           <p>On the other hand, notice how the Verne-style 'adventure' novel has all but died in literature, but survives in film and video game? The &#39;Western&#39; has gone one step further, dying in literature and film, but surviving in video game.</p>
           <p>Genres that work in writing:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Horror;</li>
             <li>Romance/Erotica;</li>
             <li>Art/Indie;</li>
@@ -342,7 +342,7 @@ function Story() {
           </ol>
 
           <p>Genres that work in visual media (film video games):</p>
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Adventure;</li>
             <li>Horror</li>
             <li>Romance;</li>
@@ -361,51 +361,39 @@ function Story() {
           <p>There are no firm rules about these distinctions, but if you want to work out whether your story is
             better suited for literature or film (or other media), consider:</p>
 
-          <ol className="list-decimal list-inside mb-6 mt-6 space-y-2 font-rubik">
-            <li>
-              Is the plot complicated or straightforward?
-              <ol className="list-decimal list-inside ml-6 mt-2 space-y-1 text-sm text-gray-700">
-                <li>
-                  Intricately complex plots suit literature because books give people pause to think and rationalise.
-                </li>
+          <ol>
+            <li>Is the plot complicated or straightforward?
+              <ol>
+                <li>Intricately complex plots suit literature because books give people pause to think and rationalise.</li>
               </ol>
             </li>
             <li>Is the story reliant on visual information?
-              <ol className="list-decimal list-inside ml-6 mt-2 space-y-1 text-sm text-gray-700">
-                <li>
-                  Less visual stories work better as literature, whereas stories which rely on visualization work better as a film;
-                </li>
+              <ol>
+                <li>Less visual stories work better as literature, whereas stories which rely on visualization work better as a film;</li>
               </ol>
             </li>
             <li>Is critical information metered out gradually until a big reveal at the end?
-              <ol className="list-decimal list-inside ml-6 mt-2 space-y-1 text-sm text-gray-700">
-                <li>
-                  This can work well as literature;
-                </li>
+              <ol>
+                <li>This can work well as literature;</li>
               </ol>
             </li>
             <li>Did critical events happen in the past?
-              <ol className="list-decimal list-inside ml-6 mt-2 space-y-1 text-sm text-gray-700">
-                <li>
-                  This suits literature which is less focused on showing the &#39;here and now&#39; than film
-                </li>
+              <ol>
+                <li>This suits literature which is less focused on showing the &#39;here and now&#39; than film</li>
               </ol>
             </li>
-            <li>
-              Is there a long history spanning hundreds of years, a large cast of near hundred/s, or other risk of
+            <li>Is there a long history spanning hundreds of years, a large cast of near hundred/s, or other risk of
               'information overload'?
-              <ol className="list-decimal list-inside ml-6 mt-2 space-y-1 text-sm text-gray-700">
-                <li>
-                  This suits literature, which has more time and endurance to deal with detail density, which would fatigue a film (and blow its budget)
-                </li>
+              <ol>
+                <li>This suits literature, which has more time and endurance to deal with detail density, which would fatigue a film (and blow its budget)</li>
               </ol>
             </li>
           </ol>
 
-          <h3 id="post-pixar-storytelling" className="mb-2 font-semibold">1.9 Pixar Storytelling</h3>
+          <h3 id="post-pixar-storytelling">1.9 Pixar Storytelling</h3>
           <p>Animation company Pixar has a list of tips which it has used in its films:</p>
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>You admire a character for trying more than for their successes.</li>
               <li>You gotta keep in mind what&#39;s interesting to you as an audience, not what&#39;s fun to do as a writer. They can be v. different.</li>
               <li>Trying for theme is important, but you won&#39;t see what the story is actually about til you&#39;re at the end of it. Now rewrite.</li>

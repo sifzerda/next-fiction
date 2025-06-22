@@ -39,7 +39,7 @@ function Conflict() {
           <p>By contrast with fate and chance, conflict happens in measures, proportionate to your protag's goal progress. You can't decide what happens in your story based on the flip of a coin.</p>
           <p>Conflict also gives your character an opportunity to respond; they have some power to try to change the course of events (even if they fail). Blind misfortune, on the other hand, doesn't care who your protagonist is, and gives him no opportunity, and no recourse.</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p>Your character can't sit home passively and accidentally get a telephone call from friend Max, who then volunteers a crucial clue in the murder mystery. Your character has to think things over and then decide that he will call people seeking information. After calling several other people, he comes to Max on his list. He calls Max. Max doesn't want to tell him, but you make your character persist. Finally your character convinces Max to talk, and Max gives him the next clue.
               <FootnoteRef text="Jack Bickham, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." />
             </p>
@@ -67,7 +67,6 @@ function Conflict() {
           <h4>5.3.2 	Personal Conflicts</h4>
           <p>These are conflicts involving a second person, struggles involving friends, immediate family, lover, colleagues, etc. Involves at least two individuals: the character and another character. May involve more, but note every major participant must be a separate individual (i.e. stand for themselves and their own beliefs).</p>
 
-
           <h4>5.3.3 	Extra-Personal Conflicts</h4>
           <p>These are conflicts involving the character and a larger body, including families, organisations, societal groups, systems, governments, nations, races and species. There may be many people involved, however, they are not individuals but agents for an entity - they stand for/represent a larger belief or group.</p>
 
@@ -79,8 +78,8 @@ function Conflict() {
             <FootnoteRef text="To Kill A Mockingbird, Harper Lee." />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>&quot;Atticus,&quot; I said one evening, &quot;what exactly is a nigger-lover?&quot; Atticus's face was grave. &quot;Has somebody been calling you that?&quot;</li>
               <li>&quot;No sir, Mrs. Dubose calls you that. She warms up every afternoon calling you that. Francis called me that last Christmas, that's where I first heard it.&quot;</li>
               <li>&quot;Is that the reason you jumped on him?&quot; asked Atticus.</li>
@@ -159,7 +158,7 @@ function Conflict() {
 
           <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">III.	Examples</h4>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Chief Motivating Force: Escape prison; Tangible Objective: Get revenge on corrupt head of police force.</li>
             <li>Chief Motivating Force: Determine identity of murderer; Tangible Objective: Salvage expiring detective reputation.</li>
             <li>Chief Motivating Force: Disprove existence of ghosts in a haunted house; Tangible Objective: Get over death of close relative. </li>
@@ -177,7 +176,7 @@ function Conflict() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-plans-must-be-complicated" className="mb-2 font-semibold">5.6 Plans Must Be Complicated</h3>
+          <h3 id="post-plans-must-be-complicated">5.6 Plans Must Be Complicated</h3>
           <p>If your protagonist comes up with a plan, then come 'D day' it must be complicated somehow. Otherwise, as Mittelmark and Newman suggest, the reader will get déjà vu, first reading the description of the plan, and then reading the description of the plan in action. Not to mention you're spoiling your own plot.</p>
 
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
@@ -208,28 +207,13 @@ function Conflict() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px">
-                <a href="#post-what-is-conflict" className="hover:underline hover:text-white">5.1. What is Conflict?</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-why-is-it-important" className="hover:underline hover:text-white">5.2. Why Is It Important?</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-types-of-conflict" className="hover:underline hover:text-white">5.3. Types of Conflict</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-conflict-does-not-equal-fight" className="hover:underline hover:text-white">5.4. Conflict ≠ Fight</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-how-to-create-conflict" className="hover:underline hover:text-white">5.5. How to Create Conflict</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-plans-must-be-complicated" className="hover:underline hover:text-white">5.6 Plans Must Be Complicated</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-conflict-comments" className="hover:underline hover:text-white">Comments</a>
-              </li>
+              <li className="mb-px"><a href="#post-what-is-conflict" className="hover:underline hover:text-white">5.1. What is Conflict?</a></li>
+              <li className="mb-px"><a href="#post-why-is-it-important" className="hover:underline hover:text-white">5.2. Why Is It Important?</a></li>
+              <li className="mb-px"><a href="#post-types-of-conflict" className="hover:underline hover:text-white">5.3. Types of Conflict</a></li>
+              <li className="mb-px"><a href="#post-conflict-does-not-equal-fight" className="hover:underline hover:text-white">5.4. Conflict ≠ Fight</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-conflict" className="hover:underline hover:text-white">5.5. How to Create Conflict</a></li>
+              <li className="mb-px"><a href="#post-plans-must-be-complicated" className="hover:underline hover:text-white">5.6 Plans Must Be Complicated</a></li>
+              <li className="mb-px"><a href="#post-conflict-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -237,18 +221,11 @@ function Conflict() {
           <div
             id="also-see-box"
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px">
-                <a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a>
-              </li>
-              <li className="mb-px">
-                <a href="/suspense" className="hover:underline hover:text-white">Suspense</a>
-              </li>
-              <li className="mb-px">
-                <a href="/antagonists" className="hover:underline hover:text-white">Antagonists</a>
-              </li>
+              <li className="mb-px"><a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a></li>
+              <li className="mb-px"><a href="/suspense" className="hover:underline hover:text-white">Suspense</a></li>
+              <li className="mb-px"><a href="/antagonists" className="hover:underline hover:text-white">Antagonists</a></li>
             </ol>
           </div>
 

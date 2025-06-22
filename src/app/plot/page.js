@@ -41,22 +41,20 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-plotting-in-a-vacuum" className="mb-2 font-semibold">3.1: Plotting in a Vacuum</h3>
+          <h3 id="post-plotting-in-a-vacuum">3.1: Plotting in a Vacuum</h3>
 
-          <p>
-            You might have more stories than the Burj Khalifa. But stories aren&#39;t enough; you&#39;ve got to know what to do with them.</p>
-          <p>
-            At the front-end of story creation, writers tend to think: 'What do I already know, and how can I make a plot based on what I already know?'</p>
+          <p>You might have more stories than the Burj Khalifa. But stories aren&#39;t enough; you&#39;ve got to know what to do with them.</p>
+          <p>At the front-end of story creation, writers tend to think: 'What do I already know, and how can I make a plot based on what I already know?'</p>
           <p>What you should be asking is, 'What is an ideal plot, and what do I need to know to write it?'</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-types-of-plots" className="mb-2 font-semibold">3.2: Types of Plots</h3>
+          <h3 id="post-types-of-plots">3.2: Types of Plots</h3>
           <p>Robert McKee
             <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             makes the distinction between three different kinds of plots: </p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Archplot (the &#39;Hero&#39; story)</li>
             <li>Miniplot (the &#39;journey&#39; story)</li>
             <li>Antiplot (the &#39;not a logical story&#39; story)</li>
@@ -69,7 +67,7 @@ function Plot() {
           <p>Your standard kind of story.</p>
           <p>Typified by:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Plots structured by physical events;</li>
             <li>Active protagonist</li>
             <li>A closed ending (story threads wrap up and resolve);</li>
@@ -85,7 +83,7 @@ function Plot() {
 
           <h4>3.2.2 	Miniplot</h4>
           <p>Typified by:</p>
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Minimalism;</li>
             <li>Plots structured by emotional events;</li>
             <li>An open ending (story threads unresolved, some remaining questions);</li>
@@ -103,7 +101,7 @@ function Plot() {
 
           <p>Typified by:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Plot structured by coincidence over causation;</li>
             <li>Ridicule, parody, irony and satire;</li>
             <li>Intellectual work required by the audience;</li>
@@ -117,7 +115,7 @@ function Plot() {
           <p>The Nonplot is basically is where there isn&#39;t a clear, satisfying conclusion to the events.</p>
           <p>Typified by:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Plotless;</li>
             <li>Character-driven;</li>
             <li>Intellectual work required by the audience;</li>
@@ -131,7 +129,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-inciting-incident" className="mb-2 font-semibold">3.3: The Inciting Incident</h3>
+          <h3 id="post-inciting-incident">3.3: The Inciting Incident</h3>
           <p>This is the event which kicks off the plot. It&#39;s the first &#39;unusual&#39; thing which occurs to your protagonist, jarring them out of their normal routine and necessitating their pursuit of the plot-worthy goal in order to return to normal.</p>
           <p>A story where the protagonist one day wakes up and changes their mind about the direction of their life, is weak, vague and lazy. We don&#39;t assume people just do this spontaneously in real life, we assume something happened to cause their change of mind. In real life, we don&#39;t take people&#39;s word for it when they tell us they&#39;ve suddenly decided to change their life; we tend to ask, &#39;why? What caused you to decide this?&#39; or, meaningfully, &#39;Did something happen?&#39;</p>
           <p>The Inciting Incident also suggests your protagonist is not in control; control of their life has been wrestled away from them, and the story is about them reclaiming control. This is more interesting than a character who remains in the driver&#39;s seat of their life the whole time, whatever sudden decisions they make.</p>
@@ -139,7 +137,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-three-act-structure" className="mb-2 font-semibold">3.4: Three Act Structure</h3>
+          <h3 id="post-three-act-structure">3.4: Three Act Structure</h3>
           <p>The Three Act Plot is a story formula involving three major changes or reversals of positions for the protagonist. For instance, things are good, then they&#39;re bad, then they&#39;re good again. The Acts are: Good, Bad, Good (if the climax is in the Third Act, you might find the third &#39;Good&#39; only spans the last half/quarter of the Act).</p>
           <p>The first Act might be about 25% of the story. The Second Act will be longer, and then the Third Act will be the shortest, to create a sense of accelerating pace to the climax. Maybe max 25% of the story. The potential problem is that the Second Act drags. Rectifying that may involve adding a subplot/s or another Act (e.g. extending to Good, Bad, Worse, Good).</p>
           <p>McKee
@@ -157,7 +155,7 @@ function Plot() {
             <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             also says that main plots and subplots can have different protagonists (though I&#39;m struggling to see how this would work). My caveat is, if you do this, ensure:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>The subplot/s tie back into the main plot&#39;s theme, i.e. the sub-plots are variations on a theme;</li>
             <li>The subplot protagonist lives in the same world, or a connected world to the main protagonist. For example, Atreyu and Bastien in The Neverending Story lived in different worlds, but their worlds were interconnected enough for Bastien to be able to visit Atreyu&#39;s world, and for both characters to affect each other. </li>
             <li>The subplot protagonist&#39;s character reflects the main protagonist&#39;s character, whether alike, a foil, an invert, a branching off parallelism, etc. I.e. the protagonists aren&#39;t completely unrelated people who could just be any random strangers in the street.</li>
@@ -165,7 +163,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-three-right-angled-turns" className="mb-2 font-semibold">3.5: Three Right-Angled Turns</h3>
+          <h3 id="post-three-right-angled-turns">3.5: Three Right-Angled Turns</h3>
           <p>Aristotle
             <FootnoteRef text="Aristotle, Poetics." />
             wrote of the “peripeteia,” or “reversal of the situation.”</p>
@@ -200,9 +198,9 @@ function Plot() {
 
           <p className="text-sm mb-4 font-rubik font-bold">#1 Beauty and the Beast:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="text-sm mb-4 font-rubik underline">Act 1: </p>
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>[Protagonist&#39;s starting position] Country village </li>
               <li>[Protagonist&#39;s direction] dreams of fairytale romance in some distant location with prince.</li>
               <ol className="list-decimal list-inside mb-4 mt-4 font-rubik underline">
@@ -211,17 +209,17 @@ function Plot() {
             </ol>
 
             <p className="text-sm mb-4 font-rubik underline">Act 2: </p>
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>[Position] Captive of monster in scary castle  </li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+              <ol>
                 <li><span className="underline">Act 2 right angle:</span> [New position] Falling in love with monster. </li>
               </ol>
             </ol>
 
             <p className="text-sm mb-4 font-rubik underline">Act 3: </p>
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>[Position] Falling in love with monster.  </li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+              <ol>
                 <li><span className="underline">Act 3 right angle:</span> [New position] Monster is not a monster but prince. </li>
               </ol>
             </ol>
@@ -230,30 +228,29 @@ function Plot() {
 
           </div>
 
-
           <p className="text-sm mb-4 font-rubik font-bold">#2 The Shawshank Redemption:</p>
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="text-sm mb-4 font-rubik underline">Act 1: </p>
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>[Protagonist&#39;s starting position] Protagonist&#39;s wife cheating on him </li>
               <li>[Protagonist&#39;s direction] possibly leave her, try to get her back, or get revenge.</li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+              <ol>
                 <li><span className="underline">Act 1 right angle:</span> [New position] Scary castle with monster.</li>
               </ol>
             </ol>
 
             <p className="text-sm mb-4 font-rubik underline">Act 2: </p>
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>[Position] protagonist in prison, lowest standing on the prison&#39;s social hierarchy, not coping  </li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+              <ol>
                 <li><span className="underline">Act 2 right angle:</span> [New position] protagonist makes friends and gets a better standing </li>
               </ol>
             </ol>
 
             <p className="text-sm mb-4 font-rubik underline">Act 3: </p>
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>[Position] Protagonist coping in prison  </li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+              <ol>
                 <li><span className="underline">Act 3 right angle:</span>  [New position] Protagonist escapes prison </li>
               </ol>
             </ol>
@@ -265,7 +262,7 @@ function Plot() {
           <h4>3.5.3 	Sub- Three Right Angle Turns</h4>
           <p>Beauty and the Beast is the poster child for the right-angle turn structure, and provides yet more examples. One example is in song themes. The songs &#39;Belle&#39;, &#39;Be Our Guest&#39; and &#39;Kill the Beast&#39; are all about belonging and exclusion (the remaining song) :</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Belle: the inhabitants of the setting (village) are telling an excluded/different character (Belle) she doesn&#39;t belong; </li>
             <li>Be Our Guest: the inhabitants of the setting (castle) are telling the excluded/different character she does belong;</li>
             <li>Kill the Beast: the inhabitants of the setting (village again) are once again reinforcing that an excluded/different character does not belong (now, the Beast);</li>
@@ -276,7 +273,7 @@ function Plot() {
           <p>Also notice the strategic spacing of the songs: if the film was divided into four acts, each of these songs would roughly correspond to each of these acts: beginning, end of second act halfway point, climax, denouement.</p>
           <p>Beauty and the Beast is a love story; you might ask where does the theme of love fit into this structure? Importantly, each of these songs is separated by an inciting incident which acts as the &#39;turn&#39;:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Belle getting imprisoned in the castle (motivated by her love for her father) turns to &#39;Be Our Guest&#39;;</li>
             <li>Belle staying at the castle after the wolf attack (motivated by her love for the Beast) turns to Kill the Beast;</li>
             <li>Beast returning to human form (because of Belle&#39;s love for him) turns to&#39;Beauty and the Beast&#39;;</li>
@@ -286,7 +283,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-chiastic-structure" className="mb-2 font-semibold">3.6: Chiastic Structure</h3>
+          <h3 id="post-chiastic-structure">3.6: Chiastic Structure</h3>
 
           <p>A chiastic structure exists where the narrative creates a symmetrical pattern, e.g. if scenes include A,B, and C, then a chiastic structure might go: A, B, C, C, B, A. If you&#39;re musically inclined, this resembles counterpoint.</p>
           <p>&#39;Chiastic&#39; originates from the Greek word &#39;Chiasmus&#39; meaning &#39;crosswise arrangement,&#39; i.e. —</p>
@@ -371,14 +368,14 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-plots-with-problems" className="mb-2 font-semibold">3.7: Plots with Problems</h3>
+          <h3 id="post-plots-with-problems">3.7: Plots with Problems</h3>
 
           <h4>3.7.1 	P.R.O.B.L.E.M</h4>
           <p>Bork
             <FootnoteRef text="Erik Bork, The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction." />
             says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="text-sm mb-4 font-rubik text-boldPurple font-bold">Punishing</p>
             <p>It's long (lasts the whole story), every scene is spent trying to solve the problem. It may be complicated or get more complicated as the story goes on.</p>
 
@@ -406,8 +403,8 @@ function Plot() {
 
           <h4>3.7.2 	Bork's Story Problems</h4>
           <p>Bork lists eight main types of story problems:</p>
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>Someone or something is trying to kill me (or us). </li>
               <li>Someone or something is trying to destroy my life as I know it. </li>
               <li>I have a once-in-a-lifetime but incredibly difficult opportunity to rise up and be somebody, in a big way, that could forever change my sense of self. </li>
@@ -423,8 +420,8 @@ function Plot() {
           <p>Blake Snyder
             <FootnoteRef text="Blake Snyder, Blake Snyder, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
             says all stories centre around one of these 10 problems:</p>
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li><span className="text-boldPurple font-bold">Monster in the House</span> Characters are trapped in a confined space with a 'monster' or dangerous entity out to get them.</li>
               <li><span className="text-boldPurple font-bold">Golden Fleece</span> The 'quest' myth: a hero goes on a journey in search of something, encountering interesting things or people along the way. Normally, by the end, the hero has undergone a personal transformation. </li>
               <li><span className="text-boldPurple font-bold">Out of the Bottle</span> A wish comes true for the protagonist or they get something akin to magic — for better or worse. Doesn't have to be supernatural (e.g. someone accidentally comes into a fortune). The flipside is the wish ends up being a curse.</li>
@@ -443,7 +440,7 @@ function Plot() {
             <FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="text-boldPurple font-bold">I. The Lost Sock</p>
             <p>The plot is too slight or trivial.</p>
             <p>The plot of a story “should be important enough to change someone's life forever.”
@@ -451,7 +448,7 @@ function Plot() {
               It should also have broad interest — just because you find something fascinating, doesn't mean the broader public does.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>Ensure your plot revolves around a dilemma involving a 'sex word' (see 6.2 Sex Words);</li>
               <li>Ensure your story is not a thinly veiled excuse for venting or proselytizing;</li>
               <li>Make sure character or plot trivia is brief and in the background, not the foreground.</li>
@@ -462,7 +459,7 @@ function Plot() {
             <p>Readers don't want to 'settle into' a story; they want to start from the first sentence.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>Start the story as late as possible — i.e. as close as possible to the first important scene;</li>
               <li>Smuggle description into active scenes;</li>
               <li>Remove introspection; suggest thoughts and feelings through behaviour and dialogue;</li>
@@ -473,7 +470,7 @@ function Plot() {
             <p>Readers don't need to know everything about your protagonist; only as much necessary for the plot to make sense.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>Get rid of childhood memories if the plot makes sense without them;</li>
               <li>Smuggle description into active scenes;</li>
               <li>Explicate your protagonist's character through present action and conflict</li>
@@ -483,7 +480,7 @@ function Plot() {
             <p>Author substitutes location for story.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>Settings should be described only to enrichen or add dimension to the plot;</li>
               <li>Settings should be described in a way which says something about the characters who find themselves there (rather than your favourite bits, or the bits remembered best by you)</li>
               <li>Alter or make up parts of settings which serve your plot better.</li>
@@ -495,7 +492,7 @@ function Plot() {
             <p>Readers will assume that significant or interesting elements introduced throughout a story will have a payoff later, otherwise the reader may feel cheated.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>Ensure everything in your story furthers the plot.</li>
             </ol>
 
@@ -504,7 +501,7 @@ function Plot() {
             <p>If characters have their own issues, these need to be resolved.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>Address problems with their own plot arcs </li>
               <li>Make sure subplots don't overshadow the main plot; otherwise minimize or remove them. </li>
             </ol>
@@ -514,7 +511,7 @@ function Plot() {
             <p>If a protagonist gives the slightest suggestion of flattering another character, the reader will run with it, inferring the protagonist is in love with the character (no matter how absurd or taboo).</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+            <ol>
               <li>Tone down flattering descriptions of characters (particularly physical attributes);</li>
               <li>Draw more focus to characters' flaws (or give them flaws in the first place);</li>
             </ol>
@@ -522,7 +519,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-story-planning" className="mb-2 font-semibold">3.8: Story Planning</h3>
+          <h3 id="post-story-planning">3.8: Story Planning</h3>
 
           <h4>3.8.1 	Bottom-Up and Top-Down</h4>
           <p>Bottom-up (BU) writing means creating the tiny details first, and organising structure and story later. Top-down (TD) writing the opposite.</p>
@@ -531,12 +528,12 @@ function Plot() {
           <p>BU writing has its advantages. The problem is the writing community is almost exclusively reliant on it, and for the wrong reasons.</p>
           <p>Word count Olympics such as 'NaNoWriMo' and Stephen King's method of setting word count quotas fosters bottom up writing, causing top-down writing skill to atrophy. Pretty soon BU and writing are interchangeable and TD is entirely disregarded.</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="text-boldPurple font-bold">Example of BU planning:</p>
             <p>There'll be a character called Dave Driver. He has a moustache. He wears a suit. He's a detective. He is cynical, but always first into office. A lawyer he used to hate became a barrister and then a judge. The judge slips implied insults in at the detective during court hearings. There are two prisons, one called 'The Small Wolf,' and one called 'The Big Wolf,' — ironically, the former is even worse than the latter. Someone smuggles a pet into the prison but it gets killed in a feud which kicks off a revenge sub-plot. Inmates write secret messages on playing cards and pass them to each other. An accused killer hates the sight of blood, but the prosecutor thinks this is faked. When he was a kid, the prosecutor saw someone drown, but didn't alert anyone to help...etc.</p>
           </div>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
+          <div className="custom-box">
             <p className="text-boldPurple font-bold">Example of TD Planning:</p>
             <p>It'll be a supernatural crime story. In the first Act there'll be a really strange murder. In the second Act the perpetrator is suspected innocent by the unpopular detective, but the body goes missing. In the third Act the detective has to fight the system to prevent the innocent getting executed, and get him out of prison. At the conclusion the victim turns out to be a shapeshifter (or intelligent zombie). The detective fails to prevent execution of the innocent, but he was infected by the zombie anyway, so it's a bittersweet ending as the innocent accepts the execution, but the detective doesn't. In the epilogue, it's implied the execution failed, because the innocent is now a zombie/shapeshifter as well — maybe his body has gone missing from the morgue.</p>
           </div>
@@ -556,7 +553,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-romance-three-kinds" className="mb-2 font-semibold">3.9: Romance: Three Kinds</h3>
+          <h3 id="post-romance-three-kinds">3.9: Romance: Three Kinds</h3>
           <p>This tip relates not only to romance genre stories but any plot with two love interests (LI) who get together by the end of the story. There are generally three kinds of romances: Pursuit; Revelation, and Conspiracy.</p>
 
           <p className="text-boldPurple font-bold">(1) Pursuit</p>
@@ -608,7 +605,7 @@ function Plot() {
 
           <h4>3.9.1 Main Differences Between the Three Types</h4>
           <p>These romances may overlap, the main distinction where the LIs begin the story, in terms of how they feel towards each other.</p>
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>In a <span className="font-bold">Pursuit</span>, the affection is initially unilateral, which is what drives the pursuit. The end goal is the pursuit becoming mutual (the LI reciprocating the affection);</li>
             <li>In a <span className="font-bold">Revelation</span>, the affection is non-existent initially, although not necessarily mutually so — the LI may like the protagonist, but cannot be the converse. The main plot goal drives the story, and the inevitable emergence  of affection creates a kind of obstacle (more accurately, the plot goal is the obstacle of the affection);</li>
             <li>In a <span className="font-bold">Conspiracy</span>, the affection is present initially. The goal is not for the relationship to begin or develop, but to endure. If anything, the relationship may slowly risk eroding or destructing as the story progresses. </li>
@@ -630,7 +627,7 @@ function Plot() {
             is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 id="post-plot-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-plot-comments">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
@@ -653,37 +650,16 @@ function Plot() {
             className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px">
-                <a href="#post-storytelling" className="hover:underline hover:text-white">3.1: Plotting in a Vacuum</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-types-of-plots" className="hover:underline hover:text-white">3.2: Types of Plots</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-inciting-incident" className="hover:underline hover:text-white">3.3: The Inciting Incident</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-three-act-structure" className="hover:underline hover:text-white">3.4: Three Act Structure</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-three-right-angled-turns" className="hover:underline hover:text-white">3.5: Three Right-Angled Turns</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-chiastic-structure" className="hover:underline hover:text-white">3.6: Chiastic Structure</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-plots-with-problems" className="hover:underline hover:text-white">3.7: Plots with Problems</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-story-planning" className="hover:underline hover:text-white">3.8: Story Planning</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-romance-three-kinds" className="hover:underline hover:text-white">3.9: Romance: Three Kinds</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-plot-comments" className="hover:underline hover:text-white">Comments</a>
-              </li>
+              <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">3.1: Plotting in a Vacuum</a></li>
+              <li className="mb-px"><a href="#post-types-of-plots" className="hover:underline hover:text-white">3.2: Types of Plots</a></li>
+              <li className="mb-px"><a href="#post-inciting-incident" className="hover:underline hover:text-white">3.3: The Inciting Incident</a></li>
+              <li className="mb-px"><a href="#post-three-act-structure" className="hover:underline hover:text-white">3.4: Three Act Structure</a></li>
+              <li className="mb-px"><a href="#post-three-right-angled-turns" className="hover:underline hover:text-white">3.5: Three Right-Angled Turns</a></li>
+              <li className="mb-px"><a href="#post-chiastic-structure" className="hover:underline hover:text-white">3.6: Chiastic Structure</a></li>
+              <li className="mb-px"><a href="#post-plots-with-problems" className="hover:underline hover:text-white">3.7: Plots with Problems</a></li>
+              <li className="mb-px"><a href="#post-story-planning" className="hover:underline hover:text-white">3.8: Story Planning</a></li>
+              <li className="mb-px"><a href="#post-romance-three-kinds" className="hover:underline hover:text-white">3.9: Romance: Three Kinds</a></li>
+              <li className="mb-px"><a href="#post-plot-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -694,16 +670,9 @@ function Plot() {
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px">
-                <a href="/story" className="hover:underline hover:text-white">Story</a>
-              </li>
-              <li className="mb-px">
-                <a href="/premise" className="hover:underline hover:text-white">Premise</a>
-              </li>
-              <li className="mb-px">
-                <a href="/title" className="hover:underline hover:text-white">Title</a>
-              </li>
+              <li className="mb-px"><a href="/story" className="hover:underline hover:text-white">Story</a></li>
+              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
+              <li className="mb-px"><a href="/title" className="hover:underline hover:text-white">Title</a></li>
             </ol>
           </div>
 

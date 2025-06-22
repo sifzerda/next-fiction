@@ -33,18 +33,16 @@ function Premise() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-your-story-in-one-sentence" className="mb-2 font-semibold">2.1: Your Story In One Sentence</h3>
+          <h3 id="post-your-story-in-one-sentence">2.1: Your Story In One Sentence</h3>
 
-          <p>
-            The premise is the essence of your plot. You should be able to sum up your story in one sentence. If you can&#39;t, you will be unable to pitch your story in an intention-grabbing way.
-          </p>
+          <p>The premise is the essence of your plot. You should be able to sum up your story in one sentence. If you can&#39;t, you will be unable to pitch your story in an intention-grabbing way.</p>
 
           <h4>2.1.1 	Difference between Premise and Plot</h4>
           <p>By contrast, your plot is a little more detailed; it suggests a beginning, middle and end. Unlike premises, plots contain <u>goals</u> (forces of progression) and <u>obstacles</u> (forces of regression).</p>
           <p>Consider which of the following premises constitute a plot:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>A man uses a portal to travel back in time;</li>
               <li>A girl&#39;s identical twin mysteriously vanishes;</li>
               <li>A bunch of kids wash up on a deserted island;</li>
@@ -57,8 +55,8 @@ function Premise() {
 
           <p>The answer is: none of the above. These are all premises. Why? None of these examples have plot direction. They constitute larger worlds but don&#39;t provide the tighter narrative pathway which will explore the larger world. They don&#39;t have both goals and obstacles. Without these, your main character is merely a tourist or sightseer in their own story; they have nothing to do other than observe the events randomly happening around them.</p>
           <p>By contrast, the following premises do constitute plots:</p>
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>A man uses a portal to travel back in time to kill Hitler;</li>
               <li>A girl searches for answers after her identical twin mysteriously vanishes;</li>
               <li>After washing up on a deserted island, a bunch of kids slowly turn on each other in their desperation to survive;</li>
@@ -75,8 +73,8 @@ function Premise() {
           <p>A quick formula for generating a basic plot is putting X character in Y situation — this has the bonus of creating a protagonist as well. The situation (or location) should act as a foil for the character, emphasizing the character&#39;s traits and increasing conflict. This is a great starter for short stories.</p>
           <p>Examples:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>What if a cynical ghost hunting skeptic was in a genuinely haunted house?<FootnoteRef text="1408, Stephen King." />
               </li>
               <li>What if an intellectually handicapped man was in an experiment that made him a genius?<FootnoteRef text="Flowers for Algernon, Daniel Keyes." />
@@ -94,14 +92,14 @@ function Premise() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-building-your-story-from-the-premise" className="mb-2 font-semibold">2.3: Building the Story from the Premise</h3>
+          <h3 id="post-building-your-story-from-the-premise">2.3: Building the Story from the Premise</h3>
           <p>&#39;How to Write&#39; advice tends to suggest starting with a character and an obstacle, or a challenge. When I kick start a story I normally start with a character and a question. A question should not be rhetorical or abstract. It should create the subject for the plot; above all. You pose the question not to the protagonist, but the reader — the question should be something the reader wants answered, and they will read the rest of the story to get the answer. A good question might begin: &#39;What If...?&#39;  For instance, here&#39;s an idea I made up on the spot:</p>
           <p>Protagonist is up late one night at home and hears a strange sound pass over their house. They go outside and find a mysterious smoking object sitting in their backyard.</p>
           <p>This builds the question: &#39;What if someone found some alien technology?&#39; Notice this does not create an obstacle or a challenge — that comes later.</p>
           <p>At this point you could start building an &#39;E chain&#39;. Start with the three major plot points (events) creating the plot arc (generally: (1) Challenge (2) Complication (3) Solution) for example:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>Protagonist finds mysterious object;</li>
               <li>Protagonist gets pursued by mysterious security personnel;</li>
               <li>Protagonist destroys the object.</li>
@@ -110,7 +108,7 @@ function Premise() {
 
           <p>Or:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Protagonist finds mysterious object;</li>
             <li>Protagonist uses object and is sent to the future;</li>
             <li>Protagonist returns to present time.</li>
@@ -118,7 +116,7 @@ function Premise() {
 
           <p>Or:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Protagonist finds mysterious object;</li>
             <li>Protagonist is stalked by a terrifying alien presence;</li>
             <li>Protagonist&#39;s alien infection starts turning him into an alien.</li>
@@ -126,7 +124,7 @@ function Premise() {
 
           <p>Or:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>Protagonist finds mysterious object;</li>
             <li>Protagonist is beamed to alien planet;</li>
             <li>Protagonist marries alien prince/princess.</li>
@@ -134,7 +132,7 @@ function Premise() {
 
           <p>I give different examples to show that your question should not lock you into a predetermined &#39;answer.&#39; At this stage your story can still be about whatever you want, in whatever genre you want. To further expand the E chain, let&#39;s take one of the above examples:</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
@@ -144,16 +142,16 @@ function Premise() {
             For each &#39;Event,&#39; you&#39;re brainstorming to resolve why the event happens, in the most interesting, dynamic ways you can think of. Refer to &#39;Encouragement&#39; and &#39;Effect&#39;, to create a logical chain of activity. For example, starting with number one:
           </p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
           </ol>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>
               <span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik ml-6">
+              <ol>
                 <li><span className="bg-hRed">[encouragement]</span> why does the protag investigate the noise, rather than ignore it?</li>
                 <li><span className="bg-hRed">[encouragement]</span> why does the protag take the object and keep it, rather than discard it?</li>
                 <li><span className="bg-cyan">[effect]</span> why does the protag take the object and keep it, rather than discard it?</li>
@@ -165,21 +163,21 @@ function Premise() {
           <p>You could just say your protag has a curious and investigative personality, but this is easy and uninteresting. Alternatively, you could set up that your protag&#39;s beloved GF/BF recently ended their relationship because they found protag boring. That is a more interesting incentive for your protag to investigate the object, particularly if they suspect it came from space. Surely a discovery of an alien artefact makes someone highly interesting. It also raises a great potential sub-plot about your protag trying to get back their ex — and notice how this raises interesting conflict with the &#39;married to alien&#39; event later.</p>
           <p>We can use this brainstorming to flesh out the E chain (remember that &#39;encouragement&#39; comes before &#39;event&#39; even though below I&#39;ve put it under event):</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik ml-6">
+          <div className="custom-box">
+            <ol>
               <li><span className="bg-hYellow">[event] </span>Protagonist finds mysterious object;</li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik ml-6">
+              <ol>
                 <li><span className="bg-hRed">[enouragement] </span>Protag dumped by ex for being &#39;boring&#39;; wants to use object to disprove this to ex;</li>
                 <li><span className="bg-cyan">[effect] </span>protagonist investigates and experiments with object;</li>
                 <li><span className="bg-hRed">[enouragement] </span>Protagonist does not tell anyone about object, wanting to get the credit for discovering it to impress ex;</li>
               </ol>
               <li><span className="bg-hYellow">[event] </span>Protagonist is beamed to alien planet;</li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik ml-6">
+              <ol>
                 <li><span className="bg-hRed">[enouragement] </span>Protag wants to return home to be with ex and attempts to befriend and flatter alien prince/princess to get them to return him/her home to Earth;</li>
                 <li><span className="bg-cyan">[effect] </span>The alien prince/princess falls in love with protag; </li>
               </ol>
               <li><span className="bg-cyan">[event] </span>Protagonist is married to an alien prince/princess;</li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik ml-6">
+              <ol>
                 <li><span className='blue-text-span'>[effect] </span>Earth learns of this and protag is made diplomat representing Earth to alien planet;</li>
                 <li><span className="bg-cyan">[effect] </span>Ex realises protag — diplomat for Earth and discoverer of aliens — has become most interesting person on the planet and regrets dumping them;</li>
                 <li><span className="bg-cyan">[effect] </span>Protag declines ex&#39;s plea to resume relationship OR protag divorces alien and gets back with repentant ex OR other </li>
@@ -197,7 +195,7 @@ function Premise() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-structuring-the-plot-with-live-issues" className="mb-2 font-semibold">2.4: Structuring the plot with live issues</h3>
+          <h3 id="post-structuring-the-plot-with-live-issues">2.4: Structuring the plot with live issues</h3>
           <p>In basic form, a novel is where you tell the reader &#39;stick around for the next 200 pages and something excellent will happen.&#39; Why not save the reader time and condense your story into a short story, 3000 words ending with something excellent? Or, why not just tell the reader the &#39;excellent&#39; thing immediately? Why go to the bother?</p>
           <p>The novel must be something more: generally every 3000 words something good is happening (a &#39;live issue&#39;), and by the end, something excellent has happened (the climax).</p>
 
@@ -218,7 +216,7 @@ function Premise() {
             </i></div>
 
           <p>Live issues must accord with all of these criteria:</p>
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik ml-6">
+          <ol>
             <li>They relate to the plot;</li>
             <li>They help or hinder the protagonist; and</li>
             <li>The issue puts something at stake;</li>
@@ -229,8 +227,8 @@ function Premise() {
           <p>Sphere by Michael Crichton, is a good example of a plot structured with live issues. The main plot issue is: What is the Sphere? Wisely, the novel does not limit itself that question. Each chapter raises a new question/s to continue to feed the reader&#39;s interest and reward their continued reading. Examples of live issues raised throughout:</p>
           <h4>2.4.2 	Examples of live issues</h4>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>Protag gets summoned to a secret military/navy base (why?);</li>
               <li>An alien spaceship was found in the deep sea (What? how? Why?);</li>
               <li>The spaceship has never before seen human technology (how?);</li>
@@ -252,8 +250,8 @@ function Premise() {
 
           <p>With each new question raised, you get increasingly pumped for the conclusion, which you expect to answer all these questions, and it does. Also, although different questions are answered at different times, Crichton never answers all his questions; there is always at least one question open. Even better, some of the answers actually raise more questions. Lastly, the ending does not directly answer all of the questions, but throughout the story, enough information is provided for the reader to answer those questions themselves — this is a great way to encourage multiple reading, or just keeping the story in your reader&#39;s mind to encourage discussion with others, and possibly recommendation.</p>
           <p>Ira Levin is another author skilled at using live issues, see for instance in the Stepford Wives:</p>
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>What happened to the women's association?</li>
               <li>What do the men do at the men's association?</li>
               <li>Why do the women act strangely?</li>
@@ -275,7 +273,7 @@ function Premise() {
           <p>Exceptions: Note, in the &#39;Sphere&#39; example above, I mentioned some issues were raised and left unanswered. For instance, one of these issues was, at any one time, precisely who is acting under the influence of the Sphere — by the end of the story, as long as it&#39;s revealed how the Sphere works on the characters generally, we don&#39;t need to know who was specifically affected at all times — it would be interesting to know, but not necessary.</p>
           <p>This was acceptable, as certain exceptions applied, e.g.</p>
 
-          <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <ol>
             <li>The issue was relatively unimportant, compared to other issues;</li>
             <li>Nothing was at stake if the issue went unresolved;</li>
             <li>The issue was created by implication, rather than expressed outright;</li>
@@ -287,13 +285,13 @@ function Premise() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-strange-sandwich" className="mb-2 font-semibold">2.5: The 'Strange Sandwich'</h3>
+          <h3 id="post-the-strange-sandwich">2.5: The 'Strange Sandwich'</h3>
           <p>Never write strange on strange. Your plot can be strange, but your reader needs to be able to contrast the strangeness with commonplace real life. Therefore, you should never layer strange plot elements on strange elements — e.g. strange characters layered on a strange setting — otherwise the reader won&#39;t have anything solid to contrast the strange against. As with anything, strangeness is only apparent by contrast with its opposite, normality.</p>
           <p>As an example of &#39;strange on strange&#39; I saw a story idea posted on Reddit where characters are on an alien planet, trapped in a 4D labyrinth, and being hunted down by an alien monster. Cool idea, but utterly unrelatable. Any single one of those ideas is stronger on its own, against a backdrop of normality. But all combined, risks giving the reader &#39;strangeness&#39; fatigue.</p>
           <p>My E chain plot example further above has 3 strange elements — </p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li> A weird alien device;</li>
               <li> An alien planet/civilization;</li>
               <li> An alien prince/princess.</li>
@@ -303,8 +301,8 @@ function Premise() {
           <p>This is okay as long you separate each strange element and relate it to, or backdrop it against, something ordinary to &#39;normalize&#39; it. Once a strange element has been normalized, you can then introduce another strange element. Think of it like separating exotic sandwich ingredients each with another slice of bread: too much bread together tastes bland, but too many exotic ingredients together and flavours clash or cancel each other out.</p>
           <p>To normalize each strange element, try to pair it with something relatable in real life, for example:</p>
 
-          <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik">
-            <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
+          <div className="custom-box">
+            <ol>
               <li>  [A weird alien device] → A person digs up a strange object/artefact/antique in their backyard</li>
               <li>  [An alien planet/civilization] → A person is lost in the wilderness</li>
               <li>  [An alien prince/princess] → Meeting someone from a totally foreign culture</li>
