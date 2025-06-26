@@ -15,12 +15,12 @@ function Story() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Story</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Whatever good or bad fortune may come our way we can always give it meaning and transform it into something of value.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Herman Hesse</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “When the storytelling goes bad in society, the result is decadence.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Aristotle</span>
@@ -43,7 +43,7 @@ function Story() {
 
           <p>
             The most important skill you need to write fiction is storytelling. Robert McKee defines storytelling as:
-            <span className="italic">“the creative conversion of life itself to a more powerful, clearer, more meaningful experience.” </span>
+            <i>“the creative conversion of life itself to a more powerful, clearer, more meaningful experience.” </i>
             <FootnoteRef text="Robert McKee, Story, Substance, Structure, Style and the Principles of Screenwriting." />
           </p>
 

@@ -15,12 +15,12 @@ function WritersDevices() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Writing Devices</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “If there's a book that you want to read, but it hasn't been written yet, then you must write it.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Toni Morrison</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “You can always edit a bad page. You can't edit a blank page..”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Jodi Picoult</span>

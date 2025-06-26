@@ -15,17 +15,17 @@ function Editing() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Editing</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “The first draft of anything is shit.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Ernest Hemingway</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “In writing, you must kill all your darlings.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— William Faulkner</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “If you catch an adjective, kill it!”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Mark Twain</span>

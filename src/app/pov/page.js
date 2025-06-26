@@ -14,7 +14,7 @@ function POV() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Point Of View</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “If you want to know what water is, don&#39;t ask the fish.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Mitch Stokes</span>

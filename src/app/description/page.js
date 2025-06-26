@@ -15,13 +15,13 @@ function Description() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Description</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “When I use a word,” Humpty Dumpty said, in rather a scornful tone, “it means just what I choose it to mean—neither more nor less.”
           “The question is,” said Alice, “whether you can make words mean so many different things.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Alice in Wonderland, Lewis Carroll</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Prose is architecture, not interior decoration.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Ernest Hemingway</span>

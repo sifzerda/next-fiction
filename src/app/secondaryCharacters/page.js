@@ -14,12 +14,12 @@ function SecondaryCharacters() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Secondary Characters</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Fictional characters are made of words, not flesh; they do not have free will, they do not exercise volition. They are easily born, and as easily killed off.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— John Banville</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “...[E]ach character has to have an agenda, and you need to know what they want and what they are willing to do to get it...and be mindful of it throughout the story.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Christopher Moore</span>

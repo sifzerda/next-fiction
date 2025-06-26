@@ -14,17 +14,17 @@ function Suspense() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Suspense</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “You do not keep the audience's interest by giving it information, but by withholding information.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Robert McKee</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “The easiest thing for a reader to do is to quit reading.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Michael Gartner</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Make them laugh. Make them cry. But, most of all, make them wait.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Charles Dickens</span>

@@ -15,7 +15,7 @@ function Scenes() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Scenes</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “INSERT SCENES QUOTE HERE.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Attribution</span>
@@ -139,10 +139,10 @@ function Scenes() {
 
           <p><span className="font-bold"></span></p>
 
-          <p><span className="bg-hYellow">External:</span> (I moved house <span className="italic">because my house burned down</span>); OR</p>
-          <p><span className="bg-hGreen">Internal:</span> (I moved house <span className="italic">because I wanted a change</span>); OR</p>
-          <p><span className="bg-hRed">Complex:</span> (I moved house even though I didn't want to, <span className="italic">because my wife wanted to and I didn't want to upset her</span>); OR</p>
-          <p><span className="bg-cyan">Unidentified:</span> (I woke up in a new house and <span className="italic">I don't remember how I got there</span>).</p>
+          <p><span className="bg-hYellow">External:</span> (I moved house <i>because my house burned down</i>); OR</p>
+          <p><span className="bg-hGreen">Internal:</span> (I moved house <i>because I wanted a change</i>); OR</p>
+          <p><span className="bg-hRed">Complex:</span> (I moved house even though I didn't want to, <i>because my wife wanted to and I didn't want to upset her</i>); OR</p>
+          <p><span className="bg-cyan">Unidentified:</span> (I woke up in a new house and <i>I don't remember how I got there</i>).</p>
 
           <p>Internal and unidentifiable encouragement is generally weaker and less effective; external and complex are recommended.</p>
           <p>Stories which lack encouragement tend to produce reader response such as ‘Why did he do that?&#39; or ‘Why did she say that?&#39;</p>

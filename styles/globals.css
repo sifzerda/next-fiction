@@ -96,6 +96,12 @@ p {
   font-family: var(--font-rubik), sans-serif;
 }
 
+blockquote {
+  font-size: 0.875rem;  
+  font-style: italic;
+  margin-bottom: 0.5rem; 
+}
+
 h1 {
   font-size: 1.5rem;
   line-height: 2rem;

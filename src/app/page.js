@@ -10,7 +10,7 @@ function About() {
       <div id="searchbar" className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl text-yellow font-semibold mb-2 text-center">About</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “If an eternal traveler should journey in any direction, he would find after untold centuries that the same volumes are repeated in the same disorder — which, repeated, becomes order: the Order.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— 'The Library of Babel', Jorge Luis Borges</span>

@@ -15,22 +15,22 @@ function Antagonists() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Premise</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Nobody is a villain in their own story. We are all heroes in our own stories.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— George R. R. Martin</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Weeds are flowers too, once you get to know them.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— A. A. Milne</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “I love when a protagonist and antagonist can find common ground.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Sam Esmail</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “He that wrestles with us strengthens our nerves and sharpens our skill. Our antagonist is our helper.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Edmund Burke</span>

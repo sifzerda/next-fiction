@@ -15,22 +15,22 @@ function Voice() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Voice</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Style is […] a matter of knowing when one has said enough.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Hallie & Whit Burnett</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “If you can tell stories, create characters, devise incidents, and have sincerity and passion, it doesn&#39;t matter a damn how you write.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Somerset Maugham</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Good writing is like a window pane.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— George Orwell</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “We pay attention to externals when we do not know what else to do with a poem.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— I. A. Richards</span>

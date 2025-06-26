@@ -14,17 +14,17 @@ function Themes() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Themes</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “There are half a dozen subjects that I return to time and time again...[b]ecause most of my favourite writers do that, to hunt down the same topic or theme from different directions each time.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— David Bowie</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “Thematic significance in a novel arises from an exaggerated impression of life.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Mark Twain</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “To produce a mighty book, you must choose a mighty theme.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Ernest Hemingway</span>
@@ -47,14 +47,14 @@ function Themes() {
 
           <div className="custom-box">
             <p>[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified.”</p>
-            <span className="italic">— Robert Meredith and John Fitzgerald
+            <<i>>— Robert Meredith and John Fitzgerald
               <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
             </span>
           </div>
 
           <div className="custom-box">
             <p>[Themes are v]alues, the positive/negative charges of life, [which] are at the soul of our art. The writer shapes story around a perception of what's worth living for, what's worth dying for, what's foolish to pursue, the meaning of justice, truth — the essential values.</p>
-            <span className="italic">— Robert McKee
+            <<i>>— Robert McKee
               <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             </span>
           </div>
@@ -143,7 +143,7 @@ function Themes() {
 
           <div className="custom-box">
             <p>[If there's] one fault that stands out above all others...by the young and inexperienced [writers], it is the tendency to sermonize and editorialize to drive home the theme...[This] novelist is convinced of the validity of his wisdom, gained from experience, and he wants…to persuade others about [his] truth...as a result he begins to lecture the reader.</p>
-            <span className="italic">— Robert Meredith and John Fitzgerald
+            <<i>>— Robert Meredith and John Fitzgerald
               <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
             </span>
           </div>

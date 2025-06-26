@@ -16,12 +16,12 @@ function Plot() {
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Plot</h1>
 
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “For the purposes of [a story] a convincing impossibility is preferable to an unconvincing possibility.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Aristotle</span>
         </blockquote>
-        <blockquote className="text-sm italic mb-2">
+        <blockquote>
           “The King died and then the Queen died is a story. The King died, and then the Queen died of grief, is a plot.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— E. M Forster</span>
