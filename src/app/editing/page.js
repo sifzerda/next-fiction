@@ -6,7 +6,6 @@ import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
 import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
-import Link from "next/link";
 
 function Editing() {
   return (
@@ -73,7 +72,7 @@ function Editing() {
 
           <p>This is a tip from Sol Stein. The ‘strongest&#39; adjective is the one which most immediately gets across the gist of what you want to show. Which adjective, alone, puts the most striking image in your reader&#39;s mind? Anything implied needs to go; i.e. trees are assumed to be ‘big,&#39; ‘graceful,&#39; etc. ‘Tiny tree,&#39; rotting tree,&#39; ‘red tree,&#39; and ‘ugly tree&#39;, however, are evocative in their own right.</p>
 
-          <p><strong>III. 'Had' as past tense:</strong> Sol Stein suggests removing all past tense ‘hads&#39;.<FootnoteRef text="Sol Stein, On Writing." /> Note there are three uses of ‘had&#39;: </p>
+          <p><strong>III. 'Had' as past tense:</strong> Sol Stein suggests removing all past tense ‘hads&#39;.<FootnoteRef text="SOL STEIN, On Writing." /> Note there are three uses of ‘had&#39;: </p>
 
           <ol>
             <li><i>past tense</i>; means ‘did&#39; (He had turned on the oven) </li>
@@ -123,7 +122,7 @@ function Editing() {
           </ol>
 
           <p><strong>XI. Bridges:</strong> Includes compound prepositions and conjunctions – these are sentences which transition from one idea to the next, e.g. ‘…and, for that matter,&#39; ‘More to the point…&#39; ‘In the nature of&#39; ‘For the most part.&#39; Either split into separate sentences, or replace:</p>
-          <p>Robert Flesch lists these along with their replacements:<FootnoteRef text="Robert Flesch, The Art of Plain Talk." /></p>
+          <p>Robert Flesch lists these along with their replacements:<FootnoteRef text="ROBERT FLESCH, The Art of Plain Talk." /></p>
           <ol>
             <li>Along the lines of...................like;</li>
             <li>As to.........................................about;</li>
@@ -193,7 +192,7 @@ function Editing() {
 
           <h3 id="post-right-branching-sentences">22.3: Right-Branching Sentences</h3>
           <p>Roy Peter Clark
-            <FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." />
+            <FootnoteRef text="ROY PETER CLARK, Writing Tools: 50 Essential Strategies for Every Writer." />
             says <i>“The next time you struggle with a sentence, see if you can rewrite it by placing subject and verb at the beginning,”</i> and letting subordinate elements ‘branch to the right.&#39; </p>
 
           <p>You normally see this kind of writing in journalism, e.g.</p>
@@ -217,7 +216,7 @@ function Editing() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-guarding-word-territory">22.5: Guarding Word Territory</h3>
-          <p>Roy Clark coined the useful concept ‘word territory&#39;. It basically means giving important words their own space. Don&#39;t repeat key words unless the emphasis is necessary. For instance, <i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i><FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /></p>
+          <p>Roy Clark coined the useful concept ‘word territory&#39;. It basically means giving important words their own space. Don&#39;t repeat key words unless the emphasis is necessary. For instance, <i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i><FootnoteRef text="ROY PETER CLARK, Writing Tools: 50 Essential Strategies for Every Writer." /></p>
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 

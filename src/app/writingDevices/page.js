@@ -6,7 +6,6 @@ import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
 import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
-//import Link from "next/link";
 
 function WritersDevices() {
   return (
@@ -58,14 +57,13 @@ function WritersDevices() {
           <div className="custom-box">
             <p>“Make frequent promises that excitement or insight will soon be revealed to the reader. Sometimes an entire story can be made to turn on a single promise of things to come. In Treasure Island we are kept reading both by the tantalizing premise of buried treasure and the fact that somebody's going to find it. Will it be the pirates or Jim Hawkins's band?”</p>
             <p><i>— David Carroll</i>
-              <FootnoteRef text="David Carroll, A Manual of Writer's Tricks." />
+              <FootnoteRef text="DAVID CARROLL, A Manual of Writer's Tricks." />
             </p>
           </div>
 
           <p>Example, in context, Rick Blaine's
-            <FootnoteRef text="Casablanca, (1942)." />
+            <FootnoteRef text={<><em>Casablanca</em>, Warner Bros., (1942).</>} />
             "Of all the gin joints in all the towns in all the world, she walks into mine," is a promise that Ilsa and himself will interact later, and buried feelings will resurface.</p>
-
           <p>Subsequently denying the development of that idea constitutes 'blocking' - see below. </p>
           <p>Example: In Pet Sematary, by establishing that the 'Sematary' resurrects creatures, King makes an offer that a character will die and be resurrected. If the main character decided not to resurrect someone at the last minute, it would result in the offer being 'blocked' (below).</p>
           <p>When the original offer/expectation is not met, but substituted with something else, this is called a 'counter offer'. If successful, the substitute will be something even better than the original offer. If unsuccessful, it will be something less interesting - however, an unsuccessful counter offer doesn't constitute a block. Blocks can have the effect of pulling the audience out of the story altogether, 'ripping' the story away from them, whereas an unsuccessful counter offer will merely make the audience less interested/invested.</p>
@@ -94,7 +92,8 @@ function WritersDevices() {
           <p className="indent-8 mb-2">X: “Sounds like fun. I shuttle between Elmville and Mapledale regularly. Always pass the lake. But I&#39;ve never stopped there. Not once. Never seen anyone swimming either. It&#39;s interesting. You enjoy yourself.”</p>
 
           <p><strong>'Fortune Telling'</strong></p>
-          <p className="indent-8 mb-2">X: Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.<FootnoteRef text="Carrie, Stephen King." /></p>
+          <p className="indent-8 mb-2">X: Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.
+            <FootnoteRef text="STEPHEN KING, Carrie." /></p>
 
           <p><strong>'Cryptic Gobbledygook'</strong></p>
           <p className="indent-8 mb-2">“The Mother,” Marie said. </p>
@@ -109,7 +108,8 @@ function WritersDevices() {
           <p className='indent-8 mb-2'>“By the sea?”   </p>
           <p className='indent-8 mb-2'>“It&#39;s different here.”   </p>
           <p className='indent-8 mb-2'>“What does that mean?”   </p>
-          <p className='indent-8 mb-2'>“You&#39;ll see,” she said, and crossed the road.<FootnoteRef text="The Fisherman, John Langerman." /></p>
+          <p className='indent-8 mb-2'>“You&#39;ll see,” she said, and crossed the road.
+            <FootnoteRef text="JOHN LANGERMAN, The Fisherman." /></p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -132,7 +132,7 @@ function WritersDevices() {
           <h4>20.5.2 Setting the Story: The Question</h4>
           <p>Another - similar - way to start a story is to pose a question or raise an issue which isn&#39;t properly realised or answered by the reader until they have all the details of the story. The question or issue can once again be put to the reader at the very end of the story, with new significance. The advantage of this method is that it deals with both start and end in one swoop.</p>
           <p>Example: In The Events At Poroth Farm
-            <FootnoteRef text="The Events At Poroth Farm, T.E.D. Klein." />
+            <FootnoteRef text="T.E.D. Klein, The Events At Poroth Farm." />
             at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people&#39;s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -195,7 +195,8 @@ function WritersDevices() {
           <p>Arguably, it&#39;s also ‘verbal&#39; irony when a waiter drops and breaks a plate, and the chef claps in applause (sarcastically).</p>
           <p>Here is a written example of verbal irony:</p>
           <p className='indent-8 mb-2'>[…] whoever could find out a fair, cheap, and easy method of making [destitute] children sound, useful members of the commonwealth, would deserve so well of the public as to have his statue set up for a preserver of the nation.</p>
-          <p className='indent-8 mb-2'>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.<FootnoteRef text="A Modest Proposal, Jonathan Swift." /></p>
+          <p className='indent-8 mb-2'>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.
+            <FootnoteRef text="JONATHAN SWIFT, A Modest Proposal." /></p>
 
           <p><i><strong> (2) Situational Irony</strong></i></p>
           <p>This is where the result of a situation is the opposite of what you&#39;d expect. For example, in O. Henry&#39;s <i>The Gift of the Magi</i>, a husband sells his watch to buy his wife a hair comb, while his wife sells her hair to buy her husband a watch chain.</p>
@@ -205,7 +206,7 @@ function WritersDevices() {
           <p>This is where the audience or reader knows a critical piece of information – unknown by a character – which dramatically alters their perception of a situation. This is basically situational irony, except the reader has knowledge which allows them to perceive the irony of the situation before it actually happens.</p>
           <p>For example, in Romeo and Juliet, we know Juliet&#39;s intention to fake her death, where Romeo – failing to get the message – does not. This creates tragic irony when Romeo mistakes her for actually being dead, and kills himself.</p>
           <p>As Robert McKee
-            <FootnoteRef text="Robert McKee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
             says, like with symbolism, “to point at irony destroys it.” It cannot be obvious.  </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -268,7 +269,7 @@ function WritersDevices() {
 
           <h3 id="post-21-7" className="blog-post-title">21.7: The Lover&#39;s Quarrel</h3>
           <p>This is a writing exercise from Sol Stein
-            <FootnoteRef text="Sol Stein, Stein On Writing." />
+            <FootnoteRef text="SOL STEIN, Stein On Writing." />
             for application in romance scene/s. You aim to fill in the dialogue below which both conveys that the characters are in love, but are having a quarrel (without outright stating it). The more creatively you can suggest these pieces of information, the better. Try to work the dialogue into an imagined scene, setting or event. Here&#39;s a hint: the characters don&#39;t have to be talking directly at each other (could be making an observation or statement).</p>
           <p><strong>Lovers&#39; Quarrel in Ten Brief Exchanges:</strong></p>
           <p className='indent-8 mb-2'>He:</p>
@@ -298,7 +299,7 @@ function WritersDevices() {
 
           <h3 className="blog-write-what-you-love">21.8: Write What You Love</h3>
           <p>This is a tip from Stephen King; ask yourself, “Am I Having Fun?”
-            <FootnoteRef text="Stephen King, Chapter 1: Everything You Need To Know About Writing Successfully — in Ten Minutes, The Writer's Handbook 1988." />
+            <FootnoteRef text="STEPHEN KING, Chapter 1: Everything You Need To Know About Writing Successfully — in Ten Minutes, The Writer's Handbook 1988." />
             The answer needn&#39;t always be ‘yes.&#39; But if it&#39;s never ‘yes,&#39; then you have a problem. Go back to writing what you really enjoy.</p>
 
           {/* ============================================================= */}

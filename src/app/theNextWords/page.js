@@ -8,7 +8,6 @@ import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as n
 import itComesAtNight from '../assets/itcomesatnight.jpg'; 
 import deimos from '../assets/Deimos.jpg';
 import Image from "next/image";
-//import Link from "next/link";
 
 function TheNextWords() {
   return (
@@ -98,7 +97,7 @@ function TheNextWords() {
           <ol>
             <li>E.g. ‘Nothing happened on Wednesday, or Thursday,&#39; or ‘Nothing especially worthy of mention occurred during that day&#39; </li>
             <li>Cruise is relatively uneventful.
-              <FootnoteRef text="Day Four, Sarah Lotz." />
+              <FootnoteRef text="SARAH LOTZ, Day Four." />
             </li>
             <li>If left undescribed, readers already assume periods of time are spent the usual way. You don&#39;t have to anxiously assure your reader that ‘Wednesday&#39; and ‘Thursday&#39; didn&#39;t mysteriously disappear off the calendar.</li>
           </ol>
@@ -111,7 +110,8 @@ function TheNextWords() {
           </ol>
 
           <p className="boldPurple">[4] The ‘Transport Scene&#39;</p>
-          <p>Where “characters are shown travelling to the place where something of interest finally occurs.” <FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." />
+          <p>Where “characters are shown travelling to the place where something of interest finally occurs.” 
+            <FootnoteRef text="HOWARD MITTELMARK and SANDRA NEWMAN, How NOT to Write a Novel." />
           </p>
           <ol>
             <li>Transport or travelling scenes should only be included if something interesting and plot-relevant actually happens during the travel. </li>
@@ -121,7 +121,8 @@ function TheNextWords() {
           <p>Where the protagonist has a dream to no effect;</p>
           <ol>
             <li>It&#39;s strongly discouraged to have dreams (or hallucinations, mirages, fantasies, etc) in your story, because they are imaginary (fiction twice removed, because your story is fiction) but if you must have a dream sequence, it must say something other than the pure content of the dream, e.g. something about your character or the plot;</li>
-            <li>The line becomes blurred where plot is contained in fictional media the protagonist consumes (a la a meta story);<FootnoteRef text="Examples include ‘The Neverending Story,&#39; and ‘Nocturnal Animals,&#39; and, possibly the earliest known example, ‘Scheherazade.&#39;" />  it&#39;s possible but difficult to pull this off; the story-in-story must affect the real world protagonist in a plot; you should also care more about the protagonist than the characters in the story-in-story; </li>
+            <li>The line becomes blurred where plot is contained in fictional media the protagonist consumes (a la a meta story);
+              <FootnoteRef text={<>Examples include &#39;The Neverending Story&#39;, MICHAEL ENDE, and <em>Nocturnal Animals</em>, and, possibly the earliest known example, <em>Scheherazade</em> from <em>One Thousand and One Nights</em>, ANONYMOUS</>} />  it&#39;s possible but difficult to pull this off; the story-in-story must affect the real world protagonist in a plot; you should also care more about the protagonist than the characters in the story-in-story; </li>
           </ol>
           <u>Examples include ‘The Neverending Story,&#39; and ‘Nocturnal Animals,&#39; and, possibly the earliest known example, ‘Scheherazade.&#39;</u>
 
@@ -162,7 +163,8 @@ function TheNextWords() {
           </ol>
 
           <p className="boldPurple">[11] Me Write Pretty One Day</p>
-          <p>Stay away from everything that is fancy or pretty or grandiloquent: "Illumination is required to be extinguished in this premises at the conclusion of business." When you really mean: "Storelights must be put out at the end of the day." <FootnoteRef text="William Sloane, The Craft of Writing." /></p>
+          <p>Stay away from everything that is fancy or pretty or grandiloquent: "Illumination is required to be extinguished in this premises at the conclusion of business." When you really mean: "Storelights must be put out at the end of the day." 
+            <FootnoteRef text="WILLIAM SLOANE, The Craft of Writing." /></p>
 
           <h4>18.1.4 	Never use Hyperbole</h4>
 
@@ -210,7 +212,7 @@ function TheNextWords() {
           <h4>18.1.6 	Starve the Ego, Feed the Soul</h4>
           <div className="custom-box">
             <p className="mb-0"><i>“Did I feel a twinge in my little toe, or didn&#39;t I?” </i> asks every character of Mr. Joyce or of Miss Richardson or M. Proust. . . . Through thousands and thousands of pages Mr. Joyce and Miss Richardson tear themselves to pieces, strip their smallest emotions to the finest threads, till you feel you are sewed inside a wool mattress that is being slowly shaken up, and you are turning to wool along with the rest of the woolliness.</p>
-            <br></br><p><i>It&#39;s awful. And it&#39;s childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p><i>— D. H. Lawrence</i><FootnoteRef text="Surgery for the Novel — or a Bomb” (1923), D. H. Lawrence." />
+            <br></br><p><i>It&#39;s awful. And it&#39;s childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p><i>— D. H. LAWRENCE</i><FootnoteRef text="Surgery for the Novel — or a Bomb” (1923), D. H. Lawrence." />
           </div>
 
           <p>Introspection has utility, however overreliance positions the narrator (who may or may not also be the main character) as an obstacle to the reader&#39;s engagement with the story. Your main character is not the story.</p>
@@ -229,11 +231,12 @@ function TheNextWords() {
           <p><u>POV isn't determinative: </u>Introspection is not a curse exclusive to ‘1st person POV&#39;; it can happen with any POV. You can write a 1st person POV story clean of most traces of introspection. Likewise, you can write a 3rd person POV story filled with it. It&#39;s not about what camera you use, it&#39;s about what your camera looks at.</p>
           <p>To illustrate what introspection is (and the damage is causes); example of starting sentences with 'I...' </p>
 
-          <p><code><i>I sniffed the air. I could detect a faint smell of chemical reagents and traces of something more acrid—chlorine? Instinctively I searched the ceiling for the grills over the air-vents: strips of paper attached to the bars were fluttering gently; the air was circulating normally. In order to make a relatively free space around the bed, between the bookshelves and the locker, I cleared two chairs of their litter of books, instruments, and tools, which I piled haphazardly on the other side of the room. I pulled out a bracket to hang up my spacesuit, took hold of the zip- fastener, then let go again. Deterred by the confused idea that I was depriving myself of a shield, I could not bring myself to remove it. Once more I looked round the room. I checked that the door was shut tight and that it had no lock, and after a brief hesitation I dragged some of the heaviest boxes to the doorway. Having built this temporary barricade, I freed myself from my clanking armor in three quick movements. A narrow looking-glass, built into the locker door, reflected part of the room, and out of the corner of my eye I caught sight of something moving. I jumped, but it was only my own reflection.  </i></code><FootnoteRef text="Solaris, Stanislaw Lem." /></p>
+          <p><code><i>I sniffed the air. I could detect a faint smell of chemical reagents and traces of something more acrid—chlorine? Instinctively I searched the ceiling for the grills over the air-vents: strips of paper attached to the bars were fluttering gently; the air was circulating normally. In order to make a relatively free space around the bed, between the bookshelves and the locker, I cleared two chairs of their litter of books, instruments, and tools, which I piled haphazardly on the other side of the room. I pulled out a bracket to hang up my spacesuit, took hold of the zip- fastener, then let go again. Deterred by the confused idea that I was depriving myself of a shield, I could not bring myself to remove it. Once more I looked round the room. I checked that the door was shut tight and that it had no lock, and after a brief hesitation I dragged some of the heaviest boxes to the doorway. Having built this temporary barricade, I freed myself from my clanking armor in three quick movements. A narrow looking-glass, built into the locker door, reflected part of the room, and out of the corner of my eye I caught sight of something moving. I jumped, but it was only my own reflection.  </i></code>
+          <FootnoteRef text="STANISLAW LEM, Solaris." /></p>
 
           <p>There are arguments that a claustrophobic ‘I-obsessed&#39; style promotes the themes, or is ironic, but the practical reality is, it makes the reading less enjoyable. Surely there is another way to convey the themes that is less tedious.</p>
           <p>Here's an egregious example:
-            <FootnoteRef text="The Dark Lake, Sarah Bailey." />
+            <FootnoteRef text="SARAH BAILEY, The Dark Lake." />
           </p>
 
           <p className="code-left-black">
@@ -264,7 +267,7 @@ function TheNextWords() {
 
           <p>That&#39;s a lot of information, and all of it is best suited to concrete description, not introspection. But if you look at the ‘Dark Lake&#39; example, the author jumps to the character&#39;s thoughts and feelings, briefly describes ‘long&#39; hair (redundant anyway, as it was already implied by the hair ‘hanging&#39; off the back of the table), before jumping straight back to introspection again. The interior, emotional reaction should come later, when the main character has the time to think, and is not standing right in front of an object of interest. </p>
           <p>Compare the above with this excerpt:
-            <FootnoteRef text="Sphere, Michael Crichton." />
+            <FootnoteRef text="MICHAEL CRICHTON, Sphere." />
           </p>
 
           <p className="code-left-black">
@@ -283,7 +286,8 @@ function TheNextWords() {
           <p className="code-left-black">
             <span className='bg-cyan'><i> There were dreadful lacerations; the skin was torn in strips and shreds. </i></span></p>
           <p className="code-left-black">
-            <span className='bg-cyan'><i> The coroner moved round to the end of the table and undid a silk handkerchief which had been passed under the chin and knotted on the top of the head. When the handkerchief was drawn away it exposed what had been the throat. Some of the jurors who had risen to get a better view repented their curiosity and turned away their faces. Witness Harker went to the open window and leaned out across the sill, faint and sick. Dropping the handkerchief upon the dead man's neck the coroner stepped to an angle of the room and from a pile of clothing produced one garment after another, each of which he held up a moment for inspection. All were torn, and stiff with blood.  </i></span><FootnoteRef text="That Damned Thing, Ambrose Bierce." /></p>
+            <span className='bg-cyan'><i> The coroner moved round to the end of the table and undid a silk handkerchief which had been passed under the chin and knotted on the top of the head. When the handkerchief was drawn away it exposed what had been the throat. Some of the jurors who had risen to get a better view repented their curiosity and turned away their faces. Witness Harker went to the open window and leaned out across the sill, faint and sick. Dropping the handkerchief upon the dead man's neck the coroner stepped to an angle of the room and from a pile of clothing produced one garment after another, each of which he held up a moment for inspection. All were torn, and stiff with blood.  </i></span>
+            <FootnoteRef text="AMBROSE BIERCE, That Damned Thing." /></p>
 
           <p>Obviously you don&#39;t have to write your autopsy scene exactly like that, but it&#39;s an example of what information is important and should be foregrounded.</p>
 
@@ -310,7 +314,8 @@ function TheNextWords() {
           <p className="boldPurple">II.	Place the Reader</p>
           <p>Another method to combat interior writing is to imagine the reader is a character in the story. Sometimes you hear this referred to as giving the reader/viewer an ‘access point.&#39; </p>
           <div className="custom-box">
-            <p> "Experiencing a work of fiction through one of its characters is the all-absorbing, self-obliterating joy of reading. It is the core of the child's experience. Who has never been Alice in Wonderland, or Winnie the Pooh, or Jim Hawkins in the apple barrel on his way to Treasure Island?"<FootnoteRef text="William Sloane, The Craft of Writing." /></p>
+            <p> "Experiencing a work of fiction through one of its characters is the all-absorbing, self-obliterating joy of reading. It is the core of the child's experience. Who has never been Alice in Wonderland, or Winnie the Pooh, or Jim Hawkins in the apple barrel on his way to Treasure Island?"
+              <FootnoteRef text="WILLIAM SLOANE, The Craft of Writing." /></p>
             <p></p><i>— William Sloane.</i>
           </div>
           <p>Depending where you situate your reader, description will change.</p>
@@ -319,7 +324,7 @@ function TheNextWords() {
           <p className="code-left">
             <code><i>The Yala swamp is a huge mass of dense papyrus standing four metres high covering thousands of hectares of soggy ground where the river empties into Africa's largest lake. Impenetrable except by boat down its narrow meandering water channels, the swamp is, or rather was, rich in wildlife. It hides a number of islands and a small lake they call a 'living museum', because its reedy waters are a last refuge for many fish species. Out there somewhere too is a village of about a thousand people, on an island covering some tens of hectares. The reclusive island inhabitants say they will fight to the death, should invaders get far. No outsider has got deeper in than one kilometre.
             </i></code>
-            <FootnoteRef text="The Landgrabbers (non-fiction), Fred Pearce." />
+            <FootnoteRef text="FRED PEARCE, The Landgrabbers (non-fiction)." />
           </p>
           <p className="code-left">
             <code><i>I will be the first.
@@ -346,7 +351,8 @@ function TheNextWords() {
           <img src={deimos} alt="Deimos Painting" className="img-fluid" />
 
           <h4>18.1.7 	Negative Description</h4>
-          <p>Description should be <u>positive</u>: it tells you what something is like, or how it is, or what happened, i.e. it describes what is actually there. David Carroll<FootnoteRef text="David Carroll, A Manual of Writer's Tricks." /> says, <i>"our psyches prefer affirmation to disaffirmation. They prefer to learn what did happen, not what didn't." </i><a href="#f9"><sup>9</sup></a></p>
+          <p>Description should be <u>positive</u>: it tells you what something is like, or how it is, or what happened, i.e. it describes what is actually there. David Carroll
+          <FootnoteRef text="DAVID CARROLL, A Manual of Writer's Tricks." /> says, <i>"our psyches prefer affirmation to disaffirmation. They prefer to learn what did happen, not what didn't." </i><a href="#f9"><sup>9</sup></a></p>
 
           <p>But note, description can also be negative: describing something by telling you what it is <i>not</i> like, or how it <i>isn&#39;t,</i> or what <i>didn't</i> happen, or what is <i>not</i> there. It is then up to you to deduce what remains as what actually happened.</p>
           <p>In almost every case, you want to use ‘pos&#39; description: just come out and say what something is, is like, or what happened. Use neg description only for necessary effect; i.e. it adds something essential which positive description does not provide. </p>
@@ -356,18 +362,21 @@ function TheNextWords() {
           <p>The above neg works because if you remove the neg description, all you have is ‘the world ends with a whimper,&#39; which is vague by itself and does not carry the same weight. The neg description also suggests the commonly held belief, which is overturned with the positive description. This conveys the sense that, while odd, the whimper did, in fact, happen. </p>
 
           <p><i>Example:</i></p>
-          <p className='italic'>I must confess I hadn&#39;t done any fitness training, I was playing shit and we were 3–0 down and playing third from bottom–we are bottom. There was no singing from the crowd, just a bark from a random stray dog.<FootnoteRef text="In Stitches: The Highs and Lows of Life as an A & E Doctor, Nick Edwards." /></p>
+          <p className='italic'>I must confess I hadn&#39;t done any fitness training, I was playing shit and we were 3–0 down and playing third from bottom–we are bottom. There was no singing from the crowd, just a bark from a random stray dog.
+            <FootnoteRef text="NICK EDWARDS, In Stitches: The Highs and Lows of Life as an A & E Doctor." /></p>
 
           <p>The negative description here (‘There was no singing…&#39;) works to add humour. </p>
           <p>For comparison, here are some bad examples of negative description:</p>
 
           <p><i>Example 1: </i></p>
-          <p className='italic'>For a minute he thought it was an optical illusion, because <i>instead of being thrown back onto the street </i>the woman melted into the wooden curlicues...<FootnoteRef text="HEX, Thomas Olde Heuvelt." /> </p>
+          <p className='italic'>For a minute he thought it was an optical illusion, because <i>instead of being thrown back onto the street </i>the woman melted into the wooden curlicues...
+          <FootnoteRef text="THOMAS OLDE HEUVELT, HEX." /> </p>
 
           <p>Here, the woman is hit by a big organ on wheels. The example is so bizarre there is no normal precedent for this situation (what on earth normally happens to someone who is hit by a big organ on wheels?). I have no idea whether ‘being thrown back&#39; is what you&#39;d normally expect in this situation, and there aren&#39;t enough details to specify anyway (speed and size of organ?). Therefore, being no more or less likely, the neg description does no work at all. </p>
 
           <p><i>Example 2: </i></p>
-          <p className='italic'>Although there wasn&#39;t a bump to be heard or a trickle of blood to be seen when Katherine was struck...<FootnoteRef text="HEX, Thomas Olde Heuvelt." /> </p>
+          <p className='italic'>Although there wasn&#39;t a bump to be heard or a trickle of blood to be seen when Katherine was struck...
+            <FootnoteRef text="THOMAS OLDE HEUVELT, HEX." /> </p>
 
           <p>Here, two separate instances of negative description are used in the same sentence – this is too many (if even one is necessary). Don&#39;t try to engage the reader in a guessing game.  </p>
           <p>Try to remove the instances of neg description; alternatively, make negative description short and limited to one per sentence, for example:</p>
@@ -411,7 +420,8 @@ function TheNextWords() {
           <p className="code-left-black">
             <i>I followed the stream again into the woods and eventually came to the circular pool. There were some new animal tracks in the wet sand, and, ringed by oaks, the place was very beautiful, but still I felt bored. Again I waded into the center of the water and looked up at the sky through the trees. Feeling myself alone, I began to make some of the odd signs with face and hands that I had that evening in the tree —but I felt that these movements had been unaccountably robbed of their power. Standing there up to my ankles in water, I felt foolish. </i></p>
           <p className="code-left-black">
-            <i>Worse than that, upon leaving it I found a red-brown leech clinging to my right ankle. It wasn&#39;t large and I was able to scrape it off with a stone, but it left me with a little round bite that oozed blood, and a feeling of-how shall I put it?-physical helplessness. I felt that the woods had somehow become hostile to me and, more important, would forever remain hostile. Something had passed.<FootnoteRef text="The Events At Poroth Farm, T.E.D. Klein." /></i></p>
+            <i>Worse than that, upon leaving it I found a red-brown leech clinging to my right ankle. It wasn&#39;t large and I was able to scrape it off with a stone, but it left me with a little round bite that oozed blood, and a feeling of-how shall I put it?-physical helplessness. I felt that the woods had somehow become hostile to me and, more important, would forever remain hostile. Something had passed.
+              <FootnoteRef text="T. E. D. KLEIN, The Events At Poroth Farm." /></i></p>
 
           <p>This is an epistolatory in-story diary entry. Needless to say, real diary entries sound nothing like this, which takes you out of the story. A more believable diary entry would go —</p>
           <p className="code-left-black">
@@ -422,7 +432,8 @@ function TheNextWords() {
           <p>The only reason the diary entry format is excused above is to allow the suggestion that protagonist has died since we learn of his story (as if we have found his diary). Otherwise, he would have to be ‘alive&#39; to tell us directly.</p>
 
           <h4>18.1.10 	Clichés</h4>
-          <p>Avoid ALL clichés. Avoid them even in dialogue, even if you think the character would say it in real life. Your story is not real life, and your character is not a real person. <FootnoteRef text="William Sloane, The Craft of Writing." /></p>
+          <p>Avoid ALL clichés. Avoid them even in dialogue, even if you think the character would say it in real life. Your story is not real life, and your character is not a real person. 
+            <FootnoteRef text="WILLIAM SLOANE, The Craft of Writing." /></p>
           <p>As a general rule, if it sounds cliché, it probably is. If you wrote it on ‘autopilot&#39; it&#39;s probably a cliché. Clichés cannot be exhaustively list clichés; they are constantly coming into existence, therefore, watch out for less obvious clichés -- William Sloane  names a few, such as: </p>
 
           <ol>
@@ -440,7 +451,7 @@ function TheNextWords() {
           </ol>
 
           <p>Ben Yagoda says that many clichés modernly derive from advertising and PR catchphrases, like ‘new and improved&#39; and ‘the secret to [brand]...&#39; ‘reinvent&#39; ‘new strategy&#39; and ‘it changed my life.&#39; He provides a list of words and phrases to avoid which he identifies as – if not already clichés – quickly heading that way:
-            <FootnoteRef text="Ben Yagoda, How to Not Write Bad." />
+            <FootnoteRef text="BEN YAGODA, How to Not Write Bad." />
           </p>
 
           <u>How to Not Write Bad, Ben Yagoda.</u>
@@ -548,11 +559,12 @@ function TheNextWords() {
           </ol>
 
           <h4>18.1.11 	Prologues and Epilogues</h4>
-          <p>Don&#39;t write prologues or epilogues. Prologues infringe the ‘start as late as possible&#39; rule and are too often abused as means of setting up your story. Similarly, Epilogues are abused as a way to cram a bunch of last-minute shit in after the story has ended – just end your story and keep the reader wondering.<FootnoteRef text="Les Edgerton, Hooked: Write Fiction That Grabs Readers at Page One & Never Lets Them Go." /></p>
+          <p>Don&#39;t write prologues or epilogues. Prologues infringe the ‘start as late as possible&#39; rule and are too often abused as means of setting up your story. Similarly, Epilogues are abused as a way to cram a bunch of last-minute shit in after the story has ended – just end your story and keep the reader wondering.
+            <FootnoteRef text="LES EDGERTON, Hooked: Write Fiction That Grabs Readers at Page One & Never Lets Them Go." /></p>
 
           <h4>18.1.12 	Expletives</h4>
           <p>Hart
-            <FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
             advises to avoid 'expletives' where possible. This doesn&#39;t refer to swear words (which also should be avoided) but refer to words which don&#39;t add any meaning to a sentence, and include "there was," "it is," "it was," etc. Too many slow down your writing.</p>
 
           <p>For example:</p>
@@ -595,14 +607,15 @@ function TheNextWords() {
           <div className="custom-box">
             <p className="mb-0">“If words are the flesh, muscle, and bone of prose, punctuation is the breath. In support of the words you&#39;ve carefully selected, punctuation is your best means of conveying to the reader how you mean your writing to be read, how you mean for it to sound. A comma sounds different than a semicolon; parentheses make a different noise than dashes.” </p>
             <p></p><i>— Benjamin Dreyer.
-              <FootnoteRef text="Dreyer's English, Benjamin Dreyer." />
+              <FootnoteRef text="BENJAMIN DREYER, Dreyer's English." />
             </i>
           </div>
 
-          <p>Punctuation is a set of rules denoting where to pause or provide emphasise to text. Burnett helpfully calls it ‘a breathing aid,&#39; as well as for ‘emphasis in style, rhythm or emotion.&#39; <FootnoteRef text="Hallie Burnett and Whit Burnett, Fiction Writer's Handbook." /></p>
+          <p>Punctuation is a set of rules denoting where to pause or provide emphasise to text. Burnett helpfully calls it ‘a breathing aid,&#39; as well as for ‘emphasis in style, rhythm or emotion.&#39; 
+            <FootnoteRef text="HALLIE BURNETT and WHIT BURNETT, Fiction Writer's Handbook." /></p>
 
           <p>Flesch provides a basic guide for using punctuation:
-            <FootnoteRef text="Robert Flesch, The Art of Readable Writing." />
+            <FootnoteRef text="ROBERT FLESCH, The Art of Readable Writing." />
           </p>
 
           <div className="table-responsive">
@@ -658,13 +671,14 @@ function TheNextWords() {
 
           <h4>18.2.2 	Sentences: </h4>
           <p>Some basic tips from Burnett and Burnett:
-            <FootnoteRef text="Hallie Burnett and Whit Burnett, Fiction Writer's Handbook." />
+            <FootnoteRef text="HALLIE BURNETT and WHIT BURNETT, Fiction Writer's Handbook." />
             “Use shorter sentences for action; longer sentences for reflection or, sometimes, the development of an emotion with sensuous undertones. Anger is usually in staccato style.”</p>
           <p>As a basic rule; if things happen sequentially and/or share no essential causative links, give each subject a separate sentence. If things happen all at once, or the order of causation is ambiguous or linked, keep it all in the same sentence. </p>
           <p>For example:</p>
 
           <p className="code-left">
-            <code><i>"I heard the drums coming down the street and then the fifes and the pipes and then they came around the corner, all dancing." </i></code><FootnoteRef text="In Our Time, Ernest Hemingway." /></p>
+            <code><i>"I heard the drums coming down the street and then the fifes and the pipes and then they came around the corner, all dancing." </i></code>
+            <FootnoteRef text="ERNEST HEMINGWAY, In Our Time." /></p>
 
           <p>Because it's all a run-on sentence, there is a sense of a lot of activity all happening at once; that the sound of the 'drums and the fifes and the pipes' is inextricably combined with the ‘all dancing&#39; as in one big entity of noise and motion. Also, the ‘all&#39; appears to refer to everything in the same sentence, i.e. the fifes and the pipes as well as the dancers.</p>
           <p>Compare with this version I've altered:</p>
@@ -691,15 +705,16 @@ function TheNextWords() {
          
           <h4>18.2.6 	Use the Active Voice </h4>
           <p>Always use the active voice where possible. George Orwell says:
-            <FootnoteRef text="George Orwell, Politics and The English Language." />
+            <FootnoteRef text="GEORGE ORWELL, Politics and The English Language." />
             <i>“Never use the passive where you can use the active.”</i>  The active voice will give your writing a sense of immediacy and flow, facilitating the reader&#39;s engagement and interest. </p>
 
           <p className='indent-8 mb-2'><u>Passive voice:</u><i>The tents were taken by Jeff. The sleeping bags were taken by Mary.</i> </p>
           <p className='indent-8 mb-2'><u>Passive voice:</u><i>Jeff took the tents. Mary took the sleeping bags. </i> </p>
 
-          <p>Ignoring Orwell&#39;s hyperbole, know where the passive voice is more appropriate: where you suggest the subject is not acting, but being acted upon. Roy Clark says: <i>“Active verbs move the action and reveal the actors. Passive verbs emphasize the receiver, the victim.”</i><FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies For Every Writer." />  For instance:</p>
+          <p>Ignoring Orwell&#39;s hyperbole, know where the passive voice is more appropriate: where you suggest the subject is not acting, but being acted upon. Roy Clark says: <i>“Active verbs move the action and reveal the actors. Passive verbs emphasize the receiver, the victim.”</i>
+          <FootnoteRef text="ROY PETER CLARK, Writing Tools: 50 Essential Strategies For Every Writer." />  For instance:</p>
           <p className='indent-8 mb-2'><i>“The night was loaded with omens.” </i>
-            <FootnoteRef text="Travels with Charley: In Search of America, John Steinbeck." />
+            <FootnoteRef text="JOHN STEINBECK, Travels with Charley: In Search of America." />
           </p>
           <p>You would not write “Omens loaded the night,” because though the night is the subject, the omens are the active force.</p>
 
@@ -730,7 +745,8 @@ function TheNextWords() {
 
           <p>The above is fairly basic and goes without saying, but descriptions can increasingly subtle or elaborate as you need them to be. Also, they should not attach to every single line of dialogue, otherwise the reader will fatigue of characters who read like they have attention deficits. In Stendahl&#39;s <i>The Red and the Black</i> the frequency and specifity of detail in the descriptions surrounding dialogue are unprecedented to the extent of making characters sound mentally unbalanced (which I suspect was intentional). </p>
           <p>Here's an example of dialogue in a conversation:</p>
-          <p className='indent-8 mb-2'> <i>"Our good Mrs. Dudley likes doors, doesn't she? She can certainly” -- and their eyes met -- "get out fast in any direction if she wants to."  </i> <FootnoteRef text="The Haunting of Hill House, Shirley Jackson." /></p>
+          <p className='indent-8 mb-2'> <i>"Our good Mrs. Dudley likes doors, doesn't she? She can certainly” -- and their eyes met -- "get out fast in any direction if she wants to."  </i> 
+          <FootnoteRef text="SHIRLEY JACKSON, The Haunting of Hill House." /></p>
           <p>The abrupt eye contact gives a sense not only that the protagonist's interest has been evoked by the latter part of the statement, but also of both characters thinking the same thing, and the possibility startles both of them, and an unspoken sense of unease communicated between the characters.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -757,7 +773,8 @@ function TheNextWords() {
           <h4>18.3.2 	When to ‘tell&#39; rather than ‘show&#39;</h4>
           <p>You hear the rule about ‘show don&#39;t tell&#39;. You know when to ‘show&#39; (always). But this raises a good question: when should you ‘tell&#39;? I don&#39;t have an exhaustive rulebook for when telling is better. But I have some examples:</p>
           <p className="boldPurple">i. Jump in Time </p>
-          <p>The characters in this example (Phineas – “Finny” – and main character, Gene) are school kids at a party “in a kind of sun porch” with teacher ‘Mr Patch-Withers&#39;: <FootnoteRef text="A Separate Peace, John Knowles." /></p>
+          <p>The characters in this example (Phineas – “Finny” – and main character, Gene) are school kids at a party “in a kind of sun porch” with teacher ‘Mr Patch-Withers&#39;: 
+            <FootnoteRef text="JOHN KNOWLES, A Separate Peace." /></p>
 
           <div className="custom-box">
             <p>Mr. Patch-Withers&#39; laughter surprised us all, including himself. His face, whose shades we had often labeled, now achieved a new one. Phineas was very happy; sour and stern Mr. Patch-Withers had been given a good laugh for once, and he had done it! He broke into the charmed, thoughtless grin of a man fulfilled.</p>
@@ -800,7 +817,8 @@ function TheNextWords() {
           <p className="boldPurple">iii. Deny reader alternate interpretations </p>
           <p>Telling is more appropriate where you want to convey how unavoidably obvious an observation is, e.g.</p>
 
-          <p className='indent-8 mb-2'> <i>Sanita looked shattered, utterly exhausted. Her face looked pale against the brightly coloured vest she wore, and her hair, usually one of her physical charms, was hanging limply across her face, stuck to her forehead and cheeks with dried sweat. She hadn&#39;t even wanted to come to India in the first place, but had finally agreed just to be with me. </i> <FootnoteRef text="The Backpacker, John Harris." /></p>
+          <p className='indent-8 mb-2'> <i>Sanita looked shattered, utterly exhausted. Her face looked pale against the brightly coloured vest she wore, and her hair, usually one of her physical charms, was hanging limply across her face, stuck to her forehead and cheeks with dried sweat. She hadn&#39;t even wanted to come to India in the first place, but had finally agreed just to be with me. </i> 
+          <FootnoteRef text="JOHN HARRIS, The Backpacker." /></p>
           <p>Here, the unavoidable observation is that the protagonist's girlfriend 'Sanita' is miserable and it's the protagonist's fault, no matter what he thinks. The telling word is 'shattered,' which immediately leaves no room for subjective interpretation. The subsequent sentences ('Her face...') give us 'showing' description but its tied to the 'shattered' 'telling' description -- merely elaborating what being shattered looks like for Sanita, rather than allowing us to interpret her expression for ourselves. </p>
 
           <h4>18.3.3 	The ‘Triangle&#39;</h4>
@@ -813,12 +831,14 @@ function TheNextWords() {
           <p>Sometimes you can break the above rule of invisibility (see: 13.2.5) and deliberately flout good English for a particular effect. See this example (Hemingway – who else?) the context for this is that the characters are driving in a car which struggles to get up a hill:</p>
 
           <p className="boldPurple">Example #1: Bad grammar: </p>
-          <p className='indent-8 mb-2'> <i>The woods were gone; the road had left the river to climb; the radiator was boiling; the young man looked annoyedly and suspiciously at the steam and rusty water; the engine was grinding, with both Guy&#39;s feet on the first-speed pedal, up and up, back and forth and up, and, finally, out level.<FootnoteRef text="Che Ti Dice La Patria?, Ernest Hemingway." /></i></p>
+          <p className='indent-8 mb-2'> <i>The woods were gone; the road had left the river to climb; the radiator was boiling; the young man looked annoyedly and suspiciously at the steam and rusty water; the engine was grinding, with both Guy&#39;s feet on the first-speed pedal, up and up, back and forth and up, and, finally, out level.
+            <FootnoteRef text="ERNEST HEMINGWAY, Che Ti Dice La Patria?." /></i></p>
           <p>This whole paragraph reads awkwardly, artificially, and laboriously (note the grammatically cumbersome ‘annoyedly and suspiciously&#39;). But that&#39;s what makes it effective. The paragraph is describing a car having trouble, to the characters&#39; frustration. The effort and frustration evoked by reading this paragraph mirrors the effort and frustration felt by the characters trying to get the car up the hill. Similarly, there is a sense of relief once the prose returns to the usual straightforward style afterwards.</p>
           <p>Here&#39;s another example, not breaking good grammar, but deliberately reading awkwardly:</p>
 
           <p className="boldPurple">Example #2: Awkward prose: </p>
-          <p className='indent-8 mb-2'> <i>She didn&#39;t say anything. He was wearing blue jeans, a black leather jacket zipped to his throat, a long red wool scarf around his neck, and a Dodgers baseball cap. It was too hot a day for the leather jacket and scarf. She didn&#39;t find that detail significant. It caught her attention, she touched it briefly and then let it go. She looked but did not see. They were standing on a curb. The meeting was in a community room across the boulevard. She wasn&#39;t afraid yet.<FootnoteRef text="Tall Tales from the Mekong Delta, Kate Braverman." /> </i> </p>
+          <p className='indent-8 mb-2'> <i>She didn&#39;t say anything. He was wearing blue jeans, a black leather jacket zipped to his throat, a long red wool scarf around his neck, and a Dodgers baseball cap. It was too hot a day for the leather jacket and scarf. She didn&#39;t find that detail significant. It caught her attention, she touched it briefly and then let it go. She looked but did not see. They were standing on a curb. The meeting was in a community room across the boulevard. She wasn&#39;t afraid yet.
+            <FootnoteRef text="KATE BRAVERMAN, Tall Tales from the Mekong Delta." /> </i> </p>
           <p>The awkward part comes from the ‘they were standing on a curb&#39; which seems to come out of nowhere. The paragraph describes a woman being trailed by an odd and overly enthusiastic man, and the sentence ‘intrudes&#39; into the paragraph the way the man ‘intrudes&#39; into the woman&#39;s space, evoking the sense of awkwardness and disquiet the woman feels.</p>
 
           <p className="boldPurple">Example #3: Irony </p>
@@ -920,7 +940,8 @@ function TheNextWords() {
           <p className='indent-8 mb-2'>My mother picked up the figurine on the mantel and threw it at my father. It missed and crashed against the wall. I got down and began sweeping up the pieces.</p>
 
           <h4>18.3.13 	Breaking Grammar</h4>
-          <p>As to writing proscriptions: generally, never say never. Breaking a writing rule is always a choice at the discretion of the writer. There are reasons for, reasons against. You have to be smart enough to know the difference. Dreyer  provides exceptions to a list of common writing rules:<FootnoteRef text="Dreyer's English, Benjamin Dreyer." /></p>
+          <p>As to writing proscriptions: generally, never say never. Breaking a writing rule is always a choice at the discretion of the writer. There are reasons for, reasons against. You have to be smart enough to know the difference. Dreyer  provides exceptions to a list of common writing rules:
+            <FootnoteRef text="BENJAMIN DREYER, Dreyer's English." /></p>
           <p className="boldPurple">1. Never Begin a Sentence with 'And' or 'But' </p>
           <p>Words like 'and' and 'but' are called 'conjunctions,' and the reason for this rule is because these words are designed to connect sentences or ideas from a previous sentence. If you start with a conjunction, it doesn&#39;t connect to anything.</p>
           <p>But, start with a conjunction and you may give a sentence a slightly different feeling; maybe humourous, like a punchline, or solemnity; giving each sentence its own space for steady, serious contemplation. Maybe you want to use a separate sentence to contradict the reader's expectations, or convey a reversal of structure, or fortune. Generally you may want to split up connected ideas to convey the ideas, while similar, are different, or the things should be together -- should be expected to be together -- but are not. </p>
@@ -943,7 +964,8 @@ function TheNextWords() {
 
           <p className="boldPurple">6. Sentence Fragments. They're Bad </p>
           <p>Sometimes sentence fragments convey something -- abrupt, paramount, solemn, busy -- that would be lost in a properly formed sentence. Here's an example:</p>
-          <p className='indent-8 mb-2'>Fog everywhere. Fog up the river, where it flows among green aits and meadows; fog down the river, where it rolls defiled among the tiers of shipping, and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on the yards, and hovering in the rigging of great ships; fog drooping on the gunwales of barges and small boats. Fog in the eyes and throats of ancient Greenwich pensioners, wheezing by the firesides of their wards; fog in the stem and bowl of the afternoon pipe of the wrathful skipper, down in his close cabin; fog cruelly pinching the toes and fingers of his shivering little apprentice boy on deck. Chance people on the bridges peeping over the parapets into a nether sky of fog, with fog all round them, as if they were up in a balloon, and hanging in the misty clouds.<FootnoteRef text="Bleak House, Charles Dickens." /></p>
+          <p className='indent-8 mb-2'>Fog everywhere. Fog up the river, where it flows among green aits and meadows; fog down the river, where it rolls defiled among the tiers of shipping, and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights. Fog creeping into the cabooses of collier-brigs; fog lying out on the yards, and hovering in the rigging of great ships; fog drooping on the gunwales of barges and small boats. Fog in the eyes and throats of ancient Greenwich pensioners, wheezing by the firesides of their wards; fog in the stem and bowl of the afternoon pipe of the wrathful skipper, down in his close cabin; fog cruelly pinching the toes and fingers of his shivering little apprentice boy on deck. Chance people on the bridges peeping over the parapets into a nether sky of fog, with fog all round them, as if they were up in a balloon, and hanging in the misty clouds.
+            <FootnoteRef text="CHARLES DICKENS, Bleak House." /></p>
 
           <p className="boldPurple">7. A Person Must Be a 'Who' </p>
           <p>When you place a ‘that&#39; after a noun, you objectify it, alternatively, a ‘who&#39; after a noun personifies it.</p>
@@ -974,7 +996,7 @@ function TheNextWords() {
           <h3 id="post-professional-advice">18.4: Professional Advice</h3>
 
           <p>Here are a bunch of tips from Sol Stein:
-            <FootnoteRef text="Stein On Writing, Sol Stein." />
+            <FootnoteRef text="SOL STEIN, Stein On Writing." />
           </p>
           <ol>
             <li>Read your story out loud (of have someone else read it out loud) in a monotone voice. This will not only allow you to hear your words in conversational pace, but the monotone reading will ensure that it&#39;s the words themselves which carry the meaning, not the inflections or punctuation;</li>

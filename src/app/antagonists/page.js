@@ -6,7 +6,6 @@ import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
 import antagBanner from '../assets/antagbanner.jpg';
 import Image from "next/image";
-import Link from "next/link";
 
 function Antagonists() {
   return (
@@ -86,12 +85,12 @@ function Antagonists() {
           <p>Compare with a ‘contradictory&#39; antagonist. Their values and goals are interlinked in direct opposition, which creates a zero sum game where only one can triumph. Together the protag and antag create a potential ‘cancelling out.&#39; The ‘town&#39; is not big enough for both the protagonist and antagonist to co-exist. The closer they get, the more imperative it becomes that one defeats or subverts the other.</p>
           <p>You may have both antagonistic forces in your story: the protagonist progresses past contrary sub-antagonists until finally facing off against the contradictory head antagonist.</p>
           <p>Alternatively, your head antagonist starts off contrary, but transforms into a contradictory antagonist by the end.</p>
-          <p>If you find your protagonist too ‘good&#39; and your antagonist too ‘evil&#39;, Sol Stein suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /> </p>
+          <p>If you find your protagonist too ‘good&#39; and your antagonist too ‘evil&#39;, Sol Stein suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”<FootnoteRef text="SOL STEIN, How To Grow A Novel." /> </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-the-negation-of-a-negation">16.5: The Negation of a Negation</h3>
-          <p>This is a concept introduced by Robert McKee.<FootnoteRef text="Story: Style, Structure, Substance, and the Principles of Screenwriting." /></p>
+          <p>This is a concept introduced by Robert McKee.<FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." /></p>
           <p>Think of the antagonist as basically the negation of the protagonist. The protagonist stands for certain values. Whatever they are, the antagonist stands for the opposite value/s. Some examples are: truth/deception; justice/injustice; idealism/materialism; love/power; money/integrity…etc.</p>
           <p>A more effective, even sublime, antagonist is ‘the negation of a negation.&#39; This is where the antagonistic forces go even further than negation, making even the original antagonist look good by comparison. A ‘neg x neg&#39; turns the original pos/neg dichotomy on its head.</p>
 

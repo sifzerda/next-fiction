@@ -51,7 +51,7 @@ function Plot() {
 
           <h3 id="post-types-of-plots">3.2: Types of Plots</h3>
           <p>Robert McKee
-            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             makes the distinction between three different kinds of plots: </p>
 
           <ol>
@@ -78,7 +78,7 @@ function Plot() {
           </ol>
 
           <p>Example: Star Wars.
-            <FootnoteRef text="Star Wars, (1977)." />
+            <FootnoteRef text={<><em>Star Wars</em>, Lucasfilm Ltd., (1977).</>} />
           </p>
 
           <h4>3.2.2 	Miniplot</h4>
@@ -95,7 +95,8 @@ function Plot() {
           </ol>
 
           <p>Example: Lost in Translation.
-            <FootnoteRef text="Lost in Translation, (2003)." />
+            <FootnoteRef text={<><em>Lost in Translation</em>, Focus Features, (2003).</>} />
+
           </p>
           <h4>3.2.3 	Antiplot</h4>
 
@@ -108,7 +109,8 @@ function Plot() {
           </ol>
 
           <p>Example: Seinfeld.
-            <FootnoteRef text="Seinfeld, (1989-1998)." />
+            <FootnoteRef text={<><em>Seinfeld</em>, Castle Rock Entertainment, (1989–1998).</>} />
+
           </p>
 
           <h4>3.2.4 	Nonplot</h4>
@@ -122,7 +124,7 @@ function Plot() {
           </ol>
 
           <p>Example: The Big Lebowski.
-            <FootnoteRef text="The Big Lebowski, (1998)." />
+            <FootnoteRef text={<><em>The Big Lebowski</em>, PolyGram Filmed Entertainment, (1998).</>} />
           </p>
 
           <p>The difference between the Antiplot and the Nonplot is that the former is generally made in jest or for satirical effect, done in a super-real style. Whereas, the latter is more realistic and may be sobering and insightful.</p>
@@ -141,10 +143,10 @@ function Plot() {
           <p>The Three Act Plot is a story formula involving three major changes or reversals of positions for the protagonist. For instance, things are good, then they&#39;re bad, then they&#39;re good again. The Acts are: Good, Bad, Good (if the climax is in the Third Act, you might find the third &#39;Good&#39; only spans the last half/quarter of the Act).</p>
           <p>The first Act might be about 25% of the story. The Second Act will be longer, and then the Third Act will be the shortest, to create a sense of accelerating pace to the climax. Maybe max 25% of the story. The potential problem is that the Second Act drags. Rectifying that may involve adding a subplot/s or another Act (e.g. extending to Good, Bad, Worse, Good).</p>
           <p>McKee
-            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act&#39;s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn&#39;t fit into the above categories: the Quidditch games, the spell classes, sorting hat — there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones — you give the reader that many more clues as to how you&#39;ve structured your story &#39;behind the curtain.&#39; The reader will think &#39;oh, this scene&#39;s fairly unmemorable, it mustn&#39;t be integral to the plot.&#39; Memorable &#39;in-between&#39; scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?</p>
           <p>Blake Snyder
-            <FootnoteRef text="Blake Snyder, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
+            <FootnoteRef text="BLAKE SNYDER, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
             says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It&#39;s the world and its rules set up for us. Antithesis is the reverse or &#39;upside-down&#39; version or &#39;funhouse mirror reflection&#39; of the world. Characters from &#39;Thesis&#39; may reappear in &#39;Antithesis&#39; in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the &#39;Third way&#39; in world 3. By this time, the hero has &#39;died&#39; and been &#39;reborn&#39;, so he can&#39;t go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn&#39;t have happen instantaneously, it should happen bit by bit — every scene in the structure changes the hero a little.</p>
 
           <p>There&#39;s another dimension to this structure, two intertwining forces: the hero&#39;s tangible goal (what he wants), and his spiritual goal (what he needs). For instance, the hero may be chased by a monster (tangible goal = to survive), realising that this means his mentor has failed to protect him from it (spiritual goal = security, trust). As the monster closes in, the hero&#39;s awful realisation crystallizes. The hero must ditch the defective belief (that mentor will protect him) to attain the spiritual goal, effecting his transformation (from dependent to self-sufficient), allowing him to ditch the monster, and gain the tangible goal.</p>
@@ -152,7 +154,7 @@ function Plot() {
           <h4>3.4.1 	Sub-Plots</h4>
           <p>Sub-plots are not only conceptually plots in miniature, they also resemble them in form. They have their own Act structure, Inciting Incidents, and climaxes. However, a sub plot may comprise of a single Act, or more. You can have multiple subplots, and they can overlap. You can also retire subplots for periods at a time, only to resolve them much later. Climaxes for sub-plots and the main plot can also happen in the same scene, e.g. the protagonist defeats the villain (climax of main plot) and by doing so, wins object of affection&#39;s love (climax of subplot).</p>
           <p>McKee
-            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             also says that main plots and subplots can have different protagonists (though I&#39;m struggling to see how this would work). My caveat is, if you do this, ensure:</p>
 
           <ol>
@@ -165,7 +167,7 @@ function Plot() {
 
           <h3 id="post-three-right-angled-turns">3.5: Three Right-Angled Turns</h3>
           <p>Aristotle
-            <FootnoteRef text="Aristotle, Poetics." />
+            <FootnoteRef text="ARISTOTLE, Poetics." />
             wrote of the “peripeteia,” or “reversal of the situation.”</p>
           <p>At the end of the first act, your protagonist makes a &#39;turn&#39; which sets them off from where they were. Ideally this will be a &#39;diametric&#39; turn (see 6.5 Diametrics). Normally they will end up in a worse position, but might not. Being set off in a different but equal position may be bad, as it requires time and energy for the protagonist to readjust.</p>
           <p>At the end of the second act, your protagonist makes another turn, which sets them off both from their previous position and the starting position. So you can&#39;t just turn them back where they were in starting position (otherwise there is no point to the first act). Take care your narrative doesn't just flip back and forth like this.</p>
@@ -184,16 +186,16 @@ function Plot() {
           <p>For instance, a protagonist police officer may be framed for a crime, prosecuted by the police force, and get sentenced to prison, where he befriends some of the prison inmates. Previously he saw the police as good, and the prison inmates as bad, but after the right angle turn (he gets convicted for a crime) he begins to see the police as bad and prison inmates as good.</p>
           <p>A &#39;doppleganger&#39; is where that character, setting, or story element remains the same, but is duplicated, and the double is contrastingly different, if not entirely the opposite (like the &#39;good twin, evil twin&#39; cliché).</p>
           <p>For instance, a character finds a portal to a fantasy world, which contain vague doubles of their real world counterparts (the Wizard of Oz
-            <FootnoteRef text="The Wizard of Oz, (1939)." />
+            <FootnoteRef text={<><em>The Wizard of Oz</em>, Metro-Goldwyn-Mayer, (1939).</>} />
             “…and you were there…and you were there…” idea). Often there is some kind of threshold dividing the doppelgängers, but there doesn&#39;t have to be. The more obvious the double, the more of a border exists between them — virtual twins are almost guaranteed to never meet. The more subtle a double, the more ability they can interact with their double. The point of this rule is, characters should not be aware they are doubles.</p>
           <p>The double is a concept related specifically to right-angle turn plots (right angles bestow double status), compared to a foil who is not necessarily a double, nor do they require a right-angle to exist. A double&#39;s existence is predicated on their &#39;twin&#39; — apart from which, they don&#39;t really have a reason to exist. Whereas, a foil isn&#39;t dependent on its partner, rather, its traits have been adjusted to maximize contrast with another character.</p>
           <p>In both cases, the effect is to give the protagonist a new perspective.</p>
 
           <h4>3.5.2 	Examples of Three Right Angle Turns</h4>
           <p>To illustrate the concept in its entirety I&#39;ll use the examples of two very different stories: Beauty and the Beast,
-            <FootnoteRef text="Beauty and the Beast, (1991)." />
+            <FootnoteRef text={<><em>Beauty and the Beast</em>, Walt Disney Pictures, (1991).</>} />
             and The Shawshank Redemption.
-            <FootnoteRef text="Stephen King (novel), and the film The Shawshank Redemption, (1994)." />
+            <FootnoteRef text={<><em>The Shawshank Redemption</em>, Columbia Pictures, (1994). Based on the novella <em>Rita Hayworth and Shawshank Redemption</em> by <span className="uppercase font-bold text-yellow-400">STEPHEN KING</span>, from the collection <em>Different Seasons</em>, (1982).</>} />
           </p>
 
           <p className="text-sm mb-4 font-rubik font-bold">#1 Beauty and the Beast:</p>
@@ -372,7 +374,7 @@ function Plot() {
 
           <h4>3.7.1 	P.R.O.B.L.E.M</h4>
           <p>Bork
-            <FootnoteRef text="Erik Bork, The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction." />
+            <FootnoteRef text="ERIK BORK, The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction." />
             says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
 
           <div className="custom-box">
@@ -417,8 +419,8 @@ function Plot() {
           </div>
 
           <h4>3.7.3 	Snyder's Story Problems</h4>
-          <p>Blake Snyder
-            <FootnoteRef text="Blake Snyder, Blake Snyder, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
+          <p>BLAKE SNYDER
+            <FootnoteRef text="BLAKE SNYDER, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
             says all stories centre around one of these 10 problems:</p>
           <div className="custom-box">
             <ol>
@@ -437,14 +439,14 @@ function Plot() {
 
           <h4>3.7.4 	Problems with Plots</h4>
           <p>Howard Mittelmark and Sandra Newman list common problems with plots:
-            <FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." />
+            <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
           </p>
 
           <div className="custom-box">
             <p className="text-boldPurple font-bold">I. The Lost Sock</p>
             <p>The plot is too slight or trivial.</p>
             <p>The plot of a story “should be important enough to change someone's life forever.”
-              <FootnoteRef text="Howard Mittelmark and Sandra Newman, How NOT to Write a Novel." />
+              <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
               It should also have broad interest — just because you find something fascinating, doesn't mean the broader public does.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
@@ -583,7 +585,7 @@ function Plot() {
           <p>The protagonist isn't in love initially, but later in the story, comes to a revelation that they have fallen in love with someone who was there all along.</p>
           <p>In contrast to 'pursuit' the plot should work to keep the LIs as together as possible, even against their personal preferences. There may be some exterior device to justify this: the LIs are members of a team tasked with some objective, and fall in love incidentally, or even at the risk of the objective (to create conflict and suspense). Such a device is especially necessary if LIs despise or deride each other initially.</p>
           <p>An example of the Revelation is Silver Linings Playbook.
-            <FootnoteRef text="Silver Linings Playbook, (2012)." />
+            <FootnoteRef text={<><em>Silver Linings Playbook</em>, The Weinstein Company, (2012).</>} />
             The romance type is different depending which LI is the protagonist. From the male's point of view, it's a revelation, but if the female was the protagonist, it would be a pursuit.</p>
           <h6 className="text-xs text-gray-700 uppercase tracking-wide mt-2 mb-1 font-bold underline">Potential Pitfalls of Revelation</h6>
           <p className="text-sm mb-4 font-rubik font-bold text-midBluey">(A) Unlikeable Love Interests</p>
@@ -595,11 +597,11 @@ function Plot() {
           <p className="text-boldPurple font-bold">(3) Conspiracy</p>
           <p>It's evident the LIs love each other deeply, but the externalized obstacle is broad and sweeping, possibly global, cultural — the story's entire milieu is the antagonist. It's usually some outside force (e.g. their small-minded community) set upon keeping them apart. There is an understanding the union breaks the accepted rules and customs or infringes some social code, or risks some great harm to society. Alternatively, it may bring about a bad event. Or, maybe nothing bad would happen, rather a good thing would be foreclosed. It doesn't matter if the risk would not happen, only that the antagonist is convinced it would happen — often the conclusion involves realizing the antagonist's dire projections were proven categorically wrong.</p>
           <p>Examples of the conspiracy romance include Romeo and Juliet,
-            <FootnoteRef text="William Shakespeare, 1597." />
+            <FootnoteRef text="WILLIAM SHAKESPEARE, Romeo and Juliet." />
             1984,
-            <FootnoteRef text="1984, George Orwell." />
+            <FootnoteRef text="GEORGE ORWELL, 1984." />
             and Twilight.
-            <FootnoteRef text="Twilight, Stephenie Meyer." />
+            <FootnoteRef text="STEPHANIE MEYER, Twilight." />
           </p>
           <p>It may also be an internal obstacle: the LIs own consciences dissuading them from union. It may be mundane: one LI has a medical or mental condition which makes union more challenging. If a protagonist is gradually being destroyed by the relationship's toll or even dies, it almost definitely is a Conspiracy.</p>
 
@@ -615,7 +617,7 @@ function Plot() {
 
           <h4>3.9.2 Other Types</h4>
           <p>There might conceivably be other types of romances, such as romantic tragedies such as 'unrequited romances' or the traditional 'comic' romance where several characters are wrongly paired due to misunderstanding and switch to the correct partners at the conclusion. However, Chris Booker
-            <FootnoteRef text="Chris Booker, The Seven Basic Plots." />
+            <FootnoteRef text="CHRIS BOOKER, The Seven Basic Plots." />
             would probably argue these are merely 'dark' versions of the established types, e.g: </p>
           <p>The unrequited romance is merely a 'dark' pursuit; the protagonist never actually gets the LI.</p>
 
@@ -623,7 +625,7 @@ function Plot() {
           <p>Making these delineations is not to say a romance must follow them on rails. You might have a romance which fuses different elements of all three.</p>
           <p>For instance, a protagonist starts with a pursuit in the first act. By the end of the first act protagonist has successfully 'won' the LI, but now realizes he/she is different than first appeared (e.g. by deceit or misunderstanding). In the second act, the protagonist is stuck with the LI to the completion of a task, and in the meantime, gives them a second chance, getting to know them better (and accurately). In the third act, the protagonist has a revelation he/she has fallen in love with the accurate LI, but some larger force now conspires to keep them apart (bonus points if it was something the protagonist earlier set off after being insulted by the LIs deceit).</p>
           <p>Beauty and the Beast
-            <FootnoteRef text="Beauty and the Beast, (1991)." />
+            <FootnoteRef text={<><em>Beauty and the Beast</em>, Walt Disney Pictures, (1991).</>} />
             is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}

@@ -6,7 +6,6 @@ import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
 import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
-//import Link from "next/link";
 
 function TheLastWords() {
   return (
@@ -65,7 +64,7 @@ function TheLastWords() {
           <div className="custom-box">
             <p>Your endings will be better if you remember that other parts of your story need endings, too. Sentences have endings. Paragraphs have endings. [And]…each of these mini-endings anticipates your finale</p>
             <p></p><i>— Roy Clark
-              <FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." /></i>
+              <FootnoteRef text="ROY PETER CLARK, Writing Tools: 50 Essential Strategies for Every Writer." /></i>
           </div>
 
           <p>He&#39;s not referring to the words that come at the end of the sentences and paragraphs, but sentences and paragraphs throughout your writing.</p>

@@ -78,14 +78,14 @@ function Setting() {
           <p>Physical objects should be given physical descriptions. </p>
 
           <div className="custom-box">
-            <p>When we introduce a thing in a novel, the reader must be given a clear picture of it [...] When a place is introduced in a [story], the reader must see it with sufficient clarity to be able to form a mental image of it." <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." /></p>
+            <p>When we introduce a thing in a novel, the reader must be given a clear picture of it [...] When a place is introduced in a [story], the reader must see it with sufficient clarity to be able to form a mental image of it." <FootnoteRef text="ROBERT MEREDITH AND JOHN FITZGERALD, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." /></p>
           </div>
 
           <p>Descriptions of settings should be concrete, not emotional (i.e. how the place makes the character feel). Objective observations based on the senses are fine, however (e.g. 'hot' or 'silent'). In other words, characters should be able to agree on the observation.</p>
 
           <div className="custom-box">
             <p>"[T]he amount of wordage a novelist devotes to describing a character, a setting, a place, or a thing depends on their importance to the plot or story line."
-              <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
+              <FootnoteRef text="ROBERT MEREDITH AND JOHN FITZGERALD, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
             </p>
           </div>
 
@@ -124,11 +124,11 @@ function Setting() {
           <h3 id="post-setting-is-relative">9.6: Setting is Relative </h3>
 
           <p>Setting can be transformed as the character is. If a character is very small (e.g. Stuart Little
-            <FootnoteRef text="Stuart Little, E. B. White." />
+            <FootnoteRef text="E. B. WHITE, Stuart Little." />
             ) a single setting might be a creek or part of a room. If a character is very large, (e.g. Gulliver's Travels
-            <FootnoteRef text="Gulliver's Travels, Jonathan Swift." />
+            <FootnoteRef text="JONATHAN SWIFT, Gulliver's Travels." />
             ) a setting might be an entire city. Setting can also be an entire time period, e.g. the Late Cretaceous period Age in A Sound of Thunder by Ray Bradbury.
-            <FootnoteRef text="Ray Bradbury, The Golden Apples of the Sun." />
+            <FootnoteRef text="RAY BRADBURY, The Golden Apples of the Sun." />
           </p>
 
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}

@@ -75,11 +75,11 @@ function Premise() {
 
           <div className="custom-box">
             <ol>
-              <li>What if a cynical ghost hunting skeptic was in a genuinely haunted house?<FootnoteRef text="1408, Stephen King." />
+              <li>What if a cynical ghost hunting skeptic was in a genuinely haunted house?<FootnoteRef text="STEPHEN KING, 1408." />
               </li>
-              <li>What if an intellectually handicapped man was in an experiment that made him a genius?<FootnoteRef text="Flowers for Algernon, Daniel Keyes." />
+              <li>What if an intellectually handicapped man was in an experiment that made him a genius?<FootnoteRef text="DANIEL KEYES, Flowers for Algernon." />
               </li>
-              <li>What if a typical, conservative 1950s breadwinning husband started physically shrinking? <FootnoteRef text="The Incredible Shrinking Man, Richard Matheson." />
+              <li>What if a typical, conservative 1950s breadwinning husband started physically shrinking? <FootnoteRef text="RICHARD MATHESON, The Incredible Shrinking Man." />
               </li>
             </ol>
           </div>
@@ -206,13 +206,13 @@ function Premise() {
           <div className="p-3 mb-3 rounded bg-hYellow border border-gray-300 font-rubik">
             <p className="mb-0">“Good stories need an engine, a question the story answers for the reader. Who done it? Guilty or not guilty? Who will win the race? Which man will she marry? Will the hero escape, or die trying? Good questions drive good stories.” </p>
             <p></p><i>— Roy Clark
-              <FootnoteRef text="Roy Clark, Writing Tools: 50 Essential Strategies for Every Writer." />
+              <FootnoteRef text="ROY CLARK, Writing Tools: 50 Essential Strategies for Every Writer." />
             </i></div>
 
           <div className="p-3 mb-3 rounded bg-hYellow border border-gray-300 font-rubik">
             <p className="mb-0">"Plant little queries along the way, little hints and teasers. Then answer them one by one, substituting new queries as you do." </p>
             <p></p><i>— David Carroll
-              <FootnoteRef text="David Carroll, A Manual of Writer's Tricks." />
+              <FootnoteRef text="DAVID CARROLL, A Manual of Writer's Tricks." />
             </i></div>
 
           <p>Live issues must accord with all of these criteria:</p>
@@ -224,7 +224,9 @@ function Premise() {
 
           <p>Insinuating that a side character is hiding a secret is not a live issue. But, insinuating that a side character is hiding a secret from the protagonist, which bears on the plot, is a live issue. Other times, the reader already knows the answer to the live issue&#39;s question, they just want to see it play out — that&#39;s also acceptable, as long as you ask the right question.</p>
           <p>It&#39;s critical to structure your plot with live issues. Without, your story will be a guaranteed flop. You literally fail to provide your reader any reason to read it.</p>
-          <p>Sphere by Michael Crichton, is a good example of a plot structured with live issues. The main plot issue is: What is the Sphere? Wisely, the novel does not limit itself that question. Each chapter raises a new question/s to continue to feed the reader&#39;s interest and reward their continued reading. Examples of live issues raised throughout:</p>
+          <p>Sphere by Michael Crichton,
+            <FootnoteRef text={<><em>Sphere</em>, Universal Pictures, (1998). Based on the novel by <span className="uppercase font-bold text-yellow-400">MICHAEL CRICHTON</span>.</>} />
+             is a good example of a plot structured with live issues. The main plot issue is: What is the Sphere? Wisely, the novel does not limit itself that question. Each chapter raises a new question/s to continue to feed the reader&#39;s interest and reward their continued reading. Examples of live issues raised throughout:</p>
           <h4>2.4.2 	Examples of live issues</h4>
 
           <div className="custom-box">
@@ -249,7 +251,9 @@ function Premise() {
           </div>
 
           <p>With each new question raised, you get increasingly pumped for the conclusion, which you expect to answer all these questions, and it does. Also, although different questions are answered at different times, Crichton never answers all his questions; there is always at least one question open. Even better, some of the answers actually raise more questions. Lastly, the ending does not directly answer all of the questions, but throughout the story, enough information is provided for the reader to answer those questions themselves — this is a great way to encourage multiple reading, or just keeping the story in your reader&#39;s mind to encourage discussion with others, and possibly recommendation.</p>
-          <p>Ira Levin is another author skilled at using live issues, see for instance in the Stepford Wives:</p>
+          <p>Ira Levin is another author skilled at using live issues, see for instance in the Stepford Wives:
+            <FootnoteRef text="IRA LEVIN, The Stepford Wives." />
+          </p>
           <div className="custom-box">
             <ol>
               <li>What happened to the women's association?</li>

@@ -40,15 +40,15 @@ function FootnoteRef({ text }) {
       </sup>
       {hovered && (
         <span
-          className={`
-            absolute top-1/2 -translate-y-1/2 
-            bg-gray-900 text-yellow rounded-sm text-xs px-2 py-2 border border-gray-600 shadow-md z-50 
-            whitespace-pre-line inline-block text-left leading-tight min-w-[200px]
-            ${positionLeft ? 'right-full mr-2' : 'left-full ml-2'}
-          `}
-          style={{ maxWidth: '220px' }}>
-          {text}
-        </span>
+  className={`
+    absolute top-1/2 -translate-y-1/2 
+    bg-gray-900 text-yellow rounded-sm text-xs px-3 py-3 border border-gray-600 shadow-md z-50 
+    whitespace-pre-line inline-block text-left leading-normal min-w-[200px]
+    ${positionLeft ? 'right-full mr-3' : 'left-full ml-3'}
+  `}
+  style={{ maxWidth: '220px' }}>
+  {text}
+</span>
       )}
     </span>
   );

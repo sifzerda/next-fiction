@@ -43,7 +43,7 @@ function POV() {
 
           <h3 id="post-first-person">14.2: First Person</h3>
           <p>The narrator is your main character themselves, e.g.
-            <FootnoteRef text="Sol Stein, On Writing." />
+            <FootnoteRef text="SOL STEIN, On Writing." />
           </p>
           <p className="text-midBluey">I looked longingly at Mary, hoping she would notice me. She not only noticed me, she said: “I wish you would take me in your arms.” I noticed Mary&#39;s mother watching from the window, and hoped she thought we were a perfect match.</p>
           <p>Your main choice is between this and Third Person, but your default should be Third Person. However, there are a number of reasons why you might opt for this POV:</p>
@@ -101,7 +101,7 @@ function POV() {
           <h4>14.3.3 	Third Person Supporting Character </h4>
           <p>Theoretically, you could also have a supporting character written in third person, e.g. </p>
           <p className="text-midBluey">Sarah saw Kevin look longingly at Mary, as if hoping she would notice him. Mary not only noticed him, she said: “I wish you would take me in your arms.” Then Sarah noticed Mary&#39;s mother watching from the window, and wondered if Mary&#39;s mother thought Kevin and Mary were a perfect match.
-            <FootnoteRef text="Sol Stein, On Writing." /></p>
+            <FootnoteRef text="SOL STEIN, On Writing." /></p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -135,11 +135,11 @@ function POV() {
           <p>A big factor is the ‘how would the narrator know that?&#39; test. If you want to write something your narrator shouldn&#39;t/wouldn&#39;t know, you need to change the POV to suit.</p>
           <p>Bob Mayer observes:</p>
           <p className='italic'>"Think of the Sherlock Holmes stories—who is narrating? Watson. Why? Because this allows Conan Doyle to withhold what Holmes is thinking from the audience."
-            <FootnoteRef text="Bob Mayer, 70 Solutions to Common Writing Mistakes." />
+            <FootnoteRef text="BOB MAYER, 70 Solutions to Common Writing Mistakes." />
           </p>
 
           <p>Jack Hart provides an anecdote illustrating the importance of selecting the correct point of view:
-            <FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
           </p>
           <p className='italic'>“Several years back a fuel tanker on the freeway east of downtown Portland hit a car and burst into furious fl ames. Smoke boiled into the sky, a dark column visible from my downtown perch in the Oregonian&#39;s newsroom. The next morning&#39;s newspaper described the smoke rising into the midsummer sky and “obscuring Mount Hood.”</p>
           <p className='italic'>The reporter who produced the truck- crash story simply assumed that everybody who saw the smoke viewed it from the same direction. Yes, the dark column obscured Mount Hood if you saw it from the expensive West Hills homes looming over downtown. But newspaper readers east of the crash site saw the smoke obscuring not Mount Hood, but the West Hills.”</p>

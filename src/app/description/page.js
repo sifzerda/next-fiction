@@ -6,7 +6,6 @@ import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
 import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
-//import Link from "next/link";
 
 function Description() {
   return (
@@ -50,7 +49,7 @@ function Description() {
 
           <p>This rule deals mainly with conveying exposition. Exposition comprises all the non-plot related ‘facts&#39; or neutral information about your story, e.g. dates, times, histories, biography, setting information, etc. The ‘background information.&#39;</p>
           <p>Jack Hart provides this example:
-            <FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
           </p>
           <p><strong>Telling:</strong></p>
           <p>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</p>
@@ -58,7 +57,7 @@ function Description() {
           <p>Michelle&#39;s elation evaporated in the intensive care unit when Frank suffered a seizure. She left moments later, tears streaming down her face.</p>
 
           <p>The main point of description is to promote and further conflict. Its ability to provide background is secondary. Never force exposition out of the character&#39;s mouth (e.g: “As you know, we&#39;ve known each other for twenty years”) or slap it into the description self-consciously (e.g: a photograph on the mantelpiece showed the both of them twenty years younger).  </p>
-          <p>To make sure that you&#39;re showing as well as telling, Sol Stein advises to “[ensure] there is something visual [described] on each page.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
+          <p>To make sure that you&#39;re showing as well as telling, Sol Stein advises to “[ensure] there is something visual [described] on each page.”<FootnoteRef text="SOL STEIN, How To Grow A Novel." /></p>
 
           <h4>11.1.1 	Pace Exposition</h4>
           <p>Like the rest of the story, exposition must have a sense of meaningful progression. You can&#39;t drop big facts at random.</p>
@@ -79,7 +78,7 @@ function Description() {
           <p>You will find if you ask yourself regularly with all statements in your story, you will naturally build up lots of ‘prior scenes&#39; to set things up, and your story scenes will write themselves.</p>
 
           <h4>11.1.4 	Don&#39;t Describe Sunsets</h4>
-          <p>Jack Bickham says: “Don&#39;t describe sunsets.”<FootnoteRef text="Jack Bickham, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." /> Meaning, don&#39;t provide an aesthetic description for its own sake, as if aesthetic prose is an end in itself.</p>
+          <p>Jack Bickham says: “Don&#39;t describe sunsets.”<FootnoteRef text="JACK BICKHAM, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." /> Meaning, don&#39;t provide an aesthetic description for its own sake, as if aesthetic prose is an end in itself.</p>
           <p>Every time you describe something (object, character, place, character&#39;s thoughts or feelings, etc) the story stops. You want to minimize this by weaving description in as infrequently as possible, making it clear and concise, and basically smuggling it in, loading description with plot-relevant association.</p>
           <p>Description&#39;s purpose is highly artificial. You&#39;re not merely giving the described thing to the reader just as it is. Rather, you&#39;re highlighting those aspects which relate to the progression of the plot in some way, or suggest plot-relevant information. Description should suggest something to the reader, allowing them to make their own assessment and judgement. </p>
           <p>Readers don&#39;t need to know how things look like precisely; they already know what things look like generally. You protagonist&#39;s house isn&#39;t necessarily more special than anyone else&#39;s house. It probably doesn&#39;t really matter if the reader gets the hair colour of your character wrong. You would describe those things to suggest information about you characters or the plot. Different kinds of houses suggest different kinds of traits about their occupants. However, a description of a house which doesn&#39;t say anything about its occupant, fails to do any work.</p>
@@ -126,13 +125,13 @@ function Description() {
           <p>Good description makes use of word poverty; getting the most mileage out of the least words. Here&#39;s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn&#39;t get a surprise? Good description makes use of word poverty; getting the most mileage out of the least words. Here&#39;s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn&#39;t get a surprise? </p>
           <p>Here&#39;s an example:  </p>
           <p className='indent-8 mb-2'><i>The Television Centre...is a vision of the future with huge, glassed-in newsrooms, and reception areas that look like they've been hit with [a] pastel bomb...</i>
-            <FootnoteRef text="Danny Wallace, Yes Man, (non-fiction)." />
+            <FootnoteRef text="DANNY WALLACE, Yes Man, (non-fiction)." />
           </p>
 
           <p>This description gives you an immediate, top-down sense of what the whole building looks like, particularly visually stimulating phrases like ‘vision of the future&#39; and ‘pastel bomb.&#39;</p>
           <p>Another example:</p>
           <p className='indent-8 mb-2'><i>"The door opened finally on a forbiddingly dark and chilly vestibule."</i>
-            <FootnoteRef text="Claudia Osborne, Over My Head, (non-fiction)." />
+            <FootnoteRef text="CLAUDIA OSBORNE, Over My Head, (non-fiction)." />
           </p>
 
           <p>'Dark' and 'chilly' both do separate work, and the unusual word choice in 'vestibule' is more effective than 'room' 'corridor' or 'hallway' by carrying a sense of medieval oldness, like a chamber.</p>
@@ -146,7 +145,7 @@ function Description() {
           <p>The problem with this structure is it suggests the protagonist is relieved to reach this place, which is the opposite of the desired effect. Plus, it&apos;s not the protagonist who is thinking &apos;finally&apos; but the act the of the door opening which suggests an ominous &apos;final&apos; destination.</p>
           <p>Changing the location of a single word can make a huge difference. Example:</p>
           <p className='indent-8 mb-2'><i>The tommy gun fit weirdly into a violin case, making a gangster look like he was going to a music recital.</i>
-            <FootnoteRef text="William Elliott Hazelgrove, Shots Fired in Terminal 2: A Witness to the Fort Lauderdale Shooting Reflects on America's Mass Shooting Epidemic, (non-fiction)" />
+            <FootnoteRef text="WILLIAM ELLIOTT HAZELGROVE, Shots Fired in Terminal 2: A Witness to the Fort Lauderdale Shooting Reflects on America's Mass Shooting Epidemic, (non-fiction)" />
           </p>
           <p>The problem word here is 'weirdly'; its location makes it sound like the positioning of the gun in the violin case is awkward, though we know from context what is in fact weird is the gun being in the case at all.   </p>
           <p>A better sentence might be:</p>
@@ -158,7 +157,7 @@ function Description() {
           <h5>11.3.3 	Implication by Imagery</h5>
           <p>Here&#39;s an example of the above rule:</p>
           <p className='indent-8 mb-2'>The main street of Starbuck is deserted, save four men in hunting camo outside Archie's Meats and Groceries, loading paper bundles of bloody meat into the back of a pickup truck. Only the store and hotel restaurant appear to be open.
-            <FootnoteRef text="Tom Jolkinen, Curtains, (note: this is non-fiction)." />
+            <FootnoteRef text="TOM JOLKIEN, Curtains, (note: this is non-fiction)." />
           </p>
           <p>Hopefully you have a picture of the scene in your mind. Consider this image for a moment. If you&#39;re like me, you would have pictured a regional street (as opposed to a CBD) maybe even rural or remote, sparsely built up. Yet nothing in the paragraph explicitly says that. </p>
           <p>It&#39;s coming from inference: the detail about the place being deserted, only the store and restaurant are open (even though, alternatively, it could be night time) which inclines against a heavily commercial area, and the ‘men in hunting camo&#39; and ‘pickup truck&#39; suggests a more countrified region. All of these details ‘show&#39; not ‘tell&#39;; this is someone literally looking around and just telling you what they see, what stands out, and yet it also communicates a whole lot of information that another author might simply ‘tell&#39; you.</p>
@@ -213,8 +212,8 @@ function Description() {
           </ol>
 
           <p>You might wonder when – if ever – you should use a figure of speech. It should be borne in mind that these are descriptive devices. </p>
-          <p>Burnett and Burnett says metaphors and similies must be unselfconscious and instinctive.<FootnoteRef text="Hallie and Whit Burnett, Fiction Writer's Handbook." /> If there's no reason to describe the thing – i.e. the reader already knows exactly what you&#39;re talking about – then don't. Secondly, both of these devices are used in lieu of actually describing the thing itself, and generally you should prefer to describe what something is, not what it&#39;s like.</p>
-          <p>Sol Stein suggests using a metaphor or similie when you encounter 'bare bones' patches of your writing; writing that might come across as bland or needing extra description or character.<FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
+          <p>Burnett and Burnett says metaphors and similies must be unselfconscious and instinctive.<FootnoteRef text="HALLIE AND WHIT BURNETT, Fiction Writer's Handbook." /> If there's no reason to describe the thing – i.e. the reader already knows exactly what you&#39;re talking about – then don't. Secondly, both of these devices are used in lieu of actually describing the thing itself, and generally you should prefer to describe what something is, not what it&#39;s like.</p>
+          <p>Sol Stein suggests using a metaphor or similie when you encounter 'bare bones' patches of your writing; writing that might come across as bland or needing extra description or character.<FootnoteRef text="SOL STEIN, How To Grow A Novel." /></p>
           <p>My personal rule is to avoid using figures of speech unless there is some exceptional circumstance, including:</p>
           <ol>
             <li>The thing is so odd and particular, it can&#39;t be described using brevity or normal description; </li>
@@ -224,23 +223,23 @@ function Description() {
           </ol>
 
           <p>Here&#39;s a clear example of a similie doing work direct description can not:</p>
-          <p className='indent-8 mb-2'><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i><FootnoteRef text="Autobiography of a Face, Lucy Grealy." /></p>
+          <p className='indent-8 mb-2'><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i><FootnoteRef text="LUCY GREALY, Autobiography of a Face." /></p>
           <p>This provides a vivid picture of the room and the lighting and is more dynamic than saying the room is a dim, intrusive, murky, heavy, oppressive, yellowy-green.</p>
           <p>If you do decide to use figures of speech, here are some general rules for using them properly and effectively. </p>
 
           <h4>11.5.1 	Metaphors alter, Similies add to</h4>
           <p>Generally, a metaphor does not need to be ‘like&#39; the thing you describe (it could even be starkly different), as long as it puts the right picture in your reader&#39;s mind. A metaphor can significantly change the way your reader might have otherwise imagined something. Similes, however, generally do need to be like the thing you describe, aiming to clarify it and add greater detail – </p>
-          <p className='indent-8 mb-2'><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i><FootnoteRef text="Ghost House, Alexandra Adornetto." /></p>
+          <p className='indent-8 mb-2'><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i><FootnoteRef text="ALEXANDRA ADORNETTO, Ghost House." /></p>
           <p>Here, the thing (the name ‘Isobel&#39;) is not like the simile (the tolling of a bell). Even if you argue that the phoneme ‘bel&#39; onomatopoeically sounds like the clang of a bell, you have to selectively ignore the other two syllables ‘Is&#39; and ‘o&#39;. </p>
 
           <h4>11.5.2 	High-fidelity</h4>
           <p>The similarity has to be crystal clear to the reader, not strained or contorted. By using a figure of speech instead of a plain description, you are implying that it is a higher fidelity description of the thing even than describing the thing itself directly. ‘Good enough&#39; is not good enough – </p>
-          <p className='indent-8 mb-2'><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i><FootnoteRef text="Ghost House, Alexandra Adornetto." /></p>
+          <p className='indent-8 mb-2'><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i><FootnoteRef text="ALEXANDRA ADORNETTO, Ghost House." /></p>
           <p>The sound of teeth clattering does not have enough fidelity to coins falling on a wooden floor to justify this simile. Coins falling on a wooden floor is a racket; teeth chattering is not. It&#39;s a simile that has to be contorted in the mind to work.</p>
 
           <h4>11.5.3 	Tone consistency</h4>
           <p>A figure of speech should keep in tone with the thing being described:</p>
-          <p className='indent-8 mb-2'><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i> <FootnoteRef text="Down Around Midnight, Robert Sabbag." /> </p>
+          <p className='indent-8 mb-2'><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i> <FootnoteRef text="ROBERT SABBAG, Down Around Midnight." /> </p>
 
           <p>Here, this overly-romantic similie is actually talking about being triggered by PTSD, inappropriately conveying that PTSD is pleasurable.</p>
           <p>A tonally dissonant figure of speech may convey satirical/ironic/humourous purpose – this is called ‘Bathos&#39;. Here&#39;s an intentional example: </p>
@@ -248,7 +247,7 @@ function Description() {
 
           <h4>11.5.4 	Relatable</h4>
           <p>A figure of speech will fail if the reader doesn&#39;t know what you&#39;re talking about. Figures of speech should not contain exclusive, unusual things that only few people have experienced (least of all the writer): </p>
-          <p className='indent-8 mb-2'><i>I felt like I was wading into uncharted waters without a life raft.</i> <FootnoteRef text="Ghost House, Alexandra Adornetto." /> </p>
+          <p className='indent-8 mb-2'><i>I felt like I was wading into uncharted waters without a life raft.</i> <FootnoteRef text="ALEXANDRA ADORNETTO, Ghost House." /> </p>
           <p>I&#39;ve never waded into ‘uncharted waters&#39; without a life raft (and I suspect the author never has, either), so this simile is already bad. It&#39;s also a cliché.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -275,7 +274,7 @@ function Description() {
           <h4>11.6.5.	Narration: </h4>
           <p className="code-left"><code><i>........    </i></code></p>
           <p>All of these forms of description are about the Father, his religion, and his church, however, the subtext in all of these paragraphs points to a preoccupation with exteriority and the appearance of things: beauty, gold and silver, ‘glow&#39;, etc. This suggests this church is superficial. Each form of description attempts to convey that implication in a different way. </p>
-          <p>Sol Stein says to convert narrative summary into dialogue where possible. This turns the retelling of an offstage event into a visible scene – dialogue is always an immediate scene.<FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
+          <p>Sol Stein says to convert narrative summary into dialogue where possible. This turns the retelling of an offstage event into a visible scene – dialogue is always an immediate scene.<FootnoteRef text="SOL STEIN, How To Grow A Novel." /></p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -289,7 +288,7 @@ function Description() {
 
           <h3 id="post-how-frequent-should-description-be">11.8: How Frequent Should Description Be?</h3>
           <p>As a reliable, general rule, Sol Stein  gives the advice to break up every three sentences of dialogue with a description (of character, or setting, etc). He says:</p>
-          <p className='indent-8 mb-2'>“Most exchanges in dialogue should be brief. A speech should be not more than three sentences. If a speech has to run longer, break it up with interruptions from other speakers or by an action or a thought.”<FootnoteRef text="Sol Stein, How To Grow A Novel." /></p>
+          <p className='indent-8 mb-2'>“Most exchanges in dialogue should be brief. A speech should be not more than three sentences. If a speech has to run longer, break it up with interruptions from other speakers or by an action or a thought.”<FootnoteRef text="SOL STEIN, How To Grow A Novel." /></p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -299,7 +298,7 @@ function Description() {
           <p>Example: A character is going somewhere and feels anxious/nervous about getting to the destination (e.g. an exam). Rather than say 'Protagonist felt anxious...' maybe it has been raining and the soil path has turned mushy (providing a tiny physical obstacle). If by car, their preferred road is blocked or slowed by construction works, and they opt for a road that has potholes. This will make the reader groan with empathy.</p>
           <p>Make it a bit unusual so the reader doesn't immediately catch on. Making it rain because the protagonist is sad, or thunder when angry, is too obvious.</p>
           <p>Here is an example:</p>
-          <p className='indent-8 mb-2'><i>The sight of water, limpid, pale, was a soothing contrast to the fierce sun above their heads.</i><FootnoteRef text="Don't Look Now, Daphne Du Maurier." /></p>
+          <p className='indent-8 mb-2'><i>The sight of water, limpid, pale, was a soothing contrast to the fierce sun above their heads.</i><FootnoteRef text="DAPHNE DU MAURIER, Don't Look Now." /></p>
           <p>At this point in the story, the main character feels a mixture of sadness and anger. Rather than merely state that -- which would not evoke the feelings -- the description of colourless, tepid water evokes the sadness, while the blazing, glaring sun evokes the anger.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -329,7 +328,7 @@ function Description() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-11-12">11.12: Chain Link Paragraphs</h3>
-          <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea or thought. However, in some circumstances you may find multiple sentences borrow the same ideas, or carry ideas over throughout a scene. In such a case, you can link sentences together using key words or motifs, i.e. a ‘nexus&#39;. This creates flow. Here is an example:<FootnoteRef text="Black Like Me, John Howard Griffen." /></p>
+          <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea or thought. However, in some circumstances you may find multiple sentences borrow the same ideas, or carry ideas over throughout a scene. In such a case, you can link sentences together using key words or motifs, i.e. a ‘nexus&#39;. This creates flow. Here is an example:<FootnoteRef text="JOHN HOWARD GRIFFEN, Black Like Me." /></p>
           <p><u>Paragraph 1:</u></p>
           <p className="code-left"><code><i>I flicked the negatives, as he must have done, toward the comer, heard them scratch dryly against the wall and flap to the floor. One struck the dead globe, causing it to sing its strange filamental music of the spheres, fragile and high-pitched above the outside noises.   </i></code></p>
 
@@ -340,7 +339,7 @@ function Description() {
           <p>Throughout this chapter, there are several references to noise and music: ‘Another car <strong>roared </strong>down the street…&#39; and ‘Canned <strong>jazz blared </strong>blared through the street with a monstrous high-strutting <strong>rhythm </strong>that pulled at the viscera.&#39; The racket complements the dissonance and torment going on in the narrator&#39;s mind during this scene; this is why the references to noise are framed by negative and discordant terms – ‘scratch dryly&#39;, ‘strange filamental music&#39;, ‘high-pitched&#39;, ‘grinding rhythm&#39;, ‘roared&#39;, ‘blared&#39;, ‘monstrous high-strutting rhythm&#39;. The chapter, therefore isn&#39;t really about music or noise –</p>
           <p>– it&#39;s about the cacophonic conflict going on inside the protagonist/narrator. </p>
 
-          <p>Here are some more examples of linking paragraphs from Ramsey Campbell&#39;s short story ‘The Companion.&#39;<FootnoteRef text="Dark Companions, Ramsey Campbell." /> The examples are numbered; the red sentence is the end of one paragraph, the blue sentence is the start of the next. See if you can identify the ‘nexus&#39; between paragraphs – or see my footnotes for elaboration:</p>
+          <p>Here are some more examples of linking paragraphs from Ramsey Campbell&#39;s short story ‘The Companion.&#39;<FootnoteRef text="RAMSEY CAMPBELL, Dark Companions." /> The examples are numbered; the red sentence is the end of one paragraph, the blue sentence is the start of the next. See if you can identify the ‘nexus&#39; between paragraphs – or see my footnotes for elaboration:</p>
           <hr /> {/* ---------------------------------------------------------*/}
           <div className="custom-box">
             <p><strong><u>1:</u></strong></p>
@@ -448,7 +447,7 @@ function Description() {
 
           <h3 id="post-11-14">11.14: Wide and Narrow Description</h3>
           <p>Jack Hart
-            <FootnoteRef text="Jack Hart, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
             explains that storytelling at different distances requires two different kinds of narrative, each of them essentially a different language. When the distance is great, when you step way back from the action, you write in summary narrative, collapsing time and space into a dispassionate account, viewed from above. When you shrink the distance, you shift into scenic narrative, going inside the scene as it unfolds, as if it was happening to you. </p>
 
           <p>He provides examples of each:</p>
@@ -570,7 +569,7 @@ function Description() {
 
           <h3 id="post-description-in-action">11.19: Description in Action</h3>
           <p>Description should strive to effect ‘action&#39; as much as possible, occurring <strong>presently</strong> rather than in the past. Even a simple, trivial, innocuous gesture (see below example) will sound more dynamic and interesting if presented as if happening, rather than having happened. A sense of change, movement, and activity is preferred than a static, unchanging, unmoving scene. </p>
-          <p>Example (paraphrased from an actual novel):<FootnoteRef text="Disclosure, Michael Crichton." /></p>
+          <p>Example (paraphrased from an actual novel):<FootnoteRef text="DISCLOSURE, MICHAEL CRICHTON." /></p>
           <p className="indent-8 mb-2">Her legs were crossed, one expensive leather heel aloft.</p>
           <p>Fixed example:</p>
           <p className="indent-8 mb-2">She crossed her legs, raising one expensive leather heel into the air.</p>

@@ -44,7 +44,7 @@ function Story() {
           <p>
             The most important skill you need to write fiction is storytelling. Robert McKee defines storytelling as:
             <i>“the creative conversion of life itself to a more powerful, clearer, more meaningful experience.” </i>
-            <FootnoteRef text="Robert McKee, Story, Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story, Substance, Structure, Style and the Principles of Screenwriting." />
           </p>
 
           <p>
@@ -101,7 +101,7 @@ function Story() {
 
           <h4>1.2.4 	An Explosion</h4>
           <p>Burnett and Burnett
-            <FootnoteRef text="Hallie & Whit Burnett, Fiction Writer's Handbook." />
+            <FootnoteRef text="HALLIE BURNETT AND WHIT BURNETT, Fiction Writer's Handbook." />
             say that all stories have an explosion, “...in which all parts of the whole are expelled...”
             piece by piece, “...from an existing pattern — the lives of the characters are jolted from their rhythm, and chaos is produced in their universe.” In some stories the explosion is fast and shattering,
             in others, muted and delayed. It may occur at the beginning, middle or end, or the fuse may be lit early and the explosion happen later, but by the end there must be some kind of resolution or meaning
@@ -110,7 +110,7 @@ function Story() {
           <h4>1.2.5 	Difference Between &#39;Story&#39; and &#39;Idea&#39;</h4>
 
           <p>Bob Mayer
-            <FootnoteRef text="Bob Mayer, Fiction Writer's Toolkit." />
+            <FootnoteRef text="BOB MAYER, Fiction Writer's Toolkit." />
             makes a good point that “[an] idea is not [a] story.”  How you tell the idea is the story.
             Different writers can come up with the same idea, but tell different stories. Some good ideas cannot be made into good stories. Conversely, some bad ideas can be made into good stories (you may have
             heard a critic/reviewer say something like, &#39;in the hands of another writer, this idea would not have worked...&#39;)</p>
@@ -122,7 +122,7 @@ function Story() {
           <p>A &#39;story&#39; refers to the sequence of events, arranged chronologically, which generate particular meaningfulness. The emphasis is on the events and the order they are arranged in, which creates
             meaning. If visiting an old, decrepit house at night is a main event, we know this refers to the category &#39;ghost story.&#39;</p>
           <p>Conversely, “[a] plot is what you do with that story,”
-            <FootnoteRef text="Hallie & Whit Burnett, Fiction Writer's Handbook." />
+            <FootnoteRef text="HALLIE BURNETT AND WHIT BURNETT, Fiction Writer's Handbook." />
             — how you selectively arrange the events chronologically or artistically
             to create particular meaning, emotions or emphasis. Ten stories may all be ghost stories with the same events (haunted house, dead former tenants, cemetery, ghost, etc), but they will have different plots. One may happen within a single day,
             or a single hour (like in Stephen King&#39;s 1408), and by direct first-person events, another may be spaced over hundreds of years and be uncovered through after-the-fact research done by the protagonist.</p>
@@ -137,7 +137,7 @@ function Story() {
           <h3 id="post-main-elements-of-story">1.3 The Main Elements of a Story</h3>
 
           <p>These are the main elements of story structure, in order of priority:</p>
-          <FootnoteRef text="Mark Twain." />
+          <FootnoteRef text="MARK TWAIN." />
           <ol>
             <li className="mb-2">PLOT;</li>
             <li className="mb-2">CHARACTERS;</li>
@@ -155,7 +155,7 @@ function Story() {
           <p>You may have heard of the 'hero's journey' or the typical story structure where the protagonist faces a challenge,
             and must overcome it. Don't feel restricted by these formulas. A group of scientists at the University of California researched thousands of books and
             movie scripts and found that the vast majority of stories actually fall into 6 different categories:
-            <FootnoteRef text="Seth Stephens-Davidowitz, Everybody Lies." /></p>
+            <FootnoteRef text="SETH STEPHENS-DAVIDOWITZ, Everybody Lies." /></p>
 
           <ol>
             <li>Rags to Riches (rise);</li>
@@ -170,7 +170,7 @@ function Story() {
             falls, rises, falls, rises, falls, rises, falls, rises, falls, rises, falls, rises, falls, and then finally rises.</p>
 
           <p>Roy Clark
-            <FootnoteRef text="Roy Peter Clark, Writing Tools: 50 Essential Strategies for Every Writer." />
+            <FootnoteRef text="ROY PETER CLARK, Writing Tools: 50 Essential Strategies for Every Writer." />
             lists a number of traditional story structures, many of them ancient archetypes:</p>
 
           <ol className="list-decimal list-inside mb-4 mt-4 font-rubik">
@@ -215,7 +215,7 @@ function Story() {
 
           <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being &#39;The Adventure of the Hero,&#39;
             more commonly known as <i>&#39;The Hero&#39;s Journey.&#39;</i>
-            <FootnoteRef text="Joseph Campbell, The Hero With A Thousand Faces." />
+            <FootnoteRef text="JOSEPH CAMPBELL, The Hero With A Thousand Faces." />
           </p>
 
           <p>Campbell argues that virtually every story (including folk tales, mythologies and fairy tales) is a variation on his formula.</p>
@@ -229,14 +229,14 @@ function Story() {
           <h3 id="post-myths-and-misconceptions">1.6 Myths and Misconceptions</h3>
           <h4>1.6.1 Write What You Know</h4>
           <p>Writers are commonly instructed to &#39;Write what [they] know.&#39; But, as Alice LaPlante says, this can be limiting.
-            <FootnoteRef text="Alice LaPlante, The Making of a Story: A Norton Guide to Creative Writing." />
+            <FootnoteRef text="ALICE LaPLANTE, The Making of a Story: A Norton Guide to Creative Writing." />
             <i>"Write about what you don't know about what you know," </i> Eudora Welty suggests. Take what you know and create a mystery from it; you might see your accountant
             neighbour leave at one in the morning every Saturday, but where is he/she going?</p>
 
           <p>You can write anything you want. Stephen Crane wrote about the American Civil War in The Red Badge of Courage, even though he&#39;d never been to war.
             Your writing will be better if you research your chosen topic/s first, or while writing. Don&#39;t let anyone discourage you from writing about something you have not personally experienced,
-            otherwise you risk writing nothing more ambitious than what Robert McKee
-            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            otherwise you risk writing nothing more ambitious than what Robert Mckee
+            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             calls &#39;the personal story,&#39; — basically a fictionalized diary entry.</p>
 
           <h4>1.6.2 	Don&#39;t Take Ideas from Other Writers</h4>
@@ -251,7 +251,7 @@ function Story() {
             will mask your tracks, burying the echoes of one author under the echoes of all the others, and making it less clear where one &#39;stolen&#39; idea begins and another ends;</p>
           <p>Note: Avoid slavishly copy-pasting ideas, even in mass volume. A ton of shit is no less shit than an ounce of shit. Borrow ideas lots of ideas, yes, but borrow selectively. If you think purely having read thousands of stories makes
             you a better writer, note what Robert McKee
-            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             says about writing &#39;instinct&#39;:</p>
 
           <div className="custom-box">
@@ -262,7 +262,7 @@ function Story() {
 
           <h5 className="text-sm font-semibold text-midBluey mt-3 mb-1">(2) Steal Further Back</h5>
           <p>There&#39;s a variation on the above: <i>"If we steal thoughts from the moderns, it will be cried down as plagiarism; if from the ancients, it will cried up as erudition"</i>
-            <FootnoteRef text="Reverend Charles Caleb Colton." />
+            <FootnoteRef text="REVEREND CHARLES CALEB COLTON." />
             So if you want to take from &#39;Dracula&#39;, don&#39;t stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
 
           <h5 className="text-sm font-semibold text-midBluey mt-3 mb-1">(3) Aim Lower</h5>
@@ -297,7 +297,7 @@ function Story() {
           <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don&#39;t want to write about those things, or you can&#39;t, your story won&#39;t be worth telling.</p>
 
           <p>Robert McKee
-            <FootnoteRef text="Robert McKee, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
             puts it better:</p>
 
           <div className="custom-box">
@@ -314,7 +314,7 @@ function Story() {
           <p>Compare with horror. Most horror is uniquely suited to written media because it&#39;s largely &#39;visual-avoidant&#39; by undermining visual and direct information in favour of other forms (inference, sound, anecdote, etc). For instance, in horror, the last thing you want to do is give away the 'visual' or the 'sighting' prematurely (if at all). Not to say visual horror
             is ineffective — it has the intensity of fireworks, but unfortunately, also has the lifespan of fireworks. The visual horror creator has to keep contriving to put the source of horror out of sight &#39;until later.&#39;</p>
           <p>The novel 'Bird Box'
-            <FootnoteRef text="Bird Box, Josh Malerman." />
+            <FootnoteRef text="JOSH MALERMAN, Bird Box." />
             is a perfect example of visual-avoidant horror&#39;s efficacy: the plot involves monsters invading earth which, if you look at, you go crazy. A film requires a lot of narrative and camera gymnastics to get around this glaringly visual-avoidant plot point. Whereas, the same concept has no problem in literature: if it's not seen,
             it's not described. End of story.</p>
           <p>Same with crime fiction; it&#39;s purpose is to keep certain visual information (the criminal, the crime itself) hidden from you for as long as possible. This makes it literature-friendly.</p>

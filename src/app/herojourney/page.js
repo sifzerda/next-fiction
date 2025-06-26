@@ -6,7 +6,6 @@ import CommentList from '../../components/CommentList';
 //import FootnoteRef from '../../components/FootnoteRef';
 import hjBanner from '../assets/hjbanner.jpg'; 
 import Image from "next/image";
-//import Link from "next/link";
 
 function HeroJourney() {
   return (

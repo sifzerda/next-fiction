@@ -41,7 +41,7 @@ function Conflict() {
 
           <div className="custom-box">
             <p>Your character can't sit home passively and accidentally get a telephone call from friend Max, who then volunteers a crucial clue in the murder mystery. Your character has to think things over and then decide that he will call people seeking information. After calling several other people, he comes to Max on his list. He calls Max. Max doesn't want to tell him, but you make your character persist. Finally your character convinces Max to talk, and Max gives him the next clue.
-              <FootnoteRef text="Jack Bickham, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." />
+              <FootnoteRef text="JACK BICKHAM, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." />
             </p>
           </div>
 
@@ -58,7 +58,7 @@ function Conflict() {
 
           <h3 id="post-types-of-conflict">5.3. Types of Conflict</h3>
           <p>Robert McKee outlines 3 types of conflict.
-            <FootnoteRef text="Robert Mckee, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
             You can distinguish these by whether it involves individuals or entities:</p>
 
           <h4>5.3.1 	Inner Conflicts</h4>
@@ -75,7 +75,7 @@ function Conflict() {
           <h3 id="post-conflict-does-not-equal-fight">5.4. Conflict ≠ Fight</h3>
           <p>Many people hear 'conflict' and immediately think of a fight: verbal or physical. The problem with this notion is that you put an overt fight in your story every time you want to add conflict, it will emotionally exhaust your reader, and make your characters implausibly argumentative, and by extension unlikeable. A better way of conceiving of conflict is in the context of a conflict of interest; like the scenario you may face where your professional duty is in opposition with your personal interest.</p>
           <p>Another misconception is that you need a 'big' scene to convey 'big' conflict. Often it's more effective to convey big conflict through small scenes. Look at this example:
-            <FootnoteRef text="To Kill A Mockingbird, Harper Lee." />
+            <FootnoteRef text="HARPER LEE, To Kill A Mockingbird." />
           </p>
 
           <div className="custom-box">
@@ -102,16 +102,16 @@ function Conflict() {
           <h4>5.4.2 	Promise a Difficult Decision</h4>
           <p>You don't need to write in a fight scene to make conflict. You may merely pose a zero-sum-game choice to the protagonist. The problem with doing that is you require the protagonist to choose; and once the choice is made, the conflict dissipates. The conflict is stronger before the protagonist makes the choice. So consider inserting conflict through subtext and promise, which may then eventually culminate and get resolved by a confrontation. And the purpose of this subtext and promise is to remind your reader that there will be a confrontation.</p>
           <p>The decision may play out in different ways. One, the protagonist may anguish over the inevitable decision long before it happens. An example of this is in The Jungle Book,
-            <FootnoteRef text="The Jungle Book, Rudyard Kipling." />
+            <FootnoteRef text="RUDYARD KIPLING, The Jungle Book." />
             where, throughout the story, Mowgli's conflict is that he is torn between living amongst the animals rather than living amongst humans. He gradually shows more interest in returning to humankind, and, when the animals become alienated from him, ultimately returns to the human village. Two, the decision may come prematurely, and the protagonist makes an impulsive choice, and the conflict occurs for long after, whereon the protagonist realizes the full consequences of their choice. An example of this is in A Separate Peace,
-            <FootnoteRef text="A Separate Peace, John Knowles." />
+            <FootnoteRef text="JOHN KNOWLES, A Separate Peace." />
             where Gene's conflict is his feeling guilty throughout the story for Phinny's accident and injury at the beginning of the story (and ultimately death).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h3 id="post-how-to-create-conflict">5.5. How to Create Conflict</h3>
           <p>Robert Meredith and John Fitzgerald  provide a step by step method of creating conflict:
-            <FootnoteRef text="Robert Meredith and John Fitzgerald, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
+            <FootnoteRef text="ROBERT MEREDITH AND JOHN FITZGERALD, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
           </p>
 
           <h4>5.5.1 	Conflict with Environment</h4>
