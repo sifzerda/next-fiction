@@ -59,7 +59,7 @@ function Voice() {
           <p>'Voice' refers to the individuality of your writing. It's also referred to as 'style' i.e. writing style. Just like you can distinguish different people&#39;s voices in a room, you should be able to distinguish different authors&#39; writing voices out of a pile of texts.</p>
 
           <p>Sol Stein says voice has two components: <i>'the originality of what is said and the originality of the way it is said.'</i>
-            <FootnoteRef text="SOL STEIN, Stein on Writing: A Master Editor of Some of the Most Successful Writers of Our Century Shares His Craft Techniques and Strategies." />
+            <FootnoteRef text={`SOL STEIN,\nStein on Writing: A Master Editor of Some of the Most Successful Writers of Our Century Shares His Craft Techniques and Strategies.`} />
           </p>
 
           <p>Like speaking voice, there are a multiple indicators of writing voice:</p>
@@ -73,14 +73,14 @@ function Voice() {
           <p>If you want an even clearer indicator of 'voice,' take different works and try reading paragraphs out loud (or listening to someone else read them out loud). Some styles sound natural spoken, whereas others do not survive the leap from thought to speech.</p>
 
           <p>Ben Yagoda
-            <FootnoteRef text="BEN YAGODA, How to Not Write Bad." />
+            <FootnoteRef text={`BEN YAGODA,\nHow to Not Write Bad.`} />
             explains: There was a spoken language before there was a written language, and good writing has always been intimately connected to the ear, whether the short sentences of Hemingway or the near-endless periods of Samuel Johnson and David Foster Wallace.</p>
 
           <p>Another term for this is the 'middle style'; sometimes it&#39;s claimed to be “transparent” prose. That&#39;s because it&#39;s clear, precise, and concise and doesn&#39;t call attention to itself.</p>
           <p>William Hazlitt gave it some other names, and a good characterization, back in 1821:</p>
 
           <p><i>“To write a genuine familiar or truly English style, is to write as anyone would speak in common conversation, who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity.”</i>
-            <FootnoteRef text="WILLIAM HAZLITT." />
+            <FootnoteRef text={`WILLIAM HAZLITT.`} />
           </p>
 
           <p>He also gives an example of voiceless – soulless – writing:</p>
@@ -88,7 +88,7 @@ function Voice() {
           <p>It has all the telltale signs of mindless writing: wordiness, clichés, and catchphrases poorly used; subjects and verbs that don&#39;t line up; incorrect use of words; faulty parallelism.</p>
 
           <p>The purpose of style is not merely to sound “amusing or lyrical or emotive or profound or fun” but to:
-            <FootnoteRef text="DAVID CARROLL, A Manual of Writer's Tricks." /></p>
+            <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} /></p>
           <ol>
             <li>Gain the audience's attention</li>
             <li>Hold their interest</li>
@@ -123,20 +123,20 @@ function Voice() {
           <p>The best voice/style is the least noticeable. Like symbolism, voice is not something you want shoved in your face while you&#39;re reading – it&#39;s something you appreciate in afterthought.</p>
 
           <p>Bickham says:
-            <FootnoteRef text="JACK BICKHAM, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." />
+            <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
           </p>
 
           <p><code><i>“Your style and attitude in your stories should be like a clean pane of glass through which the reader sees the action. If </i>[your writing]<i> pose</i>[s] <i>and posture</i>[s]… [it'll] <i>draw attention to you as a writer, rather than to what's happening.” </i></code></p>
 
           <p>Mittelmark and Newman agree, saying:
-            <FootnoteRef text="HOWARD MITTELMARK and SANDRA NEWMAN, How NOT to Write a Novel." />
+            <FootnoteRef text={`HOWARD MITTELMARK and SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
             words which draw attention to themselves draw attention away from the story you are telling and remind the reader that they are reading a story.</p>
 
           <p>Writing only works <i>"when both parties [reader and writer] agree beforehand on what words mean."</i></p>
           <p>They advise to choose only the word/s which are the best to express the idea.</p>
 
           <p>There's no point consciously striving for style, William Sloane says.
-            <FootnoteRef text="WILLIAM SLOANE, The Craft of Writing." />
+            <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft of Writing.`} />
             Your style should recreate your tone of voice. The paradoxical thing about style is it's like an accent; you shouldn't be aware of your own.</p>
 
           <p>Don&#39;t worry too much about actively modifying your writing style (and if you are consciously striving to write in a ‘voice&#39;, then it isn&#39;t your real voice). Focus more on writing in a natural, comfortable way, Also, realise that writing style may surface as much in your editing technique as your writing technique – which words you remove and how you rearrange and re-write your sentences.</p>

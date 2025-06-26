@@ -52,7 +52,7 @@ function Suspense() {
           <h3 id="post-storytelling">13.1 What is Suspense?</h3>
           <p>Suspense is basically just holding off on resolving conflict or answering plot-related questions for as long as possible. It&#39;s necessary if you want the reader to keep reading until the end. </p>
           <p>Burnett and Burnett
-            <FootnoteRef text="HALLIE BURNETT AND WHIT BURNETT, Fiction Writer's Handbook." />
+            <FootnoteRef text={`HALLIE BURNETT AND WHIT BURNETT,\nFiction Writer's Handbook.`} />
             says suspense is “that half-revealed something which makes us ask for more,” and is ‘essential&#39; even if only “a matter of how a girl will make up her mind, or a young man turn his back on his fears.”</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -62,7 +62,7 @@ function Suspense() {
           <p>The problem is your conflict risks going ‘cold&#39; for the reader; they might assume the conflict is of no importance and probably won&#39;t be resolved by the end, and subsequently stop reading.</p>
           <p>Alternatively, you want to provide build ups of suspense on the way to the resolution; making small promises which add up to your resolution being really worthwhile, whilst reminding the reader that the conflict hasn&#39;t been forgotten, and teasing that the end will provide the answer.</p>
           <p>I like Sol Stein&#39;s
-            <FootnoteRef text="SOL STEIN, On Writing." />
+            <FootnoteRef text={`SOL STEIN,\nOn Writing.`} />
             workmanlike definition of suspense as where the reader wants something to happen and it isn&#39;t happening yet, or the reader wants something to stop, and it doesn&#39;t. However, it doesn&#39;t capture the variety of ways you can invite suspense into your story. The reader might: </p>
           <ol>
             <li>want something to happen, or </li>
@@ -81,7 +81,7 @@ function Suspense() {
           <h4>13.3.1 What Is Tension?</h4>
           <p>Sol Stein defines this as a separate concept from suspense. I tend to think of it as an offshoot of suspense, or suspense in miniature. Generally, suspense refers to the protraction of the main plotline. Tension refers to the little obstacles which are auxiliary to the main plotline, but still delay the main plotline&#39;s resolution.</p>
           <p>Here&#39;s what suspense is not:
-            <FootnoteRef text="STEPHEN KING, The Dead Zone." />
+            <FootnoteRef text={`STEPHEN KING,\nThe Dead Zone.`} />
           </p>
 
           <p className="italict">A thick feeling of tension had begun to creep into his body.</p>
@@ -92,7 +92,7 @@ function Suspense() {
           <p>You can increase tension merely by rearranging sentences and how information is delivered – this affects pacing, i.e. protracting or delaying how quickly narrative points are resolved. </p>
           <p>Generally, to increase tension, make the pacing frustrate the protagonist&#39;s intention. If your protagonist needs time, speed the pacing up. If your protagonist needs to be fast, slow the pacing down.</p>
           <p>You slow pacing by adding detail. A way to speed pacing up is what Sol Stein calls ‘skipping for effect&#39;. This is where you selectively omit information. For example:
-            <FootnoteRef text="JOHN CHEEVER, The Country Husband." /></p>
+            <FootnoteRef text={`JOHN CHEEVER,\nThe Country Husband.`} /></p>
 
           <p className="italic">He washed his body, shaved his jaws, drank his coffee, and missed the seven-thirty-one.</p>
 
@@ -122,7 +122,7 @@ function Suspense() {
           <h4>13.4.2 	Why is it important?</h4>
 
           <p>Roy Clark
-            <FootnoteRef text="ROY PETER CLARK, Writing Tools: 50 Essential Strategies for Every Writer." />
+            <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} />
             lists three reasons to manipulate a story&#39;s pacing:</p>
 
           <ol>
@@ -147,18 +147,18 @@ function Suspense() {
 
           <h4>13.4.3	No-Clock Pacing</h4>
           <p>It&#39;s tempting to reduce pacing to literal references of the passage of time, e.g.</p>
-          <p className='italic'><i>We left two hours later.</i></p>
-          <p className='italic'><i>The city was a twenty minute drive away.</i></p>
-          <p className='italic'><i>I worked at this job for six months, before they fired me.</i></p>
+          <p><i>We left two hours later.</i></p>
+          <p><i>The city was a twenty minute drive away.</i></p>
+          <p><i>I worked at this job for six months, before they fired me.</i></p>
 
           <p>Etc.</p>
 
           <p>There are two problems with this: (1) it&#39;s too formulaic and, (2) reminding your reader the passage of time in the story risks reminding them of the passage of time in real life, and that is the opposite of what a story – in trying to immerse someone – is aiming to do.</p>
           <p>Try to convey the passage of time by the activities your characters are doing, or observations going around them, e.g. </p>
 
-          <p className='italic'>The dance floor eventually gets crowded, mostly with guys, but the vibe is good. I have about ninety beers as another incredible African sky turns from blue to orange to purple to black. The music gets louder and more insistent. I soldier through broken conversations with drunken strangers.
-            <FootnoteRef text="CHUCK THOMPSON, To Hellholes and Back." />
-          </p>
+          <p><i>The dance floor eventually gets crowded, mostly with guys, but the vibe is good. I have about ninety beers as another incredible African sky turns from blue to orange to purple to black. The music gets louder and more insistent. I soldier through broken conversations with drunken strangers.
+            <FootnoteRef text={`CHUCK THOMPSON,\nTo Hellholes and Back.`} />
+          </i></p>
           <p>Multiple parts of this paragraph jump time ahead – ‘ninety beers&#39;, the sky changing colour, several ‘conversations.&#39;</p>
 
           {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}

@@ -38,11 +38,11 @@ function Scenes() {
 
           <h4>6.1.1 What Is A Scene?</h4>
           <p>Robert McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             says that a scene is an 'event,'' and an 'event' is change. A story event creates meaningful change in your main character's life, expressed in terms of a value/s and achieved through conflict.</p>
           <p>The 'value' is something meaningful to your character, which is at stake: love, life, liberty, truth, justice, etc. The conflict is the obstacle threatening the value. The state of the character's relation to the value should change by the end of a scene (this is the 'change' referred to above), otherwise the scene is pointless. The change needs to be contrasting or oppositional - you can't go from 'good' to 'better,' but you can go from 'bad' to 'worse,' (bad changes are, by their nature, always oppositional; i.e. they oppose the protagonist. Also, there is some relativity when a situation becomes 'worse,' it makes the previous 'bad' situation look 'good' by comparison).</p>
           <p>Mckee says a novel may have over 60 scenes/events, as a rough estimate. That figure sounds a little big to me; my analysis of Pet Sematary
-            <FootnoteRef text="STEPHEN KING, Pet Sematary." />
+           <FootnoteRef text={`STEPHEN KING,\nPet Sematary.`} />
             (144K words) identified about 45 scenes, and that was a long novel. A standard 80K word novel (little more than half that size) will have even less.</p>
           <p>Every scene must move towards the conclusion. If a scene's only purpose is to provide exposition, delete it and work the information into the story.</p>
 
@@ -68,7 +68,7 @@ function Scenes() {
           <h3 id="post-sex-words">6.2: 'Sex Words'</h3>
           <p>Concept which 'sex up' your story. Not so much words, but categories which certain 'magic words' enliven, e.g. strategic use of the word 'beautiful' enlivens the 'sex' category.</p>
           <p>Screenwriter Blake Snyder
-            <FootnoteRef text="BLAKE SNYDER, Save the Cat! The Last Book on Screenwriting You'll Ever Need." />
+            <FootnoteRef text={`BLAKE SNYDER,\nSave the Cat! The Last Book on Screenwriting You'll Ever Need.`} />
             calls these 'primal urge' concepts, i.e. survival, hunger, sex, protection of loved ones, fear of death, etc. He says that the lead characters must have these basic needs, wants and desires as the stakes.</p>
           <p>Sex words/categories include:</p>
 
@@ -240,8 +240,7 @@ function Scenes() {
           </p>
 
           <p>III. King Kong
-            <FootnoteRef text={<>
-              <em>King Kong</em>, RKO Radio Pictures, (1933); <em>King Kong</em>, Universal Pictures, (1976); <em>King Kong</em>, Universal Pictures / Warner Bros., (2005).</>} />
+            <FootnoteRef text={<><em>King Kong</em>, RKO Radio Pictures, (1933); <em>King Kong</em>, Universal Pictures, (1976); <em>King Kong</em>, Universal Pictures / Warner Bros., (2005).</>} />
           </p>
 
           <p>There are various memorable scenes in this film (whether the 1933 or 2006 version). But the stand out is at the end, when King Kong climbs up New York&#39;s Empire State Building clutching Anne Darrow in one hand, before he gets shot down by fighter jets.</p>
@@ -268,7 +267,7 @@ function Scenes() {
 
           <h4>6.6.2 	Some general rules</h4>
           <p>Jack Hart
-            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             quotes playwright Lajos Egri, who said a play should start:</p>
 
           <ol>
@@ -281,12 +280,12 @@ function Scenes() {
           <p className="text-sm mb-4 font-rubik text-boldPurple">(1) Start as late possible</p>
 
           <p>Identify the first plot relevant event and try to start from there. However, for certain reasons, you might need to start earlier. If the first plot relevant event requires context, provide that context. Sol Stein
-            <FootnoteRef text="SOL STEIN, How To Grow A Novel." />
+            <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
             says: “To hook the reader, many writers put a death right smack in the opening before the reader can feel anything. The death feels told.”</p>
           <p>If your first plot relevant event is a character&#39;s death, you should introduce the deceased (even briefly) while alive so that their death has more weight.  As Sol Stein says, "[T]he reader must know the people in the car before he sees the car crash.”</p>
 
           <p>William Sloane
-            <FootnoteRef text="WILLIAM SLOANE, The Craft of Writing." />
+            <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft of Writing.`} />
             says access point is why you must start a story as late as possible; you've got to throw the reader into the story. You can't give the reader a choice to refuse to identify with what&#39;s happening.</p>
 
           <p className="text-sm mb-4 font-rubik text-boldPurple">(2) Group main characters, settings and events together</p>
@@ -365,7 +364,7 @@ function Scenes() {
           <p>You need active scenes to keep the story moving, but your story can&#39;t just be active scenes, otherwise you will fatigue and/or confuse the reader. An effective story structure has a natural pattern of hills (active scenes) and valleys (passive scenes). However, the first scene must be an ‘active&#39; scene, not a passive one. This means you have to be thrown into the thick of some plot action immediately.</p>
           <p>Whatever comes later, your first scene cannot start with exposition, or start by summarizing an active event that has previously happened, or merely suggest an active event will happen in the following chapters, or flashback to an active event in the middle of a passive scene (better to start the active event in present tense, and then ‘flashforward&#39;).</p>
           <p>An example of a first scene that is passive is in the novel, The Chalk Man.
-            <FootnoteRef text="C. J. TUDOR, The Chalk Man." />
+            <FootnoteRef text={`C. J. TUDOR,\nThe Chalk Man.`} />
             In the first scene, a dead girl is described lying in the forest, which is then found by the killer, who removes and takes away the head. This is passive because we are being shown the aftermath of an active event (a murder). We are having the aftermath of an active event summarized to us. There are no characters, no plot and no action going on here, just description; just a dead body doing nothing.</p>
           <p>Instead, the first scene should have been about a girl (who we assume is the main character) who is introduced and briefly characterized to us, before shockingly being stalked, and chased down, and killed in the forest, and then finishing with her head being taken. Better, the chapter ends the moments she&#39;s killed, and we get the first description of her body later, in another active scene when an investigating detective stumbles upon her gruesome and (to our surprise) now headless remains.</p>
 
@@ -373,7 +372,7 @@ function Scenes() {
           <p>Just as you can have a ‘microcosm&#39; first line, you can have a ‘microcosm&#39; first scene – anything ‘first&#39; can be a microcosm, the point is it&#39;s a miniaturized taste of the larger offering, like a synecdoche. A microcosm is like a rehearsal for the main story; characters are shown ‘in practice&#39; for the roles they will acquire later, later plot threads are teased, story elements are shown symbolically which later crystallize as literal.</p>
           <p>Example:</p>
           <p>In the novel Monkey Shines,
-            <FootnoteRef text="MICHAEL STEWART, Monkey Shines." />
+            <FootnoteRef text={`MICHAEL STEWART,\nMonkey Shines.`} />
             protagonist Allen&#39;s dreams of becoming an Olympic runner are shattered after he becomes a quadriplegic, and then is partnered with a ‘helper monkey&#39; who succumbs to homicidal rages.</p>
           <p>The first scene acts as a microcosm of the relationships between the characters, where Allen is shown competing in a running race, with his girlfriend, Linda, and his friends, Melanie and Geoffrey, watching. Allen gets a leg injury in the final lap but manages to win, which he is cocky and complacent about. Linda confidently asserts Allen&#39;s prospective Olympic eligibility, flippantly dismisses his alternative (legal career) and then hurries off in her convertible. Friends Melanie and Geoffrey are less complacent, but stick around to earnestly congratulate Allen. Despite expressing concern over Allen&#39;s limp, Geoffrey leaves Allen in favor of his lab work.</p>
           <p>There are multiple elements of this scene which echo large later:</p>
@@ -388,7 +387,7 @@ function Scenes() {
 
           <h4>6.6.3 	Establishing Shot</h4>
           <p>The establishing shot is the reader&#39;s first impression of the story, and will stay with the reader as the progress through the rest of the story. Hart  provides an illustration of this with the start of the non-fiction story ‘Small-Town Cop&#39;:
-            <FootnoteRef text="TRACY KIDDER, Small-Town Cop." />
+            <FootnoteRef text={`TRACY KIDDER,\nSmall-Town Cop.`} />
           </p>
           <p>“From the summit of Mount Holyoke, in western Massachusetts, you look out on the valley of the Connecticut River, a broad landscape of cultivated fields and of forest sweeping away across the horizon, and, at the center, the old town of Northampton. It nests within natural boundaries. To the east the wide river bends around fields, planted mostly in corn. To the north and west, the foothills of the Berkshires rise up in the distance, higher than Northampton&#39;s many steeples. . . . From the summit it seems, like the corn fields beside it, a dream of perfect order, entirely coherent and self-contained, a place where a person might live a whole life and consider it complete, a tiny civilization all its own. Forget the messiness of years and days—every work of human artifice has a proper viewing distance. The town below fits in the palm of your hand. Shake it and it snows.”</p>
           <p>Here, a broad establishing shot emphasises the smallness of the town – relevant because the main character is a ‘small-town cop.&#39;</p>
@@ -435,13 +434,13 @@ function Scenes() {
 
           <div className="custom-box">“Keep one thing in mind when you&#39;re writing a dénouement: Falling action has drained all the dramatic tension from the story. Readers want to know the answers to a few questions, but the powerful engine of story has shut down, leaving little momentum to carry your audience farther forward. So don&#39;t push your luck. Wrap things up as quickly as possible and leave the stage Once you&#39;ve answered the necessary questions, you have one remaining task—bring the story to an end with what journalistic types call a “kicker.” A good one will sum up, surprise a little, perhaps bring things full circle, firmly planting your protagonists in their new status quo. It will leave absolutely no doubt that the story has ended.”
             <p>— Jack Hart
-              <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+              <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             </p>
           </div>
 
           <h4>6.7.2 The Ending</h4>
           <p>Story resolutions “absolutely and without exception, must be products of the character&#39;s own efforts.”
-            <FootnoteRef text="JON FRANKLIN, Writing For Story: Craft Secrets of Dramatic Nonfiction." />
+            <FootnoteRef text={`JON FRANKLIN,\nWriting For Story: Craft Secrets of Dramatic Nonfiction.`} />
           </p>
 
           <p>There are two kinds of endings: happy endings (a rise) and unhappy endings (a fall).</p>
@@ -474,7 +473,7 @@ function Scenes() {
 
           <h4>6.7.4 	Bad Endings</h4>
           <p>Mittelmark and Newman provide examples of bad endings:
-            <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
+            <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
           <p className="text-sm mb-4 font-rubik text-boldPurple">(1) Deus Ex Machina</p>
           <p>Ensure the ultimate pay-off of your ending is properly set up in advance, otherwise you&#39;ll have an unsatisfying ‘Deus Ex Machina&#39; ending. This is where a device comes out of nowhere to resolve the plot for your protagonist.</p>
@@ -495,7 +494,7 @@ function Scenes() {
 
           <h4>6.8.1 	To Not Be Continued...</h4>
           <p>All of your scenes must do their own work. Never use two different scenes to do the same thing.
-            <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
+            <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
           <p>This is so even if you want to show your character stuck doing the same thing, i.e. you want to suggest circumstances haven&#39;t changed.</p>
           <p>There are at least two kinds of breaches of this rule:</p>
@@ -520,13 +519,13 @@ function Scenes() {
 
           <h4>6.8.3 	The Crucible</h4>
           <p>This is a concept suggested by Sol Stein
-            <FootnoteRef text="SOL STEIN, Stein on Writing." />
+            <FootnoteRef text={`SOL STEIN,\nStein on Writing.`} />
             for the purpose of plotting a story. He defines a crucible existing where “the motivation of the characters to continue opposing each other is greater than their motivation to run away.”</p>
           <p>A crucible can be emotional or physical. It could exist because they&#39;re in a physical space which prevents them from escaping, e.g. a prison, or it could be because escape would be stigmatizing, e.g. a marriage, or it could be because both characters want something which only one can have, e.g. a hunter wants to kill a lion and the lion wants to kill the hunter.</p>
 
           <h4>6.8.4 	The Dilemma</h4>
           <p>A concept suggested by Robert McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             for structuring character action. Shallow characters tend to have the choice between good/evil or right/wrong. This is repetitive and predictable; if a character makes a good choice, they are rewarded for it, whereas if they make an ‘evil&#39; choice, they are punished for it.</p>
           <p>A more complex, nuanced way of addressing this issue is to create a ‘dilemma.&#39; There are two kinds: (1) A choice between multiple irreconcilable good choices. In this case, the choice is desirable, the problem is committing to it forecloses the equally desirable alternative. Usually the protagonist stands to gain something, whichever choice is made, it&#39;s just bittersweet because of the non-severable loss of opportunity which accompanies it. (2) A choice between the lesser of two evils. Here, the choice is undesirable and the protagonist does not wish to have to make it. It may be that everything was fine before the choice reared its head, and the protagonist may not actually gain, only lose, the question is which loss is more tolerable?</p>
           <p>Consider what is fundamentally at stake when you create a dilemma – love, power, money, knowledge, life, security, etc – and ensure the choice is genuine and not ‘obvious.&#39; Whichever you decide, note McKee&#39;s advice; a price must be paid. The protagonist must risk or lose the alternative choice to gain the other. Otherwise the reader won&#39;t feel the dilemma was true.</p>
@@ -534,7 +533,7 @@ function Scenes() {
           <h4>6.8.5 	Set the Scene</h4>
           <p>Scene-setting is essential; the selection of details must be meaningful.</p>
           <p>Hart
-            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             analyses this paragraph by Wayne Curtis, describing a riverboat trip up the Mississippi for the Atlantic:</p>
           <div className="custom-box">“The night grew darker, and the captain fired up a massive spotlight, sending upriver a great silver cylinder that glittered with the confetti of confused insects. From the dark void ahead of us, rubies and emeralds came sparkling back off the reflectors of the navigational buoys. A full moon had risen over the east bank, and it moved slowly from one bracketed porch column to another, the ship serving as a sort of Victorian Stonehenge to mark the loopy curves of the river.”</div>
           <p>Hart says, “Notice how Curtis uses the searchlight to create a sense of space. Lots of perspective- rich images can do the same thing—a road winding into the snowy woods, a long stairway ascending in front of you, railroad tracks. Seize on such devices to help flesh out the stages you create. And phenomena such as parallax—in this case the moon appearing to move behind the porch columns— add both perspective and motion.”</p>
@@ -571,7 +570,7 @@ function Scenes() {
 
           <ol>
             <li>As Tom French said: “Stay as close to the action as possible.”
-              <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+              <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             </li>
             <li>Do not write in a time jump before you have ensured the reader&#39;s interest and hunger with live issue/s. A time jump is a fantastic opportunity for a reader to hedge their bets and close the book, because it requires regenerating the reader&#39;s interest all over again – kind of like dying and regenerating in a video game; if the game hasn&#39;t been promising so far, why not take the death as an opportunity to switch off?</li>
             <li>Only bring in flashbacks and flashforwards after generating curiosity in your reader as to what the flashback/flashforward is conveying. Don&#39;t bring in a flashback/forward to answer a question your reader didn&#39;t realise they wanted to know. Don&#39;t make your reader ask ‘why are we flashing back?&#39;</li>
@@ -596,7 +595,7 @@ function Scenes() {
 
           <h3 id="post-the-french-scene">6.10: The 'French Scene'</h3>
           <p>This is a screenwriting concept, but may be transferable to novel-writing. Normally you think of scenes being contained within separate settings; the end of one scene and the start of another is signaled by a change in setting. Sometimes the same scene may span multiple different settings, for instance if characters are travelling (e.g. in the The Great Railway Bazaar,
-            <FootnoteRef text="PAUL THEROUX, The Great Railway Bazaar." />
+            <FootnoteRef text={`PAUL THEROUX,\nThe Great Railway Bazaar.`} />
             this is somewhat unavoidable).</p>
           <p>Conversely, you can also have multiple scenes take place in the same setting (unavoidable if your story takes place in one setting). This is called ‘the French Scene&#39;, and is an artifice of French neoclassical theatre. Between scenes, what changes is not the setting, but the entrance/exit of characters or the introduction of knowledge/revelation which critically changes the scene to the extent it would be artificial to treat the post-revelation scene as a continuation of the previous scene. Relationships and characters may be so altered that that the former virtually extinguish and new ones come into creation. A character who was a lover in the previous scene, may become an enemy in the next.</p>
           <p>You may emphasise the scene change by creating ‘sub-locations&#39; within your setting. For instance, if characters are confined to a room, they may switch positions, or activities (characters sitting facing one another creates a different feel from one character sitting facing a computer and another hiding in the cupboard, or sleeping in the bed).</p>
@@ -606,11 +605,11 @@ function Scenes() {
 
           <h3 id="post-progression">6.11: Progression</h3>
           <p>Jack Bickham says,
-            <FootnoteRef text="JACK BICKHAM, The 38 Most Common Fiction Writing Mistakes." />
+            <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes.`} />
             “All good fiction moves forward.”</p>
           <p>A story must progress naturally; actions have reactions, risks have consequences, and changes have greater and greater effect throughout the characters&#39; lives.</p>
           <p>McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             lists 4 primary techniques for depicting progression:</p>
 
           <h4>6.11.1 	Social Progression (‘widening&#39;)</h4>
@@ -668,7 +667,7 @@ function Scenes() {
           <h3 id="post-bait-and-switch-scene">6.12: Bait-and-Switch Scene</h3>
           <p>If you set your scene one place, populate it with certain characters, and have certain events occur, don&#39;t wistfully carry the reader to an imagined scene of another place, with other characters, and there events. Otherwise you might as well just write that scene.</p>
           <p>Mittelmark and Newman provide some examples:
-            <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
+            <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
           <div className="custom-box">
             <p>She imagined the ballroom as it must once have been.</p>

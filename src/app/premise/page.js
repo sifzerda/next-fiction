@@ -75,11 +75,14 @@ function Premise() {
 
           <div className="custom-box">
             <ol>
-              <li>What if a cynical ghost hunting skeptic was in a genuinely haunted house?<FootnoteRef text="STEPHEN KING, 1408." />
+              <li>What if a cynical ghost hunting skeptic was in a genuinely haunted house?
+                <FootnoteRef text={`STEPHEN KING,\n1408.`} />
               </li>
-              <li>What if an intellectually handicapped man was in an experiment that made him a genius?<FootnoteRef text="DANIEL KEYES, Flowers for Algernon." />
+              <li>What if an intellectually handicapped man was in an experiment that made him a genius?
+                <FootnoteRef text={`DANIEL KEYES,\nFlowers for Algernon.`} />
               </li>
-              <li>What if a typical, conservative 1950s breadwinning husband started physically shrinking? <FootnoteRef text="RICHARD MATHESON, The Incredible Shrinking Man." />
+              <li>What if a typical, conservative 1950s breadwinning husband started physically shrinking? 
+                <FootnoteRef text={`RICHARD MATHESON,\nThe Incredible Shrinking Man.`} />
               </li>
             </ol>
           </div>
@@ -206,13 +209,13 @@ function Premise() {
           <div className="p-3 mb-3 rounded bg-hYellow border border-gray-300 font-rubik">
             <p className="mb-0">“Good stories need an engine, a question the story answers for the reader. Who done it? Guilty or not guilty? Who will win the race? Which man will she marry? Will the hero escape, or die trying? Good questions drive good stories.” </p>
             <p></p><i>— Roy Clark
-              <FootnoteRef text="ROY CLARK, Writing Tools: 50 Essential Strategies for Every Writer." />
+              <FootnoteRef text={`ROY CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} />
             </i></div>
 
           <div className="p-3 mb-3 rounded bg-hYellow border border-gray-300 font-rubik">
             <p className="mb-0">"Plant little queries along the way, little hints and teasers. Then answer them one by one, substituting new queries as you do." </p>
             <p></p><i>— David Carroll
-              <FootnoteRef text="DAVID CARROLL, A Manual of Writer's Tricks." />
+              <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
             </i></div>
 
           <p>Live issues must accord with all of these criteria:</p>
@@ -252,7 +255,7 @@ function Premise() {
 
           <p>With each new question raised, you get increasingly pumped for the conclusion, which you expect to answer all these questions, and it does. Also, although different questions are answered at different times, Crichton never answers all his questions; there is always at least one question open. Even better, some of the answers actually raise more questions. Lastly, the ending does not directly answer all of the questions, but throughout the story, enough information is provided for the reader to answer those questions themselves — this is a great way to encourage multiple reading, or just keeping the story in your reader&#39;s mind to encourage discussion with others, and possibly recommendation.</p>
           <p>Ira Levin is another author skilled at using live issues, see for instance in the Stepford Wives:
-            <FootnoteRef text="IRA LEVIN, The Stepford Wives." />
+            <FootnoteRef text={`IRA LEVIN,\nThe Stepford Wives.`} />
           </p>
           <div className="custom-box">
             <ol>

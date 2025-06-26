@@ -56,10 +56,10 @@ function Subtext() {
           <p className='italic'>He: “I want to surprise you.”</p>
 
           <p>Another example: In Flowers for Algernon,
-            <FootnoteRef text="DANIEL KEYES, Flowers for Algernon." />
+            <FootnoteRef text={`DANIEL KEYES,\nFlowers for Algernon.`} />
             the main character is developing new romantic interest in the love interest, but doesn&#39;t consciously realise it (yet). The protagonist idly reminisces; ‘she looked younger than I remembered.&#39; That is the textual/primary meaning, while the secondary/subtextual meaning is that he finds her more physically attractive.</p>
           <p>Another example: In The Dead Zone,
-            <FootnoteRef text="STEPHEN KING, The Dead Zone." />
+            <FootnoteRef text={`STEPHEN KING,\nThe Dead Zone.`} />
             the secondary protagonist evaluates the relationship material of her date by thinking, ‘[He] never made [her] cry.&#39; The subtext being that a previous boyfriend has.</p>
 
           <h4>10.1.1 Types of Subtext</h4>
@@ -74,7 +74,7 @@ function Subtext() {
           <p>This is where the subtextual meaning – although different to – is not in contradiction with the textual meaning. That is, both meanings can be taken together, without affecting each other.</p>
           <p>For example, the way a character describes their house may be subtext for the way the character subconsciously feels about themselves. Description of the interior may also suggest things about the character&#39;s mentality (messy, organized, artistic, etc). That the description/dialogue describes both the house and the character is not in contradiction – maybe the character intended the likeness. </p>
           <p>The title of the short story, ‘A Clean, Well-Lighted Place&#39;
-            <FootnoteRef text="ERNEST HEMINGWAY, Winner Take Nothing." />
+            <FootnoteRef text={`ERNEST HEMINGWAY,\nWinner Take Nothing.`} />
             is subtext for a person&#39;s place in the world, in that it&#39;s opposite (a dirty, disorganized, dark place) refers to the larger universe. </p>
 
           <h5>Contradictory</h5>

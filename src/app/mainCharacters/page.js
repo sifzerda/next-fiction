@@ -55,16 +55,16 @@ function MainCharacters() {
           <h3 id="post-ditch-the-wimp">7.2: Ditch the Wimp</h3>
           <div className="custom-box">“...[I]nteresting characters are almost always characters who are active—risk-takers—highly motivated toward a goal.”</div>
           <p>— Jack Bickham
-            <FootnoteRef text="JACK BICKHAM, The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)." />
+            <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
           </p>
 
           <p>Don&#39;t make your main character unconfident, timid, indecisive, passive, despondent, indolent, etc. It comes down to this: characters who act (or react) are interesting; characters who fail to act/react are not. And your plot needs to be driven, so you need a driven character.</p>
           <p>There is a minor caveat; your protagonist may be deceptively weak (but deep down is actually hiding strength), or start weak but develop into a strong character. Think Tolkien&#39;s Frodo,
-            <FootnoteRef text="J. R. R. TOLKIEN, The Lord of The Rings Trilogy." />
+            <FootnoteRef text={`J. R. R. TOLKIEN,\nThe Lord of The Rings Trilogy.`} />
             or Stephen King&#39;s Carrie,
-            <FootnoteRef text="STEPHEN KING, Carrie." />
+            <FootnoteRef text={`STEPHEN KING,\nCarrie.`} />
             Shirley Jackson&#39;s Eleanor.
-            <FootnoteRef text="SHIRLEY JACKSON, The Haunting of Hill House." />
+            <FootnoteRef text={`SHIRLEY JACKSON,\nThe Haunting of Hill House.`} />
             It&#39;s not that these characters are wimps or weaklings, but that they are mistaken as such, or become strong by the end of the story, which creates suspense and interest when their latent potential reveals itself.</p>
           <p>I also address this under ‘Cowardly or Courageous&#39; under the Horror Section.</p>
 
@@ -83,7 +83,7 @@ function MainCharacters() {
 
           <h4>7.4.1 	Parts of a Character:</h4>
           <p>Professional writer, Sol Stein
-            <FootnoteRef text="SOL STEIN, On Writing." />
+            <FootnoteRef text={`"SOL STEIN,\nOn Writing."`} />
             breaks characterization into a number of concepts:</p>
 
           <p><span className="font-bold">(1)	Personality </span></p>
@@ -106,7 +106,7 @@ function MainCharacters() {
           <p className="font-bold text-boldPurple">I.	General Traits</p>
           <p>These are traits formed by heredity and environment.</p>
           <p>You can further categorise general traits into:
-            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
 
           <p><span className="font-bold">(a)	Universal Traits: </span></p>
@@ -129,18 +129,18 @@ function MainCharacters() {
 
           <h4>7.4.3 	Set Off traits (AKA Interior Foils)</h4>
           <p>Stein
-            <FootnoteRef text="SOL STEIN, On Writing." />
+            <FootnoteRef text={`"SOL STEIN,\nOn Writing."`} />
             provides the tip to contrast traits against each other, in order to emphasise one of those traits. To me, this sounds similar to creating foils (see below) except instead of the foils being separate characters, they are separate traits or details existing in one character.</p>
           <p>Stein&#39;s example is a character who wields power over another (e.g. a moneylender) introduced with attention to vulnerable traits. For instance, the moneylender is in a wheelchair, or is going blind. This emphasizes the subsequent position of power they are in by advancing money to the protagonist.</p>
           <p>Stein says: “...when introducing a character who will be in a position of power in a scene, suggest that character&#39;s vulnerability before the character exercises power. Conversely, when introducing a character who will be hurt emotionally or physically in the scene to come, show the character&#39;s strength at the outset.”</p>
           <p>This is a matter of personal judgment. In some cases, showing a vulnerable character get emotionally hurt may be more suspenseful than a strong character, because it threatens the welfare of the vulnerable character more than a strong character; a character who is totally destroyed may be more interesting than a character who is hurt but later recovers.</p>
           <p>For instance, in Lord of the Flies,
-            <FootnoteRef text="WILLIAM GOLDING, Lord of the Flies." />
+            <FootnoteRef text={`"WILLIAM GOLDING,\nLord of the Flies."`} />
             the boys&#39; victimising the weaker ‘Piggy&#39; is more suspenseful than if they&#39;d targeted the more cunning Ralph – who has a greater capacity to run, hide, or stand up for himself – because it raises a greater threat.</p>
 
           <h4>7.4.1.1	Direct and Indirect Characterisation</h4>
           <p>Hart distinguishes between direct and indirect characterization:
-            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text={`"JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction."`} />
           </p>
           <p className="font-bold text-boldPurple">I.	Direct characterisation</p>
           <p>This is where you simply describe character traits.</p>
@@ -209,7 +209,7 @@ function MainCharacters() {
 
           <p className="font-bold text-boldPurple">III. Symbolic Choices</p>
           <p>Although choice consequences must be ‘tangible,&#39; not all choices should be ‘life or death.&#39; Some choices may be relatively superficial. One example is the choice of School House (or preference influence) in Harry Potter.
-            <FootnoteRef text="J. K. ROWLING, The Harry Potter series." />
+            <FootnoteRef text={`"J. K. ROWLING,\nThe Harry Potter series."`} />
             This choice is more symbolic for the protagonist; telling us something about him rather than opening or closing doors down the track.  </p>
 
           <p className="font-bold text-boldPurple">IV. Genuine Choice</p>
@@ -228,7 +228,7 @@ function MainCharacters() {
 
           <h3 id="post-maximum-capacity">7.7: Maximum Capacity</h3>
           <p>As a basic rule, Frey
-            <FootnoteRef text="JAMES FREY, How to Write a Damn Good Novel Part 1." />
+            <FootnoteRef text={`"JAMES FREY,\nHow to Write a Damn Good Novel Part 1."`} />
             says characters must always be acting at ‘maximum capacity.&#39; This means your protagonist&#39;s action must always be moving toward their plot relevant goals. Your character doesn&#39;t get a ‘day off&#39; from the plot. If you want to slow down your protagonist&#39;s progression, you need to create obstacles. These can be external or internal. By ‘internal&#39; I don&#39;t mean ‘change of mind&#39; or ‘indecision&#39;, I mean personal demons or flaws.</p>
           <p>This also doesn&#39;t mean your character must be one-track, and can&#39;t be overwhelmed with multiple different possible options. The distinction is; your character cannot be torn between two options, one they want with 25% certainty, and another they want with 28% certainty. They can&#39;t be ambivalent, in other words. If your character is overwhelmed with options, they must want, with certainty, all of those options with 100% certainty (but only may select one).</p>
           <p>As Frey says, “If the character agonizes, so much the better.”</p>
@@ -281,7 +281,7 @@ function MainCharacters() {
           <div className="custom-box">
             <p>Ultimately, the purpose of character is to drive story. Any detail of appearance, any anecdote or personal possession, no matter how intrinsically interesting, is a distraction if it fails to move the story forward.</p>
             <p>— Jack Hart
-              <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+              <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             </p>
           </div>
 
@@ -313,7 +313,7 @@ function MainCharacters() {
           <h4>7.10.1 	Sock Puppet</h4>
           <p>The reason why the trivia model is a waste of time is because your character only needs depth where it matters to the plot.</p>
           <p>Mittelmark and Newman
-            <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
+            <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
             say that, if the plot does not concern the workplace, the character doesn't have to go to work. If it doesn't centre on a love affair, the character is celibate. The character's age, class and ethnicity are a matter of guesswork.</p>
           <p>In those areas the plot isn&#39;t interested in, your character is a ‘sock puppet.&#39;</p>
 
@@ -338,7 +338,7 @@ function MainCharacters() {
 
           <h3 id="post-character-vs-characterization">7.11: Character vs Characterization</h3>
           <p>Robert McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             distinguishes ‘Characterisation&#39; and ‘Character.&#39; The former is the sum of your character, while the latter is the heart/truth of your character.</p>
           <p>Characterisation comprises all the observable qualities of a person: age and IQ; sex and sexuality; style of speech and gesture; choices of home, car, and dress; education and occupation; personality and neuroticism; values and attitudes…etc. This concept is akin to the ‘trivia model.&#39;</p>
           <p>The singular assemblage of this combination of facts makes up your individual character. However, it doesn&#39;t provide ‘character.&#39;</p>
@@ -525,7 +525,7 @@ function MainCharacters() {
 
           <h4>7.13.1 	Character ‘Death&#39;</h4>
           <p>In his study on suicide, Edwin Shneidman says:
-            <FootnoteRef text="EDWIN SHNEIDMAN, The Suicidal Mind." />
+            <FootnoteRef text={`EDWIN SHNEIDMAN,\nThe Suicidal Mind.`} />
             "For practical purposes, most suicides tend to fall into one of five clusters of psychological needs. They reflect different kinds of psychological pain.”</p>
           <p>These are:</p>
           <ol>
@@ -552,7 +552,7 @@ function MainCharacters() {
 
           <h3 id="post-the-law-of-conservatism">7.16: The Law of Conservatism</h3>
           <p>In real life, McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             states people are conservative (I use my own term ‘economic&#39;) – that is, they go for the easiest option unless incentivized to do something more difficult.   </p>
           <p>The problem is, characters who behave like this in a story are boring. You need to keep throwing up incentives to push your characters to behave more progressively, unexpectedly, or desperately. Your characters shouldn&#39;t just be surprising the reader, they should be surprising themselves.</p>
 
@@ -611,7 +611,7 @@ function MainCharacters() {
           <h3 id="post-better-never-than-late">7.19: Better Never Than Late</h3>
           <p>As a rough rule, main characters should not be introduced past the first third of a novel. There are exceptions -- one is where you've acknowledged a character early on, even if you don't show them.</p>
           <p>Example: In 'Sphere',
-            <FootnoteRef text="MICHAEL CRICHTON, Sphere" />
+            <FootnoteRef text={`MICHAEL CRICHTON,\nSphere`} />
             the main character explores an alien spacecraft with his team members. All of these characters are main characters, because of their direct contact/engagement with the subject matter of the story, therefore they need to be introduced early on. However, Crichton instead introduces (i.e. gives them a couple of lines of dialogue about themselves) all but one of the team members -- the last one is seen by the main character and his name acknowledged. This creates a sense we look forward to being reintroduced to this character later, and this allows Crichton to delay the introduction.  </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -639,7 +639,7 @@ function MainCharacters() {
           <p>A lot of lip service is paid to ‘multi-dimensional&#39; characters, compared to ‘one or two dimensional&#39; characters. But what does this mean?</p>
           <p>As with depth (above) you do not make a character more dimensional by supplying more and more information about them.</p>
           <p>McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             says that the dimensionality of characters refers to contradiction. No one is wholly consistent. We experience cognitive dissonance. We pursue goals which, at the same time, make us feel guilty. We engage in relationships with people knowing they hurt us. We defy people&#39;s expectations of us. We act one way in one situation, and another way in another.   </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -659,7 +659,7 @@ function MainCharacters() {
 
           <h3 id="post-number-of-characters">7.23: Number of Characters</h3>
           <p>McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Style, Structure, Substance, and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             makes a helpful point: For every event in your story, each character will have a different reaction. And – </p>
           <p className="italic">“If two characters in your cast share the same attitude and react in kind to whatever occurs, you must either collapse the two into one, or expel one from the story. When characters react the same, you minimize opportunities for conflict. Instead, the writer's strategy must be to maximize these opportunities.”</p>
           <p>One way you can increase conflict using characters is for different characters to have something at stake in the main characters decisions. For example, protagonist must make decision X, which involves mutually exclusive choice 1 and 2. Character A wants Protagonist to make choice 1 because of personal impact it would have on them. Character B wants choice 2 because of same. </p>
@@ -669,7 +669,7 @@ function MainCharacters() {
           <h3 id="post-the-strange-sandwich">7.24 The 'Strange Sandwich'</h3>
           <p>Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). </p>
           <p>Burnett and Burnett
-            <FootnoteRef text="HALLIE BURNETT AND WHIT BURNETT, Fiction Writer's Handbook." />
+            <FootnoteRef text={`"HALLIE BURNETT AND WHIT BURNETT,\nFiction Writer's Handbook."`} />
             states that, “...dull characters become more interesting against exotic backgrounds …[and] complicated and alien individuals stand out best against simplicity.”</p>
           <p>In other words, don&#39;t place an oddball in an odd land, and don&#39;t place an unremarkable wallflower in a wallpaper town.</p>
 
@@ -697,26 +697,26 @@ function MainCharacters() {
               <FootnoteRef text={<><em>The Snowman</em>, Nordic Film, (2017).</>} />
             </li>
             <li>Shadow Moon;
-              <FootnoteRef text="NEIL GAIMAN, American Gods." />
+              <FootnoteRef text={`"NEIL GAIMAN,\nAmerican Gods."`} />
             </li>
             <li>Moredeth;
-              <FootnoteRef text="ROBERT JORDAN, The Wheel of Time." />
+              <FootnoteRef text={`"ROBERT JORDAN,\nThe Wheel of Time."`} />
             </li>
             <li>Tookie De La Crème;
-              <FootnoteRef text="TYRA BANKS, Modelland." />
+              <FootnoteRef text={`"TYRA BANKS,\nModelland."`} />
             </li>
             <li>Wicks Cherrycoke;
-              <FootnoteRef text="THOMAS PYNCHON, Mason & Dixon." />
+              <FootnoteRef text={`"THOMAS PYNCHON,\nMason & Dixon."`} />
             </li>
             <li>Del Capslock;
-              <FootnoteRef text="JOHN SANDFORD, Lucas Davenport." />
+              <FootnoteRef text={`"JOHN SANDFORD,\nLucas Davenport."`} />
             </li>
             <li>Bucky Wunderlick</li>
             <li>Darken Rahl;
-              <FootnoteRef text="TERRY GOODKIND, Sword of Truth." />
+              <FootnoteRef text={`"TERRY GOODKIND,\nSword of Truth."`} />
             </li>
             <li>Zaspahr Clyntahn;
-              <FootnoteRef text="DAVID WEBER, Safehold." />
+              <FootnoteRef text={`"DAVID WEBER,\nSafehold."`} />
             </li>
             <li>Any hyphenated name in a fantasy or sci-fi;</li>
           </ol>
@@ -733,7 +733,7 @@ function MainCharacters() {
           <div className="custom-box">
             <p className="italic">“It's [...] a good idea to avoid giving two important characters names that start with the same letter. The reader speeding ahead will have to slow down to register the right character. It's best to avoid any confusion or distraction that will divert the reader from his experience.”</p>
             <p>— Sol Stein
-              <FootnoteRef text="SOL STEIN, How To Grow A Novel." />
+              <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
             </p>
           </div>
           <p>There is a broader principle to be derived from Stein&#39;s advice. That is words that are ‘smooth&#39; or reading obstacles. I.e. how reflexively read is the name as a word? Does the eye have to slow and the mind concentrate to process and parse the name/word? Some extreme examples in the works of Lovecraft: Cthulhu; Nyarlathotep; these are unthinkably horrible names to have to parse multiple times in a story, but the entities they describe are supposed to be unthinkably horrible, so it works. </p>
@@ -744,7 +744,7 @@ function MainCharacters() {
           <p>Sometimes your character won't admit or accept what they feel. How do you say that your character is in love, or terrified, or irritated, if they don't recognise it or refuse to acknowledge it?</p>
           <p>One way is to displace the feeling onto someone or something else (preferably a concrete thing, e.g. an outward behaviour). Suggestively, the character is quick to interpret another's behaviour as due to the relevant feeling, because it's the one that's on his/her mind. This is a psychological phenomenon called ‘transference.&#39;</p>
           <p>Example:
-            <FootnoteRef text="WILLIAM PETER BLATTY, The Exorcist." />
+            <FootnoteRef text={`"WILLIAM PETER BLATTY,\nThe Exorcist."`} />
           </p>
           <p className="italic">The air was thin and still in the darkness. Some cats at a garbage can scurried in fright as he crossed toward the house. </p>
           <p>At this point in the story the protagonist here is feeling "haunted." He also wants to believe he has no rational reason to feel afraid. Therefore, there would be a conflict if he was himself described as frightened (e.g, if the cats startled him). It wouldn't ring true with his self-denial.</p>
@@ -758,7 +758,7 @@ function MainCharacters() {
           <p>The protagonist must want something tangible. 'Love,' 'success,' 'power,' 'money' and 'happiness' are too vague. The goal must be tangible so that it's clear to the reader when the protagonist has achieved it. The prize must be more than 'something nice if I had it.' It's absence must weigh on the protagonist in some palpable way, and emphasised by events in the story.</p>
           <p>What makes a protagonist:</p>
           <p><span className="underline">Want:</span> According to John Yorke,
-            <FootnoteRef text="JOHN YORKE, How Stories Work and Why We Tell Them." />
+            <FootnoteRef text={`JOHN YORKE,\nHow Stories Work and Why We Tell Them.`} />
             a character who is passive is "effectively dead." A character is passive if they don't want anything. If they don't want anything, they have no reason to act.</p>
           <p><span className="underline">Tangible Want:</span> the want must be defined enough (by object, event, person, date, time, quantity, etc) so that it's clear to the reader when the protagonist has achieved it. A clearly defined want such as 'save my best friend,' is effective, whereas 'save the world,' is too general.</p>
           <p><span className="underline">Effect:</span> 'want' comes from Old English 'vant' meaning 'absence' or 'lacking.' The absence of the thing must weigh on the protagonist in some palpable way, e.g. cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize, it changes them or their life in some corresponding way. The object itself doesn't need to be big or dramatic as long as its effect or consequences would be significant.</p>

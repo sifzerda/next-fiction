@@ -60,7 +60,8 @@ function Dialogue() {
 
           <h3 id="post-brevity">12.2: Brevity</h3>
           <p>Dialogue should be written with brevity – less is more. Writing can be dialogue-driven, however, my personal rule is to get away with writing the least amount without compromising meaning. That may even mean cutting dialogue altogether in favour of describing that character&#39;s behaviour (description – of action; not in general – should be given priority over dialogue, i.e. show don&#39;t tell). </p>
-          <p>Sol Stein explains, “For the reader, dialogue is meant to be experienced [absorbed immediately], not studied [laboured over and re-read]. Some of the dialogue I see in manuscript is involuted, complex, difficult to digest in a quick reading. Halting over a line of dialogue can interrupt the reader's experience.” Don&#39;t put “thoughts within thoughts. That characteristic doesn&#39;t work in dialogue because thoughts within thoughts put the reader into a deciphering rather than an experiencing mode. Dialogue that is short, snappy, punchy, engages other characters as well as the reader.”<FootnoteRef text="SOL STEIN, How To Grow A Novel." /></p>
+          <p>Sol Stein explains, “For the reader, dialogue is meant to be experienced [absorbed immediately], not studied [laboured over and re-read]. Some of the dialogue I see in manuscript is involuted, complex, difficult to digest in a quick reading. Halting over a line of dialogue can interrupt the reader's experience.” Don&#39;t put “thoughts within thoughts. That characteristic doesn&#39;t work in dialogue because thoughts within thoughts put the reader into a deciphering rather than an experiencing mode. Dialogue that is short, snappy, punchy, engages other characters as well as the reader.”
+            <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
           <p>Here&#39;s an example of word-cutting:</p>
 
           <u>A. Verbose Example:</u>
@@ -92,7 +93,7 @@ function Dialogue() {
 
           <h3 id="post-make-dialogue-oblique">12.3: Make Dialogue Oblique</h3>
           <p>You want dialogue to create conflicts but also protract tension. To achieve the first, dialogue should be confrontational. To achieve the second, it should be indirect – Sol Stein uses the term ‘oblique&#39;. This means dialogue doesn&#39;t directly reveal what the speaker is actually thinking. Dialogue is like a game of tennis. The oblique return, says Sol Stein,
-            <FootnoteRef text="SOL STEIN, How To Grow A Novel." />
+            <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
             is the return of the ball somewhere else than where it is expected. Oblique dialogue is more interesting and dynamic. It turns ‘words&#39; into a ‘character&#39;, fleshes out characters, makes them sound as if their hiding things, and therefore makes the reader want to learn more about them. </p>
 
           <h4>12.3.1 	Dialectical Dialogue / ‘Dodgem&#39; Dialogue</h4>
@@ -110,7 +111,7 @@ function Dialogue() {
           <ol>
             <li>One evening Ethel asked, "Katie, would you like to come to the barnyard?"</li>
             <li>"Yes, I would," I answered.
-              <FootnoteRef text="BEVERLY HOPWOOD, Katie and Ozzie." />
+              <FootnoteRef text={`BEVERLY HOPWOOD,\nKatie and Ozzie.`} />
             </li>
           </ol>
 
@@ -133,7 +134,7 @@ function Dialogue() {
           </ol>
 
           <p>Here are some examples from Sol Stein:
-            <FootnoteRef text="SOL STEIN, How To Grow A Novel." />
+            <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
           </p>
 
           <u>Example of bad dialogue:</u>
@@ -298,7 +299,7 @@ function Dialogue() {
           <div className="custom-box">
             <p className="mb-0">“Hello,” he lied. </p>
             <p></p><i>— Don Carpenter (quoting a Hollywood agent) </i>
-            <FootnoteRef text="MARK EDWARD, Psychic Blues." />
+            <FootnoteRef text={`MARK EDWARD,\nPsychic Blues.`} />
           </div>
 
           <p>Dialogue tags attribute speech to someone. They generally convey two bits of information:</p>
@@ -331,7 +332,8 @@ function Dialogue() {
           <p>You should only use a NS when ‘said&#39; does not convey what you intend. This may be where a character is being ironic or humourous. But even that&#39;s debatable, e.g. – </p>
           <p className='indent-8 mb-2'>“You should only use a NS when ‘said&#39; doesn&#39;t convey what you intend,” I said. “Or your character is called ‘Said&#39;.”</p>
 
-          <p>Here is a scene just in dialogue. Notice how you can hear the tones of voice just by the wording alone, absent attribution:<FootnoteRef text="MICHAEL CRICHTON, Prey." /></p>
+          <p>Here is a scene just in dialogue. Notice how you can hear the tones of voice just by the wording alone, absent attribution:
+            <FootnoteRef text={`MICHAEL CRICHTON,\nPrey.`} /></p>
 
           <div className="custom-box">
             <p><i>“I&#39;m sorry. I handle this kind of thing all day, and I guess-”</i></p>
@@ -423,7 +425,7 @@ function Dialogue() {
           <h3 id="post-when-to-avoid-dialogue">12.12: When To Avoid Dialogue</h3>
           <p>Sometimes you might notice a story eschews dialogue and just summarises what a character has said. A well-known example is in Stephen King&#39;s ‘The Shining&#39;, where the bartender&#39;s dialogue is only summarized, not spoken. This implies the bartender does not literally speak; he is ghost, or an invention of the protagonist&#39;s psychosis. That&#39;s an extreme example.</p>
           <p>Here is another example:
-            <FootnoteRef text="KATE BRAVERMAN, Tall Tales from the Mekong Delta." />
+            <FootnoteRef text={`KATE BRAVERMAN,\nTall Tales from the Mekong Delta.`} />
           </p>
           <p className="code-left">
             <code><i>“I&#39;m Lenny,” he said, extending his hand. “What&#39;s your name?”

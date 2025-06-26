@@ -51,7 +51,7 @@ function Plot() {
 
           <h3 id="post-types-of-plots">3.2: Types of Plots</h3>
           <p>Robert McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             makes the distinction between three different kinds of plots: </p>
 
           <ol>
@@ -143,10 +143,10 @@ function Plot() {
           <p>The Three Act Plot is a story formula involving three major changes or reversals of positions for the protagonist. For instance, things are good, then they&#39;re bad, then they&#39;re good again. The Acts are: Good, Bad, Good (if the climax is in the Third Act, you might find the third &#39;Good&#39; only spans the last half/quarter of the Act).</p>
           <p>The first Act might be about 25% of the story. The Second Act will be longer, and then the Third Act will be the shortest, to create a sense of accelerating pace to the climax. Maybe max 25% of the story. The potential problem is that the Second Act drags. Rectifying that may involve adding a subplot/s or another Act (e.g. extending to Good, Bad, Worse, Good).</p>
           <p>McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act&#39;s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn&#39;t fit into the above categories: the Quidditch games, the spell classes, sorting hat — there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones — you give the reader that many more clues as to how you&#39;ve structured your story &#39;behind the curtain.&#39; The reader will think &#39;oh, this scene&#39;s fairly unmemorable, it mustn&#39;t be integral to the plot.&#39; Memorable &#39;in-between&#39; scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?</p>
           <p>Blake Snyder
-            <FootnoteRef text="BLAKE SNYDER, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
+            <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
             says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It&#39;s the world and its rules set up for us. Antithesis is the reverse or &#39;upside-down&#39; version or &#39;funhouse mirror reflection&#39; of the world. Characters from &#39;Thesis&#39; may reappear in &#39;Antithesis&#39; in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the &#39;Third way&#39; in world 3. By this time, the hero has &#39;died&#39; and been &#39;reborn&#39;, so he can&#39;t go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn&#39;t have happen instantaneously, it should happen bit by bit — every scene in the structure changes the hero a little.</p>
 
           <p>There&#39;s another dimension to this structure, two intertwining forces: the hero&#39;s tangible goal (what he wants), and his spiritual goal (what he needs). For instance, the hero may be chased by a monster (tangible goal = to survive), realising that this means his mentor has failed to protect him from it (spiritual goal = security, trust). As the monster closes in, the hero&#39;s awful realisation crystallizes. The hero must ditch the defective belief (that mentor will protect him) to attain the spiritual goal, effecting his transformation (from dependent to self-sufficient), allowing him to ditch the monster, and gain the tangible goal.</p>
@@ -154,7 +154,7 @@ function Plot() {
           <h4>3.4.1 	Sub-Plots</h4>
           <p>Sub-plots are not only conceptually plots in miniature, they also resemble them in form. They have their own Act structure, Inciting Incidents, and climaxes. However, a sub plot may comprise of a single Act, or more. You can have multiple subplots, and they can overlap. You can also retire subplots for periods at a time, only to resolve them much later. Climaxes for sub-plots and the main plot can also happen in the same scene, e.g. the protagonist defeats the villain (climax of main plot) and by doing so, wins object of affection&#39;s love (climax of subplot).</p>
           <p>McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             also says that main plots and subplots can have different protagonists (though I&#39;m struggling to see how this would work). My caveat is, if you do this, ensure:</p>
 
           <ol>
@@ -167,7 +167,7 @@ function Plot() {
 
           <h3 id="post-three-right-angled-turns">3.5: Three Right-Angled Turns</h3>
           <p>Aristotle
-            <FootnoteRef text="ARISTOTLE, Poetics." />
+            <FootnoteRef text={`ARISTOTLE,\nPoetics.`} />
             wrote of the “peripeteia,” or “reversal of the situation.”</p>
           <p>At the end of the first act, your protagonist makes a &#39;turn&#39; which sets them off from where they were. Ideally this will be a &#39;diametric&#39; turn (see 6.5 Diametrics). Normally they will end up in a worse position, but might not. Being set off in a different but equal position may be bad, as it requires time and energy for the protagonist to readjust.</p>
           <p>At the end of the second act, your protagonist makes another turn, which sets them off both from their previous position and the starting position. So you can&#39;t just turn them back where they were in starting position (otherwise there is no point to the first act). Take care your narrative doesn't just flip back and forth like this.</p>
@@ -299,7 +299,7 @@ function Plot() {
 
           <p>Chiastic structure can effect a sense of &#39;circularity,&#39; or going full circle, returning the reader back where they started. Elements are introduced, and then, as if a mirror reflection, are re-addressed and resolved in corresponding (backwards) order.</p>
           <p>Here is an example of the Chiastic structure of the Genesis Flood Narrative:
-            <FootnoteRef text="The Bible, Gen 1:1-50." />
+            <FootnoteRef text={`The Bible,\nGen 1:1-50.`} />
           </p>
 
           <div className="p-3 mb-3 rounded">
@@ -374,7 +374,7 @@ function Plot() {
 
           <h4>3.7.1 	P.R.O.B.L.E.M</h4>
           <p>Bork
-            <FootnoteRef text="ERIK BORK, The Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction." />
+            <FootnoteRef text={`ERIK BORK,\nThe Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction.`} />
             says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
 
           <div className="custom-box">
@@ -420,7 +420,7 @@ function Plot() {
 
           <h4>3.7.3 	Snyder's Story Problems</h4>
           <p>BLAKE SNYDER
-            <FootnoteRef text="BLAKE SNYDER, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
+            <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
             says all stories centre around one of these 10 problems:</p>
           <div className="custom-box">
             <ol>
@@ -439,14 +439,14 @@ function Plot() {
 
           <h4>3.7.4 	Problems with Plots</h4>
           <p>Howard Mittelmark and Sandra Newman list common problems with plots:
-            <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
+            <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
 
           <div className="custom-box">
             <p className="text-boldPurple font-bold">I. The Lost Sock</p>
             <p>The plot is too slight or trivial.</p>
             <p>The plot of a story “should be important enough to change someone's life forever.”
-              <FootnoteRef text="HOWARD MITTELMARK AND SANDRA NEWMAN, How NOT to Write a Novel." />
+              <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
               It should also have broad interest — just because you find something fascinating, doesn't mean the broader public does.</p>
             <p className="text-sm mb-4 font-rubik underline">Solutions:</p>
 
@@ -597,11 +597,11 @@ function Plot() {
           <p className="text-boldPurple font-bold">(3) Conspiracy</p>
           <p>It's evident the LIs love each other deeply, but the externalized obstacle is broad and sweeping, possibly global, cultural — the story's entire milieu is the antagonist. It's usually some outside force (e.g. their small-minded community) set upon keeping them apart. There is an understanding the union breaks the accepted rules and customs or infringes some social code, or risks some great harm to society. Alternatively, it may bring about a bad event. Or, maybe nothing bad would happen, rather a good thing would be foreclosed. It doesn't matter if the risk would not happen, only that the antagonist is convinced it would happen — often the conclusion involves realizing the antagonist's dire projections were proven categorically wrong.</p>
           <p>Examples of the conspiracy romance include Romeo and Juliet,
-            <FootnoteRef text="WILLIAM SHAKESPEARE, Romeo and Juliet." />
+            <FootnoteRef text={`WILLIAM SHAKESPEARE,\nRomeo and Juliet.`} />
             1984,
-            <FootnoteRef text="GEORGE ORWELL, 1984." />
+            <FootnoteRef text={`GEORGE ORWELL,\n1984.`} />
             and Twilight.
-            <FootnoteRef text="STEPHANIE MEYER, Twilight." />
+            <FootnoteRef text={`STEPHANIE MEYER,\nTwilight.`} />
           </p>
           <p>It may also be an internal obstacle: the LIs own consciences dissuading them from union. It may be mundane: one LI has a medical or mental condition which makes union more challenging. If a protagonist is gradually being destroyed by the relationship's toll or even dies, it almost definitely is a Conspiracy.</p>
 
@@ -617,7 +617,7 @@ function Plot() {
 
           <h4>3.9.2 Other Types</h4>
           <p>There might conceivably be other types of romances, such as romantic tragedies such as 'unrequited romances' or the traditional 'comic' romance where several characters are wrongly paired due to misunderstanding and switch to the correct partners at the conclusion. However, Chris Booker
-            <FootnoteRef text="CHRIS BOOKER, The Seven Basic Plots." />
+            <FootnoteRef text={`CHRIS BOOKER,\nThe Seven Basic Plots.`} />
             would probably argue these are merely 'dark' versions of the established types, e.g: </p>
           <p>The unrequited romance is merely a 'dark' pursuit; the protagonist never actually gets the LI.</p>
 

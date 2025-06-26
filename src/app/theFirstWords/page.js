@@ -64,28 +64,28 @@ function TheFirstWords() {
           <p>Presuming you already have your general scene structure, the next question is: start wide or narrow? Think about the start of a film; does the camera pan over the broad setting (e.g. a city) before locating the main characters, or does it focus on the characters, or plot-relevant object, and then pan out to give you the setting? </p>
           <p><strong>Wide:</strong></p>
           <p className="italic">No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man's...
-            <FootnoteRef text="H. G. WELLS, War of the Worlds." />
+            <FootnoteRef text={`H. G. WELLS,\nWar of the Worlds.`} />
           </p>
 
           <p><strong>Narrow:</strong></p>
           <p className="italic">Mother died today. Or maybe yesterday; I can't be sure.
-            <FootnoteRef text="ALBERT CAMUS, The Stranger." />
+            <FootnoteRef text={`ALBERT CAMUS,\nThe Stranger.`} />
           </p>
 
           <p><strong>Wide:</strong></p>
           <p className="italic">It was now lunch time and they were all sitting under the double green fly of the dining tent pretending that nothing had happened.
-            <FootnoteRef text="ERNEST HEMINGWAY, The Short Happy Life of Francis Macomber." />
+            <FootnoteRef text={`ERNEST HEMINGWAY,\nThe Short Happy Life of Francis Macomber.`} />
           </p>
 
           <p>If you start narrow, you begin with your main character and/or their thoughts, and then expand the scene to include the setting and other characters. </p>
           <p>If you start wide, you may provide the broader setting, and then narrow down to the main character/s. </p>
           <p>Pop lit tends start narrow to make likeable, interesting characters immediately accessible. The wide approach is more common in classic lit which is concerned with broader politico-historical backdrops. If you use the wide approach, people will interpret your work to be concerned with broader themes. In some ways the distinction may reflect whether your story is character-driven and/or introspective (narrow); or event-driven and critical or socio-political (wide).  </p>
           <p>Hart says:
-            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             You also can create a sense of narrative motion by describing the approach to a scene, moving from the long view to the scene itself, as here:</p>
 
           <p className="italic">In daylight, in an all but treeless, baked brown landscape, Sanmi Lasante makes a dramatic appearance, like a fortress on its mountainside, a large complex of concrete buildings, half covered with tropical greenery. Inside the walls, the world turns leafy. Tall trees stand beside courtyards and walkways and walls, artful constructions of concrete and stone, which mount the forested hillside.
-            <FootnoteRef text="TRACY KIDDER, Mountains Beyond Mountains: The Quest of Dr. Paul Farmer, A Man Who Would Cure the World" />
+            <FootnoteRef text={`TRACY KIDDER,\nMountains Beyond Mountains: The Quest of Dr. Paul Farmer, A Man Who Would Cure the World`} />
           </p>
           <p>The initial view is from a distance. The clinic sits isolated in the brown landscape. But then it zooms into the leafy green world of the clinic itself, duplicating the experience you would have if you visited Sanmi Lasante yourself.</p>
 
@@ -104,7 +104,7 @@ function TheFirstWords() {
 
           <h3 id="post-a-big-scene-and-a-small-scene">17.5: A Big Scene and a Small Scene</h3>
           <p>R. Meredith and J. Fitzgerald
-            <FootnoteRef text="ROBERT MEREDITH AND JOHN FITZGERALD, Structuring Your Novel: From Basic Idea to Finished Manuscript." />
+            <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript.`} />
             say that the first chapter should have a ‘big scene&#39; for conflict, and a ‘small scene&#39; for characterisation and providing preliminary information (to answer the initial ‘who, what, where, why&#39;). </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -135,7 +135,7 @@ function TheFirstWords() {
           <p>It&#39;s often advised to make your story interesting from the first line. This is not an overstatement. You can tell a lot from the first line in a story. Publishers may only need to read one sentence of your writing to determine whether or not you are a good writer. Prospective readers may not even be that generous.</p>
           <p>You might feel this is cynical and unfair, but the fact is, good writers put a lot of thought, effort and deliberation into the first line, bad writers don&#39;t, and it shows. If the writer didn&#39;t put much effort into the first line, it stands to reason they haven&#39;t much effort into the subsequent line?</p>
           <p>William Sloane
-            <FootnoteRef text="WILLIAM SLOANE, The Craft Of Writing." />
+            <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft Of Writing.`} />
             says: <i>“Those first sentences of a novel are a contract between the writer of fiction and the reader who commences to read him. The contract has to be clear almost at once.”</i></p>
           <p>He recounts an article that said:</p>
 
@@ -159,44 +159,44 @@ function TheFirstWords() {
 
           <p>Daphne Du Maurier had a knack for writing engaging openers. Here are some examples:</p>
           <p className="italic">Last night I dreamt of Manderley again...
-            <FootnoteRef text="DAPHNE DU MAURIER, Rebecca." /></p>
+            <FootnoteRef text={`DAPHNE DU MAURIER,\nRebecca.`} /></p>
           <p className="italic">"Don't look now," John said to his wife, "but there are a couple of old girls two tables away who are trying to hypnotise me."
-            <FootnoteRef text="DAPHNE DU MAURIER, Don't Look Now, Not After Midnight and Other Stories." /></p>
+            <FootnoteRef text={`DAPHNE DU MAURIER,\nDon't Look Now, Not After Midnight and Other Stories.`} /></p>
           <p className="italic">They told me afterwards they had found nothing.
-            <FootnoteRef text="DAPHNE DU MAURIER, Monte Verità, The Birds and Other Stories." /></p>
+            <FootnoteRef text={`DAPHNE DU MAURIER,\nMonte Verità, The Birds and Other Stories.`} /></p>
           <p className="italic">On December the third the wind changed overnight and it was winter.
-            <FootnoteRef text="DAPHNE DU MAURIER, The Birds, The Birds and Other Stories." /></p>
+            <FootnoteRef text={`DAPHNE DU MAURIER,\nThe Birds, The Birds and Other Stories.`} /></p>
           <p className="italic">He had been asleep for about ten minutes.
-            <FootnoteRef text="DAPHNE DU MAURIER, A Border-line Case, Not After Midnight And Other Stories." /></p>
+            <FootnoteRef text={`DAPHNE DU MAURIER,\nA Border-line Case, Not After Midnight And Other Stories.`} /></p>
           <p className="italic">It was three months after she died that he first noticed the apple tree.
-            <FootnoteRef text="DAPHNE DU MAURIER, The Apple Tree, The Birds and Other Stories." /></p>
+            <FootnoteRef text={`DAPHNE DU MAURIER,\nThe Apple Tree, The Birds and Other Stories.`} /></p>
 
           <p>Another writer with a talent for first lines is the horror/weird fiction writer, Laird Barron. Some examples from his short stories:</p>
 
           <p className="italic">What is it Pilot John says right before we drop from the sky? Where is Molly&#39;s body?
-            <FootnoteRef text="LAIRD BARRON, Ardor, Swift to Chase." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nArdor, Swift to Chase.`} /></p>
           <p className="italic">I write this: The cops don&#39;t know what really happened in Eagle Talon. Lies, all lies. Ask Jessica, if I ever see her again.
-            <FootnoteRef text="LAIRD BARRON, (Little Miss) Queen of Darkness, Swift to Chase." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\n(Little Miss) Queen of Darkness, Swift to Chase.`} /></p>
           <p className="italic">The Bentley nosed into the weeds along the shoulder of the road and died.
-            <FootnoteRef text="LAIRD BARRON, Hallucigenia, The Imago Sequence." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nHallucigenia, The Imago Sequence.`} /></p>
           <p className="italic">I see Miranda in the endless chain of faces.
-            <FootnoteRef text="LAIRD BARRON, Parallax, The Imago Sequence." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nParallax, The Imago Sequence.`} /></p>
           <p className="italic">Like the Shroud of Turin, the disfigured shape in the photograph was a face waiting to be born.
-            <FootnoteRef text="LAIRD BARRON, The Imago Sequence, The Imago Sequence." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nThe Imago Sequence, The Imago Sequence.`} /></p>
           <p className="italic">...Over the course of the long afternoon of thunderclaps and rain squalls they had unpacked most of the living room of the ancestral home.
-            <FootnoteRef text="LAIRD BARRON, Six Six Six, Occultation and Other Stories." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nSix Six Six, Occultation and Other Stories.`} /></p>
           <p className="italic">October 2004 Virgil acquired the cute little blue-and-white-pinstriped Cessna at an auction; this over Danni&#39;s strenuous objections.
-            <FootnoteRef text="LAIRD BARRON, The Lagerstätte, Occultation and Other Stories." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nThe Lagerstätte, Occultation and Other Stories.`} /></p>
           <p className="italic">We bought supplies for our road trip at an obscure general goods store in Seattle—a multi-generational emporium where you could purchase anything from space-age tents to snowshoes once worn by Antarctic explorers. That&#39;s where we came across the guidebook.
-            <FootnoteRef text="LAIRD BARRON, Mysterium Tremendum, Occultation and Other Stories." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nMysterium Tremendum, Occultation and Other Stories.`} /></p>
           <p className="italic">Kenshi Suzuki and Swayne Harris had a chance reunion at a bathhouse in an Indian tourist town.
-            <FootnoteRef text="LAIRD BARRON, Strappado, Occultation and Other Stories." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nStrappado, Occultation and Other Stories.`} /></p>
 
           <p>A good starter might effect a ‘microcosm&#39;: it will sound deceptively simple, but in retrospect, says a lot about the coming story. </p>
           <p>Other good lines may contain a question which it takes the rest of the story to answer:</p>
 
           <p className="italic">The Welcome Wagon lady, sixty if she was a day but working at youth and vivacity (ginger hair, red lips, a sunshine-yellow dress), twinkled her eyes and teeth at Joanna and said, ‘You&#39;re really going to like it here! It&#39;s a nice town with nice people! You couldn&#39;t have made a better choice!&#39;
-            <FootnoteRef text="IRA LEVIN, The Stepford Wives." /></p>
+            <FootnoteRef text={`IRA LEVIN,\nThe Stepford Wives.`} /></p>
 
           <p>The central question here is, 'who acts like this at 60?' Resolving this contradiction wraps up the entire plot.</p>
 
@@ -206,7 +206,7 @@ function TheFirstWords() {
 
           <p className="boldPurple">Bad Example #1</p>
           <p className="italic">The girl&#39;s head rested on a small pile of orange-and-brown leaves.
-            <FootnoteRef text="C. J. TUDOR, The Chalk Man." /></p>
+           <FootnoteRef text={`C. J. TUDOR,\nThe Chalk Man.`} /></p>
           <p>This line isn&#39;t interesting and gives no reason to continue reading. The biggest offender is ‘a small pile of orange-and-brown leaves&#39; which dominates the sentence at 8/13 words; 60% of the sentence, but it&#39;s a description of a mundane thing. Either her head should be resting on something strange, or there is something strange about her head. See this tiny alteration fixes the problem:</p>
           <p className="italic">A pile of dead leaves rested on the girl&#39;s head.</p>
           <p>The kicker in this chapter is the girl turns out to be dead. Problem is, by the time you get that far, this line has already stunk up the place like a 10 day old body. Better to suggest the kick in the line, e.g. <i>The girl didn&#39;t blink. Her head rested on a small pile of orange and brown leaves. </i> Or: <i>She didn&#39;t look dead, at first. Her head rested on a small pile of orange and brown leaves.</i></p>
@@ -215,12 +215,12 @@ function TheFirstWords() {
 
           <p className="boldPurple">Bad Example #2</p>
           <p className="italic">The little girl's hair is fine as cornsilk.
-            <FootnoteRef text="NICOLE BAART, Little Broken Things." /></p>
+            <FootnoteRef text={`NICOLE BAART,\nLittle Broken Things.`} /></p>
           <p>This line is not interesting enough to induce the reader to continue. It doesn&#39;t raise a question. Description of physical appearance doesn&#39;t tend to make a good first line because it&#39;s superficial; it rarely tells you anything important. Of all the things you could say you start with the texture of a character&#39;s hair? What&#39;s unusual about this character? Why is she the first thing described in the story?</p>
 
           <p className="boldPurple">Bad Example #3</p>
           <p className="italic">We are a tearless, tiny crowd, we survivors of David Shaw.
-            <FootnoteRef text="MICHELLE HODKIN, The Becoming of Noah Shaw." /></p>
+            <FootnoteRef text={`MICHELLE HODKIN,\nThe Becoming of Noah Shaw.`} /></p>
           <p>This line&#39;s concept is good, but executed poorly. The line evokes a group of people who all have in common surviving some event (attributed to ‘David Shaw&#39;). That raises questions; who are these people? What was the event? How and why did they survive? Who or what is ‘David Shaw&#39;; a place or a person?</p>
           <p>The line is written awkwardly and sentimentally (‘we survivors&#39;). ‘Tearless&#39; also detracts from the impact of the event; it suggests the event wasn&#39;t really that bad (not enough to induce tears). A better line might simply be ‘No one cried.&#39; It implies an event did in fact occur which would justify crying, although no one actually did, and we wonder why.</p>
           <p>Fixed example:</p>
@@ -228,7 +228,7 @@ function TheFirstWords() {
 
           <p className="boldPurple">Bad Example #4</p>
           <p className="italic">Scott Carey knocked on the door of the Ellis condo unit, and Bob Ellis (everyone in Highland Acres still called him Doctor Bob, although he was five years retired) let him in.
-            <FootnoteRef text="STEPHEN KING, Elevation." /></p>
+            <FootnoteRef text={`STEPHEN KING,\nElevation.`} /></p>
           <p>A lot of words, but few with anything important to say. Obviously this is Stephen King&#39;s signature conversational style, but the first line should be exempt even from that. The first line has serious work to do; the style can come later.</p>
           <p>The concept is a guy visiting the doctor. Doctor appointments are routine, so you need something extra to suggest this is an unusual or foreboding visit – the comfortable moniker ‘Doctor Bob&#39; also detracts from the seriousness of the visit. Also, walking into the office is uninteresting in itself; you should jump right into the crux of the visit. </p>
           <p>Fixed example:</p>
@@ -236,13 +236,13 @@ function TheFirstWords() {
 
           <p className="boldPurple">Bad Example #5</p>
           <p className="italic">First of all, it was October, a rare month for boys.
-            <FootnoteRef text="RAY BRADBURY, Something Wicked This Way Comes." /></p>
+            <FootnoteRef text={`RAY BRADBURY,\nSomething Wicked This Way Comes.`} /></p>
           <p>Never start a first line ‘first of all,&#39; it&#39;s redundant. </p>
           <p>The concept is that October is too infrequent for boys and/or it&#39;s over too fast. Why not girls, too? These are not questions generated by interest, but by misunderstanding; i.e. the wrong kind of questions. No one cares if what is said here is true. There is nothing you can do to fix this line, but a couple of paragraphs later, you have this line: <i>‘But one strange wild dark long year, Halloween came early.&#39;</i> Get rid of the adjectives until you have ‘One strange year, Halloween came early,&#39; and you have a solid first line.</p>
 
           <p className="boldPurple">Bad Example #6</p>
           <p className="italic">Sarah Shepherd watched her husband come down the stairs.
-            <FootnoteRef text="SARAH SHEPHERD, Spring Fever." /></p>
+            <FootnoteRef text={`SARAH SHEPHERD,\nSpring Fever.`} /></p>
           <p>The concept is not interesting. We get the woman&#39;s full name like she&#39;s important, but she&#39;s not doing anything important; it&#39;s her husband who is described in action – uninteresting action. But if ‘Sarah Shepherd&#39; is so important, why is the focus on her husband&#39;s activity?</p>
           <p>Either he should be described as doing something unusual, or her reaction to his mundane activity should be unusual (e.g. she flinched, or burst into laughter).</p>
           <p>Fixed example:</p>
@@ -250,19 +250,19 @@ function TheFirstWords() {
 
           <p className="boldPurple">Bad Example #7</p>
           <p className="italic">Hargreaves did not speak until he had turned on two lamps.
-            <FootnoteRef text="CARTER DICKSON, New Murders for Old." /></p>
+            <FootnoteRef text={`CARTER DICKSON,\nNew Murders for Old.`} /></p>
           <p>This is fairly obvious. This line isn&#39;t interesting. The detail ‘two lamps&#39; is odd, but effective to imply the character may be in a very dark or big place. But that itself doesn&#39;t save this line. Withholding from speaking (particularly for a long time) may be unusual in some circumstances, but not if you are trying to light a place first. The concept is not bad and only needs minor alteration.</p>
           <p>Fixed example:</p>
           <p className="italic">Only once Hargreaves had lit his lamp, and all eyes were on him, did he speak. </p>
 
           <p className="boldPurple">Bad Example #8</p>
           <p className="italic">The hands of the alarm clock on the table in front of Mr. Crangle stood at 3:47, on a summer afternoon.
-            <FootnoteRef text="PRICE DAY, Four O' Clock." /></p>
+            <FootnoteRef text={`PRICE DAY,\nFour O' Clock.`} /></p>
           <p>This is almost a parodying example of a bad opener. It&#39;s not an unusual time, and the man isn&#39;t doing anything unusual. Also, the line ‘afternoon&#39; and the time ‘3:47&#39; are redundant. The concept is so bad there is nothing you can do to fix it.</p>
 
           <p className="boldPurple">Bad Example #9</p>
           <p className="italic">The red-orange sun eased its way out of the Jamaican sky, then suspended itself halfway into the Caribbean horizon as though holding still for some divine time exposure.
-            <FootnoteRef text="MIKE MARMER, View From The Terrace." /></p>
+            <FootnoteRef text={`MIKE MARMER,\nView From The Terrace.`} /></p>
           <p>Remember that rule ‘Never Describe Sunsets&#39;? Literally. ‘Jamaican&#39; tries to sex it up but the sunsets in Jamaica aren&#39;t any different from anywhere else.</p>
           <p>There are several other problems: either ‘red&#39; or ‘orange&#39; alone would have been more powerful than ‘red-orange.&#39; ‘Eased&#39; and ‘suspended&#39; and ‘holding still&#39; are uninteresting words suggesting lack of movement. If you&#39;re going to describe the sun, it should be doing something unusual or interesting, and ‘some divine time exposure&#39; is just confusing and nonsensical.</p>
           <p>Fixed example:</p>
@@ -270,12 +270,12 @@ function TheFirstWords() {
 
           <p className="boldPurple">Mediocre Example #1</p>
           <p className="italic">I bounded over the gray, dusty terrain toward the huge dome of Conrad Bubble.
-            <FootnoteRef text="ANDY WEIR, Artemis." /></p>
+            <FootnoteRef text={`ANDY WEIR,\nArtemis.`} /></p>
           <p>Okay, but not great. Normally we would want to know what the ‘huge dome&#39; is but if you know the book&#39;s sci-fi this line pretty much explains itself. There should be something unusual here even for a sci-fi, for instance, the character&#39;s oxygen is running out, or he is locked out of ‘Conrad Bubble.&#39;</p>
 
           <p className="boldPurple">Mediocre Example #2</p>
           <p className="italic">Later, Tom Russell would wonder if the very boards of that place—splintered, unpainted, unlovely—had leaked some sort of lethal courage into his blood and made him see things that could not be true.
-            <FootnoteRef text="JOY JORDAN-LAKE, A Tangled Mercy." /></p>
+            <FootnoteRef text={`JOY JORDAN-LAKE,\nA Tangled Mercy.`} /></p>
           <p>There&#39;s a good first line here that&#39;s weighed down by the language. The line establishes a place of interest, its reference purely as ‘that place&#39; flags its importance and makes us ask ‘where is it?&#39; and ‘why is it important?&#39; and ‘why is it having this effect on the man?&#39; We also want to know what are the things ‘that could not be true&#39; being referred to?</p>
           <p>Note, the man has an ordinary name; that&#39;s good, because it&#39;s not the man but the place you want to draw attention; you&#39;re suggesting the ‘place&#39; would have this effect on anyone.</p>
           <p>‘Later&#39; is a clever way to flag this as important; the character will ruminate on this event.</p>
@@ -286,14 +286,14 @@ function TheFirstWords() {
 
           <p className="boldPurple">Mediocre Example #3</p>
           <p className="italic">He was an easy mark.
-            <FootnoteRef text="S. A. CHAKRABORTY, The City of Brass." /></p>
+            <FootnoteRef text={`S. A. CHAKRABORTY,\nThe City of Brass.`} /></p>
           <p>There&#39;s a good idea here; someone being scammed. It could be more active by changing the past tense ‘was&#39; to future tense. The past tense assures us the scam was completed successfully, whereas future tense would make us want to see if the prediction is correct – when characters predict something will be easy, it tends to end up going disastrously. The past tense unfortunately foreclosures that possibility.</p>
           <p>Fixed example:</p>
           <p className="italic">He would be an easy mark.</p>
 
           <p className="boldPurple">Mediocre Example #4</p>
           <p className="italic">The wind whistled through the valley, and the pyramidal tent that signified Outpost 1 quivered before the blast.
-            <FootnoteRef text="MATTHEW GRANT, The Crate at Outpost 1." /></p>
+            <FootnoteRef text={`MATTHEW GRANT,\nThe Crate at Outpost 1.`} /></p>
           <p>Good idea, phrased badly. Camping is interesting, particularly where the weather poses a challenge. The symbolism in the tent ‘quivering&#39; is effective to convey apprehension of those occupying the tent. A tent given the moniker ‘Outpost 1&#39; raises interest that this is not an ordinary tent, but might work better with a number not one, to suggest of multiple tents, this one has something interesting happen to it. Calling something ‘1&#39; is redundant. </p>
           <p>However, the description ‘signified&#39; and ‘pyramidal tent&#39; is awkward and unnecessary. We assume the tent is pyramidal, regardless it doesn&#39;t add anything.</p>
           <p>Fixed example:</p>
@@ -301,35 +301,35 @@ function TheFirstWords() {
 
           <p className="boldPurple">Mediocre Example #5</p>
           <p className="italic">When Janine stopped talking, sometimes as now she seemed to stop breathing also, as if to listen.
-            <FootnoteRef text="JOAN VATSEK, The Duel." /></p>
+            <FootnoteRef text={`JOAN VATSEK,\nThe Duel.`} /></p>
           <p>The idea is good; it&#39;s interest-provoking if a character stops talking and even stops breathing for a moment; it keeps us in suspense. The problem is the god-awful wording. It reads as a general description of her behaviour, not as something she as actually doing presently. </p>
           <p>Fixed Example:</p>
           <p className="italic">Now Janine stopped talking, in fact, she stopped breathing.</p>
 
           <p className="boldPurple">Mediocre Example #6</p>
           <p className="italic">For the tenth time that day, in a voice that shook a little, Martha Halsey read aloud the item in the Dellville Weekly Call.
-            <FootnoteRef text="ROBERT ARTHUR, Call for Help." /></p>
+            <FootnoteRef text={`ROBERT ARTHUR,\nCall for Help.`} /></p>
           <p>It&#39;s interesting that a character&#39;s voice is shaking when they read something, but its weakened by the qualifier ‘a little&#39; and fact they have read it ten times already mitigates some interest, detracting immediacy and spontaneity – if the character has done this ten times already, why should we be interested now? </p>
           <p>Fixed example:</p>
           <p className="italic">Voice shaking, Martha Halsey read aloud the item in the Dellville Weekly Call.</p>
 
           <p className="boldPurple">Mediocre Example #7</p>
           <p className="italic">Henry Tolman got away with murder—he loved that phrase and often turned it over in his mind, gloating.
-            <FootnoteRef text="MIRIAM LYNCH, Scott Free." /></p>
+            <FootnoteRef text={`MIRIAM LYNCH,\nScott Free.`} /></p>
           <p>Funnily enough, you have a good opening line all on its own already here. But for some reason the author had to cram the rest in as well, which dilutes its impact. </p>
           <p>Fixed example:</p>
           <p className="italic">Henry Tolman got away with murder.</p>
 
           <p className="boldPurple">Mediocre Example #8</p>
           <p className="italic">I was waiting on the courthouse steps when Norma Krueger, my stepmother, and Russ Tyson, her lover, came out of the building into the harsh November sunlight of Los Angeles.
-            <FootnoteRef text="ROBERT COLBY, The Last Witness." /></p>
+            <FootnoteRef text={`ROBERT COLBY,\nThe Last Witness.`} /></p>
           <p>Relatives exiting the courthouse is interesting; the omission of whether they are the plaintiffs or defendants makes us want to find out. The description of ‘harsh…sunlight&#39; doesn&#39;t work because it would only be harsh to the stepmother emerging into it from the dimmer room, not our narrator who has already been exposed to it. This line is also too verbose.  </p>
           <p>Fixed example:</p>
           <p className="italic">I was waiting on the courthouse steps when my stepmother came out.</p>
 
           <p className="boldPurple">Mediocre Example #9</p>
           <p className="italic">Fran came out of Lila's apartment, shoving the green-printed racing sheets into her apron pocket.
-            <FootnoteRef text="HENRY SLESAR, Something Short of Murder." /></p>
+            <FootnoteRef text={`HENRY SLESAR,\nSomething Short of Murder.`} /></p>
           <p>A description of someone coming out of another&#39;s apartment and shoving an object into their clothes raises the suggestion of burglary, and gets our interest. Even more interesting that it&#39;s an innocuously named woman, i.e. the attention is correctly drawn to the object, not the person.</p>
           <p>The problem is the object is dull. The object should either be so odd you&#39;d wonder why anyone would steal it (e.g. a particular painting, or a mantelpiece ornament) or highly valuable, dangerous, etc. Or the object could be vague, raising the question of what it is. </p>
           <p>Fixed example:</p>
@@ -337,37 +337,37 @@ function TheFirstWords() {
 
           <p className="boldPurple">Good Example #1</p>
           <p className="italic">On the third morning I noticed that somebody had disabled the truck.
-            <FootnoteRef text="LAIRD BARRON, Old Virginia." /></p>
+            <FootnoteRef text={`LAIRD BARRON,\nOld Virginia.`} /></p>
           <p>This catches interest; finding your vehicle disabled mysteriously raises suspense. ‘On the third morning&#39; suggests it was deliberate; someone is watching the protagonist, and struck strategically, probably planning the sabotage.</p>
           <p>The suddenness and unexpectedness of this event makes it a great opening line. Jumping right into the story at this point conveys the surprise the protagonist must feel, without stating it. </p>
           <p>It&#39;s relatable, making us identify immediately with the protagonist. If this could happen so quickly and easily, we ask, if that was me, what would I do? Unlike the above example, this line starts generating ‘who/what/where/why/how&#39; questions. </p>
 
           <p className="boldPurple">Good Example #2</p>
           <p className="italic">'Let's face it, Doctor, if an inmate's suicidal there ain't a hell of a lot you can do.&#39;
-            <FootnoteRef text="T. E. D. KLEIN, Petey." /></p>
+            <FootnoteRef text={`T. E. D. KLEIN,\nPetey.`} /></p>
           <p>This is fine; but a little manipulative for using suicide for effect. It would be more effective if it were a statement, rather than dialogue, e.g. <i>‘If an inmate was suicidal, there wasn&#39;t a hell of a lot you could do.&#39; </i></p>
           <p>Or, <i> ‘The worst, thought the Doctor, were the suicidal inmates, because there wasn&#39;t a hell of a lot you could do.&#39;</i> </p>
           <p>That&#39;s even more effective because it has two points of interest: the suicide, and the idea of a doctor who feels helpless in being unable to treat some patients. </p>
 
           <p className="boldPurple">Good Example #3</p>
           <p className="italic">On December the third the wind changed overnight and it was winter.
-            <FootnoteRef text="DAPHNE DU MAURIER, The Birds." /></p>
+            <FootnoteRef text={`DAPHNE DU MAURIER,\nThe Birds.`} /></p>
           <p><i>Normally you should strive for active concrete openers. However, this is a good example of an effective symbolic opening. It&#39;s saying: ‘Suddenly things got harder.&#39;</i></p>
           <p>The symbolism is permissible because it directly relates to the story&#39;s content; the temperature and direction of the wind directly relates to the path birds fly. The line gains foreboding knowing what the story is about, but even without the birds it is still effective to convey sudden change and harshness. </p>
 
           <p className="boldPurple">Good Example #4</p>
           <p className="italic">Rafferty was not the only one losing at the blackjack table, but he had been there the longest.
-            <FootnoteRef text="CHARLES EINSTEIN, The New Deal." /></p>
+            <FootnoteRef text={`CHARLES EINSTEIN,\nThe New Deal.`} /></p>
           <p>This works on several levels. Gambling is an exciting event in literature, and it&#39;s unusual because multiple players here are losing, raising the question; why are they still playing? This implies they are determined, even stubborn, or reckless. That&#39;s more interesting than watching conservative, rational players. Also our interest is focused on the most stubborn or reckless player; the one who has been there ‘the longest.&#39; We want to see whether he suffers a big loss, or whether he&#39;ll overturn the odds and triumph.</p>
 
           <p className="boldPurple">Good Example #5</p>
           <p className="italic">The thin man on the witness stand fumbled with the edge of his necktie.
-            <FootnoteRef text="GUY FLEMING, Boomerang." /></p>
+            <FootnoteRef text={`GUY FLEMING,\nBoomerang.`} /></p>
           <p>Court proceedings are a cliché way of getting immediate interest, but nonetheless effective. This one is pretty simple, the guy fumbling with his tie suggests he is anxious or lying and that&#39;s interesting. A physical description such as ‘thin&#39; is essential here because it flags the guy (and not just the information he is about to say) as being important, i.e. you need to remember him.</p>
 
           <p className="boldPurple">Good Example #6</p>
           <p className="italic">I've thought about it a lot, man; like why Victor and I made that terrible scene out there at San Quentin, putting ourselves on that it was just for kicks.
-            <FootnoteRef text="JOE GORES, The Second Coming." /></p>
+            <FootnoteRef text={`JOE GORES,\nThe Second Coming.`} /></p>
           <p>The concept here is a character who did something they later regretted (hinted by word ‘terrible&#39;), which is interesting.</p>
           <p>The past tense here is effective for the same reason ‘Later&#39; was effective above; a past event is going to have future rippling effects. There is intrigue in an event which has two potential interpretations: how it was erroneously interpreted the first time, and how it was appreciated later. It hints the event was more complex and nuanced than first appears. That&#39;s also interesting. </p>
           <p>The conversational style works if the event was serious, otherwise you could tighten it up. The line correctly poses a question to generate interest: Why did narrator and Victor make ‘that terrible scene&#39;. Notice the ‘like&#39; in <i>'I&#39;ve thought about it a lot [...] <strong> like</strong> why [...]' </i>suggests 'it' refers to more than just the ‘scene&#39; made. This is a clever way to suggest the author has other (yet unasked) questions about the event. </p>
@@ -376,27 +376,27 @@ function TheFirstWords() {
 
           <p className="boldPurple">Good Example #7</p>
           <p className="italic">It's midnight now.
-            <FootnoteRef text="MICHAEL CRICHTON, Prey." /></p>
+            <FootnoteRef text={`MICHAEL CRICHTON,\nPrey.`} /></p>
           <p>This is very simple, but shows you don&#39;t have to be a genius to write a good first line. Unusual time and makes us wonder why the character is still awake. Also, the present tense and short sentence creates immediacy, which is incongruent with the typically inactive, quiet late time.</p>
 
           <p className="boldPurple">Good Example #8</p>
           <p className="italic">With dull curiosity he watched the crowds gathering far below on the sidewalk.
-            <FootnoteRef text="DONALD HONIG, Man With A Problem." /></p>
+            <FootnoteRef text={`DONALD HONIG,\nMan With A Problem.`} /></p>
           <p>Crowds gathering is interesting; if people are looking at something, we want to look also. Also interesting is a lone person watching others gather, why isn&#39;t he with them? The incongruence of the character&#39;s reaction ‘dull&#39; curiosity also makes us want to know why he isn&#39;t as interested in something that he should find interesting.</p>
 
           <p className="boldPurple">Good Example #9</p>
           <p className="italic">There was no path, only the almost vertical ascent.
-            <FootnoteRef text="ANTHONY BOUCHER, They Bite." /></p>
+            <FootnoteRef text={`ANTHONY BOUCHER,\nThey Bite.`} /></p>
           <p>A very simple, but effective line. This signifies a challenge; how will a character get up an almost vertical surface? It also asks, why is the character there in the first place? This is also an example of ‘showing&#39; description (rather than telling) because if a character is doing something difficult, it suggests their objective is really important, so we want to know what it is.</p>
 
           <p className="boldPurple">Good Example #10</p>
           <p className="italic">Don Cassidy first noticed her after he gave an open-ended assignment to the students enrolled in his English literature class at the Queens campus of St. John's University: Write a theme about something wonderful in your life that has happened to you.
-            <FootnoteRef text="JULIE SALAMON, Facing The Wind." /></p>
+            <FootnoteRef text={`JULIE SALAMON,\nFacing The Wind.`} /></p>
           <p>This is an exception of my rule for short and concise first lines. It&#39;s exceptional because the line delivers its hook at the start (“first noticed her”), which allows the added length to draw us further along. The length is also justified by providing two promises; (1) the girl is special, and (2) her answer to the writing prompt will be interesting, thereby further eliciting our interest.</p>
 
           <p className="boldPurple">Good Example #11</p>
           <p className="italic">Telephones and telephone bells have always made me uneasy.
-            <FootnoteRef text="GEORGE LANGELAAN, The Fly." /></p>
+            <FootnoteRef text={`GEORGE LANGELAAN,\nThe Fly.`} /></p>
           <p>Simple and effective. It generates a question or live issue immediately: people do not normally feel uneasy about telephones etc., but this narrator does. It requires explaining, creating a promise it will be explained, eventually.</p>
           <p>Secondly, this line establishes a link of trust with the narrator, by his disclosure of vulnerability. People generally don&#39;t lie about things that make them seem more vulnerable, so we are inclined to believe him, as opposed to suspecting he is an unreliable narrator. This is important in a story where improbable or impossible things are reported to have happened (such as here).</p>
 

@@ -69,7 +69,7 @@ function Marketing() {
           <h4>25.2.1 What Is Structure?</h4>
           <p>There is no separate section of ‘Structure&#39; above, so it&#39;s worth defining here. It should have its own section because, in my opinion, it&#39;s the most important aspect of storytelling. </p>
           <p>The importance of structure is reflected in this comment on Dante's Inferno by translator John Ciardi: it's <i>"power is structural: everything relates to everything else."</i>
-            <FootnoteRef text="DANTE ALIGHIERI, Dante's Inferno. Translated by JOHN CIARDI." />
+            <FootnoteRef text={`DANTE ALIGHIERI,\nDante's Inferno. Translated by JOHN CIARDI.`} />
           </p>
           <p>Structure makes every part of a story fit into place like jigsaw pieces.</p>
           <p>Structure makes words into a story.</p>
@@ -77,7 +77,7 @@ function Marketing() {
           <p>Yet, a lot of people – including people who know how to write -- are ignorant of how important it is. </p>
 
           <p>Jack Hart says:
-            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
           <p className="indent-8 mb-2">“The display of current best sellers no doubt contains several titles by tin- eared pop novelists who wouldn&#39;t recognize a graceful sentence if it asked them to dance. The likes of Jean Auel and Tom Clancy sell books by the millions because they understand story structure, a point that&#39;s lost on the critics who savage their syntax.”</p>
           <p>Hart also says: Structure is more visual than logical, a pattern of parts with its own rules for fitting pieces together, and most experienced writers create some sort of visual guide to the assembly of a story. Like an architect, they express their structural ideas as a kind of blueprint. They must see their structure in graphic terms.</p>
@@ -127,7 +127,7 @@ function Marketing() {
 
           <p>Bob Mayer says:</p>
           <p className="indent-8 mb-2">“Some best-selling authors can crank out anything—which would not get published if a no-name author did it—and have it become a best seller,” and “[…] just because you can go to the bookstore and buy a best-selling book written by so-and-so, the famous writer, that does not mean you can write a similar book and get it published[…] there are many book number 5's from best-selling authors that if they were book number 1 from a new author, would not get published.”
-            <FootnoteRef text="BOB MAYER, Fiction Writers&#39; Toolkit." />
+            <FootnoteRef text={`BOB MAYER,\nFiction Writers&#39; Toolkit.`} />
           </p>
 
           <h4>21.4.1 Basic Rules</h4>
@@ -292,7 +292,7 @@ function Marketing() {
 
           <h3 id="post-features-of-a-good-logline">24.3 Features of a Good Logline</h3>
           <p>Blake Snyder lists features of good loglines, including:
-            <FootnoteRef text="BLAKE SNYDER, Save The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of." />
+            <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
           </p>
 
           <h4>24.3.1 	Irony</h4>
@@ -407,7 +407,7 @@ function Marketing() {
           <p>In this age of loglines and elevator pitches we're pressured to think of our stories as single sentences which encapulate the entire plot. You can make your story idea so simple that it obliterates causation, which doesn't help in the planning stages, where you're trying to link necessary plot events together. </p>
 
           <p>Compare these summaries:
-            <FootnoteRef text="JEFFREY EUGENIDES, The Virgin Suicides." />
+            <FootnoteRef text={`JEFFREY EUGENIDES,\nThe Virgin Suicides.`} />
           </p>
 
           <p><u>Logline #1</u></p>
@@ -439,48 +439,48 @@ function Marketing() {
 
           <ol>
             <li>It provokes debate and controversy, e.g. <i>Rape: A Love Story</i>
-              <FootnoteRef text="JOYCE CAROL OATES, Rape: A Love Story." />
+              <FootnoteRef text={`JOYCE CAROL OATES,\nRape: A Love Story.`} />
             </li>
             <li>It overturns commonly accepted moral positions, e.g. <i>Live and Let Die</i>
-              <FootnoteRef text="IAN FLEMING, Live and Let Die." />
+              <FootnoteRef text={`IAN FLEMING,\nLive and Let Die.`} />
             </li>
             <li>It makes an oddly specific designation, e.g. <i>Fahrenheit 451</i> by Ray Bradbury</li>
             <li>It creates an image you don&#39;t normally see in real life, e.g. <i>Flow my tears, the policeman said</i>
-              <FootnoteRef text="PHILIP K. DICK, Flow My Tears, the Policeman Said." />
+              <FootnoteRef text={`PHILIP K. DICK,\nFlow My Tears, the Policeman Said.`} />
             </li>
             <li>It suggests an answer to an age-old mystery, e.g. <i>The Da Vinci Code</i>
-              <FootnoteRef text="DAN BROWN, The Da Vinci Code." />
+              <FootnoteRef text={`DAN BROWN,\nThe Da Vinci Code.`} />
             </li>
             <li>It makes a witty or ironic observation, e.g. <i>When You Look Like Your Passport Photo, It's Time to Go Home</i>
-              <FootnoteRef text="ERMA BOMBECK, When You Look Like Your Passport Photo, It's Time to Go Home." />
+              <FootnoteRef text={`ERMA BOMBECK,\nWhen You Look Like Your Passport Photo, It's Time to Go Home.`} />
             </li>
             <li>An evocation of something exotic, e.g. <i>Water for Elephants</i>
-              <FootnoteRef text="SARAH GRUEN, Water for Elephants." />
+              <FootnoteRef text={`SARAH GRUEN,\nWater for Elephants.`} />
             </li>
           </ol>
 
           <p>Other effective titles:</p>
           <ol>
             <li><i>Do Androids Dream of Electric Sheep? </i>
-              <FootnoteRef text="PHILIP K. DICK, Do Androids Dream of Electric Sheep?" />
+              <FootnoteRef text={`PHILIP K. DICK,\nDo Androids Dream of Electric Sheep?`} />
             </li>
             <li><i>I, Robot </i>
-              <FootnoteRef text="ISAAC ASIMOV, I, Robot." />
+              <FootnoteRef text={`ISAAC ASIMOV,\nI, Robot.`} />
             </li>
             <li><i>I Have No Mouth and I Must Scream </i>
-              <FootnoteRef text="HARLAN ELLISON, I Have No Mouth and I Must Scream." />
+              <FootnoteRef text={`HARLAN ELLISON,\nI Have No Mouth and I Must Scream.`} />
             </li>
             <li><i>Atlas Shrugged </i>
-              <FootnoteRef text="AYN RAND, Atlas Shrugged." />
+              <FootnoteRef text={`AYN RAND,\nAtlas Shrugged.`} />
             </li>
             <li><i>The Postman Always Rings Twice </i>
-              <FootnoteRef text="JAMES M. CAIN, The Postman Always Rings Twice." />
+              <FootnoteRef text={`JAMES M. CAIN,\nThe Postman Always Rings Twice.`} />
             </li>
             <li><i>The Big Sleep </i>
-              <FootnoteRef text="RAYMOND CHANDLER, The Big Sleep." />
+              <FootnoteRef text={`RAYMOND CHANDLER,\nThe Big Sleep.`} />
             </li>
             <li><i>War of the Worlds </i>
-              <FootnoteRef text="H. G. WELLS, War of the Worlds." />
+              <FootnoteRef text={`H. G. WELLS,\nWar of the Worlds.`} />
             </li>
           </ol>
 

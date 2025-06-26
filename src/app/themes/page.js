@@ -48,20 +48,20 @@ function Themes() {
           <div className="custom-box">
             <p>[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified.”</p>
             <i>— Robert Meredith and John Fitzgerald
-              <FootnoteRef text="ROBERT MEREDITH and JOHN FITZGERALD, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
+              <FootnoteRef text={`ROBERT MEREDITH and JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
             </i>
           </div>
 
           <div className="custom-box">
             <p>[Themes are v]alues, the positive/negative charges of life, [which] are at the soul of our art. The writer shapes story around a perception of what's worth living for, what's worth dying for, what's foolish to pursue, the meaning of justice, truth — the essential values.</p>
             <i>— Robert McKee
-              <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." />
+              <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             </i>
           </div>
 
           <p>Themes can be simple and absolute, or complex and variable. They can be optimistic or pessimistic. They can affirm the status quo or attempt to subvert it. They can be cliché or novel, obtuse or illuminating, pretentious or unassuming, cerebral or illogical. They can be familiar and comforting or bizarre and disconcerting. One of the most common themes in stories is that good ultimately triumphs over evil.</p>
           <p>Hart
-            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             which just keep repeating themselves. This is a virtue, as good themes endure, they speak to universal human experience -- they're not meant to reinvent the wheel. Hart quoted Paula LaRoque's list of themes or archetypes:</p>
 
           <ol>
@@ -144,7 +144,7 @@ function Themes() {
           <div className="custom-box">
             <p>[If there's] one fault that stands out above all others...by the young and inexperienced [writers], it is the tendency to sermonize and editorialize to drive home the theme...[This] novelist is convinced of the validity of his wisdom, gained from experience, and he wants…to persuade others about [his] truth...as a result he begins to lecture the reader.</p>
             <i>— Robert Meredith and John Fitzgerald
-              <FootnoteRef text="ROBERT MEREDITH and JOHN FITZGERALD, Structuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook)." />
+              <FootnoteRef text={`ROBERT MEREDITH and JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
             </i>
           </div>
 
@@ -160,7 +160,7 @@ function Themes() {
           <p>Characters/protagonists who are 'half and half' or contain ambiguous shades of traits or status or identity are effective in stories where some underlying story message is not black and white, or that an issue is not resolved only taking one point of view. A story with a demi protagonist such as Hercules works to suggest Hercules' divine and mortal points of view are necessary to resolve some drama. The Disney movie may not have specifically intended this, and it's not that demi characters can only be in these such stories, but is worth knowing.</p>
           <p>We can derive two available anti positions: (a) There exists a bad God, and (b) there exists a bad human. The movie supplies these alternate explorations and form character material. There is also another opposition along a different dimension: There exists a good man. A position derived from that is: (a) There exists a bad woman. The movie also supplies this position.</p>
           <p>Polarities/oppositions don't just have to be positive/negative. Robert McKee
-            <FootnoteRef text="ROBERT MCKEE, Story: Substance, Structure, Style and the Principles of Screenwriting." /> refers to the idea of negatives against negatives. Basically, the idea there is a state opposing negativity which is to negativity what negativity is to positivity. A state even more negative than negative, but also opposite. See: 14.4 The Negation of a Negation.</p>
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} /> refers to the idea of negatives against negatives. Basically, the idea there is a state opposing negativity which is to negativity what negativity is to positivity. A state even more negative than negative, but also opposite. See: 14.4 The Negation of a Negation.</p>
 
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
