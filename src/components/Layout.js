@@ -7,7 +7,7 @@ function Layout({ children }) {
   return (
     <div className="min-h-screen bg-white text-black flex flex-col">
       <Header />
-      <div className="flex flex-col sm:flex-row pt-28">
+      <div className="flex flex-col sm:flex-row pt-32">
         <aside className="w-full bg-gray-100 dark:bg-gray-900 sm:bg-transparent sm:dark:bg-transparent sm:w-56 p-6">
           <Sidebar />
         </aside>
