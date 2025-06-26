@@ -124,20 +124,16 @@ This project is substantially complete, with minor formalization and addition of
 - [x] add header component 
 - [x] footer content
 - [x] page elements (title/quote/banner/text sections)
-
 - [x] condense logline, synopsis and title as 'marketing'
-
 - [x] add a 'chapter' entry to prisma schema/db and link it to comment, so every comment not only is linked to a user, but also has a subject, so when you display comments, it doesn't display every comment, only the ones left on the relevant chapter page
-
 - [x] resize text or spacing in sidebar or alter so all the links fit
 
 Changes (for similarly updating horror map)
 - uppcase'd nav links
-- combinend nav into header
+- combined nav into header
 - added footnote system (component and utils/footnotestore)
 
 - [  ] User Account page with list of all comments user made
-
 - [ ] Fix up reference page, grab all footnotes
 - [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff:
 banners are 1200 x 400
@@ -168,7 +164,6 @@ banners are 1200 x 400
     - [ ] synopsis
 - [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
 - [x] fill in About summary cards for each chapter
-
 - [x] change bs-light gold boxes to 'custom light box' (pale yellow)
 - [x] either move footnotes below thought section, or shift footnotes into tooltips which display on ft# hover
 - [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
@@ -205,26 +200,10 @@ banners are 1200 x 400
 - [x] style the footnotes with black tooltip styling
 - [x] style the under the volcano part in scenes like the nexus stuff (with footnotes)
 
-### LATER:
-- [x] when page flexes in, the 'about' 'index' and 'also see' parts are pushed to the bottom of page. they need to be pushed to the top under the image banner.
-
-- [x] figure out how to work out the subjects href list when page flexed narrow or on mobile phone. Can it be pushed  to center (otherwise remaining the same, clicking to open)
-
 Changes:
 
-- removed padding-top: 40px for div justify center (footer) /
-- removed zerda author attribution /
-- removed disabled newer button /
-- changed banner image html and added banner images
-- filled in elsewhere box to say Also see with 3 links
-- changed img location from public to assets /
-- removed spare portfolio and profile and other navs /
-- removed sidebar comp and subjects comp /
-- removed superfluous package json installations /
-- filled about section summaries
-- removed extra router links from main and app.jsx /
 - ~~Made footnotes a dynamic context (see components)~~ changed to zustand store
-- added '  overflow-y: scroll;' to html on globals.css
+- added ' overflow-y: scroll;' to html on globals.css
 - changed yellow border to ridge
 - added contact form
 
