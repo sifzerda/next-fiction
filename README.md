@@ -80,7 +80,7 @@ User authentication with JWTs allow users to create an account, which stores use
 New Footnotes can be added by pasting: 
 
 ```bash
-<FootnoteRef text="Author, Title." />
+<FootnoteRef text="AUTHOR, Title." />
 ```
 
 Right after a reference/quote (no space) and filling in the full citation. Paste before </ p>  to preserve formatting.
