@@ -243,7 +243,7 @@ function Story() {
             99% of fiction writers are readers of other fiction writers, or &#39;fans&#39;, and hence get their ideas from someone else. However, some forms of &#39;copying&#39; (or more politically correct: &#39;drawing inspiration&#39;)
             are more permissible than others:</p>
 
-          <h4 className="text-midBluey">(1) Steal More</h4>
+          <h5>(1) Steal More</h5>
 
           <p>If your &#39;stealing&#39; is easily found out, ironically you&#39;re probably not stealing enough. There&#39;s a saying: <i>“If you steal from one person it&#39;s plagiarism, steal from many, it&#39;s research.”</i>
             Just by reading many different authors on the same idea, or better, across many different kinds of ideas or themes, is going to enrichen your &#39;idea base&#39;, and when it comes to writing your own, the &#39;cross-fertilisation&#39; of ideas
@@ -259,12 +259,12 @@ function Story() {
               clogged with clichés of either the commercial or the art house variety.”</p>
           </div>
 
-          <h4 className="text-midBluey">(2) Steal Further Back</h4>
+          <h5>(2) Steal Further Back</h5>
           <p>There&#39;s a variation on the above: <i>"If we steal thoughts from the moderns, it will be cried down as plagiarism; if from the ancients, it will cried up as erudition"</i>
             <FootnoteRef text={`REVEREND CHARLES CALEB COLTON.`} />
             So if you want to take from &#39;Dracula&#39;, don&#39;t stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
 
-          <h4 className="text-midBluey">(3) Aim Lower</h4>
+          <h5>(3) Aim Lower</h5>
           <p>Writers are most tempted to steal from the most widely-known, or idolized, &#39;untouchable&#39; works. For instance, in fantasy, Lord of the Rings. Hypocritically, the writer believes the work cannot be improved. If you cannot improve the original work,
             then why are you trying to get published? What will the public get from your work that Lord of the Rings did not already give them?</p>
           <p>In contrast, do you remember a time you&#39;ve read a book and thought &#39;How did that turn out so bad? That could&#39;ve been really good.&#39; Those are the books you want to steal from. You want to rewrite the book the way you think it should&#39;ve gone. Even if the story is well

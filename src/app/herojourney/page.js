@@ -33,27 +33,27 @@ function HeroJourney() {
 
           <h2 id="post-act-i-departure" className="mb-2 font-semibold">Act I. Departure</h2>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">(1.1) The Call to Adventure</h3>
+           <h5>(1.1) The Call to Adventure</h5>
           <p>This event signals the beginning of the mythological journey. There are countless forms this might take. Generally, the protagonist is voluntarily or involuntarily lured away 'from the frequented paths of man.'' The occurrence may be by accident - e.g. blunder of the protagonist's doing, or the act of another. Another character (the 'herald') may give the protagonist the call to adventure. Usually, the 'herald' is 'dark, loathly, or terrifying, judged evil by the world' representing the 'rejected, unrecognised' unknown into which the protagonist must go. If there is no herald, the setting itself may possess these qualities, such as a dark forest.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">(1.2) Refusal of the Call</h3>
+           <h5>(1.2) Refusal of the Call</h5>
           <p>The protagonist does not immediately answer the call. He may actively or passively refuse it, outright reject it, or bide his time, or unintentionally avoid it.  But as long as the protagonist denies the call, his life will get worse or forces will conspire to compel him to answer the call. A series of 'signs of increasing force then will be made visible, until…the summons can no longer be denied.'</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">(1.3) Supernatural Aid</h3>
+           <h5>(1.3) Supernatural Aid</h5>
           <p>Once the protagonist has accepted the call (or around this time), he will encounter a 'protective figure,'' a guide or teacher, who gives the adventurer some kind of protective measure against the antagonistic forces he is to face against. This is usually a 'wise old mentor' type character. He is both 'protective and dangerous.'</p>
           <p>The protagonist must place trust in the protective figure, as it will infrequently tell the protagonist everything. The protective figure is normally male, but doesn't have to be. As 'the lurer of the innocent soul into the realm of trial', the figure is normally a force of good, but doesn't have to be (as Mephistopheles in Faust) - if the protagonist is called/tempted to do something bad, the figure may be bad.</p>
           <p>The Call to Adventure is typically the first announcement of the protective figure's imminent coming.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">(1.4) The Crossing of the First Threshold</h3>
+           <h5>(1.4) The Crossing of the First Threshold</h5>
           <p>The protagonist has a 'life horizon.'' This is the limits of his life's experience of the land/world. Beyond the life horizon are the places he's never gone, or doesn't know exist; 'the unknown.'' If the quest is emotional or psychological, the 'unknown' will be the unexplored parts of himself; 'the abyss,'' into which the 'consciousness descends in dream, and the individual dissolves.'' This is demarcated by 'the threshold,'' which is the entrance to 'the unknown.'' The protagonist must cross the 'threshold' to proceed in his adventure. The threshold may be magical.</p>
           <p>The 'threshold' is watched by a 'threshold guardian,'' who acts like a parental figure, ensuring the 'infant' protagonist does not wander beyond the 'tribe' out into danger. This guardian is “content, even proud, to remain within the indicated bounds, and popular belief gives him every reason to fear so much as the first step into the unexplored.” This belief may refer to danger or temptation into sin. The guardian may be dangerous and dealing with them may be risky, requiring competence and courage.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">(1.5) The Belly of the Whale</h3>
+           <h5>(1.5) The Belly of the Whale</h5>
           <p>The passage through the threshold symbolizes a metamorphosis; a rebirth into a new world, but also a symbolic death, as the protagonist is “swallowed into the unknown, and would appear to have died.”</p>
           <p>This doesn't necessarily entail the protagonist's bodily death (though it may), it may involve the death of the protagonist's ego, lifestyle, or other identifying feature. The crossing of the threshold signifies the protagonist will never be the same.</p>
 
           <h2 id="post-act-ii-initiation" className="mb-2 font-semibold">Act II. Initiation</h2>
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">(2.1) The Road of Trials</h3>
+           <h5>(2.1) The Road of Trials</h5>
           <p>Once across the threshold, the protagonist may find himself in a dreamlike landscape where he must survive a succession of trials, tests or ordeals.</p>
           <p>In this, the protagonist is aided by the protective advice or gifts of the protective figure.</p>
           <p>Trials may include slaying monsters or dragons and passing through barriers, throughout which there will be momentary glimpses of wonder and victory.</p>

@@ -45,56 +45,58 @@ function Themes() {
 
           <h2 id="post-what-is-theme">4.1: What is Theme?</h2>
 
-          <div className="custom-box">
-            <p>[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified.”</p>
-            <i>— Robert Meredith and John Fitzgerald
-              <FootnoteRef text={`ROBERT MEREDITH and JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
-            </i>
-          </div>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+            <p className="mb-0">"[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified." </p>
+            <p></p><i>— Robert Meredith and John Fitzgerald
+              <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
+            </i></div>
 
-          <div className="custom-box">
-            <p>[Themes are v]alues, the positive/negative charges of life, [which] are at the soul of our art. The writer shapes story around a perception of what's worth living for, what's worth dying for, what's foolish to pursue, the meaning of justice, truth — the essential values.</p>
-            <i>— Robert McKee
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+            <p className="mb-0">"[Themes are v]alues, the positive/negative charges of life, [which] are at the soul of our art. The writer shapes story around a perception of what's worth living for, what's worth dying for, what's foolish to pursue, the meaning of justice, truth — the essential values." </p>
+            <p></p><i>— Robert McKee
               <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            </i>
-          </div>
+            </i></div>
 
           <p>Themes can be simple and absolute, or complex and variable. They can be optimistic or pessimistic. They can affirm the status quo or attempt to subvert it. They can be cliché or novel, obtuse or illuminating, pretentious or unassuming, cerebral or illogical. They can be familiar and comforting or bizarre and disconcerting. One of the most common themes in stories is that good ultimately triumphs over evil.</p>
           <p>Hart
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             which just keep repeating themselves. This is a virtue, as good themes endure, they speak to universal human experience -- they're not meant to reinvent the wheel. Hart quoted Paula LaRoque's list of themes or archetypes:</p>
 
-          <ol>
-            <li>Quest,</li>
-            <li>Search,</li>
-            <li>Journey,</li>
-            <li>Pursuit,</li>
-            <li>Capture,</li>
-            <li>Rescue,</li>
-            <li>Escape,</li>
-            <li>Love,</li>
-            <li>Forbidden love,</li>
-            <li>Unrequited love,</li>
-            <li>Adventure,</li>
-            <li>Riddle,</li>
-            <li>Sacrifice,</li>
-            <li>Discovery,</li>
-            <li>Temptation,</li>
-            <li>Loss or gain of identity,</li>
-            <li>Metamorphosis,</li>
-            <li>Transformation,</li>
-            <li>Dragon-slaying,</li>
-            <li>Descent into an underworld,</li>
-            <li>Rebirth,</li>
-            <li>Redemption,</li>
-          </ol>
+          <div className="custom-box">
+            <ol>
+              <li>Quest,</li>
+              <li>Search,</li>
+              <li>Journey,</li>
+              <li>Pursuit,</li>
+              <li>Capture,</li>
+              <li>Rescue,</li>
+              <li>Escape,</li>
+              <li>Love,</li>
+              <li>Forbidden love,</li>
+              <li>Unrequited love,</li>
+              <li>Adventure,</li>
+              <li>Riddle,</li>
+              <li>Sacrifice,</li>
+              <li>Discovery,</li>
+              <li>Temptation,</li>
+              <li>Loss or gain of identity,</li>
+              <li>Metamorphosis,</li>
+              <li>Transformation,</li>
+              <li>Dragon-slaying,</li>
+              <li>Descent into an underworld,</li>
+              <li>Rebirth,</li>
+              <li>Redemption,</li>
+            </ol>
+          </div>
 
           <p>Hart also adds:</p>
-          <ol>
-            <li>Maturation,</li>
-            <li>Accepting flaws,</li>
-            <li>Persistence in the face of longstanding or difficult challenges,</li>
-          </ol>
+          <div className="custom-box">
+            <ol>
+              <li>Maturation,</li>
+              <li>Accepting flaws,</li>
+              <li>Persistence in the face of longstanding or difficult challenges,</li>
+            </ol>
+          </div>
 
           <p>Ultimately, all themes converge to seek cause, consequence, reason, and order.</p>
 
@@ -141,12 +143,11 @@ function Themes() {
           <p>Under '1.1. The Main Elements of a Story,' Theme came last on the list. Plot comes first because your reader wants to be entertained above all else. If they wanted to learn something they would read non-fiction. </p>
           <p>When you make THEME come first, you end up with a lecture - or worse, propaganda - not a story. Your plot bends to facilitate your opinion, rather than reflect the most interesting arrangement of events.</p>
 
-          <div className="custom-box">
-            <p>[If there's] one fault that stands out above all others...by the young and inexperienced [writers], it is the tendency to sermonize and editorialize to drive home the theme...[This] novelist is convinced of the validity of his wisdom, gained from experience, and he wants…to persuade others about [his] truth...as a result he begins to lecture the reader.</p>
-            <i>— Robert Meredith and John Fitzgerald
-              <FootnoteRef text={`ROBERT MEREDITH and JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
-            </i>
-          </div>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+            <p className="mb-0">"[If there's] one fault that stands out above all others...by the young and inexperienced [writers], it is the tendency to sermonize and editorialize to drive home the theme...[This] novelist is convinced of the validity of his wisdom, gained from experience, and he wants…to persuade others about [his] truth...as a result he begins to lecture the reader." </p>
+            <p></p><i>— Robert Meredith and John Fitzgerald
+              <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
+            </i></div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -176,7 +177,7 @@ function Themes() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}

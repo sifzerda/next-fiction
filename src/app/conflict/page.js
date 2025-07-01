@@ -39,11 +39,12 @@ function Conflict() {
           <p>By contrast with fate and chance, conflict happens in measures, proportionate to your protag's goal progress. You can't decide what happens in your story based on the flip of a coin.</p>
           <p>Conflict also gives your character an opportunity to respond; they have some power to try to change the course of events (even if they fail). Blind misfortune, on the other hand, doesn't care who your protagonist is, and gives him no opportunity, and no recourse.</p>
 
-          <div className="custom-box">
-            <p>Your character can't sit home passively and accidentally get a telephone call from friend Max, who then volunteers a crucial clue in the murder mystery. Your character has to think things over and then decide that he will call people seeking information. After calling several other people, he comes to Max on his list. He calls Max. Max doesn't want to tell him, but you make your character persist. Finally your character convinces Max to talk, and Max gives him the next clue.
-             <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
-            </p>
-          </div>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+            <p className="mb-0">"Your character can't sit home passively and accidentally get a telephone call from friend Max, who then volunteers a crucial clue in the murder mystery. Your character has to think things over and then decide that he will call people seeking information. After calling several other people, he comes to Max on his list. He calls Max. Max doesn't want to tell him, but you make your character persist. Finally your character convinces Max to talk, and Max gives him the next clue." </p>
+            <p></p><i>— Jack Bickham
+              <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
+            </i></div>
+
 
           <p>Notice how the conflict, by making the information harder to get, makes it seem more valuable and after the effort, will make the reader more interested to know what it is. This reinforces an economy of information (see 11.3 Information Economy).</p>
 
@@ -79,18 +80,16 @@ function Conflict() {
           </p>
 
           <div className="custom-box">
-            <ol>
-              <li>&quot;Atticus,&quot; I said one evening, &quot;what exactly is a nigger-lover?&quot; Atticus's face was grave. &quot;Has somebody been calling you that?&quot;</li>
-              <li>&quot;No sir, Mrs. Dubose calls you that. She warms up every afternoon calling you that. Francis called me that last Christmas, that's where I first heard it.&quot;</li>
-              <li>&quot;Is that the reason you jumped on him?&quot; asked Atticus.</li>
-              <li>&quot;Yes sir...&quot;</li>
-              <li>&quot;Then why are you asking me what it means?&quot;</li>
-              <li>I tried to explain to Atticus that it wasn't so much what Francis said that had infuriated me as the way he had said it.</li>
-              <li>&quot;It was like he'd said snot-nose or somethin'.&quot;</li>
-              <li>&quot;Scout,&quot; said Atticus, &quot;nigger-lover is just one of those terms that don't mean anything—like snot-nose. It's hard to explain—ignorant, trashy people use it when they think somebody's favoring Negroes over and above themselves. It's slipped into usage with some people like ourselves, when they want a common, ugly term to label somebody.&quot;</li>
-              <li>&quot;You aren't really a nigger-lover, then, are you?&quot;</li>
-              <li>&quot;I certainly am. I do my best to love everybody...&quot;</li>
-            </ol>
+            <p>"Atticus," I said one evening, "what exactly is a nigger-lover?" Atticus's face was grave. "Has somebody been calling you that?"</p>
+            <p>"No sir, Mrs. Dubose calls you that. She warms up every afternoon calling you that. Francis called me that last Christmas, that's where I first heard it."</p>
+            <p>"Is that the reason you jumped on him?" asked Atticus.</p>
+            <p>"Yes sir..."</p>
+            <p>"Then why are you asking me what it means?"</p>
+            <p>I tried to explain to Atticus that it wasn't so much what Francis said that had infuriated me as the way he had said it.</p>
+            <p>"It was like he'd said snot-nose or somethin'."</p>
+            <p>"Scout," said Atticus, "nigger-lover is just one of those terms that don't mean anything—like snot-nose. It's hard to explain—ignorant, trashy people use it when they think somebody's favoring Negroes over and above themselves. It's slipped into usage with some people like ourselves, when they want a common, ugly term to label somebody."</p>
+            <p>"You aren't really a nigger-lover, then, are you?"</p>
+            <p>"I certainly am. I do my best to love everybody..."</p>
           </div>
 
           <p>Ostensibly this scene is merely about a father telling his daughter what a term means. But it's got that everyone-at-the-table-goes-dead-silent quality because it goes to the critical conflict of the story; the exposure of the innocent children to the racial hatred of the town.</p>
@@ -117,46 +116,46 @@ function Conflict() {
           <h3>5.5.1 	Conflict with Environment</h3>
           <p>Step One: Place the protagonist in conflict with his own environment or the environment of others. There are different ways to do this:</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">I. Changing the View</h3>
+           <h5>I. Changing the View</h5>
           <p>A change within the environment that affects the protagonist can put the protagonist in conflict with the environment. This may be a physical (i.e. geographical) change, or it may be a psychological change (a character inherits the family home after his/her parents die). The environmental shift may be mundane or predictable, and something everyone goes through but the conflict comes from the new/different environment requiring a different set of behaviour or responsibilities or coping mechanisms from the character. For instance, a character who was dependent may need to learnt to be independent.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">II. Uprooting</h3>
+           <h5>II. Uprooting</h5>
           <p>Uprooting a protagonist from one environment and placing him in a strange environment can put him into conflict with the environment. A character finds themselves in a new environment inadvertently, unpredictably, or by accident, and with little to no preparation, and the new environment may be abnormal, for instance, shipwrecking on a deserted island. The conflict comes not only from the requirement for the character to drastically change their behaviour, as above, but also from the environment itself, which may pose novel and unusual obstacles, such as on a deserted island, the scarcity of drinking water, or shelter.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">III.	Environment vs Environment</h3>
+           <h5>III.	Environment vs Environment</h5>
           <p>Placing a protagonist in an environment that is in conflict with another environment puts the protagonist in conflict with the environment of others. An obvious example is a story set during wartime, but can apply anywhere groups of people are in organised conflict with each other. If the protagonist takes a side (even accidentally) it will default the other side to his antagonists.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">IV.	Things could be better</h3>
+           <h5>IV.	Things could be better</h5>
           <p>Placing a protagonist in an environment he wants to change can put the protagonist in conflict with the environment. This is where the character doesn't like things about the environment he finds himself in -- it doesn't necessarily require an environment change. An example might be where a peasant protagonist lives in a poverty-stricken land, or a character lives under a despotic totalitarian regime.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">V.	Greener Grass</h3>
+           <h5>V.	Greener Grass</h5>
           <p>Giving a protagonist an environment to conquer puts the protagonist in conflict with the environment. This is where a protagonist envies something about a different environment, and tries to obtain it for himself. For instance, a poor protagonist who moves to a wealthier place in an attempt to make life better for himself. This is distinct from 'Things could be better' as the battle is not focused on protagonist's former home, but on the envied environment.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">VI.	I want more</h3>
+           <h5>VI.	I want more</h5>
           <p>Placing a protagonist in an environment from which he wants to escape puts the protagonist in conflict with the environment. This is like 'Greener Grass' except the protagonist hasn't left home. There might not be anything wrong with an environment except incompatibility with the protagonist's character; it's boring, predictable, uninspiring, unenlightened, uncaring, etc.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">VII.	The outsider</h3>
+           <h5>VII.	The outsider</h5>
           <p>Placing a protagonist in an environment in which he is not wanted puts the protagonist in conflict with the environment. The conflict here is not necessarily that the protagonit doesn't like his home, rather it's that he likes and wants to be liked and accepted as a part of it. The non-acceptance of the character may be due to his lack of having proved himself, or because of prejudices against him.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">VIII.	Fish out of water</h3>
+           <h5>VIII.	Fish out of water</h5>
           <p>Placing a protagonist in an environment for which he is unsuited by character puts the protagonist in conflict with the environment. The conflict comes from the environment being the kind of place where a certain type of person thrives or habituates, and the protagonist's contrast to that kind of person.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">IX.	Hired or Fired</h3>
+           <h5>IX.	Hired or Fired</h5>
           <p>A change in the status quo of the protagonist within the environment can put the protagonist in conflict with the environment. The character might gain or lose status or esteem, bringing that character into conflict with those around him.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">X.	Change of Office</h3>
+           <h5>X.	Change of Office</h5>
           <p>A change in the status quo of an environment can put the protagonist in conflict with the environment. This is like 'Hired or Fired' but it's a group/s that changes status, not an individual. It may be that the government or ruling power changes hands, and it may be a group the protagonist himself is a member of, or not (as long as the group has an effect on the protagonist's life).</p>
 
           <h3>5.5.2 	Applying the Conflict to the Protagonist</h3>
           <p>Step Two: You must flesh out why it's the protagonist who acts in the face of the conflict and not another. To do this, give the protagonist a chief motivating force with a tangible objective.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">I.	Chief Motivating Force</h3>
+           <h5>I.	Chief Motivating Force</h5>
           <p>When the conflict arises, the protagonist's reaction results in a determination to do something about it. Their planned action/s is the 'chief motivating force.'</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">II.	Tangible Objective</h3>
+           <h5>II.	Tangible Objective</h5>
           <p>The objective is what the protagonist ultimately wants to get out of the chief motivating force. What is the force going to give them personally, selfishly? Here, 'tangible' means a condition or circumstance which can be realised in the mind. In other words, can the objective be converted into a mental picture, an actual concrete set of circumstances? If not, it is too abstract and needs to be specified.</p>
 
-          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">III.	Examples</h3>
+           <h5>III.	Examples</h5>
 
           <ol>
             <li>Chief Motivating Force: Escape prison; Tangible Objective: Get revenge on corrupt head of police force.</li>
@@ -193,10 +192,10 @@ function Conflict() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
-       {/* Vertical Boxes on the Right */}
+        {/* Vertical Boxes on the Right */}
         <div className="flex flex-col gap-4 items-center md:items-start mt-6">
           {/* About Box */}
           <div className="w-full md:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
