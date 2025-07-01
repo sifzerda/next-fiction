@@ -81,7 +81,7 @@ function Premise() {
               <li>What if an intellectually handicapped man was in an experiment that made him a genius?
                 <FootnoteRef text={`DANIEL KEYES,\nFlowers for Algernon.`} />
               </li>
-              <li>What if a typical, conservative 1950s breadwinning husband started physically shrinking? 
+              <li>What if a typical, conservative 1950s breadwinning husband started physically shrinking?
                 <FootnoteRef text={`RICHARD MATHESON,\nThe Incredible Shrinking Man.`} />
               </li>
             </ol>
@@ -111,47 +111,58 @@ function Premise() {
 
           <p>Or:</p>
 
-          <ol>
-            <li>Protagonist finds mysterious object;</li>
-            <li>Protagonist uses object and is sent to the future;</li>
-            <li>Protagonist returns to present time.</li>
-          </ol>
+          <div className="custom-box">
+            <ol>
+              <li>Protagonist finds mysterious object;</li>
+              <li>Protagonist uses object and is sent to the future;</li>
+              <li>Protagonist returns to present time.</li>
+            </ol>
+          </div>
 
           <p>Or:</p>
 
-          <ol>
-            <li>Protagonist finds mysterious object;</li>
-            <li>Protagonist is stalked by a terrifying alien presence;</li>
-            <li>Protagonist&#39;s alien infection starts turning him into an alien.</li>
-          </ol>
+          <div className="custom-box">
+            <ol>
+              <li>Protagonist finds mysterious object;</li>
+              <li>Protagonist is stalked by a terrifying alien presence;</li>
+              <li>Protagonist&#39;s alien infection starts turning him into an alien.</li>
+            </ol>
+          </div>
 
           <p>Or:</p>
 
-          <ol>
-            <li>Protagonist finds mysterious object;</li>
-            <li>Protagonist is beamed to alien planet;</li>
-            <li>Protagonist marries alien prince/princess.</li>
-          </ol>
+          <div className="custom-box">
+            <ol>
+              <li>Protagonist finds mysterious object;</li>
+              <li>Protagonist is beamed to alien planet;</li>
+              <li>Protagonist marries alien prince/princess.</li>
+            </ol>
+          </div>
 
           <p>I give different examples to show that your question should not lock you into a predetermined &#39;answer.&#39; At this stage your story can still be about whatever you want, in whatever genre you want. To further expand the E chain, let&#39;s take one of the above examples:</p>
 
+          <div className="custom-box">
           <ol>
             <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
           </ol>
+          </div>
 
           <p>
             For each &#39;Event,&#39; you&#39;re brainstorming to resolve why the event happens, in the most interesting, dynamic ways you can think of. Refer to &#39;Encouragement&#39; and &#39;Effect&#39;, to create a logical chain of activity. For example, starting with number one:
           </p>
 
+          <div className="custom-box">
           <ol>
             <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
             <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
           </ol>
+          </div>
 
-          <ol>
+          <div className="custom-box">
+          <ol className="numbered">
             <li>
               <span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;
               <ol>
@@ -162,8 +173,9 @@ function Premise() {
               </ol>
             </li>
           </ol>
+          </div>
 
-          <p>You could just say your protag has a curious and investigative personality, but this is easy and uninteresting. Alternatively, you could set up that your protag&#39;s beloved GF/BF recently ended their relationship because they found protag boring. That is a more interesting incentive for your protag to investigate the object, particularly if they suspect it came from space. Surely a discovery of an alien artefact makes someone highly interesting. It also raises a great potential sub-plot about your protag trying to get back their ex — and notice how this raises interesting conflict with the &#39;married to alien&#39; event later.</p>
+          <p>You could just say your protagonist has a curious and investigative personality, but this is easy and uninteresting. Alternatively, you could set up that your protag&#39;s beloved GF/BF recently ended their relationship because they found protag boring. That is a more interesting incentive for your protag to investigate the object, particularly if they suspect it came from space. Surely a discovery of an alien artefact makes someone highly interesting. It also raises a great potential sub-plot about your protag trying to get back their ex — and notice how this raises interesting conflict with the &#39;married to alien&#39; event later.</p>
           <p>We can use this brainstorming to flesh out the E chain (remember that &#39;encouragement&#39; comes before &#39;event&#39; even though below I&#39;ve put it under event):</p>
 
           <div className="custom-box">
@@ -206,13 +218,13 @@ function Premise() {
           <p>What is the aforementioned &#39;something good&#39; that litters the story? Answer: a &#39;live issue&#39;.</p>
           <p>A live issue is a plot element which raises an issue that demands resolution. It&#39;s a plot detail that causes the reader to ask questions and demand answers (who, what, when, where, why, how).</p>
 
-          <div className="p-3 mb-3 rounded bg-hYellow border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
             <p className="mb-0">“Good stories need an engine, a question the story answers for the reader. Who done it? Guilty or not guilty? Who will win the race? Which man will she marry? Will the hero escape, or die trying? Good questions drive good stories.” </p>
             <p></p><i>— Roy Clark
               <FootnoteRef text={`ROY CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} />
             </i></div>
 
-          <div className="p-3 mb-3 rounded bg-hYellow border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
             <p className="mb-0">"Plant little queries along the way, little hints and teasers. Then answer them one by one, substituting new queries as you do." </p>
             <p></p><i>— David Carroll
               <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
@@ -229,7 +241,7 @@ function Premise() {
           <p>It&#39;s critical to structure your plot with live issues. Without, your story will be a guaranteed flop. You literally fail to provide your reader any reason to read it.</p>
           <p>Sphere by Michael Crichton,
             <FootnoteRef text={<><em>Sphere</em>, Universal Pictures, (1998). Based on the novel by <span className="uppercase font-bold text-yellow-400">MICHAEL CRICHTON</span>.</>} />
-             is a good example of a plot structured with live issues. The main plot issue is: What is the Sphere? Wisely, the novel does not limit itself that question. Each chapter raises a new question/s to continue to feed the reader&#39;s interest and reward their continued reading. Examples of live issues raised throughout:</p>
+            is a good example of a plot structured with live issues. The main plot issue is: What is the Sphere? Wisely, the novel does not limit itself that question. Each chapter raises a new question/s to continue to feed the reader&#39;s interest and reward their continued reading. Examples of live issues raised throughout:</p>
           <h3>2.4.2 	Examples of live issues</h3>
 
           <div className="custom-box">
