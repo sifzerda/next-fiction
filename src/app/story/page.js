@@ -441,7 +441,7 @@ function Story() {
           {/* About Box */}
           <div
             id="about-box"
-            className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+            className="w-full md:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">A story is a collection of events which altogether create a meaningful whole that is greater than the sum of its parts.</p>
           </div>
