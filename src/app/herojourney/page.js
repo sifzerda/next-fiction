@@ -12,7 +12,7 @@ function HeroJourney() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">The Hero's Journey</h1>
+        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">The Hero's Journey</h1>
 
         <blockquote>
           “You enter the forest at the darkest point, where there is no path. Where there is a way or path, it is someone else's path. You are not on your own path. If you follow someone else's way, you are not going to realize your potential.”

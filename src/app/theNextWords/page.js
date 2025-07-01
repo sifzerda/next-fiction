@@ -14,7 +14,7 @@ function TheNextWords() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">The Next Words</h1>
+        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">The Next Words</h1>
 
         <blockquote>
           “We are what we repeatedly do. Excellence, then, is not an act, but a habit.”

@@ -12,7 +12,7 @@ function Dialogue() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Dialogue</h1>
+        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Dialogue</h1>
 
         <blockquote>
           “Dialogue is used to reveal not what we want to say, but what we are trying to hide.”

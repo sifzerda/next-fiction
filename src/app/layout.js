@@ -1,33 +1,14 @@
-import { 
-  Geist, 
-  Geist_Mono, 
-  Amatic_SC, 
-  Rubik, 
+import {
+  Rubik,
   Source_Code_Pro,
   Edu_AU_VIC_WA_NT_Guides,
-
+  Rock_Salt,
 } from "next/font/google";
 import "../../styles/globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const amatic = Amatic_SC({
-  subsets: ['latin'],
-  weight: '400',
-  variable: '--font-amatic-sc',
-});
-
 const rubik = Rubik({
   subsets: ['latin'],
-  weight: ['400', '500'], 
+  weight: ['400', '500'],
   variable: '--font-rubik',
 });
 
@@ -39,8 +20,14 @@ const sourceCodePro = Source_Code_Pro({
 
 const eduFont = Edu_AU_VIC_WA_NT_Guides({
   subsets: ['latin'],
-  weight: ['400'], 
+  weight: ['400'],
   variable: '--font-edu-au',
+});
+
+const rockSalt = Rock_Salt({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-rock-salt",
 });
 
 export const metadata = {
@@ -53,12 +40,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`
-        ${geistSans.variable} 
-        ${geistMono.variable} 
-        ${amatic.variable} 
         ${rubik.variable} 
         ${sourceCodePro.variable} 
-         ${eduFont.variable}
+        ${eduFont.variable}
+        ${rockSalt.variable}
         antialiased`}>
         {children}
       </body>

@@ -12,7 +12,7 @@ function Suspense() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Suspense</h1>
+        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Suspense</h1>
 
         <blockquote>
           “You do not keep the audience's interest by giving it information, but by withholding information.”

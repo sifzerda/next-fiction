@@ -12,7 +12,7 @@ function Themes() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="font-geistMono uppercase text-xl font-semibold text-yellow mb-2 text-center">Themes</h1>
+        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Themes</h1>
 
         <blockquote>
           “There are half a dozen subjects that I return to time and time again...[b]ecause most of my favourite writers do that, to hunt down the same topic or theme from different directions each time.”
