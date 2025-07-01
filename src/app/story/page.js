@@ -135,8 +135,8 @@ function Story() {
 
           <h2 id="post-main-elements-of-story">1.3 The Main Elements of a Story</h2>
 
-          <p>These are the main elements of story structure, in order of priority:</p>
-          <FootnoteRef text="MARK TWAIN." />
+          <p>These are the main elements of story structure, in order of priority:
+            <FootnoteRef text="MARK TWAIN." /></p>
           <ol>
             <li className="mb-2">PLOT;</li>
             <li className="mb-2">CHARACTERS;</li>
@@ -223,7 +223,7 @@ function Story() {
             objects, settings, or other. This gives the journey enormous scope for application.</p>
 
           <p>For a detailed summary of the Hero's Journey, see
-            <Link href="/herojourney" className="text-midBlue hover:underline">this page</Link></p>
+            <Link href="/herojourney" className="text-midBlue hover:underline"> this page.</Link></p>
 
           <h2 id="post-myths-and-misconceptions">1.6 Myths and Misconceptions</h2>
           <h3>1.6.1 Write What You Know</h3>
@@ -243,7 +243,7 @@ function Story() {
             99% of fiction writers are readers of other fiction writers, or &#39;fans&#39;, and hence get their ideas from someone else. However, some forms of &#39;copying&#39; (or more politically correct: &#39;drawing inspiration&#39;)
             are more permissible than others:</p>
 
-          <h4 className="text-sm font-semibold text-midBluey mt-3 mb-1">(1) Steal More</h4>
+          <h4 className="text-midBluey">(1) Steal More</h4>
 
           <p>If your &#39;stealing&#39; is easily found out, ironically you&#39;re probably not stealing enough. There&#39;s a saying: <i>“If you steal from one person it&#39;s plagiarism, steal from many, it&#39;s research.”</i>
             Just by reading many different authors on the same idea, or better, across many different kinds of ideas or themes, is going to enrichen your &#39;idea base&#39;, and when it comes to writing your own, the &#39;cross-fertilisation&#39; of ideas
@@ -259,12 +259,12 @@ function Story() {
               clogged with clichés of either the commercial or the art house variety.”</p>
           </div>
 
-          <h4 className="text-sm font-semibold text-midBluey mt-3 mb-1">(2) Steal Further Back</h4>
+          <h4 className="text-midBluey">(2) Steal Further Back</h4>
           <p>There&#39;s a variation on the above: <i>"If we steal thoughts from the moderns, it will be cried down as plagiarism; if from the ancients, it will cried up as erudition"</i>
             <FootnoteRef text={`REVEREND CHARLES CALEB COLTON.`} />
             So if you want to take from &#39;Dracula&#39;, don&#39;t stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
 
-          <h4 className="text-sm font-semibold text-midBluey mt-3 mb-1">(3) Aim Lower</h4>
+          <h4 className="text-midBluey">(3) Aim Lower</h4>
           <p>Writers are most tempted to steal from the most widely-known, or idolized, &#39;untouchable&#39; works. For instance, in fantasy, Lord of the Rings. Hypocritically, the writer believes the work cannot be improved. If you cannot improve the original work,
             then why are you trying to get published? What will the public get from your work that Lord of the Rings did not already give them?</p>
           <p>In contrast, do you remember a time you&#39;ve read a book and thought &#39;How did that turn out so bad? That could&#39;ve been really good.&#39; Those are the books you want to steal from. You want to rewrite the book the way you think it should&#39;ve gone. Even if the story is well
@@ -292,6 +292,8 @@ function Story() {
           <p>It&#39;s no defence to a charge that your story is unbelievable or boring or poorly structured or nonsensical to say &#39;but it was like that in real life.&#39; Lots of things, all kinds of things, happen in real life, and most of them aren&#39;t story-worthy.
             Stories aren&#39;t real life like characters aren&#39;t real people.</p>
 
+          <hr />
+
           <h2 id="post-philosophy-of-story">1.7 The Philosophy of Storytelling</h2>
           <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don&#39;t want to write about those things, or you can&#39;t, your story won&#39;t be worth telling.</p>
 
@@ -307,6 +309,8 @@ function Story() {
               respect the environment, humanity could return to paradise. But if history has taught us anything, it's that when toxic nightmare is finally cleaned up, the homeless provided shelter, and the world converted to solar energy, each of us will still be up to our eyebrows in mulch.”</p>
           </div>
           <p>Yikes.</p>
+
+          <hr />
 
           <h2 id="post-medium">1.8 Medium</h2>
           <p>It&#39;s worth considering whether your story makes the most of your chosen medium (writing/literature). Your story might make a great film, or video game, but a poor novel. Right now, audiences love superhero comics, superhero films and superhero video games, but no one reads superhero novels. The superhero genre seems to need images to work.</p>
@@ -360,31 +364,31 @@ function Story() {
           <p>There are no firm rules about these distinctions, but if you want to work out whether your story is
             better suited for literature or film (or other media), consider:</p>
 
-          <ol>
+          <ol className="numbered">
             <li>Is the plot complicated or straightforward?
               <ol>
                 <li>Intricately complex plots suit literature because books give people pause to think and rationalise.</li>
               </ol>
             </li>
             <li>Is the story reliant on visual information?
-              <ol>
-                <li>Less visual stories work better as literature, whereas stories which rely on visualization work better as a film;</li>
+              <ol className="numbered">
+                <li>Less visual stories work better as literature, whereas stories which rely on visualization work better as a film.</li>
               </ol>
             </li>
             <li>Is critical information metered out gradually until a big reveal at the end?
-              <ol>
+              <ol className="numbered">
                 <li>This can work well as literature;</li>
               </ol>
             </li>
             <li>Did critical events happen in the past?
-              <ol>
-                <li>This suits literature which is less focused on showing the &#39;here and now&#39; than film</li>
+              <ol className="numbered">
+                <li>This suits literature which is less focused on showing the 'here and now' than film.</li>
               </ol>
             </li>
             <li>Is there a long history spanning hundreds of years, a large cast of near hundred/s, or other risk of
               'information overload'?
-              <ol>
-                <li>This suits literature, which has more time and endurance to deal with detail density, which would fatigue a film (and blow its budget)</li>
+              <ol className="numbered">
+                <li>This suits literature, which has more time and endurance to deal with detail density, which would fatigue a film (and blow its budget).</li>
               </ol>
             </li>
           </ol>
@@ -419,13 +423,14 @@ function Story() {
           </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 id="post-story-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          
+          <h1 id="post-story-comments" className="text-base text-llBlue bg-bootstrapDark p-3">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
 
           {/* Back to Top Link */}
-          <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
+          <a href="#" className="mt-6 inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:hover:text-yellow hover:border-yellow transition">Back to Top</a>
         </div>
 
         {/* Vertical Boxes on the Right */}

@@ -162,7 +162,7 @@ function Subtext() {
 
 
           {/* Back to Top Link */}
-          <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
+          <a href="#" className="mt-6 inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:hover:text-yellow hover:border-yellow transition">Back to Top</a>
         </div>
 
         {/* Vertical Boxes on the Right */}

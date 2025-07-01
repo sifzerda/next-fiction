@@ -48,6 +48,48 @@ ol {
   font-family: var(--font-rubik), sans-serif;
 }
 
+/* ------- nested ol --------*/
+
+ol.numbered {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+ol.numbered > li {
+  counter-increment: item;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+ol.numbered > li::before {
+  content: counter(item) ". ";
+  position: absolute;
+  left: -1.5rem;
+  font-weight: 600;
+}
+
+ol.numbered > li > ol {
+  counter-reset: subitem;
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+ol.numbered > li > ol > li {
+  counter-increment: subitem;
+  position: relative;
+  margin-bottom: 0.25rem;
+}
+
+ol.numbered > li > ol > li::before {
+  content: counter(item) "." counter(subitem) " ";
+  position: absolute;
+  left: -1.5rem;
+  font-weight: 500;
+}
+
+/* ------- --------- --------*/
+
 li {
   margin-bottom: 0.5rem;
   font-size: 0.875rem;
@@ -75,12 +117,12 @@ li {
 /* light-colour box */
 
 .custom-box {
-  padding: 0.75rem;      
-  margin-bottom: 0.75rem;   
-  border-radius: 0.25rem;   
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.25rem;
   background-color: #f3f4f6;
-  border: 1px solid #d1d5db; 
-  font-family: 'Rubik', sans-serif; 
+  border: 1px solid #d1d5db;
+  font-family: 'Rubik', sans-serif;
 }
 
 /* back to top btn and scrollbar settings */
@@ -97,9 +139,9 @@ p {
 }
 
 blockquote {
-  font-size: 0.875rem;  
+  font-size: 0.875rem;
   font-style: italic;
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -130,20 +172,19 @@ h3 {
 }
 
 h4 {
-  font-size: 0.76rem;
   font-weight: bold;
-  color: #002a9e;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
   margin-bottom: 0.25rem;
 }
 
 hr {
-  margin-top: 1.5rem; 
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  border-top-width: 1px;   
-  border-color: #9ca3af;  
+  border-top-width: 1px;
+  border-color: #9ca3af;
   border-style: solid;
   border-left-width: 0;
   border-right-width: 0;

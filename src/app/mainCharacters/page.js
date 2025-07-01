@@ -764,13 +764,13 @@ function MainCharacters() {
           <p><span className="underline">Effect:</span> 'want' comes from Old English 'vant' meaning 'absence' or 'lacking.' The absence of the thing must weigh on the protagonist in some palpable way, e.g. cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize, it changes them or their life in some corresponding way. The object itself doesn't need to be big or dramatic as long as its effect or consequences would be significant.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 id="post-mainChar-comments" className="text-2xl font-bold mb-4">Leave a Comment</h1>
+          <h1 id="post-mainChar-comments" className="text-base text-llBlue bg-bootstrapDark p-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />
 
           {/* Back to Top Link */}
-          <a href="#" className="mt-6 inline-block px-4 py-2 bg-white text-midBlue rounded border border-midBlue shadow hover:bg-gray-200 hover:text-midBluey hover:border-midBluey transition">Back to Top</a>
+          <a href="#" className="mt-6 inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:hover:text-yellow hover:border-yellow transition">Back to Top</a>
         </div>
 
         {/* Vertical Boxes on the Right */}
