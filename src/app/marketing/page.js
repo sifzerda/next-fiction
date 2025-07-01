@@ -300,7 +300,7 @@ function Marketing() {
           <p>Using a logline for Harry Potter and the Philosopher&#39;s Stone as an example:</p>
 
           <p className="indent-8 mb-2"><u>Coincidental Logline:</u> A young boy who lives with his magical relatives, discovers he is also a wizard. </p>
-          <p className="indent-8 mb-2"><u>Ironic Logline:</u> A young boy who lives with his magical relatives, discovers he is also a wizard. </p>
+          <p className="indent-8 mb-2"><u>Ironic Logline:</u> A young boy who lives with his non-magical relatives, discovers he is also a wizard. </p>
 
           <p>It&#39;s easy to see which logline is makes for a more interesting story.</p>
 
