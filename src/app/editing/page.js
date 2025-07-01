@@ -252,10 +252,10 @@ function Editing() {
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
 
               <li className="mb-px"><a href="#post-general-deadweights" className="hover:underline hover:text-white">21.1: General Deadweights</a></li>
-              <li className="mb-px"><a href="#post-pronouns" className="hover:underline hover:text-white">22.2: Pronouns</a></li>
-              <li className="mb-px"><a href="#post-right-branching-sentences" className="hover:underline hover:text-white">22.3: Right-Branching Sentences</a></li>
-              <li className="mb-px"><a href="#post-start-and-end-strong" className="hover:underline hover:text-white">22.4: Start and End Strong</a></li>
-              <li className="mb-px"><a href="#post-guarding-word-territory" className="hover:underline hover:text-white">22.5: Guarding Word Territory</a></li>
+              <li className="mb-px"><a href="#post-pronouns" className="hover:underline hover:text-white">21.2: Pronouns</a></li>
+              <li className="mb-px"><a href="#post-right-branching-sentences" className="hover:underline hover:text-white">21.3: Right-Branching Sentences</a></li>
+              <li className="mb-px"><a href="#post-start-and-end-strong" className="hover:underline hover:text-white">21.4: Start and End Strong</a></li>
+              <li className="mb-px"><a href="#post-guarding-word-territory" className="hover:underline hover:text-white">21.5: Guarding Word Territory</a></li>
               <li className="mb-px"><a href="#post-editing-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>

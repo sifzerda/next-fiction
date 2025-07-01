@@ -256,3 +256,5 @@ footnotes are not resetting on page switch (they're accumulating)
 there's a p descedent of p hydration error on The Next Words page somewhere
 
 plot page is not flexing in properly
+
+IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)

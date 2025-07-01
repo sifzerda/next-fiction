@@ -210,6 +210,8 @@ function Story() {
           <p>Also, make the protagonist&#39;s rise/loss proportionate to the radicalism of their beliefs; a protagonist who is spectacularly polarised should
             fail spectacularly; a protagonist whose beliefs are more nuanced or equivocal may fail partly and win partly.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h2 id="post-joseph-campbell-myths">1.4 Joseph Campbell&#39;s Myths</h2>
 
           <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being &#39;The Adventure of the Hero,&#39;
@@ -224,6 +226,8 @@ function Story() {
 
           <p>For a detailed summary of the Hero's Journey, see
             <Link href="/herojourney" className="text-midBlue hover:underline"> this page.</Link></p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-myths-and-misconceptions">1.5 Myths and Misconceptions</h2>
           <h3>1.5.1 Write What You Know</h3>
@@ -393,6 +397,8 @@ function Story() {
             </li>
           </ol>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h2 id="post-pixar-storytelling">1.8 Pixar Storytelling</h2>
           <p>Animation company Pixar has a list of tips which it has used in its films:</p>
           <div className="custom-box">
@@ -423,7 +429,7 @@ function Story() {
           </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
-          
+
           <h1 id="post-story-comments" className="text-base text-llBlue bg-bootstrapDark p-3">Leave a Comment</h1>
 
           <CommentForm />
@@ -433,7 +439,7 @@ function Story() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}

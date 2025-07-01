@@ -68,6 +68,8 @@ function MainCharacters() {
             It&#39;s not that these characters are wimps or weaklings, but that they are mistaken as such, or become strong by the end of the story, which creates suspense and interest when their latent potential reveals itself.</p>
           <p>I also address this under ‘Cowardly or Courageous&#39; under the Horror Section.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h2 id="post-two-sources">7.3: Two Sources</h2>
           <p>I generally build characters from two different sources:</p>
           <p><span className="font-bold">(1) Template: </span></p>
@@ -544,6 +546,8 @@ function MainCharacters() {
 
           <p>INSERT TEXT HERE.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h2 id="post-introducing-your-character">7.15: Introducing Your Character</h2>
           <p>The first time one of your main characters is introduced is important not accidental. </p>
           <p>Once you have created your characters, you may be tempted to introduce them by having them sit around talking about themselves, their interests and aspirations, the way people get to know each other in real life. Avoid this; the way you introduce characters is to basically throw them into the story based on their reason for existence, possibly through a ‘Microcosmic&#39; scene.</p>
@@ -773,7 +777,7 @@ function MainCharacters() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}

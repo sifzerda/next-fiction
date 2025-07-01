@@ -95,6 +95,11 @@ function Premise() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
+          <h2 id="post-ideas">2.2: Ideas</h2>
+          <p>CONTENT</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h2 id="post-building-your-story-from-the-premise">2.3: Building the Story from the Premise</h2>
           <p>&#39;How to Write&#39; advice tends to suggest starting with a character and an obstacle, or a challenge. When I kick start a story I normally start with a character and a question. A question should not be rhetorical or abstract. It should create the subject for the plot; above all. You pose the question not to the protagonist, but the reader — the question should be something the reader wants answered, and they will read the rest of the story to get the answer. A good question might begin: &#39;What If...?&#39;  For instance, here&#39;s an idea I made up on the spot:</p>
           <p>Protagonist is up late one night at home and hears a strange sound pass over their house. They go outside and find a mysterious smoking object sitting in their backyard.</p>
@@ -142,11 +147,11 @@ function Premise() {
           <p>I give different examples to show that your question should not lock you into a predetermined &#39;answer.&#39; At this stage your story can still be about whatever you want, in whatever genre you want. To further expand the E chain, let&#39;s take one of the above examples:</p>
 
           <div className="custom-box">
-          <ol>
-            <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
-            <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
-            <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
-          </ol>
+            <ol>
+              <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
+              <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
+              <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
+            </ol>
           </div>
 
           <p>
@@ -154,25 +159,25 @@ function Premise() {
           </p>
 
           <div className="custom-box">
-          <ol>
-            <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
-            <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
-            <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
-          </ol>
+            <ol>
+              <li><span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;</li>
+              <li><span className="bg-hYellow">[event]</span> Protagonist is beamed to alien planet;</li>
+              <li><span className="bg-hYellow">[event]</span> Protagonist is married to an alien prince/princess</li>
+            </ol>
           </div>
 
           <div className="custom-box">
-          <ol className="numbered">
-            <li>
-              <span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;
-              <ol>
-                <li><span className="bg-hRed">[encouragement]</span> why does the protag investigate the noise, rather than ignore it?</li>
-                <li><span className="bg-hRed">[encouragement]</span> why does the protag take the object and keep it, rather than discard it?</li>
-                <li><span className="bg-cyan">[effect]</span> why does the protag take the object and keep it, rather than discard it?</li>
-                <li><span className="bg-cyan">[effect]</span> why does the protag take the object and keep it, rather than discard it?</li>
-              </ol>
-            </li>
-          </ol>
+            <ol className="numbered">
+              <li>
+                <span className="bg-hYellow">[event]</span> Protagonist finds mysterious object;
+                <ol>
+                  <li><span className="bg-hRed">[encouragement]</span> why does the protag investigate the noise, rather than ignore it?</li>
+                  <li><span className="bg-hRed">[encouragement]</span> why does the protag take the object and keep it, rather than discard it?</li>
+                  <li><span className="bg-cyan">[effect]</span> why does the protag take the object and keep it, rather than discard it?</li>
+                  <li><span className="bg-cyan">[effect]</span> why does the protag take the object and keep it, rather than discard it?</li>
+                </ol>
+              </li>
+            </ol>
           </div>
 
           <p>You could just say your protagonist has a curious and investigative personality, but this is easy and uninteresting. Alternatively, you could set up that your protag&#39;s beloved GF/BF recently ended their relationship because they found protag boring. That is a more interesting incentive for your protag to investigate the object, particularly if they suspect it came from space. Surely a discovery of an alien artefact makes someone highly interesting. It also raises a great potential sub-plot about your protag trying to get back their ex — and notice how this raises interesting conflict with the &#39;married to alien&#39; event later.</p>
@@ -344,7 +349,7 @@ function Premise() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}

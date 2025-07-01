@@ -617,7 +617,7 @@ function Scenes() {
           <p>It may also be that the character&#39;s actions have always affected many, however, they only gradually learn of the wider effects as the story goes on.</p>
           <p>If you go for this type of progression, make sure your character has a role or job which would potentially affect many in a critical way: this is why you tend to see certain professions in novels opposed to others (doctors, lawyers, politicians, police and detectives, scientists, as opposed to plumbers, wildlife rangers, dentists, garbage collectors, lab technicians, secretaries, and salespeople).</p>
 
-          <h3>6.5.3 	Why Is It Important?</h3>
+          <h3>6.11.2 	Why Is It Important?</h3>
           <p>You might not consider this in the writing process, especially if you write scenes in isolation to each other, but a lack of natural transition will rear its head in the rereading process, necessitating its management in the editing and re/structuring process.</p>
           <p>Transition is another element of story progression; one thing leading to the next. Scenes should also have this feel, which is the utility of transitions.</p>
           <p>McKee suggests the vehicle for scene transition is a thing held in common by two scenes or counterpointed between them. This ‘thing&#39; may be:</p>

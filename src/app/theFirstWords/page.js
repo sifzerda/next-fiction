@@ -130,7 +130,7 @@ function TheFirstWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h2 id="post-first-line">17.7: First Line</h2>
+          <h2 id="post-first-line">17.6: First Line</h2>
           <h4>17.6.1 	Why is it Important?</h4>
           <p>It&#39;s often advised to make your story interesting from the first line. This is not an overstatement. You can tell a lot from the first line in a story. Publishers may only need to read one sentence of your writing to determine whether or not you are a good writer. Prospective readers may not even be that generous.</p>
           <p>You might feel this is cynical and unfair, but the fact is, good writers put a lot of thought, effort and deliberation into the first line, bad writers don&#39;t, and it shows. If the writer didn&#39;t put much effort into the first line, it stands to reason they haven&#39;t much effort into the subsequent line?</p>
@@ -435,7 +435,7 @@ function TheFirstWords() {
               <li className="mb-px"><a href="#post-close-or-distant" className="hover:underline hover:text-white">17.4: Close or Distant</a></li>
               <li className="mb-px"><a href="#post-a-big-scene-and-a-small-scene" className="hover:underline hover:text-white">17.5: A Big Scene and a Small Scene</a></li>
               <li className="mb-px"><a href="#post-order-of-information" className="hover:underline hover:text-white">17.5: Order of Information</a></li>
-              <li className="mb-px"><a href="#post-first-line" className="hover:underline hover:text-white">17.7: First Line</a></li>
+              <li className="mb-px"><a href="#post-first-line" className="hover:underline hover:text-white">17.6: First Line</a></li>
               <li className="mb-px"><a href="#post-first-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>

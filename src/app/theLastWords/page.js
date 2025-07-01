@@ -97,7 +97,7 @@ function TheLastWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h2 id="post-ending-the-story">19.4: Ending the Story</h2>
+          <h2 id="post-ending-the-story">19.5: Ending the Story</h2>
           <p>NOTHING HERE YET</p>
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
