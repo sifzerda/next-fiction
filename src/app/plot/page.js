@@ -96,8 +96,8 @@ function Plot() {
 
           <p>Example: Lost in Translation.
             <FootnoteRef text={<><em>Lost in Translation</em>, Focus Features, (2003).</>} />
-
           </p>
+
           <h3>3.2.3 	Antiplot</h3>
 
           <p>Typified by:</p>
@@ -110,7 +110,6 @@ function Plot() {
 
           <p>Example: Seinfeld.
             <FootnoteRef text={<><em>Seinfeld</em>, Castle Rock Entertainment, (1989–1998).</>} />
-
           </p>
 
           <h3>3.2.4 	Nonplot</h3>
@@ -144,7 +143,8 @@ function Plot() {
           <p>The first Act might be about 25% of the story. The Second Act will be longer, and then the Third Act will be the shortest, to create a sense of accelerating pace to the climax. Maybe max 25% of the story. The potential problem is that the Second Act drags. Rectifying that may involve adding a subplot/s or another Act (e.g. extending to Good, Bad, Worse, Good).</p>
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act&#39;s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn&#39;t fit into the above categories: the Quidditch games, the spell classes, sorting hat — there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones — you give the reader that many more clues as to how you&#39;ve structured your story &#39;behind the curtain.&#39; The reader will think &#39;oh, this scene&#39;s fairly unmemorable, it mustn&#39;t be integral to the plot.&#39; Memorable &#39;in-between&#39; scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?</p>
+            suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act&#39;s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn&#39;t fit into the above categories: the Quidditch games, the spell classes, sorting hat — there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones — you give the reader that many more clues as to how you&#39;ve structured your story &#39;behind the curtain.&#39; The reader will think &#39;oh, this scene&#39;s fairly unmemorable, it mustn&#39;t be integral to the plot.&#39; Memorable &#39;in-between&#39; scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?
+            </p>
           <p>Blake Snyder
             <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
             says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It&#39;s the world and its rules set up for us. Antithesis is the reverse or &#39;upside-down&#39; version or &#39;funhouse mirror reflection&#39; of the world. Characters from &#39;Thesis&#39; may reappear in &#39;Antithesis&#39; in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the &#39;Third way&#39; in world 3. By this time, the hero has &#39;died&#39; and been &#39;reborn&#39;, so he can&#39;t go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn&#39;t have happen instantaneously, it should happen bit by bit — every scene in the structure changes the hero a little.</p>
@@ -633,13 +633,16 @@ function Plot() {
           <CommentList />
 
           {/* Back to Top Link */}
-          <a href="#" className="mt-6 inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:hover:text-yellow hover:border-yellow transition">Back to Top</a>
+          <div className="mt-6 text-right">
+            <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
+          </div>
+          
         </div>
 
         {/* Vertical Boxes on the Right */}
         <div className="flex flex-col gap-4 items-center md:items-start mt-6">
           {/* About Box */}
-          <div className="w-full sm:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div className="w-full md:w-60 bg-bootstrapDark border border-black text-white flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">About</div>
             <p className="font-source-code-pro text-xs mt-1">A plot maps out the whole core structure of a story, through each scene, from beginning to end.</p>
           </div>
@@ -647,7 +650,7 @@ function Plot() {
           {/* Index Box */}
           <div
             id="index-box"
-            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+            className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">3.1: Plotting in a Vacuum</a></li>
@@ -664,9 +667,8 @@ function Plot() {
           </div>
 
           {/* Also See Box */}
-          <div
-            id="also-see-box"
-            className="w-full sm:w-60 bg-bootstrapDark border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div id="also-see-box"
+            className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
