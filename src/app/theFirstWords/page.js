@@ -12,7 +12,7 @@ function TheFirstWords() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">The First Words</h1>
+        <h1>The First Words</h1>
 
         <blockquote>
           “ADD QUOTE HERE.”
@@ -44,11 +44,11 @@ function TheFirstWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-why-the-first-words-matter">17.1: Why the First Words Matter</h3>
+          <h2 id="post-why-the-first-words-matter">17.1: Why the First Words Matter</h2>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-4-ws">17.2: The 4 'W's</h3>
+          <h2 id="post-the-4-ws">17.2: The 4 'W's</h2>
 
           <p>You should set up with an ‘establishing&#39; scene. This gives your reader a primer into the situation so they can hit the ground (or the page) running. You can take a pragmatic journalistic approach and sketch out the practical elements of the scene, and fill in those details:</p>
           <ol>
@@ -60,7 +60,7 @@ function TheFirstWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-wide-or-narrow">17.3: Wide or Narrow</h3>
+          <h2 id="post-wide-or-narrow">17.3: Wide or Narrow</h2>
           <p>Presuming you already have your general scene structure, the next question is: start wide or narrow? Think about the start of a film; does the camera pan over the broad setting (e.g. a city) before locating the main characters, or does it focus on the characters, or plot-relevant object, and then pan out to give you the setting? </p>
           <p><strong>Wide:</strong></p>
           <p className="italic">No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man's...
@@ -91,7 +91,7 @@ function TheFirstWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-close-or-distant">17.4: Close or Distant</h3>
+          <h2 id="post-close-or-distant">17.4: Close or Distant</h2>
           <p>This is related to the above ‘Wide or Narrow&#39; writing question, but where that referred to where you begin your story, this refers to how you continue, i.e. for the rest of the story, how close is your ‘camera&#39; vis-à-vis your protagonist? This is not a POV issue necessarily, but a general question of writing style, description, and substance – what details are you focusing on and what content fills up your description? Is your narrator having a personal discussion with the protagonist (close style), or are they hovering far overhead, neutrally and objectively noting the protagonist&#39;s external actions and words (distant style).  </p>
           <p>This is not merely an aesthetic issue. As a general rule, personal characters should be distanced, and distanced characters should be personalised. </p>
           <p>As an example, I read a story about a royal wedding, arranged between English and Spanish royal families, i.e. royal characters. It wasn't effective because it used the journalistic Hemingway-esque style of short simple sentences, rather than more interior or personal anecdotes. </p>
@@ -102,19 +102,19 @@ function TheFirstWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-a-big-scene-and-a-small-scene">17.5: A Big Scene and a Small Scene</h3>
+          <h2 id="post-a-big-scene-and-a-small-scene">17.5: A Big Scene and a Small Scene</h2>
           <p>R. Meredith and J. Fitzgerald
             <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript.`} />
             say that the first chapter should have a ‘big scene&#39; for conflict, and a ‘small scene&#39; for characterisation and providing preliminary information (to answer the initial ‘who, what, where, why&#39;). </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-order-of-information">17.6: Order of Information</h3>
-          <h4>17.5.1 	Characters</h4>
+          <h2 id="post-order-of-information">17.6: Order of Information</h2>
+          <h3>17.5.1 	Characters</h3>
           <p>Introduce characters (roughly) in their order of importance. For instance, you can introduce the main characters in the first chapter, secondary characters in the second or third chapter, etc. A secondary character may require mentioning early on, but you don&#39;t have to show them – this implies they aren&#39;t that important.</p>
           <p>This may require engineering artifice to get all the main characters together or within vicinity. </p>
 
-          <h4>17.5.2 	Setting</h4>
+          <h3>17.5.2 	Setting</h3>
           <p>Don&#39;t give into the temptation to set the first chapter in your ‘most interesting&#39; or ‘most exciting&#39; setting, or, alternatively, the setting the protagonist is most comfortable in, or most themselves.</p>
           <p>The first chapter is the reader&#39;s first impression of the protagonist. How your protagonist acts will depend on the setting they are in. Therefore, setting selection is determined by your protagonist&#39;s arc. Think about the person your protagonist will be by the end of the story. Will they change (have an arc) or stay the same? </p>
           <p>If they change, you need to put them in a setting that brings out the most contrast between who they are at the start, and by the end. So, how the protagonist acts in the setting in the first chapter, should contrast with how they act in the setting (same or different) at the conclusion.</p>
@@ -130,8 +130,8 @@ function TheFirstWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-first-line">17.7: First Line</h3>
-          <h5>17.6.1 	Why is it Important?</h5>
+          <h2 id="post-first-line">17.7: First Line</h2>
+          <h4>17.6.1 	Why is it Important?</h4>
           <p>It&#39;s often advised to make your story interesting from the first line. This is not an overstatement. You can tell a lot from the first line in a story. Publishers may only need to read one sentence of your writing to determine whether or not you are a good writer. Prospective readers may not even be that generous.</p>
           <p>You might feel this is cynical and unfair, but the fact is, good writers put a lot of thought, effort and deliberation into the first line, bad writers don&#39;t, and it shows. If the writer didn&#39;t put much effort into the first line, it stands to reason they haven&#39;t much effort into the subsequent line?</p>
           <p>William Sloane
@@ -145,7 +145,7 @@ function TheFirstWords() {
           <p>He goes on:</p>
           <p className="italic">"The author of this blast goes on to cite a number of novels and their opening sentences, comparing them with the first sentences of books by the masters of fiction, Faulkner, Hemingway, and Algren, to name three. Not one of the openings cited as atrocious was by a writer who has subsequently achieved his or her own readership."</p>
 
-          <h4>17.6.2 	Features of a Strong First Line</h4>
+          <h3>17.6.2 	Features of a Strong First Line</h3>
 
           <p>Writing a good first line is an art. There&#39;s no single method. However, effective first lines tend to share certain features, and refrain from others. As a general guide, effective first lines:</p>
           <ol>
@@ -200,7 +200,7 @@ function TheFirstWords() {
 
           <p>The central question here is, 'who acts like this at 60?' Resolving this contradiction wraps up the entire plot.</p>
 
-          <h4>17.6.3 	Examples</h4>
+          <h3>17.6.3 	Examples</h3>
           <p>The best way to get an intuition about what makes a good first line is to read a collection of short stories – but only the first lines – and decide which stories you would continue reading. Consider what it is about the line that makes you interested – break the line down into what information is being communicated (subject/content) and how it&#39;s being communicated (style). Consider, is there any way you could improve the line – by making it shorter or restructuring the information so the interesting thing is the subject of focus?</p>
           <p>Here are some examples of first lines from random stories, to give you a sense of the difference between good and bad first lines:</p>
 

@@ -12,7 +12,7 @@ function Premise() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Premise</h1>
+        <h1>Premise</h1>
 
         <blockquote>
           “Even the most complicated stories start with a very simple premise.”
@@ -33,11 +33,11 @@ function Premise() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-your-story-in-one-sentence">2.1: Your Story In One Sentence</h3>
+          <h2 id="post-your-story-in-one-sentence">2.1: Your Story In One Sentence</h2>
 
           <p>The premise is the essence of your plot. You should be able to sum up your story in one sentence. If you can&#39;t, you will be unable to pitch your story in an intention-grabbing way.</p>
 
-          <h4>2.1.1 	Difference between Premise and Plot</h4>
+          <h3>2.1.1 	Difference between Premise and Plot</h3>
           <p>By contrast, your plot is a little more detailed; it suggests a beginning, middle and end. Unlike premises, plots contain <u>goals</u> (forces of progression) and <u>obstacles</u> (forces of regression).</p>
           <p>Consider which of the following premises constitute a plot:</p>
 
@@ -69,7 +69,7 @@ function Premise() {
 
           <p>The above give the main characters a direction, a goal. You suggest, of the infinite possibilities which spring from the idea (time travel, wizardry, alien invasion, etc) which angle you are going for, which tells your reader what your story is actually about. </p>
 
-          <h4>2.1.2 X in Y</h4>
+          <h3>2.1.2 X in Y</h3>
           <p>A quick formula for generating a basic plot is putting X character in Y situation — this has the bonus of creating a protagonist as well. The situation (or location) should act as a foil for the character, emphasizing the character&#39;s traits and increasing conflict. This is a great starter for short stories.</p>
           <p>Examples:</p>
 
@@ -90,12 +90,12 @@ function Premise() {
           <p>Note this method doesn&#39;t work if your protagonist is an &#39;everyman&#39; or ordinary person in an abnormal situation — in that case, the plot is the abnormal situation. But here, like Yin and Yang, the plot is a combination of the protagonist and the situation — you can&#39;t subtract or replace either. For instance, you can&#39;t switch Carrie in Carrie with any of the other kids, because her timid, agreeable, repressive nature builds the conflict, however you could switch Harry Potter with another kid in Harry Potter, because his personality doesn&#39;t build the conflict (outside events do).</p>
           <p>Compare with a story which is not &#39;X in Y&#39; — Jurassic Park by Michael Crichton. You can put any characters in a living Dinosaur Park and it&#39;ll be interesting seeing them try to survive. Also goes for any story with a survival element (e.g. Lord of the Flies by William Golding, Arena by Matthew Reilly, The Hunger Games by Suzanne Collins).</p>
 
-          <h4>2.1.3 A Bridge Too Far</h4>
+          <h3>2.1.3 A Bridge Too Far</h3>
           <p>An idea related to X in Y is to give your protagonist special capability, knowledge or experience, and put them in a situation which requires them to use that capability, knowledge or experience, but seems to be a little above their abilities.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-building-your-story-from-the-premise">2.3: Building the Story from the Premise</h3>
+          <h2 id="post-building-your-story-from-the-premise">2.3: Building the Story from the Premise</h2>
           <p>&#39;How to Write&#39; advice tends to suggest starting with a character and an obstacle, or a challenge. When I kick start a story I normally start with a character and a question. A question should not be rhetorical or abstract. It should create the subject for the plot; above all. You pose the question not to the protagonist, but the reader — the question should be something the reader wants answered, and they will read the rest of the story to get the answer. A good question might begin: &#39;What If...?&#39;  For instance, here&#39;s an idea I made up on the spot:</p>
           <p>Protagonist is up late one night at home and hears a strange sound pass over their house. They go outside and find a mysterious smoking object sitting in their backyard.</p>
           <p>This builds the question: &#39;What if someone found some alien technology?&#39; Notice this does not create an obstacle or a challenge — that comes later.</p>
@@ -193,16 +193,16 @@ function Premise() {
           <p>This is where the challenges and obstacles (above) come in: You want to continually ask &#39;what if&#39; to generate the most interesting scenarios. For instance, what if the alien prince/princess realised the protag retained feelings for the ex, jealously abducted the ex to be put to death? What if the protag loved the alien planet and the alien prince/princess better than Earth and the ex, but every visit to its toxic atmosphere harmed the protag. What if the alien prince/princess impregnated protag? What if it looked like protag had a chance with ex again, but ex was killed? What if protag had to choose between ex and the alien planet/princess/prince? What if the alien prince/princess had protag turned into an alien? What if Earth waged war on the aliens, and protag had to choose a side?</p>
           <p>Notice the above questions centre on the relationships. In this plot, that&#39;s where the interest lies because it&#39;s the encouragement — the thing pushing the protagonist on. If you want to run a different kind of &#39;what if&#39; like &#39;what if the aliens threaten to blow up the planet&#39; you need to tie it into the protag&#39;s incentives, for instance, this makes protag comply with aliens&#39; demands because if planet blew up, ex would die. But if protag doesn&#39;t like ex anymore, it&#39;s not a good plot point because saving the world at large gives no direct connection for the reader to relate to, particularly if protag has a surrogate home — the alien planet — to remain on. So you can see how important former encouragement is for subsequent events.</p>
 
-          <h4>2.3.1 Start Big</h4>
+          <h3>2.3.1 Start Big</h3>
           <p>When using an E Chain, once you have brainstormed multiple possible stories and you&#39;re figuring out which brainstormed scenes to pursue (and which to abandon), prioritize your biggest scenes, or most interesting scenes.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-structuring-the-plot-with-live-issues">2.4: Structuring the plot with live issues</h3>
+          <h2 id="post-structuring-the-plot-with-live-issues">2.4: Structuring the plot with live issues</h2>
           <p>In basic form, a novel is where you tell the reader &#39;stick around for the next 200 pages and something excellent will happen.&#39; Why not save the reader time and condense your story into a short story, 3000 words ending with something excellent? Or, why not just tell the reader the &#39;excellent&#39; thing immediately? Why go to the bother?</p>
           <p>The novel must be something more: generally every 3000 words something good is happening (a &#39;live issue&#39;), and by the end, something excellent has happened (the climax).</p>
 
-          <h4>2.4.1 	What is a &#39;Live issue&#39;?</h4>
+          <h3>2.4.1 	What is a &#39;Live issue&#39;?</h3>
           <p>What is the aforementioned &#39;something good&#39; that litters the story? Answer: a &#39;live issue&#39;.</p>
           <p>A live issue is a plot element which raises an issue that demands resolution. It&#39;s a plot detail that causes the reader to ask questions and demand answers (who, what, when, where, why, how).</p>
 
@@ -230,7 +230,7 @@ function Premise() {
           <p>Sphere by Michael Crichton,
             <FootnoteRef text={<><em>Sphere</em>, Universal Pictures, (1998). Based on the novel by <span className="uppercase font-bold text-yellow-400">MICHAEL CRICHTON</span>.</>} />
              is a good example of a plot structured with live issues. The main plot issue is: What is the Sphere? Wisely, the novel does not limit itself that question. Each chapter raises a new question/s to continue to feed the reader&#39;s interest and reward their continued reading. Examples of live issues raised throughout:</p>
-          <h4>2.4.2 	Examples of live issues</h4>
+          <h3>2.4.2 	Examples of live issues</h3>
 
           <div className="custom-box">
             <ol>
@@ -275,7 +275,7 @@ function Premise() {
 
           <p>Levin is also great at resolving his issues; or <i>not</i> resolving them. His thriller The Stepford Wives is a lesson in the economy of suspense; he only gives you the threadbare information to get the gist of what's going on, without outright telling you, and like Crichton, leaves specific details unexplained at the end.</p>
 
-          <h4>2.4.3 	...And Foreclosure</h4>
+          <h3>2.4.3 	...And Foreclosure</h3>
           <p>If you raise issues, you must give them satisfying closure. Generally, this means, if you raised questions, you must provide answers, and if you make promises you must deliver.</p>
           <p>Exceptions: Note, in the &#39;Sphere&#39; example above, I mentioned some issues were raised and left unanswered. For instance, one of these issues was, at any one time, precisely who is acting under the influence of the Sphere — by the end of the story, as long as it&#39;s revealed how the Sphere works on the characters generally, we don&#39;t need to know who was specifically affected at all times — it would be interesting to know, but not necessary.</p>
           <p>This was acceptable, as certain exceptions applied, e.g.</p>
@@ -287,12 +287,12 @@ function Premise() {
             <li>No answer would have been more effective than leaving the reader to wonder (i.e. the &#39;closed door&#39; rule)  </li>
           </ol>
 
-          <h4>2.4.4 	Turning Dead Issues Into Live Issues</h4>
+          <h3>2.4.4 	Turning Dead Issues Into Live Issues</h3>
           <p>INSERT STUFF HERE</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-strange-sandwich">2.5: The 'Strange Sandwich'</h3>
+          <h2 id="post-the-strange-sandwich">2.5: The 'Strange Sandwich'</h2>
           <p>Never write strange on strange. Your plot can be strange, but your reader needs to be able to contrast the strangeness with commonplace real life. Therefore, you should never layer strange plot elements on strange elements — e.g. strange characters layered on a strange setting — otherwise the reader won&#39;t have anything solid to contrast the strange against. As with anything, strangeness is only apparent by contrast with its opposite, normality.</p>
           <p>As an example of &#39;strange on strange&#39; I saw a story idea posted on Reddit where characters are on an alien planet, trapped in a 4D labyrinth, and being hunted down by an alien monster. Cool idea, but utterly unrelatable. Any single one of those ideas is stronger on its own, against a backdrop of normality. But all combined, risks giving the reader &#39;strangeness&#39; fatigue.</p>
           <p>My E chain plot example further above has 3 strange elements — </p>

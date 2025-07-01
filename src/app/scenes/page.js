@@ -13,7 +13,7 @@ function Scenes() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Scenes</h1>
+        <h1>Scenes</h1>
 
         <blockquote>
           “INSERT SCENES QUOTE HERE.”
@@ -34,9 +34,9 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-anatomy-of-a-scene">6.1: Anatomy of a Scene</h3>
+          <h2 id="post-anatomy-of-a-scene">6.1: Anatomy of a Scene</h2>
 
-          <h4>6.1.1 What Is A Scene?</h4>
+          <h3>6.1.1 What Is A Scene?</h3>
           <p>Robert McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             says that a scene is an 'event,'' and an 'event' is change. A story event creates meaningful change in your main character's life, expressed in terms of a value/s and achieved through conflict.</p>
@@ -46,13 +46,13 @@ function Scenes() {
             (144K words) identified about 45 scenes, and that was a long novel. A standard 80K word novel (little more than half that size) will have even less.</p>
           <p>Every scene must move towards the conclusion. If a scene's only purpose is to provide exposition, delete it and work the information into the story.</p>
 
-          <h4>6.1.3 	Sequences</h4>
+          <h3>6.1.3 	Sequences</h3>
           <p>A sequence is a series of scenes - two to five - which culminates with greater impact than those previous scenes. Think of the plot's end as the ultimate goal. In order to achieve that goal, the main character must face a number of challenges/obstacles; the culmination of each of these occurs at the end of a sequence. In order to overcome the challenges, the main character must overcome some wins and losses - these wins and losses occur at the end of each scene.</p>
 
-          <h4>6.1.4 	Acts</h4>
+          <h3>6.1.4 	Acts</h3>
           <p>A series of sequences comprises an Act. The Act culminates with a major reversal of the value in respect of the character - i.e. a major change. The end of an Act will have a greater impact on the main character than the end of a sequence. A series of Acts comprises the story at large. McKee provides the helpful tip that the climax of every scene may be reversible (e.g. life could be spared, people reunite, relationships could be mended, etc) until the climax of the last scene, which must be irreversible.</p>
 
-          <h4>6.1.5 	Example of structure:</h4>
+          <h3>6.1.5 	Example of structure:</h3>
           <p>Take Pet Sematary as an example.</p>
 
           <p><span className="underline">The Plot:</span> The main character's son dies, so he uses a cursed burial ground to reanimate his body.</p>
@@ -65,7 +65,7 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-sex-words">6.2: 'Sex Words'</h3>
+          <h2 id="post-sex-words">6.2: 'Sex Words'</h2>
           <p>Concept which 'sex up' your story. Not so much words, but categories which certain 'magic words' enliven, e.g. strategic use of the word 'beautiful' enlivens the 'sex' category.</p>
           <p>Screenwriter Blake Snyder
             <FootnoteRef text={`BLAKE SNYDER,\nSave the Cat! The Last Book on Screenwriting You'll Ever Need.`} />
@@ -97,7 +97,7 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-forums-for-raising-and-resolving-conflict" className="mb-2 font-semibold">6.3: Forums for Raising and Resolving Conflict</h3>
+          <h2 id="post-forums-for-raising-and-resolving-conflict" className="mb-2 font-semibold">6.3: Forums for Raising and Resolving Conflict</h2>
           <p>Scenes shouldn't be inserted just because they sound 'cool' or interesting (however, if they are, that's a bonus). They should be forums for your characters to introduce and resolve conflicts, and debate questions which are invoked by the theme (obviously you don't have them literally debate – rather you will use subtext through their dialogue and actions). The scenes should also move toward your conclusion. It's as if your novel is in its entirety an essay, and your scenes are the paragraphs - e.g. - </p>
 
           <ol>
@@ -122,7 +122,7 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-e-chain">6.4: The 'E Chain'</h3>
+          <h2 id="post-the-e-chain">6.4: The 'E Chain'</h2>
           <p>Even when you've thought up a bunch of scenes, you might be wondering how to arrange them. My method is the E chain. This divides scenes into the 3 sequential types of information you want scenes to contain:</p>
           <ol>
             <li>Encouragement</li>
@@ -188,12 +188,12 @@ function Scenes() {
           <p><span className="underline">Long-term symbolic:</span></p>
           <p>She was slicing the vegetables on autopilot, and didn&#39;t stop until she&#39;d decapitated the caterpillar at the end, then stood and, dumbly, watched its body spasm and die.</p>
 
-          <h4>6.4.1 The Fork Method</h4>
+          <h3>6.4.1 The Fork Method</h3>
           <p>When creating an ‘E Chain&#39; don&#39;t write yourself into a corner. Brainstorm multiple possible outcomes (try to aim for 3-5 – or more) for each plot point/resolution. Never ask yourself; what would normally happen at this point in the story? Instead, ask yourself, what are the possible kinds of interesting things that could happen now? What are some abnormal things that could happen at this point in the story? Don&#39;t be afraid to take risks at every stage. Your goal is to maintain your reader&#39;s interest, not meet their exact expectations. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-diametrics">6.5: Diametrics</h3>
+          <h2 id="post-diametrics">6.5: Diametrics</h2>
           <p>What immediately comes to mind when you hear these phrases in fiction?</p>
 
           <div className="custom-box">
@@ -205,17 +205,17 @@ function Scenes() {
           <p>Behind each of these phrases is a story. You already know where it&#39;s going. The man will find adventure; the cop will die; the lovers will separated; some threat will materialise.</p>
           <p>Basically, the purpose of a story is to tell people what they don&#39;t already know. As a simple rule, fiction is where the opposite of what&#39;s expected happens. If what&#39;s expected does happen, the audience doesn&#39;t need to be told; they already know.</p>
 
-          <h4>6.5.1 	What is it?</h4>
+          <h3>6.5.1 	What is it?</h3>
           <p>It sounds like a New Age Movement but it's not. Memorable fiction presents and balances opposites.</p>
           <p>Two characters who are opposites have a diametric relationship. A protagonist thrown into a situation which is the furthest from expectation, is in a diametric relationship with that plot occurrence. A setting which contains features totally unexpected, has diametric aspects.</p>
 
-          <h4>6.5.3 	Why Is It Important?</h4>
+          <h3>6.5.3 	Why Is It Important?</h3>
           <p>It&#39;s a simple concept, and simple to implement into a story. Yet, many stories fail to do it effectively, or at all. If you&#39;ve forgotten a scene or characters or a story five seconds after reading it, it&#39;s probably due to a lack of diametrics.</p>
           <p>When I consider what single most important feature interesting, memorable stories or scenes have, I keep coming back to the diametric relationships. I&#39;m convinced they are a cornerstone of fiction, a key distinguishing factor between memorable and unmemorable fiction. Opposites surprise expectations, which fix them in memory.</p>
           <p>Diametrics don&#39;t just refer to scenes. You can (and should) create diametric characters, plot events, settings, dialogue – in short; it&#39;s applicable to everything. For instance, the Three-Right Angled Turn Plot Structure is premised on opposites (see 3.4); and Character Foils are premised on opposites (see 6.3.3 Set Off traits (AKA Interior Foils) and 6.6 The Foil).</p>
           <p>Diametrics is even applicable on a sentence-by-sentence level. Subtle Diametrics give prose a little kick. Good first lines often have it, making them memorable. Good endings have them, giving you what you want, but not the way you expected it.</p>
 
-          <h4>6.5.3 	The Method</h4>
+          <h3>6.5.3 	The Method</h3>
           <p>Creating diametrics involves 2 steps: </p>
 
           <div className="custom-box">
@@ -254,9 +254,9 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-first-scene">6.6 The First Scene </h3>
+          <h2 id="post-the-first-scene">6.6 The First Scene </h2>
 
-          <h4>6.6.1 The First Scene is a 'Special' Scene</h4>
+          <h3>6.6.1 The First Scene is a 'Special' Scene</h3>
 
           <p>You don&#39;t have to write the story chronically (i.e. write the first scene first, etc), but eventually you will have to determine where the story starts. That can be difficult because the first scene (like the last scene) is not a typical scene – special rules apply. The first scene has to perform work subsequent scenes (including the last scene) don&#39;t have to do:</p>
           <ol>
@@ -265,7 +265,7 @@ function Scenes() {
             <li>It has to get the reader to ‘base line normal&#39; and comfortable with your story&#39;s world;</li>
           </ol>
 
-          <h4>6.6.2 	Some general rules</h4>
+          <h3>6.6.2 	Some general rules</h3>
           <p>Jack Hart
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             quotes playwright Lajos Egri, who said a play should start:</p>
@@ -385,7 +385,7 @@ function Scenes() {
             <li>Geoffrey leaving Allen&#39;s limp in favor of his own lab work is echoed by Geoffrey using the paralyzed Allen as a test subject for his own experimentation (i.e. prioritizing the science over Allen&#39;s injury)</li>
           </ol>
 
-          <h4>6.6.3 	Establishing Shot</h4>
+          <h3>6.6.3 	Establishing Shot</h3>
           <p>The establishing shot is the reader&#39;s first impression of the story, and will stay with the reader as the progress through the rest of the story. Hart  provides an illustration of this with the start of the non-fiction story ‘Small-Town Cop&#39;:
             <FootnoteRef text={`TRACY KIDDER,\nSmall-Town Cop.`} />
           </p>
@@ -394,8 +394,8 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-last-scene">6.7 The Last Scene</h3>
-          <h4>6.7.1 	The Last Scene is a ‘special&#39; scene</h4>
+          <h2 id="post-the-last-scene">6.7 The Last Scene</h2>
+          <h3>6.7.1 	The Last Scene is a ‘special&#39; scene</h3>
           <p>The last scene is like the first; it&#39;s a special scene and special rules apply, which I&#39;ve listed here:</p>
           <p className="text-sm mb-4 font-rubik text-boldPurple">(1) Two tiered ending</p>
           <p>About the first scene, I said to start as late as possible. However, you don&#39;t need to, inversely, end the last scene as early as possible. This is partly for practicality: you&#39;ve already gained the reader&#39;s interest, so you don&#39;t have to worry so much about snappy set ups, you have more latitude to spend time developing and resolving.</p>
@@ -438,7 +438,7 @@ function Scenes() {
             </p>
           </div>
 
-          <h4>6.7.2 The Ending</h4>
+          <h3>6.7.2 The Ending</h3>
           <p>Story resolutions “absolutely and without exception, must be products of the character&#39;s own efforts.”
             <FootnoteRef text={`JON FRANKLIN,\nWriting For Story: Craft Secrets of Dramatic Nonfiction.`} />
           </p>
@@ -466,12 +466,12 @@ function Scenes() {
           <p>A fortiori, when you suggest a single alternate possibility, and then close the story. If that&#39;s not a confirmation of the alternative, I don&#39;t know what is. Consider, when someone says ‘maybe no&#39; and then closes the door on your face, they are actually saying ‘really, seriously, no.&#39;</p>
           <p>Conversely, saying ‘maybe X, maybe Y, maybe Z,&#39; does not confirm anything, it just cautions not to get locked into the most obvious possibility. But you should never end a story like that, because then you subvert your own ending entirely and invalidate your whole story.</p>
 
-          <h4>6.7.3 	The True Value of Events</h4>
+          <h3>6.7.3 	The True Value of Events</h3>
 
           <p>If you&#39;ve ever been frustrated by the ending of a book or movie (the usual complaint is the ‘is-that-it? syndrome&#39;) it&#39;s probably the creator failed to properly sequence a climax and/or dénouement. For instance, a movie ended on a climax which should have had a dénouement, and you&#39;re left wondering how things resolved.</p>
           <p>The takeaway from this links back to the distinction between climaxes and dénouements: end the story once the reader has learned the true value of the journey or ultimate fate of the character (the two might be interlinked). If your climax does that, end on the climax – as in Pet Sematary (see above), we know the true ‘value&#39; of the resurrections come the climax – the burial ground never makes things better. If your climax does not do that, end on a dénouement.</p>
 
-          <h4>6.7.4 	Bad Endings</h4>
+          <h3>6.7.4 	Bad Endings</h3>
           <p>Mittelmark and Newman provide examples of bad endings:
             <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
@@ -489,10 +489,10 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-all-the-other-scenes">6.8 All The Other Scenes</h3>
+          <h2 id="post-all-the-other-scenes">6.8 All The Other Scenes</h2>
           <p>Some general rules applying to all scenes (including the first and last).</p>
 
-          <h4>6.8.1 	To Not Be Continued...</h4>
+          <h3>6.8.1 	To Not Be Continued...</h3>
           <p>All of your scenes must do their own work. Never use two different scenes to do the same thing.
             <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
@@ -514,23 +514,23 @@ function Scenes() {
 
           <p>Ensure you aren&#39;t breaching this rule accidentally. No matter how it&#39;s conveyed to the reader, if the scene is conveying the same information, then it&#39;s the same scene, even if there&#39;s a setting change. For instance, if characters are having a discussion about what they just did the previous scene, then it&#39;s a duplicate.</p>
 
-          <h4>6.8.2 	Best and Worst Scenariose</h4>
+          <h3>6.8.2 	Best and Worst Scenariose</h3>
           <p>A quick thought experiment is to think of the best possible thing that could happen to your protagonist. Also consider the worst possible thing that could happen to your protagonist. What these things are depends on your protagonist&#39;s personality; neurotic personalities might fear getting sick or injured. Extroverts might fear being alone. Introverts might fear public humiliation, etc.</p>
 
-          <h4>6.8.3 	The Crucible</h4>
+          <h3>6.8.3 	The Crucible</h3>
           <p>This is a concept suggested by Sol Stein
             <FootnoteRef text={`SOL STEIN,\nStein on Writing.`} />
             for the purpose of plotting a story. He defines a crucible existing where “the motivation of the characters to continue opposing each other is greater than their motivation to run away.”</p>
           <p>A crucible can be emotional or physical. It could exist because they&#39;re in a physical space which prevents them from escaping, e.g. a prison, or it could be because escape would be stigmatizing, e.g. a marriage, or it could be because both characters want something which only one can have, e.g. a hunter wants to kill a lion and the lion wants to kill the hunter.</p>
 
-          <h4>6.8.4 	The Dilemma</h4>
+          <h3>6.8.4 	The Dilemma</h3>
           <p>A concept suggested by Robert McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             for structuring character action. Shallow characters tend to have the choice between good/evil or right/wrong. This is repetitive and predictable; if a character makes a good choice, they are rewarded for it, whereas if they make an ‘evil&#39; choice, they are punished for it.</p>
           <p>A more complex, nuanced way of addressing this issue is to create a ‘dilemma.&#39; There are two kinds: (1) A choice between multiple irreconcilable good choices. In this case, the choice is desirable, the problem is committing to it forecloses the equally desirable alternative. Usually the protagonist stands to gain something, whichever choice is made, it&#39;s just bittersweet because of the non-severable loss of opportunity which accompanies it. (2) A choice between the lesser of two evils. Here, the choice is undesirable and the protagonist does not wish to have to make it. It may be that everything was fine before the choice reared its head, and the protagonist may not actually gain, only lose, the question is which loss is more tolerable?</p>
           <p>Consider what is fundamentally at stake when you create a dilemma – love, power, money, knowledge, life, security, etc – and ensure the choice is genuine and not ‘obvious.&#39; Whichever you decide, note McKee&#39;s advice; a price must be paid. The protagonist must risk or lose the alternative choice to gain the other. Otherwise the reader won&#39;t feel the dilemma was true.</p>
 
-          <h4>6.8.5 	Set the Scene</h4>
+          <h3>6.8.5 	Set the Scene</h3>
           <p>Scene-setting is essential; the selection of details must be meaningful.</p>
           <p>Hart
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
@@ -538,7 +538,7 @@ function Scenes() {
           <div className="custom-box">“The night grew darker, and the captain fired up a massive spotlight, sending upriver a great silver cylinder that glittered with the confetti of confused insects. From the dark void ahead of us, rubies and emeralds came sparkling back off the reflectors of the navigational buoys. A full moon had risen over the east bank, and it moved slowly from one bracketed porch column to another, the ship serving as a sort of Victorian Stonehenge to mark the loopy curves of the river.”</div>
           <p>Hart says, “Notice how Curtis uses the searchlight to create a sense of space. Lots of perspective- rich images can do the same thing—a road winding into the snowy woods, a long stairway ascending in front of you, railroad tracks. Seize on such devices to help flesh out the stages you create. And phenomena such as parallax—in this case the moon appearing to move behind the porch columns— add both perspective and motion.”</p>
 
-          <h4>6.8.6 	‘Quiet Scenes&#39; </h4>
+          <h3>6.8.6 	‘Quiet Scenes&#39; </h3>
           <p>Although simplistic, there are two kinds of scenes: action scenes and quiet scenes. Action in one, dialogue, description and introspection in the other. You've got to have a balance of both scenes; too much action is exhausting, too much thinking or talking is boring.</p>
           <p>All of your scenes need to be interesting or propulsive. The common wisdom is that after every action scene, the reader needs a quiet scene to 'wind down.' I disagree. You can 'wind down' any time if you stop reading. All your scenes need to be action scenes. But quiet scenes contain a different kind of action.</p>
           <p>To steal terms from physics, action scenes do 'work,' but quiet scenes have potential to do work. This potential crackles with anticipation of the work to come, and creates interest in quiet moments. This can be effected through use of setting, props, placement of various elements, or the characters themselves;</p>
@@ -551,14 +551,14 @@ function Scenes() {
             <li>Characters waiting for another character to come; this can create a sense of (if admittedly cheap) anticipation;</li>
           </ol>
 
-          <h4>6.8.7 	Make Action Present</h4>
+          <h3>6.8.7 	Make Action Present</h3>
           <p>This is the same rule as under 11.19 Description in Action, but refers to scenes, rather than detail.</p>
           <p>Always pull past action into the present as much as possible. For instance, if your story begins with a protagonist who has been a vampire for 2 years, change it so the story begins with a human turning into a vampire. If your protagonist was in a car crash in the past, begin your story with the car crash happening right now, and make the plot follow on from that. If anything interesting happened to your characters, change it so it&#39;s happening right now. Don&#39;t conceal the best scenes in backstory.</p>
           <p>Authors try to compromise this rule by showing the past action in a flashback. This is not an acceptable remedy unless the story would literally not work if the action was in the present. Do everything you can to move action into the present.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-chronology">6.9: Chronology</h3>
+          <h2 id="post-chronology">6.9: Chronology</h2>
           <p>This is the order of your scenes. You can have:</p>
           <ol>
             <li>Linear chronology (events told in temporal order; when they happened in time, from the earliest to the most recent); or</li>
@@ -578,7 +578,7 @@ function Scenes() {
 
           <p>For instance, you might start ‘in media res&#39; and have main characters alluding to some critical past event. Only after generating enough interest about the alluded to event can you then flashback and show it, because your reader knows what it&#39;s for and is interested in seeing it.</p>
 
-          <h4>6.9.1 	Reordering Chronology creates two timelines</h4>
+          <h3>6.9.1 	Reordering Chronology creates two timelines</h3>
           <p>When scenes are in order, they suggest chain-linked linear causation; that actions in the past affect and cause the present, and the present, future, etc. When you pull scenes out of order, you are putting it on yourself to actively explore possible causation apart from temporality, or perhaps subvert classical causation entirely. I.e. the time-based ordering of events did not cause the situation, something else did. This may entertain determinism or predestination, 'character as destiny,' 'genes/biology' as destiny, coincidence, supernatural intervention, etc.</p>
           <p>Caution: This shouldn't be done merely for style. It's not an excuse for 'listen to this funny character anecdote from ten years ago' or 'want to see if the main characters got married and had kids?' When you When the past or future manifests in a story, it literally becomes part of the present, like a reordered domino sequence. You create a causative sequence distinct from your temporal sequence, and now have to manage both.</p>
           <p>Examples:</p>
@@ -593,7 +593,7 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-french-scene">6.10: The 'French Scene'</h3>
+          <h2 id="post-the-french-scene">6.10: The 'French Scene'</h2>
           <p>This is a screenwriting concept, but may be transferable to novel-writing. Normally you think of scenes being contained within separate settings; the end of one scene and the start of another is signaled by a change in setting. Sometimes the same scene may span multiple different settings, for instance if characters are travelling (e.g. in the The Great Railway Bazaar,
             <FootnoteRef text={`PAUL THEROUX,\nThe Great Railway Bazaar.`} />
             this is somewhat unavoidable).</p>
@@ -603,7 +603,7 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-progression">6.11: Progression</h3>
+          <h2 id="post-progression">6.11: Progression</h2>
           <p>Jack Bickham says,
             <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes.`} />
             “All good fiction moves forward.”</p>
@@ -612,12 +612,12 @@ function Scenes() {
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             lists 4 primary techniques for depicting progression:</p>
 
-          <h4>6.11.1 	Social Progression (‘widening&#39;)</h4>
+          <h3>6.11.1 	Social Progression (‘widening&#39;)</h3>
           <p>You can widen the impact of character actions onto society. Throughout a story, the actions of a small number of characters may radiate out to affect more and more people. Ideally, this will happen gradually, not all at once.</p>
           <p>It may also be that the character&#39;s actions have always affected many, however, they only gradually learn of the wider effects as the story goes on.</p>
           <p>If you go for this type of progression, make sure your character has a role or job which would potentially affect many in a critical way: this is why you tend to see certain professions in novels opposed to others (doctors, lawyers, politicians, police and detectives, scientists, as opposed to plumbers, wildlife rangers, dentists, garbage collectors, lab technicians, secretaries, and salespeople).</p>
 
-          <h4>6.5.3 	Why Is It Important?</h4>
+          <h3>6.5.3 	Why Is It Important?</h3>
           <p>You might not consider this in the writing process, especially if you write scenes in isolation to each other, but a lack of natural transition will rear its head in the rereading process, necessitating its management in the editing and re/structuring process.</p>
           <p>Transition is another element of story progression; one thing leading to the next. Scenes should also have this feel, which is the utility of transitions.</p>
           <p>McKee suggests the vehicle for scene transition is a thing held in common by two scenes or counterpointed between them. This ‘thing&#39; may be:</p>
@@ -664,7 +664,7 @@ function Scenes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-bait-and-switch-scene">6.12: Bait-and-Switch Scene</h3>
+          <h2 id="post-bait-and-switch-scene">6.12: Bait-and-Switch Scene</h2>
           <p>If you set your scene one place, populate it with certain characters, and have certain events occur, don&#39;t wistfully carry the reader to an imagined scene of another place, with other characters, and there events. Otherwise you might as well just write that scene.</p>
           <p>Mittelmark and Newman provide some examples:
             <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />

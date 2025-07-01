@@ -12,7 +12,7 @@ function Suspense() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Suspense</h1>
+        <h1>Suspense</h1>
 
         <blockquote>
           “You do not keep the audience's interest by giving it information, but by withholding information.”
@@ -49,7 +49,7 @@ function Suspense() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-storytelling">13.1 What is Suspense?</h3>
+          <h2 id="post-storytelling">13.1 What is Suspense?</h2>
           <p>Suspense is basically just holding off on resolving conflict or answering plot-related questions for as long as possible. It&#39;s necessary if you want the reader to keep reading until the end. </p>
           <p>Burnett and Burnett
             <FootnoteRef text={`HALLIE BURNETT AND WHIT BURNETT,\nFiction Writer's Handbook.`} />
@@ -57,7 +57,7 @@ function Suspense() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-to-create-suspense">13.2 How to Create Suspense</h3>
+          <h2 id="post-how-to-create-suspense">13.2 How to Create Suspense</h2>
           <p>One way of providing suspense is, obviously, to stubbornly refuse to provide a resolution until the very end of the story.</p>
           <p>The problem is your conflict risks going ‘cold&#39; for the reader; they might assume the conflict is of no importance and probably won&#39;t be resolved by the end, and subsequently stop reading.</p>
           <p>Alternatively, you want to provide build ups of suspense on the way to the resolution; making small promises which add up to your resolution being really worthwhile, whilst reminding the reader that the conflict hasn&#39;t been forgotten, and teasing that the end will provide the answer.</p>
@@ -76,9 +76,9 @@ function Suspense() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-tension">13.3 Tension</h3>
+          <h2 id="post-tension">13.3 Tension</h2>
 
-          <h4>13.3.1 What Is Tension?</h4>
+          <h3>13.3.1 What Is Tension?</h3>
           <p>Sol Stein defines this as a separate concept from suspense. I tend to think of it as an offshoot of suspense, or suspense in miniature. Generally, suspense refers to the protraction of the main plotline. Tension refers to the little obstacles which are auxiliary to the main plotline, but still delay the main plotline&#39;s resolution.</p>
           <p>Here&#39;s what suspense is not:
             <FootnoteRef text={`STEPHEN KING,\nThe Dead Zone.`} />
@@ -87,7 +87,7 @@ function Suspense() {
           <p className="italict">A thick feeling of tension had begun to creep into his body.</p>
           <p>As with most writing effects, you cannot generate tension merely by telling your reader it&#39;s there. You have to create it.</p>
 
-          <h4>13.3.2 How to Create Tension</h4>
+          <h3>13.3.2 How to Create Tension</h3>
           <p>A basic way of increasing tension is to take your protagonist&#39;s plan and shoot little holes in it. They have to fire a gun; they miss. They have to make a delivery, or pick someone up; they&#39;re late. This not only adds tension, it makes your story sound more realistic because life events rarely turn out exactly as planned.</p>
           <p>You can increase tension merely by rearranging sentences and how information is delivered – this affects pacing, i.e. protracting or delaying how quickly narrative points are resolved. </p>
           <p>Generally, to increase tension, make the pacing frustrate the protagonist&#39;s intention. If your protagonist needs time, speed the pacing up. If your protagonist needs to be fast, slow the pacing down.</p>
@@ -98,9 +98,9 @@ function Suspense() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-pacing">13.4 Pacing</h3>
+          <h2 id="post-pacing">13.4 Pacing</h2>
 
-          <h4>13.4.1 	What Is Pacing</h4>
+          <h3>13.4.1 	What Is Pacing</h3>
 
           <p>Pacing describes several things:</p>
 
@@ -119,7 +119,7 @@ function Suspense() {
             </ol>
           </ol>
 
-          <h4>13.4.2 	Why is it important?</h4>
+          <h3>13.4.2 	Why is it important?</h3>
 
           <p>Roy Clark
             <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} />
@@ -145,7 +145,7 @@ function Suspense() {
             <p>After he has awoken, the rest of the story plays out across a few years between the protagonist making a psychic prediction, and it coming true. This is to convey how far into the future he can see, and the sense of uncertainty or dread in the meantime.</p>
           </ol>
 
-          <h4>13.4.3	No-Clock Pacing</h4>
+          <h3>13.4.3	No-Clock Pacing</h3>
           <p>It&#39;s tempting to reduce pacing to literal references of the passage of time, e.g.</p>
           <p><i>We left two hours later.</i></p>
           <p><i>The city was a twenty minute drive away.</i></p>

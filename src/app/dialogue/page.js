@@ -12,7 +12,7 @@ function Dialogue() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Dialogue</h1>
+        <h1>Dialogue</h1>
 
         <blockquote>
           “Dialogue is used to reveal not what we want to say, but what we are trying to hide.”
@@ -39,7 +39,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-dialogue">12.1: What is Dialogue?</h3>
+          <h2 id="post-what-is-dialogue">12.1: What is Dialogue?</h2>
           <p>First, what dialogue is <i>not: </i><strong>it is not real speech. </strong>Dialogue is the illusion, or semblance, of real speech.</p>
           <p>You do not get dialogue from a verbatim transcription of human speech. Real speech is disordered, fractured and meandering. A large percentage is junk, noise, filler. Dialogue can never be passive background noise; it must be active, tight, abridged and filled with meaning and subtext. It can also reveal more by what is not said, than by what is.</p>
 
@@ -58,7 +58,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-brevity">12.2: Brevity</h3>
+          <h2 id="post-brevity">12.2: Brevity</h2>
           <p>Dialogue should be written with brevity – less is more. Writing can be dialogue-driven, however, my personal rule is to get away with writing the least amount without compromising meaning. That may even mean cutting dialogue altogether in favour of describing that character&#39;s behaviour (description – of action; not in general – should be given priority over dialogue, i.e. show don&#39;t tell). </p>
           <p>Sol Stein explains, “For the reader, dialogue is meant to be experienced [absorbed immediately], not studied [laboured over and re-read]. Some of the dialogue I see in manuscript is involuted, complex, difficult to digest in a quick reading. Halting over a line of dialogue can interrupt the reader's experience.” Don&#39;t put “thoughts within thoughts. That characteristic doesn&#39;t work in dialogue because thoughts within thoughts put the reader into a deciphering rather than an experiencing mode. Dialogue that is short, snappy, punchy, engages other characters as well as the reader.”
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
@@ -78,7 +78,7 @@ function Dialogue() {
 
           <p>Example A shows ‘echoing&#39;, which is how people speak in real life, but makes bad dialogue. Every word repeated is wasted. Example B says everything A does, and in less words.</p>
 
-          <h4>12.2.1 	When to not abridge</h4>
+          <h3>12.2.1 	When to not abridge</h3>
 
           <p>Rarely, echoing might serve a function that would be lost if words were cut – this may be where Character B&#39;s dialogue is intended to be condescending and being explicit is effectively talking down to Character A. Cutting words is only a general rule and whichever style you go with will be a circumstance-based judgment. </p>
           <p>For instance, look at this example as an exception to the cutting words rule:</p>
@@ -91,12 +91,12 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-make-dialogue-oblique">12.3: Make Dialogue Oblique</h3>
+          <h2 id="post-make-dialogue-oblique">12.3: Make Dialogue Oblique</h2>
           <p>You want dialogue to create conflicts but also protract tension. To achieve the first, dialogue should be confrontational. To achieve the second, it should be indirect – Sol Stein uses the term ‘oblique&#39;. This means dialogue doesn&#39;t directly reveal what the speaker is actually thinking. Dialogue is like a game of tennis. The oblique return, says Sol Stein,
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
             is the return of the ball somewhere else than where it is expected. Oblique dialogue is more interesting and dynamic. It turns ‘words&#39; into a ‘character&#39;, fleshes out characters, makes them sound as if their hiding things, and therefore makes the reader want to learn more about them. </p>
 
-          <h4>12.3.1 	Dialectical Dialogue / ‘Dodgem&#39; Dialogue</h4>
+          <h3>12.3.1 	Dialectical Dialogue / ‘Dodgem&#39; Dialogue</h3>
           <p>Dodgem dialogue is my technique for making dialogue 'jump' out at the reader. Normally, (bad) dialogue is written like a casual car ride, when it should be written like a dodgem car ride. This is related to combining conflict with dialogue (see 10.4 below). Sol Stein refers to a similar concept called 'oblique dialogue'.</p>
           <p>Stein says good dialogue is “confrontational” and “thrives on surprise and indirection,” and “raises more questions than it answers.”</p>
           <p>Dialogue that jumps out isn&#39;t necessarily ‘oblique&#39; – oblique dialogue suggests more than is actually said and elicits further interest. Dialogue that skirts around moves outside the bounds of expectation or social convention or expected phrasing. By eschewing polite expectations, you make the dialogue immediate and get out of the ‘wallflower&#39; stages of new social interaction as quickly as possible; polite, bland, forgettable and everything a character is not. Characters may sound as if they&#39;re presuming certain information possessed by the other character, and to the reader, it may have a sense that you&#39;re being sucked into a conversation midway through – this is what gives it dynamism.</p>
@@ -194,14 +194,14 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-action/reaction">12.4: Action/Reaction</h3>
+          <h2 id="post-action/reaction">12.4: Action/Reaction</h2>
           <p>No one goes into a conversation knowing exactly what they&#39;re going to say beforehand. What you say in a conversation is partly reliant upon the responses you get from the other person. Thus, dialogue should not read as a one-sided pre-planned speech. Sequences of dialogue should be broken up into patterns of action/reaction that are continuously shaping the speaker's behavior. There is a constant updating of what the speaker says based on the real-time feedback they receive from the listener.</p>
           <p>Make each exchange short to give the conversation the rhythm of a tennis match. Back, forth, back, forth….etc. To keep it from getting to predictable, fragment the speech with silent reactions that cause the speaker to change the beat. A well-placed silence can be more compelling than words.</p>
           <p>People can also react to their own words and actions, for instance if they speak rashly or in high emotion, or with uncertainty, or under pressure. Characters may have dialogues with themselves while speaking to another.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-12-5">12.5: Adding Activity to Dialogue</h3>
+          <h2 id="post-12-5">12.5: Adding Activity to Dialogue</h2>
           <p>In real life, it&#39;s rare that people will stop what they are doing, absorb you in their unbroken gaze and talk clearly at you for the duration of the conversation. People often talk to each other in and around menial tasks; making a snack or a drink, walking the dog, checking their phone or laptop, driving in the car. A really concise writer will use those menial tasks to convey information so no words are wasted. </p>
           <p>For instance, instead of simply telling the reader that a character is absent-minded, you could have the dialogue taking place while the character is searching for a lost item, or repeating the same activities as if they&#39;ve forgotten they did them the first time. Instead of simply saying that a character is in an aggravated mental state, you could have the dialogue occurring while the character is trying and failing to start the car, with exchanges becoming increasingly laconic and curt as the character becomes increasingly stressed. </p>
           <p>Also note that stressed people are more likely to accidentally expose truths – this can be another reason for burdening a character with tasks during conversation, not to mention a convenient and novel way of introducing information. An alternative is where a person does not directly answer a question, but performs an action in/consistent with a certain state of affairs, e.g. shaking or nodding, smiling, laughing, or joking, acting quickly (suggests eagerness), acting slowly (suggests reluctance), requesting more information (could suggest interest or alternatively, suspicion), or turning away or changing the subject, or paraphrasing the information in a way more agreeable to them (suggests disagreement).</p>
@@ -232,7 +232,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-12-6">12.6: Adding Conflict to Dialogue</h3>
+          <h2 id="post-12-6">12.6: Adding Conflict to Dialogue</h2>
           <p>Good dialogue happens when characters are under tension. </p>
           <p>Now you know how to write ‘Dodgem dialogue&#39; you want to combine it with conflict; your characters&#39; verbal quirks and phrasings are going to obliquely suggest their inner struggles and goals.</p>
           <p>Imagine two people performing a partnered dance. A leads and B follows. Every action is mirrored perfectly, each partner in tune with the music and almost psychically reading the other's intent. </p>
@@ -273,7 +273,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-12-7">12.7: Information Asymmetry</h3>
+          <h2 id="post-12-7">12.7: Information Asymmetry</h2>
           <p>Introducing even more complexity: Information asymmetry.</p>
           <p>This is a term I&#39;ve borrowed from economics, but the general concept is useful for writing purposes. In the context of fiction, information asymmetry is where different characters possess significant differences in information.</p>
           <u>Example #1</u>
@@ -294,7 +294,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-dialogue-tags">12.8: Dialogue Tags</h3>
+          <h2 id="post-dialogue-tags">12.8: Dialogue Tags</h2>
 
           <div className="custom-box">
             <p className="mb-0">“Hello,” he lied. </p>
@@ -311,9 +311,9 @@ function Dialogue() {
 
           <p>The rule for conveying both of these bits of information is: economy.</p>
 
-          <h4>12.8.1 	Who has spoken</h4>
+          <h3>12.8.1 	Who has spoken</h3>
           <p>Generally, once you&#39;ve identified the speaker the first time, you don&#39;t need to keep identifying them every time they speak. If your dialogue volleys back and forth and sounds natural, the reader will figure it out. You might experiment with this by taking all dialogue tags out of a paragraph of dialogue, and then reinserting as few as possible until your dialogue can be accurately attributed to the characters (slight guesswork or deduction by the reader is absolutely permissible). If you need to keep repeating which character is which, it suggests your banter is messy and you should aim to reorganise it.</p>
-          <h4>12.8.2 	Form of speech</h4>
+          <h3>12.8.2 	Form of speech</h3>
           <p>The same rule applies to describing the form of speech – multiplied by ten. Do it as little as possible without compromising coherence. Try the above exercise with dialogue, taking speech descriptions out, but rather than reinsert them, see if you can alter the dialogue itself to emphasise how something is being said.</p>
 
           <p><i><strong>What does ‘said&#39; mean and what does it do?</strong></i></p>
@@ -354,7 +354,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-people-avoid-jinxing">12.9: People Avoid 'Jinxing'</h3>
+          <h2 id="post-people-avoid-jinxing">12.9: People Avoid 'Jinxing'</h2>
           <p>Here&#39;s a mistake writers can tend to make: characters spelling out bad possibilities (mainly to escalate drama). </p>
           <p>Example:</p>
           <p className="code-left">
@@ -392,7 +392,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-concrete-abstract-statements">12.10: Concrete/Abstract Statements</h3>
+          <h2 id="post-concrete-abstract-statements">12.10: Concrete/Abstract Statements</h2>
           <p>If you want dialogue to foster closeness between characters, have them use concrete statements (“I got robbed yesterday,” “I don&#39;t like hail,” “He lied.”). Avoid abstract statements (“I believe in justice,” “I hate awful weather,” “He&#39;s just like all the others,”).</p>
           <p>This not only fosters closeness and a sense of knowing characters better, but also fosters closeness between character and reader, and makes characters more interesting.</p>
           <p>Imagine a group of characters are asked, "What is the most important thing in the world?" Characters answer the obvious: love, family, friends, goals, etc – abstract answers. </p>
@@ -417,12 +417,12 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-dont-take-sides">12.11: Don't Take Sides</h3>
+          <h2 id="post-dont-take-sides">12.11: Don't Take Sides</h2>
           <p>Sol Stein discourages taking sides with one party in dialogue exchange, and if <i>“you find yourself wedded to the beliefs of one of the characters, try your damndest to make the other character win the argument.”</i></p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-when-to-avoid-dialogue">12.12: When To Avoid Dialogue</h3>
+          <h2 id="post-when-to-avoid-dialogue">12.12: When To Avoid Dialogue</h2>
           <p>Sometimes you might notice a story eschews dialogue and just summarises what a character has said. A well-known example is in Stephen King&#39;s ‘The Shining&#39;, where the bartender&#39;s dialogue is only summarized, not spoken. This implies the bartender does not literally speak; he is ghost, or an invention of the protagonist&#39;s psychosis. That&#39;s an extreme example.</p>
           <p>Here is another example:
             <FootnoteRef text={`KATE BRAVERMAN,\nTall Tales from the Mekong Delta.`} />

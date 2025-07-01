@@ -12,7 +12,7 @@ function Description() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Description</h1>
+        <h1>Description</h1>
 
         <blockquote>
           “When I use a word,” Humpty Dumpty said, in rather a scornful tone, “it means just what I choose it to mean—neither more nor less.”
@@ -45,7 +45,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-show-dont-tell">11.1: Show Don't Tell</h3>
+          <h2 id="post-show-dont-tell">11.1: Show Don't Tell</h2>
 
           <p>This rule deals mainly with conveying exposition. Exposition comprises all the non-plot related ‘facts&#39; or neutral information about your story, e.g. dates, times, histories, biography, setting information, etc. The ‘background information.&#39;</p>
           <p>Jack Hart provides this example:
@@ -61,25 +61,25 @@ function Description() {
           <p>To make sure that you&#39;re showing as well as telling, Sol Stein advises to “[ensure] there is something visual [described] on each page.”
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
 
-          <h4>11.1.1 	Pace Exposition</h4>
+          <h3>11.1.1 	Pace Exposition</h3>
           <p>Like the rest of the story, exposition must have a sense of meaningful progression. You can&#39;t drop big facts at random.</p>
           <p>Generally, throughout the story, the least important facts should come first, followed by more important, and the most important revealed last. The most important facts are those which are secrets and hidden and painful truths characters&#39; don&#39;t want known.</p>
 
-          <h4>11.1.2 	The ‘California Scene&#39;</h4>
+          <h3>11.1.2 	The ‘California Scene&#39;</h3>
           <p>Do not write a ‘California Scene.&#39; This is a scene where two characters who only just met start revealing deep painful truths about each other.
             It may also be that the characters know each other very well, but one character announces truths too readily and in a public setting.
           </p>
           <p>So named, apparently because ‘only in California&#39; do people unguardedly reveal such things at parties and so on. Apparently there is such a fear that West Coasters are disconnected from reality they must arm themselves with heartfelt anecdotes to prove they are ‘in touch&#39; with themselves.</p>
           <p>In all other parts of the world, characters only reveal these things with much painful coercion because they are placed in a difficult situation and revealing the truth is the lesser of two evils.</p>
 
-          <h4>11.1.3 	Support Statements with Facts</h4>
+          <h3>11.1.3 	Support Statements with Facts</h3>
           <p>A formulation of the ‘show don&#39;t tell rule.&#39; If you want to make a statement about something, provide ‘evidence&#39; to support it.  A really good writer will even remove the statement itself, leaving just the evidence for the reader to make up their own mind.</p>
           <p>Another example: you want to suggest something to the reader, or the reader to respond in a particular way. For instance, your character is told the same unbelievable thing twice. The first time, they don&#39;t believe it. The second time, they aren&#39;t sure and decide to investigate it. A lazy writer will just say ‘This was the second time he/she&#39;d heard this now, so he decided to go investigate…&#39; etc. It&#39;s better to use evidence to insinuate the change of mind: the information teller is a trustworthy, reasonable person. So now you have a prior scene to set up showing this second person is trustworthy and reasonable. Even better if you can make that scene itself interesting and unusual (you don&#39;t want the reader to see right through the scene and think ‘oh, this is setting up XYZ&#39;). You want them to mistake it for a natural part of the plot, an interesting feature in its own right.</p>
           <p>Always ask yourself: how does the reader know [statement]? Don&#39;t expect the reader to just believe everything you say – they wouldn&#39;t do this in person. </p>
           <p>Put yourself in the reader&#39;s position. What would make you believe the statement, if someone told you? With character traits, you tend to need an example of that trait in action (if someone is ‘funny&#39;, you need to hear a joke. If a place is dangerous, you need to see the danger or hear a statistic, etc).</p>
           <p>You will find if you ask yourself regularly with all statements in your story, you will naturally build up lots of ‘prior scenes&#39; to set things up, and your story scenes will write themselves.</p>
 
-          <h4>11.1.4 	Don&#39;t Describe Sunsets</h4>
+          <h3>11.1.4 	Don&#39;t Describe Sunsets</h3>
           <p>Jack Bickham says: “Don&#39;t describe sunsets.”
             <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} /> Meaning, don&#39;t provide an aesthetic description for its own sake, as if aesthetic prose is an end in itself.</p>
           <p>Every time you describe something (object, character, place, character&#39;s thoughts or feelings, etc) the story stops. You want to minimize this by weaving description in as infrequently as possible, making it clear and concise, and basically smuggling it in, loading description with plot-relevant association.</p>
@@ -88,7 +88,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-a-common-pitfall">11.2: A Common Pitfall</h3>
+          <h2 id="post-a-common-pitfall">11.2: A Common Pitfall</h2>
           <p>Some writers ‘make it up&#39; as they go along. Sometimes a scene flashes into your head and you just want to drop everything and write it before it disappears. However, writing description before planning out any of the critical story-building elements – the above – is like going to the store and buying a bunch of ingredients without first knowing what kind of food you&#39;re going to cook – i.e. it&#39;s a disaster waiting to happen, and you risk having to chuck out the ingredients you decide you don&#39;t really want, and wasting time jettisoning back and forth to pick up the ones you actually do want. </p>
           <ol>
             <li>Description shouldn&#39;t be discordant and ‘jar&#39; a person out of the story or theme; </li>
@@ -103,7 +103,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-11-3">11.3: Information Economy</h3>
+          <h2 id="post-11-3">11.3: Information Economy</h2>
           <p>You want your writing to create and preserve an economy of information, but instead of trading money, your reader trades you their time. This occurs even before they make the purchase of your book.</p>
           <p>For the trade to be feasible, your words must have value. Your words attain value according to the laws of supply and demand: when you limit supply, you raise demand. The more information you provide, the less value it will have. Writers who spill their guts immediately convey that their words have such little value they can be spilled without consequence (as the saying goes, ‘empty vessels make the most noise&#39;). So ensure you don&#39;t ramble or meander or flood the story with detail. This makes it seem you have the time to do so, implying your time is of little value. </p>
           <p>This requirement creates a paradox: your story must be packed with content, but withhold critical information, however, all the information you disclose must be important, whilst you can&#39;t give away all the important information.</p>
@@ -120,11 +120,11 @@ function Description() {
           </ol>
           <p>Some of these points are elaborated below:</p>
 
-          <h4>Some of these points are elaborated below:</h4>
+          <h3>Some of these points are elaborated below:</h3>
           <p>Above all, you should only describe things which are unusual, unexpected or striking. It goes without saying that if it&#39;s expected, the reader has already made the assumption and saved you the necessity of describing the thing. For instance, don&#39;t say ‘the blue pond&#39; as blue is the default imagined colour of a pond, however you should say ‘the green pond&#39; if that&#39;s the case. If a character enters a house, only describe those things which immediately draw the attention or are unexpected. People already expect that a living room will contain generic furniture, so only describe the odd or unusual aspects of furniture. </p>
           <p>Writing classes churn out a raft of amateur writers who write description based on exercises where they have had to look around the place they&#39;re in and describe the details, and with no guidance, they do so either personally (describe in detail only the things which mean something to the writer) or indiscriminately (describe everything). Neither of these will result in compelling, insightful writing.</p>
 
-          <h4>11.3.2 	Le Mot Juste</h4>
+          <h3>11.3.2 	Le Mot Juste</h3>
           <p>Good description makes use of word poverty; getting the most mileage out of the least words. Here&#39;s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn&#39;t get a surprise? Good description makes use of word poverty; getting the most mileage out of the least words. Here&#39;s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn&#39;t get a surprise? </p>
           <p>Here&#39;s an example:  </p>
           <p className='indent-8 mb-2'><i>The Television Centre...is a vision of the future with huge, glassed-in newsrooms, and reception areas that look like they've been hit with [a] pastel bomb...</i>
@@ -157,7 +157,7 @@ function Description() {
           <p>Or:</p>
           <p className='indent-8 mb-2'><i>Weirdly, the tommy gun fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
           <p>Note, there&#39;s an argument that the word ‘weirdly&#39; didn&#39;t need to be in the sentence at all; after all, it&#39;s implied that a gun in a violin case is weird.</p>
-          <h5>11.3.3 	Implication by Imagery</h5>
+          <h4>11.3.3 	Implication by Imagery</h4>
           <p>Here&#39;s an example of the above rule:</p>
           <p className='indent-8 mb-2'>The main street of Starbuck is deserted, save four men in hunting camo outside Archie's Meats and Groceries, loading paper bundles of bloody meat into the back of a pickup truck. Only the store and hotel restaurant appear to be open.
             <FootnoteRef text={`TOM JOLKIEN,\nCurtains, (note: this is non-fiction).`} />
@@ -166,12 +166,12 @@ function Description() {
           <p>Hopefully you have a picture of the scene in your mind. Consider this image for a moment. If you&#39;re like me, you would have pictured a regional street (as opposed to a CBD) maybe even rural or remote, sparsely built up. Yet nothing in the paragraph explicitly says that. </p>
           <p>It&#39;s coming from inference: the detail about the place being deserted, only the store and restaurant are open (even though, alternatively, it could be night time) which inclines against a heavily commercial area, and the ‘men in hunting camo&#39; and ‘pickup truck&#39; suggests a more countrified region. All of these details ‘show&#39; not ‘tell&#39;; this is someone literally looking around and just telling you what they see, what stands out, and yet it also communicates a whole lot of information that another author might simply ‘tell&#39; you.</p>
 
-          <h4>11.3.3 	Outside Before Inside</h4>
+          <h3>11.3.3 	Outside Before Inside</h3>
           <p>Don't detail the protagonists personal life (inside scene) until its been 'earned'; by a surrounding 'action' or 'conflict' scene, (outside scene). More specifically, don&#39;t start deep inside a character&#39;s head until their environment/context has been established.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-most-unusual-to-least-unusual">11.4: Most Unusual to Least Unusual</h3>
+          <h2 id="post-most-unusual-to-least-unusual">11.4: Most Unusual to Least Unusual</h2>
           <p>This follows on from the ‘unusual&#39; rule. You&#39;re aiming to work realism and naturalism into description. One way you effect this is to describe things in the order they&#39;d be noticed in real life.</p>
           <p>For instance, if a POV character walks into a big room where lots is going on all at the same time, what you describe first should be what your character notices first. This may require balancing up various sensory inputs; sight, smell, taste, sound, touch. If the room contains a big party the order of description might be:</p>
           <ol>
@@ -200,7 +200,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-metaphors-and-similies">11.5: Metaphors and Similies</h3>
+          <h2 id="post-metaphors-and-similies">11.5: Metaphors and Similies</h2>
           <p>Metaphors and similes are figures of speech, but are not interchangeable literary devices:</p>
           <ol>
             <li><u>A simile</u> is a description which compares one thing to another thing;</li>
@@ -234,19 +234,19 @@ function Description() {
           <p>This provides a vivid picture of the room and the lighting and is more dynamic than saying the room is a dim, intrusive, murky, heavy, oppressive, yellowy-green.</p>
           <p>If you do decide to use figures of speech, here are some general rules for using them properly and effectively. </p>
 
-          <h4>11.5.1 	Metaphors alter, Similies add to</h4>
+          <h3>11.5.1 	Metaphors alter, Similies add to</h3>
           <p>Generally, a metaphor does not need to be ‘like&#39; the thing you describe (it could even be starkly different), as long as it puts the right picture in your reader&#39;s mind. A metaphor can significantly change the way your reader might have otherwise imagined something. Similes, however, generally do need to be like the thing you describe, aiming to clarify it and add greater detail – </p>
           <p className='indent-8 mb-2'><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i>
           <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
           <p>Here, the thing (the name ‘Isobel&#39;) is not like the simile (the tolling of a bell). Even if you argue that the phoneme ‘bel&#39; onomatopoeically sounds like the clang of a bell, you have to selectively ignore the other two syllables ‘Is&#39; and ‘o&#39;. </p>
 
-          <h4>11.5.2 	High-fidelity</h4>
+          <h3>11.5.2 	High-fidelity</h3>
           <p>The similarity has to be crystal clear to the reader, not strained or contorted. By using a figure of speech instead of a plain description, you are implying that it is a higher fidelity description of the thing even than describing the thing itself directly. ‘Good enough&#39; is not good enough – </p>
           <p className='indent-8 mb-2'><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i>
           <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
           <p>The sound of teeth clattering does not have enough fidelity to coins falling on a wooden floor to justify this simile. Coins falling on a wooden floor is a racket; teeth chattering is not. It&#39;s a simile that has to be contorted in the mind to work.</p>
 
-          <h4>11.5.3 	Tone consistency</h4>
+          <h3>11.5.3 	Tone consistency</h3>
           <p>A figure of speech should keep in tone with the thing being described:</p>
           <p className='indent-8 mb-2'><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i>
           <FootnoteRef text={`ROBERT SABBAG,\nDown Around Midnight.`} /></p>
@@ -255,7 +255,7 @@ function Description() {
           <p>A tonally dissonant figure of speech may convey satirical/ironic/humourous purpose – this is called ‘Bathos&#39;. Here&#39;s an intentional example: </p>
           <p className='indent-8 mb-2'>The ballerina rose gracefully en pointe and extended one slender leg behind her, like a dog at a fire hydrant.  </p>
 
-          <h4>11.5.4 	Relatable</h4>
+          <h3>11.5.4 	Relatable</h3>
           <p>A figure of speech will fail if the reader doesn&#39;t know what you&#39;re talking about. Figures of speech should not contain exclusive, unusual things that only few people have experienced (least of all the writer): </p>
           <p className='indent-8 mb-2'><i>I felt like I was wading into uncharted waters without a life raft.</i> 
           <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
@@ -263,26 +263,26 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-hierarchy-of-best-description">11.6: The Hierarchy of Best Description</h3>
+          <h2 id="post-the-hierarchy-of-best-description">11.6: The Hierarchy of Best Description</h2>
           <p>In what form should your description take? Obviously, the most effective – but what&#39;s that? If you have some piece of information you&#39;d like to communicate in your story, you should aim for getting it across via the highest form in the hierarchy. </p>
           <p>In order of best to less favourable – </p>
 
-          <h4>11.6.1 	Behaviour:</h4>
+          <h3>11.6.1 	Behaviour:</h3>
           <p className="code-left"><code><i>He lifted the book and cradled it in one hand like it was an infant. His other hand he raised to the crowd seated before him, and cupped his fingers. He did this in silence for a full two minutes. His eyes penetrated the throng of people, and then gazed beyond them, at something no one else could see. He remained still as they went silent, then opened his mouth.   </i></code></p>
           <p>This is description of characters doing things. Action without explanation is very compelling and effective; it drops you right into a scene, amidst the action. It doesn&#39;t presume your audience is dumb, because they are forced to work out the character&#39;s mental state based on what is happening – rather than simply being told. It&#39;s more realistic because in real life this is all the info you get: you aren&#39;t told what people are thinking, you have to make judgments.</p>
           <p>Look at the above example – you know what it&#39;s about without being explicitly told. This is what behavioural description should aim to do, but you don&#39;t have to be so obvious, either. Really good behavioural description can be fun and cerebral to read, like a puzzle or a mystery; you are trying to work out what is happening and what people are thinking, and stay on the same page, even as the scene is constantly changing and developing.</p>
 
-          <h4>11.6.2. 	Stuff: </h4>
+          <h3>11.6.2. 	Stuff: </h3>
           <p className="code-left"><code><i>He towered over the pulpit. A fresh coat of paint mostly almost covered up the chipping pine underneath. Panes of golden dusty light fell onto the floor, broken up by the cracks in the windows. The carpet was scuffed, but not kinked. Never kinked. So many elderly parishioners that it would invite a lawsuit.    </i></code></p>
           <p>This is description of things: a setting, a person&#39;s appearance, etc.</p>
 
-          <h4>11.6.3. 	Dialogue: </h4>
+          <h3>11.6.3. 	Dialogue: </h3>
           <p className="code-left"><code><i>Looking at them all, he said: “If you live according to the Word as set out in Scripture, you have done better than to win the lottery, because your prize is eternal life in Heaven. And Heaven is a beautiful place decorated with gold and silver and forever the resting place of beautiful people. A life of luxury on Earth is only a small taste of what Heaven has to offer the devout.”    </i></code></p>
 
-          <h4>11.6.4. 	Introspection: </h4>
+          <h3>11.6.4. 	Introspection: </h3>
           <p className="code-left"><code><i>Father X knew just by looking, who was saying their prayers, and who wasn&#39;t. If they prayed, they would glow. That&#39;s how he knew faith worked, because it made the members congregation look better each time they attended. How many times now had he suppressed a cringe, when he&#39;d seen yet another new congregation member shuffle through the double doors, looking like the dregs of the Earth? How many times now had he felt the thrill of pride, seeing them, a few weeks later, unrecognisably radiant with the inner peace that only true faith could bring?    </i></code></p>
 
-          <h4>11.6.5.	Narration: </h4>
+          <h3>11.6.5.	Narration: </h3>
           <p className="code-left"><code><i>........    </i></code></p>
           <p>All of these forms of description are about the Father, his religion, and his church, however, the subtext in all of these paragraphs points to a preoccupation with exteriority and the appearance of things: beauty, gold and silver, ‘glow&#39;, etc. This suggests this church is superficial. Each form of description attempts to convey that implication in a different way. </p>
           <p>Sol Stein says to convert narrative summary into dialogue where possible. This turns the retelling of an offstage event into a visible scene – dialogue is always an immediate scene.
@@ -290,7 +290,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-break-up-adjectives">11.7: Break Up Adjectives</h3>
+          <h2 id="post-break-up-adjectives">11.7: Break Up Adjectives</h2>
           <p>Let's say you want to describe something in particular detail and you need to use numerous adjectives to get the description sufficiently specific. Instead of saying: 'A forest of huge, gnarled, grey, straight, balding oak trees.' </p>
           <p>Let's say there's no adjective you can delete in that sentence without removing some essential meaning. You should break adjectives up into separate sentences, like this: </p>
           <p className='indent-8 mb-2'><i>A forest of gnarled grey pine. Their branches reached up straight some twenty metres into the sky. Although mostly balding, a number of them still bore flowers.</i></p>
@@ -298,14 +298,14 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-frequent-should-description-be">11.8: How Frequent Should Description Be?</h3>
+          <h2 id="post-how-frequent-should-description-be">11.8: How Frequent Should Description Be?</h2>
           <p>As a reliable, general rule, Sol Stein  gives the advice to break up every three sentences of dialogue with a description (of character, or setting, etc). He says:</p>
           <p className='indent-8 mb-2'>“Most exchanges in dialogue should be brief. A speech should be not more than three sentences. If a speech has to run longer, break it up with interruptions from other speakers or by an action or a thought.”
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-make-the-abstract-concrete">11.9: Make the Abstract Concrete</h3>
+          <h2 id="post-make-the-abstract-concrete">11.9: Make the Abstract Concrete</h2>
           <p>If you're a stickler for the 'show don't tell' rule (ideally, all writers should be), you may hate writing scenes with one character feeling emotions and feel resigned to writing those emotions.</p>
           <p>Consider the emotion you want the character to be feeling and try to evoke it by a separate incident.</p>
           <p>Example: A character is going somewhere and feels anxious/nervous about getting to the destination (e.g. an exam). Rather than say 'Protagonist felt anxious...' maybe it has been raining and the soil path has turned mushy (providing a tiny physical obstacle). If by car, their preferred road is blocked or slowed by construction works, and they opt for a road that has potholes. This will make the reader groan with empathy.</p>
@@ -317,7 +317,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-describe-things-as-other-things">11.10: Describe Things as Other Things</h3>
+          <h2 id="post-describe-things-as-other-things">11.10: Describe Things as Other Things</h2>
           <p>To make your writing memorable, you want your description to sound ‘fresh&#39; and ‘new.&#39; </p>
           <p>One way of doing this is to describe relatively boring things as if they were suggestive and interesting things. Imagine the motorhead describing his car to evoke the sexualised body of a women – a gimmicky cliché, but the essence of what I&#39;m talking about.</p>
           <p>Another example: Let&#39;s say you&#39;re writing a horror story in which a protagonist journeys into a forest and eventually reaches the monster's lair. If the forest isn't itself unusual, a surface level description may be boring and pure 'sightseeing' before something actually happens. </p>
@@ -333,7 +333,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-emphasize-by-contrast">11.11: Emphasize by Contrast</h3>
+          <h2 id="post-emphasize-by-contrast">11.11: Emphasize by Contrast</h2>
           <p>You want to show your main character is lonely. Obviously you would stick them in a tiny, cramped basement, doing some solitary activity.</p>
           <p>Wrong: stick your character in a big, open space, on their own, possibly doing something which typically involves numerous people. This highlights the lack of people in their life better than the basement scene. </p>
           <p>That one person shows up to a big birthday party is a more poignant indicator of loneliness than that the person refuses to hold a birthday party at all.</p>
@@ -341,7 +341,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-11-12">11.12: Chain Link Paragraphs</h3>
+          <h2 id="post-11-12">11.12: Chain Link Paragraphs</h2>
           <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea or thought. However, in some circumstances you may find multiple sentences borrow the same ideas, or carry ideas over throughout a scene. In such a case, you can link sentences together using key words or motifs, i.e. a ‘nexus&#39;. This creates flow. Here is an example:
             <FootnoteRef text={`JOHN HOWARD GRIFFEN,\nBlack Like Me.`} /></p>
           <p><u>Paragraph 1:</u></p>
@@ -446,7 +446,7 @@ function Description() {
 
           </div>
 
-          <h4>11.12.1 	When should you interlink paragraphs?</h4>
+          <h3>11.12.1 	When should you interlink paragraphs?</h3>
           <p>Some notes on the Companion (above): not every paragraph in this short story was interlinked. Some were entirely separate. Don&#39;t strive to link every paragraph in your story. Like anything in your story, interlinking creates a specific effect, and you don&#39;t want to overdo it. Reasons why you might interlink paragraphs:</p>
           <ol>
             <li><strong><u>To effect causation: </u></strong>interlinking paragraphs flow, creating a sense of one thing causally, logically or temporally (or otherwise) happening after another. By contrast, you might prevent any interlinkage to effect dissonance, illogic, conflict, irregularity, or isolation;</li>
@@ -456,12 +456,12 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-drama-by-omission">11.13: Drama by Omission</h3>
+          <h2 id="post-drama-by-omission">11.13: Drama by Omission</h2>
           <p>Picture two love stories. In one, the characters express their love for each other and get married. In the second, one character expresses their love, while the other does not, and starts to ignore them. In the second, the character&#39;s omission to reciprocate creates conflict which drives the plot forward and makes it more interesting.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-11-14">11.14: Wide and Narrow Description</h3>
+          <h2 id="post-11-14">11.14: Wide and Narrow Description</h2>
           <p>Jack Hart
             <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
             explains that storytelling at different distances requires two different kinds of narrative, each of them essentially a different language. When the distance is great, when you step way back from the action, you write in summary narrative, collapsing time and space into a dispassionate account, viewed from above. When you shrink the distance, you shift into scenic narrative, going inside the scene as it unfolds, as if it was happening to you. </p>
@@ -521,7 +521,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-ladder-of-abstraction">11.15: The Ladder of Abstraction</h3>
+          <h2 id="post-the-ladder-of-abstraction">11.15: The Ladder of Abstraction</h2>
           <p>At 11.9 I said ‘Make the Abstract Concrete.&#39;</p>
           <p>Here is a device for moving between concrete and abstract description. Where you bring in abstraction, let it come after establishing the concrete. Think of the concrete as a lamp, and the abstract as the genie. The genie is bound by the lamp. In order to summon the genie, you have to have the lamp.</p>
           <p>The abstract should spring from the concrete: <strong>Abstract</strong> observations should spring from descriptions of <strong>concrete</strong> things.</p>
@@ -550,12 +550,12 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-description foils">11.16: Description Foils</h3>
+          <h2 id="post-description foils">11.16: Description Foils</h2>
           <p>I noted under (XXXXX section) that not only characters – but basically anything – can have ‘foils&#39; including description; describing one thing contrasted by another lends both things emphasis. For instance, Hart  describes a homeless bum sleeping outside a Tiffany&#39;s jewellery shop.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-time-markers">11.17: Time Markers</h3>
+          <h2 id="post-time-markers">11.17: Time Markers</h2>
           <p>These are descriptions which mark what time it is and/or how much time has passed between events. A lack of time markers will cause confusion as to chronology, but they should be subtle; noted subconsciously by the reader. The specificity and frequency of time markers depends on the story's subject matter and degree of action.</p>
           <p>Examples:</p>
           <ol>
@@ -569,7 +569,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-gravity">11.18: Gravity</h3>
+          <h2 id="post-gravity">11.18: Gravity</h2>
           <p>Adding 'gravity,' -- emotional weight, solemnity, pathos, etc -- to your story can make it sound more interesting and important. But it's not a case that you can just keep heaping it on. Like a celestial body, your story can shudder and collapse under the weight of its own gravity. It's similar to the 'strange sandwich' rule -- don't pile on double servings.</p>
           <p>Consider of these two examples, which is the most moving:</p>
           <p>Bad Example: </p>
@@ -583,7 +583,7 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-description-in-action">11.19: Description in Action</h3>
+          <h2 id="post-description-in-action">11.19: Description in Action</h2>
           <p>Description should strive to effect ‘action&#39; as much as possible, occurring <strong>presently</strong> rather than in the past. Even a simple, trivial, innocuous gesture (see below example) will sound more dynamic and interesting if presented as if happening, rather than having happened. A sense of change, movement, and activity is preferred than a static, unchanging, unmoving scene. </p>
           <p>Example (paraphrased from an actual novel):
             <FootnoteRef text={`MICHAEL CRICHTON,\nDisclosure.`} /></p>

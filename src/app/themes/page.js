@@ -12,7 +12,7 @@ function Themes() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Themes</h1>
+        <h1>Themes</h1>
 
         <blockquote>
           “There are half a dozen subjects that I return to time and time again...[b]ecause most of my favourite writers do that, to hunt down the same topic or theme from different directions each time.”
@@ -43,7 +43,7 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-theme">4.1: What is Theme?</h3>
+          <h2 id="post-what-is-theme">4.1: What is Theme?</h2>
 
           <div className="custom-box">
             <p>[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified.”</p>
@@ -100,7 +100,7 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-thematic-conceit">4.2: The Thematic Conceit</h3>
+          <h2 id="post-the-thematic-conceit">4.2: The Thematic Conceit</h2>
           <p>The theme can be phrased as a question, which the story answers. What are the central questions you want to put to the reader and write in order to answer? e.g. — </p>
 
           <ol>
@@ -118,26 +118,26 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-inciting-question">4.3: The Inciting Question</h3>
+          <h2 id="post-the-inciting-question">4.3: The Inciting Question</h2>
           <p>For commercial writing, your premise and your thematic concern are the most vital commercial aspects of your story, because you draw upon them whenever you try to advertise your book. Consider a book is the primary advertisement for itself: ideally, your title, cover design, tagline, hook, and blurb will refer to your premise. All other advertisements will be based on these.</p>
           <p>Another way of putting it is each of your title, cover design, tagline, hook and blurb should ask a question that makes the reader want to read your book, e.g. 'What if you were the last to know?'' or 'Would you do it?'' This is not the theme, but a thematic question, a question which converges back on your theme.</p>
           <p>These also don't have to be literal questions, but should elicit a question, for instance: 'He looked at the closed casket as it disappeared into the ground, feeling the weight of being the only person who knew the body wasn't in there,'' (Theme: Honesty) or 'She allowed him to remove her white veil, and got a better look at his face. And - That's not Ivan. (Theme: Identity)</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-to-create-a-theme">4.4: How to Create a Theme</h3>
+          <h2 id="post-how-to-create-a-theme">4.4: How to Create a Theme</h2>
           <p>There are different methods for developing a theme:</p>
-          <h4>4.3.1 	Synecdoche</h4>
+          <h3>4.3.1 	Synecdoche</h3>
           <p>Synecdoche is where a part of a thing represents the whole thing, or the whole represents a part.</p>
           <p>Normally the former is used to convey theme, such as where the relationship of two characters will make a comment on love (the theme) at large. The characters themselves may each constitute a synecdoche; the male character may represent men, the female character represent women, etc.</p>
 
-          <h4>4.4.2 	Symbolism</h4>
+          <h3>4.4.2 	Symbolism</h3>
           <p>Your theme can also be represented by dissimilar things.</p>
           <p>For instance, if your theme related to the passage of time, you can't show time literally passing, second by second, in the story, so you may use visual imagery to suggest its passing.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-dont-preach">4.5: Don't Preach</h3>
+          <h2 id="post-dont-preach">4.5: Don't Preach</h2>
           <p>Under '1.1. The Main Elements of a Story,' Theme came last on the list. Plot comes first because your reader wants to be entertained above all else. If they wanted to learn something they would read non-fiction. </p>
           <p>When you make THEME come first, you end up with a lecture - or worse, propaganda - not a story. Your plot bends to facilitate your opinion, rather than reflect the most interesting arrangement of events.</p>
 
@@ -150,7 +150,7 @@ function Themes() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-variations-on-a-theme">4.6: Variations on a Theme</h3>
+          <h2 id="post-variations-on-a-theme">4.6: Variations on a Theme</h2>
           <p>This topic is an intersection of themes and character creation.</p>
           <p>You might select a premise or theme for your story but be unsure how to create and populate your plot with scenes that flow from your central idea or premise rather than just being 'really cool things that happen' which you just thought up.</p>
           <p>One technique you can apply is to think of stories as an exploration of an idea or premise, and have the freedom to explore all “variations on a theme”, or idea. Variations may be embodied in other characters whose own dramas vie with the protagonist for resolution. Additionally making these dramas a zero sum game can raise the stakes and also ensure the dramas are relevant to the protagonists'. Once you populate your plot with these variations major scenes and ideas may start to write themselves.</p>

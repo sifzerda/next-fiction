@@ -12,7 +12,7 @@ function TheLastWords() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">The Last Words</h1>
+        <h1>The Last Words</h1>
 
         <blockquote>
           “If you want a happy ending, that depends, of course, on where you stop your story”
@@ -44,21 +44,21 @@ function TheLastWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-an-ending" className="mb-2 font-semibold">19.1: What is an Ending?</h3>
+          <h2 id="post-what-is-an-ending" className="mb-2 font-semibold">19.1: What is an Ending?</h2>
 
           <p>In order to know what an ending is supposed to do, you need to know what an ending is.</p>
 
-          <h4>19.1.1 	Memory</h4>
+          <h3>19.1.1 	Memory</h3>
           <p>The beginning of a story presumes ‘tabula rasa,&#39; i.e. you don&#39;t need any foreknowledge for it to work. By contrast, an ending requires the foreknowledge of the plot. </p>
           <p>Your ending will be pointless if your reader approaches it ‘blank slate&#39;. This may happen because you didn&#39;t work in enough information throughout the course of your story to ‘remind&#39; your reader why the ending makes sense. Sometimes a story will try to short circuit this problem by inserting a flashback at the ending to do the work, but this is ‘cheating&#39; and should be avoided.  </p>
 
-          <h4>19.1.2 	Meaningfulness</h4>
+          <h3>19.1.2 	Meaningfulness</h3>
           <p>Remember a story is not just a series of events (see chapter 1: Story), there is some overall meaningfulness which makes the events transcend mere miscellaneous factual information and become self-contained. </p>
           <p>Aristotle&#39;s quote at the start of this chapter illustrates this: ‘inevitable&#39; such that you could not remove the ending without damaging the whole work.  </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-ending-a-scene" >19.2: Ending a Scene</h3>
+          <h2 id="post-ending-a-scene" >19.2: Ending a Scene</h2>
           <p>Your story may not have just one ending. If you raise live issues throughout your story (as you should) each of these will have endings, giving your story several ‘mini&#39; endings. These are also good practice for writing your ultimate ending.</p>
 
           <div className="custom-box">
@@ -70,18 +70,18 @@ function TheLastWords() {
           <p>He&#39;s not referring to the words that come at the end of the sentences and paragraphs, but sentences and paragraphs throughout your writing.</p>
           <p>An issue raised in one scene can be ‘ended&#39; or concluded in another scene. To do this, the sentences/paragraphs should reflect each other somehow. Make use of techniques such as:</p>
 
-          <h4>19.1.1 	Repetition  </h4>
+          <h3>19.1.1 	Repetition  </h3>
           <p>Repeating key words (particularly when they appear nowhere else in the story) can be a good way to flag an ending.</p>
           <p>See 18.3.10 Purposeful Repetition.</p>
 
-          <h4>19.1.2 	Callback </h4>
+          <h3>19.1.2 	Callback </h3>
           <p>A callback is any reference to previous information. This may include a character remembering something (better that they encounter something in-story that causes them to remember), or a full on flashback. The first time the information comes in, it may be left unconcluded until you callback to it in a later scene, e.g.</p>
           <p className="italic">The air siren split through the sky, like the first time it had played when I&#39;d arrived in the compound and Charlie&#39;s dead eyes had stared straight through me: “It&#39;s not real today. One day it will be.”</p>
           <p className="italic">He did not know that the enemy had been killed three years ago. But the siren was as real today as it was then, because the enemy was already here. It was inside the perimeter, inside our minds. The siren went on, and on, and it never stopped.  </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-ending-a-chapter">19.3: Ending a Chapter</h3>
+          <h2 id="post-ending-a-chapter">19.3: Ending a Chapter</h2>
           <p>The end of a chapter should simultaneously have a sense of conclusion and continuation, or open-endedness. The reader must be rewarded for reaching the end, but enticed to continue. Resolve a small issue/s while keeping others open.</p>
           <p>To use a visual metaphor, it&#39;s like you&#39;re fishing with two rods at the same time; as you cast one line out, you&#39;re pulling the other in, and you&#39;re constantly alternating. As you conclude whether or not one line has caught something, the other is out there, yet unconfirmed. Never pull both lines in at the same time (even if you plan to cast them again at the start of the next chapter). If you lose your lines any time before the end of the story, you risk losing the reader as well. Reading a novel is work; the reader will take upon any excuse to stop reading at any point before the very end. Your ongoing goal is to prevent that – never be complacent that you have the reader now, you have them until the end. Always leave at least one ‘line,&#39; – or question/issue unanswered – for the reader to keep reading and wondering about. </p>
           <p>Look at the example of live issues raised by Sphere under section ‘2.3 Structuring the Plot with Interest.&#39; In Sphere, a single chapter never answers all of the questions by the end – and even the final chapter left some minor questions open.</p>
@@ -92,12 +92,12 @@ function TheLastWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-ending-an-act">19.4: Ending an Act</h3>
+          <h2 id="post-ending-an-act">19.4: Ending an Act</h2>
           <p>NOTHING HERE YET</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-ending-the-story">19.4: Ending the Story</h3>
+          <h2 id="post-ending-the-story">19.4: Ending the Story</h2>
           <p>NOTHING HERE YET</p>
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}

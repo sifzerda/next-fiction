@@ -12,7 +12,7 @@ function Antagonists() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Premise</h1>
+        <h1>Premise</h1>
 
         <blockquote>
           “Nobody is a villain in their own story. We are all heroes in our own stories.”
@@ -48,13 +48,13 @@ function Antagonists() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-an-antagonist">16.1: What is an Antagonist?</h3>
+          <h2 id="post-what-is-an-antagonist">16.1: What is an Antagonist?</h2>
 
           <p>DEFINE ANTAGONISM/ANTAGONIST</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-importance-of-an-antagonist">16.2: The Importance of an Antagonist</h3>
+          <h2 id="post-the-importance-of-an-antagonist">16.2: The Importance of an Antagonist</h2>
 
           <p>A story and its protagonist is only as interesting as its villain or force of opposition – it&#39;s ‘antagonist.&#39;</p>
           <p>Elsewhere I mentioned the law of conservatism; the economic and narrative principle that people do the bare minimum unless incentivized to do more. Consider this law also applies to your antagonist. The disregard of this law is usually the culprit behind poor antagonists; this is where you see flagrant and decadent villains, more surface than substance, written by authors who believe the mindless slaughter of 100 good men makes a compelling villainous act. But apply the law of conservatism and ask: </p>
@@ -73,12 +73,12 @@ function Antagonists() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-antagonistic-forces">16.3: Antagonistic Forces</h3>
+          <h2 id="post-antagonistic-forces">16.3: Antagonistic Forces</h2>
           <p>Another point: antagonists don&#39;t have to be living entities, they can be forces. These are the stories which don&#39;t have ‘bad guys,&#39; just people making decisions, for better or worse. Whatever form the antagonist takes, it&#39;s job is to oppose the protagonist&#39;s will, desire and progress.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-degrees-of-antagonism">16.4: Degrees of Antagonism</h3>
+          <h2 id="post-degrees-of-antagonism">16.4: Degrees of Antagonism</h2>
           <p>Your antagonist doesn&#39;t have to be the exact opposite of your protagonist. An antagonist who is in some ways similar or even identical to the protagonist (or someone close to the protagonist, e.g. lover, family, friend) may be more compelling. </p>
           <p>Distinguish ‘Contradiction&#39; and ‘Contrariness&#39;:</p>
           <p>Where an antagonist is ‘contrary,&#39; there exists a non-zero sum game. An antagonist who is contrary can exist in the protagonist&#39;s world without a ‘cancelling out&#39; effect. They might undermine, but not undo the protagonist&#39;s efforts. They won&#39;t necessarily be against what the protagonist is for, but their goals are not compatible and their actions makes the protagonist&#39;s job harder.</p>
@@ -90,13 +90,13 @@ function Antagonists() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-negation-of-a-negation">16.5: The Negation of a Negation</h3>
+          <h2 id="post-the-negation-of-a-negation">16.5: The Negation of a Negation</h2>
           <p>This is a concept introduced by Robert McKee.
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} /></p>
           <p>Think of the antagonist as basically the negation of the protagonist. The protagonist stands for certain values. Whatever they are, the antagonist stands for the opposite value/s. Some examples are: truth/deception; justice/injustice; idealism/materialism; love/power; money/integrity…etc.</p>
           <p>A more effective, even sublime, antagonist is ‘the negation of a negation.&#39; This is where the antagonistic forces go even further than negation, making even the original antagonist look good by comparison. A ‘neg x neg&#39; turns the original pos/neg dichotomy on its head.</p>
 
-          <h4>16.4.1 Values Are Neutral</h4>
+          <h3>16.4.1 Values Are Neutral</h3>
           <p>Remember, all values are neutral – money could be positive, and love negative; for instance a young teen novel about a poor high school graduate who learns to delay young, idealistic romance until they&#39;re older, in order to focus on getting a job and making themselves financially secure. </p>
           <p>Example:</p>
           <p>Let&#39;s say the value dichotomy is intelligence/ignorance. This is a neutral dichotomy and could go either way. For instance, while George Orwell&#39;s 1984 made intelligence the positive value, Daniel Keyes, Flowers for Algernon, made intelligence the negative value. There are two potential ‘neg x negs&#39;: if ignorance is the negative value, the neg x neg is ignorance confused for intelligence. If intelligence is the negative value, the neg x neg is intelligence confused for ignorance.</p>
@@ -114,19 +114,19 @@ function Antagonists() {
           <p>Generally, stories will start on the positive and progress from contrary antagonism, to contradictory, to negation of negation, and then resolution.</p>
           <p>However, you could begin with the negation of a negation, and work back, using the rest of the story to explain how the protagonist got to ‘the bottom,&#39; or showing the protagonist slowly pull themselves up to the positive value at the end. </p>
 
-          <h4>16.4.2 Values Are Not Necessarily Polarized</h4>
+          <h3>16.4.2 Values Are Not Necessarily Polarized</h3>
           <p>You don&#39;t have to make the positive and negative values strictly opposites.</p>
           <p>Take the example of Romeo and Juliet. Some interpret Romeo and Juliet as mocking the destruction and melodrama of teen love, which would make love a negative value in that play. In addition, the teens&#39; parents grudging war is also a negative value. Both result in the destruction of the protagonists. ‘Hate&#39; on one side, ‘love&#39; on the other, and both negative. The only value left to be positive, is a middle position; a more realistic, restrained, mature form of love and tolerance; a love that recognises the other side isn&#39;t perfect and has flaws.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-protagonist-equals-antagonist">16.6: Protagonist = Antagonist</h3>
+          <h2 id="post-protagonist-equals-antagonist">16.6: Protagonist = Antagonist</h2>
 
           <p>You don&#39;t necessarily need to displace the forces of antagonism into a separate entity. It&#39;s possible to make your protagonist his/her own antagonist. This doesn&#39;t mean the main character is the ‘bad guy,&#39; like McTeague&#39;s greed screwing everyone over, or Patrick Bateman killing people. It also doesn&#39;t mean your protagonist is trying to be a good guy but going about it in a questionable way, like Edmond Dantes getting extreme, vindictive revenge on wrongdoers. It means your protagonist is the ‘good guy&#39; but his/her personal flaws and failings threaten to prevent them from achieving the ultimate plot goal. An example are the parents in the short story, ‘The Monkey&#39;s Paw,&#39; not villainous characters, however their (understandable) horror and desperation causes them to make an unwise decision/s.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-to-create-an-antagonist">16.7: How to Create an Antagonist</h3>
+          <h2 id="post-how-to-create-an-antagonist">16.7: How to Create an Antagonist</h2>
           <p>If you have a protagonist and a plot (goals) you&#39;re already on the way to creating an antagonist. You just need to:</p>
 
           <ol>

@@ -12,7 +12,7 @@ function Subtext() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">References</h1>
+        <h1>References</h1>
 
         <blockquote>
           “QUOTE.”
@@ -29,7 +29,7 @@ function Subtext() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Instructional Guides */}
-          <h3 id="post-instructional-guides" className="mt-6 font-semibold text-lg">I. Instructional Guides</h3>
+          <h2 id="post-instructional-guides" className="mt-6 font-semibold text-lg">I. Instructional Guides</h2>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
@@ -62,7 +62,7 @@ function Subtext() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Fiction */}
-          <h3 id="post-fiction" className="mt-6 font-semibold text-lg">II. Fiction</h3>
+          <h2 id="post-fiction" className="mt-6 font-semibold text-lg">II. Fiction</h2>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
@@ -95,7 +95,7 @@ function Subtext() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Non-Fiction */}
-          <h3 id="post-nonfiction" className="mt-6 font-semibold text-lg">III. Non-Fiction</h3>
+          <h2 id="post-nonfiction" className="mt-6 font-semibold text-lg">III. Non-Fiction</h2>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
@@ -128,7 +128,7 @@ function Subtext() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Other */}
-          <h3 id="post-other" className="mt-6 font-semibold text-lg">IV. Other</h3>
+          <h2 id="post-other" className="mt-6 font-semibold text-lg">IV. Other</h2>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>

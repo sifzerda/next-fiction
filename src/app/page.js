@@ -32,7 +32,7 @@ function About() {
       <section className="w-full max-w-screen-xl mx-auto -mt-5 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
         {/* Text Column */}
         <div className="flex-1">
-          <h3 className="text-xl font-bold mb-2 text-center">About this Site</h3>
+          <h2 className="text-xl font-bold mb-2 text-center">About this Site</h2>
 
           <p>
             This is a blog which stores a collection of advice and tips for fiction writing. It's a resource

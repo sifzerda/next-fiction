@@ -100,7 +100,7 @@ export default function MyCalendar() {
       <div className="flex gap-6 p-6 max-w-7xl mx-auto">
         {/* Left panel with draggable boxes */}
         <div className="w-40">
-          <h3 className="mb-4 font-semibold text-lg">Drag these:</h3>
+          <h2 className="mb-4 font-semibold text-lg">Drag these:</h2>
           <DraggableBox name="Name 1" />
           <DraggableBox name="Name 2" />
           <DraggableBox name="Name 3" />

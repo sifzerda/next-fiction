@@ -12,7 +12,7 @@ function SecondaryCharacters() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Secondary Characters</h1>
+        <h1>Secondary Characters</h1>
 
         <blockquote>
           “Fictional characters are made of words, not flesh; they do not have free will, they do not exercise volition. They are easily born, and as easily killed off.”
@@ -38,23 +38,23 @@ function SecondaryCharacters() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-a-secondary-character">8.1: What is A Secondary Character?</h3>
+          <h2 id="post-what-is-a-secondary-character">8.1: What is A Secondary Character?</h2>
 
           <p>DEFINE A SECONDARY CHARACTER.</p>
 
-          <h3 id="post-orbit-the-main-character">8.2: Orbit the Main Character</h3>
+          <h2 id="post-orbit-the-main-character">8.2: Orbit the Main Character</h2>
           <p>Every secondary character should orbit a main character, otherwise it's worth asking whether they should be in the story.</p>
           <p>Less important characters should be introduced only as necessary. For instance, if a character attends school, you need to depict teachers and other students, but if school isn&#39;t a major setting, they don&#39;t need as much attention and should only behave and be described in ways which say something about the important characters. In other words, it&#39;s a bit like the main characters are planets and the side characters are moons which orbit around them. The behavior of side characters should be designated by the character arc or trajectory of – where do you want your main characters to go and how will the side characters help/hinder them? What do you want to say about your main characters and how will that description be communicated (expressly or by conduct) by the side characters? Side characters are like the wheels of a car, or the oil that lubricates the wheels; whereas main characters are the passengers (the plot is the driver). When the bus stops, the wheels stop and are forgotten, and it&#39;s the passengers who get off and arrive at the destination.</p>
           <p>You should avoid having your side characters say things heavily charged with emotion (joy, fear, anger, lust). It's not going to have a meaningful effect because side characters do not have arcs, so you have provided no build-up for their reaction. Therefore, worst of all, the spontaneity may in fact be taken for comedy.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-fire-some-extras">8.3: Fire Some Extras</h3>
+          <h2 id="post-fire-some-extras">8.3: Fire Some Extras</h2>
           <p> Every side character must serve an individual purpose. If your protagonist has a group of friends, every single member of that group must serve a separate function in the story – and not ‘the female friend,&#39; ‘the black friend,&#39; ‘the gay friend,&#39; etc. If your protagonist only needs one friend, then give them only one friend.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-perfect-friend">8.4: The Perfect Friend</h3>
+          <h2 id="post-the-perfect-friend">8.4: The Perfect Friend</h2>
           <p>Fiction writing has a cliché about protagonists having ‘perfect&#39; friends. These are either the ‘people you wish were your friends&#39; or the sycophantic lapdogs of the protagonist. </p>
           <p>The role of the first kind is to liven up the protagonist&#39;s life, introducing the protagonist to interesting new people, places and activities. The best friend is always ‘up to 11,&#39; cheerful, adventurous, hilarious and a little crazy. It&#39;s that person who goads the protagonist to try new things because ‘why not?&#39; The protagonist wishes they were this person.</p>
           <p>The role of the second kind is to trumpet the glories of the protagonist, to pick up the protagonist when they&#39;re down and doubtful; provide the shoulder to cry on, defend the protagonist&#39;s honour no matter. They are fiercely loyal, humble, generous, and generally well-adjusted. This person wishes they were the protagonist.</p>
@@ -63,8 +63,8 @@ function SecondaryCharacters() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-idiosyncratic-characters">8.5: Idiosyncratic Characters</h3>
-          <h5>(1) TYPE </h5>
+          <h2 id="post-idiosyncratic-characters">8.5: Idiosyncratic Characters</h2>
+          <h4>(1) TYPE </h4>
           <p>.... </p>
           <p>.... </p>
 

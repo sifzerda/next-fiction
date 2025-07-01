@@ -12,7 +12,7 @@ function Subtext() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Subtext</h1>
+        <h1>Subtext</h1>
 
         <blockquote>
           “QUOTE.”
@@ -33,7 +33,7 @@ function Subtext() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-subtext">10.1: What is subtext?</h3>
+          <h2 id="post-what-is-subtext">10.1: What is subtext?</h2>
 
           <p>Stories are made up of text and subtext. Text is the surficial and literal meaning conveyed by the words. Subtext is the latent implied (or belied) meaning. </p>
           <p>One way of thinking of it; Subtext conveys that people cohabit two worlds simultaneously: one of present reality, of words, sights, sounds and activity. And a second; the inner world of conscious and subconscious thought, desire, impulse and emotion.</p>
@@ -62,7 +62,7 @@ function Subtext() {
             <FootnoteRef text={`STEPHEN KING,\nThe Dead Zone.`} />
             the secondary protagonist evaluates the relationship material of her date by thinking, ‘[He] never made [her] cry.&#39; The subtext being that a previous boyfriend has.</p>
 
-          <h4>10.1.1 Types of Subtext</h4>
+          <h3>10.1.1 Types of Subtext</h3>
           <p>There are two kinds of subtext, let's call them:</p>
 
           <ol>
@@ -70,25 +70,25 @@ function Subtext() {
             <li>Contradictory.</li>
           </ol>
 
-          <h5>Concurrent</h5>
+          <h4>Concurrent</h4>
           <p>This is where the subtextual meaning – although different to – is not in contradiction with the textual meaning. That is, both meanings can be taken together, without affecting each other.</p>
           <p>For example, the way a character describes their house may be subtext for the way the character subconsciously feels about themselves. Description of the interior may also suggest things about the character&#39;s mentality (messy, organized, artistic, etc). That the description/dialogue describes both the house and the character is not in contradiction – maybe the character intended the likeness. </p>
           <p>The title of the short story, ‘A Clean, Well-Lighted Place&#39;
             <FootnoteRef text={`ERNEST HEMINGWAY,\nWinner Take Nothing.`} />
             is subtext for a person&#39;s place in the world, in that it&#39;s opposite (a dirty, disorganized, dark place) refers to the larger universe. </p>
 
-          <h5>Contradictory</h5>
+          <h4>Contradictory</h4>
           <p>This is where the textual and subtextual meanings are contradictory and cannot be taken together; if one is true, the other must be false.</p>
           <p>For example, if a character makes a joke at a funeral, the subtext may be that they didn&#39;t actually care much for the deceased. This action is inconsistent with the character&#39;s action in attending the funeral. Therefore, either the intention to attend is genuine, or the joke-telling was – they can&#39;t both be.</p>
 
-          <h4>10.1.2 	Why Use It?</h4>
+          <h3>10.1.2 	Why Use It?</h3>
           <p>Subtext mirrors the duality of the real world. Nothing is what it seems. People don&#39;t always mean what they say and they hide their true intentions and feelings. To paint an authentic view of the world, you must show your insight into its duplicity.</p>
           <p>The author&#39;s job is to portray the extreme heights and drops of human experience. However, it&#39;s those extremes that people are least likely to expose to one another in the open. In a practical sense, people don&#39;t normally go up to each other and say, ‘I hate you,&#39; or ‘I love you.&#39; Subtext is a compromise for this inherent contradiction – having your characters say what they mean without having to confess it.  </p>
           <p>Also, readers don&#39;t want to be told the story; they want to find it out for themselves. If your story has no subtext, the reader will feel like they have no brain. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-symbolism">10.2 Symbolism</h3>
+          <h2 id="post-symbolism">10.2 Symbolism</h2>
           <p>Symbolism is far less important than subtext, so don&#39;t worry too much about it, but it&#39;s still worth knowing what it is and what it does.</p>
           <p>Differences between symbolism and subtext:</p>
           <ol>
@@ -105,7 +105,7 @@ function Subtext() {
           </ol>
           <p>Symbolism is very easy to get wrong. There&#39;s a risk that you could rely on symbolism as a substitute for thematic development through actual writing, for instance, using the colour red to denote love rather than having characters just act and interact in ways which suggest love, and assuming the reader will pick up on it. </p>
 
-          <h4>10.2.1 	Types of Symbolism</h4>
+          <h3>10.2.1 	Types of Symbolism</h3>
           <p>There are generally two types of symbolism:</p>
 
           <ol>

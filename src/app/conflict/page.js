@@ -12,7 +12,7 @@ function Conflict() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Conflict</h1>
+        <h1>Conflict</h1>
 
         <blockquote>
           “Happiness is an allegory, unhappiness a story.”
@@ -33,7 +33,7 @@ function Conflict() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-conflict">5.1. What is Conflict?</h3>
+          <h2 id="post-what-is-conflict">5.1. What is Conflict?</h2>
           <p>Conflict is struggle between your protagonist and their goals. Conflict is hardship but it is not fate, adversity, bad Luck, misfortune, or coincidence.  These things happen by blind accident or by random chance. They are caused by forces which are indifferent to your protagonist, have no explanation, no resolution, and no purpose. They make the existence of your protagonist unnecessary because they would have happened anyway, to someone else, or no one at all.</p>
           <p>That's not to say you can't write a flash flood or lottery win into your story; but it's not the conflict. The conflict is the struggle this causes to your protagonist. Also, accidents can happen in your story, but they must communicate important information. For instance, if accidents repeatedly happen it's not the accidents themselves that are important, it's that your character is accident-prone, or reckless, or impulsive and this is important for later. In fact, an unexpected accident, or misfortune is a great way of showing an unexpected side to your character; how they react in a stressful situation, etc.</p>
           <p>By contrast with fate and chance, conflict happens in measures, proportionate to your protag's goal progress. You can't decide what happens in your story based on the flip of a coin.</p>
@@ -49,30 +49,30 @@ function Conflict() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-why-is-it-important">5.2. Why Is It Important?</h3>
+          <h2 id="post-why-is-it-important">5.2. Why Is It Important?</h2>
           <p>Conflict is the most crucial element of a story. It's a thread which should run through every aspect of your story. However, conflict is difficult to write because it often means making things harder for your characters - and yourself, as the writer.</p>
           <p>If there is a lack of conflict in your work, it might be due to use of blocking or providing counteroffers which fall short of the initial promise.</p>
           <p>Any scene with conflict must be shown as if it's happening, not told, (summarized).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-types-of-conflict">5.3. Types of Conflict</h3>
+          <h2 id="post-types-of-conflict">5.3. Types of Conflict</h2>
           <p>Robert McKee outlines 3 types of conflict.
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             You can distinguish these by whether it involves individuals or entities:</p>
 
-          <h4>5.3.1 	Inner Conflicts</h4>
+          <h3>5.3.1 	Inner Conflicts</h3>
           <p>These involve the minds and selves of characters; struggles not articulated to or involving other characters. There is one individual involved: the character themselves, but there is no conflict between separate individuals.</p>
 
-          <h4>5.3.2 	Personal Conflicts</h4>
+          <h3>5.3.2 	Personal Conflicts</h3>
           <p>These are conflicts involving a second person, struggles involving friends, immediate family, lover, colleagues, etc. Involves at least two individuals: the character and another character. May involve more, but note every major participant must be a separate individual (i.e. stand for themselves and their own beliefs).</p>
 
-          <h4>5.3.3 	Extra-Personal Conflicts</h4>
+          <h3>5.3.3 	Extra-Personal Conflicts</h3>
           <p>These are conflicts involving the character and a larger body, including families, organisations, societal groups, systems, governments, nations, races and species. There may be many people involved, however, they are not individuals but agents for an entity - they stand for/represent a larger belief or group.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-conflict-does-not-equal-fight">5.4. Conflict ≠ Fight</h3>
+          <h2 id="post-conflict-does-not-equal-fight">5.4. Conflict ≠ Fight</h2>
           <p>Many people hear 'conflict' and immediately think of a fight: verbal or physical. The problem with this notion is that you put an overt fight in your story every time you want to add conflict, it will emotionally exhaust your reader, and make your characters implausibly argumentative, and by extension unlikeable. A better way of conceiving of conflict is in the context of a conflict of interest; like the scenario you may face where your professional duty is in opposition with your personal interest.</p>
           <p>Another misconception is that you need a 'big' scene to convey 'big' conflict. Often it's more effective to convey big conflict through small scenes. Look at this example:
             <FootnoteRef text={`HARPER LEE,\nTo Kill A Mockingbird.`} />
@@ -95,11 +95,11 @@ function Conflict() {
 
           <p>Ostensibly this scene is merely about a father telling his daughter what a term means. But it's got that everyone-at-the-table-goes-dead-silent quality because it goes to the critical conflict of the story; the exposure of the innocent children to the racial hatred of the town.</p>
 
-          <h4>5.4.1 	Conflict of Interest</h4>
+          <h3>5.4.1 	Conflict of Interest</h3>
           <p>You tend to see conflict defined generally as where the protagonist faces an obstacle in pursuance of the plot goal. The classical manifestation of conflict is where the protagonist is opposed by the antagonist, which is resolved by a fight. But alternatively, a character may find themselves in conflict by a scenario where two opportunities are open to them; one consistent with their personal desires (e.g. sticking by the love interest), and the other consistent with their moral values (e.g. sticking by the best friend). There is no antagonist in this situation (though there will be antagonistic forces influencing the protagonist's choice), although the love interest or friend may subsequently become the antagonist, if they are spurned by the protagonist.</p>
           <p>In this sense we should conceive of conflict more broadly, not as an obstacle or force of antagonism, or fight, but as a zero sum game situation where the protagonist has multiple interests but must make a decision which will foreclose at least one of them. Applied in the classic sense, the protagonist may (1) oppose the villain; or (b) do nothing. The conflict is not necessarily the obstacle posed by the antagonist (or anything to do with the antagonist); it's that the protagonist must give something up. All conflict comes down to being in a situation where, by making a decision, you stand to lose something, and that makes the decision difficult.</p>
 
-          <h4>5.4.2 	Promise a Difficult Decision</h4>
+          <h3>5.4.2 	Promise a Difficult Decision</h3>
           <p>You don't need to write in a fight scene to make conflict. You may merely pose a zero-sum-game choice to the protagonist. The problem with doing that is you require the protagonist to choose; and once the choice is made, the conflict dissipates. The conflict is stronger before the protagonist makes the choice. So consider inserting conflict through subtext and promise, which may then eventually culminate and get resolved by a confrontation. And the purpose of this subtext and promise is to remind your reader that there will be a confrontation.</p>
           <p>The decision may play out in different ways. One, the protagonist may anguish over the inevitable decision long before it happens. An example of this is in The Jungle Book,
             <FootnoteRef text={`RUDYARD KIPLING,\nThe Jungle Book.`} />
@@ -109,54 +109,54 @@ function Conflict() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-to-create-conflict">5.5. How to Create Conflict</h3>
+          <h2 id="post-how-to-create-conflict">5.5. How to Create Conflict</h2>
           <p>Robert Meredith and John Fitzgerald  provide a step by step method of creating conflict:
             <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
           </p>
 
-          <h4>5.5.1 	Conflict with Environment</h4>
+          <h3>5.5.1 	Conflict with Environment</h3>
           <p>Step One: Place the protagonist in conflict with his own environment or the environment of others. There are different ways to do this:</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">I. Changing the View</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">I. Changing the View</h3>
           <p>A change within the environment that affects the protagonist can put the protagonist in conflict with the environment. This may be a physical (i.e. geographical) change, or it may be a psychological change (a character inherits the family home after his/her parents die). The environmental shift may be mundane or predictable, and something everyone goes through but the conflict comes from the new/different environment requiring a different set of behaviour or responsibilities or coping mechanisms from the character. For instance, a character who was dependent may need to learnt to be independent.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">II. Uprooting</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">II. Uprooting</h3>
           <p>Uprooting a protagonist from one environment and placing him in a strange environment can put him into conflict with the environment. A character finds themselves in a new environment inadvertently, unpredictably, or by accident, and with little to no preparation, and the new environment may be abnormal, for instance, shipwrecking on a deserted island. The conflict comes not only from the requirement for the character to drastically change their behaviour, as above, but also from the environment itself, which may pose novel and unusual obstacles, such as on a deserted island, the scarcity of drinking water, or shelter.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">III.	Environment vs Environment</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">III.	Environment vs Environment</h3>
           <p>Placing a protagonist in an environment that is in conflict with another environment puts the protagonist in conflict with the environment of others. An obvious example is a story set during wartime, but can apply anywhere groups of people are in organised conflict with each other. If the protagonist takes a side (even accidentally) it will default the other side to his antagonists.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">IV.	Things could be better</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">IV.	Things could be better</h3>
           <p>Placing a protagonist in an environment he wants to change can put the protagonist in conflict with the environment. This is where the character doesn't like things about the environment he finds himself in -- it doesn't necessarily require an environment change. An example might be where a peasant protagonist lives in a poverty-stricken land, or a character lives under a despotic totalitarian regime.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">V.	Greener Grass</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">V.	Greener Grass</h3>
           <p>Giving a protagonist an environment to conquer puts the protagonist in conflict with the environment. This is where a protagonist envies something about a different environment, and tries to obtain it for himself. For instance, a poor protagonist who moves to a wealthier place in an attempt to make life better for himself. This is distinct from 'Things could be better' as the battle is not focused on protagonist's former home, but on the envied environment.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">VI.	I want more</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">VI.	I want more</h3>
           <p>Placing a protagonist in an environment from which he wants to escape puts the protagonist in conflict with the environment. This is like 'Greener Grass' except the protagonist hasn't left home. There might not be anything wrong with an environment except incompatibility with the protagonist's character; it's boring, predictable, uninspiring, unenlightened, uncaring, etc.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">VII.	The outsider</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">VII.	The outsider</h3>
           <p>Placing a protagonist in an environment in which he is not wanted puts the protagonist in conflict with the environment. The conflict here is not necessarily that the protagonit doesn't like his home, rather it's that he likes and wants to be liked and accepted as a part of it. The non-acceptance of the character may be due to his lack of having proved himself, or because of prejudices against him.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">VIII.	Fish out of water</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">VIII.	Fish out of water</h3>
           <p>Placing a protagonist in an environment for which he is unsuited by character puts the protagonist in conflict with the environment. The conflict comes from the environment being the kind of place where a certain type of person thrives or habituates, and the protagonist's contrast to that kind of person.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">IX.	Hired or Fired</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">IX.	Hired or Fired</h3>
           <p>A change in the status quo of the protagonist within the environment can put the protagonist in conflict with the environment. The character might gain or lose status or esteem, bringing that character into conflict with those around him.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">X.	Change of Office</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">X.	Change of Office</h3>
           <p>A change in the status quo of an environment can put the protagonist in conflict with the environment. This is like 'Hired or Fired' but it's a group/s that changes status, not an individual. It may be that the government or ruling power changes hands, and it may be a group the protagonist himself is a member of, or not (as long as the group has an effect on the protagonist's life).</p>
 
-          <h4>5.5.2 	Applying the Conflict to the Protagonist</h4>
+          <h3>5.5.2 	Applying the Conflict to the Protagonist</h3>
           <p>Step Two: You must flesh out why it's the protagonist who acts in the face of the conflict and not another. To do this, give the protagonist a chief motivating force with a tangible objective.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">I.	Chief Motivating Force</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">I.	Chief Motivating Force</h3>
           <p>When the conflict arises, the protagonist's reaction results in a determination to do something about it. Their planned action/s is the 'chief motivating force.'</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">II.	Tangible Objective</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">II.	Tangible Objective</h3>
           <p>The objective is what the protagonist ultimately wants to get out of the chief motivating force. What is the force going to give them personally, selfishly? Here, 'tangible' means a condition or circumstance which can be realised in the mind. In other words, can the objective be converted into a mental picture, an actual concrete set of circumstances? If not, it is too abstract and needs to be specified.</p>
 
-          <h4 className="text-base font-semibold text-midBluey mt-4 mb-2">III.	Examples</h4>
+          <h3 className="text-base font-semibold text-midBluey mt-4 mb-2">III.	Examples</h3>
 
           <ol>
             <li>Chief Motivating Force: Escape prison; Tangible Objective: Get revenge on corrupt head of police force.</li>
@@ -164,19 +164,19 @@ function Conflict() {
             <li>Chief Motivating Force: Disprove existence of ghosts in a haunted house; Tangible Objective: Get over death of close relative. </li>
           </ol>
 
-          <h4>5.5.3 	Exaggerating the Protagonist's Reaction</h4>
+          <h3>5.5.3 	Exaggerating the Protagonist's Reaction</h3>
           <p>Step Three: The conflict cannot be developed or sustained unless you exaggerate the protagonist's reaction to the stimulus of the environment.</p>
           <p>In real life, people can fail to respond to conflicts. Your protagonist cannot, because this would be boring. It's better to make the conflict particularly urgent or critical, rather than make the protagonist someone particularly susceptible to overreaction (readers may find the latter unconvincing or annoying).</p>
           <p>It's possible to do both; see Jack Torrence in The Shining or Eleanor Vance in The Haunting of Hill House. However, it is harder, as you should justify why the character is the way they are, to make them more relatable. People don't want to identify with a nervous wreck or someone on the brink of collapse, but they will identify with circumstances that would cause them to hypothetically behave in such a way (the difference between a character who is abusive, and a character who is abusive because their father was even more abusive).</p>
 
-          <h4>5.5.4 	Exaggerating the Conflict</h4>
+          <h3>5.5.4 	Exaggerating the Conflict</h3>
           <p>Step Four: Like you exaggerate the protagonist's reaction, you sustain the conflict by exaggerating it, as well.</p>
           <p>You can do this by making the conflict bigger in vertical or horizontal scope. Making it bigger in vertical scope means increasing the impact of a single conflict. In saying this, the protagonist should stand to gain or lose something of value upon the resolution of the conflict (whichever way it goes).</p>
           <p>Increasing horizontal scope means creating additional complications to face the protagonist on the road to addressing the conflict. The complications should not be random; they should arise from the protagonist's actions in addressing the conflict. i.e. one thing leads to another, or there is an antagonistic pushback or reaction to the protagonist's push.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-plans-must-be-complicated">5.6 Plans Must Be Complicated</h3>
+          <h2 id="post-plans-must-be-complicated">5.6 Plans Must Be Complicated</h2>
           <p>If your protagonist comes up with a plan, then come 'D day' it must be complicated somehow. Otherwise, as Mittelmark and Newman suggest, the reader will get déjà vu, first reading the description of the plan, and then reading the description of the plan in action. Not to mention you're spoiling your own plot.</p>
 
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}

@@ -12,7 +12,7 @@ function Setting() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Setting</h1>
+        <h1>Setting</h1>
 
         <blockquote>
           “Every story would be another story, and unrecognizable if it took up its characters and plot and happened somewhere else...Fiction depends for its life on place. Place is the crossroads of circumstance, the proving ground of, What happened? Who's here? Who's coming?...”
@@ -38,13 +38,13 @@ function Setting() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-a-setting">9.1: What is a Setting?</h3>
+          <h2 id="post-what-is-a-setting">9.1: What is a Setting?</h2>
 
           <p>DEFINE SETTING.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-enhance-interest-and-conflict">9.2: Enhance Interest and Conflict</h3>
+          <h2 id="post-enhance-interest-and-conflict">9.2: Enhance Interest and Conflict</h2>
           <p>It's a mistake to see setting as a passive element of a story, like the 'virtual wallpaper' that papers the background of the action. Approaching setting as an afterthought, by uncritical intuition, or coin-flipping between alternatives, or wanting to vicariously 'visit' the scene for personal reasons, are all great ways to <i>not</i> select your setting.</p>
 
           <p>Some basic rules:</p>
@@ -73,7 +73,7 @@ function Setting() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-describing-setting">9.3: Describing Setting</h3>
+          <h2 id="post-describing-setting">9.3: Describing Setting</h2>
 
           <p>Physical objects should be given physical descriptions. </p>
 
@@ -92,7 +92,7 @@ function Setting() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-setting-as-character">9.4: Setting as Character</h3>
+          <h2 id="post-setting-as-character">9.4: Setting as Character</h2>
 
           <p>Your setting isn&#39;t just a landscape or backdrop; it can also be a character. Use your environment to suggest things which cannot be said in dialogue or description. Examples: </p>
           <ol>
@@ -114,7 +114,7 @@ function Setting() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-sub-setting">9.5: Sub-Setting </h3>
+          <h2 id="post-sub-setting">9.5: Sub-Setting </h2>
 
           <p>You don't have to change the location to get a different setting. Just change some details. Change the time of day (or night) or weather, or move in time to action a setting change.</p>
           <p>Note that changing a setting can have a different effect than switching to a new setting. A setting that performs the exact same function despite looking different, can be reassuring and provide a sense of stability and routine, or a return to order. Conversely, a formerly familiar setting that now appears different  or foreign can represent uncertainty and be unsettling. </p>
@@ -122,7 +122,7 @@ function Setting() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-setting-is-relative">9.6: Setting is Relative </h3>
+          <h2 id="post-setting-is-relative">9.6: Setting is Relative </h2>
 
           <p>Setting can be transformed as the character is. If a character is very small (e.g. Stuart Little
             <FootnoteRef text={`E. B. WHITE,\nStuart Little.`} />

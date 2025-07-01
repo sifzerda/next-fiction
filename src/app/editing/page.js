@@ -12,7 +12,7 @@ function Editing() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Editing</h1>
+        <h1>Editing</h1>
 
         <blockquote>
           “The first draft of anything is shit.”
@@ -49,7 +49,7 @@ function Editing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-general-deadweights" className="mb-2 font-semibold">22.1: General Deadweights</h3>
+          <h2 id="post-general-deadweights" className="mb-2 font-semibold">22.1: General Deadweights</h2>
 
           <p><strong>I. Adverbs:</strong> words which add to a verb, e.g. ‘Thoroughly&#39;, ‘Laughingly&#39;, ‘Harshly&#39;, etc;</p>
           <ol>
@@ -164,7 +164,7 @@ function Editing() {
             <li>Hence, thus...................................therefore</li>
           </ol>
 
-          <h5>Exceptions to deadweights</h5>
+          <h4>Exceptions to deadweights</h4>
           <p>The general rule is these words should go if possible; if they don&#39;t take away something essential from the writing – the strict definition of essential: without, the text wouldn&#39;t make sense, not your personal definition of essential: makes the writing sound nicer. </p>
           <p>This includes dialogue. You might argue ‘that&#39;s how the character would speak in real life!&#39; but dialogue is not real life speech. It&#39;s made up and abridged to maintain the reader&#39;s interest. It&#39;s a representation of speech, not a transcription of it. </p>
           <p>The exception: Sometimes you want to convey meaning not merely by the words, but their form and structure (for instance, see: ‘13.3.4 Deliberately awkward sentences,&#39; and ‘10.1.1 When to not abridge&#39;). </p>
@@ -179,7 +179,7 @@ function Editing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-pronouns">22.2: Pronouns</h3>
+          <h2 id="post-pronouns">22.2: Pronouns</h2>
           <p>Amateur writers often start sentences with pronouns (e.g. the main character), and the description that follows orbit around the pronouns, i.e. character-focused writing. So it sounds like every sentence starts ‘I.&#39; This is partly due to the interiority of modern writing (see 13.1.6 Starve the Ego, Feed the Soul). It gets grating fast, and you risk your character boring the reader (really bad, because they&#39;re stuck with the character the entire story). By removing pronouns you push yourself to describe more interesting things; your setting, events, other characters, etc. Your story stops sounding like a page from your main character&#39;s diary and starts being about the actual experiences and events happening. This facilitates your reader to pretend they are the main character, and wonder ‘what if this was me; what would I do in this situation?&#39; Your reader will thank you for that experience. Taking the focus off your protagonist also makes them more mysterious and interesting, too.</p>
           <p>See these examples and consider which you prefer:</p>
           <p>(1) Personal Pronouns: </p>
@@ -192,7 +192,7 @@ function Editing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-right-branching-sentences">22.3: Right-Branching Sentences</h3>
+          <h2 id="post-right-branching-sentences">22.3: Right-Branching Sentences</h2>
           <p>Roy Peter Clark
             <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} />
             says <i>“The next time you struggle with a sentence, see if you can rewrite it by placing subject and verb at the beginning,”</i> and letting subordinate elements ‘branch to the right.&#39; </p>
@@ -209,7 +209,7 @@ function Editing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-start-and-end-strong">22.4: Start and End Strong</h3>
+          <h2 id="post-start-and-end-strong">22.4: Start and End Strong</h2>
 
           <p>This comprises two bits of advice; (1) Use the strongest combinations of verbs/adverbs. For instance replace ‘he went quickly&#39; with ‘he dashed.&#39;</p>
           <p>(2) Place strong ‘headline&#39; words at the start of sentences, and at the end. This makes sentences sound full and complete.  For this reason, you hear the advice not to end on a preposition, e.g. ‘I like school, well, kind of.&#39;</p>
@@ -217,7 +217,7 @@ function Editing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-guarding-word-territory">22.5: Guarding Word Territory</h3>
+          <h2 id="post-guarding-word-territory">22.5: Guarding Word Territory</h2>
           <p>Roy Clark coined the useful concept ‘word territory&#39;. It basically means giving important words their own space. Don&#39;t repeat key words unless the emphasis is necessary. For instance, <i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i>
           <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} /></p>
 

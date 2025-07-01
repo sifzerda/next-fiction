@@ -108,14 +108,19 @@ h1 {
   font-weight: 700;
   margin-bottom: 1rem;
   font-family: var(--font-rock-salt), sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: yellow;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #000000;
 }
 
 h3 {
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-}
-
-h4 {
   font-size: 1rem;
   font-weight: 600;
   font-style: italic;
@@ -124,7 +129,7 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
-h5 {
+h4 {
   font-size: 0.76rem;
   font-weight: bold;
   color: #002a9e;

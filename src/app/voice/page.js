@@ -12,7 +12,7 @@ function Voice() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Voice</h1>
+        <h1>Voice</h1>
 
         <blockquote>
           “Style is […] a matter of knowing when one has said enough.”
@@ -54,7 +54,7 @@ function Voice() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-voice">15.1: What is Voice?</h3>
+          <h2 id="post-what-is-voice">15.1: What is Voice?</h2>
 
           <p>'Voice' refers to the individuality of your writing. It's also referred to as 'style' i.e. writing style. Just like you can distinguish different people&#39;s voices in a room, you should be able to distinguish different authors&#39; writing voices out of a pile of texts.</p>
 
@@ -97,22 +97,22 @@ function Voice() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-to-create-voice">15.2: How to Create Voice</h3>
+          <h2 id="post-how-to-create-voice">15.2: How to Create Voice</h2>
 
           <p>You create your own writing voice/style in two ways:</p>
 
-          <h5>(1) By practicing writing</h5>
+          <h4>(1) By practicing writing</h4>
 
           <p>The only way you can critique and develop your own writing is by actually writing and read and critically appraise what you&#39;ve written, sometimes months or years after writing it. By doing so, you will attune yourself to your existing style and be able to decide what you like and dislike about it. This will inform the styles which you subsequently are inspired by.</p>
           <p>For instance, if you are concerned your writing waffles too much, you might take special notice of concise writing styles, and make effort to emulate them.</p>
 
-          <h5>(2) By reading and incorporating other writing styles</h5>
+          <h4>(2) By reading and incorporating other writing styles</h4>
 
           <p>The styles you incorporate will include writers you naturally write like, and writers you wish you wrote like. Somewhere in between you&#39;ll find a happy medium. If you read a lot, you will also pick up lots of writing tricks and techniques from different authors - who, you won't particularly wish to write like - but which you will minutely be inspired by in very select ways. You will also critically learn the styles you don't want to emulate, and you should take note what those styles did which made you dislike them.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-be-quiet">15.3: Be Quiet</h3>
+          <h2 id="post-be-quiet">15.3: Be Quiet</h2>
 
           <div className="custom-box">
             <p className="italic">One must be careful to distinguish between those who write beautiful things and those who write things beautifully
@@ -143,7 +143,7 @@ function Voice() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-contrast">15.4: Contrast</h3>
+          <h2 id="post-contrast">15.4: Contrast</h2>
 
           <p>If you&#39;re interested in learning what your writing voice sounds/reads like, try these two activities: Get a book by an author whose voice you&#39;re familiar with, choose a random chapter and attempt the write the subsequent chapter. If you already know what happens in the subsequent chapter, your chapter will probably mimic that, and the difference will be the pure writing styles of the author and yourself.</p>
           <p>If you haven&#39;t yet read the subsequent chapter, this activity will still work, but it will also show you as the differences in structuring, plotting and pacing, between the author and yourself, which is also informative (works better if you haven&#39;t read the subsequent chapter). </p>

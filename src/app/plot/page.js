@@ -14,7 +14,7 @@ function Plot() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Plot</h1>
+        <h1>Plot</h1>
 
         <blockquote>
           “For the purposes of [a story] a convincing impossibility is preferable to an unconvincing possibility.”
@@ -41,7 +41,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-plotting-in-a-vacuum">3.1: Plotting in a Vacuum</h3>
+          <h2 id="post-plotting-in-a-vacuum">3.1: Plotting in a Vacuum</h2>
 
           <p>You might have more stories than the Burj Khalifa. But stories aren&#39;t enough; you&#39;ve got to know what to do with them.</p>
           <p>At the front-end of story creation, writers tend to think: 'What do I already know, and how can I make a plot based on what I already know?'</p>
@@ -49,7 +49,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-types-of-plots">3.2: Types of Plots</h3>
+          <h2 id="post-types-of-plots">3.2: Types of Plots</h2>
           <p>Robert McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             makes the distinction between three different kinds of plots: </p>
@@ -63,7 +63,7 @@ function Plot() {
 
           <p>McKee strongly advises writers not to start writing plots (2) — (4) until they&#39;ve mastered the Archplot. This is because the other plots are subversions of the Archplot; they take its elements and alter or challenge or remove them. You can&#39;t do that effectively unless you&#39;re highly familiar and confident with use of those elements in the first place. In other words, you must pass the foundation course (the Archplot) before you can move on to the advanced course (Miniplot, Antiplot and Nonplot).</p>
 
-          <h4>3.2.1 	Archplot</h4>
+          <h3>3.2.1 	Archplot</h3>
           <p>Your standard kind of story.</p>
           <p>Typified by:</p>
 
@@ -81,7 +81,7 @@ function Plot() {
             <FootnoteRef text={<><em>Star Wars</em>, Lucasfilm Ltd., (1977).</>} />
           </p>
 
-          <h4>3.2.2 	Miniplot</h4>
+          <h3>3.2.2 	Miniplot</h3>
           <p>Typified by:</p>
           <ol>
             <li>Minimalism;</li>
@@ -98,7 +98,7 @@ function Plot() {
             <FootnoteRef text={<><em>Lost in Translation</em>, Focus Features, (2003).</>} />
 
           </p>
-          <h4>3.2.3 	Antiplot</h4>
+          <h3>3.2.3 	Antiplot</h3>
 
           <p>Typified by:</p>
 
@@ -113,7 +113,7 @@ function Plot() {
 
           </p>
 
-          <h4>3.2.4 	Nonplot</h4>
+          <h3>3.2.4 	Nonplot</h3>
           <p>The Nonplot is basically is where there isn&#39;t a clear, satisfying conclusion to the events.</p>
           <p>Typified by:</p>
 
@@ -131,7 +131,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-inciting-incident">3.3: The Inciting Incident</h3>
+          <h2 id="post-inciting-incident">3.3: The Inciting Incident</h2>
           <p>This is the event which kicks off the plot. It&#39;s the first &#39;unusual&#39; thing which occurs to your protagonist, jarring them out of their normal routine and necessitating their pursuit of the plot-worthy goal in order to return to normal.</p>
           <p>A story where the protagonist one day wakes up and changes their mind about the direction of their life, is weak, vague and lazy. We don&#39;t assume people just do this spontaneously in real life, we assume something happened to cause their change of mind. In real life, we don&#39;t take people&#39;s word for it when they tell us they&#39;ve suddenly decided to change their life; we tend to ask, &#39;why? What caused you to decide this?&#39; or, meaningfully, &#39;Did something happen?&#39;</p>
           <p>The Inciting Incident also suggests your protagonist is not in control; control of their life has been wrestled away from them, and the story is about them reclaiming control. This is more interesting than a character who remains in the driver&#39;s seat of their life the whole time, whatever sudden decisions they make.</p>
@@ -139,7 +139,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-three-act-structure">3.4: Three Act Structure</h3>
+          <h2 id="post-three-act-structure">3.4: Three Act Structure</h2>
           <p>The Three Act Plot is a story formula involving three major changes or reversals of positions for the protagonist. For instance, things are good, then they&#39;re bad, then they&#39;re good again. The Acts are: Good, Bad, Good (if the climax is in the Third Act, you might find the third &#39;Good&#39; only spans the last half/quarter of the Act).</p>
           <p>The first Act might be about 25% of the story. The Second Act will be longer, and then the Third Act will be the shortest, to create a sense of accelerating pace to the climax. Maybe max 25% of the story. The potential problem is that the Second Act drags. Rectifying that may involve adding a subplot/s or another Act (e.g. extending to Good, Bad, Worse, Good).</p>
           <p>McKee
@@ -151,7 +151,7 @@ function Plot() {
 
           <p>There&#39;s another dimension to this structure, two intertwining forces: the hero&#39;s tangible goal (what he wants), and his spiritual goal (what he needs). For instance, the hero may be chased by a monster (tangible goal = to survive), realising that this means his mentor has failed to protect him from it (spiritual goal = security, trust). As the monster closes in, the hero&#39;s awful realisation crystallizes. The hero must ditch the defective belief (that mentor will protect him) to attain the spiritual goal, effecting his transformation (from dependent to self-sufficient), allowing him to ditch the monster, and gain the tangible goal.</p>
 
-          <h4>3.4.1 	Sub-Plots</h4>
+          <h3>3.4.1 	Sub-Plots</h3>
           <p>Sub-plots are not only conceptually plots in miniature, they also resemble them in form. They have their own Act structure, Inciting Incidents, and climaxes. However, a sub plot may comprise of a single Act, or more. You can have multiple subplots, and they can overlap. You can also retire subplots for periods at a time, only to resolve them much later. Climaxes for sub-plots and the main plot can also happen in the same scene, e.g. the protagonist defeats the villain (climax of main plot) and by doing so, wins object of affection&#39;s love (climax of subplot).</p>
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
@@ -165,7 +165,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-three-right-angled-turns">3.5: Three Right-Angled Turns</h3>
+          <h2 id="post-three-right-angled-turns">3.5: Three Right-Angled Turns</h2>
           <p>Aristotle
             <FootnoteRef text={`ARISTOTLE,\nPoetics.`} />
             wrote of the “peripeteia,” or “reversal of the situation.”</p>
@@ -182,7 +182,7 @@ function Plot() {
 
           <p>To ensure the turn is diametric, each time your protagonist makes a turn, work out where your protagonist is (their current position) and where they appear to be heading (their direction, motivation, goals, objectives), and either flip it, or contrast it in some major way.</p>
 
-          <h4>3.5.1 	Doubling: &#39;Doppelgängers and &#39;Flips&#39;</h4>
+          <h3>3.5.1 	Doubling: &#39;Doppelgängers and &#39;Flips&#39;</h3>
           <p>For instance, a protagonist police officer may be framed for a crime, prosecuted by the police force, and get sentenced to prison, where he befriends some of the prison inmates. Previously he saw the police as good, and the prison inmates as bad, but after the right angle turn (he gets convicted for a crime) he begins to see the police as bad and prison inmates as good.</p>
           <p>A &#39;doppleganger&#39; is where that character, setting, or story element remains the same, but is duplicated, and the double is contrastingly different, if not entirely the opposite (like the &#39;good twin, evil twin&#39; cliché).</p>
           <p>For instance, a character finds a portal to a fantasy world, which contain vague doubles of their real world counterparts (the Wizard of Oz
@@ -191,7 +191,7 @@ function Plot() {
           <p>The double is a concept related specifically to right-angle turn plots (right angles bestow double status), compared to a foil who is not necessarily a double, nor do they require a right-angle to exist. A double&#39;s existence is predicated on their &#39;twin&#39; — apart from which, they don&#39;t really have a reason to exist. Whereas, a foil isn&#39;t dependent on its partner, rather, its traits have been adjusted to maximize contrast with another character.</p>
           <p>In both cases, the effect is to give the protagonist a new perspective.</p>
 
-          <h4>3.5.2 	Examples of Three Right Angle Turns</h4>
+          <h3>3.5.2 	Examples of Three Right Angle Turns</h3>
           <p>To illustrate the concept in its entirety I&#39;ll use the examples of two very different stories: Beauty and the Beast,
             <FootnoteRef text={<><em>Beauty and the Beast</em>, Walt Disney Pictures, (1991).</>} />
             and The Shawshank Redemption.
@@ -261,7 +261,7 @@ function Plot() {
 
           </div>
 
-          <h4>3.5.3 	Sub- Three Right Angle Turns</h4>
+          <h3>3.5.3 	Sub- Three Right Angle Turns</h3>
           <p>Beauty and the Beast is the poster child for the right-angle turn structure, and provides yet more examples. One example is in song themes. The songs &#39;Belle&#39;, &#39;Be Our Guest&#39; and &#39;Kill the Beast&#39; are all about belonging and exclusion (the remaining song) :</p>
 
           <ol>
@@ -285,7 +285,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-chiastic-structure">3.6: Chiastic Structure</h3>
+          <h2 id="post-chiastic-structure">3.6: Chiastic Structure</h2>
 
           <p>A chiastic structure exists where the narrative creates a symmetrical pattern, e.g. if scenes include A,B, and C, then a chiastic structure might go: A, B, C, C, B, A. If you&#39;re musically inclined, this resembles counterpoint.</p>
           <p>&#39;Chiastic&#39; originates from the Greek word &#39;Chiasmus&#39; meaning &#39;crosswise arrangement,&#39; i.e. —</p>
@@ -338,7 +338,7 @@ function Plot() {
             </div>
           </div>
 
-          <h4>3.6.1 	Sub-Chiastic Structure</h4>
+          <h3>3.6.1 	Sub-Chiastic Structure</h3>
           <p>As plots may contain sub-plots, chiastic structures may contain sub-chiastic structures. To do this, take one of the items on your list of elements, e.g. from above: 'G: Flood announced.' Then insert a minor chiastic structure after, before progressing to the next item, e.g.</p>
 
           <div className="p-3 mb-3 rounded custom-light-box bg-white text-sm font-rubik">
@@ -370,9 +370,9 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-plots-with-problems">3.7: Plots with Problems</h3>
+          <h2 id="post-plots-with-problems">3.7: Plots with Problems</h2>
 
-          <h4>3.7.1 	P.R.O.B.L.E.M</h4>
+          <h3>3.7.1 	P.R.O.B.L.E.M</h3>
           <p>Bork
             <FootnoteRef text={`ERIK BORK,\nThe Idea: The Seven Elements of a Viable Story for Screen, Stage or Fiction.`} />
             says at the heart of any story is a problem, which need to have seven characteristics, (a little too conveniently) creating the acronym PROBLEM:</p>
@@ -403,7 +403,7 @@ function Plot() {
 
           <p>Knowing the story's central problem gives you a head-start to writing the logline.</p>
 
-          <h4>3.7.2 	Bork's Story Problems</h4>
+          <h3>3.7.2 	Bork's Story Problems</h3>
           <p>Bork lists eight main types of story problems:</p>
           <div className="custom-box">
             <ol>
@@ -418,7 +418,7 @@ function Plot() {
             </ol>
           </div>
 
-          <h4>3.7.3 	Snyder's Story Problems</h4>
+          <h3>3.7.3 	Snyder's Story Problems</h3>
           <p>BLAKE SNYDER
             <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
             says all stories centre around one of these 10 problems:</p>
@@ -437,7 +437,7 @@ function Plot() {
             </ol>
           </div>
 
-          <h4>3.7.4 	Problems with Plots</h4>
+          <h3>3.7.4 	Problems with Plots</h3>
           <p>Howard Mittelmark and Sandra Newman list common problems with plots:
             <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
@@ -521,9 +521,9 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-story-planning">3.8: Story Planning</h3>
+          <h2 id="post-story-planning">3.8: Story Planning</h2>
 
-          <h4>3.8.1 	Bottom-Up and Top-Down</h4>
+          <h3>3.8.1 	Bottom-Up and Top-Down</h3>
           <p>Bottom-up (BU) writing means creating the tiny details first, and organising structure and story later. Top-down (TD) writing the opposite.</p>
           <p>Think of it like building a house: BU means laying the bricks first, working out how big each room will be later. TD means sketching your measurements first, so you know how many bricks you'll need, and exactly where they'll go, before you start laying them.</p>
           <p>A writer who says 'I make it up as I go along' is a BU writer.</p>
@@ -542,10 +542,10 @@ function Plot() {
 
           <p>BU planning it takes a long time — if at all — to get an entire plot? But in TD planning you end up with a plot outline really quickly.</p>
 
-          <h4>3.8.2 	Word Generation is not Storytelling</h4>
+          <h3>3.8.2 	Word Generation is not Storytelling</h3>
           <p>Don't get word generation confused with story writing. When you write, making it up as you go along (or start off with BU writing), you're experimenting with idea generation, but you have no story. Remember, from '1.2.3 More than a Series of Events,'' a story is not merely a series of events or details. It has gestalt meaningfulness. The example of BU planning above, is not a story. It's a series of events or details — any one of them can be added or removed without substantive loss or gain. The example of TD planning, above, is a story. You cannot remove any single element without changing the overall meaning.</p>
 
-          <h4>3.8.3 	Plot Pressures</h4>
+          <h3>3.8.3 	Plot Pressures</h3>
           <p>In a game of chess you can never play a completely free game where you can make any move you want. You're always under pressure to some extent by your opponent's moves (as your opponent is constrained by your moves).</p>
           <p>In a story, every character's actions are under narrative pressures, being setting, other characters' actions, general events, etc.</p>
           <p>You want the reader to be convinced your protagonist acted naturally the way they did. In a game of chess, if the opponent's queen is available to you, you take it, unless there is a good reason you don't want to win. This is the same in a story; if certain actions are open to the protagonist, and they don't take them -- and there is no previously established reason why -- your character will not be convincing. They will be seen as a puppet.</p>
@@ -555,7 +555,7 @@ function Plot() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-romance-three-kinds">3.9: Romance: Three Kinds</h3>
+          <h2 id="post-romance-three-kinds">3.9: Romance: Three Kinds</h2>
           <p>This tip relates not only to romance genre stories but any plot with two love interests (LI) who get together by the end of the story. There are generally three kinds of romances: Pursuit; Revelation, and Conspiracy.</p>
 
           <p className="text-boldPurple font-bold">(1) Pursuit</p>
@@ -605,7 +605,7 @@ function Plot() {
           </p>
           <p>It may also be an internal obstacle: the LIs own consciences dissuading them from union. It may be mundane: one LI has a medical or mental condition which makes union more challenging. If a protagonist is gradually being destroyed by the relationship's toll or even dies, it almost definitely is a Conspiracy.</p>
 
-          <h4>3.9.1 Main Differences Between the Three Types</h4>
+          <h3>3.9.1 Main Differences Between the Three Types</h3>
           <p>These romances may overlap, the main distinction where the LIs begin the story, in terms of how they feel towards each other.</p>
           <ol>
             <li>In a <span className="font-bold">Pursuit</span>, the affection is initially unilateral, which is what drives the pursuit. The end goal is the pursuit becoming mutual (the LI reciprocating the affection);</li>
@@ -615,13 +615,13 @@ function Plot() {
 
           <p>Different types of romance work for different genres: pursuits work well for almost anything, particularly adventure and action, but not horror. Revelation works better in horror. Conspiracy works well for time-period altered stories (set in the future or past) or anything with background lore, but not so well for action or adventure. </p>
 
-          <h4>3.9.2 Other Types</h4>
+          <h3>3.9.2 Other Types</h3>
           <p>There might conceivably be other types of romances, such as romantic tragedies such as 'unrequited romances' or the traditional 'comic' romance where several characters are wrongly paired due to misunderstanding and switch to the correct partners at the conclusion. However, Chris Booker
             <FootnoteRef text={`CHRIS BOOKER,\nThe Seven Basic Plots.`} />
             would probably argue these are merely 'dark' versions of the established types, e.g: </p>
           <p>The unrequited romance is merely a 'dark' pursuit; the protagonist never actually gets the LI.</p>
 
-          <h4>3.9.3 Final Note: Mixing It Up:</h4>
+          <h3>3.9.3 Final Note: Mixing It Up:</h3>
           <p>Making these delineations is not to say a romance must follow them on rails. You might have a romance which fuses different elements of all three.</p>
           <p>For instance, a protagonist starts with a pursuit in the first act. By the end of the first act protagonist has successfully 'won' the LI, but now realizes he/she is different than first appeared (e.g. by deceit or misunderstanding). In the second act, the protagonist is stuck with the LI to the completion of a task, and in the meantime, gives them a second chance, getting to know them better (and accurately). In the third act, the protagonist has a revelation he/she has fallen in love with the accurate LI, but some larger force now conspires to keep them apart (bonus points if it was something the protagonist earlier set off after being insulted by the LIs deceit).</p>
           <p>Beauty and the Beast

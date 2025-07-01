@@ -14,7 +14,7 @@ function TheNextWords() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">The Next Words</h1>
+        <h1>The Next Words</h1>
 
         <blockquote>
           “We are what we repeatedly do. Excellence, then, is not an act, but a habit.”
@@ -46,18 +46,18 @@ function TheNextWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-dont-do-this" className="mb-2 font-semibold">18.1: Don't Do This!</h3>
+          <h2 id="post-dont-do-this" className="mb-2 font-semibold">18.1: Don't Do This!</h2>
 
           <p>Before detailing what to do, here&#39;s a general list of things not to do:</p>
 
-          <h4>18.1.1 	Don&#39;t Be a ‘Said&#39; Dodger</h4>
+          <h3>18.1.1 	Don&#39;t Be a ‘Said&#39; Dodger</h3>
           <p>Using a plethora of synonyms for ‘said&#39; (exclaimed, cackled, ejaculated, yelled, responded, asked, answered, etc) instead of just using ‘said&#39; and making the dialogue, conduct and circumstances convey tone;</p>
 
           <ol>
             <li>Related: following up ‘said&#39; with gratuitous adverbs, e.g. said nervously, said shyly, said angrily, said happily, etc;</li>
           </ol>
 
-          <h4>18.1.2 	Desperate Descriptive Detailing of Dialogic Discourse Does Disservice </h4>
+          <h3>18.1.2 	Desperate Descriptive Detailing of Dialogic Discourse Does Disservice </h3>
           <p>Gratuitous descriptions of characters&#39; actions while they&#39;re talking. Where this exists it&#39;s painfully obvious the author is self-conscious about filling in gaps between dialogue with any bit of verbiage they could think up:</p>
           <p>E.g. “I don&#39;t know how,” he said, <i>licking his lips;</i></p>
 
@@ -81,7 +81,7 @@ function TheNextWords() {
 
           <p>See 13.2.7 Dialogue descriptions&#39; for the correct way to go about this.</p>
 
-          <h4>18.1.3 	Too Many Words </h4>
+          <h3>18.1.3 	Too Many Words </h3>
           <p>Description which doesn&#39;t do any work, e.g.</p>
 
           <p className="boldPurple">[1] Announcing Your Writing</p>
@@ -166,7 +166,7 @@ function TheNextWords() {
           <p>Stay away from everything that is fancy or pretty or grandiloquent: "Illumination is required to be extinguished in this premises at the conclusion of business." When you really mean: "Storelights must be put out at the end of the day." 
             <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft of Writing.`} /></p>
 
-          <h4>18.1.4 	Never use Hyperbole</h4>
+          <h3>18.1.4 	Never use Hyperbole</h3>
 
           <p>Examples: ‘only&#39;, ‘always&#39;, ‘eternally&#39;; ‘forever&#39;; words ending in ‘-iest&#39; like ‘funniest&#39;.</p>
           <p>Here&#39;s my tip: Avoid it...most of the time. </p>
@@ -184,7 +184,7 @@ function TheNextWords() {
             <li><u>NO:</u>I asked if she&#39;d be there. He nodded. That&#39;s when I realised getting an invitation to that party was very important, but if I didn&#39;t it wouldn&#39;t be the end of the world, either.    </li>
           </ol>
 
-          <h4>18.1.5 	Bombastic Behaviours and Grandiloquent Gesticulations</h4>
+          <h3>18.1.5 	Bombastic Behaviours and Grandiloquent Gesticulations</h3>
           <p>Over the top (not to mention cliché) descriptions that fly right past reality and fall into pantomime:</p>
           <p>Examples:</p>
           <ol>
@@ -209,7 +209,7 @@ function TheNextWords() {
 
           <p>Many of the above rules (such as preferring ‘said&#39;) should only be broken in exceptional circumstances, i.e. you need a really compelling reason. And maybe not even then.</p>
 
-          <h4>18.1.6 	Starve the Ego, Feed the Soul</h4>
+          <h3>18.1.6 	Starve the Ego, Feed the Soul</h3>
           <div className="custom-box">
             <p className="mb-0"><i>“Did I feel a twinge in my little toe, or didn&#39;t I?” </i> asks every character of Mr. Joyce or of Miss Richardson or M. Proust. . . . Through thousands and thousands of pages Mr. Joyce and Miss Richardson tear themselves to pieces, strip their smallest emotions to the finest threads, till you feel you are sewed inside a wool mattress that is being slowly shaken up, and you are turning to wool along with the rest of the woolliness.</p>
             <br></br><p><i>It&#39;s awful. And it&#39;s childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p><i>— D. H. LAWRENCE</i><FootnoteRef text="Surgery for the Novel — or a Bomb” (1923), D. H. Lawrence." />
@@ -350,7 +350,7 @@ function TheNextWords() {
           <p>This was likely ‘inspired&#39; by Dragan Bibin&#39;s 2015 painting, <i>Deimos</i>,  which illustrates the same effect:</p>
           <img src={deimos} alt="Deimos Painting" className="img-fluid" />
 
-          <h4>18.1.7 	Negative Description</h4>
+          <h3>18.1.7 	Negative Description</h3>
           <p>Description should be <u>positive</u>: it tells you what something is like, or how it is, or what happened, i.e. it describes what is actually there. David Carroll
           <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} /> says, <i>"our psyches prefer affirmation to disaffirmation. They prefer to learn what did happen, not what didn't." </i><a href="#f9"><sup>9</sup></a></p>
 
@@ -398,7 +398,7 @@ function TheNextWords() {
               <span className='green-text-span'>POSITIVE PHRASING:</span> &quot;Rover was bad.&quot;</li>
           </ol>
 
-          <h4>18.1.8 	There are no Coincidences</h4>
+          <h3>18.1.8 	There are no Coincidences</h3>
           <p>Coincidence is a hallmark of bad fiction. Think of the car that breaks down in front of the haunted house, necessitating a night&#39;s stay. Compare to the protagonist in Stephen King&#39;s ‘1408,&#39; who voluntarily (insistently) stays in the haunted hotel for personal, character-driven gain. There is no coincidence in the latter story, and better for it.</p>
           <div className="custom-box">
             <p className="mb-0">“...[S]earch for a way by which your character can set out seeking the desired event, person or information. If your character wants something, and works hard to get it, it isn&apos;t coincidence anymore. Having provided your characters with sufficient background and motivation for their actions, and then by making sure coincidence doesn&apos;t rule the day, you&apos;ll be well along on the way to better story logic.”</p>
@@ -407,7 +407,7 @@ function TheNextWords() {
             </i>
           </div>
 
-          <h4>18.1.9 	Writing In Writing</h4>
+          <h3>18.1.9 	Writing In Writing</h3>
           <p>Avoid ‘recursive text&#39; -- transcriptions of forms of writing within your story, such as: diary entries, letters, emails, etc, unless absolutely necessary.</p>
           <p>Why?</p>
           <p>Firstly, you&#39;re already planning writing a story. Worry about your main writing before getting into writings in writings. At worst it&#39;s a distraction, not only for you as author, but for your reader, who will get annoyed at jumping back and forth between different ‘levels&#39; of text like it&#39;s Inception.</p>
@@ -431,7 +431,7 @@ function TheNextWords() {
           <p>—And that&#39;s not good fiction writing.</p>
           <p>The only reason the diary entry format is excused above is to allow the suggestion that protagonist has died since we learn of his story (as if we have found his diary). Otherwise, he would have to be ‘alive&#39; to tell us directly.</p>
 
-          <h4>18.1.10 	Clichés</h4>
+          <h3>18.1.10 	Clichés</h3>
           <p>Avoid ALL clichés. Avoid them even in dialogue, even if you think the character would say it in real life. Your story is not real life, and your character is not a real person. 
             <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft of Writing.`} /></p>
           <p>As a general rule, if it sounds cliché, it probably is. If you wrote it on ‘autopilot&#39; it&#39;s probably a cliché. Clichés cannot be exhaustively list clichés; they are constantly coming into existence, therefore, watch out for less obvious clichés -- William Sloane  names a few, such as: </p>
@@ -558,11 +558,11 @@ function TheNextWords() {
             <li>Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.</li>
           </ol>
 
-          <h4>18.1.11 	Prologues and Epilogues</h4>
+          <h3>18.1.11 	Prologues and Epilogues</h3>
           <p>Don&#39;t write prologues or epilogues. Prologues infringe the ‘start as late as possible&#39; rule and are too often abused as means of setting up your story. Similarly, Epilogues are abused as a way to cram a bunch of last-minute shit in after the story has ended – just end your story and keep the reader wondering.
             <FootnoteRef text={`LES EDGERTON,\nHooked: Write Fiction That Grabs Readers at Page One & Never Lets Them Go.`} /></p>
 
-          <h4>18.1.12 	Expletives</h4>
+          <h3>18.1.12 	Expletives</h3>
           <p>Hart
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             advises to avoid 'expletives' where possible. This doesn&#39;t refer to swear words (which also should be avoided) but refer to words which don&#39;t add any meaning to a sentence, and include "there was," "it is," "it was," etc. Too many slow down your writing.</p>
@@ -575,7 +575,7 @@ function TheNextWords() {
           <p className='indent-8 mb-2'><u>With Expletives: </u>The plane began to circle.
             <br></br><u>With Expletives: </u>The plane circled.</p>
 
-          <h4>18.1.13 	Double Words</h4>
+          <h3>18.1.13 	Double Words</h3>
           <p>What is wrong with this paragraph?</p>
           <p className='indent-8 mb-2'><i>I went over to her place to see how she was getting on on my way home one evening. Once I got there, the patient gave me a list of symptoms she had had. Scanning it, I gave her her list back. I didn't think she was suicidal then, but later that evening when I realised it it was too late. At the time, I was merely thinking 'What she is is a time waster.'</i></p>
 
@@ -585,10 +585,10 @@ function TheNextWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-do-this">18.2: Do This!</h3>
+          <h2 id="post-do-this">18.2: Do This!</h2>
           <p>Now for something completely different: It's a collection of tips for writing in general.</p>
 
-          <h4>18.2.1 	Most Important Elements of Fiction Writing</h4>
+          <h3>18.2.1 	Most Important Elements of Fiction Writing</h3>
           <p className="boldPurple">(I) Substance</p>
           <p>Your writing is actually about something meaningful and significant. There is a good story, which is not overshadowed by a loud, grandiose self-important style.</p>
 
@@ -602,7 +602,7 @@ function TheNextWords() {
           <p className="boldPurple">(IV) Economy</p>
           <p>Your writing uses the least words for the most effect.</p>
 
-          <h4>18.2.2 	Punctuation: </h4>
+          <h3>18.2.2 	Punctuation: </h3>
           <p>What's the point of punctuation?</p>
           <div className="custom-box">
             <p className="mb-0">“If words are the flesh, muscle, and bone of prose, punctuation is the breath. In support of the words you&#39;ve carefully selected, punctuation is your best means of conveying to the reader how you mean your writing to be read, how you mean for it to sound. A comma sounds different than a semicolon; parentheses make a different noise than dashes.” </p>
@@ -669,7 +669,7 @@ function TheNextWords() {
           <p>A ‘comma splice&#39; does the opposite, linking two separate sentences together, it increases pace, e.g.</p>
           <p className='indent-8 mb-2'>Suddenly he ran from the room, making Mary jump.</p>
 
-          <h4>18.2.2 	Sentences: </h4>
+          <h3>18.2.2 	Sentences: </h3>
           <p>Some basic tips from Burnett and Burnett:
             <FootnoteRef text={`HALLIE BURNETT and WHIT BURNETT,\nFiction Writer's Handbook.`} />
             “Use shorter sentences for action; longer sentences for reflection or, sometimes, the development of an emotion with sensuous undertones. Anger is usually in staccato style.”</p>
@@ -694,16 +694,16 @@ function TheNextWords() {
             <code><i>The first domino, the second, then the third, then all of them. </i></code></p>
           <p>Now the sentence structure reflects the events. As soon as the first domino falls, the rest of them are compelled to go down. The sentence matches the causal reality. Similarly, as soon as you start reading the sentence, you are compelled to finish reading the sentence.</p>
 
-          <h4>18.2.3 	Paragraphs</h4>
+          <h3>18.2.3 	Paragraphs</h3>
           <p>Each paragraph introduces a new thought and concludes it.</p>
          
-          <h4>18.2.4 	If it&#39;s not right, re-write:</h4>
+          <h3>18.2.4 	If it&#39;s not right, re-write:</h3>
           <p>Another general rule: avoid over-thinking your writing, and avoid cluttering your writing with intention. Go with a style and stick with it – don&#39;t make a sentence try to achieve four different effects all at once. If, for whatever reason, it doesn&#39;t sound/read right, even if that&#39;s the way you wanted/needed it to sound, change it. I haven&#39;t heard of many writers being condemned because their writing is ‘too dumb&#39; or ‘too simple&#39;, but an inordinate number of writers fall upon the sword of over-description because they are overly anxious to sound clever and ‘writerly&#39; or ‘lit&#39;ry&#39; (as Joe Hill would say).</p>
          
-          <h4>18.2.5 	The rule of invisibility: </h4>
+          <h3>18.2.5 	The rule of invisibility: </h3>
           <p>As I stated about writing voice/style, good writing is invisible. Think of your writing like a window to some parallel universe, the world of your story. People look through a window – they don&#39;t look at it. If your writing is so anxious and self-congratulatory that it makes people notice the words themselves, something is wrong (unless you are deliberately trying to alienate the reader, a la House of Leaves). Unless your writing is clear and transparent, in every other case – dirt-stained or a stained-glass masterpiece – your writing is only a distraction from the world beyond it.</p>
          
-          <h4>18.2.6 	Use the Active Voice </h4>
+          <h3>18.2.6 	Use the Active Voice </h3>
           <p>Always use the active voice where possible. George Orwell says:
             <FootnoteRef text={`GEORGE ORWELL,\nPolitics and The English Language.`} />
             <i>“Never use the passive where you can use the active.”</i>  The active voice will give your writing a sense of immediacy and flow, facilitating the reader&#39;s engagement and interest. </p>
@@ -718,7 +718,7 @@ function TheNextWords() {
           </p>
           <p>You would not write “Omens loaded the night,” because though the night is the subject, the omens are the active force.</p>
 
-          <h4>18.2.7 	Dialogue Descriptions</h4>
+          <h3>18.2.7 	Dialogue Descriptions</h3>
           <p>I said previously to avoid gratuitous descriptions of characters while they&#39;re talking (see: 14.1.2 Desperate descriptive detailing of dialogic discourse does disservice).</p>
           <p>So when is description within exchanges of dialogue advised? In the following cases:</p>
 
@@ -751,10 +751,10 @@ function TheNextWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-writing-cheats-and-hacks">18.3 Writing ‘cheats&#39; and ‘hacks&#39;</h3>
+          <h2 id="post-writing-cheats-and-hacks">18.3 Writing ‘cheats&#39; and ‘hacks&#39;</h2>
           <p>I preface this by saying writing involves a lot of work, including reading, researching, redoing, and practising, and accepting criticism, and learning. But it cannot be said there aren&#39;t shortcuts or insights which require less effort but create more effect.</p>
           
-          <h4>18.3.1 	Adding frustration by taking away grammar</h4>
+          <h3>18.3.1 	Adding frustration by taking away grammar</h3>
           <p>When people get really riled up, their articulation suffers, their grammar suffers, and they are more likely to use the wrong word. You can therefore, suggest frustration by making fairly small grammatical, and forgivable, almost unnoticeable grammatical errors. It&#39;s more effective if the character normally speaks in an average or educated way.</p>
           <p>This is a modified example from my own writing:</p>
           <p className='indent-8 mb-2'> <i>"That and all the work I've done is just a make believe."  </i> </p>
@@ -770,7 +770,7 @@ function TheNextWords() {
           <p>Here, the unusual pronunciation of 'paedophiles' emphasises how out of depth and familiarity 'Lucy' is with the subject matter – paeodophiles evidently just don&#39;t happen in her home town.</p>
           <p>Don&#39;t overdo it – these techniques shouldn&#39;t hit the reader in the face and cause them to read the sentence twice.</p>
 
-          <h4>18.3.2 	When to ‘tell&#39; rather than ‘show&#39;</h4>
+          <h3>18.3.2 	When to ‘tell&#39; rather than ‘show&#39;</h3>
           <p>You hear the rule about ‘show don&#39;t tell&#39;. You know when to ‘show&#39; (always). But this raises a good question: when should you ‘tell&#39;? I don&#39;t have an exhaustive rulebook for when telling is better. But I have some examples:</p>
           <p className="boldPurple">i. Jump in Time </p>
           <p>The characters in this example (Phineas – “Finny” – and main character, Gene) are school kids at a party “in a kind of sun porch” with teacher ‘Mr Patch-Withers&#39;: 
@@ -821,13 +821,13 @@ function TheNextWords() {
           <FootnoteRef text={`JOHN HARRIS,\nThe Backpacker.`} /></p>
           <p>Here, the unavoidable observation is that the protagonist's girlfriend 'Sanita' is miserable and it's the protagonist's fault, no matter what he thinks. The telling word is 'shattered,' which immediately leaves no room for subjective interpretation. The subsequent sentences ('Her face...') give us 'showing' description but its tied to the 'shattered' 'telling' description -- merely elaborating what being shattered looks like for Sanita, rather than allowing us to interpret her expression for ourselves. </p>
 
-          <h4>18.3.3 	The ‘Triangle&#39;</h4>
+          <h3>18.3.3 	The ‘Triangle&#39;</h3>
           <p>Where a character gets in an argument (particularly involving a conflict of values/beliefs), it&#39;s more dynamic to subsequently bounce the character over to a ‘support person&#39; in a ‘debrief&#39; scene to ‘make sense&#39; of the argument that&#39;s just occurred, to allow a different opinion. </p>
           <p>An outside third person, who doesn&#39;t easily side with either character can prevent the argument being interpreted as an ‘either/or&#39; thing.</p>
           <p><u>Example: </u>X believes in abortion, Y does not. They argue. Subsequently, X hangs out with Z, who holds a more mediate position on abortion (sometimes okay, sometimes not), giving X the opportunity to to defend his position in a more neutral setting, allowing exploration of X&#39;s position from another angle.</p>
           <p>In real life, some people withdraw following an argument, but that&#39;s not dynamic or interesting in a story, which should limit ‘narrative downtime&#39;. You can compromise by having X retreat somewhere and happen to bump into someone.</p>
 
-          <h4>18.3.4 	Deliberately awkward sentences: </h4>
+          <h3>18.3.4 	Deliberately awkward sentences: </h3>
           <p>Sometimes you can break the above rule of invisibility (see: 13.2.5) and deliberately flout good English for a particular effect. See this example (Hemingway – who else?) the context for this is that the characters are driving in a car which struggles to get up a hill:</p>
 
           <p className="boldPurple">Example #1: Bad grammar: </p>
@@ -846,7 +846,7 @@ function TheNextWords() {
           <p className='indent-8 mb-2'> <i>“You&#39;re actually kind of beautiful/smart [etc].”    </i> </p>
           <p>The above phrasing could communicate sarcasm, because the qualifier (‘kind of&#39;) mitigates the compliment. This is also less obnoxious than the usual, tired technique of expressing sarcasm by italics.</p>
 
-          <h4>18.3.5 	Projection  </h4>
+          <h3>18.3.5 	Projection  </h3>
           <p>People tend to interpret the traits onto others which they fear most in themselves; this is a psychological phenomenon called 'projection.' This can direct what details your protagonist notices and/or minimises (i.e. which ones you describe and in what way). </p>
 
           <p>18.3.6 	Protestation</p>
@@ -856,7 +856,7 @@ function TheNextWords() {
           <p>If you want to create a sense of alienation from a character, have them describe something without showing it, or, even more blatantly, omit description at the time the thing allegedly occurred, and then have the character assert that it occurred at the time. </p>
           <p>For example, in the Haunting of Hill House, the protagonist asserts that she saw some figurines move in her peripheral vision. However, at the time this allegedly occurred, it was not described, or 'shown' to us. This effects distance between us and the protagonist's POV, suggesting she may be going crazy.</p>
 
-          <h4>18.3.8 	The Periodic Sentence  </h4>
+          <h3>18.3.8 	The Periodic Sentence  </h3>
           <p>The Periodic Sentence is a type of sentence structure where the main point of the sentence comes right at the end, so the sentence doesn&#39;t read as complete/meaningful until you reach the final word. It&#39;s a stylistic device for building suspense. You normally hear dramatic revelations delivered through periodic sentences. </p>
           <p><u>Examples:</u></p>
 
@@ -869,7 +869,7 @@ function TheNextWords() {
             <p><i>The reason I acted the way I did, was because I was in love.</i></p>
           </p>
 
-          <h4>18.3.11 	Long Sentences</h4>
+          <h3>18.3.11 	Long Sentences</h3>
           <p>Shorter sentences are generally better. And brevity is increasingly desirable as the internet makes people&#39;s attention spans shorter. But sometimes length may convey something a short sentence cannot. </p>
           <p>Clark provides a guide for using long sentences:</p>
           <ol>
@@ -881,7 +881,7 @@ function TheNextWords() {
             <li>Long sentences need more editing than short ones; every word should count.</li>
           </ol>
 
-          <h4>18.3.9 	Superimposition</h4>
+          <h3>18.3.9 	Superimposition</h3>
           <p>This is a technique for making dialogue, scenes, and more broadly, entire plots, more dynamic, creative, unpredictable and interesting.</p>
           <p>Fiction writing is, obviously, writing about pretend things. Superimposition goes one step further; you're writing pretend things about those pretend things. Basically, you're writing one thing as if it were something else (without actually referring to that other thing).</p>
           <p>One of the advantages of this technique is that it's productive when you have writer's block, or you are distracted by all the other things you really want to write about. It's great for coming up with spontaneous inspired bursts of writing. Here's an example:</p>
@@ -898,7 +898,7 @@ function TheNextWords() {
 
           <p>Note: It's not necessary for the subliminal message to be canon. In the above, the haunted house doesn't literally have anything to do with a rainforest. The point of the comparison is to make the reader feel like your haunted house is different from all the others they've read. Aside from horror, this technique can be used in any genre. You might superimpose a love interest is royalty to get inside the protagonist's adoration of them.</p>
 
-          <h4>18.3.10 	Purposeful Repetition</h4>
+          <h3>18.3.10 	Purposeful Repetition</h3>
           <p>9 times out of 10 you don&#39;t want your writing to repeat itself. Repetition devalues your writing by oversupply (see 11.3 Information Economy). It can also be annoying and insipid, like a nursery rhyme. Repetition also isn&#39;t subtle, and 9 times out of 10 you don&#39;t want your writing to repeat itself.</p>
           <p>However, if used sparingly and effectively, repetition can:</p>
           <ol>
@@ -913,7 +913,7 @@ function TheNextWords() {
 
           <p>Most commonly, repetition conveys thematic significance. In <i>In ‘The Haunting of Hill House&#39;</i> House&#39; by Shirley Jackson, the Shakespearian quote <i>'Journeys end in lovers meeting&#39;</i> is repeated, and at various lengths throughout the story.</p>
 
-          <h4>18.3.11 	Long Sentences</h4>
+          <h3>18.3.11 	Long Sentences</h3>
           <p>Shorter sentences are generally better. And brevity is increasingly desirable as the internet makes people&#39;s attention spans shorter. But sometimes length may convey something a short sentence cannot. </p>
           <p>Clark provides a guide for using long sentences:</p>
           <ol>
@@ -925,21 +925,21 @@ function TheNextWords() {
             <li>Long sentences need more editing than short ones; every word should count.</li>
           </ol>
 
-          <h4>18.3.12 	Punctuating a Moment</h4>
+          <h3>18.3.12 	Punctuating a Moment</h3>
           <p>This tip comes from David Carroll:
             <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
           </p>
           <p className='indent-8 mb-2'> “After making a strategic or dramatic point, move away from your subject for a moment, then return with sudden force.”</p>
           <p>The ‘moment&#39; may only last a sentence.</p>
 
-          <h4>18.3.14 	Literalize Metaphors</h4>
+          <h3>18.3.14 	Literalize Metaphors</h3>
           <p>You can build scenes and events from making literal metaphors; here's a really obvious example that you shouldn't actually use:</p>
           <p><u>Metaphor:</u></p>
           <p className='indent-8 mb-2'>My mother and father fought all the time, leaving me to pick up the pieces afterwards.</p>
           <p><u>Literal:</u></p>
           <p className='indent-8 mb-2'>My mother picked up the figurine on the mantel and threw it at my father. It missed and crashed against the wall. I got down and began sweeping up the pieces.</p>
 
-          <h4>18.3.13 	Breaking Grammar</h4>
+          <h3>18.3.13 	Breaking Grammar</h3>
           <p>As to writing proscriptions: generally, never say never. Breaking a writing rule is always a choice at the discretion of the writer. There are reasons for, reasons against. You have to be smart enough to know the difference. Dreyer  provides exceptions to a list of common writing rules:
             <FootnoteRef text={`BENJAMIN DREYER,\nDreyer's English.`} /></p>
           <p className="boldPurple">1. Never Begin a Sentence with 'And' or 'But' </p>
@@ -993,7 +993,7 @@ function TheNextWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-professional-advice">18.4: Professional Advice</h3>
+          <h2 id="post-professional-advice">18.4: Professional Advice</h2>
 
           <p>Here are a bunch of tips from Sol Stein:
             <FootnoteRef text={`SOL STEIN,\nStein On Writing.`} />

@@ -231,12 +231,12 @@ export default function SearchResultsPage() {
               <div className="absolute top-2 right-2 bg-hYellow text-black text-xs font-semibold px-2 py-0.5 rounded-sm shadow">
                 #{(currentPage - 1) * resultsPerPage + i + 1}
               </div>
-              <h3 className="text-base font-semibold mb-1">
+              <h2 className="text-base font-semibold mb-1">
                 Page:{" "}
                 <Link href={match.url} className="text-blue-600 hover:underline break-words">
                   {highlightMatches(match.title, titleMatches)}
                 </Link>
-              </h3>
+              </h2>
               {match.content && (
                 <p className="text-sm text-gray-800">
                   <Link href={match.url} className="hover:underline">

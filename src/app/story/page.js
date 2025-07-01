@@ -13,8 +13,7 @@ function Story() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Story</h1>
-
+        <h1>Story</h1>
         <blockquote>
           “Whatever good or bad fortune may come our way we can always give it meaning and transform it into something of value.”
           <br />
@@ -39,7 +38,7 @@ function Story() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-storytelling" className="mb-2 font-semibold">1.1 Storytelling</h3>
+          <h2 id="post-storytelling">1.1 Storytelling</h2>
 
           <p>
             The most important skill you need to write fiction is storytelling. Robert McKee defines storytelling as:
@@ -53,15 +52,15 @@ function Story() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-a-story" className="mb-2 font-semibold">1.2 What is a Story?</h3>
+          <h2 id="post-what-is-a-story">1.2 What is a Story?</h2>
 
-          <h4>1.2.2 The Opposite of Expectation</h4>
+          <h3>1.2.2 The Opposite of Expectation</h3>
 
           <p>A story is an event where the opposite of expectation happens, and the more dramatic the contrast,
             the more interesting the story. This rule applies, not only to stories as a whole, but parts of stories: Acts, chapters, paragraphs, even
             single sentences. A single unexpected sentence can kick off a story.</p>
 
-          <h4>1.2.3 	More than a Series of Events</h4>
+          <h3>1.2.3 	More than a Series of Events</h3>
 
           <p>A story is not simply a random series of events. A series of events becomes a &#39;story&#39; when there is some
             extra element —an overarching unifying factor— which transforms the events into a new thing in itself, with a whole greater than the sum of its
@@ -99,7 +98,7 @@ function Story() {
             find out she likes him back. All of the details are used to communicate this. More than pure chronological content, self-contained meaningfulness is the indicator of a story.
           </p>
 
-          <h4>1.2.4 	An Explosion</h4>
+          <h3>1.2.4 	An Explosion</h3>
           <p>Burnett and Burnett
             <FootnoteRef text={`HALLIE BURNETT AND WHIT BURNETT,\nFiction Writer's Handbook.`} />
             say that all stories have an explosion, “...in which all parts of the whole are expelled...”
@@ -107,7 +106,7 @@ function Story() {
             in others, muted and delayed. It may occur at the beginning, middle or end, or the fuse may be lit early and the explosion happen later, but by the end there must be some kind of resolution or meaning
             created, a sense of something new created from the previous, subverted status quo.</p>
 
-          <h4>1.2.5 	Difference Between &#39;Story&#39; and &#39;Idea&#39;</h4>
+          <h3>1.2.5 	Difference Between &#39;Story&#39; and &#39;Idea&#39;</h3>
 
           <p>Bob Mayer
             <FootnoteRef text={`BOB MAYER,\nFiction Writer's Toolkit.`} />
@@ -115,7 +114,7 @@ function Story() {
             Different writers can come up with the same idea, but tell different stories. Some good ideas cannot be made into good stories. Conversely, some bad ideas can be made into good stories (you may have
             heard a critic/reviewer say something like, &#39;in the hands of another writer, this idea would not have worked...&#39;)</p>
 
-          <h4>1.2.6 	Difference between &#39;Story&#39; and &#39;Plot&#39;</h4>
+          <h3>1.2.6 	Difference between &#39;Story&#39; and &#39;Plot&#39;</h3>
 
           <p>You start with an idea, figure out a story, and then work on the plot.</p>
           <p>The terms &#39;story&#39; and &#39;plot&#39; are often used interchangeably, but don&#39;t mean the same things. The same stories tend to get told and retold, but they always have different plots.</p>
@@ -134,7 +133,7 @@ function Story() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-main-elements-of-story">1.3 The Main Elements of a Story</h3>
+          <h2 id="post-main-elements-of-story">1.3 The Main Elements of a Story</h2>
 
           <p>These are the main elements of story structure, in order of priority:</p>
           <FootnoteRef text="MARK TWAIN." />
@@ -185,7 +184,7 @@ function Story() {
             <li>Descent into the underworld (The Orphic Myth);</li>
           </ol>
 
-          <h4>1.4.1 Rise or Fall?</h4>
+          <h3>1.4.1 Rise or Fall?</h3>
 
           <p>This raises the question; should your story (more importantly, your protagonist)
             rise or fall?</p>
@@ -211,7 +210,7 @@ function Story() {
           <p>Also, make the protagonist&#39;s rise/loss proportionate to the radicalism of their beliefs; a protagonist who is spectacularly polarised should
             fail spectacularly; a protagonist whose beliefs are more nuanced or equivocal may fail partly and win partly.</p>
 
-          <h3 id="post-joseph-campbell-myths">1.5 Joseph Campbell&#39;s Myths</h3>
+          <h2 id="post-joseph-campbell-myths">1.5 Joseph Campbell&#39;s Myths</h2>
 
           <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being &#39;The Adventure of the Hero,&#39;
             more commonly known as <i>&#39;The Hero&#39;s Journey.&#39;</i>
@@ -226,8 +225,8 @@ function Story() {
           <p>For a detailed summary of the Hero's Journey, see
             <Link href="/herojourney" className="text-midBlue hover:underline">this page</Link></p>
 
-          <h3 id="post-myths-and-misconceptions">1.6 Myths and Misconceptions</h3>
-          <h4>1.6.1 Write What You Know</h4>
+          <h2 id="post-myths-and-misconceptions">1.6 Myths and Misconceptions</h2>
+          <h3>1.6.1 Write What You Know</h3>
           <p>Writers are commonly instructed to &#39;Write what [they] know.&#39; But, as Alice LaPlante says, this can be limiting.
             <FootnoteRef text={`ALICE LaPLANTE,\nThe Making of a Story: A Norton Guide to Creative Writing.`} />
             <i>"Write about what you don't know about what you know," </i> Eudora Welty suggests. Take what you know and create a mystery from it; you might see your accountant
@@ -239,12 +238,12 @@ function Story() {
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             calls &#39;the personal story,&#39; — basically a fictionalized diary entry.</p>
 
-          <h4>1.6.2 	Don&#39;t Take Ideas from Other Writers</h4>
+          <h3>1.6.2 	Don&#39;t Take Ideas from Other Writers</h3>
           <p>Anyone who gives a blanket proscription against &#39;stealing&#39; ideas (it&#39;s not really &#39;borrowing&#39; if you never give them back) is out of touch with writing practice.
             99% of fiction writers are readers of other fiction writers, or &#39;fans&#39;, and hence get their ideas from someone else. However, some forms of &#39;copying&#39; (or more politically correct: &#39;drawing inspiration&#39;)
             are more permissible than others:</p>
 
-          <h5 className="text-sm font-semibold text-midBluey mt-3 mb-1">(1) Steal More</h5>
+          <h4 className="text-sm font-semibold text-midBluey mt-3 mb-1">(1) Steal More</h4>
 
           <p>If your &#39;stealing&#39; is easily found out, ironically you&#39;re probably not stealing enough. There&#39;s a saying: <i>“If you steal from one person it&#39;s plagiarism, steal from many, it&#39;s research.”</i>
             Just by reading many different authors on the same idea, or better, across many different kinds of ideas or themes, is going to enrichen your &#39;idea base&#39;, and when it comes to writing your own, the &#39;cross-fertilisation&#39; of ideas
@@ -260,22 +259,22 @@ function Story() {
               clogged with clichés of either the commercial or the art house variety.”</p>
           </div>
 
-          <h5 className="text-sm font-semibold text-midBluey mt-3 mb-1">(2) Steal Further Back</h5>
+          <h4 className="text-sm font-semibold text-midBluey mt-3 mb-1">(2) Steal Further Back</h4>
           <p>There&#39;s a variation on the above: <i>"If we steal thoughts from the moderns, it will be cried down as plagiarism; if from the ancients, it will cried up as erudition"</i>
             <FootnoteRef text={`REVEREND CHARLES CALEB COLTON.`} />
             So if you want to take from &#39;Dracula&#39;, don&#39;t stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
 
-          <h5 className="text-sm font-semibold text-midBluey mt-3 mb-1">(3) Aim Lower</h5>
+          <h4 className="text-sm font-semibold text-midBluey mt-3 mb-1">(3) Aim Lower</h4>
           <p>Writers are most tempted to steal from the most widely-known, or idolized, &#39;untouchable&#39; works. For instance, in fantasy, Lord of the Rings. Hypocritically, the writer believes the work cannot be improved. If you cannot improve the original work,
             then why are you trying to get published? What will the public get from your work that Lord of the Rings did not already give them?</p>
           <p>In contrast, do you remember a time you&#39;ve read a book and thought &#39;How did that turn out so bad? That could&#39;ve been really good.&#39; Those are the books you want to steal from. You want to rewrite the book the way you think it should&#39;ve gone. Even if the story is well
             known, this form of copying is more permissible because you are making active changes to the story.</p>
 
-          <h4>1.6.2 Slavishly adhere to good spelling and grammar</h4>
+          <h3>1.6.2 Slavishly adhere to good spelling and grammar</h3>
           <p>I refer to this misconception later on, but for now I&#39;ll just say this is untrue. You should adhere to conventional grammar and spelling unless your story starts to not make sense if you don&#39;t. &#39;Flowers for Algernon&#39; by Daniel Keyes is a clear example, so much that the story would have been nonsensical
             if perfect grammar had been used from the start.</p>
 
-          <h4>1.6.3 Show don&#39;t Tell</h4>
+          <h3>1.6.3 Show don&#39;t Tell</h3>
           <p>As a basic rule, description which &#39;shows&#39; should be prioritized before description which &#39;tells&#39;. But there are exceptions, such as:</p>
           <ol>
             <li>To designate a passage of time separating critical &#39;showing&#39; scenes;</li>
@@ -284,16 +283,16 @@ function Story() {
             <li>To describe the character acting on autopilot (e.g. driving for a long period of time without much cognizance of surroundings);</li>
           </ol>
 
-          <h4>1.6.5 	Characters are collections of assorted personality traits</h4>
+          <h3>1.6.5 	Characters are collections of assorted personality traits</h3>
           <p>There is writing advice which instructs that characters are basically a bunch of personality traits, as close to real people you know as possible. This is not a helpful way of thinking about character construction.</p>
           <p>Characters are not meant to be &#39;real people on paper&#39;;  nor are they meant to be a collection of personality traits you think up one rainy day. Characters are motivation. You create characters out of necessity — because you need
             a character to do some particular thing in the story. They are not there, like so much human wallpaper at a high flying party, to stand around looking attractive and telling jokes and blending into the environment. Characters are instruments.</p>
 
-          <h4>1.6.6 	Verisimilitude, not Truth</h4>
+          <h3>1.6.6 	Verisimilitude, not Truth</h3>
           <p>It&#39;s no defence to a charge that your story is unbelievable or boring or poorly structured or nonsensical to say &#39;but it was like that in real life.&#39; Lots of things, all kinds of things, happen in real life, and most of them aren&#39;t story-worthy.
             Stories aren&#39;t real life like characters aren&#39;t real people.</p>
 
-          <h3 id="post-philosophy-of-story">1.7 The Philosophy of Storytelling</h3>
+          <h2 id="post-philosophy-of-story">1.7 The Philosophy of Storytelling</h2>
           <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don&#39;t want to write about those things, or you can&#39;t, your story won&#39;t be worth telling.</p>
 
           <p>Robert McKee
@@ -309,7 +308,7 @@ function Story() {
           </div>
           <p>Yikes.</p>
 
-          <h3 id="post-medium">1.8 Medium</h3>
+          <h2 id="post-medium">1.8 Medium</h2>
           <p>It&#39;s worth considering whether your story makes the most of your chosen medium (writing/literature). Your story might make a great film, or video game, but a poor novel. Right now, audiences love superhero comics, superhero films and superhero video games, but no one reads superhero novels. The superhero genre seems to need images to work.</p>
           <p>Compare with horror. Most horror is uniquely suited to written media because it&#39;s largely &#39;visual-avoidant&#39; by undermining visual and direct information in favour of other forms (inference, sound, anecdote, etc). For instance, in horror, the last thing you want to do is give away the 'visual' or the 'sighting' prematurely (if at all). Not to say visual horror
             is ineffective — it has the intensity of fireworks, but unfortunately, also has the lifespan of fireworks. The visual horror creator has to keep contriving to put the source of horror out of sight &#39;until later.&#39;</p>
@@ -390,7 +389,7 @@ function Story() {
             </li>
           </ol>
 
-          <h3 id="post-pixar-storytelling">1.9 Pixar Storytelling</h3>
+          <h2 id="post-pixar-storytelling">1.9 Pixar Storytelling</h2>
           <p>Animation company Pixar has a list of tips which it has used in its films:</p>
           <div className="custom-box">
             <ol>

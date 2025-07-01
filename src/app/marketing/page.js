@@ -12,7 +12,7 @@ function Marketing() {
     <Layout>
       {/* 1st Banner Box */}
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
-        <h1 className="uppercase text-xl font-semibold text-yellow mb-2 text-center">Marketing</h1>
+        <h1>Marketing</h1>
 
         <blockquote>
           “Every story would be another story, and unrecognizable if it took up its characters and plot and happened somewhere else...Fiction depends for its life on place. Place is the crossroads of circumstance, the proving ground of, What happened? Who's here? Who's coming?...”
@@ -43,13 +43,13 @@ function Marketing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-purpose-of-a-synopsis">25.1 Purpose of a Synopsis</h3>
+          <h2 id="post-purpose-of-a-synopsis">25.1 Purpose of a Synopsis</h2>
 
           <p>Now that you&#39;ve written your story, you want to think about marketing and publishing. Most publishers require a synopsis to generate interest in your manuscript. This is critical because if the synopsis is no good, they won&#39;t look at your manuscript. However, a synopsis must be written differently to your story.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-a-synopsis">25.2 What Is A Synopsis?</h3>
+          <h2 id="post-what-is-a-synopsis">25.2 What Is A Synopsis?</h2>
           <p>A synopsis is a summary of your story. It is not a sample of your ability to write in general, or your ability to write:</p>
 
           <ol>
@@ -66,7 +66,7 @@ function Marketing() {
 
           <p>It is a demonstration of your ability to write plot – which is a demonstration of your structuring ability. Some writers can make interesting characters, snappy, witty dialogue, heart-pounding suspense, etc, but they can&#39;t structure worth a turd. The synopsis is going to demolish that writer, which means their manuscript doesn&#39;t get a look.</p>
 
-          <h4>25.2.1 What Is Structure?</h4>
+          <h3>25.2.1 What Is Structure?</h3>
           <p>There is no separate section of ‘Structure&#39; above, so it&#39;s worth defining here. It should have its own section because, in my opinion, it&#39;s the most important aspect of storytelling. </p>
           <p>The importance of structure is reflected in this comment on Dante's Inferno by translator John Ciardi: it's <i>"power is structural: everything relates to everything else."</i>
             <FootnoteRef text={`DANTE ALIGHIERI,\nDante's Inferno. Translated by JOHN CIARDI.`} />
@@ -84,7 +84,7 @@ function Marketing() {
           <p>If you&#39;re familiar with my E Chain method you will already start to have an intuitive sense of good structure. Note, I originally invented the E Chain as a method for writing synopses; at the ‘back end&#39; of story-writing. I later realised it could be – and should be – pulled in for use at the ‘front end&#39; to create the plot itself, rather than recap it in summary later.  </p>
           <p>If you have written your story (without using E Chain) and plan to use E Chain to write a synopsis, be aware your E Chain synopsis will make a structureless story collapse like a house of cards, worse, avert you to the plot you should have written instead.</p>
 
-          <h5>Structure Is Fractal</h5>
+          <h4>Structure Is Fractal</h4>
           <p>Structure is in arrangement. You have all the ideas, now how do you put them together? Alternatively, you have a single idea, now which ideas go together with that idea, and which don't? Also, structure is like fractals: infinite and goes both ways. You can start really small and each time you zoom out there's a new structural issue.</p>
           <p><u>Big Structure:</u> This is the general plot structure, i.e. 3 or 5 Acts or otherwise.</p>
           <p><u>Small Structure:</u> This is on the level of paragraphs and sentences. Every single sentence has an ideal structure. Pedantic, maybe, but you'll agree it's necessary if you've ever had to reread a sentence for clarity.</p>
@@ -114,13 +114,13 @@ function Marketing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-value-of-a-synopsis">25.3 The Value of a Synopsis</h3>
+          <h2 id="post-the-value-of-a-synopsis">25.3 The Value of a Synopsis</h2>
           <p>Contrary to commonsense, a synopsis is not just valuable to create once you&#39;ve finished writing your story, it&#39;s valuable at all stages of the story-writing process. It&#39;s also worthwhile creating chapter synopses, so that your chapter achieves only as much as needed to perform its purpose. If you do this, you&#39;ll find you don&#39;t need to write your synopsis at the end, because you&#39;ll already have one.</p>
           <p>Still, I accept this is a boring, IKEA set-up, factory-production mode of story-writing. Many writers like to leave some elements of the story for later, make things up as they go, and that&#39;s fine as long as it&#39;s productive. The key thing is to know what&#39;s essential to plan beforehand, and what you can leave up to later inspiration.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-how-to-write-a-synopsis">25.4 How To Write A Synopsis</h3>
+          <h2 id="post-how-to-write-a-synopsis">25.4 How To Write A Synopsis</h2>
           <p>Even though your synopsis is not your story and will not show off your writing ability, you ideally want your synopsis to make your publisher think, ‘I want to read that&#39;. Yes, the synopsis will inevitably water down and spoil your plot and remove all mystery, but realistically, if the publisher doesn&#39;t feel interested by the end of your synopsis, what&#39;s going to convince them to read the manuscript and subsequently want to publish your story?</p>
           <p>Remember, your publisher is a business person. They are not thinking primarily about picking up your manuscript for enjoyment. They are thinking about marketing – the ‘pitch&#39; or the ‘sell&#39; or the ‘hook&#39;. </p>
           <p>Side note: Whether your synopsis is any good doesn&#39;t just depend on the synopsis itself, but also, obviously, your actual product – the story. If you have the reputation you can convince the publisher to publish almost anything. The plot of your first novel needs to be like a flash-bang grenade (gets your attention instantly); subsequent novels can effect more like smoke grenades (subtler, more gradual, but just as powerful). There are some kinds of plots which are big smokers; about which a seasoned writer can get published (on the back of their reputation), and which a first time author cannot.</p>
@@ -130,23 +130,23 @@ function Marketing() {
             <FootnoteRef text={`BOB MAYER,\nFiction Writers&#39; Toolkit.`} />
           </p>
 
-          <h4>21.4.1 Basic Rules</h4>
-          <h5>(1) Obey Your Publisher's Style Guide</h5>
+          <h3>21.4.1 Basic Rules</h3>
+          <h4>(1) Obey Your Publisher's Style Guide</h4>
           <p>Read their submission requirements regarding font, margins, file format, and do what they say. It goes without saying.</p>
 
-          <h5>(2) Fight the temptation to ‘sex&#39; up (i.e. dress up) your manuscript </h5>
+          <h4>(2) Fight the temptation to ‘sex&#39; up (i.e. dress up) your manuscript </h4>
           <p>I mean, crazy fonts, colours, designs, proposed book cover art, tying it up with a red bow, etc. To you, it may look like you love your story so much you want to put the extra effort in to make it look ‘pretty&#39;. But to a publisher it says you&#39;re desperate for some pretty veneer to apologise for typos, a boring plot, dull characters, weak writing, etc. Also, it will seriously backfire when the publisher comes across a typo or other error, because it&#39;ll look like you&#39;ve misapplied your time and effort to selecting a stylish font, when you could&#39;ve been subjecting your work to another proofread. </p>
 
-          <h5>(3) Write your synopsis in present tense</h5>
+          <h4>(3) Write your synopsis in present tense</h4>
           <p>For example, '... Bill goes to investigate the noise and finds his girlfriend's maimed, lifeless body...' Present tense will make your story sound like it's happening and it's now, and you need all the help you can get in making your story sound punchy and action-packed. Past tense sounds like you're telling an informal anecdote (and waters down action by suggesting everyone lived to tell the tale in the future). Future tense sounds too gimmicky, e.g. '...Bill goes to investigate the noise, not realising that he is about to have his world destroyed...' Rather than say 'Bill is about to XYZ', why not just say what he actually sees?</p>
 
-          <h5>(4) Avoid Redundancy</h5>
+          <h4>(4) Avoid Redundancy</h4>
           <p>Considering how short your synopsis should be, that last thing you want to do is waste precious words repeating yourself. Here&#39;s an example: </p>
           <p><code><i>When Sally's mother dies unexpectedly, Sally is left reeling and barely able to cope. At the funeral, Sally drops to the ground and screams until her relatives take her out. </i></code></p>
           <p>The bit about Sally ‘reeling&#39; and unable to cope is redundant because if she falls to pieces at the funeral, it goes without saying that she is reeling and barely able to cope. You could rewrite it as:</p>
           <p><code><i>Sally&#39;s mother dies unexpectedly. At the funeral, Sally drops to the ground and screams until her relatives take her out. </i></code></p>
 
-          <h4>21.4.2 The 3-Step Method</h4>
+          <h3>21.4.2 The 3-Step Method</h3>
           <p>When writing a synopsis you might be tempted to set out your plot in detail and then cut it down to the size requirement (e.g. 2 pages). The difficulty there is you might struggle to grasp which plot points in your story are integral, compared to details which you can leave out. </p>
           <p>Another way of doing it, however, is to go the opposite route – start tiny and expand:</p>
           <p>Step 1: three sentences:</p>
@@ -273,7 +273,7 @@ function Marketing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-a-logline">25.5 What Is A Logline?</h3>
+          <h2 id="post-what-is-a-logline">25.5 What Is A Logline?</h2>
 
           <p>In Dante&#39;s Inferno, the punishment of writing a logline sits between the 5th-6th level of Hell. You do it over and over until you get it right (you never do). If it sounds scary, don&#39;t worry, you have to murder about 10 people to be punished with it in the afterlife. </p>
           <p>A logline is your story in one sentence. In screenwriting they sometimes call this an ‘elevator pitch,&#39; the idea being that your pitch should not exceed the duration of a standard elevator ride. A publisher may not even be that generous.</p>
@@ -283,19 +283,19 @@ function Marketing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-the-purpose-of-a-logline">24.2 The Purpose of a Logline</h3>
+          <h2 id="post-the-purpose-of-a-logline">24.2 The Purpose of a Logline</h2>
           <p>Some publishers demand them. Even if the publisher doesn&#39;t ask for it, it&#39;s worth writing one anyway, because you can use it for marketing your story; even if you&#39;re published your publisher may or may not require you to do marketing activities, like book signings, interviews, etc. Having a rehearsed line is better than making something up on the spot, or rambling, or accidentally spoiling your story to a potential reader. </p>
           <p>Even if no one ever sees your logline, it&#39;s still useful for personal, story-planning purposes. It tells you what your story is supposed to do, and gives you a simple direction to follow. When you get lost or your story gets too complicated, you can look at your logline and remind yourself what you&#39;re writing.</p>
           <p>A bad logline may be a warning bell that your story sucks. When all it takes is writing one single sentence, wouldn&#39;t you rather save time doing that litmus test, than discovering it after committing 150,000 long words?</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-features-of-a-good-logline">24.3 Features of a Good Logline</h3>
+          <h2 id="post-features-of-a-good-logline">24.3 Features of a Good Logline</h2>
           <p>Blake Snyder lists features of good loglines, including:
             <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
           </p>
 
-          <h4>24.3.1 	Irony</h4>
+          <h3>24.3.1 	Irony</h3>
           <p>A good logline uses irony to grab the reader&#39;s interest – irony, not merely coincidence. I defined irony above; remember the difference between irony (opposite) and coincidence (similarity).</p>
           <p>Using a logline for Harry Potter and the Philosopher&#39;s Stone as an example:</p>
 
@@ -308,14 +308,14 @@ function Marketing() {
           <p className="indent-8 mb-2">A cop comes to L.A. to visit his estranged wife and her office building is taken over by terrorists.<FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
           <p className="indent-8 mb-2">A businessman falls in love with a hooker he hires to be his date for the weekend.<FootnoteRef text={<><em>Pretty Woman</em>, Touchstone Pictures, (1990).</>} /> </p>
 
-          <h4>24.3.2 	Entire Story</h4>
+          <h3>24.3.2 	Entire Story</h3>
           <p>A good logline will comprise a compelling mental picture. It will ignite the promise of your whole story, i.e. you know where it&#39;s going to go. You may not know down to precise detail, but you&#39;ll get the gist of the overall structure; the protagonist, their goal, their obstacle, and the possible outcome/s.</p>
 
-          <h4>24.3.2 	Killer Title</h4>
+          <h3>24.3.2 	Killer Title</h3>
           <p>I dealt with this already, but a good logline is completed with a good title. If pressed for time, the two bits of information a person will want about your story is the logline, and the title. A publisher might not care so much about the title, but the general public do.</p>
           <p>A good title says what it is; like the logline, what you read is what you get. </p>
 
-          <h4>24.3.3 	Logline Template</h4>
+          <h3>24.3.3 	Logline Template</h3>
           <p>Blake Snyder  has a ready template to construct a logline around a straightforward ‘A Story&#39;:</p>
           <p className="indent-8 mb-2">[On the verge] of a [Stasis = Death moment], a flawed protagonist [Breaks into Two]; but when the [Midpoint] happens, he/she must learn the [Theme Stated], before [All Is Lost]. </p>
 
@@ -403,7 +403,7 @@ function Marketing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-loglines-need-causation">24.4 Loglines Need Causation</h3>
+          <h2 id="post-loglines-need-causation">24.4 Loglines Need Causation</h2>
           <p>In this age of loglines and elevator pitches we're pressured to think of our stories as single sentences which encapulate the entire plot. You can make your story idea so simple that it obliterates causation, which doesn't help in the planning stages, where you're trying to link necessary plot events together. </p>
 
           <p>Compare these summaries:
@@ -424,7 +424,7 @@ function Marketing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-what-is-an-effective-title">25.9: What is An Effective Title?</h3>
+          <h2 id="post-what-is-an-effective-title">25.9: What is An Effective Title?</h2>
 
           <p>Some writers may defer this stage until they finish the story, but I recommend creating a list of possible titles for your story as you write it, continually adding or subtracting from the list as you think of a new one. </p>
           <p>Effective titles tend to have some things in common:</p>
@@ -486,7 +486,7 @@ function Marketing() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h3 id="post-tips">25.10: Tips</h3>
+          <h2 id="post-tips">25.10: Tips</h2>
 
           <p>Go for shorter, punchier titles.</p>
           <p>Should evoke interest, make the person want to pick up the book and start reading. If a horror story, should raise a suggestion of horror, i.e. 'that sounds scary'. Avoid genre-bending, i.e. a horror story with a 'soft' title misleadingly making it sound like a sentimental drama.</p>
