@@ -155,13 +155,15 @@ function Plot() {
           <p>Sub-plots are not only conceptually plots in miniature, they also resemble them in form. They have their own Act structure, Inciting Incidents, and climaxes. However, a sub plot may comprise of a single Act, or more. You can have multiple subplots, and they can overlap. You can also retire subplots for periods at a time, only to resolve them much later. Climaxes for sub-plots and the main plot can also happen in the same scene, e.g. the protagonist defeats the villain (climax of main plot) and by doing so, wins object of affection&#39;s love (climax of subplot).</p>
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            also says that main plots and subplots can have different protagonists (though I&#39;m struggling to see how this would work). My caveat is, if you do this, ensure:</p>
+            also says that main plots and subplots can have different protagonists . My caveat is, if you do this, ensure:</p>
 
-          <ol>
-            <li>The subplot/s tie back into the main plot&#39;s theme, i.e. the sub-plots are variations on a theme;</li>
-            <li>The subplot protagonist lives in the same world, or a connected world to the main protagonist. For example, Atreyu and Bastien in The Neverending Story lived in different worlds, but their worlds were interconnected enough for Bastien to be able to visit Atreyu&#39;s world, and for both characters to affect each other. </li>
-            <li>The subplot protagonist&#39;s character reflects the main protagonist&#39;s character, whether alike, a foil, an invert, a branching off parallelism, etc. I.e. the protagonists aren&#39;t completely unrelated people who could just be any random strangers in the street.</li>
-          </ol>
+          <div className="custom-box">
+            <ol>
+              <li>The subplot/s tie back into the main plot&#39;s theme, i.e. the sub-plots are variations on a theme;</li>
+              <li>The subplot protagonist lives in the same world, or a connected world to the main protagonist. For example, Atreyu and Bastien in The Neverending Story lived in different worlds, but their worlds were interconnected enough for Bastien to be able to visit Atreyu&#39;s world, and for both characters to affect each other. </li>
+              <li>The subplot protagonist&#39;s character reflects the main protagonist&#39;s character, whether alike, a foil, an invert, a branching off parallelism, etc. I.e. the protagonists aren&#39;t completely unrelated people who could just be any random strangers in the street.</li>
+            </ol>
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -201,33 +203,29 @@ function Plot() {
           <p className="text-sm mb-4 font-rubik font-bold">#1 Beauty and the Beast:</p>
 
           <div className="custom-box">
-            <p className="text-sm mb-4 font-rubik underline">Act 1: </p>
-            <ol>
-              <li>[Protagonist&#39;s starting position] Country village </li>
-              <li>[Protagonist&#39;s direction] dreams of fairytale romance in some distant location with prince.</li>
-              <ol className="list-decimal list-inside mb-4 mt-4 font-rubik underline">
-                <li>Act 1 right angle: [New position] Scary castle with monster.</li>
-              </ol>
+            <ol className="numbered">
+              <li>Act 1:
+                <ol>
+                  <li><span className="bg-yellow">[Protagonist's starting position]</span> Country village</li>
+                  <li>[Protagonist's direction] dreams of fairytale romance in some distant location with prince.</li>
+                  <li>Act 1 right angle: [New position] Scary castle with monster.</li>
+                </ol>
+              </li>
+              <li>Act 2:
+                <ol>
+                  <li><span className="bg-yellow">[Position]</span> Captive of monster in scary castle</li>
+                  <li><span className="bg-llllBlue">[Protagonist's direction]</span> dreams of fairytale romance in some distant location with prince.</li>
+                  <li>Act 2 right angle: <span className="bg-volt">[New position]</span> Falling in love with monster.</li>
+                </ol>
+              </li>
+              <li>Act 3:
+                <ol>
+                  <li><span className="bg-yellow">[Position]</span> Falling in love with monster.</li>
+                  <li>Act 3 right angle: <span className="bg-volt">[New position]</span> Monster is not a monster but prince.</li>
+                  <li>Conclusion: Protagonist ends up where they dreamed of in the first place.</li>
+                </ol>
+              </li>
             </ol>
-
-            <p className="text-sm mb-4 font-rubik underline">Act 2: </p>
-            <ol>
-              <li>[Position] Captive of monster in scary castle  </li>
-              <ol>
-                <li><span className="underline">Act 2 right angle:</span> [New position] Falling in love with monster. </li>
-              </ol>
-            </ol>
-
-            <p className="text-sm mb-4 font-rubik underline">Act 3: </p>
-            <ol>
-              <li>[Position] Falling in love with monster.  </li>
-              <ol>
-                <li><span className="underline">Act 3 right angle:</span> [New position] Monster is not a monster but prince. </li>
-              </ol>
-            </ol>
-
-            <p>Conclusion: Protagonist ends up where they dreamed of in the first place.</p>
-
           </div>
 
           <p className="text-sm mb-4 font-rubik font-bold">#2 The Shawshank Redemption:</p>
@@ -629,7 +627,7 @@ function Plot() {
             is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 id="post-plot-comments">Leave a Comment</h1>
+          <h1 id="post-plot-comments" className="text-base text-llBlue bg-bootstrapDark p-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />

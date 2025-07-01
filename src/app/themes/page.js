@@ -165,7 +165,7 @@ function Themes() {
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
-          <h1 id="post-themes-comments">Leave a Comment</h1>
+          <h1 id="post-themes-comments" className="text-base text-llBlue bg-bootstrapDark p-4">Leave a Comment</h1>
 
           <CommentForm />
           <CommentList />

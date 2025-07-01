@@ -242,3 +242,11 @@ Stuff to check:
 - [ ] check all index links work and are correct
 - [ ] change all quote boxes to the blockquote br format
 - [ ] replace tailwind classname's with custom classes, e.g. shorten h2, h3....s to < h3 > and p.... to < p > 
+
+
+
+
+
+intertext links:
+SEARCH:
+(see 6.5 Diametrics)
