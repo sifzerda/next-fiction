@@ -51,7 +51,7 @@ function Header() {
     Fiction Map
   </h1>
 
-  {/* Make this responsive: full width up to md, then wider on md+ and lg+ */}
+  {/* Responsive: full width up to md, then wider on md+ and lg+ */}
   <div className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[384px] lg:max-w-[500px] h-8 overflow-hidden">
     <SearchBar data={searchIndex} />
   </div>
