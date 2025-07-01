@@ -33,57 +33,66 @@ function Header() {
   }
 
   return (
-   <header
-  className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white shadow border-b-2"
-  style={{ borderBottomColor: "yellow", borderBottomStyle: "ridge" }}>
-  {/* Title visible only on mobile, centered */}
-  <div className="sm:hidden px-6 py-5" style={{ minHeight: "5rem" }}>
-    <h1 className="font-edu text-5xl text-llBlue drop-shadow-sm leading-none text-center">
-      Fiction Map
-    </h1>
-  </div>
+    <header
+      className="fixed top-0 left-0 w-full z-50 bg-bootstrapDark text-white shadow border-b-2"
+      style={{ borderBottomColor: "yellow", borderBottomStyle: "ridge" }}>
+      {/* Title visible only on mobile, centered */}
+      <div className="sm:hidden px-6 py-5" style={{ minHeight: "5rem" }}>
+        <h1 className="font-edu text-5xl text-llBlue drop-shadow-sm leading-none text-center">
+          Fiction Map
+        </h1>
+      </div>
 
-{/* Top Row: Title left, Search right on sm+ */}
-<div
-  className="hidden sm:flex items-center justify-between px-6 py-5"
-  style={{ minHeight: "5rem" }}>
-  <h1 className="font-edu text-4xl text-llBlue drop-shadow-sm leading-none text-left">
-    Fiction Map
-  </h1>
+      {/* Top Row: Title left, Search right on sm+ */}
+      <div
+        className="hidden sm:flex items-center justify-between px-6 py-5"
+        style={{ minHeight: "5rem" }}>
+        <h1 className="font-edu text-4xl text-llBlue drop-shadow-sm leading-none text-left">
+          Fiction Map
+        </h1>
 
-  {/* Responsive: full width up to md, then wider on md+ and lg+ */}
-  <div className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[384px] lg:max-w-[500px] h-8 overflow-hidden">
-    <SearchBar data={searchIndex} />
-  </div>
-</div>
+        {/* Responsive: full width up to md, wider on md+ and lg+ */}
+        <div className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[384px] lg:max-w-[500px] h-8 overflow-hidden">
+          <SearchBar data={searchIndex} />
+        </div>
+      </div>
 
-  {/* Navigation Row */}
-  <nav className="flex items-center justify-center px-6 py-2 sm:pt-0">
-    <ul className="flex flex-col sm:flex-row justify-center text-center items-stretch sm:items-center max-sm:gap-0 gap-4 w-full sm:w-auto">
-      {links.map(({ href, label, onClick }) => (
-        <li key={label}>
-          {onClick ? (
-            <button
-              onClick={onClick}
-              className="block uppercase border border-llBlue px-2 py-1 rounded hover:text-yellow hover:border-yellow transition cursor-pointer bg-transparent text-llBlue text-sm">
-              {label}
-            </button>
-          ) : (
-            <Link
-              href={href}
-              className={`block uppercase border border-llBlue px-2 py-1 rounded hover:text-yellow hover:border-yellow transition text-llBlue text-sm ${
-                pathname === href ? "font-semibold text-white" : ""}`}>
-              {label}
-            </Link>
-          )}
-        </li>
-      ))}
-    </ul>
-  </nav>
+      {/* Navigation Row */}
+      <nav className="flex items-center justify-center px-6 py-2 sm:pt-0">
+        <ul className="flex flex-col sm:flex-row justify-center 
+        text-center items-stretch 
+        sm:items-center max-sm:gap-0 gap-4 w-full sm:w-auto">
+          {links.map(({ href, label, onClick }) => (
+            <li key={label}>
+              {onClick ? (
+                <button
+                  onClick={onClick}
+                  className="block uppercase border border-llBlue px-2 py-1 rounded 
+                  hover:text-yellow hover:border-yellow transition cursor-pointer 
+                  bg-transparent text-llBlue text-sm">
+                  {label}
+                </button>
+              ) : (
+                <Link
+                  href={href}
+                  className={`block uppercase border border-llBlue px-2 py-1 rounded
+                              hover:text-yellow hover:border-yellow
+                              active:border-white
+                              transition text-llBlue text-sm
+                  ${pathname === href ? "font-semibold text-white border-white" : ""}
+                  `}
+                >
+                  {label}
+                </Link>
+              )}
+            </li>
+          ))}
+        </ul>
+      </nav>
 
-  {/* Search bar below nav on mobile */}
-  <div className="px-6 py-4 sm:hidden">
-    <SearchBar data={searchIndex} />
+      {/* Search bar below nav on mobile */}
+      <div className="px-6 py-4 sm:hidden">
+        <SearchBar data={searchIndex} />
       </div>
     </header>
   );
