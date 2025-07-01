@@ -35,20 +35,29 @@ function FootnoteRef({ text }) {
       className="relative cursor-pointer inline-block"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}>
-      <sup className="text-blue-500 text-xs align-super">
+      <sup
+        className={`
+    text-xs 
+    align-super 
+    transition-colors duration-200
+    ${hovered ? 'text-black' : 'text-midBlue'}
+  `}
+      >
         {indexRef.current}
       </sup>
+      {/* ------------ tooltip box ---------------*/}
       {hovered && (
         <span
-  className={`
+          className={`
     absolute top-1/2 -translate-y-1/2 
-    bg-gray-900 border border-yellow text-yellow rounded-sm text-xs px-3 py-3 border border-gray-600 shadow-md z-50 
+    bg-gray-900 border border-yellow text-yellow rounded-sm text-xs px-3 py-3 
+    border border-gray-600 shadow-md z-50 
     whitespace-pre-line inline-block text-left leading-normal min-w-[200px]
     ${positionLeft ? 'right-full mr-3' : 'left-full ml-3'}
   `}
-  style={{ maxWidth: '220px' }}>
-  {text}
-</span>
+          style={{ maxWidth: '220px' }}>
+          {text}
+        </span>
       )}
     </span>
   );
