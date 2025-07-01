@@ -305,8 +305,10 @@ function Marketing() {
           <p>It&#39;s easy to see which logline is makes for a more interesting story.</p>
 
           <p>Here are some more examples of ironic loglines:</p>
-          <p className="indent-8 mb-2">A cop comes to L.A. to visit his estranged wife and her office building is taken over by terrorists.<FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
-          <p className="indent-8 mb-2">A businessman falls in love with a hooker he hires to be his date for the weekend.<FootnoteRef text={<><em>Pretty Woman</em>, Touchstone Pictures, (1990).</>} /> </p>
+          <p className="indent-8 mb-2">A cop comes to L.A. to visit his estranged wife and her office building is taken over by terrorists.
+            <FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
+          <p className="indent-8 mb-2">A businessman falls in love with a hooker he hires to be his date for the weekend.
+            <FootnoteRef text={<><em>Pretty Woman</em>, Touchstone Pictures, (1990).</>} /> </p>
 
           <h3>24.3.2 	Entire Story</h3>
           <p>A good logline will comprise a compelling mental picture. It will ignite the promise of your whole story, i.e. you know where it&#39;s going to go. You may not know down to precise detail, but you&#39;ll get the gist of the overall structure; the protagonist, their goal, their obstacle, and the possible outcome/s.</p>
