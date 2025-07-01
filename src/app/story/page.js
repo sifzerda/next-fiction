@@ -184,7 +184,7 @@ function Story() {
             <li>Descent into the underworld (The Orphic Myth);</li>
           </ol>
 
-          <h3>1.4.1 Rise or Fall?</h3>
+          <h3>1.3.1 Rise or Fall?</h3>
 
           <p>This raises the question; should your story (more importantly, your protagonist)
             rise or fall?</p>
@@ -210,7 +210,7 @@ function Story() {
           <p>Also, make the protagonist&#39;s rise/loss proportionate to the radicalism of their beliefs; a protagonist who is spectacularly polarised should
             fail spectacularly; a protagonist whose beliefs are more nuanced or equivocal may fail partly and win partly.</p>
 
-          <h2 id="post-joseph-campbell-myths">1.5 Joseph Campbell&#39;s Myths</h2>
+          <h2 id="post-joseph-campbell-myths">1.4 Joseph Campbell&#39;s Myths</h2>
 
           <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being &#39;The Adventure of the Hero,&#39;
             more commonly known as <i>&#39;The Hero&#39;s Journey.&#39;</i>
@@ -225,8 +225,8 @@ function Story() {
           <p>For a detailed summary of the Hero's Journey, see
             <Link href="/herojourney" className="text-midBlue hover:underline"> this page.</Link></p>
 
-          <h2 id="post-myths-and-misconceptions">1.6 Myths and Misconceptions</h2>
-          <h3>1.6.1 Write What You Know</h3>
+          <h2 id="post-myths-and-misconceptions">1.5 Myths and Misconceptions</h2>
+          <h3>1.5.1 Write What You Know</h3>
           <p>Writers are commonly instructed to &#39;Write what [they] know.&#39; But, as Alice LaPlante says, this can be limiting.
             <FootnoteRef text={`ALICE LaPLANTE,\nThe Making of a Story: A Norton Guide to Creative Writing.`} />
             <i>"Write about what you don't know about what you know," </i> Eudora Welty suggests. Take what you know and create a mystery from it; you might see your accountant
@@ -238,7 +238,7 @@ function Story() {
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             calls &#39;the personal story,&#39; — basically a fictionalized diary entry.</p>
 
-          <h3>1.6.2 	Don&#39;t Take Ideas from Other Writers</h3>
+          <h3>1.5.2 	Don&#39;t Take Ideas from Other Writers</h3>
           <p>Anyone who gives a blanket proscription against &#39;stealing&#39; ideas (it&#39;s not really &#39;borrowing&#39; if you never give them back) is out of touch with writing practice.
             99% of fiction writers are readers of other fiction writers, or &#39;fans&#39;, and hence get their ideas from someone else. However, some forms of &#39;copying&#39; (or more politically correct: &#39;drawing inspiration&#39;)
             are more permissible than others:</p>
@@ -270,11 +270,11 @@ function Story() {
           <p>In contrast, do you remember a time you&#39;ve read a book and thought &#39;How did that turn out so bad? That could&#39;ve been really good.&#39; Those are the books you want to steal from. You want to rewrite the book the way you think it should&#39;ve gone. Even if the story is well
             known, this form of copying is more permissible because you are making active changes to the story.</p>
 
-          <h3>1.6.2 Slavishly adhere to good spelling and grammar</h3>
+          <h3>1.5.3 Slavishly adhere to good spelling and grammar</h3>
           <p>I refer to this misconception later on, but for now I&#39;ll just say this is untrue. You should adhere to conventional grammar and spelling unless your story starts to not make sense if you don&#39;t. &#39;Flowers for Algernon&#39; by Daniel Keyes is a clear example, so much that the story would have been nonsensical
             if perfect grammar had been used from the start.</p>
 
-          <h3>1.6.3 Show don&#39;t Tell</h3>
+          <h3>1.5.4 Show don&#39;t Tell</h3>
           <p>As a basic rule, description which &#39;shows&#39; should be prioritized before description which &#39;tells&#39;. But there are exceptions, such as:</p>
           <ol>
             <li>To designate a passage of time separating critical &#39;showing&#39; scenes;</li>
@@ -283,18 +283,18 @@ function Story() {
             <li>To describe the character acting on autopilot (e.g. driving for a long period of time without much cognizance of surroundings);</li>
           </ol>
 
-          <h3>1.6.5 	Characters are collections of assorted personality traits</h3>
+          <h3>1.5.5 	Characters are collections of assorted personality traits</h3>
           <p>There is writing advice which instructs that characters are basically a bunch of personality traits, as close to real people you know as possible. This is not a helpful way of thinking about character construction.</p>
           <p>Characters are not meant to be &#39;real people on paper&#39;;  nor are they meant to be a collection of personality traits you think up one rainy day. Characters are motivation. You create characters out of necessity — because you need
             a character to do some particular thing in the story. They are not there, like so much human wallpaper at a high flying party, to stand around looking attractive and telling jokes and blending into the environment. Characters are instruments.</p>
 
-          <h3>1.6.6 	Verisimilitude, not Truth</h3>
+          <h3>1.5.6 	Verisimilitude, not Truth</h3>
           <p>It&#39;s no defence to a charge that your story is unbelievable or boring or poorly structured or nonsensical to say &#39;but it was like that in real life.&#39; Lots of things, all kinds of things, happen in real life, and most of them aren&#39;t story-worthy.
             Stories aren&#39;t real life like characters aren&#39;t real people.</p>
 
           <hr />
 
-          <h2 id="post-philosophy-of-story">1.7 The Philosophy of Storytelling</h2>
+          <h2 id="post-philosophy-of-story">1.6 The Philosophy of Storytelling</h2>
           <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don&#39;t want to write about those things, or you can&#39;t, your story won&#39;t be worth telling.</p>
 
           <p>Robert McKee
@@ -312,7 +312,7 @@ function Story() {
 
           <hr />
 
-          <h2 id="post-medium">1.8 Medium</h2>
+          <h2 id="post-medium">1.7 Medium</h2>
           <p>It&#39;s worth considering whether your story makes the most of your chosen medium (writing/literature). Your story might make a great film, or video game, but a poor novel. Right now, audiences love superhero comics, superhero films and superhero video games, but no one reads superhero novels. The superhero genre seems to need images to work.</p>
           <p>Compare with horror. Most horror is uniquely suited to written media because it&#39;s largely &#39;visual-avoidant&#39; by undermining visual and direct information in favour of other forms (inference, sound, anecdote, etc). For instance, in horror, the last thing you want to do is give away the 'visual' or the 'sighting' prematurely (if at all). Not to say visual horror
             is ineffective — it has the intensity of fireworks, but unfortunately, also has the lifespan of fireworks. The visual horror creator has to keep contriving to put the source of horror out of sight &#39;until later.&#39;</p>
@@ -393,7 +393,7 @@ function Story() {
             </li>
           </ol>
 
-          <h2 id="post-pixar-storytelling">1.9 Pixar Storytelling</h2>
+          <h2 id="post-pixar-storytelling">1.8 Pixar Storytelling</h2>
           <p>Animation company Pixar has a list of tips which it has used in its films:</p>
           <div className="custom-box">
             <ol>
@@ -452,11 +452,11 @@ function Story() {
               <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">1.1 Storytelling</a></li>
               <li className="mb-px"><a href="#post-what-is-a-story" className="hover:underline hover:text-white">1.2 What Is A Story?</a></li>
               <li className="mb-px"><a href="#post-main-elements-of-story" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a></li>
-              <li className="mb-px"><a href="#post-joseph-campbell-myths" className="hover:underline hover:text-white">1.5 Joseph Campbell&#39;s Myths</a></li>
-              <li className="mb-px"><a href="#post-myths-and-misconceptions" className="hover:underline hover:text-white">1.6 Myths and Misconceptions</a></li>
-              <li className="mb-px"><a href="#post-philosophy-of-story" className="hover:underline hover:text-white">1.7 The Philosophy of Storytelling</a></li>
-              <li className="mb-px"><a href="#post-medium" className="hover:underline hover:text-white">1.8 Medium</a></li>
-              <li className="mb-px"><a href="#post-pixar-storytelling" className="hover:underline hover:text-white">1.9 Pixar Storytelling</a></li>
+              <li className="mb-px"><a href="#post-joseph-campbell-myths" className="hover:underline hover:text-white">1.4 Joseph Campbell&#39;s Myths</a></li>
+              <li className="mb-px"><a href="#post-myths-and-misconceptions" className="hover:underline hover:text-white">1.5 Myths and Misconceptions</a></li>
+              <li className="mb-px"><a href="#post-philosophy-of-story" className="hover:underline hover:text-white">1.6 The Philosophy of Storytelling</a></li>
+              <li className="mb-px"><a href="#post-medium" className="hover:underline hover:text-white">1.7 Medium</a></li>
+              <li className="mb-px"><a href="#post-pixar-storytelling" className="hover:underline hover:text-white">1.8 Pixar Storytelling</a></li>
               <li className="mb-px"><a href="#post-story-comments" className="hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
