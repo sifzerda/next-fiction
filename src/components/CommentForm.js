@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from 'react';
-import { usePathname } from 'next/navigation'; // <-- import this to get the current route
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation"; // <-- import this to get the current route
 
 function decodeJWT(token) {
   try {

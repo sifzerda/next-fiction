@@ -1,7 +1,7 @@
 // FootnoteRef.js
-'use client';
+"use client";
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 import useFootnoteStore from '../utils/footnoteStore.js';
 
 function FootnoteRef({ text }) {

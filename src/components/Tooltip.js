@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from "react";
 
 export default function Tooltip({ number, text }) {
   const [visible, setVisible] = useState(false);

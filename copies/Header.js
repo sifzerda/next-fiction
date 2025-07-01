@@ -1,8 +1,8 @@
 // src/components/Header.js (header + navigation bar)
 "use client";
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
 
 function Header() {
   const pathname = usePathname();

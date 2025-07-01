@@ -1,8 +1,8 @@
 // src/components/Sidebar.js
-'use client';
+"use client";
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
 
 function Sidebar() {
   const pathname = usePathname();

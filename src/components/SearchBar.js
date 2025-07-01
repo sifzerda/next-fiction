@@ -1,8 +1,8 @@
 // app/components/SearchBar.jsx
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function SearchBar() {
   const [query, setQuery] = useState('');
@@ -15,13 +15,13 @@ export default function SearchBar() {
   };
 
   return (
-<form onSubmit={handleSubmit} className="flex w-full h-full">
-  <input
-    type="text"
-    placeholder="Search by keyword..."
-    value={query}
-    onChange={(e) => setQuery(e.target.value)}
-    className="
+    <form onSubmit={handleSubmit} className="flex w-full h-full">
+      <input
+        type="text"
+        placeholder="Search by keyword..."
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        className="
       flex-grow
       px-2 py-1
       border border-llBlue
@@ -34,10 +34,9 @@ export default function SearchBar() {
       hover:border-yellow
       transition
     "
-  />
-  <button
-    type="submit"
-    className="
+      />
+      <button
+        type="submit" className="
       px-4
       border border-l-0 border-llBlue
       bg-bootstrapDark
@@ -52,9 +51,9 @@ export default function SearchBar() {
       flex items-center justify-center
       whitespace-nowrap
     "
-  >
-    Search
-  </button>
-</form>
+      >
+        Search
+      </button>
+    </form>
   );
 }
