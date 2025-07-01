@@ -35,15 +35,33 @@ function About() {
           <h3 className="text-xl font-bold mb-2 text-center">About this Site</h3>
 
           <p>
-            This is a smaller sibling blog to my other site Fiction Map. It's a resource
-            for writers looking to improve their craft and write scarier, better horror stories.
+            This is a blog which stores a collection of advice and tips for fiction writing. It's a resource
+            for writers looking to improve their craft and write better, more effective stories.
           </p>
 
-          <p className="text-sm font-rubik">
-            Horror is a special genre. It is definable by what it does not possess:
-            clear plot goals, antagonists, positive themes, tidy resolutions, and happy endings.
-            If a reader is left with an overall sense of dread, confusion, bewilderment and upset, according
-            to other genres, the story is a failure...
+          <p>
+          The blog covers various topics, including: 
+          storytelling, 
+          premise, 
+          plot construction, 
+          themes, 
+          conflict building, 
+          scenes, 
+          main characters, 
+          supporting characters, 
+          setting selection, 
+          subtext, descriptions, 
+          dialogue-writing, 
+          suspense-building, 
+          POV, 
+          voice, 
+          antagonists, 
+          beginnings, 
+          middles, 
+          endings, 
+          miscellaneous writing devices, 
+          editing, and 
+          marketing tools.
           </p>
 
         </div>
