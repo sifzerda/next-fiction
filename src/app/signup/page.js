@@ -55,24 +55,32 @@ function Signup() {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
-                className="bg-bootstrapDark p-2 border border-gray-300 rounded text-llBlue placeholder-gray-400 focus:outline-none focus:border-yellow" />
+                className="bg-bootstrapDark p-2 border border-gray-300 
+                rounded text-llBlue placeholder-gray-400 
+                focus:outline-none focus:border-yellow" />
               <input
                 type="email"
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="bg-bootstrapDark p-2 border border-gray-300 rounded text-llBlue placeholder-gray-400 focus:outline-none focus:border-yellow" />
+                className="bg-bootstrapDark p-2 border border-gray-300 
+                rounded text-llBlue placeholder-gray-400 
+                focus:outline-none focus:border-yellow" />
               <input
                 type="password"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                className="bg-bootstrapDark p-2 border border-gray-300 rounded text-llBlue placeholder-gray-400 focus:outline-none focus:border-yellow" />
+                className="bg-bootstrapDark p-2 border border-gray-300 rounded 
+                text-llBlue placeholder-gray-400 
+                focus:outline-none focus:border-yellow" />
               <button
                 type="submit"
-                className="bg-yellow text-black font-semibold py-2 px-4 rounded hover:bg-llBlue hover:text-white transition">
+                className="bg-yellow text-black font-semibold 
+                py-2 px-4 rounded 
+                hover:bg-llBlue hover:text-white transition">
                 Sign Up
               </button>
               {message && (
