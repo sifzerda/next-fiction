@@ -229,7 +229,6 @@ intertext links:
 SEARCH:
 (see 6.5 Diametrics)
 
-
 footnotes are not resetting on page switch (they're accumulating)
 there's a p descedent of p hydration error on The Next Words page somewhere
 
