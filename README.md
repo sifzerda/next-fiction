@@ -162,10 +162,7 @@ banners are 1200 x 400
     - [ ] title 
     - [ ] logline
     - [ ] synopsis
-- [x] Fix up main nav tab pages: Portfolio page, contact page, about, etc.
-- [x] fill in About summary cards for each chapter
-- [x] change bs-light gold boxes to 'custom light box' (pale yellow)
-- [x] either move footnotes below thought section, or shift footnotes into tooltips which display on ft# hover
+
 - [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
 - add quotes for each chapter:
     - [x] story
@@ -196,9 +193,6 @@ banners are 1200 x 400
 
 - [ ] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
-- [x] remove the blue footnotes sections out of each chapter
-- [x] style the footnotes with black tooltip styling
-- [x] style the under the volcano part in scenes like the nexus stuff (with footnotes)
 
 Changes:
 
@@ -224,22 +218,10 @@ ADD IDs to pages to find chunks via search (optional)
 
 - once page content all finished, reIndex with extract-text.js
 
-PAGES TO DO:
-
-- [x] description
-- [x] dialogue
-- [x] voice
-- [x] antagonists
-- [x] the first words
-- [x] the next words
-- [x] the last words
-- [x] writing devices + writer's block
-- [x] marketing: title + synopsis + logline
-- [x] references
-
 Stuff to check:
 - [ ] every page has an index link to comments
 - [ ] check all index links work and are correct
+
 - [ ] change all quote boxes to the blockquote br format
 - [ ] replace tailwind classname's with custom classes, e.g. shorten h2, h3....s to < h3 > and p.... to < p > 
 
@@ -253,8 +235,7 @@ there's a p descedent of p hydration error on The Next Words page somewhere
 
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 
-
-
+- a whole bunch of 'also see' links are wrong
 
 OVERALL FORMATTING STYLING:
 

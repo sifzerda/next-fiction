@@ -199,7 +199,7 @@ function Antagonists() {
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="/conflict" className="hover:underline hover:text-white">Conflict</a></li>
               <li className="mb-px"><a href="/mainCharacters" className="hover:underline hover:text-white">Main Characters</a></li>
-              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a></li>
+              <li className="mb-px"><a href="/secondaryCharacters" className="hover:underline hover:text-white">Secondary Characters</a></li>
             </ol>
           </div>
 

@@ -665,7 +665,7 @@ function Plot() {
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="/story" className="hover:underline hover:text-white">Story</a></li>
               <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
-              <li className="mb-px"><a href="/title" className="hover:underline hover:text-white">Title</a></li>
+              <li className="mb-px"><a href="/marketing" className="hover:underline hover:text-white">Marketing</a></li>
             </ol>
           </div>
 

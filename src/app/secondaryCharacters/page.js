@@ -112,9 +112,9 @@ function SecondaryCharacters() {
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Main Characters</a></li>
-              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Dialogue</a></li>
-              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">POV</a></li>
+              <li className="mb-px"><a href="/mainCharacters" className="hover:underline hover:text-white">Main Characters</a></li>
+              <li className="mb-px"><a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a></li>
+              <li className="mb-px"><a href="/pov" className="hover:underline hover:text-white">POV</a></li>
             </ol>
           </div>
 

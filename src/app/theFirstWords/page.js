@@ -451,7 +451,7 @@ function TheFirstWords() {
 
               <li className="mb-px"><a href="/theNextWords" className="hover:underline hover:text-white">The Next Words</a></li>
               <li className="mb-px"><a href="/theLastWords" className="hover:underline hover:text-white">The Last Words</a></li>
-              <li className="mb-px"><a href="/writersBlock" className="hover:underline hover:text-white">Writer's Block</a></li>
+              <li className="mb-px"><a href="/writingDevices" className="hover:underline hover:text-white">Writing Devices</a></li>
             </ol>
           </div>
 

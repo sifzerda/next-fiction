@@ -487,7 +487,7 @@ function Story() {
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
               <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Plot</a></li>
-              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a></li>
+              <li className="mb-px"><a href="/marketing" className="hover:underline hover:text-white">Marketing</a></li>
             </ol>
           </div>
 

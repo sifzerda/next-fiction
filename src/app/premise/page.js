@@ -397,13 +397,13 @@ function Premise() {
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
 
               <li className="mb-px">
-                <a href="/premise" className="hover:underline hover:text-white">Title</a>
+                <a href="/marketing" className="hover:underline hover:text-white">Marketing</a>
               </li>
               <li className="mb-px">
-                <a href="/plot" className="hover:underline hover:text-white">Logline</a>
+                <a href="/story" className="hover:underline hover:text-white">Story</a>
               </li>
               <li className="mb-px">
-                <a href="/synopsis" className="hover:underline hover:text-white">Synopsis</a>
+                <a href="/plot" className="hover:underline hover:text-white">Plot</a>
               </li>
             </ol>
           </div>

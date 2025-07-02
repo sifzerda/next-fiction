@@ -163,10 +163,9 @@ function Subtext() {
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
 
-
-              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Themes</a></li>
-              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Conflict</a></li>
-              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Dialogue</a></li>
+              <li className="mb-px"><a href="/themes" className="hover:underline hover:text-white">Themes</a></li>
+              <li className="mb-px"><a href="/scenes" className="hover:underline hover:text-white">Scenes</a></li>
+              <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>
             </ol>
           </div>
 
