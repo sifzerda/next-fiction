@@ -12,7 +12,7 @@ import crossArrow from '../assets/crossarrow.jpg';
 function Plot() {
   return (
     <Layout>
-      {/* 1st Banner Box */}
+
       <div className="mt-4 bg-bootstrapDark border border-black text-white rounded-sm px-6 pt-4 pb-4 w-full max-w-screen-xl mx-auto">
         <h1>Plot</h1>
 
@@ -35,24 +35,42 @@ function Plot() {
 
       {/* New Section Below Banners */}
       <section className="w-full max-w-screen-xl mx-auto -mt-5 px-4 text-black flex flex-col-reverse md:flex-row gap-4">
-
         {/* Text Column */}
         <div className="flex-1">
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-plotting-in-a-vacuum">3.1: Plotting in a Vacuum</h2>
-
           <p>You might have more stories than the Burj Khalifa. But stories aren&#39;t enough; you&#39;ve got to know what to do with them.</p>
           <p>At the front-end of story creation, writers tend to think: 'What do I already know, and how can I make a plot based on what I already know?'</p>
           <p>What you should be asking is, 'What is an ideal plot, and what do I need to know to write it?'</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
+          <h2 id="post-how-to-create-suspense">13.2 How to Create Suspense</h2>
+          <p>One way of providing suspense is, obviously, to stubbornly refuse to provide a resolution until the very end of the story.</p>
+          <p>The problem is your conflict risks going ‘cold&#39; for the reader; they might assume the conflict is of no importance and probably won&#39;t be resolved by the end, and subsequently stop reading.</p>
+          <p>Alternatively, you want to provide build ups of suspense on the way to the resolution; making small promises which add up to your resolution being really worthwhile, whilst reminding the reader that the conflict hasn&#39;t been forgotten, and teasing that the end will provide the answer.</p>
+          <p>I like Sol Stein&#39;s
+            <FootnoteRef text={`SOL STEIN,\nOn Writing.`} />
+            workmanlike definition of suspense as where the reader wants something to happen and it isn&#39;t happening yet, or the reader wants something to stop, and it doesn&#39;t. However, it doesn&#39;t capture the variety of ways you can invite suspense into your story. The reader might: </p>
+          <ol>
+            <li>want something to happen, or </li>
+            <li>want something to <i>not</i> happen, or  </li>
+            <li>not know, of multiple, terrible outcomes, which is worse, or  </li>
+            <li>of a ‘too good to be true&#39; outcome, how it could go wrong, or  </li>
+            <li>of a guaranteed confrontation, when the confrontation will actually occur, and under what circumstances, etc. </li>
+          </ol>
+
+          <p>The layman definition of suspense tends to associate suspense building with raising the stakes. That is one form of suspense building but it&#39;s not the only one. In order to build suspense, all you need to do is supply information, or create events which lend the final outcome more weight.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h2 id="post-types-of-plots">3.2: Types of Plots</h2>
           <p>Robert McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            makes the distinction between three different kinds of plots: </p>
+            makes the distinction between three different kinds of plots:
+          </p>
 
           <ol>
             <li>Archplot (the &#39;Hero&#39; story)</li>
@@ -144,7 +162,7 @@ function Plot() {
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act&#39;s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn&#39;t fit into the above categories: the Quidditch games, the spell classes, sorting hat — there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones — you give the reader that many more clues as to how you&#39;ve structured your story &#39;behind the curtain.&#39; The reader will think &#39;oh, this scene&#39;s fairly unmemorable, it mustn&#39;t be integral to the plot.&#39; Memorable &#39;in-between&#39; scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?
-            </p>
+          </p>
           <p>Blake Snyder
             <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
             says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It&#39;s the world and its rules set up for us. Antithesis is the reverse or &#39;upside-down&#39; version or &#39;funhouse mirror reflection&#39; of the world. Characters from &#39;Thesis&#39; may reappear in &#39;Antithesis&#39; in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the &#39;Third way&#39; in world 3. By this time, the hero has &#39;died&#39; and been &#39;reborn&#39;, so he can&#39;t go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn&#39;t have happen instantaneously, it should happen bit by bit — every scene in the structure changes the hero a little.</p>
@@ -284,7 +302,6 @@ function Plot() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-chiastic-structure">3.6: Chiastic Structure</h2>
-
           <p>A chiastic structure exists where the narrative creates a symmetrical pattern, e.g. if scenes include A,B, and C, then a chiastic structure might go: A, B, C, C, B, A. If you&#39;re musically inclined, this resembles counterpoint.</p>
           <p>&#39;Chiastic&#39; originates from the Greek word &#39;Chiasmus&#39; meaning &#39;crosswise arrangement,&#39; i.e. —</p>
 
@@ -300,41 +317,21 @@ function Plot() {
             <FootnoteRef text={`The Bible,\nGen 1:1-50.`} />
           </p>
 
-          <div className="p-3 mb-3 rounded">
-            <div className="space-y-2 text-sm font-rubik">
-              <div className="ml-0 border-l-2 pl-3 border-gray-300">A: Noah and his sons (Gen 6:10)
-                <div className="ml-2 border-l-2 pl-3 border-gray-300">B: All life on earth (6:13:a)
-                  <div className="ml-2 border-l-2 pl-3 border-gray-300">C: Curse on earth (6:13:b)
-                    <div className="ml-2 border-l-2 pl-3 border-gray-300">D: Flood announced (6:7)
-                      <div className="ml-2 border-l-2 pl-3 border-gray-300">E: Ark (6:14—16)
-                        <div className="ml-2 border-l-2 pl-3 border-gray-300">F: All living creatures (6:17—20)
-                          <div className="ml-2 border-l-2 pl-3 border-gray-300">G: Food (6:21)
-                            <div className="ml-2 border-l-2 pl-3 border-gray-300">H: Animals in man's hands (7:2—3)
-                              <div className="ml-2 border-l-2 pl-3 border-gray-300">I: Entering the Ark (7:13—16)
-                                <div className="ml-2 border-l-2 pl-3 border-gray-300">J: Waters increase (7:17—20)
-                                  <div className="ml-2 border-l-4 pl-4 border-blue-400 font-semibold text-blue-800">X: God remembers Noah (8:1)</div>
-                                </div>
-                                <div className="ml-2 border-l-2 pl-3 border-gray-300">J': Waters decrease (8:13—14)</div>
-                              </div>
-                              <div className="ml-2 border-l-2 pl-3 border-gray-300">I': Exiting the Ark (8:15—19)</div>
-                            </div>
-                            <div className="ml-2 border-l-2 pl-3 border-gray-300">H': Animals (9:2,3)</div>
-                          </div>
-                          <div className="ml-2 border-l-2 pl-3 border-gray-300">G': Food (9:3,4)</div>
-                        </div>
-                        <div className="ml-2 border-l-2 pl-3 border-gray-300">F': All living creatures (9:10a)</div>
-                      </div>
-                      <div className="ml-2 border-l-2 pl-3 border-gray-300">E': Ark (9:10b)</div>
-                    </div>
-                    <div className="ml-2 border-l-2 pl-3 border-gray-300">D': No flood in future (9:11)</div>
-                  </div>
-                  <div className="ml-2 border-l-2 pl-3 border-gray-300">C': Blessing on earth (9:12—17)</div>
-                </div>
-                <div className="ml-2 border-l-2 pl-3 border-gray-300">B': All life on earth (9:16)</div>
-              </div>
-              <div className="ml-0 border-l-2 pl-3 border-gray-300">A': Noah and his sons (9:18,19a)</div>
-            </div>
-          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
 
           <h3>3.6.1 	Sub-Chiastic Structure</h3>
           <p>As plots may contain sub-plots, chiastic structures may contain sub-chiastic structures. To do this, take one of the items on your list of elements, e.g. from above: 'G: Flood announced.' Then insert a minor chiastic structure after, before progressing to the next item, e.g.</p>
@@ -366,7 +363,7 @@ function Plot() {
             </div>
           </div>
 
-          <hr /> {/* ---------------------------------------------------------*/}
+          <hr /> {/* -------------------------------------------------  --------------------------------------------- */}
 
           <h2 id="post-plots-with-problems">3.7: Plots with Problems</h2>
 
@@ -403,6 +400,7 @@ function Plot() {
 
           <h3>3.7.2 	Bork's Story Problems</h3>
           <p>Bork lists eight main types of story problems:</p>
+
           <div className="custom-box">
             <ol>
               <li>Someone or something is trying to kill me (or us). </li>
@@ -420,6 +418,7 @@ function Plot() {
           <p>BLAKE SNYDER
             <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
             says all stories centre around one of these 10 problems:</p>
+
           <div className="custom-box">
             <ol>
               <li><span className="text-boldPurple font-bold">Monster in the House</span> Characters are trapped in a confined space with a 'monster' or dangerous entity out to get them.</li>
@@ -441,6 +440,7 @@ function Plot() {
           </p>
 
           <div className="custom-box">
+
             <p className="text-boldPurple font-bold">I. The Lost Sock</p>
             <p>The plot is too slight or trivial.</p>
             <p>The plot of a story “should be important enough to change someone's life forever.”
@@ -515,9 +515,10 @@ function Plot() {
               <li>Tone down flattering descriptions of characters (particularly physical attributes);</li>
               <li>Draw more focus to characters' flaws (or give them flaws in the first place);</li>
             </ol>
+
           </div>
 
-          <hr /> {/* ---------------------------------------------------------*/}
+          <hr /> {/* -------------------------------------------------  --------------------------------------------- */}
 
           <h2 id="post-story-planning">3.8: Story Planning</h2>
 
@@ -551,7 +552,7 @@ function Plot() {
           <p><span className="font-bold">External pressures</span> tend to be more persuasive than <span className="font-bold">internal pressures</span>. For instance, saying 'the protagonist didn't do X because he's dumb' is an internal pressure; it's easy but bad writing. Bad weather is an external pressure, but it's also easy and unpersuasive. Good pressures tend to be a mix of internal and external pressure foreshadowed in earlier scenes; i.e. protagonist is X type of person, therefore, in a type Y scenario, they're likely to fail. Finding a way to get this info across tacitly within the plot (as opposed to merely being expository) is part of good writing technique. Really good writers get this info across inobtrusively inside exciting plot-moving scenes, without you even realising it; it's only later when the 'Y scenario' eventuates, you flip back and realise it was always heading that way.</p>
           <p>A good story will early on introduce the protagonist as a X type of person (internal pressure) and that a Y type of scenario (external pressure) looms on the horizon. But, also show protagonist averting this — and failing. Then attempting to avert again — and failing. The situation grows more desperate as type Y scenario looms. Finally protagonist must confront type Y scenario.</p>
 
-          <hr /> {/* ---------------------------------------------------------*/}
+          <hr /> {/* -------------------------------------------------  --------------------------------------------- */}
 
           <h2 id="post-romance-three-kinds">3.9: Romance: Three Kinds</h2>
           <p>This tip relates not only to romance genre stories but any plot with two love interests (LI) who get together by the end of the story. There are generally three kinds of romances: Pursuit; Revelation, and Conspiracy.</p>
@@ -585,6 +586,7 @@ function Plot() {
           <p>An example of the Revelation is Silver Linings Playbook.
             <FootnoteRef text={<><em>Silver Linings Playbook</em>, The Weinstein Company, (2012).</>} />
             The romance type is different depending which LI is the protagonist. From the male's point of view, it's a revelation, but if the female was the protagonist, it would be a pursuit.</p>
+
           <h6 className="text-xs text-gray-700 uppercase tracking-wide mt-2 mb-1 font-bold underline">Potential Pitfalls of Revelation</h6>
           <p className="text-sm mb-4 font-rubik font-bold text-midBluey">(A) Unlikeable Love Interests</p>
           <p>Conflict in a revelation romance can be heightened the more LIs oppose each other. But oppositional LIs does not mean annoying, confrontational, disagreeing LIs. Sexual tension does not mean characters have to snap at each other over minor disagreements.</p>
@@ -626,6 +628,8 @@ function Plot() {
             <FootnoteRef text={<><em>Beauty and the Beast</em>, Walt Disney Pictures, (1991).</>} />
             is an example: the first act is a pursuit (Belle seeks a handsome prince via adventure); the second act is a revelation (Belle falls in love with the Beast); the third is a conspiracy (the villagers attempt to keep Belle and the Beast apart).</p>
 
+          {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}
+
           <hr /> {/* ---------------------------------------------------------*/}
           <h1 id="post-plot-comments" className="text-base text-llBlue bg-bootstrapDark p-4">Leave a Comment</h1>
 
@@ -636,7 +640,7 @@ function Plot() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}
@@ -648,9 +652,7 @@ function Plot() {
           </div>
 
           {/* Index Box */}
-          <div
-            id="index-box"
-            className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
+          <div id="index-box" className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">3.1: Plotting in a Vacuum</a></li>
@@ -667,9 +669,7 @@ function Plot() {
           </div>
 
           {/* Also See Box */}
-          <div id="also-see-box"
-            className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
+          <div id="also-see-box" className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="/story" className="hover:underline hover:text-white">Story</a></li>
