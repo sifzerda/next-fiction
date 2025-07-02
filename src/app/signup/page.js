@@ -40,10 +40,10 @@ function Signup() {
   }
 
   return (
-    <Layout>
+    <Layout> 
       <div className="flex flex-col items-center justify-center min-h-[40vh] w-full px-4 text-center">
         <div className="max-w-md w-full space-y-4">
-          <h1 className="text-2xl font-bold bg-bootstrapDark text-yellow px-4 py-2 rounded-md">
+          <h1 className="text-xl font-bold bg-bootstrapDark text-yellow px-4 py-2 rounded-md">
             Signup
           </h1>
 
