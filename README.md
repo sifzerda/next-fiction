@@ -235,8 +235,6 @@ there's a p descedent of p hydration error on The Next Words page somewhere
 
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 
-- a whole bunch of 'also see' links are wrong
-
 OVERALL FORMATTING STYLING:
 
     - [x] story
