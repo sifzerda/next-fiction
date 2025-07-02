@@ -18,7 +18,7 @@
 
 # Description <a name="description"></a>
 
-This is a blog which provides an in-depth guide on fiction and narrative writing. There are 25+ pages each covering a separate topic on writing, including plot, dialogue, characters, conflict, theme, settings, etc. 
+This is a creative writing blog which provides an in-depth guide on fiction and narrative writing. There are 25+ pages each covering a separate topic on writing, including plot, dialogue, characters, conflict, theme, settings, etc. 
 
 The aim was to create a comprehensive guide for fiction-writing, compiling the most useful advice I've found in various how-to-write guides all in one single place. It cites professional advice, techniques, and examples. The guide assumes the user knows nothing about fiction-writing and explains concepts in depth. 
 

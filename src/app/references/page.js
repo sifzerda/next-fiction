@@ -1,8 +1,8 @@
 // src/app/references.js
 "use client";
 import Layout from '../../components/Layout';
-import CommentForm from '../../components/CommentForm';
-import CommentList from '../../components/CommentList';
+//import CommentForm from '../../components/CommentForm';
+//import CommentList from '../../components/CommentList';
 //import FootnoteRef from '../../components/FootnoteRef';
 //import subtextBanner from '../assets/subtextbanner.jpg';
 //import Image from "next/image";
@@ -95,7 +95,7 @@ function Subtext() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           {/* Non-Fiction */}
-          <h2 id="post-nonfiction" className="mt-6 font-semibold text-lg">III. Non-Fiction</h2>
+          <h2 id="post-non-fiction" className="mt-6 font-semibold text-lg">III. Non-Fiction</h2>
           <ol className="list-decimal list-inside text-sm space-y-1 pl-4">
             <li>Bickham, Jack. <em>The 38 Most Common Fiction Writing Mistakes (And How To Avoid Them)</em>. Writer's Digest Books, 1992.</li>
             <li>Burnett, Hallie, and Whit Burnett. <em>Fiction Writer's Handbook</em>. HarperCollins, 2003.</li>
