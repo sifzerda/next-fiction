@@ -8,6 +8,7 @@ import plotBanner from '../assets/plotbanner.jpg';
 import Image from "next/image";
 import threeRt from '../assets/3rt.jpg';
 import crossArrow from '../assets/crossarrow.jpg';
+import chiasticStructure from '../assets/chiasticStructure1.png';
 
 function Plot() {
   return (
@@ -317,21 +318,11 @@ function Plot() {
             <FootnoteRef text={`The Bible,\nGen 1:1-50.`} />
           </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
+          <Image
+            src={chiasticStructure}
+            alt="Chiastic Structure"
+            className="w-full max-w-sm h-auto my-6 mx-auto"
+          />
 
           <h3>3.6.1 	Sub-Chiastic Structure</h3>
           <p>As plots may contain sub-plots, chiastic structures may contain sub-chiastic structures. To do this, take one of the items on your list of elements, e.g. from above: 'G: Flood announced.' Then insert a minor chiastic structure after, before progressing to the next item, e.g.</p>
@@ -687,3 +678,52 @@ function Plot() {
 }
 
 export default Plot;
+
+
+
+
+
+
+/*
+
+<div className="p-3 mb-3 rounded custom-light-box">
+                  <div className="chiastic">
+                    <div className="a">A: Noah and his sons (Gen 6:10)
+                      <div className="b">B: All life on earth (6:13:a)
+                        <div className="c">C: Curse on earth (6:13:b)
+                          <div className="d">D: Flood announced (6:7)
+                            <div className="e">E: Ark (6:14-16)
+                              <div className="f">F: All living creatures (6:17–20 )
+                                <div className="g">G: Food (6:21)
+                                  <div className="h">H: Animals in man’s hands (7:2–3)
+                                    <div className="i">I: Entering the Ark (7:13–16)
+                                      <div className="j">J: Waters increase (7:17–20)
+                                        <div className="x">X: God remembers Noah (8:1)</div>
+                                      </div>
+                                      <div className="j">J: Waters decrease (8:13–14)</div>
+                                    </div>
+                                    <div className="i">I': Exiting the Ark (8:15–19)</div>
+                                  </div>
+                                  <div className="h">H': Animals (9:2,3)</div>
+                                </div>
+                                <div className="g">G': Food (9:3,4)</div>
+                              </div>
+                              <div className="f">F': All living creatures (9:10a)</div>
+                            </div>
+                            <div className="e">E': Ark (9:10b)</div>
+                          </div>
+                          <div className="d">D’: No flood in future (9:11)</div>
+                        </div>
+                        <div className="c">C': Blessing on earth (9:12–17)</div>
+                      </div>
+                      <div className="b">B': All life on earth (9:16)</div>
+                    </div>
+                    <div className="a">A: Noah and his sons (9:18,19a)</div>
+                  </div>
+                </div>
+
+
+
+
+
+*/ 
