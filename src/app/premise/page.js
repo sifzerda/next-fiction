@@ -223,17 +223,17 @@ function Premise() {
           <p>What is the aforementioned &#39;something good&#39; that litters the story? Answer: a &#39;live issue&#39;.</p>
           <p>A live issue is a plot element which raises an issue that demands resolution. It&#39;s a plot detail that causes the reader to ask questions and demand answers (who, what, when, where, why, how).</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">“Good stories need an engine, a question the story answers for the reader. Who done it? Guilty or not guilty? Who will win the race? Which man will she marry? Will the hero escape, or die trying? Good questions drive good stories.” </p>
-            <p></p><i>— Roy Clark
+            <p></p><i>— Roy Clark</i>
               <FootnoteRef text={`ROY CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} />
-            </i></div>
+            </div>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">"Plant little queries along the way, little hints and teasers. Then answer them one by one, substituting new queries as you do." </p>
-            <p></p><i>— David Carroll
+            <p></p><i>— David Carroll</i>
               <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
-            </i></div>
+            </div>
 
           <p>Live issues must accord with all of these criteria:</p>
           <ol>
@@ -312,7 +312,7 @@ function Premise() {
           <h2 id="post-the-strange-sandwich">2.5: The 'Strange Sandwich'</h2>
           <p>Never write strange on strange. Your plot can be strange, but your reader needs to be able to contrast the strangeness with commonplace real life. Therefore, you should never layer strange plot elements on strange elements — e.g. strange characters layered on a strange setting — otherwise the reader won&#39;t have anything solid to contrast the strange against. As with anything, strangeness is only apparent by contrast with its opposite, normality.</p>
           <p>As an example of &#39;strange on strange&#39; I saw a story idea posted on Reddit where characters are on an alien planet, trapped in a 4D labyrinth, and being hunted down by an alien monster. Cool idea, but utterly unrelatable. Any single one of those ideas is stronger on its own, against a backdrop of normality. But all combined, risks giving the reader &#39;strangeness&#39; fatigue.</p>
-          <p>My E chain plot example further above has 3 strange elements — </p>
+          <p>My E chain plot example further above has 3 strange elements: </p>
 
           <div className="custom-box">
             <ol>

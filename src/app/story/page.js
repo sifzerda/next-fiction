@@ -70,7 +70,7 @@ function Story() {
             more than a single sentence.</p>
 
           <div className="custom-box">
-            <p className="font-bold py-1">A Series of Events:</p>
+            <p className="font-bold uppercase text-center">A Series of Events</p>
             <p>
               He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of wine at the liquor store. Later, he
               washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and went in. He greeted all the people,
@@ -79,7 +79,7 @@ function Story() {
 
             <hr /> {/* ---------------------------------------------------------*/}
 
-            <p className="font-bold py-1">A Story:</p>
+            <p className="font-bold uppercase text-center">A Story</p>
             <p>He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of
               wine at the liquor store. Later, he washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and
               went in. He greeted all the people, said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not
@@ -257,10 +257,12 @@ function Story() {
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             says about writing &#39;instinct&#39;:</p>
 
-          <div className="custom-box">
-            <p>“...[W]hat the novice mistakes for craft is simply his unconscious absorption of story elements from every novel, film, or play he's ever encountered. As he writes, he matches his work by trial and error against a model built up from accumulated
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="mb-0">"...[W]hat the novice mistakes for craft is simply his unconscious absorption of story elements from every novel, film, or play he's ever encountered. As he writes, he matches his work by trial and error against a model built up from accumulated
               reading and watching. The unschooled writer calls this "instinct," but it's merely habit and it's rigidly limiting…But the haphazard groping toward or revolt against the sum of unconsciously ingrained repetitions is not, in any sense, technique, and leads to screenplays
-              clogged with clichés of either the commercial or the art house variety.”</p>
+              clogged with clichés of either the commercial or the art house variety." </p>
+            <p></p><i>— Robert McKee</i>
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
           </div>
 
           <h5>(2) Steal Further Back</h5>
@@ -305,16 +307,19 @@ function Story() {
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             puts it better:</p>
 
-          <div className="custom-box">
-            <p>“As Jean-Paul Sartre expressed it, the essence of reality is scarcity, a universal and eternal lacking. There isn't enough of anything in this world to go around. Not enough food, not enough love, not enough justice, and never enough time [...] Writers who cannot grasp the truth of our transitory
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="mb-0">"As Jean-Paul Sartre expressed it, the essence of reality is scarcity, a universal and eternal lacking. There isn't enough of anything in this world to go around. Not enough food, not enough love, not enough justice, and never enough time [...] Writers who cannot grasp the truth of our transitory
               existence, who have been mislead by the counterfeit comforts of the modern world, who believe that life is easy once you know how to play the game, give conflict a false inflection. Their scripts fail for one of two reasons: either a glut of meaningless and absurdly violent conflict, or a vacancy of meaningful and honestly expressed conflict.</p>
             <p>The former are exercises in turbo special effects, written by those who follow textbook imperatives to create conflict, but, because they're disinterested in or insensitive to the honest struggles of life, devise phony, overwrought excuses for mayhem.</p>
             <p>The latter are tedious portraits written in reaction against conflict itself. These writers take the Pollyanna view that life would really be nice ... if it weren't for conflict. Therefore, their films avoid it in favor of low-key depictions to suggest that if we learned to communicate a little better, be a little more charitable,
-              respect the environment, humanity could return to paradise. But if history has taught us anything, it's that when toxic nightmare is finally cleaned up, the homeless provided shelter, and the world converted to solar energy, each of us will still be up to our eyebrows in mulch.”</p>
+              respect the environment, humanity could return to paradise. But if history has taught us anything, it's that when toxic nightmare is finally cleaned up, the homeless provided shelter, and the world converted to solar energy, each of us will still be up to our eyebrows in mulch." </p>
+            <p></p><i>— Robert McKee</i>
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
           </div>
+
           <p>Yikes.</p>
 
-          <hr />
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-medium">1.7 Medium</h2>
           <p>It&#39;s worth considering whether your story makes the most of your chosen medium (writing/literature). Your story might make a great film, or video game, but a poor novel. Right now, audiences love superhero comics, superhero films and superhero video games, but no one reads superhero novels. The superhero genre seems to need images to work.</p>
@@ -368,40 +373,43 @@ function Story() {
           <p>There are no firm rules about these distinctions, but if you want to work out whether your story is
             better suited for literature or film (or other media), consider:</p>
 
-          <ol className="numbered">
-            <li>Is the plot complicated or straightforward?
-              <ol>
-                <li>Intricately complex plots suit literature because books give people pause to think and rationalise.</li>
-              </ol>
-            </li>
-            <li>Is the story reliant on visual information?
-              <ol className="numbered">
-                <li>Less visual stories work better as literature, whereas stories which rely on visualization work better as a film.</li>
-              </ol>
-            </li>
-            <li>Is critical information metered out gradually until a big reveal at the end?
-              <ol className="numbered">
-                <li>This can work well as literature;</li>
-              </ol>
-            </li>
-            <li>Did critical events happen in the past?
-              <ol className="numbered">
-                <li>This suits literature which is less focused on showing the 'here and now' than film.</li>
-              </ol>
-            </li>
-            <li>Is there a long history spanning hundreds of years, a large cast of near hundred/s, or other risk of
-              'information overload'?
-              <ol className="numbered">
-                <li>This suits literature, which has more time and endurance to deal with detail density, which would fatigue a film (and blow its budget).</li>
-              </ol>
-            </li>
-          </ol>
+          <div className="custom-box">
+            <ol className="numbered">
+              <li>Is the plot complicated or straightforward?
+                <ol>
+                  <li>Intricately complex plots suit literature because books give people pause to think and rationalise.</li>
+                </ol>
+              </li>
+              <li>Is the story reliant on visual information?
+                <ol className="numbered">
+                  <li>Less visual stories work better as literature, whereas stories which rely on visualization work better as a film.</li>
+                </ol>
+              </li>
+              <li>Is critical information metered out gradually until a big reveal at the end?
+                <ol className="numbered">
+                  <li>This can work well as literature;</li>
+                </ol>
+              </li>
+              <li>Did critical events happen in the past?
+                <ol className="numbered">
+                  <li>This suits literature which is less focused on showing the 'here and now' than film.</li>
+                </ol>
+              </li>
+              <li>Is there a long history spanning hundreds of years, a large cast of near hundred/s, or other risk of
+                'information overload'?
+                <ol className="numbered">
+                  <li>This suits literature, which has more time and endurance to deal with detail density, which would fatigue a film (and blow its budget).</li>
+                </ol>
+              </li>
+            </ol>
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-pixar-storytelling">1.8 Pixar Storytelling</h2>
           <p>Animation company Pixar has a list of tips which it has used in its films:</p>
-          <div className="custom-box">
+
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <ol>
               <li>You admire a character for trying more than for their successes.</li>
               <li>You gotta keep in mind what&#39;s interesting to you as an audience, not what&#39;s fun to do as a writer. They can be v. different.</li>

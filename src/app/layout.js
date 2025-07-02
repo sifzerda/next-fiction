@@ -31,7 +31,7 @@ const rockSalt = Rock_Salt({
 });
 
 export const metadata = {
-  title: "The Fiction Map",
+  title: "Fiction Map",
   description: "Tips and Techniques for Fiction Writing",
 };
 

@@ -258,3 +258,32 @@ there's a p descedent of p hydration error on The Next Words page somewhere
 plot page is not flexing in properly
 
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
+
+
+
+
+OVERALL FORMATTING STYLING:
+
+    - [x] story
+    - [x] premise
+    - [x] hero's journey
+    - [ ] plot
+    - [x] themes
+    - [x] conflict
+    - [ ] scenes
+    - [ ] main characters
+    - [ ] secondary characters
+    - [ ] setting
+    - [ ] subtext 
+    - [ ] description
+    - [ ] dialogue
+    - [ ] suspense
+    - [ ] pov
+    - [ ] voice
+    - [ ] antagonists
+    - [ ] the first words
+    - [ ] the next words
+    - [ ] the last words
+    - [ ] writing devices
+    - [ ] editing
+    - [ ] MARKETING

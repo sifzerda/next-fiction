@@ -45,17 +45,17 @@ function Themes() {
 
           <h2 id="post-what-is-theme">4.1: What is Theme?</h2>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">"[Stories with themes contain] “experiences [that] comment on life, leaving the reader with some conclusion about the nature of existence that can be factually verified." </p>
-            <p></p><i>— Robert Meredith and John Fitzgerald
-              <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
-            </i></div>
+            <p></p><i>— Robert Meredith and John Fitzgerald</i>
+            <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
+          </div>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">"[Themes are v]alues, the positive/negative charges of life, [which] are at the soul of our art. The writer shapes story around a perception of what's worth living for, what's worth dying for, what's foolish to pursue, the meaning of justice, truth — the essential values." </p>
-            <p></p><i>— Robert McKee
-              <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            </i></div>
+            <p></p><i>— Robert McKee</i>
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
+          </div>
 
           <p>Themes can be simple and absolute, or complex and variable. They can be optimistic or pessimistic. They can affirm the status quo or attempt to subvert it. They can be cliché or novel, obtuse or illuminating, pretentious or unassuming, cerebral or illogical. They can be familiar and comforting or bizarre and disconcerting. One of the most common themes in stories is that good ultimately triumphs over evil.</p>
           <p>Hart
@@ -143,11 +143,11 @@ function Themes() {
           <p>Under '1.1. The Main Elements of a Story,' Theme came last on the list. Plot comes first because your reader wants to be entertained above all else. If they wanted to learn something they would read non-fiction. </p>
           <p>When you make THEME come first, you end up with a lecture - or worse, propaganda - not a story. Your plot bends to facilitate your opinion, rather than reflect the most interesting arrangement of events.</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">"[If there's] one fault that stands out above all others...by the young and inexperienced [writers], it is the tendency to sermonize and editorialize to drive home the theme...[This] novelist is convinced of the validity of his wisdom, gained from experience, and he wants…to persuade others about [his] truth...as a result he begins to lecture the reader." </p>
-            <p></p><i>— Robert Meredith and John Fitzgerald
+            <p></p><i>— Robert Meredith and John Fitzgerald</i>
               <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
-            </i></div>
+            </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 

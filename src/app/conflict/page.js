@@ -39,12 +39,11 @@ function Conflict() {
           <p>By contrast with fate and chance, conflict happens in measures, proportionate to your protag's goal progress. You can't decide what happens in your story based on the flip of a coin.</p>
           <p>Conflict also gives your character an opportunity to respond; they have some power to try to change the course of events (even if they fail). Blind misfortune, on the other hand, doesn't care who your protagonist is, and gives him no opportunity, and no recourse.</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">"Your character can't sit home passively and accidentally get a telephone call from friend Max, who then volunteers a crucial clue in the murder mystery. Your character has to think things over and then decide that he will call people seeking information. After calling several other people, he comes to Max on his list. He calls Max. Max doesn't want to tell him, but you make your character persist. Finally your character convinces Max to talk, and Max gives him the next clue." </p>
-            <p></p><i>— Jack Bickham
+            <p></p><i>— Jack Bickham</i>
               <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
-            </i></div>
-
+            </div>
 
           <p>Notice how the conflict, by making the information harder to get, makes it seem more valuable and after the effort, will make the reader more interested to know what it is. This reinforces an economy of information (see 11.3 Information Economy).</p>
 
@@ -53,7 +52,7 @@ function Conflict() {
           <h2 id="post-why-is-it-important">5.2. Why Is It Important?</h2>
           <p>Conflict is the most crucial element of a story. It's a thread which should run through every aspect of your story. However, conflict is difficult to write because it often means making things harder for your characters - and yourself, as the writer.</p>
           <p>If there is a lack of conflict in your work, it might be due to use of blocking or providing counteroffers which fall short of the initial promise.</p>
-          <p>Any scene with conflict must be shown as if it's happening, not told, (summarized).</p>
+          <p>Any scene with conflict must be shown as if it's happening, not 'told' (summarized).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -157,7 +156,7 @@ function Conflict() {
 
            <h5>III.	Examples</h5>
 
-          <ol>
+          <ol className="text-xs m-0 p-0 ml-3">
             <li>Chief Motivating Force: Escape prison; Tangible Objective: Get revenge on corrupt head of police force.</li>
             <li>Chief Motivating Force: Determine identity of murderer; Tangible Objective: Salvage expiring detective reputation.</li>
             <li>Chief Motivating Force: Disprove existence of ghosts in a haunted house; Tangible Objective: Get over death of close relative. </li>
