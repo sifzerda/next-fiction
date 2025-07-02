@@ -238,14 +238,10 @@ PAGES TO DO:
 - [x] references
 
 Stuff to check:
-- [ ] every page has a index link to comments
+- [ ] every page has an index link to comments
 - [ ] check all index links work and are correct
 - [ ] change all quote boxes to the blockquote br format
 - [ ] replace tailwind classname's with custom classes, e.g. shorten h2, h3....s to < h3 > and p.... to < p > 
-
-
-
-
 
 intertext links:
 SEARCH:
@@ -254,8 +250,6 @@ SEARCH:
 
 footnotes are not resetting on page switch (they're accumulating)
 there's a p descedent of p hydration error on The Next Words page somewhere
-
-plot page is not flexing in properly
 
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 
