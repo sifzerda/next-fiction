@@ -220,7 +220,7 @@ ADD IDs to pages to find chunks via search (optional)
 
 Stuff to check:
 - [ ] every page has an index link to comments
-- [ ] check all index links work and are correct
+- [x] check all index links work and are correct
 
 - [ ] change all quote boxes to the blockquote br format
 - [ ] replace tailwind classname's with custom classes, e.g. shorten h2, h3....s to < h3 > and p.... to < p > 
@@ -230,7 +230,7 @@ SEARCH:
 (see 6.5 Diametrics)
 
 footnotes are not resetting on page switch (they're accumulating)
-there's a p descedent of p hydration error on The Next Words page somewhere
+there's a p descendent of p hydration error on The Next Words page somewhere
 
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 

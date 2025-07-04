@@ -42,7 +42,7 @@ function Scenes() {
             says that a scene is an 'event,'' and an 'event' is change. A story event creates meaningful change in your main character's life, expressed in terms of a value/s and achieved through conflict.</p>
           <p>The 'value' is something meaningful to your character, which is at stake: love, life, liberty, truth, justice, etc. The conflict is the obstacle threatening the value. The state of the character's relation to the value should change by the end of a scene (this is the 'change' referred to above), otherwise the scene is pointless. The change needs to be contrasting or oppositional - you can't go from 'good' to 'better,' but you can go from 'bad' to 'worse,' (bad changes are, by their nature, always oppositional; i.e. they oppose the protagonist. Also, there is some relativity when a situation becomes 'worse,' it makes the previous 'bad' situation look 'good' by comparison).</p>
           <p>Mckee says a novel may have over 60 scenes/events, as a rough estimate. That figure sounds a little big to me; my analysis of Pet Sematary
-           <FootnoteRef text={`STEPHEN KING,\nPet Sematary.`} />
+            <FootnoteRef text={`STEPHEN KING,\nPet Sematary.`} />
             (144K words) identified about 45 scenes, and that was a long novel. A standard 80K word novel (little more than half that size) will have even less.</p>
           <p>Every scene must move towards the conclusion. If a scene's only purpose is to provide exposition, delete it and work the information into the story.</p>
 
@@ -55,13 +55,26 @@ function Scenes() {
           <h3>6.1.5 	Example of structure:</h3>
           <p>Take Pet Sematary as an example.</p>
 
-          <p><span className="underline">The Plot:</span> The main character's son dies, so he uses a cursed burial ground to reanimate his body.</p>
-          <p><span className="underline">The Conflict:</span> Death.</p>
-          <p><span className="underline">The Value:</span> The main character's relation to life and death changes on a scene-to-scene basis throughout the story.</p>
-          <p><span className="underline">Example of a Beat:</span> Jud offers to take the protagonist and his family to see the local Pet Cemetery.</p>
-          <p><span className="underline">Example of a Scene:</span> Jud shows the family the local Pet Cemetery.</p>
-          <p><span className="underline">Example of a Sequence:</span> Jud takes the protagonist and his family to see the Pet Cemetery. This exposes the daughter to the concept of death. The discussion upsets the mother, who is traumatized by a childhood incident. Protagonist resolves not to further expose his wife to the trauma of death.</p>
-          <p><span className="underline">Example of an Act:</span> After protagonist and his family move into a new house, neighbour Jud takes them to see the Pet Cemetery. This exposes the daughter to the concept of death. The discussion upsets the mother, who is traumatized by a childhood incident. Protagonist resolves not to further expose his wife to the trauma of death. When his daughter&#39;s cat dies, Jud takes him to a special burial ground to bury it, and it comes back to life, but wrong.</p>
+          <h5>The Plot</h5>
+          <p>The main character's son dies, so he uses a cursed burial ground to reanimate his body.</p>
+
+          <h5>The Conflict</h5>
+          <p>Acceptance of Death.</p>
+
+          <h5>The Value</h5>
+          <p>The main character's relation to life and death changes on a scene-to-scene basis throughout the story.</p>
+
+          <h5>Example of a Beat</h5>
+          <p>Jud offers to take the protagonist and his family to see the local Pet Cemetery.</p>
+
+          <h5>Example of a Scene</h5>
+          <p>Jud shows the family the local Pet Cemetery.</p>
+
+          <h5>Example of a Sequence</h5>
+          <p>Jud takes the protagonist and his family to see the Pet Cemetery. This exposes the daughter to the concept of death. The discussion upsets the mother, who is traumatized by a childhood incident. Protagonist resolves not to further expose his wife to the trauma of death.</p>
+
+          <h5>Example of an Act</h5>
+          <p>After protagonist and his family move into a new house, neighbour Jud takes them to see the Pet Cemetery. This exposes the daughter to the concept of death. The discussion upsets the mother, who is traumatized by a childhood incident.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -98,8 +111,9 @@ function Scenes() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-forums-for-raising-and-resolving-conflict" className="mb-2 font-semibold">6.3: Forums for Raising and Resolving Conflict</h2>
-          <p>Scenes shouldn't be inserted just because they sound 'cool' or interesting (however, if they are, that's a bonus). They should be forums for your characters to introduce and resolve conflicts, and debate questions which are invoked by the theme (obviously you don't have them literally debate – rather you will use subtext through their dialogue and actions). The scenes should also move toward your conclusion. It's as if your novel is in its entirety an essay, and your scenes are the paragraphs - e.g. - </p>
+          <p>Scenes shouldn't be inserted just because they sound 'cool' or interesting (however, if they are, that's a bonus). They should be forums for your characters to introduce and resolve conflicts, and debate questions which are invoked by the theme (obviously you don't have them literally debate – rather you will use subtext through their dialogue and actions). The scenes should also move toward your conclusion. It's as if your novel is in its entirety an essay, and your scenes are the paragraphs - e.g.</p>
 
+<div className="custom-box">
           <ol>
             <li><span className="underline">Premise: </span>A guy and his brother get in a drunken fight with some members of the local town's football team; the brother is killed and the football players are shielded from punishment and the guy plans to get back at them;</li>
             <ol>
@@ -109,7 +123,11 @@ function Scenes() {
               </ol>
             </ol>
           </ol>
+          </div>
 
+<p>and:</p>
+
+        <div className="custom-box">
           <ol>
             <li><span className="underline">Premise: </span>Due to a misunderstanding, a guy is branded a child predator by his tight-knit community;</li>
             <ol>
@@ -119,6 +137,8 @@ function Scenes() {
               </ol>
             </ol>
           </ol>
+
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -133,7 +153,9 @@ function Scenes() {
           <p>This might sound familiar if you've read the synopsis chapter. What I meant by 'events' and 'effects' there means the same thing here. Also, the numerical sequence (1, 2, 3) is intentional; that is the actual order you want to formulate these elements. This doesn't, however, mean you have to start the story with Encouragement, leading through to Effects. You could start anywhere, as long as you don't subsequently break the chain.</p>
           <p>Here's an example of a simple E chain (consider which is the encouragement, event, and effect):</p>
 
-          <div className="custom-box">I came late to the meeting because my car broke down. When I arrived I heard my colleague say a terrible think about me because he didn't think I was coming. I didn't talk to him after that.</div>
+          <div className="custom-box">
+            <p>I came late to the meeting because my car broke down. When I arrived I heard my colleague say a terrible think about me because he didn't think I was coming. I didn't talk to him after that.</p>
+            </div>
 
           <p><span className="font-bold">(1) Encouragement: </span>This refers to the narrative pressures or forces acting on your characters, informing their decision-making and driving your characters&#39; behaviour. Encouragement could be:</p>
 
@@ -693,7 +715,7 @@ function Scenes() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}
