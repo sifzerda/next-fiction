@@ -79,7 +79,7 @@ function Header() {
                               hover:text-yellow hover:border-yellow
                               active:border-white
                               transition text-llBlue text-sm
-                  ${pathname === href ? "font-semibold text-white border-white" : ""}
+                  ${pathname === href ? "text-white border-white" : ""}
                   `}
                 >
                   {label}
