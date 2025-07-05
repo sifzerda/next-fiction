@@ -164,7 +164,7 @@ function Editing() {
             <li>Hence, thus...................................therefore</li>
           </ol>
 
-          <h4>Exceptions to deadweights</h4>
+          <h4 className="text-xs">Exceptions to deadweights</h4>
           <p>The general rule is these words should go if possible; if they don&#39;t take away something essential from the writing – the strict definition of essential: without, the text wouldn&#39;t make sense, not your personal definition of essential: makes the writing sound nicer. </p>
           <p>This includes dialogue. You might argue ‘that&#39;s how the character would speak in real life!&#39; but dialogue is not real life speech. It&#39;s made up and abridged to maintain the reader&#39;s interest. It&#39;s a representation of speech, not a transcription of it. </p>
           <p>The exception: Sometimes you want to convey meaning not merely by the words, but their form and structure (for instance, see: ‘13.3.4 Deliberately awkward sentences,&#39; and ‘10.1.1 When to not abridge&#39;). </p>

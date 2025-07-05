@@ -64,7 +64,7 @@ function SecondaryCharacters() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-idiosyncratic-characters">8.5: Idiosyncratic Characters</h2>
-          <h4>(1) TYPE </h4>
+          <h4 className="text-xs">(1) TYPE </h4>
           <p>.... </p>
           <p>.... </p>
 

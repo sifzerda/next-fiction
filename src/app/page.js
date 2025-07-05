@@ -40,28 +40,33 @@ function About() {
           </p>
 
           <p>
-          The blog covers various topics, including: 
-          storytelling, 
-          premise, 
-          plot construction, 
-          themes, 
-          conflict building, 
-          scenes, 
-          main characters, 
-          supporting characters, 
-          setting selection, 
-          subtext, descriptions, 
-          dialogue-writing, 
-          suspense-building, 
-          POV, 
-          voice, 
-          antagonists, 
-          beginnings, 
-          middles, 
-          endings, 
-          miscellaneous writing devices, 
-          editing, and 
-          marketing tools.
+            The blog covers various topics, including:
+            storytelling,
+            premise,
+            plot construction,
+            themes,
+            conflict building,
+            scenes,
+            main characters,
+            supporting characters,
+            setting selection,
+            subtext, descriptions,
+            dialogue-writing,
+            suspense-building,
+            POV,
+            voice,
+            antagonists,
+            beginnings,
+            middles,
+            endings,
+            miscellaneous writing devices,
+            editing, and
+            marketing tools.
+          </p>
+
+          <p>Citations are viewable by hovering over the footnote numbers.
+            Footnotes can be clicked to keep the footnote visibility locked 'on', and clicked again to unlock.
+            Locking citation visibility on allows hyperlinks to be clicked.
           </p>
 
         </div>

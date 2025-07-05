@@ -101,12 +101,12 @@ function Voice() {
 
           <p>You create your own writing voice/style in two ways:</p>
 
-          <h4>(1) By practicing writing</h4>
+          <h4 className="text-xs">(1) By practicing writing</h4>
 
           <p>The only way you can critique and develop your own writing is by actually writing and read and critically appraise what you&#39;ve written, sometimes months or years after writing it. By doing so, you will attune yourself to your existing style and be able to decide what you like and dislike about it. This will inform the styles which you subsequently are inspired by.</p>
           <p>For instance, if you are concerned your writing waffles too much, you might take special notice of concise writing styles, and make effort to emulate them.</p>
 
-          <h4>(2) By reading and incorporating other writing styles</h4>
+          <h4 className="text-xs">(2) By reading and incorporating other writing styles</h4>
 
           <p>The styles you incorporate will include writers you naturally write like, and writers you wish you wrote like. Somewhere in between you&#39;ll find a happy medium. If you read a lot, you will also pick up lots of writing tricks and techniques from different authors - who, you won't particularly wish to write like - but which you will minutely be inspired by in very select ways. You will also critically learn the styles you don't want to emulate, and you should take note what those styles did which made you dislike them.</p>
 

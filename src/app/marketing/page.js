@@ -84,7 +84,7 @@ function Marketing() {
           <p>If you&#39;re familiar with my E Chain method you will already start to have an intuitive sense of good structure. Note, I originally invented the E Chain as a method for writing synopses; at the ‘back end&#39; of story-writing. I later realised it could be – and should be – pulled in for use at the ‘front end&#39; to create the plot itself, rather than recap it in summary later.  </p>
           <p>If you have written your story (without using E Chain) and plan to use E Chain to write a synopsis, be aware your E Chain synopsis will make a structureless story collapse like a house of cards, worse, avert you to the plot you should have written instead.</p>
 
-          <h4>Structure Is Fractal</h4>
+          <h4 className="text-xs">Structure Is Fractal</h4>
           <p>Structure is in arrangement. You have all the ideas, now how do you put them together? Alternatively, you have a single idea, now which ideas go together with that idea, and which don't? Also, structure is like fractals: infinite and goes both ways. You can start really small and each time you zoom out there's a new structural issue.</p>
           <p><u>Big Structure:</u> This is the general plot structure, i.e. 3 or 5 Acts or otherwise.</p>
           <p><u>Small Structure:</u> This is on the level of paragraphs and sentences. Every single sentence has an ideal structure. Pedantic, maybe, but you'll agree it's necessary if you've ever had to reread a sentence for clarity.</p>
@@ -131,16 +131,16 @@ function Marketing() {
           </p>
 
           <h3>21.4.1 Basic Rules</h3>
-          <h4>(1) Obey Your Publisher's Style Guide</h4>
+          <h4 className="text-xs">(1) Obey Your Publisher's Style Guide</h4>
           <p>Read their submission requirements regarding font, margins, file format, and do what they say. It goes without saying.</p>
 
-          <h4>(2) Fight the temptation to ‘sex&#39; up (i.e. dress up) your manuscript </h4>
+          <h4 className="text-xs">(2) Fight the temptation to ‘sex&#39; up (i.e. dress up) your manuscript </h4>
           <p>I mean, crazy fonts, colours, designs, proposed book cover art, tying it up with a red bow, etc. To you, it may look like you love your story so much you want to put the extra effort in to make it look ‘pretty&#39;. But to a publisher it says you&#39;re desperate for some pretty veneer to apologise for typos, a boring plot, dull characters, weak writing, etc. Also, it will seriously backfire when the publisher comes across a typo or other error, because it&#39;ll look like you&#39;ve misapplied your time and effort to selecting a stylish font, when you could&#39;ve been subjecting your work to another proofread. </p>
 
-          <h4>(3) Write your synopsis in present tense</h4>
+          <h4 className="text-xs">(3) Write your synopsis in present tense</h4>
           <p>For example, '... Bill goes to investigate the noise and finds his girlfriend's maimed, lifeless body...' Present tense will make your story sound like it's happening and it's now, and you need all the help you can get in making your story sound punchy and action-packed. Past tense sounds like you're telling an informal anecdote (and waters down action by suggesting everyone lived to tell the tale in the future). Future tense sounds too gimmicky, e.g. '...Bill goes to investigate the noise, not realising that he is about to have his world destroyed...' Rather than say 'Bill is about to XYZ', why not just say what he actually sees?</p>
 
-          <h4>(4) Avoid Redundancy</h4>
+          <h4 className="text-xs">(4) Avoid Redundancy</h4>
           <p>Considering how short your synopsis should be, that last thing you want to do is waste precious words repeating yourself. Here&#39;s an example: </p>
           <p><code><i>When Sally's mother dies unexpectedly, Sally is left reeling and barely able to cope. At the funeral, Sally drops to the ground and screams until her relatives take her out. </i></code></p>
           <p>The bit about Sally ‘reeling&#39; and unable to cope is redundant because if she falls to pieces at the funeral, it goes without saying that she is reeling and barely able to cope. You could rewrite it as:</p>

@@ -242,7 +242,7 @@ OVERALL FORMATTING STYLING:
     - [ ] plot
     - [x] themes
     - [x] conflict
-    - [ ] scenes
+    - [x] scenes
     - [ ] main characters
     - [ ] secondary characters
     - [ ] setting
@@ -259,3 +259,10 @@ OVERALL FORMATTING STYLING:
     - [ ] writing devices
     - [ ] editing
     - [ ] MARKETING
+
+
+
+    Some content missing in chapter scenes:
+
+    B.	Different Thing, Same Place: (part A is missing)
+    Also where it says 'CONTENT'

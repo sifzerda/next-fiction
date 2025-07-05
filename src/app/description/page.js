@@ -157,7 +157,7 @@ function Description() {
           <p>Or:</p>
           <p className='indent-8 mb-2'><i>Weirdly, the tommy gun fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
           <p>Note, there&#39;s an argument that the word ‘weirdly&#39; didn&#39;t need to be in the sentence at all; after all, it&#39;s implied that a gun in a violin case is weird.</p>
-          <h4>11.3.3 	Implication by Imagery</h4>
+          <h4 className="text-xs">11.3.3 	Implication by Imagery</h4>
           <p>Here&#39;s an example of the above rule:</p>
           <p className='indent-8 mb-2'>The main street of Starbuck is deserted, save four men in hunting camo outside Archie's Meats and Groceries, loading paper bundles of bloody meat into the back of a pickup truck. Only the store and hotel restaurant appear to be open.
             <FootnoteRef text={`TOM JOLKIEN,\nCurtains, (note: this is non-fiction).`} />

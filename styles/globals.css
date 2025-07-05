@@ -125,6 +125,7 @@ li {
   background-color: #fdffe0;
   border: 1px solid #d1d5db;
   font-family: 'Rubik', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /* back to top btn and scrollbar settings */
@@ -186,6 +187,14 @@ h5 {
   font-size: 1rem;
   font-weight: 600;
   color: #0055cc;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4845fd;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }

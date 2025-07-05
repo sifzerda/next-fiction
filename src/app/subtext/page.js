@@ -70,14 +70,14 @@ function Subtext() {
             <li>Contradictory.</li>
           </ol>
 
-          <h4>Concurrent</h4>
+          <h4 className="text-xs">Concurrent</h4>
           <p>This is where the subtextual meaning – although different to – is not in contradiction with the textual meaning. That is, both meanings can be taken together, without affecting each other.</p>
           <p>For example, the way a character describes their house may be subtext for the way the character subconsciously feels about themselves. Description of the interior may also suggest things about the character&#39;s mentality (messy, organized, artistic, etc). That the description/dialogue describes both the house and the character is not in contradiction – maybe the character intended the likeness. </p>
           <p>The title of the short story, ‘A Clean, Well-Lighted Place&#39;
             <FootnoteRef text={`ERNEST HEMINGWAY,\nWinner Take Nothing.`} />
             is subtext for a person&#39;s place in the world, in that it&#39;s opposite (a dirty, disorganized, dark place) refers to the larger universe. </p>
 
-          <h4>Contradictory</h4>
+          <h4 className="text-xs">Contradictory</h4>
           <p>This is where the textual and subtextual meanings are contradictory and cannot be taken together; if one is true, the other must be false.</p>
           <p>For example, if a character makes a joke at a funeral, the subtext may be that they didn&#39;t actually care much for the deceased. This action is inconsistent with the character&#39;s action in attending the funeral. Therefore, either the intention to attend is genuine, or the joke-telling was – they can&#39;t both be.</p>
 

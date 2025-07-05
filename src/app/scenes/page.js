@@ -55,25 +55,25 @@ function Scenes() {
           <h3>6.1.5 	Example of structure:</h3>
           <p>Take Pet Sematary as an example.</p>
 
-          <h5>The Plot</h5>
+          <h6>The Plot</h6>
           <p>The main character's son dies, so he uses a cursed burial ground to reanimate his body.</p>
 
-          <h5>The Conflict</h5>
+          <h6>The Conflict</h6>
           <p>Acceptance of Death.</p>
 
-          <h5>The Value</h5>
+          <h6>The Value</h6>
           <p>The main character's relation to life and death changes on a scene-to-scene basis throughout the story.</p>
 
-          <h5>Example of a Beat</h5>
+          <h6>Example of a Beat</h6>
           <p>Jud offers to take the protagonist and his family to see the local Pet Cemetery.</p>
 
-          <h5>Example of a Scene</h5>
+          <h6>Example of a Scene</h6>
           <p>Jud shows the family the local Pet Cemetery.</p>
 
-          <h5>Example of a Sequence</h5>
+          <h6>Example of a Sequence</h6>
           <p>Jud takes the protagonist and his family to see the Pet Cemetery. This exposes the daughter to the concept of death. The discussion upsets the mother, who is traumatized by a childhood incident. Protagonist resolves not to further expose his wife to the trauma of death.</p>
 
-          <h5>Example of an Act</h5>
+          <h6>Example of an Act</h6>
           <p>After protagonist and his family move into a new house, neighbour Jud takes them to see the Pet Cemetery. This exposes the daughter to the concept of death. The discussion upsets the mother, who is traumatized by a childhood incident.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -113,32 +113,26 @@ function Scenes() {
           <h2 id="post-forums-for-raising-and-resolving-conflict" className="mb-2 font-semibold">6.3: Forums for Raising and Resolving Conflict</h2>
           <p>Scenes shouldn't be inserted just because they sound 'cool' or interesting (however, if they are, that's a bonus). They should be forums for your characters to introduce and resolve conflicts, and debate questions which are invoked by the theme (obviously you don't have them literally debate – rather you will use subtext through their dialogue and actions). The scenes should also move toward your conclusion. It's as if your novel is in its entirety an essay, and your scenes are the paragraphs - e.g.</p>
 
-<div className="custom-box">
-          <ol>
-            <li><span className="underline">Premise: </span>A guy and his brother get in a drunken fight with some members of the local town's football team; the brother is killed and the football players are shielded from punishment and the guy plans to get back at them;</li>
-            <ol>
-              <li>Theme: Revenge; is it worth it?</li>
-              <ol>
-                <li>Potential scene: guy sleeps with the girlfriend of the football team's best player and gets her pregnant;</li>
-              </ol>
-            </ol>
-          </ol>
+          <div className="custom-box">
+            <h4 className="font-normal text-center">Premise</h4>
+            <p>A man and his brother get in a drunken fight with some members of the local town's football team; the brother is killed and the football players are shielded from punishment and the guy plans to get back at them.</p>
+            <h4 className="font-normal text-center">Theme</h4>
+            <p>Revenge; is it worth it?</p>
+            <h4 className="font-normal text-center">Potential scene</h4>
+            <p>The sleeps with the girlfriend of the football team's best player and gets her pregnant.</p>
           </div>
 
-<p>and:</p>
+          <p>and:</p>
 
-        <div className="custom-box">
-          <ol>
-            <li><span className="underline">Premise: </span>Due to a misunderstanding, a guy is branded a child predator by his tight-knit community;</li>
-            <ol>
-              <li>Theme: Fear: is it stronger than logic?</li>
-              <ol>
-                <li>Potential scene:	Someone comes across his dead body in the forest - this suggests the strength of fear; it's either compelled someone to murder him, or the man to kill himself.</li>
-              </ol>
-            </ol>
-          </ol>
-
+          <div className="custom-box">
+            <h4 className="font-normal text-center">Premise</h4>
+            <p>Due to a misunderstanding, a guy is branded a child predator by his tight-knit community.</p>
+            <h4 className="font-normal text-center">Theme</h4>
+            <p>Fear: is it stronger than logic?</p>
+            <h4 className="font-normal text-center">Potential scene</h4>
+            <p>Someone comes across his dead body in the forest - this suggests the strength of fear; it's either compelled someone to murder him, or the man to kill himself.</p>
           </div>
+
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -155,63 +149,84 @@ function Scenes() {
 
           <div className="custom-box">
             <p>I came late to the meeting because my car broke down. When I arrived I heard my colleague say a terrible think about me because he didn't think I was coming. I didn't talk to him after that.</p>
-            </div>
+          </div>
 
-          <p><span className="font-bold">(1) Encouragement: </span>This refers to the narrative pressures or forces acting on your characters, informing their decision-making and driving your characters&#39; behaviour. Encouragement could be:</p>
+          <h5>(1) Encouragement</h5>
+          <p>This refers to the narrative pressures or forces acting on your characters, informing their decision-making and driving your characters&#39; behaviour. Encouragement could be:</p>
 
-          <p><span className="font-bold"></span></p>
+          <h6>External:</h6>
 
-          <p><span className="bg-hYellow">External:</span> (I moved house <i>because my house burned down</i>); OR</p>
-          <p><span className="bg-hGreen">Internal:</span> (I moved house <i>because I wanted a change</i>); OR</p>
-          <p><span className="bg-hRed">Complex:</span> (I moved house even though I didn't want to, <i>because my wife wanted to and I didn't want to upset her</i>); OR</p>
-          <p><span className="bg-cyan">Unidentified:</span> (I woke up in a new house and <i>I don't remember how I got there</i>).</p>
+          <p>I moved house <i>because my house burned down</i>.</p>
+
+          <h6>Internal:</h6>
+          <p>I moved house <i>because I wanted a change</i>.</p>
+
+          <h6>Complex:</h6>
+          <p>I moved house event though I didn't want to <i>because my wife wanted to and I didn't want to upset her</i>.</p>
+
+          <h6>Unidentified:</h6>
+          <p>I woke up in a new house and <i>I don't remember how I got there</i>.</p>
 
           <p>Internal and unidentifiable encouragement is generally weaker and less effective; external and complex are recommended.</p>
           <p>Stories which lack encouragement tend to produce reader response such as ‘Why did he do that?&#39; or ‘Why did she say that?&#39;</p>
-          <p><span className="font-bold">(2) Events: </span>This refers to the plot events comprising your story. Stories are event-obsessed, so normally these are the things referred to when one provides a quick plot summary thus: ‘A happened, and then B happened, and then C happened.&#39; Ideally should be preceded by encouragement, and result in an effect. Stories which lack events tend to read thinly and pad themselves out with mundane, irrelevant occurrences, thoughts and feelings, and actions.</p>
+
+          <h5>(2) Events</h5>
+          <p>This refers to the plot events comprising your story. Stories are event-obsessed, so normally these are the things referred to when one provides a quick plot summary thus: ‘A happened, and then B happened, and then C happened.&#39; Ideally should be preceded by encouragement, and result in an effect. Stories which lack events tend to read thinly and pad themselves out with mundane, irrelevant occurrences, thoughts and feelings, and actions.</p>
 
           <p>In the above example, the event would be moving to a new house.</p>
 
-          <p><span className="font-bold">(3) Effects: </span>This refers to the response by your character to events. They might come out of an event psychologically unscathed or have their whole world (and the plot development) completely derailed. </p>
+          <h5>(3)  Effects</h5>
+
+          <p>This refers to the response by your character to events. They might come out of an event psychologically unscathed or have their whole world (and the plot development) completely derailed. </p>
           <p>Stories which lack effects tend to sound unrealistic, superficial, and ‘made-up&#39;. Characters may read woodenly or like robots.</p>
           <p>Effects can manifest through behaviour, dialogue, implication, or symbolism (and probably other conveyances). They can be long term or immediate:</p>
 
-          <p><span className="font-bold">Immediate Behavioural:</span></p>
+          <h6>Immediate Behavioural:</h6>
           <ol>
-            <li>Person 1: "That saw mill accident - your brother - Oh my God - "</li>
-            <li>Person 2: *drops phone*</li>
+            <li className="list-none">Person 1: "That saw mill accident - your brother - Oh my God - "</li>
+            <li className="list-none">Person 2: *drops phone*</li>
           </ol>
 
-          <p><span className="font-bold">Immediate Verbal:</span></p>
+          <h6>Immediate Verbal:</h6>
           <ol>
-            <li>Person 1: "That saw mill accident - your brother - Oh my God - "</li>
-            <li>Person 2: “Oh shit. You&#39;re not serious.”</li>
+            <li className="list-none">Person 1: "That saw mill accident - your brother - Oh my God - "</li>
+            <li className="list-none">Person 2: “Oh shit. You&#39;re not serious.”</li>
           </ol>
 
-          <p><span className="font-bold">Immediate Implied:</span></p>
+          <h6>Immediate Implied:</h6>
           <ol>
-            <li>Person 1: "That saw mill accident - your brother - Oh my God - "</li>
-            <li>Person 2: “It&#39;s going to be okay,” she said, as her hand started to shake.</li>
+            <li className="list-none">Person 1: "That saw mill accident - your brother - Oh my God - "</li>
+            <li className="list-none">Person 2: “It&#39;s going to be okay,” she said, as her hand started to shake.</li>
           </ol>
 
-          <p><span className="font-bold">Immediate Implied:</span></p>
+          <h6>Immediate Implied:</h6>
           <ol>
-            <li>Person 1: "That saw mill accident - your brother - Oh my God - "</li>
-            <li>Person 2: *phone dies*</li>
+            <li className="list-none">Person 1: "That saw mill accident - your brother - Oh my God - "</li>
+            <li className="list-none">Person 2: *phone dies*</li>
           </ol>
 
           <p>Effects can be long-term. These are harder to summarise as above because they refer to the cumulative behaviour or changes of your character across the rest of the book, following an event.</p>
-          <p><span className="underline">Long-term behavioural:</span></p>
-          <p>A normally cheerful person, ‘Person 2&#39; (above) – who has no prior experience with trauma until now – succumbs to depression. This manifests by the character becoming withdrawn and pessimistic;</p>
-          <p><span className="underline">Long-term verbal:</span></p>
-          <p>Person 2 starts having little outbursts over little things, when they formerly wouldn&#39;t have;</p>
-          <p><span className="underline">Long-term implied:</span></p>
-          <p>Person 1 (secretly struggling with suicidal ideation) buys life insurance;</p>
-          <p><span className="underline">Long-term symbolic:</span></p>
-          <p>She was slicing the vegetables on autopilot, and didn&#39;t stop until she&#39;d decapitated the caterpillar at the end, then stood and, dumbly, watched its body spasm and die.</p>
+
+          <h6>Long-term behavioural:</h6>
+          <p>A normally cheerful person, 'Person 2&#39; (above) - who has no prior experience with trauma until now – succumbs to depression. This manifests by the character becoming withdrawn and pessimistic;</p>
+
+          <h6>Long-term verbal:</h6>
+          <ol>
+            <li className="list-none">Person 2 starts having little outbursts over little things, when they formerly wouldn&#39;t have.</li>
+          </ol>
+
+          <h6>Long-term implied:</h6>
+          <ol>
+            <li className="list-none">Person 1 (secretly struggling with suicidal ideation) buys life insurance.</li>
+          </ol>
+
+          <h6>Long-term symbolic:</h6>
+          <ol>
+            <li>She was slicing the vegetables on autopilot, and didn&#39;t stop until she&#39;d decapitated the caterpillar at the end, then stood and, dumbly, watched its body spasm and die.</li>
+          </ol>
 
           <h3>6.4.1 The Fork Method</h3>
-          <p>When creating an ‘E Chain&#39; don&#39;t write yourself into a corner. Brainstorm multiple possible outcomes (try to aim for 3-5 – or more) for each plot point/resolution. Never ask yourself; what would normally happen at this point in the story? Instead, ask yourself, what are the possible kinds of interesting things that could happen now? What are some abnormal things that could happen at this point in the story? Don&#39;t be afraid to take risks at every stage. Your goal is to maintain your reader&#39;s interest, not meet their exact expectations. </p>
+          <p>When creating an 'E Chain' don't write yourself into a corner. Brainstorm multiple possible outcomes (try to aim for 3-5 – or more) for each plot point/resolution. Never ask yourself; what would normally happen at this point in the story? Instead, ask yourself, what are the possible kinds of interesting things that could happen now? What are some abnormal things that could happen at this point in the story? Don't be afraid to take risks at every stage. Your goal is to maintain your reader's interest, not meet their exact expectations. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -240,37 +255,35 @@ function Scenes() {
           <h3>6.5.3 	The Method</h3>
           <p>Creating diametrics involves 2 steps: </p>
 
-          <div className="custom-box">
-            <ol>
-              <li>Opposition</li>
-              <li>Integration</li>
-            </ol>
-          </div>
+          <ol>
+            <li>Opposition</li>
+            <li>Integration</li>
+          </ol>
 
           <p>Good writing may draw you into a situation before unveiling its diametrics; getting you to accept the story world part-by-part until you&#39;re compelled to accept the diametric as well.</p>
           <p>Other good stories may throw the diametric right over you at the outset, subsequently entrenching it</p>
           <p>Here are ten examples of diametrics, using some of the most memorable scenes from various film and stories.</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">I. The Sound of Music
+          <h5>I. The Sound of Music
             <FootnoteRef text={<><em>The Sound of Music</em>, 20th Century Fox, (1965).</>} />
-          </p>
+          </h5>
 
-          <p>The most memorable scene in this film is where the main character, a nun in training, runs up onto the mountains and sings. We don&#39;t expect a nun to ditch the headdress and spin around giddily on mountaintops singing at the top of her voice.</p>
+          <p>The most memorable scene in this film is where the main character, a nun in training, runs up onto the mountains and sings. We don&#39;t expect a nun to ditch the headdress and spin giddily on mountaintops singing at the top of her voice.</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">II. I, Robot
+          <h5>II. I, Robot
             <FootnoteRef text={<><em>I, Robot</em>, 20th Century Fox, (2004).</>} />
-          </p>
+          </h5>
 
-          <p>III. King Kong
+          <h5>III. King Kong
             <FootnoteRef text={<><em>King Kong</em>, RKO Radio Pictures, (1933); <em>King Kong</em>, Universal Pictures, (1976); <em>King Kong</em>, Universal Pictures / Warner Bros., (2005).</>} />
-          </p>
+          </h5>
 
           <p>There are various memorable scenes in this film (whether the 1933 or 2006 version). But the stand out is at the end, when King Kong climbs up New York&#39;s Empire State Building clutching Anne Darrow in one hand, before he gets shot down by fighter jets.</p>
           <p>There are multiple diametric elements here: (1) An impossibly gigantic, uncivil wild animal climbing up a skyscraper; the congress of wealthy, civil, businesspeople; (2) He&#39;s holding a human woman who was designed to be his sacrifice; (3) The captive woman is concerned for the safety of the beast; (4) The humans regret having to kill him.</p>
 
-          <p>IV. Singin' in the Rain
+          <h5>IV. Singin' in the Rain
             <FootnoteRef text={<><em>Singin’ in the Rain</em>, Metro-Goldwyn-Mayer, (1952).</>} />
-          </p>
+          </h5>
 
           <p>Even people who have never seen this film are likely aware of the titular scene in which a couple of characters sing in the rain. We expect big song numbers in musicals to be set in lit, appealing aesthetic, with the characters lavishly dressed. This is the opposite: the setting is gloomy, dark, wet, the characters aren&#39;t doing anything interesting (they&#39;re walking down the street), and dressed in ordinary coats and hats. But they&#39;re doing the last thing we&#39;d expect; they&#39;re singing a melodic, lively, happy tune.</p>
 
@@ -299,40 +312,47 @@ function Scenes() {
           </ol>
 
           <p>Some general rules about where to start the story:</p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(1) Start as late possible</p>
+
+          <h5>(1) Start as late possible</h5>
 
           <p>Identify the first plot relevant event and try to start from there. However, for certain reasons, you might need to start earlier. If the first plot relevant event requires context, provide that context. Sol Stein
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
             says: “To hook the reader, many writers put a death right smack in the opening before the reader can feel anything. The death feels told.”</p>
+
           <p>If your first plot relevant event is a character&#39;s death, you should introduce the deceased (even briefly) while alive so that their death has more weight.  As Sol Stein says, "[T]he reader must know the people in the car before he sees the car crash.”</p>
 
           <p>William Sloane
             <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft of Writing.`} />
             says access point is why you must start a story as late as possible; you've got to throw the reader into the story. You can't give the reader a choice to refuse to identify with what&#39;s happening.</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(2) Group main characters, settings and events together</p>
+          <h5>(2) Group main characters, settings and events together</h5>
           <p>If there&#39;s an event early in your story where a handful (or even all) of your main characters congregate – and even better, in a plot relevant setting (e.g. a birthday party at your main character&#39;s house) – it would be wise to make this your first scene. That way you kill a lot of birds with the one stone. It&#39;s also less obvious and ‘intrusive&#39; that you&#39;re trying to introduce characters and settings when it&#39;s all together, as opposed to one at a time.</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(3) Ask a Question</p>
+          <h5>(3) Ask a Question</h5>
           <p>Ideally, your first scene should ask a thematically significant question which the rest of your story attempts to answer.</p>
           <p>A question might follow the structure: If X, then Y? </p>
           <p>For example:</p>
 
-          <ol>
-            <li>Is infidelity ever really forgivable? (If your partner commits infidelity, then could you forgive them?);</li>
-            <li>How damning is isolation? (If you were cut off from the world for a significant period of time, then could you still return to a normal social life?) </li>
-            <li>Can advanced AI have morals? (If AI became really advanced, then could it be programmed with morality?);</li>
-            <li>Can religion and ambition co-exist? (If you are fundamentally religious, and naturally ambitious, then what consequences would follow?) </li>
-          </ol>
+          <h6>Is infidelity ever really forgivable? </h6>
+          <p>If your partner commits infidelity, then could you forgive them? </p>
+
+          <h6>How damning is isolation? </h6>
+          <p>If you were cut off from the world for a significant period of time, then could you still return to a normal social life?</p>
+
+          <h6>Is advanced AI capable of morality?</h6>
+          <p>If AI became really advanced, then could it be programmed with morality?</p>
+
+          <h6>Can religion and ambition co-exist? </h6>
+          <p>If you are fundamentally religious, and naturally ambitious, then what consequences would follow?</p>
 
           <p>You may have already suggested this question in your title, your book design, your tagline, hook, and blurb, but the question should be raised by the first scene; that&#39;s the last chance you get to ask it, otherwise your first chapter is going to be extraneous.</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(4) Don&#39;t Infodump</p>
+          <h5>(4) Don&#39;t Infodump</h5>
           <p>The first scene has the responsibility of getting your reader ‘up to speed&#39; in your fictional world. But that doesn&#39;t give you unfettered license to rain exposition down in buckets.</p>
           <p>Then readers got wise and so authors made the first chapter an ‘into the thick of the action&#39; chapter, and shifted the exposition down one chapter, to chapter two. Which is no better.</p>
           <p>Here&#39;s an extended example of how to smuggle details into a scene from ‘Under the Volcano&#39;</p>
 
-          <div className="p-4 mb-6 rounded bg-gray-50 shadow space-y-4 text-gray-800">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="italic">
               Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother&#39;s house
               <Tooltip number={1} text="Hugh&#39;s slow pace suggests he is reluctant to see his brother" />,
@@ -381,7 +401,7 @@ function Scenes() {
 
           <p>In the story, Yvonne and Hugh only know each other through Hugh&#39;s brother, Geoffrey – who Yvonne is in an on-again-off-again relationship with. Notice how this scene refers to this by interposing the ‘brother&#39; between them without even making him present.</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(5) Active, Not Passive</p>
+          <h5>(5) Active, Not Passive</h5>
           <p>An active scene depicts a plot moment in real time. A passive scene is anything other than a big plot moment; it ‘catches&#39; the reader up on the story in between plot moments. It provides description, exposition, or gives characters a breather to react emotionally to events. It&#39;s like the ‘previously on …&#39; segment at the start of a TV series episode.</p>
           <p>You need active scenes to keep the story moving, but your story can&#39;t just be active scenes, otherwise you will fatigue and/or confuse the reader. An effective story structure has a natural pattern of hills (active scenes) and valleys (passive scenes). However, the first scene must be an ‘active&#39; scene, not a passive one. This means you have to be thrown into the thick of some plot action immediately.</p>
           <p>Whatever comes later, your first scene cannot start with exposition, or start by summarizing an active event that has previously happened, or merely suggest an active event will happen in the following chapters, or flashback to an active event in the middle of a passive scene (better to start the active event in present tense, and then ‘flashforward&#39;).</p>
@@ -390,7 +410,7 @@ function Scenes() {
             In the first scene, a dead girl is described lying in the forest, which is then found by the killer, who removes and takes away the head. This is passive because we are being shown the aftermath of an active event (a murder). We are having the aftermath of an active event summarized to us. There are no characters, no plot and no action going on here, just description; just a dead body doing nothing.</p>
           <p>Instead, the first scene should have been about a girl (who we assume is the main character) who is introduced and briefly characterized to us, before shockingly being stalked, and chased down, and killed in the forest, and then finishing with her head being taken. Better, the chapter ends the moments she&#39;s killed, and we get the first description of her body later, in another active scene when an investigating detective stumbles upon her gruesome and (to our surprise) now headless remains.</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(6) Microcosm</p>
+          <h5>(6) Microcosm</h5>
           <p>Just as you can have a ‘microcosm&#39; first line, you can have a ‘microcosm&#39; first scene – anything ‘first&#39; can be a microcosm, the point is it&#39;s a miniaturized taste of the larger offering, like a synecdoche. A microcosm is like a rehearsal for the main story; characters are shown ‘in practice&#39; for the roles they will acquire later, later plot threads are teased, story elements are shown symbolically which later crystallize as literal.</p>
           <p>Example:</p>
           <p>In the novel Monkey Shines,
@@ -411,7 +431,10 @@ function Scenes() {
           <p>The establishing shot is the reader&#39;s first impression of the story, and will stay with the reader as the progress through the rest of the story. Hart  provides an illustration of this with the start of the non-fiction story ‘Small-Town Cop&#39;:
             <FootnoteRef text={`TRACY KIDDER,\nSmall-Town Cop.`} />
           </p>
-          <p>“From the summit of Mount Holyoke, in western Massachusetts, you look out on the valley of the Connecticut River, a broad landscape of cultivated fields and of forest sweeping away across the horizon, and, at the center, the old town of Northampton. It nests within natural boundaries. To the east the wide river bends around fields, planted mostly in corn. To the north and west, the foothills of the Berkshires rise up in the distance, higher than Northampton&#39;s many steeples. . . . From the summit it seems, like the corn fields beside it, a dream of perfect order, entirely coherent and self-contained, a place where a person might live a whole life and consider it complete, a tiny civilization all its own. Forget the messiness of years and days—every work of human artifice has a proper viewing distance. The town below fits in the palm of your hand. Shake it and it snows.”</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p>“From the summit of Mount Holyoke, in western Massachusetts, you look out on the valley of the Connecticut River, a broad landscape of cultivated fields and of forest sweeping away across the horizon, and, at the center, the old town of Northampton. It nests within natural boundaries. To the east the wide river bends around fields, planted mostly in corn. To the north and west, the foothills of the Berkshires rise up in the distance, higher than Northampton&#39;s many steeples. . . . From the summit it seems, like the corn fields beside it, a dream of perfect order, entirely coherent and self-contained, a place where a person might live a whole life and consider it complete, a tiny civilization all its own. Forget the messiness of years and days—every work of human artifice has a proper viewing distance. The town below fits in the palm of your hand. Shake it and it snows.”</p>
+          </div>
+
           <p>Here, a broad establishing shot emphasises the smallness of the town – relevant because the main character is a ‘small-town cop.&#39;</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -419,10 +442,10 @@ function Scenes() {
           <h2 id="post-the-last-scene">6.7 The Last Scene</h2>
           <h3>6.7.1 	The Last Scene is a ‘special&#39; scene</h3>
           <p>The last scene is like the first; it&#39;s a special scene and special rules apply, which I&#39;ve listed here:</p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(1) Two tiered ending</p>
+          <h5>(1) Two tiered ending</h5>
           <p>About the first scene, I said to start as late as possible. However, you don&#39;t need to, inversely, end the last scene as early as possible. This is partly for practicality: you&#39;ve already gained the reader&#39;s interest, so you don&#39;t have to worry so much about snappy set ups, you have more latitude to spend time developing and resolving.</p>
           <p>For this purpose, there are two ‘levels&#39; or ‘tiers&#39; of endings:</p>
-          <p className="text-sm mb-4 font-rubik text-midBluey">(1) The Climax:</p>
+          <h6>(1) The Climax:</h6>
           <p>The climax is the most exciting part of the story, where the action peaks. The climax isn&#39;t a real ending – unless it&#39;s literally at the end of the story – it could instead come a fair way before the literal last line/chapter. I&#39;m not huge fan of making the climax the literal end, for a number of reasons:</p>
 
           <ol>
@@ -430,7 +453,7 @@ function Scenes() {
             <li>The climax already has to perform a particular task of showing the most action, without burdening with another lot of special functions as the ending;</li>
           </ol>
 
-          <p className="text-sm mb-4 font-rubik text-midBluey">(2) The Dénouement</p>
+          <h6>(2) The Dénouement</h6>
           <p>This follows the climax. This is the literal ending ‘on paper&#39; (even if readers consider the climax the ‘conceptual&#39; ending). If the climax is the ‘action&#39;, the dénouement is the ‘consequence&#39;. Some of its roles:</p>
           <ol>
             <li>Explain what happened during the climax (particularly very ‘busy&#39;, complicated climaxes, or ‘twist-ending&#39; climaxes);</li>
@@ -442,19 +465,16 @@ function Scenes() {
           <p>In a traditional fantasy, the knight slays the dragon and rescues the princess. The slaying of the dragon (the climax) might be the most exciting part, but I&#39;m willing to bet a lot of people would think the rescue (dénouement) is the best/most satisfying part.</p>
           <p>Imagine 2 variants of this fantasy story:</p>
 
-          <p><span className="font-bold">[A strong climax and a weak dénouement]:</span></p>
-          <ol>
-            <li>The knight slays the dragon only to discover it has already killed the princess; </li>
-          </ol>
+          <h4 className="font-normal">A strong climax and a weak dénouement:</h4>
+          <p>The knight slays the dragon only to discover it has already killed the princess; </p>
 
-          <p><span className="font-bold">[A weak climax and a strong dénouement]:</span></p>
-          <ol>
-            <li>The knight can&#39;t defeat the dragon, but finds a way to the princess and they both escape. </li>
-          </ol>
+          <h4 className="font-normal">A weak climax and a strong dénouement:</h4>
+          <p>The knight can&#39;t defeat the dragon, but finds a way to the princess and they both escape. </p>
 
           <p>I think general consensus would find number (1) more unsatisfying than number (2).</p>
 
-          <div className="custom-box">“Keep one thing in mind when you&#39;re writing a dénouement: Falling action has drained all the dramatic tension from the story. Readers want to know the answers to a few questions, but the powerful engine of story has shut down, leaving little momentum to carry your audience farther forward. So don&#39;t push your luck. Wrap things up as quickly as possible and leave the stage Once you&#39;ve answered the necessary questions, you have one remaining task—bring the story to an end with what journalistic types call a “kicker.” A good one will sum up, surprise a little, perhaps bring things full circle, firmly planting your protagonists in their new status quo. It will leave absolutely no doubt that the story has ended.”
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p>“Keep one thing in mind when you&#39;re writing a dénouement: Falling action has drained all the dramatic tension from the story. Readers want to know the answers to a few questions, but the powerful engine of story has shut down, leaving little momentum to carry your audience farther forward. So don&#39;t push your luck. Wrap things up as quickly as possible and leave the stage Once you&#39;ve answered the necessary questions, you have one remaining task—bring the story to an end with what journalistic types call a “kicker.” A good one will sum up, surprise a little, perhaps bring things full circle, firmly planting your protagonists in their new status quo. It will leave absolutely no doubt that the story has ended.”</p>
             <p>— Jack Hart
               <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             </p>
@@ -466,22 +486,23 @@ function Scenes() {
           </p>
 
           <p>There are two kinds of endings: happy endings (a rise) and unhappy endings (a fall).</p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(1)	Happy endings</p>
+
+          <h5>(1)	Happy Endings</h5>
           <p>There are two kinds of happy ending</p>
-          <h6 className="text-xs font-bold text-gray-700 uppercase tracking-wide mt-2 mb-1">I. The protagonist gets what he/she wants in the end: </h6>
+          <h4 className="text-xs">I. The protagonist gets what he/she wants in the end: </h4>
           <p>Here, the protagonist successfully achieves what they set out for. This is the most common ending, which is odd because it&#39;s the weaker of the two. There&#39;s nothing inherently wrong with it; you are satisfying the ‘promise&#39; made at the start of the story. But you are punching in at 8:59 and leaving at 5:01pm. You aren&#39;t going above and beyond the call of duty. That&#39;s fine. But it&#39;s only fine, and no better.</p>
 
-          <h6 className="text-xs font-bold text-gray-700 uppercase tracking-wide mt-2 mb-1">II.	The protagonist doesn&#39;t get what he/she wants, but gets what he/she needs. </h6>
+          <h4 className="text-xs">II.	The protagonist doesn&#39;t get what he/she wants, but gets what he/she needs: </h4>
           <p>You can call this the ‘Pixar ending,&#39; though they certainly did not invent it. Here, the protagonist fails their original aim, but, along the way, achieves something even better. It may not be immediately obvious that the alternative achievement is better, there is often a lesson learned throughout the story along the lines that, although having X is desirable, having Y is better. It sounds very feel-good and ‘Disney&#39; but you don&#39;t have to moralise or make the ‘lesson&#39; obvious. You can make the ending subtle and bittersweet.</p>
           <p>Done authentically, this is a stronger, more complex ending because it&#39;s poignant, bittersweet; it can contain both a loss and a win (i.e. you can have your cake (both unhappy and happy ending) and eat it).</p>
           <p>For instance, the hero wants to win a competition. Their opponent also wants to win – but not in itself, rather to get the attention of a desirable love interest. The hero trains but in the end loses because the opponent cheated. However, the love interest is turned off the opponent because they cheated, and instead admires the strong, honest performance put in by the hero. This ends up meaning more to the hero than winning.</p>
           <p>There are three kinds of unhappy ending:</p>
-          <h6 className="text-xs font-bold text-gray-700 uppercase tracking-wide mt-2 mb-1">I.	The protagonist doesn&#39;t get what they want (a fall) </h6>
+          <h4 className="text-xs">I.	The protagonist doesn&#39;t get what they want (a fall) </h4>
           <p>This is what people think of when you say ‘unhappy ending&#39;: the protagonist dies, the villain wins; the love interest dies; the competition is lost; the warning unheeded; civilization falls; order unrestored; the lesson not learned; the priceless artifact broken; the evil survives; the secret unrevealed; the treasure undiscovered; the sacred knowledge forgotten...etc.</p>
 
-          <h6 className="text-xs font-bold text-gray-700 uppercase tracking-wide mt-2 mb-1">II.	The protagonist doesn&#39;t get what they want, but are a better person for it (a righteous fall)</h6>
+          <h4 className="text-xs">II.	The protagonist doesn&#39;t get what they want, but are a better person for it (a righteous fall)</h4>
           <p>This occurs where the protagonist commits a bad action and, by the end, is punished for it. They may be an anti-hero or a villain in the process of reform (they don&#39;t have to be, good people also do bad things). It may not be a morally ‘bad&#39; action, it may morally neutral, but be unadvised or unwise, or disadvantageous for some other reason. The point of the ending is not to give the protagonist what they want, but show them they didn&#39;t really want what they formerly wanted. By the end, they don&#39;t necessarily get something better, but do learn against wanting something not good for them, and thereby avoid a worse fate. If the protagonist disregards this warning, they get a fall ending (number I. above).</p>
-          <h6 className="text-xs font-bold text-gray-700 uppercase tracking-wide mt-2 mb-1">III.	The protagonist doesn&#39;t get what they want, but may, eventually (a fall...and maybe a rise?)</h6>
+          <h4 className="text-xs">III.	The protagonist doesn&#39;t get what they want, but may, eventually (a fall...and maybe a rise?)</h4>
           <p>I also refer to this ending as the ‘rising inflection&#39; ending. It ostensibly plays out like a typical fall ending (number I. above), except the very end suggests a tiny ray of hope that things will turn out alright, somehow. It&#39;s like one of those “THE END…or is it?” lines, except the ‘or is it?&#39; is signified ambiguously with dialogue, action or some other subtlety right at the end.</p>
           <p>For example, at the end of Stephen King&#39;s ‘The Dark Tower,&#39; the protagonist finds himself back at the start of an eternal time loop. This is an unhappy ending, except for the hopeful implication that the forthcoming iteration of the loop will, for once, play out differently.</p>
           <p>Just be aware once you suggest a single alternate possibility, you&#39;re all but confirming it, so don&#39;t phone it in. In real life, contingencies are never real until they eventuate. But in fiction the author merely suggesting a contingency (to the exclusion of all other possibilities) virtually makes it real. Imagine you were at a Harry Potter convention and someone asked if Dumbledore is married and J. K. Rowling said ‘Maybe he&#39;s gay.&#39; The word ‘maybe&#39; means nothing; this is virtually a confirmation, because it was raised in any case and no alternative is similarly provided.</p>
@@ -497,17 +518,22 @@ function Scenes() {
           <p>Mittelmark and Newman provide examples of bad endings:
             <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(1) Deus Ex Machina</p>
+
+          <h5>(1) Deus Ex Machina</h5>
           <p>Ensure the ultimate pay-off of your ending is properly set up in advance, otherwise you&#39;ll have an unsatisfying ‘Deus Ex Machina&#39; ending. This is where a device comes out of nowhere to resolve the plot for your protagonist.</p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(2) Homo sit Deus</p>
+
+          <h5>(2) Homo sit Deus</h5>
           <p>In observing the above rule, ensure you don&#39;t make things too easy for the protagonist, or telegraph your pay-off too obviously. This is the opposite of a Deus Ex Machina; where you explain your away your pay-off so early (or in so much detail), assuring your protagonist&#39;s victory (and how that victory will eventuate), that your reader feels no anxiety by the climax. In other words, your protagonist never breaks a sweat. If your protagonist is not in suspense, then the reader won&#39;t be either.</p>
           <p>For instance, as set-up, your protagonist may learn the necessary skill, but not the exact method they will rely on to defeat the antagonist, i.e. what they need to do, but not how they will need to do it.</p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(3) Step Aside </p>
+
+          <h5>(3) Step Aside </h5>
           <p>Ensure its your protagonist who ultimately saves the day; don&#39;t give the limelight to another character, otherwise the reader will wonder why you didn&#39;t make that character the protagonist.</p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(4) Backstories should be kept back</p>
-          <p></p>
-          <p className="text-sm mb-4 font-rubik text-boldPurple">(5) Epilogue Echo</p>
-          <p></p>
+
+          <h5>(4) Backstories should be kept back</h5>
+          <p>CONTENT.</p>
+
+          <h5>(5) Epilogue Echo</h5>
+          <p>CONTENT.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -521,7 +547,7 @@ function Scenes() {
           <p>This is so even if you want to show your character stuck doing the same thing, i.e. you want to suggest circumstances haven&#39;t changed.</p>
           <p>There are at least two kinds of breaches of this rule:</p>
 
-          <p className="text-sm mb-4 font-rubik text-boldPurple">B.	Different Thing, Same Place: </p>
+          <h5>B.	Different Thing, Same Place: </h5>
           <p>This may occur anytime your character must go to the same location multiple times. Normally you would describe the location the first time, and then dispense with description subsequent times – the reader doesn&#39;t need to be told twice where it is and what it looks like.</p>
           <p>The problem is where the setting is difficult or time-consuming to reach or traverse through, because skipping description implies the setting is straightforward and unremarkable to get through.</p>
           <p>One method of handling this is ‘The French Scene&#39; (see 6.10); that is, the setting doesn&#39;t change, but the character&#39;s relationship to it (or to others) does. This means a setting which was warm and comforting may turn hostile and foreboding, or a setting which is mildly foreboding becomes outright terrifying. This enables you to describe the same setting multiple times, but each time the description will be different; you will create different metaphors, or draw attention to different things.</p>
@@ -556,8 +582,26 @@ function Scenes() {
           <p>Scene-setting is essential; the selection of details must be meaningful.</p>
           <p>Hart
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
-            analyses this paragraph by Wayne Curtis, describing a riverboat trip up the Mississippi for the Atlantic:</p>
-          <div className="custom-box">“The night grew darker, and the captain fired up a massive spotlight, sending upriver a great silver cylinder that glittered with the confetti of confused insects. From the dark void ahead of us, rubies and emeralds came sparkling back off the reflectors of the navigational buoys. A full moon had risen over the east bank, and it moved slowly from one bracketed porch column to another, the ship serving as a sort of Victorian Stonehenge to mark the loopy curves of the river.”</div>
+            analyses this paragraph by Wayne Curtis, describing a riverboat trip up the Mississippi for the Atlantic:
+            <FootnoteRef
+              text={
+                <>
+                  WAYNE CURTIS,<br />
+                  "In Twain's Wake: Mint Juleps and Magic Fingers on the Mississippi."<br />
+                  <em>The Atlantic</em>, Nov. 2007.<br />
+                  <a href="https://www.theatlantic.com/magazine/archive/2007/11/in-twain-s-wake/306327/"
+                    target="_blank" rel="noopener noreferrer" className="underline text-blue-400 hover:text-volt">
+                    https://www.theatlantic.com/magazine/archive/2007/11/in-twain-s-wake/306327/</a>
+                </>
+              }
+            />
+          </p>
+
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p>
+              “The night grew darker, and the captain fired up a massive spotlight, sending upriver a great silver cylinder that glittered with the confetti of confused insects. From the dark void ahead of us, rubies and emeralds came sparkling back off the reflectors of the navigational buoys. A full moon had risen over the east bank, and it moved slowly from one bracketed porch column to another, the ship serving as a sort of Victorian Stonehenge to mark the loopy curves of the river.”</p>
+          </div>
+
           <p>Hart says, “Notice how Curtis uses the searchlight to create a sense of space. Lots of perspective- rich images can do the same thing—a road winding into the snowy woods, a long stairway ascending in front of you, railroad tracks. Seize on such devices to help flesh out the stages you create. And phenomena such as parallax—in this case the moon appearing to move behind the porch columns— add both perspective and motion.”</p>
 
           <h3>6.8.6 	‘Quiet Scenes&#39; </h3>
@@ -582,21 +626,21 @@ function Scenes() {
 
           <h2 id="post-chronology">6.9: Chronology</h2>
           <p>This is the order of your scenes. You can have:</p>
-          <ol>
-            <li>Linear chronology (events told in temporal order; when they happened in time, from the earliest to the most recent); or</li>
-            <li>Non-Linear chronology (events told out of temporal order)</li>
-          </ol>
+
+          <h5>Linear Chronology</h5>
+          <p>Events told in temporal order; when they happened in time, from the earliest to the most recent; or</p>
+
+          <h5>Non-Linear chronology</h5>
+          <p> Events told out of temporal order</p>
 
           <p>You might flashback, flashforward or repeat a scene to reveal something new, or shuffle the scenes around as if by random.</p>
           <p>Some caveats about using ‘time jumps&#39;:</p>
 
-          <ol>
-            <li>As Tom French said: “Stay as close to the action as possible.”
-              <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
-            </li>
-            <li>Do not write in a time jump before you have ensured the reader&#39;s interest and hunger with live issue/s. A time jump is a fantastic opportunity for a reader to hedge their bets and close the book, because it requires regenerating the reader&#39;s interest all over again – kind of like dying and regenerating in a video game; if the game hasn&#39;t been promising so far, why not take the death as an opportunity to switch off?</li>
-            <li>Only bring in flashbacks and flashforwards after generating curiosity in your reader as to what the flashback/flashforward is conveying. Don&#39;t bring in a flashback/forward to answer a question your reader didn&#39;t realise they wanted to know. Don&#39;t make your reader ask ‘why are we flashing back?&#39;</li>
-          </ol>
+          <p>As Tom French said: “Stay as close to the action as possible.”
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
+          </p>
+          <p>Do not write in a time jump before you have ensured the reader&#39;s interest and hunger with live issue/s. A time jump is a fantastic opportunity for a reader to hedge their bets and close the book, because it requires regenerating the reader&#39;s interest all over again – kind of like dying and regenerating in a video game; if the game hasn&#39;t been promising so far, why not take the death as an opportunity to switch off?</p>
+          <p>Only bring in flashbacks and flashforwards after generating curiosity in your reader as to what the flashback/flashforward is conveying. Don&#39;t bring in a flashback/forward to answer a question your reader didn&#39;t realise they wanted to know. Don&#39;t make your reader ask ‘why are we flashing back?&#39;</p>
 
           <p>For instance, you might start ‘in media res&#39; and have main characters alluding to some critical past event. Only after generating enough interest about the alluded to event can you then flashback and show it, because your reader knows what it&#39;s for and is interested in seeing it.</p>
 
@@ -644,43 +688,50 @@ function Scenes() {
           <p>Transition is another element of story progression; one thing leading to the next. Scenes should also have this feel, which is the utility of transitions.</p>
           <p>McKee suggests the vehicle for scene transition is a thing held in common by two scenes or counterpointed between them. This ‘thing&#39; may be:</p>
 
-          <ol>
-            <li className="underline">A trait:</li>
-            <ol>
-              <li>Commonality: Scene 1 depicts the childish child, scene 2 depicts the childish adult; </li>
-              <li>Counterpoint: scene 1 depicts the awkward child; scene 2 depicts the elegant adult</li>
-            </ol>
-            <li className="underline">An action:</li>
-            <ol>
-              <li>Commonality: Scene 1 shows the foreplay, scene 2 shows the sex; </li>
-              <li>Counterpoint: scene 1 shows consensual sex, scene 2 becomes a rape;</li>
-            </ol>
-            <li className="underline">An object:</li>
-            <ol>
-              <li>Commonality: Scene 1 in an archeology museum, scene 2 in the excavation dig-site; </li>
-              <li>Counterpoint: Scene 1 in a jungle, scene 1 in a city;</li>
-            </ol>
-            <li className="underline">A word:</li>
-            <ol>
-              <li>Commonality: Scene 1 starts with a thematic quote, scene 2 repeats this quote (or adds to it, or finishes it) </li>
-              <li>Counterpoint: Scene 1 shows someone being complimented, scene 2 shows them being cursed;</li>
-            </ol>
-            <li className="underline">Lighting or visual atmosphere/mood:</li>
-            <ol>
-              <li>Commonality: Scene 1 describes shadows at dawn, scene 2 describes darkening twilight; </li>
-              <li>Counterpoint: Scene 1 set under a blue sky, scene 2 a red sky.</li>
-            </ol>
-            <li className="underline">Sound:</li>
-            <ol>
-              <li>Commonality: Scene 1 describes drumming, scene 2 describes thunder; </li>
-              <li>Counterpoint: Scene 1 describes the harmonious music created by an orchestra, scene 2 describes the mindless noise created by the workers at a big factory.</li>
-            </ol>
-            <li className="underline">An idea:</li>
-            <ol>
-              <li>Commonality: scene 1 shows a portrait being painted, scene 2 shows a baby being born; </li>
-              <li>Counterpoint: scene 1 shows a baby being born and nursed, scene 2 shows an animal being slaughtered.</li>
-            </ol>
-          </ol>
+          <h5>A Trait:</h5>
+          <h4 className="font-normal">Commonality:</h4>
+          <p>Scene 1 depicts the childish child, scene 2 depicts the childish adult.</p>
+
+          <h4 className="font-normal">Counterpoint:</h4>
+          <p>Scene 2 depicts the awkward child; scene 2 depicts the elegant adult.</p>
+
+          <h5>An Action:</h5>
+          <h4 className="font-normal">Commonality:</h4>
+          <p>Scene 1 shows the foreplay, scene 2 shows the sex.</p>
+
+          <h4 className="font-normal">Counterpoint:</h4>
+          <p>Counterpoint: scene 1 shows consensual sex, scene 2 becomes a rape.</p>
+
+          <h5>An Object:</h5>
+          <h4 className="font-normal">Commonality:</h4>
+          <p>Scene 1 in an archeology museum, scene 2 in the excavation dig-site.</p>
+
+          <h4 className="font-normal">Counterpoint:</h4>
+          <p>Counterpoint: Scene 1 in a jungle, scene 1 in a city.</p>
+
+          <h5>A Word:</h5>
+          <h4 className="font-normal">Commonality:</h4>
+          <p>Scene 1 starts with a thematic quote, scene 2 repeats this quote (or adds to it, or finishes it).</p>
+          <h4 className="font-normal">Counterpoint:</h4>
+          <p>Scene 1 shows someone being complimented, scene 2 shows them being cursed.</p>
+
+          <h5>Lighting or Visual Atmosphere/Mood:</h5>
+          <h4 className="font-normal">Commonality:</h4>
+          <p>Scene 1 describes shadows at dawn, scene 2 describes darkening twilight</p>
+          <h4 className="font-normal">Counterpoint:</h4>
+          <p>Scene 1 set under a blue sky, scene 2 a red sky.</p>
+
+          <h5>Sound:</h5>
+          <h4 className="font-normal">Commonality:</h4>
+          <p>Scene 1 describes drumming, scene 2 describes thunder.</p>
+          <h4 className="font-normal">Counterpoint:</h4>
+          <p>Scene 1 describes the harmonious music created by an orchestra, scene 2 describes the mindless noise created by the workers at a big factory.</p>
+
+          <h5>An Idea:</h5>
+          <h4 className="font-normal">Commonality:</h4>
+          <p>Scene 1 shows a portrait being painted, scene 2 shows a baby being born.</p>
+          <h4 className="font-normal">Counterpoint:</h4>
+          <p>Scene 1 shows a baby being born and nursed, scene 2 shows an animal being slaughtered.</p> 
 
           <p>You could apply this tip to almost anything in this entire document, but don&#39;t go for the obvious. Try to create an imaginative link to transition scenes. Like symbolism and irony, it should have subconscious appeal, and not slap the reader in the face.</p>
 
@@ -691,14 +742,15 @@ function Scenes() {
           <p>Mittelmark and Newman provide some examples:
             <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
-          <div className="custom-box">
-            <p>She imagined the ballroom as it must once have been.</p>
-            <p>I gazed out the window and remembered the purity of the Arctic snows.</p>
-            <p>She imagined how it could have been if only Reynaldo were here.</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>She imagined the ballroom as it must once have been.</i></p>
+            <p><i>I gazed out the window and remembered the purity of the Arctic snows.</i></p>
+            <p><i>She imagined how it could have been if only Reynaldo were here.</i></p>
           </div>
 
           <p>This is even worse when the present scene gets disregarded for the imaginary scene, e.g.</p>
-          <div className="custom-box"><p>She walked into the upper-class Manhattan party, a secret wonderland of plutocratic excess. But she couldn&#39;t relate to any of these people; their old money and fortune 500 fathers. Right then, she wanted nothing more than to be back home on the farm, with her Irish Draught stallion, Icarus, riding over the broad, green hills. She wouldn&#39;t even mind the frequent rain showers; the smell of wet hay was infinitely preferable to the smog of tobacco and perfume in here. Thirty minutes later, having talked to no one, she left the hotel lobby.</p>
+          <div className="custom-box">
+            <p><i>She walked into the upper-class Manhattan party, a secret wonderland of plutocratic excess. But she couldn&#39;t relate to any of these people; their old money and fortune 500 fathers. Right then, she wanted nothing more than to be back home on the farm, with her Irish Draught stallion, Icarus, riding over the broad, green hills. She wouldn&#39;t even mind the frequent rain showers; the smell of wet hay was infinitely preferable to the smog of tobacco and perfume in here. Thirty minutes later, having talked to no one, she left the hotel lobby.</i></p>
           </div>
 
           {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}

@@ -25,7 +25,7 @@ export default function Tooltip({ number, text }) {
       className="relative inline-block text-blue-600 font-bold cursor-pointer align-baseline mx-1">
       [{number}]
       {visible && (
-        <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 w-64 text-sm text-white bg-gray-800 p-2 rounded shadow-lg z-10 not-italic">
+        <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 w-64 text-sm font-normal text-white bg-gray-800 p-2 rounded shadow-lg z-10 not-italic">
           {text}
         </span>
       )}
