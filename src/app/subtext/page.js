@@ -42,18 +42,23 @@ function Subtext() {
             <FootnoteRef text={<><em>War of the Worlds</em>, Paramount Pictures / DreamWorks Pictures, (2005).</>} />
           </p>
 
+
+<div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
           <p className='italic'>Father: Here we go, some nice peanut butter sandwiches.</p>
           <p className='italic'>Daughter: I&#39;m allergic to peanut butter.</p>
           <p className='italic'>Father: Since when?</p>
           <p className='italic'>Daughter: Birth.</p>
+          </div>
 
           <p>Subtext = bad father. This is conveyed more dynamically here in an interaction, than the daughter merely spinning off a cliché like "I hate you, you were never there."</p>
           <p>You can also convey subtext through action and description. For example, a game played between characters could be the arena for subtext of deadly opposition between rivals, or flirting between potential love interests. Just note the character saying, “You&#39;re good at chess. Also, you&#39;re cute. Let&#39;s go out,” is not subtext, it&#39;s just text, because there is only one way of reading it. Rather, it&#39;s subtext when dialogue or action acquires a secondary, implied meaning, that is, there are two (not necessarily opposing) ways of reading the situation; the textual and the subtextual, e.g.</p>
 
+<div className="custom-box">
           <p className='italic'>She: “You haven&#39;t moved your King.”</p>
           <p className='italic'>He: “I&#39;m waiting for the right moment.”</p>
           <p className='italic'>She: “You&#39;ve had plenty of opportunities to get closer.”</p>
           <p className='italic'>He: “I want to surprise you.”</p>
+</div>
 
           <p>Another example: In Flowers for Algernon,
             <FootnoteRef text={`DANIEL KEYES,\nFlowers for Algernon.`} />
@@ -70,14 +75,14 @@ function Subtext() {
             <li>Contradictory.</li>
           </ol>
 
-          <h4 className="text-xs">Concurrent</h4>
+          <h5>I. Concurrent</h5>
           <p>This is where the subtextual meaning – although different to – is not in contradiction with the textual meaning. That is, both meanings can be taken together, without affecting each other.</p>
           <p>For example, the way a character describes their house may be subtext for the way the character subconsciously feels about themselves. Description of the interior may also suggest things about the character&#39;s mentality (messy, organized, artistic, etc). That the description/dialogue describes both the house and the character is not in contradiction – maybe the character intended the likeness. </p>
           <p>The title of the short story, ‘A Clean, Well-Lighted Place&#39;
             <FootnoteRef text={`ERNEST HEMINGWAY,\nWinner Take Nothing.`} />
             is subtext for a person&#39;s place in the world, in that it&#39;s opposite (a dirty, disorganized, dark place) refers to the larger universe. </p>
 
-          <h4 className="text-xs">Contradictory</h4>
+          <h5>II. Contradictory</h5>
           <p>This is where the textual and subtextual meanings are contradictory and cannot be taken together; if one is true, the other must be false.</p>
           <p>For example, if a character makes a joke at a funeral, the subtext may be that they didn&#39;t actually care much for the deceased. This action is inconsistent with the character&#39;s action in attending the funeral. Therefore, either the intention to attend is genuine, or the joke-telling was – they can&#39;t both be.</p>
 
@@ -99,24 +104,23 @@ function Subtext() {
 
           <p>Subtext is absolutely necessary for a work pitched at anyone over the age of eight, however, symbolism is optional. Why not be simple about it: if you don&#39;t need it, why have it? Where the work is complicated or subtle or has a lot of different thematic concerns, symbolism might be useful to flag and distinguish each concern. </p>
           <p>If you do use it, make sure it&#39;s not obvious, but in the background to build mood. For instance:</p>
-          <ol>
-            <li>Good (subtle/effective) symbolism: A character is walking through a fairground. In the background, some circus attractions are described, including a tiger in a cage. The tiger in the cage symbolizes a mounting danger, or risk.</li>
-            <li>Bad (clumsy/ineffective) symbolism: A character is walking through a park. In the background, a circus is setting up, including a tiger in a cage, symbolizing impending danger or risk. This is clumsy because the circus and tiger in cage draws attention to itself, and risks making itself known purely as symbolism. Don&#39;t enable your reader become more of an expert on your story than you are.</li>
-          </ol>
+
+          <h5>Good Symbolism</h5>
+          <p>A character is walking through a fairground. In the background, some circus attractions are described, including a tiger in a cage. The tiger in the cage symbolizes a mounting danger, or risk.</p>
+
+          <h5>Bad Symbolism</h5>
+          <p>A character is walking through a park. In the background, a circus is setting up, including a tiger in a cage, symbolizing impending danger or risk. This is clumsy because the circus and tiger in cage draws attention to itself, and risks making itself known purely as symbolism. Don&#39;t enable your reader become more of an expert on your story than you are.</p>
+
           <p>Symbolism is very easy to get wrong. There&#39;s a risk that you could rely on symbolism as a substitute for thematic development through actual writing, for instance, using the colour red to denote love rather than having characters just act and interact in ways which suggest love, and assuming the reader will pick up on it. </p>
 
           <h3>10.2.1 	Types of Symbolism</h3>
           <p>There are generally two types of symbolism:</p>
 
-          <ol>
-            <li>External Imagery:</li>
-          </ol>
+            <h5>I. External Imagery:</h5>
 
           <p>This relies on an existing connection between image (logos) and meaning (semantic), e.g. spiders = fear; applies = temptation. The risk with this is if the reader doesn&#39;t make the connection (e.g. they don&#39;t fear spiders, or dislike apples) the effect fails. </p>
 
-          <ol>
-            <li>External Imagery:</li>
-          </ol>
+            <h5>II. External Imagery:</h5>
 
           <p>This creates a new connection between image and meaning, for instance, birds = anxiety; oranges = death. This is harder, relying more on organic writing ability, but can be memorably evocative if done right.</p>
 

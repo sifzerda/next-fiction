@@ -246,7 +246,7 @@ OVERALL FORMATTING STYLING:
     - [ ] main characters
     - [ ] secondary characters
     - [x] setting
-    - [ ] subtext 
+    - [x] subtext 
     - [ ] description
     - [ ] dialogue
     - [ ] suspense
