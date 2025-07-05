@@ -251,7 +251,7 @@ OVERALL FORMATTING STYLING:
     - [ ] dialogue
     - [x] suspense
     - [ ] pov
-    - [ ] voice
+    - [x] voice
     - [ ] antagonists
     - [ ] the first words
     - [ ] the next words
@@ -260,7 +260,10 @@ OVERALL FORMATTING STYLING:
     - [ ] editing
     - [ ] MARKETING
 
+make text size of index box and also see box smaller to match about box
 
+
+Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i></i></code></p>
 
     Some content missing in chapter scenes:
 

@@ -79,12 +79,17 @@ function Voice() {
           <p>Another term for this is the 'middle style'; sometimes it&#39;s claimed to be “transparent” prose. That&#39;s because it&#39;s clear, precise, and concise and doesn&#39;t call attention to itself.</p>
           <p>William Hazlitt gave it some other names, and a good characterization, back in 1821:</p>
 
-          <p><i>“To write a genuine familiar or truly English style, is to write as anyone would speak in common conversation, who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity.”</i>
-            <FootnoteRef text={`WILLIAM HAZLITT.`} />
-          </p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>“To write a genuine familiar or truly English style, is to write as anyone would speak in common conversation, who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity.”</i>
+              <FootnoteRef text={`WILLIAM HAZLITT.`} />
+            </p>
+          </div>
 
           <p>He also gives an example of voiceless – soulless – writing:</p>
-          <p><i>‘Not only do journalists possess an undying passion to uncover and showcase relevant information to enhance the public&#39;s knowledge on current events, but exhibit a willingness to go to great lengths to obtain stories fit to print.&#39; </i></p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>‘Not only do journalists possess an undying passion to uncover and showcase relevant information to enhance the public&#39;s knowledge on current events, but exhibit a willingness to go to great lengths to obtain stories fit to print.&#39; </i></p>
+          </div>
+
           <p>It has all the telltale signs of mindless writing: wordiness, clichés, and catchphrases poorly used; subjects and verbs that don&#39;t line up; incorrect use of words; faulty parallelism.</p>
 
           <p>The purpose of style is not merely to sound “amusing or lyrical or emotive or profound or fun” but to:
@@ -101,20 +106,20 @@ function Voice() {
 
           <p>You create your own writing voice/style in two ways:</p>
 
-          <h4 className="text-xs">(1) By practicing writing</h4>
+          <h5>(1) Writing</h5>
 
           <p>The only way you can critique and develop your own writing is by actually writing and read and critically appraise what you&#39;ve written, sometimes months or years after writing it. By doing so, you will attune yourself to your existing style and be able to decide what you like and dislike about it. This will inform the styles which you subsequently are inspired by.</p>
           <p>For instance, if you are concerned your writing waffles too much, you might take special notice of concise writing styles, and make effort to emulate them.</p>
 
-          <h4 className="text-xs">(2) By reading and incorporating other writing styles</h4>
+          <h5>(2) Reading</h5>
 
-          <p>The styles you incorporate will include writers you naturally write like, and writers you wish you wrote like. Somewhere in between you&#39;ll find a happy medium. If you read a lot, you will also pick up lots of writing tricks and techniques from different authors - who, you won't particularly wish to write like - but which you will minutely be inspired by in very select ways. You will also critically learn the styles you don't want to emulate, and you should take note what those styles did which made you dislike them.</p>
+          <p>Read and expose yourself to different writing styles. The styles you incorporate will include writers you naturally write like, and writers you wish you wish to emulate. Somewhere in between you&#39;ll find a happy medium. If you read a lot, you will also pick up lots of writing tricks and techniques from different authors - who, you won't particularly wish to write like - but which you will minutely be inspired by in very select ways. You will also critically learn the styles you don't want to emulate, and you should take note what those styles did which made you dislike them.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-be-quiet">15.3: Be Quiet</h2>
 
-          <div className="custom-box">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="italic">One must be careful to distinguish between those who write beautiful things and those who write things beautifully
               <FootnoteRef text="SOMERSET MAUGHAM." />
             </p>
@@ -125,8 +130,9 @@ function Voice() {
           <p>Bickham says:
             <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
           </p>
-
-          <p><code><i>“Your style and attitude in your stories should be like a clean pane of glass through which the reader sees the action. If </i>[your writing]<i> pose</i>[s] <i>and posture</i>[s]… [it'll] <i>draw attention to you as a writer, rather than to what's happening.” </i></code></p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>“Your style and attitude in your stories should be like a clean pane of glass through which the reader sees the action. If </i>[your writing]<i> pose</i>[s] <i>and posture</i>[s]… [it'll] <i>draw attention to you as a writer, rather than to what's happening.” </i></p>
+          </div>
 
           <p>Mittelmark and Newman agree, saying:
             <FootnoteRef text={`HOWARD MITTELMARK and SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
@@ -160,7 +166,7 @@ function Voice() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}
