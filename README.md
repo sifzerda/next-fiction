@@ -245,7 +245,7 @@ OVERALL FORMATTING STYLING:
     - [x] scenes
     - [ ] main characters
     - [ ] secondary characters
-    - [ ] setting
+    - [x] setting
     - [ ] subtext 
     - [ ] description
     - [ ] dialogue
