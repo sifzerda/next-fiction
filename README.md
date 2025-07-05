@@ -244,12 +244,12 @@ OVERALL FORMATTING STYLING:
     - [x] conflict
     - [x] scenes
     - [ ] main characters
-    - [ ] secondary characters
+    - [x] secondary characters
     - [x] setting
     - [x] subtext 
     - [ ] description
     - [ ] dialogue
-    - [ ] suspense
+    - [x] suspense
     - [ ] pov
     - [ ] voice
     - [ ] antagonists

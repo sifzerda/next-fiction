@@ -65,11 +65,11 @@ function Suspense() {
             <FootnoteRef text={`SOL STEIN,\nOn Writing.`} />
             workmanlike definition of suspense as where the reader wants something to happen and it isn&#39;t happening yet, or the reader wants something to stop, and it doesn&#39;t. However, it doesn&#39;t capture the variety of ways you can invite suspense into your story. The reader might: </p>
           <ol>
-            <li>want something to happen, or </li>
-            <li>want something to <i>not</i> happen, or  </li>
-            <li>not know, of multiple, terrible outcomes, which is worse, or  </li>
-            <li>of a ‘too good to be true&#39; outcome, how it could go wrong, or  </li>
-            <li>of a guaranteed confrontation, when the confrontation will actually occur, and under what circumstances, etc. </li>
+            <li>Want something to happen, or </li>
+            <li>Want something to <i>not</i> happen, or  </li>
+            <li>Not know, of multiple, terrible outcomes, which is worse, or  </li>
+            <li>Of a ‘too good to be true&#39; outcome, how it could go wrong, or  </li>
+            <li>Of a guaranteed confrontation, when the confrontation will actually occur, and under what circumstances, etc. </li>
           </ol>
 
           <p>The layman definition of suspense tends to associate suspense building with raising the stakes. That is one form of suspense building but it&#39;s not the only one. In order to build suspense, all you need to do is supply information, or create events which lend the final outcome more weight.</p>
@@ -84,7 +84,9 @@ function Suspense() {
             <FootnoteRef text={`STEPHEN KING,\nThe Dead Zone.`} />
           </p>
 
-          <p className="italict">A thick feeling of tension had begun to creep into his body.</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="italic">A thick feeling of tension had begun to creep into his body.</p>
+          </div>
           <p>As with most writing effects, you cannot generate tension merely by telling your reader it&#39;s there. You have to create it.</p>
 
           <h3>13.3.2 How to Create Tension</h3>
@@ -94,7 +96,9 @@ function Suspense() {
           <p>You slow pacing by adding detail. A way to speed pacing up is what Sol Stein calls ‘skipping for effect&#39;. This is where you selectively omit information. For example:
             <FootnoteRef text={`JOHN CHEEVER,\nThe Country Husband.`} /></p>
 
-          <p className="italic">He washed his body, shaved his jaws, drank his coffee, and missed the seven-thirty-one.</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="italic">He washed his body, shaved his jaws, drank his coffee, and missed the seven-thirty-one.</p>
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -137,28 +141,31 @@ function Suspense() {
           <p>Pacing also influences how fast the reader determines events are happening. Events may be physical, or mental (e.g. the speed the protagonist makes mental connections or the speed they take in mental stimuli). Because many physical events occur to your protagonist as mental stimuli, there is overlap.</p>
           <p>By example, two Stephen King stories: </p>
 
-          <ol>
-            <li>Fast Pacing:</li>
-            <p>In Children of the Corn, the events happen within a day or so. This largely because the circumstance of the plot; a bunch of townspeople have been murdered and the protagonists are captives of the remaining children. The plot events must play out very quickly after this point to manage the likelihood of the protagonists running away or calling authorities – on that logic, there is no sense drawing the events out longer.</p>
-            <li>Slow Pacing</li>
-            <p> In The Dead Zone, the events happen across many years. While the protagonist is in a coma, events aren&#39;t skipped over until he wakes up, but continue to be described to convey the long passage of time and sense of change while he is comatose.</p>
-            <p>After he has awoken, the rest of the story plays out across a few years between the protagonist making a psychic prediction, and it coming true. This is to convey how far into the future he can see, and the sense of uncertainty or dread in the meantime.</p>
-          </ol>
+          <h5>I. Fast Pacing:</h5>
+          <p>In Children of the Corn, the events happen within a day or so. This largely because the circumstance of the plot; a bunch of townspeople have been murdered and the protagonists are captives of the remaining children. The plot events must play out very quickly after this point to manage the likelihood of the protagonists running away or calling authorities – on that logic, there is no sense drawing the events out longer.</p>
+          <h5>II. Slow Pacing</h5>
+          <p> In The Dead Zone, the events happen across many years. While the protagonist is in a coma, events aren&#39;t skipped over until he wakes up, but continue to be described to convey the long passage of time and sense of change while he is comatose.</p>
+          <p>After he has awoken, the rest of the story plays out across a few years between the protagonist making a psychic prediction, and it coming true. This is to convey how far into the future he can see, and the sense of uncertainty or dread in the meantime.</p>
 
           <h3>13.4.3	No-Clock Pacing</h3>
           <p>It&#39;s tempting to reduce pacing to literal references of the passage of time, e.g.</p>
-          <p><i>We left two hours later.</i></p>
-          <p><i>The city was a twenty minute drive away.</i></p>
-          <p><i>I worked at this job for six months, before they fired me.</i></p>
+          <div className="custom-box">
+            <p><i>We left two hours later.</i></p>
+            <p><i>The city was a twenty minute drive away.</i></p>
+            <p><i>I worked at this job for six months before they fired me.</i></p>
+          </div>
 
           <p>Etc.</p>
 
           <p>There are two problems with this: (1) it&#39;s too formulaic and, (2) reminding your reader the passage of time in the story risks reminding them of the passage of time in real life, and that is the opposite of what a story – in trying to immerse someone – is aiming to do.</p>
           <p>Try to convey the passage of time by the activities your characters are doing, or observations going around them, e.g. </p>
 
-          <p><i>The dance floor eventually gets crowded, mostly with guys, but the vibe is good. I have about ninety beers as another incredible African sky turns from blue to orange to purple to black. The music gets louder and more insistent. I soldier through broken conversations with drunken strangers.
-            <FootnoteRef text={`CHUCK THOMPSON,\nTo Hellholes and Back.`} />
-          </i></p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>The dance floor eventually gets crowded, mostly with guys, but the vibe is good. I have about ninety beers as another incredible African sky turns from blue to orange to purple to black. The music gets louder and more insistent. I soldier through broken conversations with drunken strangers.
+              <FootnoteRef text={`CHUCK THOMPSON,\nTo Hellholes and Back.`} />
+            </i></p>
+          </div>
+
           <p>Multiple parts of this paragraph jump time ahead – ‘ninety beers&#39;, the sky changing colour, several ‘conversations.&#39;</p>
 
           {/* ------------------------------------------------- comments Form footnotes --------------------------------------------- */}
@@ -173,7 +180,7 @@ function Suspense() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}
