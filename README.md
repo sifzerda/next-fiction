@@ -262,6 +262,7 @@ OVERALL FORMATTING STYLING:
 
 make text size of index box and also see box smaller to match about box
 
+potentially add height minimization scrollbar grabbing on sidebar for larger screens, using 'scrollbar hide' tailwind plugin
 
 Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i></i></code></p>
 
