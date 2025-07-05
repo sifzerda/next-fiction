@@ -250,7 +250,7 @@ OVERALL FORMATTING STYLING:
     - [ ] description
     - [ ] dialogue
     - [x] suspense
-    - [ ] pov
+    - [x] pov
     - [x] voice
     - [ ] antagonists
     - [ ] the first words
