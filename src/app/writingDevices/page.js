@@ -330,16 +330,16 @@ function WritersDevices() {
           <p>Example:</p>
 
           <div className="custom-box">
-            <p className='indent-8 mb-2'>"I need to get off."</p>
-            <p className='indent-8 mb-2'>"You chose this ride."</p>
-            <p className='indent-8 mb-2'>"I went on your rollercoaster with you. Wasn't that enough?"</p>
-            <p className='indent-8 mb-2'>"That wasn't even a rollercoaster, it was a ghost train. I don't even like Ferris Wheels, I only got on this with you because I thought you wanted to go on it."</p>
-            <p className='indent-8 mb-2'>"I didn't actually want to."</p>
-            <p className='indent-8 mb-2'>"Well, then why did you get on?"</p>
-            <p className='indent-8 mb-2'>"Why did you get on?"</p>
-            <p className='indent-8 mb-2'>She: *says nothing*</p>
-            <p className='indent-8 mb-2'>"You didn't have to."</p>
-            <p className='indent-8 mb-2'>"Isn't it obvious?"</p>
+            <p className='indent-8 mb-2'>She: "I need to get off."</p>
+            <p className='indent-8 mb-2'>He: "You chose this ride."</p>
+            <p className='indent-8 mb-2'>She: "I went on your rollercoaster with you. Wasn't that enough?"</p>
+            <p className='indent-8 mb-2'>He: "That wasn't even a rollercoaster, it was a ghost train. I don't even like Ferris Wheels, I only got on this with you because I thought you wanted to go on it."</p>
+            <p className='indent-8 mb-2'>She: "I didn't actually want to."</p>
+            <p className='indent-8 mb-2'>He: "Well, then why did you get on?"</p>
+            <p className='indent-8 mb-2'>She: "Why did you get on?"</p>
+            <p className='indent-8 mb-2'>She: [...]</p>
+            <p className='indent-8 mb-2'>He: "You didn't have to."</p>
+            <p className='indent-8 mb-2'>She: "Isn't it obvious?"</p>
           </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
