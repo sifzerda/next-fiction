@@ -252,15 +252,17 @@ OVERALL FORMATTING STYLING:
     - [x] suspense
     - [x] pov
     - [x] voice
-    - [ ] antagonists
+    - [x] antagonists
     - [ ] the first words
     - [ ] the next words
     - [ ] the last words
-    - [ ] writing devices
+    - [x] writing devices
     - [ ] editing
     - [ ] MARKETING
 
 make text size of index box and also see box smaller to match about box
+
+remove blue box bottom space add '<p className="mb-1">
 
 potentially add height minimization scrollbar grabbing on sidebar for larger screens, using 'scrollbar hide' tailwind plugin
 

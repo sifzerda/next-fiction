@@ -54,7 +54,7 @@ function WritersDevices() {
 
           <p>This refers to story details making an implied promise to the audience that a particular idea will later unfold in a particular way. </p>
 
-          <div className="custom-box">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p>“Make frequent promises that excitement or insight will soon be revealed to the reader. Sometimes an entire story can be made to turn on a single promise of things to come. In Treasure Island we are kept reading both by the tantalizing premise of buried treasure and the fact that somebody's going to find it. Will it be the pirates or Jim Hawkins's band?”</p>
             <p><i>— David Carroll</i>
               <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
@@ -75,41 +75,46 @@ function WritersDevices() {
           <p>Example: Really overused blocking is where an event was just a dream, or worse; the whole story was a dream. In effect, everything shown contained in the dream can be entirely severed from the plot (if you were recounting the plot to someone, you wouldn&#39;t mention the dream as if it was part of the plot). Therefore it&#39;s like it didn&#39;t even happen at all (literally, it did not actually happen).</p>
 
           <h3>20.3.1 Examples of Blocked Promises: </h3>
-          <p><strong>The 'Warning'</strong></p>
+          <h5>The 'Warning'</h5>
           <p className="indent-8 mb-2">X: “Where are you heading?”</p>
           <p className="indent-8 mb-2">Y: “I&#39;m staying in Slains Hotel tonight.”</p>
           <p className="indent-8 mb-2">X: “Don&#39;t you know it&#39;s haunted? Don&#39;t you stay in that place, I&#39;m telling you, bad things will happen.” </p>
-          <p className="mb-1">Corrected version #1:</p>
+
+          <h6>Corrected version #1:</h6>
           <p className="indent-8 mb-2">X: “Where are you heading?”</p>
           <p className="indent-8 mb-2">Y: “I&#39;m going camping on Fog Mountain.”</p>
           <p className="indent-8 mb-2">X: “Yeah? I know the place. Weren&#39;t you up there last year?”</p>
           <p className="indent-8 mb-2">Y: “No, never been.”</p>
           <p className="indent-8 mb-2">X: “You sure? I could swear I remember you coming up. Or someone who looked just like you. Said you&#39;d never come back.”</p>
 
-          <p>Corrected version #2:</p>
+          <h6>Corrected version #2:</h6>
           <p className="indent-8 mb-2">X: “Where are you heading?”</p>
           <p className="indent-8 mb-2">Y: “I&#39;m going diving in Deadwood Lake.”</p>
           <p className="indent-8 mb-2">X: “Sounds like fun. I shuttle between Elmville and Mapledale regularly. Always pass the lake. But I&#39;ve never stopped there. Not once. Never seen anyone swimming either. It&#39;s interesting. You enjoy yourself.”</p>
 
-          <p><strong>'Fortune Telling'</strong></p>
-          <p className="indent-8 mb-2">X: Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.
-            <FootnoteRef text={`STEPHEN KING,\nCarrie.`} /></p>
+          <h5>'Fortune Telling'</h5>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-1">Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.
+              <FootnoteRef text={`STEPHEN KING,\nCarrie.`} /></p>
+          </div>
 
-          <p><strong>'Cryptic Gobbledygook'</strong></p>
-          <p className="indent-8 mb-2">“The Mother,” Marie said. </p>
-          <p className="indent-8 mb-2">“What?”  </p>
-          <p className="indent-8 mb-2">“The statue you&#39;re staring at. It&#39;s of the Mother.”   </p>
-          <p className="indent-8 mb-2">“Who&#39;s that?”   </p>
-          <p className="indent-8 mb-2">“A very old goddess.”   </p>
-          <p className="indent-8 mb-2">“Oh. What about this?” I pointed my knife at the road.   </p>
-          <p className="indent-8 mb-2">“That takes you to a city.”   </p>
-          <p className="indent-8 mb-2">“A city?”   </p>
-          <p className='indent-8 mb-2'>“A city by the sea,” she said. “I don&#39;t think you&#39;d care to visit it.”   </p>
-          <p className='indent-8 mb-2'>“By the sea?”   </p>
-          <p className='indent-8 mb-2'>“It&#39;s different here.”   </p>
-          <p className='indent-8 mb-2'>“What does that mean?”   </p>
-          <p className='indent-8 mb-2'>“You&#39;ll see,” she said, and crossed the road.
-            <FootnoteRef text={`JOHN LANGERMAN,\nThe Fisherman.`} /></p>
+          <h5>'Cryptic Gobbledygook'</h5>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2">“The Mother,” Marie said. </p>
+            <p className="indent-8 mb-2">“What?”  </p>
+            <p className="indent-8 mb-2">“The statue you&#39;re staring at. It&#39;s of the Mother.”   </p>
+            <p className="indent-8 mb-2">“Who&#39;s that?”   </p>
+            <p className="indent-8 mb-2">“A very old goddess.”   </p>
+            <p className="indent-8 mb-2">“Oh. What about this?” I pointed my knife at the road.   </p>
+            <p className="indent-8 mb-2">“That takes you to a city.”   </p>
+            <p className="indent-8 mb-2">“A city?”   </p>
+            <p className='indent-8 mb-2'>“A city by the sea,” she said. “I don&#39;t think you&#39;d care to visit it.”   </p>
+            <p className='indent-8 mb-2'>“By the sea?”   </p>
+            <p className='indent-8 mb-2'>“It&#39;s different here.”   </p>
+            <p className='indent-8 mb-2'>“What does that mean?”   </p>
+            <p className='indent-8 mb-2'>“You&#39;ll see,” she said, and crossed the road.
+              <FootnoteRef text={`JOHN LANGERMAN,\nThe Fisherman.`} /></p>
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -127,24 +132,38 @@ function WritersDevices() {
 
           <h3>20.6.1 Setting the Story: The Microcosm</h3>
           <p>One methodical way of starting a story (as opposed to starting anywhere you like) is to dedicate the first chapter to some miniature episode in the main characters lives, which acts as a microcosm of the main story/themes. Clever intros can even subtly spoil the whole story, if you read into them correctly on a second read. This first chapter should be somewhat dislocated (but not entirely remote) from the plot (thus, an ‘episode&#39;). It should promptly introduce all the main characters, and table the main issue/conflicts, without resolution. A good ‘microcosm&#39; intro may be provocative, quirky or interesting or controversial, and grab the reader. They&#39;re also economic because they quickly sieve out the disinterested readers: if you don&#39;t like the intro, you won&#39;t like the rest.</p>
-          <p><u>Example: </u> The Invitation (2015): although a film, there is a good example. The main characters accidently hit a fox with the car, and have to euthanize it. This doesn&#39;t directly relate to the plot, but does reduce the entire conflict in the film, being: when is it acceptable – if at all – to assist a miserable or suffering person to suicide?</p>
+
+          <h4>Example: </h4>
+          <div className="custom-box">
+            <p>The Invitation (2015): although a film, there is a good example. The main characters accidently hit a fox with the car, and have to euthanize it. This doesn&#39;t directly relate to the plot, but does reduce the entire conflict in the film, being: when is it acceptable – if at all – to assist a miserable or suffering person to suicide?</p>
+          </div>
 
           <h3>20.6.2 Setting the Story: The Question</h3>
           <p>Another - similar - way to start a story is to pose a question or raise an issue which isn&#39;t properly realised or answered by the reader until they have all the details of the story. The question or issue can once again be put to the reader at the very end of the story, with new significance. The advantage of this method is that it deals with both start and end in one swoop.</p>
-          <p>Example: In The Events At Poroth Farm
-            <FootnoteRef text={`T.E.D. Klein,\nThe Events At Poroth Farm.`} />
-            at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people&#39;s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
+
+          <h4>Example:</h4>
+          <div className="custom-box">
+            <p>In The Events At Poroth Farm
+              <FootnoteRef text={`T.E.D. Klein,\nThe Events At Poroth Farm.`} />
+              at the beginning, the main character seems to be afraid of a young kid vigilantly sitting on the steps of the courthouse across the road from his motel. Obviously the question is – why? You need to read the subsequent story, where the main character escapes from a monster that can take over people&#39;s bodies to realise, by the end, that the monster may have caught up with the protagonist; it may now be the kid, waiting for the main character to leave his house.</p>
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-self-awareness">20.7: Self-Awareness</h2>
           <p>Characters referencing writing devices in-story, e.g. 'that's so meta'. On a sliding scale of '1' (least self-aware) to '3' (most self-aware), it includes: </p>
-          <ol>
-            <li>Parody: Playfully borrowing and making fun of ideas from other works;</li>
-            <li>Textuality: In-story references to other texts, implying the story is another such text, even if the characters aren't aware of it (ft: neverending story See Michael Ende's 'The Neverending Story' for an example of this done very well)</li>
-            <li>Metatextuality: or 'meta': Characters interpret plot events through a lens of 'genre-savviness', even if they aren't aware they are in such a genre;</li>
-            <li>'Breaking the fourth wall': This is the most extreme version, where characters are aware they are in a story, and make direct reference to the fact, or the reader themselves. </li>
-          </ol>
+
+          <h5>Parody</h5>
+          <p>Playfully borrowing and making fun of ideas from other works;</p>
+
+          <h5>Textuality</h5>
+          <p>In-story references to other texts, implying the story is another such text, even if the characters aren't aware of it (ft: neverending story See Michael Ende's 'The Neverending Story' for an example of this done very well)</p>
+
+          <h5>Meta-textuality</h5>
+          <p>AKA 'Meta'. Characters interpret plot events through a lens of 'genre-savviness', even if they aren't aware they are in such a genre.</p>
+
+          <h5>Breaking the Fourth Wall</h5>
+          <p>This is the most extreme version, where characters are aware they are in a story, and make direct reference to the fact, or the reader themselves.</p>
 
           <p>Good writing uses writing devices to construct an illusion of reality. Drawing attention to these devices threatens that illusion. </p>
           <p>References to real-world media, brands, real-life people, etc, is not self-referential. If your protagonist owns a Harry Potter book on their bedroom shelf, it's a stab at verismilitude -- a legitimate writing device. If anything, this lends to the realism of your character.</p>
@@ -167,14 +186,15 @@ function WritersDevices() {
           <p>If a prisoner on death row is pardoned and goes free on the day he was going to be executed, it&#39;s merely a coincidence that the release date and execution date are <strong>the same</strong>. Contrast if the pardon comes one minute after the prisoner is executed, it&#39;s ironic that the prisoner was supposed to be released, but <strong>the opposite</strong> happened; he was executed.</p>
           <p>If someone with a fear of flying takes a plane ride and the plane crashes, it is an (unfortunate) coincidence that the passenger&#39;s fear and the actual event, are <strong>the same</strong>. Contrast if the plane ride was advised by the person&#39;s psychologist for the purpose of curing the phobia through fear exposure. Then it&#39;s ironic that the event was supposed to reinforce that air travel is relatively safe, but <strong>the opposite</strong> happened; there was a plane crash. </p>
 
-          <p><i><strong>When to use coincidence:</strong></i></p>
+          <h5>When to Use Coincidence:</h5>
           <p>As stated above, story creates meaning out of a series of events. Coincidence is the opposite; events or circumstances thrown together by pure chance. If your story is pure coincidence, there is no meaning to be derived. However, like irony, coincidence happens in real, so the artform must incorporate it sometimes for a degree of realism.</p>
           <p>If you are going to rely on coincidence to set up events, use it early, and build meaning out of it later. Don&#39;t use coincidences past the halfway mark of your story, and above all, don&#39;t end on a coincidence (this is called a ‘Deus Ex Machina&#39;).  The meaning in a story should expand and develop throughout the story, until you reach the end, where the meaning of everything becomes clear. If there is a big coincidence at the end, it detracts from the meaningfulness.</p>
           <p>As the story progresses, events should rely less and less on chance, and increasingly on character&#39;s actions and intentions.</p>
 
           <h3>20.8.3 Purposes of Irony</h3>
           <p>Irony may serve to:</p>
-          <ol>
+
+          <ul className="bullets">
             <li>Provide humour;</li>
             <li>Teach a character a lesson;</li>
             <li>Provide the story universe some sense of moral or karmic equilibrium;</li>
@@ -186,23 +206,28 @@ function WritersDevices() {
             <li>Suggest the protagonist is unalike or out of sync with another (character, or group)</li>
             <li>Suggest the protagonist is curiously alike or in sync with another (character or group)</li>
             <li>To suggest that something is more complicated than it outwardly looks;</li>
-          </ol>
+          </ul>
 
           <h3>20.8.4 	Kinds of Irony</h3>
           <p>There are multiple kinds of irony, namely:</p>
-          <p><i><strong>(1) Verbal Irony:</strong></i></p>
+
+          <h5>I. Verbal Irony:</h5>
           <p>This is irony that comes out in dialogue; a speaker&#39;s intention is the opposite of what they are saying. For example, when it&#39;s raining and someone says “Nice weather.” </p>
           <p>Arguably, it&#39;s also ‘verbal&#39; irony when a waiter drops and breaks a plate, and the chef claps in applause (sarcastically).</p>
           <p>Here is a written example of verbal irony:</p>
-          <p className='indent-8 mb-2'>[…] whoever could find out a fair, cheap, and easy method of making [destitute] children sound, useful members of the commonwealth, would deserve so well of the public as to have his statue set up for a preserver of the nation.</p>
-          <p className='indent-8 mb-2'>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.
-            <FootnoteRef text={`JONATHAN SWIFT,\nA Modest Proposal.`} /></p>
 
-          <p><i><strong> (2) Situational Irony</strong></i></p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className='indent-8 mb-2 italic'>[…] whoever could find out a fair, cheap, and easy method of making [destitute] children sound, useful members of the commonwealth, would deserve so well of the public as to have his statue set up for a preserver of the nation.</p>
+            <p className='indent-8 mb-2'><i>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.</i>
+              <FootnoteRef text={`JONATHAN SWIFT,\nA Modest Proposal.`} />
+            </p>
+          </div>
+
+          <h5> II. Situational Irony</h5>
           <p>This is where the result of a situation is the opposite of what you&#39;d expect. For example, in O. Henry&#39;s <i>The Gift of the Magi</i>, a husband sells his watch to buy his wife a hair comb, while his wife sells her hair to buy her husband a watch chain.</p>
           <p>In the film <i>Ruthless People</i>, a woman is kidnapped but gives her basement prison a makeover; installing a spa, and while confined there, exercises and eats healthy, and loses weight. As a result, she is grateful to her kidnappers; so grateful in fact that when they tell her they&#39;re going to let her go because her husband won&#39;t pay the ransom, she promises to get it for them.</p>
 
-          <p><i><strong> (3) Dramatic Irony</strong></i></p>
+          <h5>III. Dramatic Irony</h5>
           <p>This is where the audience or reader knows a critical piece of information – unknown by a character – which dramatically alters their perception of a situation. This is basically situational irony, except the reader has knowledge which allows them to perceive the irony of the situation before it actually happens.</p>
           <p>For example, in Romeo and Juliet, we know Juliet&#39;s intention to fake her death, where Romeo – failing to get the message – does not. This creates tragic irony when Romeo mistakes her for actually being dead, and kills himself.</p>
           <p>As Robert McKee
@@ -225,8 +250,8 @@ function WritersDevices() {
 
           <h2 id="post-the-right-idea-will-come">20.11: The Right Idea Will Come</h2>
           <p>Don&#39;t freak out because you feel your story lacks substance or doesn&#39;t sound original or just doesn&#39;t sound right. If the idea is meant to be, it&#39;ll write itself in own time. Ideas come from everywhere, and come eventually;</p>
-          <ul>
-            <li>Try reading other books dealing with the same subject matter – including non-fiction (and as many different kinds of books, to reduce the risk of plagiarism, intentional or otherwise);</li>
+          <ul className="bullets">
+            <li>Try reading other books dealing with the same subject matter - including non-fiction (and as many different kinds of books, to reduce the risk of plagiarism, intentional or otherwise);</li>
             <li>There&#39;s no harm in taking a break from your writing, because a good idea will play on your mind whether you like it or not, and eventually something (something you read, or hear in the news, or watch on TV) will jar an idea again. The more you get away from the story the more you will appreciate it with a fresh mind, making the creative process more productive;  </li>
           </ul>
 
@@ -236,22 +261,38 @@ function WritersDevices() {
           <p>A writing constraint is where you set rules delimiting what and how you write. Robert Frost said that writing free (unconstrained) verse is like playing tennis with no net. Sounds contradictory, but constraints are necessary to inspire creativity.  </p>
           <p>The whole point of poetry is to generate creative connections through restricted verse. When you see awful poetry it&#39;s likely because the poet didn&#39;t apply constraints to their writing, they just wrote whatever came to mind.</p>
           <p>Some examples of constraints include:</p>
-          <ol>
-            <li><u>Mandated vocabulary:</u> avoid using a particular word/s or otherwise limits the word use in some way;</li>
-            <li><u>Lipogram:</u> avoid using a particular letter of the alphabet, particularly more common letters;</li>
-            <li><u>Rhopalism:</u> a sentence in which in successive word is one letter longer;</li>
-            <li><u>Abecedarius:</u> a kind of acrostic poem where successive lines begin with successive letters of the alphabet;</li>
-            <li><u>Palindrome</u> using words and even full sentences which read the same backwards as forwards;</li>
-            <li><u>Tautogram:</u> all the words in a sentence or phrase begin with the same letter;</li>
-            <li><u>Pangram:</u> a sentence that contains every letter of the alphabet (e.g. “the quick brown fox jumps over the lazy dog”);</li>
-            <li><u>Pilish:</u> the number of letters in each successive word is equal to the successive decimal places of pi, 3.14159265359...</li>
-            <li><u>Repetition:</u> Finding ways to work the same word or phrase into a story, multiple times</li>
-            <li><u>Aliteration:</u> relying on a certain letter to start words;</li>
-            <li><u>First letter acronyms:</u> the first letter of each sentence in a paragraph/s must spell out a sentence;</li>
-            <li><u>Concrete instead of abstract descriptions:</u> (e.g. ‘smile&#39;, but not ‘happy&#39;);</li>
-            <li><u>Double entendres:</u> phrases that hold two simultaneous meanings, commonly with sexual undertones;</li>
-            <li><u>Straining metaphors:</u> making the description of one thing sound like and evoke something entirely different.</li>
-          </ol>
+
+          <h4>Mandated vocabulary:</h4>
+          <p>Avoid using a particular word/s or otherwise limits the word use in some way;</p>
+
+          <h4>Lipogram:</h4>
+          <p>Avoid using a particular letter of the alphabet, particularly more common letters;</p>
+          <h4>Rhopalism:</h4>
+          <p>A sentence in which in successive word is one letter longer;</p>
+          <h4>Abecedarius:</h4>
+          <p>A kind of acrostic poem where successive lines begin with successive letters of the alphabet;</p>
+          <h4>Palindrome:</h4>
+          <p>Using words and even full sentences which read the same backwards as forwards;</p>
+          <h4>Tautogram:</h4>
+          <p>All the words in a sentence or phrase begin with the same letter;</p>
+          <h4>Pangram:</h4>
+          <p>A sentence that contains every letter of the alphabet (e.g. “the quick brown fox jumps over the lazy dog”);</p>
+          <h4>Pilish:</h4>
+          <p>The number of letters in each successive word is equal to the successive decimal places of pi, 3.14159265359...</p>
+          <h4>Repetition:</h4>
+          <p>Finding ways to work the same word or phrase into a story, multiple times</p>
+          <h4>Aliteration:</h4>
+          <p>Relying on a certain letter to start words;</p>
+          <h4>First letter acronyms:</h4>
+          <p>The first letter of each sentence in a paragraph/s must spell out a sentence;</p>
+          <h4>Concrete instead of abstract descriptions:</h4>
+          <p>(e.g. ‘smile&#39;, but not ‘happy&#39;);</p>
+          <h4>Double entendres:</h4>
+          <p>Phrases that hold two simultaneous meanings, commonly with sexual undertones;</p>
+          <h4>Straining metaphors:</h4>
+          <p>Making the description of one thing sound like and evoke something entirely different.</p>
+
+          <hr /> {/* ---------------------------------------------------------*/}
 
           <p>Placing constraints on your writing makes writing easier, because it gives you bright, clear lines about what and how to write. It&#39;s like being given a writing prompt as opposed to being asked to write whatever you want. The freedom conferred in the latter can be its own prison.</p>
           <p>You can and should invent your own. A writing constraint can be any rule you want, and you can employ them anywhere in your writing, as long as you avoid employing them so often that your writing ends up sounding artificial and strange.</p>
@@ -271,29 +312,35 @@ function WritersDevices() {
           <p>This is a writing exercise from Sol Stein
             <FootnoteRef text={`SOL STEIN,\nStein On Writing.`} />
             for application in romance scene/s. You aim to fill in the dialogue below which both conveys that the characters are in love, but are having a quarrel (without outright stating it). The more creatively you can suggest these pieces of information, the better. Try to work the dialogue into an imagined scene, setting or event. Here&#39;s a hint: the characters don&#39;t have to be talking directly at each other (could be making an observation or statement).</p>
-          <p><strong>Lovers&#39; Quarrel in Ten Brief Exchanges:</strong></p>
-          <p className='indent-8 mb-2'>He:</p>
-          <p className='indent-8 mb-2'>She:</p>
-          <p className='indent-8 mb-2'>He:</p>
-          <p className='indent-8 mb-2'>She:</p>
-          <p className='indent-8 mb-2'>He:</p>
-          <p className='indent-8 mb-2'>She:</p>
-          <p className='indent-8 mb-2'>He:</p>
-          <p className='indent-8 mb-2'>She:</p>
-          <p className='indent-8 mb-2'>He:</p>
-          <p className='indent-8 mb-2'>She:</p>
+
+          <h5>Lovers&#39; Quarrel in Ten Brief Exchanges:</h5>
+          <div className="custom-box">
+            <p className='indent-8 mb-2'>He:</p>
+            <p className='indent-8 mb-2'>She:</p>
+            <p className='indent-8 mb-2'>He:</p>
+            <p className='indent-8 mb-2'>She:</p>
+            <p className='indent-8 mb-2'>He:</p>
+            <p className='indent-8 mb-2'>She:</p>
+            <p className='indent-8 mb-2'>He:</p>
+            <p className='indent-8 mb-2'>She:</p>
+            <p className='indent-8 mb-2'>He:</p>
+            <p className='indent-8 mb-2'>She:</p>
+          </div>
 
           <p>Example:</p>
-          <p className='indent-8 mb-2'>"I need to get off."</p>
-          <p className='indent-8 mb-2'>"You chose this ride."</p>
-          <p className='indent-8 mb-2'>"I went on your rollercoaster with you. Wasn't that enough?"</p>
-          <p className='indent-8 mb-2'>"That wasn't even a rollercoaster, it was a ghost train. I don't even like Ferris Wheels, I only got on this with you because I thought you wanted to go on it."</p>
-          <p className='indent-8 mb-2'>"I didn't actually want to."</p>
-          <p className='indent-8 mb-2'>"Well, then why did you get on?"</p>
-          <p className='indent-8 mb-2'>"Why did you get on?"</p>
-          <p className='indent-8 mb-2'>She: *says nothing*</p>
-          <p className='indent-8 mb-2'>"You didn't have to."</p>
-          <p className='indent-8 mb-2'>"Isn't it obvious?"</p>
+
+          <div className="custom-box">
+            <p className='indent-8 mb-2'>"I need to get off."</p>
+            <p className='indent-8 mb-2'>"You chose this ride."</p>
+            <p className='indent-8 mb-2'>"I went on your rollercoaster with you. Wasn't that enough?"</p>
+            <p className='indent-8 mb-2'>"That wasn't even a rollercoaster, it was a ghost train. I don't even like Ferris Wheels, I only got on this with you because I thought you wanted to go on it."</p>
+            <p className='indent-8 mb-2'>"I didn't actually want to."</p>
+            <p className='indent-8 mb-2'>"Well, then why did you get on?"</p>
+            <p className='indent-8 mb-2'>"Why did you get on?"</p>
+            <p className='indent-8 mb-2'>She: *says nothing*</p>
+            <p className='indent-8 mb-2'>"You didn't have to."</p>
+            <p className='indent-8 mb-2'>"Isn't it obvious?"</p>
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -314,7 +361,7 @@ function WritersDevices() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}
@@ -339,7 +386,7 @@ function WritersDevices() {
               <li className="mb-px"><a href="#post-setting-the-story" className="hover:underline hover:text-white">20.6: Setting the Story</a></li>
               <li className="mb-px"><a href="#post-self-awareness" className="hover:underline hover:text-white">20.7: Self-Awareness</a></li>
               <li className="mb-px"><a href="#post-irony" className="hover:underline hover:text-white">20.8: Irony</a></li>
-                            <li className="mb-px"><a href="#post-irony" className="hover:underline hover:text-white">20.9: What Is Writer's Block?</a></li>
+              <li className="mb-px"><a href="#post-irony" className="hover:underline hover:text-white">20.9: What Is Writer's Block?</a></li>
               <li className="mb-px"><a href="#post-imagine-saying-it" className="hover:underline hover:text-white">20.10: Imagine Saying It</a></li>
               <li className="mb-px"><a href="#post-the-right-idea-will-come" className="hover:underline hover:text-white">20.11: The Right Idea Will Come</a></li>
               <li className="mb-px"><a href="#post-constrain-your-writing" className="hover:underline hover:text-white">20.12: Constrain Your Writing</a></li>

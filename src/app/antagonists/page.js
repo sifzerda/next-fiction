@@ -59,13 +59,13 @@ function Antagonists() {
           <p>A story and its protagonist is only as interesting as its villain or force of opposition – it&#39;s ‘antagonist.&#39;</p>
           <p>Elsewhere I mentioned the law of conservatism; the economic and narrative principle that people do the bare minimum unless incentivized to do more. Consider this law also applies to your antagonist. The disregard of this law is usually the culprit behind poor antagonists; this is where you see flagrant and decadent villains, more surface than substance, written by authors who believe the mindless slaughter of 100 good men makes a compelling villainous act. But apply the law of conservatism and ask: </p>
 
-          <ol>
-            <li>Why would someone go to the trouble of slaughtering 100 people for no reason? </li>
-            <li>Why would someone adopt an intimidating dress and appearance and draw negative attention to themselves? </li>
+          <ul className="bullets">
+            <li>Why would someone go to the trouble of slaughtering 100 people for no reason?</li>
+            <li>Why would someone adopt an intimidating dress and appearance and draw negative attention to themselves?</li>
             <li>Why would someone alienate themselves through speech and mannerism?</li>
             <li>Why would someone recklessly make enemies with anyone and everyone?</li>
             <li>Why would someone waste energy and effort only to cause pain, and nothing else?</li>
-          </ol>
+          </ul>
 
           <p>Yes, people act like this in real life. But remember, fiction is not real life, nor should it strive to be. Authors who try to slide around this by suggesting the villain is inherently ‘evil&#39; only betray their lack of insight into the nuance and neutrality of human decision-making and selection pressures. By claiming your character is evil by design, you expose your own lack of faith in your ability to create an authentic antagonist, instead requiring one ‘pre-made.&#39; </p>
           <p>Applying the law of conservatism, a compelling villain faces a dilemma (like the protagonist does), putting them in a position requiring them to choose between two or more undesirable options. Like anyone, they want to choose the option that is least desirable for themselves. Unfortunately, this choice has a negative consequence for the protagonist.</p>
@@ -74,15 +74,23 @@ function Antagonists() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-antagonistic-forces">16.3: Antagonistic Forces</h2>
+
           <p>Another point: antagonists don&#39;t have to be living entities, they can be forces. These are the stories which don&#39;t have ‘bad guys,&#39; just people making decisions, for better or worse. Whatever form the antagonist takes, it&#39;s job is to oppose the protagonist&#39;s will, desire and progress.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-degrees-of-antagonism">16.4: Degrees of Antagonism</h2>
+
           <p>Your antagonist doesn&#39;t have to be the exact opposite of your protagonist. An antagonist who is in some ways similar or even identical to the protagonist (or someone close to the protagonist, e.g. lover, family, friend) may be more compelling. </p>
-          <p>Distinguish ‘Contradiction&#39; and ‘Contrariness&#39;:</p>
-          <p>Where an antagonist is ‘contrary,&#39; there exists a non-zero sum game. An antagonist who is contrary can exist in the protagonist&#39;s world without a ‘cancelling out&#39; effect. They might undermine, but not undo the protagonist&#39;s efforts. They won&#39;t necessarily be against what the protagonist is for, but their goals are not compatible and their actions makes the protagonist&#39;s job harder.</p>
-          <p>Compare with a ‘contradictory&#39; antagonist. Their values and goals are interlinked in direct opposition, which creates a zero sum game where only one can triumph. Together the protag and antag create a potential ‘cancelling out.&#39; The ‘town&#39; is not big enough for both the protagonist and antagonist to co-exist. The closer they get, the more imperative it becomes that one defeats or subverts the other.</p>
+          <p>Distinguish 'Contradiction&#39; and 'Contrariness&#39;:</p>
+
+          <h5>Contrariness</h5>
+
+          <p>Where an antagonist is 'contrary,&#39; there exists a non-zero sum game. An antagonist who is contrary can exist in the protagonist&#39;s world without a ‘cancelling out&#39; effect. They might undermine, but not undo the protagonist&#39;s efforts. They won&#39;t necessarily be against what the protagonist is for, but their goals are not compatible and their actions makes the protagonist&#39;s job harder.</p>
+          
+          <h5>Contradiction</h5>
+          
+          <p>Compare with a 'contradictory&#39; antagonist. Their values and goals are interlinked in direct opposition, which creates a zero sum game where only one can triumph. Together the protag and antag create a potential ‘cancelling out.&#39; The ‘town&#39; is not big enough for both the protagonist and antagonist to co-exist. The closer they get, the more imperative it becomes that one defeats or subverts the other.</p>
           <p>You may have both antagonistic forces in your story: the protagonist progresses past contrary sub-antagonists until finally facing off against the contradictory head antagonist.</p>
           <p>Alternatively, your head antagonist starts off contrary, but transforms into a contradictory antagonist by the end.</p>
           <p>If you find your protagonist too ‘good&#39; and your antagonist too ‘evil&#39;, Sol Stein suggests thinking of “the protagonist and the antagonist as two antagonists [against each other, and] each of whom should be given his due[...] it makes for more credible conflict.” And don&apos;t forget, “the better the villain, the greater the contest and the hero&apos;s victory.”
@@ -91,6 +99,7 @@ function Antagonists() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-the-negation-of-a-negation">16.5: The Negation of a Negation</h2>
+
           <p>This is a concept introduced by Robert McKee.
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} /></p>
           <p>Think of the antagonist as basically the negation of the protagonist. The protagonist stands for certain values. Whatever they are, the antagonist stands for the opposite value/s. Some examples are: truth/deception; justice/injustice; idealism/materialism; love/power; money/integrity…etc.</p>
@@ -104,11 +113,11 @@ function Antagonists() {
           <p>More examples of neg x negs:</p>
 
           <ol>
-            <li><span className="hGreen">Positive value:</span> Loyalty; <span className='red-text-span'>Negative value:</span> Betrayal; <span className='blue-text-span'>Neg x Neg:</span> Self-betrayal.</li>
-            <li><span className="hGreen">Positive value:</span> Integration; <span className='red-text-span'>Negative value:</span> Alienation; <span className='blue-text-span'>Neg x Neg:</span> Insanity (alienation from self) </li>
-            <li><span className="hGreen">Positive value:</span> consciousness;  <span className='red-text-span'>Negative value:</span> Death; <span className='blue-text-span'>Neg x Neg:</span> damnation</li>
-            <li><span className="hGreen">Positive value:</span> truth;  <span className='red-text-span'>Negative value:</span> lies; <span className='blue-text-span'>Neg x neg:</span> self-deception</li>
-            <li><span className="hGreen">Positive value:</span> love;  <span className='red-text-span'>Negative value:</span> hate; <span className='blue-text-span'>Neg x neg:</span> self-hate</li>
+            <li><span className="bg-volt">Positive value:</span> Loyalty; <span className="bg-hRed">Negative value:</span> Betrayal; <span className="bg-bootstrapLightest">Neg x Neg:</span> Self-betrayal.</li>
+            <li><span className="bg-volt">Positive value:</span> Integration; <span className="bg-hRed">Negative value:</span> Alienation; <span className="bg-bootstrapLightest">Neg x Neg:</span> Insanity (alienation from self) </li>
+            <li><span className="bg-volt">Positive value:</span> consciousness;  <span className="bg-hRed">Negative value:</span> Death; <span className="bg-bootstrapLightest">Neg x Neg:</span> damnation</li>
+            <li><span className="bg-volt">Positive value:</span> truth;  <span className="bg-hRed">Negative value:</span> lies; <span className="bg-bootstrapLightest">Neg x neg:</span> self-deception</li>
+            <li><span className="bg-volt">Positive value:</span> love;  <span className="bg-hRed">Negative value:</span> hate; <span className="bg-bootstrapLightest">Neg x neg:</span> self-hate</li>
           </ol>
 
           <p>Generally, stories will start on the positive and progress from contrary antagonism, to contradictory, to negation of negation, and then resolution.</p>

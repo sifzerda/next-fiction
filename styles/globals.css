@@ -48,6 +48,16 @@ ol {
   font-family: var(--font-rubik), sans-serif;
 }
 
+ul.bullets {
+  padding-left: 1.5rem;
+  list-style: disc;
+  list-style-position: inside;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-rubik), sans-serif;
+  display: block;
+}
+
 /* ------- nested ol --------*/
 
 ol.numbered {
