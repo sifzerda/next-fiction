@@ -230,8 +230,12 @@ intertext links:
 SEARCH:
 (see 6.5 Diametrics)
 
+See 18.3.10 Purposeful Repetition. (on the last words)
+
+see 13.1.6 Starve the Ego, Feed the Soul (editing)
+ly by the words, but their form and structure (for instance, see: ‘13.3.4 Deliberately awkward sentences,' and ‘10.1.1 When to not abridge'). (editing)
+
 footnotes are not resetting on page switch (they're accumulating)
-there's a p descendent of p hydration error on The Next Words page somewhere
 
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 
@@ -256,9 +260,9 @@ OVERALL FORMATTING STYLING:
     - [x] antagonists
     - [x] the first words
     - [ ] the next words
-    - [ ] the last words
+    - [x] the last words
     - [x] writing devices
-    - [ ] editing
+    - [x] editing
     - [ ] MARKETING
 
 make text size of index box and also see box smaller to match about box
