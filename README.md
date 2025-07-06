@@ -74,6 +74,7 @@ User authentication with JWTs allow users to create an account, which stores use
 - Zustand: store dynamically managing footnote assignment
 - Fuse: index site content to enable sitewide keyword search
 - Puppeteer: scrapes text content for indexing
+- Pointer Events API (for sidebar dragging on sm+ screens when height resized)
 
 ## Footnotes
 
@@ -253,7 +254,7 @@ OVERALL FORMATTING STYLING:
     - [x] pov
     - [x] voice
     - [x] antagonists
-    - [ ] the first words
+    - [x] the first words
     - [ ] the next words
     - [ ] the last words
     - [x] writing devices
