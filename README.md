@@ -277,3 +277,5 @@ Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i><
 
     B.	Different Thing, Same Place: (part A is missing)
     Also where it says 'CONTENT'
+
+    - For sidebar scrolling, consider the pointer api, pulling the sidebar down. Check copies folder and fix so it runs the other way. Try to put a vertical arrow (either double headed or pointing down) with a vertical line which you grab and drag up and down (so user is not grabbing the links and hover white boxes)
