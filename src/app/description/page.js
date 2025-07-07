@@ -55,11 +55,11 @@ function Description() {
           </p>
           <h4>I. Telling:</h4>
           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
-            <p>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</p>
+            <p><i>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</i></p>
           </div>
           <h4>II. Showing:</h4>
           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
-            <p>Michelle&#39;s elation evaporated in the intensive care unit when Frank suffered a seizure. She left moments later, tears streaming down her face.</p>
+            <p><i>Michelle&#39;s elation evaporated in the intensive care unit when Frank suffered a seizure. She left moments later, tears streaming down her face.</i></p>
           </div>
           <p>The main point of description is to promote and further conflict. Its ability to provide background is secondary. Never force exposition out of the character&#39;s mouth (e.g: “As you know, we&#39;ve known each other for twenty years”) or slap it into the description self-consciously (e.g: a photograph on the mantelpiece showed the both of them twenty years younger).  </p>
           <p>To make sure that you&#39;re showing as well as telling, Sol Stein advises to “[ensure] there is something visual [described] on each page.”
