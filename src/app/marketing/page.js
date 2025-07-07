@@ -52,7 +52,7 @@ function Marketing() {
           <h2 id="post-what-is-a-synopsis">25.2 What Is A Synopsis?</h2>
           <p>A synopsis is a summary of your story. It is not a sample of your ability to write in general, or your ability to write:</p>
 
-          <ol>
+          <ul className="bullets">
             <li>Characters;</li>
             <li>Dialogue;</li>
             <li>Subtext;</li>
@@ -62,7 +62,7 @@ function Marketing() {
             <li>Scenes</li>
             <li>Conflict</li>
             <li>Genre</li>
-          </ol>
+          </ul>
 
           <p>It is a demonstration of your ability to write plot – which is a demonstration of your structuring ability. Some writers can make interesting characters, snappy, witty dialogue, heart-pounding suspense, etc, but they can&#39;t structure worth a turd. The synopsis is going to demolish that writer, which means their manuscript doesn&#39;t get a look.</p>
 
@@ -79,15 +79,22 @@ function Marketing() {
           <p>Jack Hart says:
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
-          <p className="indent-8 mb-2">“The display of current best sellers no doubt contains several titles by tin- eared pop novelists who wouldn&#39;t recognize a graceful sentence if it asked them to dance. The likes of Jean Auel and Tom Clancy sell books by the millions because they understand story structure, a point that&#39;s lost on the critics who savage their syntax.”</p>
+
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2 italic">“The display of current best sellers no doubt contains several titles by tin- eared pop novelists who wouldn&#39;t recognize a graceful sentence if it asked them to dance. The likes of Jean Auel and Tom Clancy sell books by the millions because they understand story structure, a point that&#39;s lost on the critics who savage their syntax.”</p>
+          </div>
           <p>Hart also says: Structure is more visual than logical, a pattern of parts with its own rules for fitting pieces together, and most experienced writers create some sort of visual guide to the assembly of a story. Like an architect, they express their structural ideas as a kind of blueprint. They must see their structure in graphic terms.</p>
           <p>If you&#39;re familiar with my E Chain method you will already start to have an intuitive sense of good structure. Note, I originally invented the E Chain as a method for writing synopses; at the ‘back end&#39; of story-writing. I later realised it could be – and should be – pulled in for use at the ‘front end&#39; to create the plot itself, rather than recap it in summary later.  </p>
           <p>If you have written your story (without using E Chain) and plan to use E Chain to write a synopsis, be aware your E Chain synopsis will make a structureless story collapse like a house of cards, worse, avert you to the plot you should have written instead.</p>
 
-          <h4 className="text-xs">Structure Is Fractal</h4>
+          <h5>Structure Is Fractal</h5>
           <p>Structure is in arrangement. You have all the ideas, now how do you put them together? Alternatively, you have a single idea, now which ideas go together with that idea, and which don't? Also, structure is like fractals: infinite and goes both ways. You can start really small and each time you zoom out there's a new structural issue.</p>
-          <p><u>Big Structure:</u> This is the general plot structure, i.e. 3 or 5 Acts or otherwise.</p>
-          <p><u>Small Structure:</u> This is on the level of paragraphs and sentences. Every single sentence has an ideal structure. Pedantic, maybe, but you'll agree it's necessary if you've ever had to reread a sentence for clarity.</p>
+
+          <h6>I. Big Structure:</h6>
+          <p>This is the general plot structure, i.e. 3 or 5 Acts or otherwise.</p>
+
+          <h6>II. Small Structure:</h6>
+          <p>This is on the level of paragraphs and sentences. Every single sentence has an ideal structure. Pedantic, maybe, but you'll agree it's necessary if you've ever had to reread a sentence for clarity.</p>
           <p>These are part of a structural spectrum:</p>
 
           <ol>
@@ -126,9 +133,11 @@ function Marketing() {
           <p>Side note: Whether your synopsis is any good doesn&#39;t just depend on the synopsis itself, but also, obviously, your actual product – the story. If you have the reputation you can convince the publisher to publish almost anything. The plot of your first novel needs to be like a flash-bang grenade (gets your attention instantly); subsequent novels can effect more like smoke grenades (subtler, more gradual, but just as powerful). There are some kinds of plots which are big smokers; about which a seasoned writer can get published (on the back of their reputation), and which a first time author cannot.</p>
 
           <p>Bob Mayer says:</p>
-          <p className="indent-8 mb-2">“Some best-selling authors can crank out anything—which would not get published if a no-name author did it—and have it become a best seller,” and “[…] just because you can go to the bookstore and buy a best-selling book written by so-and-so, the famous writer, that does not mean you can write a similar book and get it published[…] there are many book number 5's from best-selling authors that if they were book number 1 from a new author, would not get published.”
-            <FootnoteRef text={`BOB MAYER,\nFiction Writers&#39; Toolkit.`} />
-          </p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2">“Some best-selling authors can crank out anything—which would not get published if a no-name author did it—and have it become a best seller,” and “[…] just because you can go to the bookstore and buy a best-selling book written by so-and-so, the famous writer, that does not mean you can write a similar book and get it published[…] there are many book number 5's from best-selling authors that if they were book number 1 from a new author, would not get published.”
+              <FootnoteRef text={`BOB MAYER,\nFiction Writers' Toolkit.`} />
+            </p>
+          </div>
 
           <h3>21.4.1 Basic Rules</h3>
           <h4 className="text-xs">(1) Obey Your Publisher's Style Guide</h4>
@@ -142,10 +151,13 @@ function Marketing() {
 
           <h4 className="text-xs">(4) Avoid Redundancy</h4>
           <p>Considering how short your synopsis should be, that last thing you want to do is waste precious words repeating yourself. Here&#39;s an example: </p>
-          <p><code><i>When Sally's mother dies unexpectedly, Sally is left reeling and barely able to cope. At the funeral, Sally drops to the ground and screams until her relatives take her out. </i></code></p>
+          <div className="custom-box">
+            <p><i>When Sally's mother dies unexpectedly, Sally is left reeling and barely able to cope. At the funeral, Sally drops to the ground and screams until her relatives take her out. </i></p>
+          </div>
           <p>The bit about Sally ‘reeling&#39; and unable to cope is redundant because if she falls to pieces at the funeral, it goes without saying that she is reeling and barely able to cope. You could rewrite it as:</p>
-          <p><code><i>Sally&#39;s mother dies unexpectedly. At the funeral, Sally drops to the ground and screams until her relatives take her out. </i></code></p>
-
+          <div className="custom-box">
+            <p><i>Sally&#39;s mother dies unexpectedly. At the funeral, Sally drops to the ground and screams until her relatives take her out. </i></p>
+          </div>
           <h3>21.4.2 The 3-Step Method</h3>
           <p>When writing a synopsis you might be tempted to set out your plot in detail and then cut it down to the size requirement (e.g. 2 pages). The difficulty there is you might struggle to grasp which plot points in your story are integral, compared to details which you can leave out. </p>
           <p>Another way of doing it, however, is to go the opposite route – start tiny and expand:</p>
@@ -158,9 +170,9 @@ function Marketing() {
 
           <p>In their simplest form, all stories are about change and usually (ideally) the change involves conflict. If it helps you remember, think of the 3-steps as a magic trick: </p>
           <ol>
-            <li>(1)	The Pledge: you show something normal, implying a promise that you will turn it into something else;</li>
-            <li>(2)	The Turn: you change the thing into something else;</li>
-            <li>(3)	The Prestige: you bring the thing back.</li>
+            <li>The Pledge: you show something normal, implying a promise that you will turn it into something else;</li>
+            <li>The Turn: you change the thing into something else;</li>
+            <li>The Prestige: you bring the thing back.</li>
           </ol>
 
           <p>In a story, the pledge is the set up: the normal state of affairs with the promise of a change (positioned to the switch). The Turn is the switch; demolition of the normal state of affairs. The Prestige (the settlement) is the return of normal in a new form, a new normal. You don&#39;t bring back the ‘old&#39; state of affairs, even if you do literally, the characters have changed in the process.</p>
@@ -174,37 +186,35 @@ function Marketing() {
 
           <p>Explanation of the steps:</p>
 
-          <ol>
-            <li><strong>(1) The Set-Up</strong> This does two things:
-              <ol>
-                <li>It establishes your baseline normal; it gives an incredibly succinct point of focus on the most important ‘items&#39; in your story; your main character and your main plot feature: ‘who&#39; are we looking at, and ‘what&#39; are we looking at?</li>
-                <li>It creates a position in order for the ‘switch&#39; to occur. This means the set-up is not just ‘status quo,&#39; but one step removed. You must be able to get from set-up to switch – there is no set up in normality, rather, the set up rises up out of normality. The set up it&#39;s not the very start of the novel,  i.e. it&#39;s not, ‘L lives at Ludlow with his wife and 2 kids&#39;, rather it&#39;s the first plot-related event, the event which kicks off the central plot;</li>
-              </ol>
-            </li>
-          </ol>
+          <h5>(1) The Set-Up</h5>
+
+          <p>This does two things:</p>
+
+          <h6>I. Establishes Baseline Normal</h6>
+          <p>It gives an incredibly succinct point of focus on the most important ‘items&#39; in your story; your main character and your main plot feature: ‘who&#39; are we looking at, and ‘what&#39; are we looking at?</p>
+          <h6>II. Sets Up the 'Switch'</h6>
+          <p>It creates a position in order for the ‘switch&#39; to occur. This means the set-up is not just ‘status quo,&#39; but one step removed. You must be able to get from set-up to switch – there is no set up in normality, rather, the set up rises up out of normality. The set up it&#39;s not the very start of the novel,  i.e. it&#39;s not, ‘L lives at Ludlow with his wife and 2 kids&#39;, rather it&#39;s the first plot-related event, the event which kicks off the central plot;</p>
 
           <p>Another example, a set-up is not ‘Once upon a time a girl moved to a new house,&#39; it&#39;s ‘Once upon a time, a girl moved to a new house where a closet led to another world.&#39; You can&#39;t get from ‘New House&#39; to ‘Narnia&#39; in one step, but you can get from ‘New Closet&#39; to ‘Narnia.&#39; Just note this, as it&#39;s very easy to mistake the ‘set-up&#39; for the ‘switch.&#39;</p>
           <p>Notice how in my 3-step Pet Sematary example, the magic burial ground is in step 1. This sounds counterintuitive because a magic burial ground isn&#39;t ‘normal&#39;, but in the ‘Pet Sematary&#39; world, it is normal; it exists; it&#39;s real, the characters better believe it. The burial ground doesn&#39;t belong in step 2 because it hasn&#39;t yet ‘changed&#39; anything; it&#39;s always existed.</p>
 
-          <ol>
-            <li><strong>(2) The Switch</strong>You outline the most important thing that first changes from baseline ‘normal&#39;. This is that switch that shifts the rails and re-routes the train. From the story&#39;s outset, the plot train was forecast as heading from A to B, after the switch, it&#39;s heading to C. Maybe there are a lot of switches, but you need to offer the first one, or sum them up generally.</li>
-            <ol><li>In Pet Sematary, the switch isn&#39;t the cat&#39;s death or resurrection, or even the kid&#39;s death, even though they change the characters, it doesn&#39;t change the trajectory of the plot. From the set-up (moving house) the kid was fated to die. The switch is the resurrection of the kid, because that&#39;s what re-routes the plot&#39;s ‘train&#39; – protagonist didn&#39;t have to resurrect him, but now he has, it changes everything.  </li>
-            </ol>
-          </ol>
+          <h5> (2) The Switch </h5>
+          <p>You outline the most important thing that first changes from baseline ‘normal&#39;. This is that switch that shifts the rails and re-routes the train. From the story&#39;s outset, the plot train was forecast as heading from A to B, after the switch, it&#39;s heading to C. Maybe there are a lot of switches, but you need to offer the first one, or sum them up generally.</p>
+          <p>In Pet Sematary, the switch isn&#39;t the cat&#39;s death or resurrection, or even the kid&#39;s death, even though they change the characters, it doesn&#39;t change the trajectory of the plot. From the set-up (moving house) the kid was fated to die. The switch is the resurrection of the kid, because that&#39;s what re-routes the plot&#39;s ‘train&#39; – protagonist didn&#39;t have to resurrect him, but now he has, it changes everything.  </p>
 
-          <ol>
-            <li><strong>(3) The Settlement</strong>this is where you establish a new normal for your characters. You never take them back around to where they began in the ‘set-up&#39;, because they should have changed (otherwise your step 2 is pointless) – unless in the exceptional case your novel is a Sisyphean tale about the ironic futility of your character&#39;s actions; but even this involves a change from your protagonist&#39;s belief that their action will take them from position A to B, to the new, disillusioned belief that their action will take them from A to A. </li>
-            <p>Maybe you give the characters back what they had previously, but they&#39;ve still changed because they now appreciate what they have even more. The new normal might be good, bad or comparable but it should be somehow different, or at least (particularly in the Sisyphean example), it looks the same but the reader views it differently.</p>
-          </ol>
+          <h5>(3) The Settlement</h5>
+          <p>This is where you establish a new normal for your characters. You never take them back around to where they began in the ‘set-up&#39;, because they should have changed (otherwise your step 2 is pointless) – unless in the exceptional case your novel is a Sisyphean tale about the ironic futility of your character&#39;s actions; but even this involves a change from your protagonist&#39;s belief that their action will take them from position A to B, to the new, disillusioned belief that their action will take them from A to A. </p>
+          <p>Maybe you give the characters back what they had previously, but they&#39;ve still changed because they now appreciate what they have even more. The new normal might be good, bad or comparable but it should be somehow different, or at least (particularly in the Sisyphean example), it looks the same but the reader views it differently.</p>
 
           <p>It looks easy to write up your 3 steps when you already know the plot, but it&#39;s much harder when you have, say, 10 different plot elements. That&#39;s why I&#39;m trying to break this down as much as possible.</p>
           <p>Here&#39;s a closer look at the 3-step example:</p>
 
-          <ol>
-            <li>L moves near an ancient burial ground which has the power to resurrect the dead (Set-up).</li>
-            <li>When L's son dies (switch), he buries him in the burial ground, resurrecting him (Settlement).</li>
-            <li>After L&#39;s possessed son kills L&#39;s wife (switch), L goes insane and resurrects her body at the burial ground (Settlement).</li>
-          </ol>
+          <h4>I. The Set-Up</h4>
+          <p>L moves near an ancient burial ground which has the power to resurrect the dead (Set-up).</p>
+          <h4>II. The Switch</h4>
+          <p>When L's son dies (switch), he buries him in the burial ground, resurrecting him (Settlement).</p>
+          <h4>III. The Settlement</h4>
+          <p>After L's possessed son kills L's wife (switch), L goes insane and resurrects her body at the burial ground (Settlement).</p>
 
           <p>The Set-up creates a 'promise' that someone will die die and be buried at the spot and be resurrected. This narrows and focuses your options for the remaining two steps;</p>
           <p>A switch flows from and fulfils the promise</p>
@@ -212,18 +222,18 @@ function Marketing() {
 
           <p>You can see above that each step partway determines the succeeding step, that is, a good 3 step structure will follow a logical and natural course. You don&#39;t need to throw a bizarre, left-field spanner in at every turn, or even at any turn. Let the story write itself as much as possible.</p>
 
-          <p>Step 2: Expanding:</p>
+          <h5>Next: Expanding:</h5>
           <p>Now you want to expand your summary to 5-6 sentences. Then you can expand to 8, 9 or 10 sentences, and you can keep expanding and refining until you hit your word requirement. </p>
           <p>See below for my method of expanding:</p>
 
-          <p><u><strong>THE EVENT/EFFECT METHOD</strong></u></p>
+          <h5>The Event/Effect Method: Building an 'E Chain'</h5>
           <p>You can use this method in addition to the 3 step method (above), alternatively, you can exclusively rely on this method to build a synopsis. </p>
           <p>Start thinking in terms of the language of ‘events&#39; and ‘effects&#39;. An event is something that happens; an effect is the character&#39;s response to the event, which tends to drive them towards the next event, which creates the next effect, and so on. If you do this properly you give your plot trajectory a natural, plausible momentum, and if you&#39;re lucky, your plot writes itself.</p>
           <p>Events don&#39;t have to be strictly sequential; e.g. you can introduce events without prior causes, but there has to be a subsisting thread throughout the entire plot. </p>
           <p>Structure a roadmap by starting with all the events, then pairing them with effects, or you could do the whole lot together. As rough estimate, aim for about 10 events (each paired with an effect), but adjust accordingly. I say ‘paired&#39; loosely, as events and effects don&#39;t have to be paired to the exclusion of other events and effects – events could, for instance have cumulative and subsisting effects, so that events way back at the start are still having continuing effects later on.</p>
           <p>As an example, let&#39;s divide Pet Sematary into events and effects – a key word here is ‘incentives&#39; or motivation; if you characters don&#39;t have them, this is where it&#39;s going to show, because the ‘events&#39; need to ‘effect&#39; your character to the next ‘event&#39;. The coloured parts are (very loosely) the 3 steps (above), the set-up (red); the switch (blue), and the settlement (green):</p>
 
-          <ol><li><strong>Event:<span className="text-hRed"> L moves to Ludlow;</span></strong>
+          <ol><li><strong>Event:<span className="bg-hRed"> L moves to Ludlow;</span></strong>
             <ol><li><strong>Effect: </strong>Dangers are introduced into L and his family&#39;s lives; the remoteness of the area, and dangerous road;</li>
             </ol>
           </li>
@@ -252,7 +262,7 @@ function Marketing() {
               </ol>
             </li>
 
-            <li><strong>Event: <span className="text-cyan">L buries his son in the burial ground;</span></strong>
+            <li><strong>Event: <span className="bg-cyan">L buries his son in the burial ground;</span></strong>
               <ol><li><strong>Effect: </strong>L&#39;s son is resurrected, and is a demonic version of himself;</li>
               </ol>
             </li>
@@ -262,7 +272,7 @@ function Marketing() {
               </ol>
             </li>
 
-            <li><strong>Event: <span className='hGreen'>L buries his wife in the burial ground, and she returns to the house, in no better state than L&#39;s son;</span></strong>
+            <li><strong>Event: <span className='bg-hGreen'>L buries his wife in the burial ground, and she returns to the house, in no better state than L&#39;s son;</span></strong>
               <ol><li><strong>Effect: </strong>The magnitude and stress borne by L in managing his wife&#39;s death, and undertaking the terrifying task of burying her in the burial ground, causes L to go insane.</li>
               </ol>
             </li>
@@ -299,17 +309,24 @@ function Marketing() {
           <p>A good logline uses irony to grab the reader&#39;s interest – irony, not merely coincidence. I defined irony above; remember the difference between irony (opposite) and coincidence (similarity).</p>
           <p>Using a logline for Harry Potter and the Philosopher&#39;s Stone as an example:</p>
 
-          <p className="indent-8 mb-2"><u>Coincidental Logline:</u> A young boy who lives with his magical relatives, discovers he is also a wizard. </p>
-          <p className="indent-8 mb-2"><u>Ironic Logline:</u> A young boy who lives with his non-magical relatives, discovers he is also a wizard. </p>
+          <h4>(1) Coincidental Logline:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p>A young boy who lives with his magical relatives, discovers he is also a wizard.</p>
+          </div>
+          <h4>(2) Ironic Logline:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p>A young boy who lives with his non-magical relatives, discovers he is also a wizard.</p>
+          </div>
 
           <p>It&#39;s easy to see which logline is makes for a more interesting story.</p>
 
           <p>Here are some more examples of ironic loglines:</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
           <p className="indent-8 mb-2">A cop comes to L.A. to visit his estranged wife and her office building is taken over by terrorists.
             <FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
           <p className="indent-8 mb-2">A businessman falls in love with a hooker he hires to be his date for the weekend.
             <FootnoteRef text={<><em>Pretty Woman</em>, Touchstone Pictures, (1990).</>} /> </p>
-
+</div>
           <h3>24.3.2 	Entire Story</h3>
           <p>A good logline will comprise a compelling mental picture. It will ignite the promise of your whole story, i.e. you know where it&#39;s going to go. You may not know down to precise detail, but you&#39;ll get the gist of the overall structure; the protagonist, their goal, their obstacle, and the possible outcome/s.</p>
 
@@ -319,29 +336,56 @@ function Marketing() {
 
           <h3>24.3.3 	Logline Template</h3>
           <p>Blake Snyder  has a ready template to construct a logline around a straightforward ‘A Story&#39;:</p>
-          <p className="indent-8 mb-2">[On the verge] of a [Stasis = Death moment], a flawed protagonist [Breaks into Two]; but when the [Midpoint] happens, he/she must learn the [Theme Stated], before [All Is Lost]. </p>
 
-          <p><u>"On the verge of" </u> = where the protagonist is when we start the story, before the plot veers them in a different direction</p>
-          <p><u>"Stasis = Death"  </u> = the moment the hero realises their life is deficient, an emotional starting point implying needed change. This also explains why the protagonist needs to be 'flawed'</p>
-          <p><u>"Breaks into Two"   </u> = what sets this story into motion</p>
-          <p><u>"Midpoint"   </u> = the 'no-turning-back' point of the story</p>
-          <p><u>"All is Lost"   </u> = the moment the protagonist is worse off than when the story started</p>
-          <p><u>"Theme Stated"   </u> = what the story is about</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2"><span className="bg-hYellow">[On the verge]</span> of a <span className="bg-hYellow">[Stasis = Death moment]</span>, a flawed protagonist <span className="bg-hYellow">[Breaks into Two]</span>; but when the <span className="bg-hYellow">[Midpoint]</span> happens, he/she must learn the <span className="bg-hYellow">[Theme Stated]</span>, before <span className="bg-hYellow">[All Is Lost]</span>.</p>
+          </div>
+          <h4>"On the verge of"</h4>
+          <p> Where the protagonist is when we start the story, before the plot veers them in a different direction</p>
+
+          <h4>"Stasis = Death"  </h4>
+          <p>The moment the hero realises their life is deficient, an emotional starting point implying needed change. This also explains why the protagonist needs to be 'flawed'</p>
+
+          <h4>"Breaks into Two"   </h4>
+          <p>What sets this story into motion.</p>
+
+          <h4>"Midpoint"   </h4>
+          <p>The 'no-turning-back' point of the story.</p>
+
+          <h4>"All is Lost"   </h4>
+          <p>The moment the protagonist is worse off than when the story started</p>
+
+          <h4>"Theme Stated" </h4>
+          <p>what the story is about</p>
 
           <p>He provides some example loglines for famous films:</p>
-          <p className="indent-8 mb-2">On the verge of another "suit and tie" assignment, a tomboy FBI agent goes undercover as a contestant in the American Miss Pageant; but when the pageant receives a new threat, she must learn to be a woman and tough before she's thrown off the case and out of the bureau. (Miss Congeniality) </p>
-          <p className="indent-8 mb-2">On the verge of returning to Earth after another routine mission, a rules-obssessed warrant officer lets an unknown alien species onto the ship; but when the creature kills one member of the crew and begins to grow in power, she must do what is right rather than what she's been told or else all on board will meet the same deadly fate. (Alien) </p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2">On the verge of another "suit and tie" assignment, a tomboy FBI agent goes undercover as a contestant in the American Miss Pageant; but when the pageant receives a new threat, she must learn to be a woman and tough before she's thrown off the case and out of the bureau.
+              <FootnoteRef text={<><em>Miss Congeniality</em>, Warner Bros., (2000).</>} />
+            </p>
+          </div>
+
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2">On the verge of returning to Earth after another routine mission, a rules-obssessed warrant officer lets an unknown alien species onto the ship; but when the creature kills one member of the crew and begins to grow in power, she must do what is right rather than what she's been told or else all on board will meet the same deadly fate<FootnoteRef text={<><em> Alien</em>, 20th Century Fox, (1979).</>} /></p>
+          </div>
 
           <p>You can also add some more elements to this ‘B Story&#39; logline template: </p>
-          <p className="indent-8 mb-2">i.e. [On the verge] of a [Stasis = Death] moment, a flawed protagonist has a [Catalyst] and [Breaks into Two] with the [B Story]; but when the [Midpoint] happens, he/she must learn the [Theme Stated], before [All Is Lost], to defeat (or stop) the [flawed antagonist] (from getting away with his/her plan). </p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2"><span className="bg-hYellow"> [On the verge]</span> of a <span className="bg-hYellow"> [Stasis = Death]</span> moment, a <span className="bg-hGreen"> [flawed protagonist]</span> has a <span className="bg-hYellow"> [Catalyst]</span> and <span className="bg-hYellow">[Breaks into Two]</span> with the <span className="bg-hGreen">[B Story]</span>; but when the <span className="bg-hYellow">[Midpoint]</span> happens, he/she must learn the <span className="bg-hYellow">[Theme Stated]</span>, before <span className="bg-hYellow">[All Is Lost]</span>, to defeat (or stop) the <span className="bg-hGreen">[flawed antagonist]</span> (from getting away with his/her plan).</p>
+          </div>
+          <h4>"The B Story"</h4>
+          <p>The love interest, mentor, or group that helps the hero learn the lesson.</p>
+          <h4>"Catalyst"</h4>
+          <p>The event that sets the story into motion.</p>
+          <h4>"The Flawed Antagonist"</h4>
+          <p>The hero's nemesis or obstacle, and subject to his own flaw.</p>
 
-          <p><u>"the B Story"   </u> = the love interest, mentor, or group that helps the hero learn the lesson.</p>
-          <p><u>"Catalyst"   </u> = the event that sets the story into motion.</p>
-          <p><u>"the flawed Antagonist"   </u> = the hero's nemesis or obstacle, and subject to his own flaw.</p>
-
-          <p className="indent-8 mb-2">On the verge of a divorce, a bullheaded street-smart cop is trapped in his wife's office building by terrorists and teams up with a 'desk cop' patrolman to thwart them; but when he taunts the terrorists, and risks exposing his hostage wife's identity, he must learn to adapt to change to outsmart the leader and stop what are really thieves from getting away with a billion-dollar heist.<FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
-          <p className="indent-8 mb-2">On the verge of losing the girl he loves, a super-powered young man's abilities start to wane as a demented criminal he helped create begins to rain havoc on the city; but when he gives up his crime-fighting ways, he must learn what it means to make a promise, before more innocents die, to save his city from the criminal's super weapon. <FootnoteRef text={<><em>Spider-Man 2</em>, Columbia Pictures, (2004).</>} /> </p>
-
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2">On the verge of a divorce, a bullheaded street-smart cop is trapped in his wife's office building by terrorists and teams up with a 'desk cop' patrolman to thwart them; but when he taunts the terrorists, and risks exposing his hostage wife's identity, he must learn to adapt to change to outsmart the leader and stop what are really thieves from getting away with a billion-dollar heist.<FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
+          </div>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p className="indent-8 mb-2">On the verge of losing the girl he loves, a super-powered young man's abilities start to wane as a demented criminal he helped create begins to rain havoc on the city; but when he gives up his crime-fighting ways, he must learn what it means to make a promise, before more innocents die, to save his city from the criminal's super weapon. <FootnoteRef text={<><em>Spider-Man 2</em>, Columbia Pictures, (2004).</>} /> </p>
+          </div>
           <p>If you start with a logline you might want to reverse-engineer your story by structuring a plot around it, along with or in lieu of an E Chain or 3-turn structure. This means designing a couple of scenes to illustrate each element:</p>
 
           <ol>
@@ -412,15 +456,19 @@ function Marketing() {
             <FootnoteRef text={`JEFFREY EUGENIDES,\nThe Virgin Suicides.`} />
           </p>
 
-          <p><u>Logline #1</u></p>
-          <p>Some girls inexplicably commit suicide</p>
+          <h4>Logline #1</h4>
+          <div className="custom-box">
+            <p>Some girls inexplicably commit suicide.</p>
+          </div>
 
-          <p><u>Logline #2</u></p>
-          <ol>
-            <li>A girl inexplicably commits suicide; </li>
-            <li>Her parents and the community fail to respond;</li>
-            <li>The girl's sisters commit suicide.</li>
-          </ol>
+          <h4>Logline #2</h4>
+          <div className="custom-box">
+            <ol>
+              <li>A girl inexplicably commits suicide; </li>
+              <li>Her parents and the community fail to respond;</li>
+              <li>Then the girl's sisters commit suicide.</li>
+            </ol>
+          </div>
 
           <p>Both summaries work to simplify the plot -- neither is incorrect -- but if the story hadn't yet been written and you were at the front-end of story planning, which summary would help you more? Probably summary #2 because it implies causation.</p>
 
@@ -431,15 +479,15 @@ function Marketing() {
           <p>Some writers may defer this stage until they finish the story, but I recommend creating a list of possible titles for your story as you write it, continually adding or subtracting from the list as you think of a new one. </p>
           <p>Effective titles tend to have some things in common:</p>
 
-          <ol>
+          <ul className="bullets">
             <li>They contain metaphors;</li>
             <li>They contrast unalike things;</li>
             <li>They are eye-catching or provoke interest;</li>
-          </ol>
+          </ul>
 
           <p>However, your title might be eye-catching for other reasons:</p>
 
-          <ol>
+          <ul className="bullets">
             <li>It provokes debate and controversy, e.g. <i>Rape: A Love Story</i>
               <FootnoteRef text={`JOYCE CAROL OATES,\nRape: A Love Story.`} />
             </li>
@@ -459,10 +507,10 @@ function Marketing() {
             <li>An evocation of something exotic, e.g. <i>Water for Elephants</i>
               <FootnoteRef text={`SARAH GRUEN,\nWater for Elephants.`} />
             </li>
-          </ol>
+          </ul>
 
           <p>Other effective titles:</p>
-          <ol>
+          <ul className="bullets">
             <li><i>Do Androids Dream of Electric Sheep? </i>
               <FootnoteRef text={`PHILIP K. DICK,\nDo Androids Dream of Electric Sheep?`} />
             </li>
@@ -484,7 +532,7 @@ function Marketing() {
             <li><i>War of the Worlds </i>
               <FootnoteRef text={`H. G. WELLS,\nWar of the Worlds.`} />
             </li>
-          </ol>
+          </ul>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -510,7 +558,7 @@ function Marketing() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}

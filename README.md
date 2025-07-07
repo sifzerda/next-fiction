@@ -263,7 +263,7 @@ OVERALL FORMATTING STYLING:
     - [x] the last words
     - [x] writing devices
     - [x] editing
-    - [ ] MARKETING
+    - [x] MARKETING
 
 make text size of index box and also see box smaller to match about box
 
@@ -274,6 +274,7 @@ potentially add height minimization scrollbar grabbing on sidebar for larger scr
 Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i></i></code></p>
 
     Some content missing in chapter scenes:
+
 
     B.	Different Thing, Same Place: (part A is missing)
     Also where it says 'CONTENT'
