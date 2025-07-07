@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
+import Tooltip from '../../components/Tooltip';
 import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
 
@@ -49,14 +50,17 @@ function Description() {
 
           <p>This rule deals mainly with conveying exposition. Exposition comprises all the non-plot related ‘facts&#39; or neutral information about your story, e.g. dates, times, histories, biography, setting information, etc. The ‘background information.&#39;</p>
           <p>Jack Hart provides this example:
-           <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
 
           </p>
-          <p><strong>Telling:</strong></p>
-          <p>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</p>
-          <p><strong>Showing:</strong></p>
-          <p>Michelle&#39;s elation evaporated in the intensive care unit when Frank suffered a seizure. She left moments later, tears streaming down her face.</p>
-
+          <h4>I. Telling:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</p>
+          </div>
+          <h4>II. Showing:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p>Michelle&#39;s elation evaporated in the intensive care unit when Frank suffered a seizure. She left moments later, tears streaming down her face.</p>
+          </div>
           <p>The main point of description is to promote and further conflict. Its ability to provide background is secondary. Never force exposition out of the character&#39;s mouth (e.g: “As you know, we&#39;ve known each other for twenty years”) or slap it into the description self-consciously (e.g: a photograph on the mantelpiece showed the both of them twenty years younger).  </p>
           <p>To make sure that you&#39;re showing as well as telling, Sol Stein advises to “[ensure] there is something visual [described] on each page.”
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
@@ -90,16 +94,21 @@ function Description() {
 
           <h2 id="post-a-common-pitfall">11.2: A Common Pitfall</h2>
           <p>Some writers ‘make it up&#39; as they go along. Sometimes a scene flashes into your head and you just want to drop everything and write it before it disappears. However, writing description before planning out any of the critical story-building elements – the above – is like going to the store and buying a bunch of ingredients without first knowing what kind of food you&#39;re going to cook – i.e. it&#39;s a disaster waiting to happen, and you risk having to chuck out the ingredients you decide you don&#39;t really want, and wasting time jettisoning back and forth to pick up the ones you actually do want. </p>
-          <ol>
-            <li>Description shouldn&#39;t be discordant and ‘jar&#39; a person out of the story or theme; </li>
-            <li>Description shouldn&#39;t be unpleasant or silly or mind-boggling – if you&#39;re twisting a metaphor into something more complicated than simply describing the actual thing, you&#39;re doing something wrong; </li>
-            <li>It should aim to take a complex phenomenon and render it simple and instantaneously imaginable. It should not take a complex phenomenon and render it even more complex, or bizarre; </li>
-            <li>It should sound as if it&#39;s coming out of the mouth of someone whose worldview is framed by the thematic concerns. Metaphors and analogies should be the lyrics of the thematic song, as well as a guide for which details are focused on; </li>
-            <ol>
-              <li>For instance, if your theme refers to death, things described and focused on could include the way things warp or become discolored in time, things that are broken or decrepit, that a person has more wrinkles than the last time they were seen, the stillness or quietness of a location, or the opposite of any of these things if you want to be ironic. </li>
-            </ol>
-            <li>Description should also take into consideration the voice of the person so describing. For instance a 40 year old gun toting alcoholic park ranger is unlikely to know or care what sub-sub-genre of music is playing out of the radio, however description of what kind of plant is growing out of the pot hanging from the ceiling might be more appropriate. </li>
-          </ol>
+          <h5>Features of Good Description</h5>
+          <h4>I. Theme</h4>
+          <p>Description shouldn&#39;t be discordant and ‘jar&#39; a person out of the story or theme; </p>
+
+          <h4>II. Sincerity</h4>
+          <p>Description shouldn&#39;t be unpleasant or silly or mind-boggling – if you&#39;re twisting a metaphor into something more complicated than simply describing the actual thing, you&#39;re doing something wrong;</p>
+
+          <h4>III. Clarity</h4>
+          <p>It should aim to take a complex phenomenon and render it simple and instantaneously imaginable. It should not take a complex phenomenon and render it even more complex, or bizarre; </p>
+
+          <h4>IV. Voice</h4>
+          <p>It should sound as if it&#39;s coming out of the mouth of someone whose worldview is framed by the thematic concerns. Metaphors and analogies should be the lyrics of the thematic song, as well as a guide for which details are focused on;</p>
+          <p>For instance, if your theme refers to death, things described and focused on could include the way things warp or become discolored in time, things that are broken or decrepit, that a person has more wrinkles than the last time they were seen, the stillness or quietness of a location, or the opposite of any of these things if you want to be ironic. </p>
+          <h4>V. Context</h4>
+          <p>Description should also take into consideration the voice of the person so describing. For instance a 40 year old gun toting alcoholic park ranger is unlikely to know or care what sub-sub-genre of music is playing out of the radio, however description of what kind of plant is growing out of the pot hanging from the ceiling might be more appropriate.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -108,61 +117,76 @@ function Description() {
           <p>For the trade to be feasible, your words must have value. Your words attain value according to the laws of supply and demand: when you limit supply, you raise demand. The more information you provide, the less value it will have. Writers who spill their guts immediately convey that their words have such little value they can be spilled without consequence (as the saying goes, ‘empty vessels make the most noise&#39;). So ensure you don&#39;t ramble or meander or flood the story with detail. This makes it seem you have the time to do so, implying your time is of little value. </p>
           <p>This requirement creates a paradox: your story must be packed with content, but withhold critical information, however, all the information you disclose must be important, whilst you can&#39;t give away all the important information.</p>
           <p>The rule of Information Economy, simply is: </p>
-          <p className='indent-8 mb-2'>Withhold all the information your reader wants.</p>
+          <h4 className="text-center">Withhold all the information your reader wants.</h4>
+
           <p>You raise and sustain an informational economy by:</p>
-          <ol>
+          <ul className="bullets">
             <li>Early narrative should raise unrestricted promise;</li>
             <li>Create a chain of live issues;</li>
             <li>Foreclose less important issues first, and more critical issues later;</li>
             <li>Don&#39;t be overdescriptive;</li>
             <li>Description should be sharp, frugal, and pregnant with suggestion</li>
             <li>Say a lot using only a little.</li>
-          </ol>
-          <p>Some of these points are elaborated below:</p>
+          </ul>
+          <p>Some of these points are elaborated below.</p>
 
-          <h3>Some of these points are elaborated below:</h3>
           <p>Above all, you should only describe things which are unusual, unexpected or striking. It goes without saying that if it&#39;s expected, the reader has already made the assumption and saved you the necessity of describing the thing. For instance, don&#39;t say ‘the blue pond&#39; as blue is the default imagined colour of a pond, however you should say ‘the green pond&#39; if that&#39;s the case. If a character enters a house, only describe those things which immediately draw the attention or are unexpected. People already expect that a living room will contain generic furniture, so only describe the odd or unusual aspects of furniture. </p>
           <p>Writing classes churn out a raft of amateur writers who write description based on exercises where they have had to look around the place they&#39;re in and describe the details, and with no guidance, they do so either personally (describe in detail only the things which mean something to the writer) or indiscriminately (describe everything). Neither of these will result in compelling, insightful writing.</p>
 
           <h3>11.3.2 	Le Mot Juste</h3>
           <p>Good description makes use of word poverty; getting the most mileage out of the least words. Here&#39;s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn&#39;t get a surprise? Good description makes use of word poverty; getting the most mileage out of the least words. Here&#39;s an exercise to help you develop a sense of economic word selectivity, as well as prioritization of information. What is the smallest amount of description you can provide, such that if someone actually looked about where you are, they wouldn&#39;t get a surprise? </p>
           <p>Here&#39;s an example:  </p>
-          <p className='indent-8 mb-2'><i>The Television Centre...is a vision of the future with huge, glassed-in newsrooms, and reception areas that look like they've been hit with [a] pastel bomb...</i>
-            <FootnoteRef text={`DANNY WALLACE,\nYes Man, (non-fiction).`} />
-          </p>
+          <div className='p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md'>
+            <p><i>The Television Centre...is a vision of the future with huge, glassed-in newsrooms, and reception areas that look like they've been hit with [a] pastel bomb...</i>
+              <FootnoteRef text={`DANNY WALLACE,\nYes Man, (non-fiction).`} />
+            </p>
+          </div>
 
           <p>This description gives you an immediate, top-down sense of what the whole building looks like, particularly visually stimulating phrases like ‘vision of the future&#39; and ‘pastel bomb.&#39;</p>
           <p>Another example:</p>
-          <p className='indent-8 mb-2'><i>"The door opened finally on a forbiddingly dark and chilly vestibule."</i>
-            <FootnoteRef text={`CLAUDIA OSBORNE,\nOver My Head, (non-fiction).`} />
-          </p>
+          <div className='p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md'>
+            <p><i>"The door opened finally on a forbiddingly dark and chilly vestibule."</i>
+              <FootnoteRef text={`CLAUDIA OSBORNE,\nOver My Head, (non-fiction).`} />
+            </p>
+          </div>
 
           <p>'Dark' and 'chilly' both do separate work, and the unusual word choice in 'vestibule' is more effective than 'room' 'corridor' or 'hallway' by carrying a sense of medieval oldness, like a chamber.</p>
           <p>There are two adverbs: finally and forbiddingly. Without them, the sentence is:</p>
-
-          <p className='indent-8 mb-2'><i>"The door opened on a dark and chilly vestibule."</i></p>
+          <div className="custom-box">
+            <p><i>"The door opened on a dark and chilly vestibule."</i></p>
+          </div>
           <p>Forbiddingly could have been dropped (as a dark, chilly place is forbidding by implication), but there's an argument for the necessity of 'finally', it suggests the protagonist has come a long way thus far, and this is the last stop, whether they like it or not. This is the resting place. Without 'finally' you lose that connotation, and it would cause the reader to wonder what the protagonist is doing here. 'Finally' suggests the answer: the protagonist has come a long way. They need to rest; this place had better do.</p>
           <p>Out of curiousity, the word's place in the sentence is critical as well. We can't rearrange the word:</p>
-          <p className='indent-8 mb-2'><i>"Finally, the door opened on a dark and chilly vestibule."</i></p>
+          <div className="custom-box">
+            <p><i>"Finally, the door opened on a dark and chilly vestibule."</i></p>
+          </div>
 
           <p>The problem with this structure is it suggests the protagonist is relieved to reach this place, which is the opposite of the desired effect. Plus, it&apos;s not the protagonist who is thinking &apos;finally&apos; but the act the of the door opening which suggests an ominous &apos;final&apos; destination.</p>
           <p>Changing the location of a single word can make a huge difference. Example:</p>
-          <p className='indent-8 mb-2'><i>The tommy gun fit weirdly into a violin case, making a gangster look like he was going to a music recital.</i>
-            <FootnoteRef text={`WILLIAM ELLIOTT HAZELGROVE,\nShots Fired in Terminal 2: A Witness to the Fort Lauderdale Shooting Reflects on America's Mass Shooting Epidemic, (non-fiction)`} />
-          </p>
+          <div className='p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md'>
+            <p><i>The tommy gun fit weirdly into a violin case, making a gangster look like he was going to a music recital.</i>
+              <FootnoteRef text={`WILLIAM ELLIOTT HAZELGROVE,\nShots Fired in Terminal 2: A Witness to the Fort Lauderdale Shooting Reflects on America's Mass Shooting Epidemic, (non-fiction)`} />
+            </p>
+          </div>
           <p>The problem word here is 'weirdly'; its location makes it sound like the positioning of the gun in the violin case is awkward, though we know from context what is in fact weird is the gun being in the case at all.   </p>
           <p>A better sentence might be:</p>
-
-          <p className='indent-8 mb-2'><i>The tommy gun, weirdly, fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
+          <div className="custom-box">
+            <p><i>The tommy gun, weirdly, fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
+          </div>
           <p>Or:</p>
-          <p className='indent-8 mb-2'><i>Weirdly, the tommy gun fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
-          <p>Note, there&#39;s an argument that the word ‘weirdly&#39; didn&#39;t need to be in the sentence at all; after all, it&#39;s implied that a gun in a violin case is weird.</p>
-          <h4 className="text-xs">11.3.3 	Implication by Imagery</h4>
-          <p>Here&#39;s an example of the above rule:</p>
-          <p className='indent-8 mb-2'>The main street of Starbuck is deserted, save four men in hunting camo outside Archie's Meats and Groceries, loading paper bundles of bloody meat into the back of a pickup truck. Only the store and hotel restaurant appear to be open.
-            <FootnoteRef text={`TOM JOLKIEN,\nCurtains, (note: this is non-fiction).`} />
 
-          </p>
+          <div className="custom-box">
+            <p><i>Weirdly, the tommy gun fit into a violin case, making a gangster look like he was going to a music recital.</i></p>
+          </div>
+          <p>Note, there&#39;s an argument that the word ‘weirdly&#39; didn&#39;t need to be in the sentence at all; after all, it&#39;s implied that a gun in a violin case is weird.</p>
+          <h3>11.3.3 	Implication by Imagery</h3>
+          <p>Here&#39;s an example of the above rule:</p>
+          <div className='p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md'>
+            <p><i>The main street of Starbuck is deserted, save four men in hunting camo outside Archie's Meats and Groceries, loading paper bundles of bloody meat into the back of a pickup truck. Only the store and hotel restaurant appear to be open.</i>
+              <FootnoteRef text={`TOM JOLKIEN,\nCurtains.`} />
+            </p>
+          </div>
+
           <p>Hopefully you have a picture of the scene in your mind. Consider this image for a moment. If you&#39;re like me, you would have pictured a regional street (as opposed to a CBD) maybe even rural or remote, sparsely built up. Yet nothing in the paragraph explicitly says that. </p>
           <p>It&#39;s coming from inference: the detail about the place being deserted, only the store and restaurant are open (even though, alternatively, it could be night time) which inclines against a heavily commercial area, and the ‘men in hunting camo&#39; and ‘pickup truck&#39; suggests a more countrified region. All of these details ‘show&#39; not ‘tell&#39;; this is someone literally looking around and just telling you what they see, what stands out, and yet it also communicates a whole lot of information that another author might simply ‘tell&#39; you.</p>
 
@@ -174,24 +198,28 @@ function Description() {
           <h2 id="post-most-unusual-to-least-unusual">11.4: Most Unusual to Least Unusual</h2>
           <p>This follows on from the ‘unusual&#39; rule. You&#39;re aiming to work realism and naturalism into description. One way you effect this is to describe things in the order they&#39;d be noticed in real life.</p>
           <p>For instance, if a POV character walks into a big room where lots is going on all at the same time, what you describe first should be what your character notices first. This may require balancing up various sensory inputs; sight, smell, taste, sound, touch. If the room contains a big party the order of description might be:</p>
-          <ol>
+         
+          <ol className="numbered">
             <li>Music (may be heard even before character enters the room);</li>
             <li>Lighting (only if unusual, e.g. very dark);</li>
-            <li>An estimate of the crowd size (big, small, spread out, densely packed, etc);</li>
+            <li>An estimate of the crowd size (big, small, spread out, densely packed, etc);
             <ol>
               <li>May also be implied by the freedom of movement, i.e. can the character move quickly or must they weave and brush past people?</li>
             </ol>
+            </li>
             <li>The type of crowd (work colleagues, teenagers, adults, strangers);</li>
             <li>What the crowd is doing (dancing, talking, eating) and all doing the same activity or many different activities?</li>
             <li>What the room in general looks like (architecture, clean, disordered, etc);</li>
-            <li>Particular people (if recognized);</li>
+            <li>Particular people (if recognized);
             <ol>
               <li>What those particular people are doing and wearing.</li>
             </ol>
-            <li>The location of character&#39;s person of interest, e.g. love interest/crush;</li>
+            </li>
+            <li>The location of character&#39;s person of interest, e.g. love interest/crush;
             <ol>
               <li>What the person of interest is doing/wearing, etc;</li>
             </ol>
+            </li>
             <li>POV character&#39;s action, e.g. approaches person of interest. </li>
           </ol>
 
@@ -202,18 +230,19 @@ function Description() {
 
           <h2 id="post-metaphors-and-similies">11.5: Metaphors and Similies</h2>
           <p>Metaphors and similes are figures of speech, but are not interchangeable literary devices:</p>
-          <ol>
-            <li><u>A simile</u> is a description which compares one thing to another thing;</li>
-            <ol>
+ 
+            <h4>A simile</h4> 
+            <p>Is a description which compares one thing to another thing;</p>
+            <ul className="bullets">
               <li>What passing-bells for these who die as cattle?</li>
               <li>Leaf-strewing gales utter low wails like violins.</li>
-            </ol>
-            <li><u>A metaphor</u> is a description which substitutes one thing for another thing;</li>
-            <ol>
+            </ul>
+            <h4>A metaphor</h4> 
+            <p>Is a description which substitutes one thing for another thing;</p>
+            <ul className="bullets">
               <li>The detective listened with a wooden face;</li>
               <li>I was lost in a sea of nameless faces.</li>
-            </ol>
-          </ol>
+            </ul>
 
           <p>You might wonder when – if ever – you should use a figure of speech. It should be borne in mind that these are descriptive devices. </p>
           <p>Burnett and Burnett says metaphors and similies must be unselfconscious and instinctive.
@@ -229,37 +258,47 @@ function Description() {
           </ol>
 
           <p>Here&#39;s a clear example of a similie doing work direct description can not:</p>
-          <p className='indent-8 mb-2'><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i>
-          <FootnoteRef text={`LUCY GREALY,\nAutobiography of a Face.`} /></p>
+         <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <p><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i>
+            <FootnoteRef text={`LUCY GREALY,\nAutobiography of a Face.`} /></p>
+          </div>
           <p>This provides a vivid picture of the room and the lighting and is more dynamic than saying the room is a dim, intrusive, murky, heavy, oppressive, yellowy-green.</p>
           <p>If you do decide to use figures of speech, here are some general rules for using them properly and effectively. </p>
 
           <h3>11.5.1 	Metaphors alter, Similies add to</h3>
           <p>Generally, a metaphor does not need to be ‘like&#39; the thing you describe (it could even be starkly different), as long as it puts the right picture in your reader&#39;s mind. A metaphor can significantly change the way your reader might have otherwise imagined something. Similes, however, generally do need to be like the thing you describe, aiming to clarify it and add greater detail – </p>
-          <p className='indent-8 mb-2'><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i>
-          <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <p><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i>
+            <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
+          </div>
           <p>Here, the thing (the name ‘Isobel&#39;) is not like the simile (the tolling of a bell). Even if you argue that the phoneme ‘bel&#39; onomatopoeically sounds like the clang of a bell, you have to selectively ignore the other two syllables ‘Is&#39; and ‘o&#39;. </p>
 
           <h3>11.5.2 	High-fidelity</h3>
           <p>The similarity has to be crystal clear to the reader, not strained or contorted. By using a figure of speech instead of a plain description, you are implying that it is a higher fidelity description of the thing even than describing the thing itself directly. ‘Good enough&#39; is not good enough – </p>
-          <p className='indent-8 mb-2'><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i>
-          <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
+         <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <p><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i>
+            <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
+         </div>
           <p>The sound of teeth clattering does not have enough fidelity to coins falling on a wooden floor to justify this simile. Coins falling on a wooden floor is a racket; teeth chattering is not. It&#39;s a simile that has to be contorted in the mind to work.</p>
 
           <h3>11.5.3 	Tone consistency</h3>
           <p>A figure of speech should keep in tone with the thing being described:</p>
-          <p className='indent-8 mb-2'><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i>
-          <FootnoteRef text={`ROBERT SABBAG,\nDown Around Midnight.`} /></p>
-
+           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <p><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i>
+            <FootnoteRef text={`ROBERT SABBAG,\nDown Around Midnight.`} /></p>
+</div>
           <p>Here, this overly-romantic similie is actually talking about being triggered by PTSD, inappropriately conveying that PTSD is pleasurable.</p>
           <p>A tonally dissonant figure of speech may convey satirical/ironic/humourous purpose – this is called ‘Bathos&#39;. Here&#39;s an intentional example: </p>
-          <p className='indent-8 mb-2'>The ballerina rose gracefully en pointe and extended one slender leg behind her, like a dog at a fire hydrant.  </p>
+          <p>The ballerina rose gracefully en pointe and extended one slender leg behind her, like a dog at a fire hydrant.  </p>
 
           <h3>11.5.4 	Relatable</h3>
           <p>A figure of speech will fail if the reader doesn&#39;t know what you&#39;re talking about. Figures of speech should not contain exclusive, unusual things that only few people have experienced (least of all the writer): </p>
-          <p className='indent-8 mb-2'><i>I felt like I was wading into uncharted waters without a life raft.</i> 
-          <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
-          <p>I&#39;ve never waded into ‘uncharted waters&#39; without a life raft (and I suspect the author never has, either), so this simile is already bad. It&#39;s also a cliché.</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>I felt like I was wading into uncharted waters without a life raft.</i>
+              <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
+            </div>
+            <p>I&#39;ve never waded into ‘uncharted waters&#39; without a life raft (and I suspect the author never has, either), so this simile is already bad. It&#39;s also a cliché.</p>
+          
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -268,22 +307,28 @@ function Description() {
           <p>In order of best to less favourable – </p>
 
           <h3>11.6.1 	Behaviour:</h3>
-          <p className="code-left"><code><i>He lifted the book and cradled it in one hand like it was an infant. His other hand he raised to the crowd seated before him, and cupped his fingers. He did this in silence for a full two minutes. His eyes penetrated the throng of people, and then gazed beyond them, at something no one else could see. He remained still as they went silent, then opened his mouth.   </i></code></p>
+          
+          <div className='custom-box'><p><i>He lifted the book and cradled it in one hand like it was an infant. His other hand he raised to the crowd seated before him, and cupped his fingers. He did this in silence for a full two minutes. His eyes penetrated the throng of people, and then gazed beyond them, at something no one else could see. He remained still as they went silent, then opened his mouth.   </i></p>
+          </div>
           <p>This is description of characters doing things. Action without explanation is very compelling and effective; it drops you right into a scene, amidst the action. It doesn&#39;t presume your audience is dumb, because they are forced to work out the character&#39;s mental state based on what is happening – rather than simply being told. It&#39;s more realistic because in real life this is all the info you get: you aren&#39;t told what people are thinking, you have to make judgments.</p>
           <p>Look at the above example – you know what it&#39;s about without being explicitly told. This is what behavioural description should aim to do, but you don&#39;t have to be so obvious, either. Really good behavioural description can be fun and cerebral to read, like a puzzle or a mystery; you are trying to work out what is happening and what people are thinking, and stay on the same page, even as the scene is constantly changing and developing.</p>
 
           <h3>11.6.2. 	Stuff: </h3>
-          <p className="code-left"><code><i>He towered over the pulpit. A fresh coat of paint mostly almost covered up the chipping pine underneath. Panes of golden dusty light fell onto the floor, broken up by the cracks in the windows. The carpet was scuffed, but not kinked. Never kinked. So many elderly parishioners that it would invite a lawsuit.    </i></code></p>
+          <div className='custom-box'>
+          <p><i>He towered over the pulpit. A fresh coat of paint mostly almost covered up the chipping pine underneath. Panes of golden dusty light fell onto the floor, broken up by the cracks in the windows. The carpet was scuffed, but not kinked. Never kinked. So many elderly parishioners that it would invite a lawsuit.    </i></p>
+         </div>
           <p>This is description of things: a setting, a person&#39;s appearance, etc.</p>
 
           <h3>11.6.3. 	Dialogue: </h3>
-          <p className="code-left"><code><i>Looking at them all, he said: “If you live according to the Word as set out in Scripture, you have done better than to win the lottery, because your prize is eternal life in Heaven. And Heaven is a beautiful place decorated with gold and silver and forever the resting place of beautiful people. A life of luxury on Earth is only a small taste of what Heaven has to offer the devout.”    </i></code></p>
-
+          <div className='custom-box'> 
+          <p><i>Looking at them all, he said: “If you live according to the Word as set out in Scripture, you have done better than to win the lottery, because your prize is eternal life in Heaven. And Heaven is a beautiful place decorated with gold and silver and forever the resting place of beautiful people. A life of luxury on Earth is only a small taste of what Heaven has to offer the devout.”    </i></p>
+</div>
           <h3>11.6.4. 	Introspection: </h3>
-          <p className="code-left"><code><i>Father X knew just by looking, who was saying their prayers, and who wasn&#39;t. If they prayed, they would glow. That&#39;s how he knew faith worked, because it made the members congregation look better each time they attended. How many times now had he suppressed a cringe, when he&#39;d seen yet another new congregation member shuffle through the double doors, looking like the dregs of the Earth? How many times now had he felt the thrill of pride, seeing them, a few weeks later, unrecognisably radiant with the inner peace that only true faith could bring?    </i></code></p>
-
+          <div className='custom-box'>
+          <p><i>Father X knew just by looking, who was saying their prayers, and who wasn&#39;t. If they prayed, they would glow. That&#39;s how he knew faith worked, because it made the members congregation look better each time they attended. How many times now had he suppressed a cringe, when he&#39;d seen yet another new congregation member shuffle through the double doors, looking like the dregs of the Earth? How many times now had he felt the thrill of pride, seeing them, a few weeks later, unrecognisably radiant with the inner peace that only true faith could bring?    </i></p>
+</div>
           <h3>11.6.5.	Narration: </h3>
-          <p className="code-left"><code><i>........    </i></code></p>
+          <p><i>........    </i></p>
           <p>All of these forms of description are about the Father, his religion, and his church, however, the subtext in all of these paragraphs points to a preoccupation with exteriority and the appearance of things: beauty, gold and silver, ‘glow&#39;, etc. This suggests this church is superficial. Each form of description attempts to convey that implication in a different way. </p>
           <p>Sol Stein says to convert narrative summary into dialogue where possible. This turns the retelling of an offstage event into a visible scene – dialogue is always an immediate scene.
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
@@ -293,36 +338,46 @@ function Description() {
           <h2 id="post-break-up-adjectives">11.7: Break Up Adjectives</h2>
           <p>Let's say you want to describe something in particular detail and you need to use numerous adjectives to get the description sufficiently specific. Instead of saying: 'A forest of huge, gnarled, grey, straight, balding oak trees.' </p>
           <p>Let's say there's no adjective you can delete in that sentence without removing some essential meaning. You should break adjectives up into separate sentences, like this: </p>
-          <p className='indent-8 mb-2'><i>A forest of gnarled grey pine. Their branches reached up straight some twenty metres into the sky. Although mostly balding, a number of them still bore flowers.</i></p>
+          <div className='custom-box'>
+          <p><i>A forest of gnarled grey pine. Their branches reached up straight some twenty metres into the sky. Although mostly balding, a number of them still bore flowers.</i></p>
+         </div>
           <p>Make sure each sentence refers to a separate sub-topic; for instance, above, the first sentence gives a general overview of what the collective looks like: an oak forest. The next sentence focuses on the height of the oaks. The third sentence focuses on the seasonal stage of the oaks; the fact they don't have many leaves is not due to being winter, but from age, because they still flower.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-how-frequent-should-description-be">11.8: How Frequent Should Description Be?</h2>
           <p>As a reliable, general rule, Sol Stein  gives the advice to break up every three sentences of dialogue with a description (of character, or setting, etc). He says:</p>
-          <p className='indent-8 mb-2'>“Most exchanges in dialogue should be brief. A speech should be not more than three sentences. If a speech has to run longer, break it up with interruptions from other speakers or by an action or a thought.”
-            <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
+          <div className='p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md'>
+            <p><i>“Most exchanges in dialogue should be brief. A speech should be not more than three sentences. If a speech has to run longer, break it up with interruptions from other speakers or by an action or a thought.”</i>
+              <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
+          </div>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-make-the-abstract-concrete">11.9: Make the Abstract Concrete</h2>
           <p>If you're a stickler for the 'show don't tell' rule (ideally, all writers should be), you may hate writing scenes with one character feeling emotions and feel resigned to writing those emotions.</p>
           <p>Consider the emotion you want the character to be feeling and try to evoke it by a separate incident.</p>
-          <p>Example: A character is going somewhere and feels anxious/nervous about getting to the destination (e.g. an exam). Rather than say 'Protagonist felt anxious...' maybe it has been raining and the soil path has turned mushy (providing a tiny physical obstacle). If by car, their preferred road is blocked or slowed by construction works, and they opt for a road that has potholes. This will make the reader groan with empathy.</p>
+          <h4>Example</h4>
+          <p>A character is going somewhere and feels anxious/nervous about getting to the destination (e.g. an exam). Rather than say 'Protagonist felt anxious...' maybe it has been raining and the soil path has turned mushy (providing a tiny physical obstacle). If by car, their preferred road is blocked or slowed by construction works, and they opt for a road that has potholes. This will make the reader groan with empathy.</p>
           <p>Make it a bit unusual so the reader doesn't immediately catch on. Making it rain because the protagonist is sad, or thunder when angry, is too obvious.</p>
           <p>Here is an example:</p>
-          <p className='indent-8 mb-2'><i>The sight of water, limpid, pale, was a soothing contrast to the fierce sun above their heads.</i>
-          <FootnoteRef text={`DAPHNE DU MAURIER,\nDon't Look Now.`} /></p>
+          <div className='p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md'>
+            <p><i>The sight of water, limpid, pale, was a soothing contrast to the fierce sun above their heads.</i>
+              <FootnoteRef text={`DAPHNE DU MAURIER, \nThe Way of the Cross, \nDon't Look Now and Other Stories.`} /></p>
+          </div>
           <p>At this point in the story, the main character feels a mixture of sadness and anger. Rather than merely state that -- which would not evoke the feelings -- the description of colourless, tepid water evokes the sadness, while the blazing, glaring sun evokes the anger.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-describe-things-as-other-things">11.10: Describe Things as Other Things</h2>
+
           <p>To make your writing memorable, you want your description to sound ‘fresh&#39; and ‘new.&#39; </p>
           <p>One way of doing this is to describe relatively boring things as if they were suggestive and interesting things. Imagine the motorhead describing his car to evoke the sexualised body of a women – a gimmicky cliché, but the essence of what I&#39;m talking about.</p>
           <p>Another example: Let&#39;s say you&#39;re writing a horror story in which a protagonist journeys into a forest and eventually reaches the monster's lair. If the forest isn't itself unusual, a surface level description may be boring and pure 'sightseeing' before something actually happens. </p>
           <p>Alternatively, you can describe the forest as if it were something else, e.g. here the forest is literally described as if it were a home, suggesting something lives there long before you actually see anything (thereby raising tension and the sense of the protagonist's unwelcome, uninvited 'intrusion').</p>
-          <p>Example: following a path by a 'fence' of trees to an 'open gate' of tree stumps, under the 'roof' of a jungle canopy, bordered by ferns that draped down like 'curtains', where a chink of light suggests an open door.</p>
+
+          <h4>Example</h4>
+          <p>Following a path by a 'fence' of trees to an 'open gate' of tree stumps, under the 'roof' of a jungle canopy, bordered by ferns that draped down like 'curtains', where a chink of light suggests an open door.</p>
           <p>The more strange the connections, the better; a frightening looking, baying possum may suggest a guard dog; an arcane etching scratched into the ground may suggest an ominous welcome mat; a dead animal carcass may suggest a living room rug, etc.</p>
           <p>This can be used to evoke 2 different effects:</p>
           <ol>
@@ -341,15 +396,17 @@ function Description() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h2 id="post-11-12">11.12: Chain Link Paragraphs</h2>
+          <h2 id="post-chain-link-paragraphs">11.12: Chain Link Paragraphs</h2>
           <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea or thought. However, in some circumstances you may find multiple sentences borrow the same ideas, or carry ideas over throughout a scene. In such a case, you can link sentences together using key words or motifs, i.e. a ‘nexus&#39;. This creates flow. Here is an example:
             <FootnoteRef text={`JOHN HOWARD GRIFFEN,\nBlack Like Me.`} /></p>
-          <p><u>Paragraph 1:</u></p>
-          <p className="code-left"><code><i>I flicked the negatives, as he must have done, toward the comer, heard them scratch dryly against the wall and flap to the floor. One struck the dead globe, causing it to sing its strange filamental music of the spheres, fragile and high-pitched above the outside noises.   </i></code></p>
-
-          <p><u>Paragraph 2:</u></p>
-          <p className="code-left"><code><i>Music from the juke box, a grinding rhythm, ricocheted down the street.   </i></code></p>
-
+          <h4>Paragraph 1:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>I flicked the negatives, as he must have done, toward the comer, heard them scratch dryly against the wall and flap to the floor. One struck the dead globe, causing it to sing its strange filamental music of the spheres, fragile and high-pitched above the outside noises.   </i></p>
+          </div>
+          <h4>Paragraph 2:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>Music from the juke box, a grinding rhythm, ricocheted down the street.   </i></p>
+          </div>
           <p>Here, the nexus is ‘sound.&#39; Notice the ‘filamental&#39; music of the light bulb in the first paragraph segues into the ‘music from the juke box&#39; in the second paragraph. Sound is transformed into music.</p>
           <p>Throughout this chapter, there are several references to noise and music: ‘Another car <strong>roared </strong>down the street…&#39; and ‘Canned <strong>jazz blared </strong>blared through the street with a monstrous high-strutting <strong>rhythm </strong>that pulled at the viscera.&#39; The racket complements the dissonance and torment going on in the narrator&#39;s mind during this scene; this is why the references to noise are framed by negative and discordant terms – ‘scratch dryly&#39;, ‘strange filamental music&#39;, ‘high-pitched&#39;, ‘grinding rhythm&#39;, ‘roared&#39;, ‘blared&#39;, ‘monstrous high-strutting rhythm&#39;. The chapter, therefore isn&#39;t really about music or noise –</p>
           <p>– it&#39;s about the cacophonic conflict going on inside the protagonist/narrator. </p>
@@ -360,99 +417,77 @@ function Description() {
           <div className="custom-box">
             <p><strong><u>1:</u></strong></p>
             <p>...scraps of paper whirled.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>Stone almost walked away.
-                <span className='tooltip-box'>
-                  Here, the nexus is motion; the ‘whirling&#39; paper shifts to the protagonist&#39;s walking.
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">Stone almost walked away.
+              <Tooltip number={1} text="Here, the nexus is motion; the ‘whirling&#39; paper shifts to the protagonist&#39;s walking." />
+            </span></p>
 
             <p><strong><u>2:</u></strong></p>
             <p>...he might have the fairground almost to himself.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>As he reached an entrance...
-                <span className='tooltip-box'>The nexus is vague but appears to be the fairground itself; at large/collectively in the first paragraph, narrowed to the entrance in the second. This suggests the fairground is being viewed by the protagonist, first as a whole, and then from the start.
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">As he reached an entrance...
+              <Tooltip number={2} text="The nexus is vague but appears to be the fairground itself; at large/collectively in the first paragraph, narrowed to the entrance in the second. This suggests the fairground is being viewed by the protagonist, first as a whole, and then from the start." />
+            </span></p>
 
             <p><strong><u>3:</u></strong></p>
-            <p><span className='red-text-span'>...and hurried through the entrance, into colour and noise.</span></p>
-            <p>the high roof with its bare iron girders reminded him at once of a railway station, but the place was noisier...</p>
+            <p><span className="text-red-500">...and hurried through the entrance, into colour and noise.</span></p>
+            <p>the high roof with its bare iron girders reminded him at once of a railway station, but the place was noisier...
+              <Tooltip number={3} text="The nexus is vague but appears to be the fairground itself; at large/collectively in the first paragraph, narrowed to the entrance in the second. This suggests the fairground is being viewed by the protagonist, first as a whole, and then from the start." />
+            </p>
 
             <p><strong><u>4:</u></strong></p>
             <p>...he had to remind himself he could see, even if he couldn&#39;t hear.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>But there wasn&#39;t much to see.
-                <span className='tooltip-box'>What the protagonist can see provides a direct nexus. Here, the second paragraph follows up with an almost direct response.
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">But there wasn&#39;t much to see.
+              <Tooltip number={4} text="What the protagonist can see provides a direct nexus. Here, the second paragraph follows up with an almost direct response." />
+            </span></p>
 
             <p><strong><u>5:</u></strong></p>
             <p>Stone had the impression of being shut in a dusty room where the toys, as in childhood tales, had come to life.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>He shrugged vaguely and turned to leave.
-                <span className='tooltip-box'>In the first paragraph, the protagonist has a mental impression. The second paragraph suggests his reaction to this impression; dismissal.
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">He shrugged vaguely and turned to leave.
+              <Tooltip number={5} text="In the first paragraph, the protagonist has a mental impression. The second paragraph suggests his reaction to this impression; dismissal." />
+            </span></p>
 
             <p><strong><u>6:</u></strong></p>
             <p>He wondered how they were managing at the tax office in his absence. Slower than usual, no doubt.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>Then he saw the merry-go-round.
-                <span className='tooltip-box'>A humourous nexus here, because the second paragraph&#39;s ‘merry-go-round&#39; provides the visual metaphor that the tax office from the first paragraph is not only managing more slowly than usual, but is going around in circles.
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">Then he saw the merry-go-round.
+              <Tooltip number={6} text="A humourous nexus here, because the second paragraph&#39;s ‘merry-go-round&#39; provides the visual metaphor that the tax office from the first paragraph is not only managing more slowly than usual, but is going around in circles." />
+            </span></p>
 
             <p><strong><u>7:</u></strong></p>
             <p>“I&#39;ll get on,” he said.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>He patted the unyielding shoulders of the horse...
-                <span className='tooltip-box'>The Protagonist&#39;s dialogue in the first paragraph (“I&#39;ll get on,”) crystallises into action in the second (touching the horse).
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">He patted the unyielding shoulders of the horse...
+              <Tooltip number={7} text="The Protagonist&#39;s dialogue in the first paragraph (“I&#39;ll get on,”) crystallises into action in the second (touching the horse)." />
+            </span></p>
 
             <p><strong><u>8:</u></strong></p>
             <p>Because I haven&#39;t been on a merry-go-round for years, I suppose.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>The merry-go-round stirred
-                <span className='tooltip-box'>A straightforward nexus here, from the past (the last time protagonist rode a merry-go-round) to the present (actually riding one again).
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">The merry-go-round stirred
+              <Tooltip number={8} text="A straightforward nexus here, from the past (the last time protagonist rode a merry-go-round) to the present (actually riding one again)." />
+            </span></p>
 
             <p><strong><u>9:</u></strong></p>
             <p>...a crowd surging through one of the entrances and spreading through the funfair. He grimaced: it had been his fairground for a little while, they needn&#39;t have arrived just as he was enjoying his merry-go-round.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>The crowd swung away.
-                <span className='tooltip-box'>The nexus is the crowd, specifically its activity; surging in, and then swinging away. This also gives us the sense of the protagonist&#39;s motion on the merry-go-round, by implication.
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">The nexus is the crowd, specifically its activity; surging in, and then swinging away. This also gives us the sense of the protagonist&#39;s motion on the merry-go-round, by implication.
+              <Tooltip number={9} text="The nexus is the crowd, specifically its activity; surging in, and then swinging away. This also gives us the sense of the protagonist&#39;s motion on the merry-go-round, by implication." />
+            </span></p>
 
             <p><strong><u>10:</u></strong></p>
             <p>He shook his head to try to control his pouring thoughts.</p>
-            <p>
-              <span className='blue-text-span tooltip-container'>But the fair was spinning faster.
-                <span className='tooltip-box'>The nexus here is motion; the motion of the protagonist&#39;s rushing thoughts is reinforced by the fair ‘spinning&#39; around him.
-                </span>
-              </span>
-            </p>
+            <p><span className="text-midBlue">But the fair was spinning faster.
+              <Tooltip number={10} text="The nexus here is motion; the motion of the protagonist&#39;s rushing thoughts is reinforced by the fair ‘spinning&#39; around him." />
+            </span></p>
 
           </div>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
           <h3>11.12.1 	When should you interlink paragraphs?</h3>
           <p>Some notes on the Companion (above): not every paragraph in this short story was interlinked. Some were entirely separate. Don&#39;t strive to link every paragraph in your story. Like anything in your story, interlinking creates a specific effect, and you don&#39;t want to overdo it. Reasons why you might interlink paragraphs:</p>
-          <ol>
-            <li><strong><u>To effect causation: </u></strong>interlinking paragraphs flow, creating a sense of one thing causally, logically or temporally (or otherwise) happening after another. By contrast, you might prevent any interlinkage to effect dissonance, illogic, conflict, irregularity, or isolation;</li>
-            <li><strong><u>To effect perception: </u></strong>interlinkage can put the reader inside the protagonist&#39;s head by showing what the protagonist is focusing on, or looking at, in sequence; by contrast, you can also use separate paragraph breaks to jump back and forth between perspectives;</li>
-            <li><strong><u>To create a dialogue: </u></strong>one paragraph may raise a question and the subsequent paragraph may provide an answer;</li>
-          </ol>
+
+          <h4>To effect causation: </h4>
+          <p>Interlinking paragraphs flow, creating a sense of one thing causally, logically or temporally (or otherwise) happening after another. By contrast, you might prevent any interlinkage to effect dissonance, illogic, conflict, irregularity, or isolation;</p>
+          <h4>To effect perception: </h4>
+          <p>Interlinkage can put the reader inside the protagonist&#39;s head by showing what the protagonist is focusing on, or looking at, in sequence; by contrast, you can also use separate paragraph breaks to jump back and forth between perspectives;</p>
+          <h4>To create a dialogue: </h4>
+          <p>One paragraph may raise a question and the subsequent paragraph may provide an answer;</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -467,53 +502,43 @@ function Description() {
             explains that storytelling at different distances requires two different kinds of narrative, each of them essentially a different language. When the distance is great, when you step way back from the action, you write in summary narrative, collapsing time and space into a dispassionate account, viewed from above. When you shrink the distance, you shift into scenic narrative, going inside the scene as it unfolds, as if it was happening to you. </p>
 
           <p>He provides examples of each:</p>
-          <p><u>Summary narrative:</u></p>
-          <p><i>After navigating the first ten miles and splashing through thirty-four rapids, McDougal&#39;s group pulled over at Klondike Creek to set up camp.</i></p>
-
-          <p><u>Scenic narrative: </u></p>
-          <p><i>McDougal and Byars pushed off. They negotiated the fifteen-foot behemoth but were swinging sideways when they hit the next set of waves. The raft capsized, catapulting Byars into the water. McDougal stayed in his seat, virtually upside down. As the raft rose with the next wave, McDougal yanked hard on an oar and righted his boat, a miraculous maneuver.</i></p>
+          <h4>Summary narrative:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>After navigating the first ten miles and splashing through thirty-four rapids, McDougal&#39;s group pulled over at Klondike Creek to set up camp.</i></p>
+          </div>
+          <h4>Scenic narrative: </h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>McDougal and Byars pushed off. They negotiated the fifteen-foot behemoth but were swinging sideways when they hit the next set of waves. The raft capsized, catapulting Byars into the water. McDougal stayed in his seat, virtually upside down. As the raft rose with the next wave, McDougal yanked hard on an oar and righted his boat, a miraculous maneuver.</i></p>
+          </div>
           <p>Hart provides a list contrasting the two narratives:</p>
 
-          <table className="custom-table">
+          <table className="mx-auto mt-6 mb-4 border-collapse border border-gray-300 text-left text-sm">
             <thead>
-              <tr>
-                <th className="summary-narrative">Summary Narrative</th>
-                <th className="scenic-narrative">Scenic Narrative</th>
+              <tr className="bg-gray-100">
+                <th className="px-4 py-2 border border-gray-300 font-semibold text-gray-700">
+                  Summary Narrative
+                </th>
+                <th className="px-4 py-2 border border-gray-300 font-semibold text-gray-700">
+                  Scenic Narrative
+                </th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td className="summary-abstract">Abstract</td>
-                <td className="scenic-concrete">Concrete</td>
-              </tr>
-              <tr>
-                <td className="summary-space">Reaches across Space</td>
-                <td className="scenic-place">Unfolds in One Place</td>
-              </tr>
-              <tr>
-                <td className="summary-time">Collapses Time</td>
-                <td className="scenic-real-time">Seems to Happen in Real Time</td>
-              </tr>
-              <tr>
-                <td className="summary-quotations">Employs Direct Quotations</td>
-                <td className="scenic-dialogue">Employs Dialogue</td>
-              </tr>
-              <tr>
-                <td className="summary-topical">Organized Topically</td>
-                <td className="scenic-scenically">Organized Scenically</td>
-              </tr>
-              <tr>
-                <td className="summary-omniscient">Omniscient Point of View</td>
-                <td className="scenic-specific-pov">Specific Point of View</td>
-              </tr>
-              <tr>
-                <td className="summary-outcomes">Deals with Outcomes</td>
-                <td className="scenic-process">Deals with Process</td>
-              </tr>
-              <tr>
-                <td className="summary-information">Conveys Information</td>
-                <td className="scenic-experience">Reproduces Experience</td>
-              </tr>
+              {[
+                ["Abstract", "Concrete"],
+                ["Reaches across Space", "Unfolds in One Place"],
+                ["Collapses Time", "Seems to Happen in Real Time"],
+                ["Employs Direct Quotations", "Employs Dialogue"],
+                ["Organized Topically", "Organized Scenically"],
+                ["Omniscient Point of View", "Specific Point of View"],
+                ["Deals with Outcomes", "Deals with Process"],
+                ["Conveys Information", "Reproduces Experience"],
+              ].map(([summary, scenic], i) => (
+                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                  <td className="px-4 py-2 border border-gray-300">{summary}</td>
+                  <td className="px-4 py-2 border border-gray-300">{scenic}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
 
@@ -524,25 +549,33 @@ function Description() {
           <h2 id="post-the-ladder-of-abstraction">11.15: The Ladder of Abstraction</h2>
           <p>At 11.9 I said ‘Make the Abstract Concrete.&#39;</p>
           <p>Here is a device for moving between concrete and abstract description. Where you bring in abstraction, let it come after establishing the concrete. Think of the concrete as a lamp, and the abstract as the genie. The genie is bound by the lamp. In order to summon the genie, you have to have the lamp.</p>
-          <p>The abstract should spring from the concrete: <strong>Abstract</strong> observations should spring from descriptions of <strong>concrete</strong> things.</p>
+          <p>The abstract should spring from the concrete: <strong>abstract</strong> observations should spring from descriptions of <strong>concrete</strong> things.</p>
           <p>Here is an example of the Ladder of Abstraction for the above ‘McDougal kayaking summary:</p>
 
-          <table className="custom-table-center">
+          <table className="mx-auto mt-6 mb-4 border-collapse border border-gray-300 text-left text-sm">
             <thead>
-              <tr>
-                <th>Ladder of Abstraction</th>
+              <tr className="bg-gray-100">
+                <th className="px-4 py-2 border border-gray-300 font-semibold text-gray-700">
+                  Ladder of Abstraction
+                </th>
               </tr>
             </thead>
             <tbody>
-              <tr><td>Everything</td></tr>
-              <tr><td>All Living Things</td></tr>
-              <tr><td>All Human Beings</td></tr>
-              <tr><td>Outdoor Adventurers</td></tr>
-              <tr><td>River Runners</td></tr>
-              <tr><td>Illinois River Runners</td></tr>
-              <tr><td>Illinois River Rafters</td></tr>
-              <tr><td>McDougal&#39;s Party</td></tr>
-              <tr><td>McDougal</td></tr>
+              {[
+                "Everything",
+                "All Living Things",
+                "All Human Beings",
+                "Outdoor Adventurers",
+                "River Runners",
+                "Illinois River Runners",
+                "Illinois River Rafters",
+                "McDougal's Party",
+                "McDougal",
+              ].map((item, i) => (
+                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                  <td className="px-4 py-2 border border-gray-300">{item}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
 
@@ -551,45 +584,56 @@ function Description() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-description foils">11.16: Description Foils</h2>
-          <p>I noted under (XXXXX section) that not only characters – but basically anything – can have ‘foils&#39; including description; describing one thing contrasted by another lends both things emphasis. For instance, Hart  describes a homeless bum sleeping outside a Tiffany&#39;s jewellery shop.</p>
+          <p>I noted under (XXXXX section) that not only characters – but basically anything – can have ‘foils&#39; including description; describing one thing contrasted by another lends both things emphasis. For instance, Hart
+            <FootnoteRef text="JACK HART, Storycraft: Complete Guide to Writing Narrative Nonfiction." />
+            describes a homeless bum sleeping outside a Tiffany&#39;s jewellery shop.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-time-markers">11.17: Time Markers</h2>
           <p>These are descriptions which mark what time it is and/or how much time has passed between events. A lack of time markers will cause confusion as to chronology, but they should be subtle; noted subconsciously by the reader. The specificity and frequency of time markers depends on the story's subject matter and degree of action.</p>
-          <p>Examples:</p>
-          <ol>
+          <h4>Examples:</h4>
+
+          <ul className="bullets">
             <li>A story about a natural disaster may mark time by the encroachment of the disaster (area burned in a fire, height of water in a flood, degree of devastation in a hurricane, etc)</li>
             <li>Time implied by transport;</li>
             <li>The passage of time may be implied by a narrator&#39;s introspective moment between action scenes;</li>
-            <ol>
-              <li>E.g. <i>‘He got into the carriage. His thoughts turned to her: the last thing she&#39;d said, her tone; the words, the pauses. The carriage pulled up outside the house.&#39;</i></li>
-            </ol>
-          </ol>
+            <p>E.g. <i>‘He got into the carriage. His thoughts turned to her: the last thing she&#39;d said, her tone; the words, the pauses. The carriage pulled up outside the house.&#39;</i></p>
+          </ul>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-gravity">11.18: Gravity</h2>
           <p>Adding 'gravity,' -- emotional weight, solemnity, pathos, etc -- to your story can make it sound more interesting and important. But it's not a case that you can just keep heaping it on. Like a celestial body, your story can shudder and collapse under the weight of its own gravity. It's similar to the 'strange sandwich' rule -- don't pile on double servings.</p>
           <p>Consider of these two examples, which is the most moving:</p>
-          <p>Bad Example: </p>
-          <p className="code-left">
-            <code><i>"I will forever regret that day and would gladly give up my life if it meant all those little children could be alive again, but it is folly to believe that life could ever be fair." </i></code></p>
+          <h4>Bad Example: </h4>
+          <div className="custom-box">
+            <p>
+              <i>"I will forever regret that day and would gladly give up my life if it meant all those little children could be alive again, but it is folly to believe that life could ever be fair." </i></p>
+          </div>
           <p>The gravity in the <strong>content</strong> (dead children) is enough to support the sentence; it doesn't need the added formality of <strong>style.</strong></p>
 
-          <p>Corrected Example: </p>
-          <p className="code-left">
-            <code><i>"I still regret that day. I would give up my life for the children to still be alive. But life isn't fair." </i></code></p>
-
+          <h4>Corrected Example: </h4>
+          <div className="custom-box">
+            <p>
+              <i>"I still regret that day. I would give up my life for the children to still be alive. But life isn't fair." </i></p>
+          </div>
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-description-in-action">11.19: Description in Action</h2>
-          <p>Description should strive to effect ‘action&#39; as much as possible, occurring <strong>presently</strong> rather than in the past. Even a simple, trivial, innocuous gesture (see below example) will sound more dynamic and interesting if presented as if happening, rather than having happened. A sense of change, movement, and activity is preferred than a static, unchanging, unmoving scene. </p>
-          <p>Example (paraphrased from an actual novel):
-            <FootnoteRef text={`MICHAEL CRICHTON,\nDisclosure.`} /></p>
-          <p className="indent-8 mb-2">Her legs were crossed, one expensive leather heel aloft.</p>
+          <p>Description should strive to effect ‘action&#39; as much as possible, occurring <strong>presently</strong> rather than in the past. Even a simple, trivial, innocuous gesture (see below example) will sound more dynamic and interesting if presented as if happening, rather than having happened. A sense of change, movement, and activity is preferred than a static, unchanging, unmoving scene.
+            Even a small inconsequential action or gesture is preferable in present tense than something that has already happened. See below example: </p>
+
+          <h4>Example:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>Her legs were crossed, one expensive leather heel aloft.</i>
+              <FootnoteRef text={`paraphrased from MICHAEL CRICHTON,\nDisclosure.`} />
+            </p>
+          </div>
           <p>Fixed example:</p>
-          <p className="indent-8 mb-2">She crossed her legs, raising one expensive leather heel into the air.</p>
+          <div className="custom-box">
+            <p><i>She crossed her legs, raising one expensive leather heel into the air.</i></p>
+          </div>
           <p>Rather than use the above description to punctuate a still, lifeless scene, a skilful writer will use such a description to further punctuate an already moving, changing scene, or charged dialogue, emphasizing a sense of direction change or momentum and motion.</p>
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
@@ -604,7 +648,7 @@ function Description() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}

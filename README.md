@@ -255,6 +255,21 @@ the ‘People avoid Jinxing&#39; rule. (main characters)
 
 the strange sandwich Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). (main hcaraterts)
 
+<p>At 11.9 I said ‘Make the Abstract Concrete.&#39;</p> (description)
+
+
+ <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea  (description)
+
+similar to the 'strange sandwich' rule -- don't pile on double servings (description)
+
+
+I noted under (XXXXX section) (description )
+
+
+
+
+
+
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 
 
@@ -272,7 +287,7 @@ OVERALL FORMATTING STYLING:
     - [x] secondary characters
     - [x] setting
     - [x] subtext 
-    - [ ] description
+    - [x] description
     - [ ] dialogue
     - [x] suspense
     - [x] pov
