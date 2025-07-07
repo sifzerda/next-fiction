@@ -243,9 +243,21 @@ ly by the words, but their form and structure (for instance, see: ‘13.3.4 Deli
 
 above rule of invisibility (see: 13.2.5) (the next words)
 
+I also address this under ‘Cowardly or Courageous' under the Horror Section. (main charactetrs)
+
+ (remember Blake Snyder&#39;s ‘Stasis = Death&#39; concept) (main characters)
+
 footnotes are not resetting on page switch (they're accumulating)
 
+r reason for existence, possibly through a ‘Microcosmic&#39; scene (main characters)
+
+the ‘People avoid Jinxing&#39; rule. (main characters)
+
+the strange sandwich Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). (main hcaraterts)
+
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
+
+
 
 OVERALL FORMATTING STYLING:
 
@@ -256,7 +268,7 @@ OVERALL FORMATTING STYLING:
     - [x] themes
     - [x] conflict
     - [x] scenes
-    - [ ] main characters
+    - [x] main characters
     - [x] secondary characters
     - [x] setting
     - [x] subtext 

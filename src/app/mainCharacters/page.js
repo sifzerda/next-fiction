@@ -48,15 +48,20 @@ function MainCharacters() {
           <p>Good story ideas are squandered because of a weak choice of protagonist.</p>
           <p>This is a big problem today because cultural relativism has increased sentiment that stories should be democratic, that 'everyone deserves to have their story told' and 'every story is equally important as every other story.' It&#39;s no longer politically correct to only be interested in the King and the Queen; we must be equally in demand of the peasant&#39;s tale now, too. You also see this in media where the same story is being told but from a different character&#39;s perspective. This is bad form; characters are not interchangeable as protagonists, any more than the protagonist and antagonist are interchangeable. There&#39;s a reason why a certain character is the protagonist, and not another character.</p>
           <p>Whether real life is or should be democratic, it's not so in good storytelling.</p>
-          <p>In Tom Stoppard&#39;s absurdist play ‘Rosencrantz and Guildenstern are Dead,&#39; the titular bit parts from Shakespeare&#39;s Hamlet are the main characters; the play makes fun of the fact that their entire existence and designation is to be side characters in Hamlet – outside of which, they don&#39;t properly ‘exist.&#39; The play recognizes that it&#39;s absurd to pretend that by ‘shifting the camera&#39; those characters become the protagonists in their own story. It&#39;s as absurd as saying you would have won a race if only the winner had switched places with you.</p>
+          <p>In Tom Stoppard&#39;s absurdist play ‘Rosencrantz and Guildenstern are Dead,&#39;
+            <FootnoteRef text={<><em>Rosencrantz and Guildenstern Are Dead</em>, Tom Stoppard, Faber & Faber, (1967).</>} />
+            the titular bit parts from Shakespeare&#39;s Hamlet are the main characters; the play makes fun of the fact that their entire existence and designation is to be side characters in Hamlet – outside of which, they don&#39;t properly ‘exist.&#39; The play recognizes that it&#39;s absurd to pretend that by ‘shifting the camera&#39; those characters become the protagonists in their own story. It&#39;s as absurd as saying you would have won a race if only the winner had switched places with you.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-ditch-the-wimp">7.2: Ditch the Wimp</h2>
-          <div className="custom-box">“...[I]nteresting characters are almost always characters who are active—risk-takers—highly motivated toward a goal.”</div>
-          <p>— Jack Bickham
-            <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
-          </p>
+
+          <div className="custom-box">
+            <p>“...[I]<i>nteresting characters are almost always characters who are active—risk-takers—highly motivated toward a goal.”</i></p>
+            <p>— Jack Bickham
+              <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
+            </p>
+          </div>
 
           <p>Don&#39;t make your main character unconfident, timid, indecisive, passive, despondent, indolent, etc. It comes down to this: characters who act (or react) are interesting; characters who fail to act/react are not. And your plot needs to be driven, so you need a driven character.</p>
           <p>There is a minor caveat; your protagonist may be deceptively weak (but deep down is actually hiding strength), or start weak but develop into a strong character. Think Tolkien&#39;s Frodo,
@@ -72,10 +77,10 @@ function MainCharacters() {
 
           <h2 id="post-two-sources">7.3: Two Sources</h2>
           <p>I generally build characters from two different sources:</p>
-          <p><span className="font-bold">(1) Template: </span></p>
+          <h5>(1) Template</h5>
           <p>The character is based on someone in real life. If you have a good candidate, you are in a really good position to create a realistic character. The downside to this is that your template may not do or say the things your character really needs to do or say to advance the story or be part of the story.</p>
 
-          <p><span className="font-bold">(2) Symbol: </span></p>
+          <h5>(2) Symbol</h5>
           <p>The character embodies some message or thematic concern you want the story to communicate. If it&#39;s a compelling, conflicting thematic concern, you have the opportunity to make a ‘deep&#39; character, and one who is extremely intertwined with the story. This is the kind of character readers want to keep checking in on, to see how they are progressing. The disadvantage to this is that if your character is too theme-based, they may come off a caricature, or a mere mouthpiece for a particular view.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -88,82 +93,82 @@ function MainCharacters() {
             <FootnoteRef text={`"SOL STEIN,\nOn Writing."`} />
             breaks characterization into a number of concepts:</p>
 
-          <p><span className="font-bold">(1)	Personality </span></p>
+          <h5>(1)	Personality</h5>
           <p>This is an inclusive term which Stein says “...refers to the distinctive traits of an individual, a set of behaviors, attitudes, manners, and mannerisms that identify a person. Personality speaks of an individual&#39;s makeup, nature, and combined traits, his essence. It means the specialness of a person, which in some may involve likability, power, charm, magnetism, and charisma. The constituent parts of personality are disposition, temperament, individuality, and eccentricity.”</p>
 
-          <p><span className="font-bold">(2)	Disposition </span></p>
+          <h5>(2)	Disposition</h5>
           <p>This is a character&#39;s “...attitude toward the people and places of the world, her customary response, particularly her emotional response. Disposition can involve a person&#39;s qualities, outlook, mood, frame of mind, inclination, bent, bias, tendency, and direction, her proclivity, predilection, penchant, and propensity. Today, disposition is sometimes thought of as a predisposition, a mind-set.”</p>
 
-          <p><span className="font-bold">(3)	Temperament </span></p>
+          <h5>(3)	Temperament</h5>
           <p>This is a “...person&#39;s manner of behaving, thinking, and particularly reacting to people and circumstances, his characteristic way of confronting a new day or a new development. Temperament can also be seen as a person&#39;s mettle, spirit, leaning, or inclination. Temperament often connotes a negative tendency toward anger or irritability, though the term “even temperament,” of course, means the opposite.”</p>
 
-          <p><span className="font-bold">(4)	Individuality </span></p>
+          <h5>(4)	Individuality</h5>
           <p>This is “...the aggregate of qualities that distinguish one individual from others. It connotes that person&#39;s distinctiveness, difference, and, most important, her originality and uniqueness. A writer describes a character&#39;s singularity with the particulars of concrete detail. These are the characteristics by which an individual is recognized by others. Her differentness is her identity. It can be said that the individuality of a person marks her off, singles her out, sets her apart, and ultimately defines her.”</p>
 
-          <p><span className="font-bold">(5)	Eccentricity </span></p>
+          <h5>(5)	Eccentricity</h5>
           <p>This is “...an offbeat manner of behavior, dress, or speech that is peculiar to a person and greatly dissimilar to the same characteristics of most other people. We think of the eccentric person as odd, a card, perhaps somewhat kinky, a queer fish, a quirky individual different from the other people we know.”</p>
 
           <h3>7.4.2 	Four Sides of a Character</h3>
           <p>In a short story, it&#39;s usually sufficient to show ‘one side&#39; of a character, e.g. his selfishness. In a novel, editors refer to the necessary ‘four sides&#39; of a character: these are four groups of traits: (1) general; (2) physical; (3) personal; and (4) emotional.</p>
-          <p className="font-bold text-boldPurple">I.	General Traits</p>
+          <h5>I.	General Traits</h5>
           <p>These are traits formed by heredity and environment.</p>
           <p>You can further categorise general traits into:
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
 
-          <p><span className="font-bold">(a)	Universal Traits: </span></p>
+          <h4>(a)	Universal Traits: </h4>
           <p>These are traits common to all humans. For instance, sex, age, anatomy, physiology, motor ability. You don&#39;t necessarily have to list all these (such as anatomy) as they will be assumed normal. It&#39;s only when a character does not have such a trait that you mention it, e.g. the character has one leg.</p>
-          <p><span className="font-bold">(b)	Nationalistic traits </span></p>
+          <h4>(b)	Nationalistic traits</h4>
           <p>Citizens of each nation may possess certain nationalistic and regional traits, as a result of geography, culture, language, history and psychology. However, if overused, these are at risk of creating an ethnic stereotype.</p>
-          <p><span className="font-bold">(c)	Group traits </span></p>
+          <h4>(c)	Group traits</h4>
           <p>These are traits arising from groupings such as profession, job, occupation, trade, skillset, club, membership, interest, hobby, etc. We associate religious ministers with a different set of traits than members of a criminal organization, or a big-business tycoons, for instance. These traits are also at risk of creating a stereotype.</p>
 
-          <p className="font-bold text-boldPurple">II.	Physical Traits</p>
+          <h5>II.	Physical Traits</h5>
           <p>We associate certain physical characteristics with certain personality traits. A lean man with a crooked stance may seem untrustworthy. An attractive, charming woman may have many male lovers. A physically big man may be dominant and confident. These traits can too create a stereotype. Using physical contrasts can be more interesting and create conflict by creating misimpressions. For instance, in ‘Of Mice and Men,&#39;<FootnoteRef text="Of Mice and Men, John Steinbeck." /> Lenny is a physically big man, but he is easily frightened, and defers to George about everything. The fact that he doesn&#39;t appear to need a carer or minder is a source of conflict in the story.</p>
 
-          <p className="font-bold text-boldPurple">III.	Personal Traits</p>
+          <h5>III.	Personal Traits</h5>
           <p>These are traits that allow us to distinguish characters from one another, and comprise certain social and ethical qualities. When you describe what ‘type&#39; of person a character is, these are the traits you list. For example, courage or timidity, selfishness or altruism, confidence or shyness, loyalty or duplicity, argumentativeness or passiveness, ambition or laziness, faithfulness or impulsivity.</p>
           <p>Don&#39;t fall into the trap of placing personal traits on a binary, i.e. either a character is loyal, or they are duplicitous. People can act a variety of ways based on differing circumstances. Three characters may fall across a spectrum of ‘loyalty.&#39; Also, a loyal character may become disloyal, or vice versa.</p>
           <p>The key word here is ‘distinguish.&#39; Saying a character is ‘loyal&#39; doesn&#39;t mean they will respond with loyalty in most or every situation/s. It means that, in the particular plot circumstance, the character happened to respond with loyalty, so that&#39;s what we&#39;re using to identify them. In differing circumstances with different incentives, they may behave differently.</p>
 
-          <p className="font-bold text-boldPurple">IV.	Emotional Traits</p>
+          <h5>IV.	Emotional Traits</h5>
           <p>These are the feelings characters have in response to the world. Pain when they get hurt, anger when they are done injustice, fear when afraid, etc. You shouldn&#39;t rely on describing your characters&#39; minds to convey emotional traits. Good dialogue and descriptions of characters&#39; behaviour should imply what they are feeling.</p>
 
-          <h3>7.4.3 	Set Off traits (AKA Interior Foils)</h3>
+          <h3>7.4.3 	Set Off Traits (AKA Interior Foils)</h3>
           <p>Stein
-            <FootnoteRef text={`"SOL STEIN,\nOn Writing."`} />
+            <FootnoteRef text={`SOL STEIN,\nOn Writing.`} />
             provides the tip to contrast traits against each other, in order to emphasise one of those traits. To me, this sounds similar to creating foils (see below) except instead of the foils being separate characters, they are separate traits or details existing in one character.</p>
           <p>Stein&#39;s example is a character who wields power over another (e.g. a moneylender) introduced with attention to vulnerable traits. For instance, the moneylender is in a wheelchair, or is going blind. This emphasizes the subsequent position of power they are in by advancing money to the protagonist.</p>
           <p>Stein says: “...when introducing a character who will be in a position of power in a scene, suggest that character&#39;s vulnerability before the character exercises power. Conversely, when introducing a character who will be hurt emotionally or physically in the scene to come, show the character&#39;s strength at the outset.”</p>
           <p>This is a matter of personal judgment. In some cases, showing a vulnerable character get emotionally hurt may be more suspenseful than a strong character, because it threatens the welfare of the vulnerable character more than a strong character; a character who is totally destroyed may be more interesting than a character who is hurt but later recovers.</p>
           <p>For instance, in Lord of the Flies,
-            <FootnoteRef text={`"WILLIAM GOLDING,\nLord of the Flies."`} />
+            <FootnoteRef text={`WILLIAM GOLDING,\nLord of the Flies.`} />
             the boys&#39; victimising the weaker ‘Piggy&#39; is more suspenseful than if they&#39;d targeted the more cunning Ralph – who has a greater capacity to run, hide, or stand up for himself – because it raises a greater threat.</p>
 
           <h3>7.4.1.1	Direct and Indirect Characterisation</h3>
           <p>Hart distinguishes between direct and indirect characterization:
-            <FootnoteRef text={`"JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction."`} />
+            <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
-          <p className="font-bold text-boldPurple">I.	Direct characterisation</p>
+          <h5>I.	Direct characterisation</h5>
           <p>This is where you simply describe character traits.</p>
           <p>Hart says: "the best modern fiction and nonfiction writers let a character&#39;s visible persona speak for itself, the method [Janet] Burroway calls 'direct characterization.' They may occasionally comment on character. But mostly they choose to include details that lead readers to certain inevitable conclusions about the character they are describing."</p>
 
-          <p className="font-bold text-boldPurple">I.	Indirect characterisation</p>
+          <h5>II.	Indirect characterisation</h5>
           <p>Direct characterization includes:</p>
 
-          <p className="font-bold text-midBluey">(1).	Physical traits</p>
+          <h4>(1).	Physical traits</h4>
           <p>On physical appearance, "[t]oo many specifics," says Hart, "in fact, will disrupt the process. “Detailed descriptions tend to defeat their own purpose,” Wolfe said, “because they break up the face rather than create an image. Writers are much more likely to provide no more than a cartoon outline.”</p>
 
-          <p className="font-bold text-midBluey">(2) Movements, Expressions and Mannerisms </p>
+          <h4>(2) Movements, Expressions and Mannerisms </h4>
           <p>These should be brief, simple, non-instrusive and salient. The gesture should not override whatever else the character is saying/doing. "[S]ome gestures and mannerisms can reveal dimensions of character hidden by words," says Hart, but "[b]eginning writers often go wrong, as Macauley and Lanning<a href="#f5"><sup>5</sup></a>  point out, when they include insignificant actions just to break up background or dialogue. “Many cigarettes have been lighted,” they write, “many noses rubbed, many throats cleared in that endeavor.”</p>
 
-          <p className="font-bold text-midBluey">(3) Status Indicators </p>
+          <h4>(3) Status Indicators </h4>
           <p>Characters reveal themselves by what they consume: food, cars, clothes, houses, furniture and accessories. Note also the state of goods: wealthy cars that are maintained compared to trashed; fine clothes that are clean or rumpled, expensive goods that are used or forever stored away.</p>
           <p>Far from being self-centred, materialism is a social activity, as Hart suggests: "We&#39;re social animals, and we evolved—or not—depending on how well we could read our place in the pecking order of our isolated, constantly threatened band of hunter-gatherers." We use goods to identify others' status and group - "Do they outrank us, or we outrank them? What can we tell about what they think and behave based on what they wear, drive, or paint on their faces?"</p>
 
           <p>Hart provides an example by Tom Wolfe which captures "a bachelor farmer's empty life": "“He hadn&#39;t dated in two years. His nightly dinner consisted of a hamburger patty, instant mashed potatoes, and green beans. His best friend was his black Labrador, Cole.”</p>
 
-          <p className="font-bold text-midBluey">(4) Anecdotes </p>
+          <h4>(4) Anecdotes </h4>
           <p>When an anecdote is told about a character, it's like they briefly author their own story; the character's choice of recollection, the details they focus on, and the descriptions they use tell us about them (sometimes even more than the subject matter of the anecdote).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -188,7 +193,7 @@ function MainCharacters() {
 
           <h3>7.5.5 	Choice </h3>
           <p>Giving a character a choice reveals character, namely what the character values. There are different kinds of choices: </p>
-          <ol>
+          <ul className="bullets">
             <li>A choice of the lesser evil, between bad outcomes; </li>
             <li>A choice of the greater good, between good outcomes; </li>
             <li>Between neutral things, a choice of the character&#39;s personal preference; </li>
@@ -200,21 +205,21 @@ function MainCharacters() {
             <li>A choice between outcomes that affect other people;</li>
             <li>A choice between outcomes the character doesn&#39;t fully understand;  </li>
             <li>A choice with an unknown outcome.    </li>
-          </ol>
+          </ul>
 
-          <p className="font-bold text-boldPurple">I. Weighted Choices</p>
+          <h5>I. Weighted Choices</h5>
           <p>To be more effective, choices should be difficult, and cost the character something. Choices should be ‘weighted,&#39; meaning there is some tangible consequence for choosing; one window opens but another closes. Don&#39;t cheat the reader out of this consequence; once closed, the window or opportunity should remain closed for good.  </p>
 
-          <p className="font-bold text-boldPurple">II. Nested Choices</p>
+          <h5>II. Nested Choices</h5>
           <p>To create a sense of progression, some ‘sub-choices&#39; may open once initial choices have been made. Choices are live issues so you want to keep them running. For instance, upon choosing between two opposing teams, protagonist must then choose a role to play within the team.  </p>
           <p>Once a bad choice has been made, don&#39;t try to cycle a regretful protagonist back in an attempt to remake the original choice for the better. Your story has got to keep moving forward and your protagonist must be presented with new circumstances and new choices in their goal of improving their situation.  </p>
 
-          <p className="font-bold text-boldPurple">III. Symbolic Choices</p>
+          <h5>III. Symbolic Choices</h5>
           <p>Although choice consequences must be ‘tangible,&#39; not all choices should be ‘life or death.&#39; Some choices may be relatively superficial. One example is the choice of School House (or preference influence) in Harry Potter.
-            <FootnoteRef text={`"J. K. ROWLING,\nThe Harry Potter series."`} />
+            <FootnoteRef text={`J. K. ROWLING,\nThe Harry Potter series.`} />
             This choice is more symbolic for the protagonist; telling us something about him rather than opening or closing doors down the track.  </p>
 
-          <p className="font-bold text-boldPurple">IV. Genuine Choice</p>
+          <h5>IV. Genuine Choice</h5>
           <p>In a technical sense, stories don&#39;t offer choices – you decide what happens in advance – and readers understand this. But it&#39;s critical that you convince the reader there is a genuine choice and give them the illusion of a choice. Don&#39;t have the protagonist make their choice before the reader even understands there is one to be made. You must offer the protagonist alternatives, suggest or demonstrate the consequences of each option, tempt the protagonist with each one, and show the protagonist agonising over the choice. Further, don&#39;t cheat the protagonist out of making the choice; don&#39;t have a third party or outside circumstance intervene to make the choice for the protagonist. Once the protagonist has made their choice, don&#39;t cheat them out of the consequence. For instance, if they make a choice which results in a death, don&#39;t bring the deceased back to life at the end of the story.  </p>
 
           <h3>7.5.6 	Reaction </h3>
@@ -223,7 +228,7 @@ function MainCharacters() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h2 id="post-incentivizing">7.6: Incentivizing</h2>
+          <h2 id="post-incentivization">7.6: Incentivization</h2>
           <p>You may give your character a personality or set of traits which seems inconsistent with the way your plot needs them to act. This is not a problem or an obstacle. You hear a lot of criticism about characters acting ‘out of character&#39;, when they do something strange. It&#39;s not a question of acting ‘out of character&#39;; in real life when someone acts ‘out of character&#39; it creates a mystery and makes that person more interesting. This doesn&#39;t mean you can make your characters act however you want without justification. It&#39;s an issue of incentivizing, i.e. using the carrot or the whip.  A character who ‘acts out of character&#39; is merely a character who has not been appropriately incentivised to act. If you want your character to do something odd, you have to use a bigger whip or carrot – this requires being in tune with your character&#39;s hopes and fears. If a person is under an incredible amount of pressure, it&#39;s not ‘out of character&#39; for them to react bizarrely. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -242,27 +247,28 @@ function MainCharacters() {
           <h3>7.8.1 	Types of Foils</h3>
           <p>Don&#39;t be restricted to a foil who is the opposite of your protagonist (or other character). The less obvious or simple the dynamic between foils, the more interesting they will be. Here are some examples I&#39;ve made up:</p>
 
-          <p className="font-bold text-boldPurple">(I)	Canon</p>
+          <h5>(I)	Canon</h5>
           <p>This is where you have identical character arcs but each is delayed. For instance character 1 goes off on an adventure. At the start of Act II, character 2 finds out that character 1 has gone, and goes off to follow them.</p>
           <p>You don&#39;t have to show both characters equally (e.g. you might only write from one character&#39;s perspective), whilst knowing, in the background, what the other character is doing.</p>
 
-          <p className="font-bold text-boldPurple">(II)	Fugue/Variations on a Theme</p>
+          <h5>(II)	Fugue/Variations on a Theme</h5>
           <p>This is where you have a Canon foil, but aspects of the second or other character/s&#39; arcs are slightly different.</p>
           <p>You can see this in Tolkien&#39;s Two Towers (of the Lord of the Rings series), when the members of the Fellowship of the Ring get separated, and different members go off in search of each other (and reach places other characters have already been). By the time characters reach these places, events have changed and moved on since.</p>
           <p>To prevent duplicating plot points, you may want to, either make:</p>
 
-          <ol>
+          <ol className="numbered">
             <li>Consequences of character 1&#39;s actions drastically change events for when character 2 arrives; or</li>
-            <li>Passage of a lengthy period of time naturally alter situation between character 1 and 2&#39;s arrival; or</li>
-            <li>Omit character 1&#39;s journey, suggesting character 1&#39;s passage by character 2&#39;s observations and enquiries; </li>
-            <li>Omit character 2&#39;s journey, suggesting either:</li>
-            <ol>
-              <li>Character 2 is doomed to repeat character 1&#39;s actions; or</li>
-              <li>There is a hope character 2 will not make the same mistake character 1 made </li>
-            </ol>
+            <li>Passage of a lengthy period of time naturally alter situation between character 1 and 2's arrival; or</li>
+            <li>Omit character 1's journey, suggesting character 1's passage by character 2's observations and enquiries;</li>
+            <li>Omit character 2's journey, suggesting either:
+              <ol className="numbered">
+                <li>Character 2 is doomed to repeat character 1's actions; or</li>
+                <li>There is a hope character 2 will not make the same mistake character 1 made</li>
+              </ol>
+            </li>
           </ol>
 
-          <p className="font-bold text-boldPurple">(III)	Crab Canon Foil</p>
+          <h5>(III)	Crab Canon Foil</h5>
           <p>This is where you have character arcs which are reversed or inverted. The inciting incident for one character looks like the climax for another and vice versa. Obviously the climax is the climax for both characters (otherwise you're suggesting that time is running backwards for one of them) but how it appears to one character resembles the inciting incident for the other. You can make this simple (2 inverted events) or as complicated as you want (several, chainlinked, inverted events).</p>
           <p>For instance, character 1 loses a loved one in an accident, which character 2 witnesses and becomes traumatised by it. At the climax, character 2 loses a loved one in an accident which character 1 witnesses and becomes traumatised by it.</p>
           <p>Another example: at the start, character 1 falls in love with character 2. By the end of the story, character 1 has fallen out of love with character 2 (from lack of reciprocity) but now character 2 has finally fallen in love with character 1.</p>
@@ -272,16 +278,19 @@ function MainCharacters() {
           <h2 id="post-the-rpa-method">7.9: The RPA Method</h2>
           <p>When people create characters, they often start with a real life person, whose personality they attempt to insert wholesale into their novel. The problem with this is the risk the character's personality not being appropriate for the plot.</p>
           <p>A better way of creating characters is my 'RPA' method. This creates characters the opposite way; figuring out personality before considering a real life person. This method emphasizes identifying ‘role&#39; at an early stage so that characters are only created out of necessity:</p>
-          <p><span className="font-bold">(1) Role:</span>Consider what function your character has; they may be: - an obstacle; - an ally; - a foil; - in support of the theme; - in opposition of the theme; etc. You may have worked out all the possible roles in your story just by knowing the genre - e.g. in a fantasy, you might have a hero, a villain, a love interest, a mentor, a loyal friend, a rival, etc.</p>
-          <p><span className="font-bold">(1) Personality: </span>Now that you have a role, you should consider the kind of the personality that would be a good fit. The personality may make the role-player unusual (e.g. a cowardly hero), or commonplace, but should raise interest somehow. There ideally should be a sense of conflict in relation to another character (or the same character) raised by the chosen personality. As an example, think of Harry and Hermione in the HP series. Harry's role is the hero, while Hermione's is the sidekick, however Hermione's personality includes being generally an intelligent and proficient spellcaster than Harry, which raises an unusual dynamic and potential for conflict.</p>
-          <p><span className="font-bold">(1) Avatar:</span>Now your character has a role and a personality, you need to write them as if they were a real person. You can try your hand at that, but it'll be easier if you use a real person you actually know as a template, on which your character is overlaid. In particular, this will make your character's dialogue sound more unique and natural and befitting, and it will minimise the temptation of writing yourself into the character, in default of one.</p>
+          <h5>(1) Role</h5>
+          <p>Consider what function your character has; they may be: - an obstacle; - an ally; - a foil; - in support of the theme; - in opposition of the theme; etc. You may have worked out all the possible roles in your story just by knowing the genre - e.g. in a fantasy, you might have a hero, a villain, a love interest, a mentor, a loyal friend, a rival, etc.</p>
+          <h5>(2) Personality</h5>
+          <p>Now that you have a role, you should consider the kind of the personality that would be a good fit. The personality may make the role-player unusual (e.g. a cowardly hero), or commonplace, but should raise interest somehow. There ideally should be a sense of conflict in relation to another character (or the same character) raised by the chosen personality. As an example, think of Harry and Hermione in the HP series. Harry's role is the hero, while Hermione's is the sidekick, however Hermione's personality includes being generally an intelligent and proficient spellcaster than Harry, which raises an unusual dynamic and potential for conflict.</p>
+          <h5>(3) Avatar</h5>
+          <p>Now your character has a role and a personality, you need to write them as if they were a real person. You can try your hand at that, but it'll be easier if you use a real person you actually know as a template, on which your character is overlaid. In particular, this will make your character's dialogue sound more unique and natural and befitting, and it will minimise the temptation of writing yourself into the character, in default of one.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-the-trivia-model">7.10: The Trivia Model</h2>
 
-          <div className="custom-box">
-            <p>Ultimately, the purpose of character is to drive story. Any detail of appearance, any anecdote or personal possession, no matter how intrinsically interesting, is a distraction if it fails to move the story forward.</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>Ultimately, the purpose of character is to drive story. Any detail of appearance, any anecdote or personal possession, no matter how intrinsically interesting, is a distraction if it fails to move the story forward.</i></p>
             <p>— Jack Hart
               <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             </p>
@@ -291,22 +300,32 @@ function MainCharacters() {
           <p>Yet, I&#39;ve come upon writing advice instructing to answer a list of about 50 trivial questions for your proposed character, e.g. what is their favourite food? What is their favourite memory? Etc. </p>
           <p>This is terrible advice. Are you writing a character or a game of trivial pursuit? Just a number of problems with this model:</p>
 
-          <p>(1)	That amount of detail is a waste of time and too abstract to generate much you will actually use; </p>
-          <p>(2)	Characters are written instruments to create conflict, providing help or hindrance to the protagonist&#39;s goals, or creating obstacles. They are not self-contained, individual encyclopedic hubs of mindless data; </p>
-          <p>(3)	Overly idealistic, not practical – disregards the actual practice of writing characters: write actions first, justify actions with incentives later, fill in depth and detail even later than that. Details and trivia should come last, not first. </p>
-          <p>(4)	Disregards actual real life experience meeting people; people are memorable by their involvement/actions/influence in your life, not by the volume of trivia they tell you about themselves; </p>
-          <p>(5)	Worry about the actual reactions your character will or could have in the actual events in your story – justify their actions later; </p>
-          <p>(6)	You will attempt to justify time spent creating all those BS details by cramming them here, there, and everywhere in your book; </p>
-          <p>(7)	The trivia model is unrealistically completionistic, which hampers your ability to write your character now, and on bare essential details; </p>
-          <p>(8)	You (very likely) may alter your character somewhere down the track in the writing or editing process. This may necessitate rewriting the ‘trivia&#39; – or worse, not realising it contradicts your character. Save yourself the time and effort and ditch the model in the first instance; </p>
-          <p>(9)	People change, thus the ‘trivia&#39; about them changes too. Their memories change. Their likes and dislikes change. Their views and beliefs develop and change. The man may be the stranger of the child, and all that. Yes, characters are not real people, but the art should reasonably try to imitate life. The trivia model paints a static, impotent design for character. </p>
-
+          <ul className="bullets">
+            <li>That amount of detail is a waste of time and too abstract to generate much you will actually use; </li>
+            <li>Characters are written instruments to create conflict, providing help or hindrance to the protagonist&#39;s goals, or creating obstacles. They are not self-contained, individual encyclopedic hubs of mindless data; </li>
+            <li>Overly idealistic, not practical – disregards the actual practice of writing characters: write actions first, justify actions with incentives later, fill in depth and detail even later than that. Details and trivia should come last, not first. </li>
+            <li>	Disregards actual real life experience meeting people; people are memorable by their involvement/actions/influence in your life, not by the volume of trivia they tell you about themselves; </li>
+            <li>Worry about the actual reactions your character will or could have in the actual events in your story – justify their actions later; </li>
+            <li>You will attempt to justify time spent creating all those BS details by cramming them here, there, and everywhere in your book; </li>
+            <li>The trivia model is unrealistically completionistic, which hampers your ability to write your character now, and on bare essential details; </li>
+            <li>You (very likely) may alter your character somewhere down the track in the writing or editing process. This may necessitate rewriting the ‘trivia&#39; – or worse, not realising it contradicts your character. Save yourself the time and effort and ditch the model in the first instance; </li>
+            <li>People change, thus the ‘trivia&#39; about them changes too. Their memories change. Their likes and dislikes change. Their views and beliefs develop and change. The man may be the stranger of the child, and all that. Yes, characters are not real people, but the art should reasonably try to imitate life. The trivia model paints a static, impotent design for character. </li>
+          </ul>
           <div className="custom-box">
-            <p>There is a novelist called Thomas Williams,  who's passed on now, and he said that the idea for a novel is like a little tiny fire in a dark night. And, one by one, the characters come and stand around it and warm their hands […] They stand around the fire. And little by little, the fire grows. And you see them more clearly. And that's the novel.</p>
+            <p><i>There is a novelist called Thomas Williams,  who's passed on now, and he said that the idea for a novel is like a little tiny fire in a dark night. And, one by one, the characters come and stand around it and warm their hands […] They stand around the fire. And little by little, the fire grows. And you see them more clearly. And that's the novel.</i></p>
             <p>— Stephen King
-              <FootnoteRef text={<><span className="uppercase font-bold text-yellow-400">PBS NEWS HOUR</span> (2016, Oct 6), “Stephen King Wants to Reach Out and Grab You — With His Writing.” Retrieved from{' '}
-                <a href="https://www.pbs.org/newshour/show/stephen-king-wants-reach-grab-writing" className="underline text-blue-500" target="_blank" rel="noopener noreferrer">https://www.pbs.org/newshour/show/stephen-king-wants-reach-grab-writing</a>.
-              </>} />
+              <FootnoteRef
+                text={
+                  <>
+                    STEPHEN KING,<br />
+                    <em>PBS News Hour</em> (2016, Oct 6), <br />
+                    “Stephen King Wants to Reach Out and Grab You — With His Writing.” Retrieved from:{' '}<br />
+                    <a href="https://www.pbs.org/newshour/show/stephen-king-wants-reach-grab-writing"
+                      target="_blank" rel="noopener noreferrer" className="underline text-blue-400 hover:text-volt">
+                      https://www.pbs.org/newshour/show/stephen-king-wants-reach-grab-writing</a>
+                  </>
+                }
+              />
             </p>
           </div>
 
@@ -322,19 +341,17 @@ function MainCharacters() {
           <h3>7.10.2 	Scenario Brainstorming</h3>
           <p>There is one kind of trivia that is useful for character creation; even if you don&#39;t use the information you generate. That is the hypothetical. This is not ‘your character is late for work, what do they do?&#39; – Your scenarios should promote conflict, exposure to danger, temptation, etc. In short, putting your character in a ‘pressure cooker&#39;.</p>
           <p>For example:</p>
-          <ol>
+          <ul className="bullets">
             <li>Your character comes upon an abandoned bag containing $100,000 – what do they do?</li>
             <li>Your character learns their partner is cheating on them – what do they do?</li>
             <li>A masked man jumps in the passenger seat of your character&#39;s car, holds a gun to their head, and demands they drive somewhere deserted – what does your character do?</li>
             <li>Your character&#39;s house is on fire and they can only save one thing – what is it?</li>
             <li>Your character&#39;s dream guy/girl walks into their life – describe this dream person;</li>
-          </ol>
-
-          <p>If people are not under pressure, they put up appearances. If you want to reveal a secret truthful nature to your character – their ‘Character,&#39; so to speak – you must put them under pressure. When people are under pressure, you find out who they really are.</p>
+          </ul>
 
           <p>You may also try using this method at the front end of character creation, i.e. to create the character, rather than ‘test&#39; or develop them. This may be artificial; you decide what answer you want for each scenario, and design your character around those answers. It&#39;s not necessarily fatal to character if your answers are inconsistent, this may actually give birth to an interesting conflict resolving the issue. </p>
           <p>For instance, let&#39;s say your answers to hypothetical (5) is a person with a tendency to cheat (e.g. someone very difficult to satisfy or tie down in a relationship), but your answer to (2) is that your character is furious and feels categorically betrayed. This makes your character seem a little gullible or too trusting.</p>
-          <p>You can try to weave a story around this to resolve it: your character is too trusting at the beginning, but toughens up after heartbreak. Or, the dream person gives your character some personal reassurance that they&#39;ve changed, only to revert back to cheating. Etc. </p>
+          <p>You can try to weave a story around this to resolve it: your character is too trusting at the beginning, but toughens up after heartbreak. Or, the dream person gives your character some personal reassurance that they&#39;ve changed, only to revert back to cheating.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -350,8 +367,11 @@ function MainCharacters() {
           <p>If people are not under pressure, they put up appearances. If you want to reveal a secret truthful nature to your character – their ‘Character,&#39; so to speak – you must put them under pressure. When people are under pressure, you find out who they really are.</p>
 
           <h3>7.11.2 	Character Inverts Action</h3>
-          <p>McKee states that Character and Action should have an inverse relationship in your story. In other words, the more action in your story, the less complex character should be, and vice versa. This is because character complexity distracts the reader from the acts of daring heroism – apparently?</p>
-          <p><span className="underline">Caveat:</span> I would take this tip with a grain of salt: Firstly, because this tip applied to screenwriting he was talking about movies, specifically, not literature. In a film, character is usually developed through exchanges of dialogue (words), so it necessitates slowing down the pace. But in literature, everything is words, so it&#39;s less of a problem. Secondly, it&#39;s broad; the action genre doesn&#39;t need extra mandate to be dumb. Alexandre Dumas seemed to do pretty well juggling gripping action set pieces with complex characters. </p>
+          <p>McKee
+            <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
+            states that Character and Action should have an inverse relationship in your story. In other words, the more action in your story, the less complex character should be, and vice versa. This is because character complexity distracts the reader from the acts of daring heroism – apparently?</p>
+          <h4>Caveat:</h4>
+          <p>I would take this tip with a grain of salt: Firstly, because this tip applied to screenwriting he was talking about movies, specifically, not literature. In a film, character is usually developed through exchanges of dialogue (words), so it necessitates slowing down the pace. But in literature, everything is words, so it&#39;s less of a problem. Secondly, it&#39;s broad; the action genre doesn&#39;t need extra mandate to be dumb. Alexandre Dumas seemed to do pretty well juggling gripping action set pieces with complex characters. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -365,8 +385,8 @@ function MainCharacters() {
           <h2 id="post-murrays-psychological-needs">7.13: Murray's Psychological Needs</h2>
           <p>Henry Murray formulated categories of psychological needs which people spend their lifetimes pursuing.  These may be useful in character creation, worth considering in giving characters motivation and values.</p>
           <p>Note each need has various expressions. This allows multiple characters to have the same need, without redundancy. One character may strive for dominance over others, another character may strive for dominance over themselves. </p>
-          <p><span className="font-bold">Abasement</span></p>
-          <ol>
+          <h4>Abasement</h4>
+          <ul className="bullets">
             <li>The need to submit passively to external force; </li>
             <li>to accept injury, blame, criticism, punishment; </li>
             <li>to surrender, to become resigned to fate; </li>
@@ -374,10 +394,10 @@ function MainCharacters() {
             <li>to confess and atone; </li>
             <li>to blame, belittle, or mutilate the self; </li>
             <li>to seek and enjoy pain, punishment, illness, and misfortune</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Achievement</span></p>
-          <ol>
+          <h4>Achievement</h4>
+          <ul className="bullets">
             <li>The need to accomplish something difficult </li>
             <li>To master, manipulate, or organize physical objects, human beings, or ideas </li>
             <li>To do this as rapidly and independently as possible </li>
@@ -385,145 +405,145 @@ function MainCharacters() {
             <li>To excel oneself </li>
             <li>To rival and surpass others </li>
             <li>To increase self-regard by the successful exercise of talent</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Affiliation</span></p>
-          <ol>
+          <h4>Affiliation</h4>
+          <ul className="bullets">
             <li>The need to draw near and enjoyably cooperate or reciprocate with an allied person (who likes the person); </li>
             <li>To please and win affection of the admired person; </li>
             <li>To adhere and remain loyal to a friend</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Aggression</span></p>
-          <ol>
+          <h4>Aggression</h4>
+          <ul className="bullets">
             <li>The need to overcome opposition </li>
             <li>To fight, attack, or injure </li>
             <li>To oppose forcefully or injure another </li>
             <li>To belittle, censure, ridicule, slander </li>
             <li>To be angry and rageful, combative, belligerent </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Autonomy</span></p>
-          <ol>
+          <h4>Autonomy</h4>
+          <ul className="bullets">
             <li>The need to get free, shake off restraint, break out of social confinement </li>
             <li>To resist coercion and constriction </li>
             <li>To avoid or quit activities prescribed by domineering authorities </li>
             <li>To be independent and free and act according to desire </li>
             <li>To defy convention </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Counteraction</span></p>
-          <ol>
+          <h4>Counteraction</h4>
+          <ul className="bullets">
             <li>The need to master or make up for failure by restriving </li>
             <li>To obliterate a past humiliation by resumed action </li>
             <li>To repress fear </li>
             <li>To effect a dishonor by action </li>
             <li>To seek obstacles and difficulties to overcome </li>
             <li>To maintain self-respect and pride on a high level </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Defendance</span></p>
-          <ol>
+          <h4>Defendance</h4>
+          <ul className="bullets">
             <li>The need to defend the self against assault, criticism, blame </li>
             <li>To conceal or justify a misdeed, failure or humiliation </li>
             <li>To vindicate the ego </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Deference</span></p>
-          <ol>
+          <h4>Deference</h4>
+          <ul className="bullets">
             <li>The need to admire and support a superior </li>
             <li>To praise, honor, or eulogize another </li>
             <li>To yield eagerly to the influence of an allied other </li>
             <li>To emulate an exemplar </li>
             <li>To conform to custom </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Dominance</span></p>
-          <ol>
+          <h4>Dominance</h4>
+          <ul className="bullets">
             <li>The need to control one&#39;s human environment </li>
             <li>To influence or direct the behaviour of others by suggestion, seduction, persuasion, or command </li>
             <li>To dissuade, restrain, or prohibit </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Exhibition</span></p>
-          <ol>
+          <h4>Exhibition</h4>
+          <ul className="bullets">
             <li>The need to make an impression </li>
             <li>To be seen and heard </li>
             <li>To excite, amaze, fascinate, entertain, shock, intrigue, amuse, or entice others </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Harm-avoidance</span></p>
-          <ol>
+          <h4>Harm-avoidance</h4>
+          <ul className="bullets">
             <li>The need to avoid pain, physical injury, illness, and death </li>
             <li>To escape from a dangerous situation </li>
             <li>To take reasonable precautionary measures </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Inviolacy</span></p>
-          <ol>
+          <h4>Inviolacy</h4>
+          <ul className="bullets">
             <li>The need to protect the self </li>
             <li>To remain separate </li>
             <li>To resist attempts by others to intrude on or invade one&#39;s own psychological space </li>
             <li>To maintain a distance or separateness </li>
             <li>To be isolated, immune from criticism</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Nurturance</span></p>
-          <ol>
+          <h4>Nurturance</h4>
+          <ul className="bullets">
             <li>The need to give sympathy and gratify the needs of another person, especially someone who is weak, disabled, tired, inexperienced, infirm, defeated, lonely, humiliated, rejected, sick, mentally confused, </li>
             <li>To feed, help, support, console, protect, comfort, nurse, or heal </li>
             <li>To nurture </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Order</span></p>
-          <ol>
+          <h4>Order</h4>
+          <ul className="bullets">
             <li>The need to put things or ideas in order </li>
             <li>To arrange, organize, balance, tidy and work for precision among things in the outer world or ideas in the inner world </li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Play</span></p>
-          <ol>
+          <h4>Play</h4>
+          <ul className="bullets">
             <li>The need to act for ‘fun&#39; without further purpose</li>
             <li>To laugh and make jokes</li>
             <li>To have relaxation of stress</li>
             <li>To participate in pleasurable activities for their own sake</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Rejection</span></p>
-          <ol>
+          <h4>Rejection</h4>
+          <ul className="bullets">
             <li>The need to separate oneself from negatively viewed persons</li>
             <li>To exclude, abandon, expel, or remain indifferent to an inferior person</li>
             <li>To snub or jilt another</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Sentience</span></p>
-          <ol>
+          <h4>Sentience</h4>
+          <ul className="bullets">
             <li>The need to seek sensuous experience</li>
             <li>To give an important place to the creature comforts of taste and touch and other senses</li>
             <li>To enjoy good food, drink, material goods and luxuries</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Shame-Avoidance</span></p>
-          <ol>
+          <h4>Shame-Avoidance</h4>
+          <ul className="bullets">
             <li>The need to avoid humiliation and embarrassment</li>
             <li>To avoid conditions that lead to scorn, derision, or indifference of others</li>
             <li>To refrain from action because of fear of failure</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Succorance</span></p>
-          <ol>
+          <h4>Succorance</h4>
+          <ul className="bullets">
             <li>The need to receive support, help, and love</li>
             <li>To have one&#39;s needs gratified by the sympathetic aid of another person</li>
             <li>To be nursed, supported, sustained, protected, loved, guided, indulged, forgiven, consoled, taken care of</li>
-          </ol>
+          </ul>
 
-          <p><span className="font-bold">Understanding</span></p>
-          <ol>
+          <h4>Understanding</h4>
+          <ul className="bullets">
             <li>The need to ask and answer questions</li>
             <li>To speculate, formulate, analyze, generalize, theorize, and philosophize</li>
             <li>To want to know the answers to questions</li>
             <li>To be curious</li>
-          </ol>
+          </ul>
 
           <h3>7.13.1 	Character ‘Death&#39;</h3>
           <p>In his study on suicide, Edwin Shneidman says:
@@ -569,36 +589,44 @@ function MainCharacters() {
           <p>The status quo is the normal state of affairs. It&#39;s the state of affairs the reader expects by default. Any shift from it should be justified, otherwise you risk alienating your reader&#39;s expectations. </p>
           <p>If your world has built in status quo ‘pressures&#39; acting on your character&#39;s actions, your character&#39;s plight is going to be more relatable and realistic. Any time a major event happens, those pressures need to work to counteract that change, even if those pressures are ultimately unsuccessful. The pressures might even be absent or totally ineffectual – but you need to have a really good reason why that is so. You can think of a proportional relationship between the change and the strength of the pressures, as well as between the change and the persuasiveness of the reason your pressures have failed. So, as a general rule, the bigger your change, the better your reason needs to be for the pressures failing.</p>
           <p>Here are some examples:</p>
-          <p>Character has done something wrong, or hurt someone:</p>
 
-          <ol>
+          <h4>Character has done something wrong, or hurt someone:</h4>
+
+          <ul className="bullets">
             <li>The pressure should be on them to apologise or otherwise make amends;</li>
-          </ol>
+          </ul>
 
-          <p>Protagonist has a secret: </p>
+          <h4>Protagonist has a secret: </h4>
 
-          <ol>
-            <li>the pressure is for it to be revealed or discovered;</li>
-            <ol>
-              <li>Character/s are hinted to know the secret;</li>
-              <li>Scenes tease characters finding out;</li>
-              <li>Unknown character anonymously communicates to protag he/she knows the secret and consequences will arise in future</li>
-            </ol>
-          </ol>
+          <ul className="bullets">
+            <li>
+              The pressure is for it to be revealed or discovered;
+              <ul className="list-inside pl-5 gap-1 mt-2 block list-[circle]">
+                <li>Character/s are hinted to know the secret;</li>
+                <li>Scenes tease characters finding out;</li>
+                <li>
+                  Unknown character anonymously communicates to protag he/she knows the secret and consequences will arise in future
+                </li>
+              </ul>
+            </li>
+          </ul>
 
-          <p>Character has killed someone (a form of ‘protag has a secret&#39;):</p>
+          <h4>Character has killed someone (a form of ‘protag has a secret&#39;):</h4>
 
-          <ol>
+          <ul className="bullets">
             <li>Pressure should be on the police to discover who it is;</li>
-          </ol>
-          <p>Character has a crush on someone (a form of ‘protag has a secret&#39;):</p>
-          <ol>
+          </ul>
+          <h4>Character has a crush on someone (a form of ‘protag has a secret&#39;):</h4>
+          <ul className="bullets">
             <li>Pressure should be on the subject of the crush to find this out;</li>
-          </ol>
+          </ul>
 
           <h3>7.14.1 	How to Deviate from Status Quo</h3>
-          <p>Problem: What my character would realistically do in a situation (the ‘status quo&#39;), versus what the plot needs them to do, are two very different things...how can I reconcile this?</p>
-          <p>Answer: The status quo, or law of conservativism, is a baseline and at some point in your story (usually, at least, at the inciting incident) you need to deviate from it to make interesting and surprising things happen. So every writer is going to need to know how to shift from status quo at some point, and ideally, continue to do this throughout the plot.</p>
+
+          <h4>Problem:</h4>
+          <p>What my character would realistically do in a situation (the ‘status quo&#39;), versus what the plot needs them to do, are two very different things...how can I reconcile this?</p>
+          <h4>Answer:</h4>
+          <p>The status quo, or law of conservativism, is a baseline and at some point in your story (usually, at least, at the inciting incident) you need to deviate from it to make interesting and surprising things happen. So every writer is going to need to know how to shift from status quo at some point, and ideally, continue to do this throughout the plot.</p>
           <p>You have to create a motivation that incentivizes against or is greater than the impulse to conform to the status quo.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -614,7 +642,9 @@ function MainCharacters() {
 
           <h2 id="post-better-never-than-late">7.19: Better Never Than Late</h2>
           <p>As a rough rule, main characters should not be introduced past the first third of a novel. There are exceptions -- one is where you've acknowledged a character early on, even if you don't show them.</p>
-          <p>Example: In 'Sphere',
+
+          <h4>Example:</h4>
+          <p>In 'Sphere',
             <FootnoteRef text={`MICHAEL CRICHTON,\nSphere`} />
             the main character explores an alien spacecraft with his team members. All of these characters are main characters, because of their direct contact/engagement with the subject matter of the story, therefore they need to be introduced early on. However, Crichton instead introduces (i.e. gives them a couple of lines of dialogue about themselves) all but one of the team members -- the last one is seen by the main character and his name acknowledged. This creates a sense we look forward to being reintroduced to this character later, and this allows Crichton to delay the introduction.  </p>
 
@@ -625,17 +655,18 @@ function MainCharacters() {
           <p>Depth of character is not defined by the volume of information you know (look how detailed this character&#39;s history is, they have so much depth!), it&#39;s defined by the volume of information you don&#39;t know.</p>
           <p>Just because you spend a lot of time with the main character/s doesn&#39;t mean you have to know everything about them (one of the reasons I denounce the ‘Trivia Model&#39; of characterization, above).</p>
           <p>Deep characters have unwritten elements. They are more than they seem. The shallow character is an open book.</p>
-          <p>Examples of how you can create Depth:</p>
+          <p>Examples of how you can create depth:</p>
 
-          <p><span className="underline">Duality:</span></p>
-          <ol>
+          <h4>Duality:</h4>
+
+          <ul className="bullets">
             <li>A character acts one way in certain circumstances (or in the presence of certain people) and very different elsewhere (or amongst other people);</li>
             <li>A character is balancing two/multiple different contradictory aspects of their life;</li>
-          </ol>
-          <p><u>Secrets: </u></p>
-          <ol>
+          </ul>
+          <h4>Secrets:</h4>
+          <ul className="bullets">
             <li>A character is hiding things, even from the reader;</li>
-          </ol>
+          </ul>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -665,7 +696,9 @@ function MainCharacters() {
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             makes a helpful point: For every event in your story, each character will have a different reaction. And – </p>
-          <p className="italic">“If two characters in your cast share the same attitude and react in kind to whatever occurs, you must either collapse the two into one, or expel one from the story. When characters react the same, you minimize opportunities for conflict. Instead, the writer's strategy must be to maximize these opportunities.”</p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>“If two characters in your cast share the same attitude and react in kind to whatever occurs, you must either collapse the two into one, or expel one from the story. When characters react the same, you minimize opportunities for conflict. Instead, the writer's strategy must be to maximize these opportunities.”</i></p>
+          </div>
           <p>One way you can increase conflict using characters is for different characters to have something at stake in the main characters decisions. For example, protagonist must make decision X, which involves mutually exclusive choice 1 and 2. Character A wants Protagonist to make choice 1 because of personal impact it would have on them. Character B wants choice 2 because of same. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -674,7 +707,7 @@ function MainCharacters() {
           <p>Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). </p>
           <p>Burnett and Burnett
             <FootnoteRef text={`"HALLIE BURNETT AND WHIT BURNETT,\nFiction Writer's Handbook."`} />
-            states that, “...dull characters become more interesting against exotic backgrounds …[and] complicated and alien individuals stand out best against simplicity.”</p>
+            states that, <i>“...dull characters become more interesting against exotic backgrounds …[and] complicated and alien individuals stand out best against simplicity.”</i></p>
           <p>In other words, don&#39;t place an oddball in an odd land, and don&#39;t place an unremarkable wallflower in a wallpaper town.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -690,7 +723,7 @@ function MainCharacters() {
           <h2 id="post-naming-your-character">7.26 Naming Your Character</h2>
           <p>Like the book&#39;s title, character names are important. You can get names ‘wrong&#39;, for example:</p>
 
-          <ol>
+          <ul className="bullets">
             <li>Detective Fingerling and Topsy Kretts;
               <FootnoteRef text={<><em>The Number 23</em>, New Line Cinema, (2007).</>} />
             </li>
@@ -723,7 +756,7 @@ function MainCharacters() {
               <FootnoteRef text={`"DAVID WEBER,\nSafehold."`} />
             </li>
             <li>Any hyphenated name in a fantasy or sci-fi;</li>
-          </ol>
+          </ul>
 
           <p>Etc.</p>
 
@@ -734,7 +767,7 @@ function MainCharacters() {
             <li>Ensure the name is a legitimate name;</li>
           </ol>
 
-          <div className="custom-box">
+           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="italic">“It's [...] a good idea to avoid giving two important characters names that start with the same letter. The reader speeding ahead will have to slow down to register the right character. It's best to avoid any confusion or distraction that will divert the reader from his experience.”</p>
             <p>— Sol Stein
               <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
@@ -745,27 +778,53 @@ function MainCharacters() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-transference">7.27 Transference</h2>
+
           <p>Sometimes your character won't admit or accept what they feel. How do you say that your character is in love, or terrified, or irritated, if they don't recognise it or refuse to acknowledge it?</p>
           <p>One way is to displace the feeling onto someone or something else (preferably a concrete thing, e.g. an outward behaviour). Suggestively, the character is quick to interpret another's behaviour as due to the relevant feeling, because it's the one that's on his/her mind. This is a psychological phenomenon called ‘transference.&#39;</p>
-          <p>Example:
+          
+          <h4>Example:</h4>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <p><i>The air was thin and still in the darkness. Some cats at a garbage can scurried in fright as he crossed toward the house.</i> 
             <FootnoteRef text={`"WILLIAM PETER BLATTY,\nThe Exorcist."`} />
           </p>
-          <p className="italic">The air was thin and still in the darkness. Some cats at a garbage can scurried in fright as he crossed toward the house. </p>
+          </div>
           <p>At this point in the story the protagonist here is feeling "haunted." He also wants to believe he has no rational reason to feel afraid. Therefore, there would be a conflict if he was himself described as frightened (e.g, if the cats startled him). It wouldn't ring true with his self-denial.</p>
-          <p>This is a great, simple example because it ‘transfers&#39; two sensations: (1) the character is frightened; and (2) the character feels short of breath due to fright. We get inside the character&#39;s head and feelings without being told what he is feeling.</p>
+          <p>This is a great, simple example because it ‘transfers&#39; two sensations: 
+            <ol>
+              <li>The man is frightened; and</li>
+              <li>The man feels short of breath due to fright.</li>
+            </ol>
+             We get inside the character&#39;s head and feelings without being told what he is feeling.
+          </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-active-protagonist">7.28: Active Protagonist</h2>
-          <p>According to John Yorke,  a character who is passive is "effectively dead."</p>
-          <p>A character is passive if they don't want anything.</p>
-          <p>The protagonist must want something tangible. 'Love,' 'success,' 'power,' 'money' and 'happiness' are too vague. The goal must be tangible so that it's clear to the reader when the protagonist has achieved it. The prize must be more than 'something nice if I had it.' It's absence must weigh on the protagonist in some palpable way, and emphasised by events in the story.</p>
-          <p>What makes a protagonist:</p>
-          <p><span className="underline">Want:</span> According to John Yorke,
+          <p>According to John Yorke,  a character who is passive is "effectively dead."
             <FootnoteRef text={`JOHN YORKE,\nHow Stories Work and Why We Tell Them.`} />
-            a character who is passive is "effectively dead." A character is passive if they don't want anything. If they don't want anything, they have no reason to act.</p>
-          <p><span className="underline">Tangible Want:</span> the want must be defined enough (by object, event, person, date, time, quantity, etc) so that it's clear to the reader when the protagonist has achieved it. A clearly defined want such as 'save my best friend,' is effective, whereas 'save the world,' is too general.</p>
-          <p><span className="underline">Effect:</span> 'want' comes from Old English 'vant' meaning 'absence' or 'lacking.' The absence of the thing must weigh on the protagonist in some palpable way, e.g. cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize, it changes them or their life in some corresponding way. The object itself doesn't need to be big or dramatic as long as its effect or consequences would be significant.</p>
+          </p>
+
+          <p>What makes a protagonist:</p>
+          <h5>Want: </h5> 
+          <p>A character is passive if they don't want anything. 
+            If they don't want anything, they have no reason to act. 
+            The protagonist must want something tangible. 'Love,' 'success,' 'power,' 'money' and
+             'happiness' are too vague. The goal must be tangible so that it's clear to the reader 
+             when the protagonist has achieved it. The prize must be more than 'something nice if 
+             I had it.' It's absence must weigh on the protagonist in some palpable way, and 
+             emphasised by events in the story.</p>
+
+          <h5>Tangible Want:</h5> 
+          <p>The want must be defined enough (by object, event, person, date, time, quantity, etc) 
+            so that it's clear to the reader when the protagonist has achieved it. 
+            A clearly defined want such as 'save my best friend,' is effective, whereas 
+            'save the world,' is too general.</p>
+          <h5>Effect:</h5> 
+          <p>'Want' comes from Old English 'vant' meaning 'absence' or 'lacking.' 
+          The absence of the thing must weigh on the protagonist in some palpable way, e.g. 
+          cause them suffering, disadvantage, hardship, etc. When the protagonist obtains their prize,
+           it changes them or their life in some corresponding way. The object itself doesn't need to 
+           be big or dramatic as long as its effect or consequences would be significant.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
           <h1 id="post-mainChar-comments" className="text-base text-llBlue bg-bootstrapDark p-4">Leave a Comment</h1>
@@ -799,6 +858,7 @@ function MainCharacters() {
               <li className="mb-px"><a href="#post-two-sources" className="hover:underline hover:text-white">7.3: Two Sources</a></li>
               <li className="mb-px"><a href="#post-ingredients-of-a-character" className="hover:underline hover:text-white">7.4: Ingredients of a Character</a></li>
               <li className="mb-px"><a href="#post-how-to-write-character" className="hover:underline hover:text-white">7.5: How to Write Character</a></li>
+              <li className="mb-px"><a href="#post-incentivization" className="hover:underline hover:text-white">7.6: Incentivization</a></li>
               <li className="mb-px"><a href="#post-maximum-capacity" className="hover:underline hover:text-white">7.7: Maximum Capacity</a></li>
               <li className="mb-px"><a href="#post-the-foil" className="hover:underline hover:text-white">7.8: The Foil</a></li>
               <li className="mb-px"><a href="#post-the-rpa-method" className="hover:underline hover:text-white">7.9: The RPA Method</a></li>
