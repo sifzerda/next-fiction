@@ -789,13 +789,12 @@ function MainCharacters() {
           </p>
           </div>
           <p>At this point in the story the protagonist here is feeling "haunted." He also wants to believe he has no rational reason to feel afraid. Therefore, there would be a conflict if he was himself described as frightened (e.g, if the cats startled him). It wouldn't ring true with his self-denial.</p>
-          <p>This is a great, simple example because it ‘transfers&#39; two sensations: 
+          <p>This is a great, simple example because it ‘transfers&#39; two sensations: </p>
             <ol>
               <li>The man is frightened; and</li>
               <li>The man feels short of breath due to fright.</li>
             </ol>
-             We get inside the character&#39;s head and feelings without being told what he is feeling.
-          </p>
+            <p>We get inside the character&#39;s head and feelings without being told what he is feeling.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
