@@ -51,8 +51,8 @@ function Description() {
           <p>This rule deals mainly with conveying exposition. Exposition comprises all the non-plot related ‘facts&#39; or neutral information about your story, e.g. dates, times, histories, biography, setting information, etc. The ‘background information.&#39;</p>
           <p>Jack Hart provides this example:
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
-
           </p>
+          
           <h4>I. Telling:</h4>
           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p><i>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</i></p>
