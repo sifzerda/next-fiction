@@ -235,6 +235,14 @@ See 18.3.10 Purposeful Repetition. (on the last words)
 see 13.1.6 Starve the Ego, Feed the Soul (editing)
 ly by the words, but their form and structure (for instance, see: ‘13.3.4 Deliberately awkward sentences,' and ‘10.1.1 When to not abridge'). (editing)
 
+(see: 14.1.2 Desperate descriptive detailing of dialogic discourse does disservice). (the next words chapter)
+
+(see 11.3 Information Economy) (the next words)
+
+ 13.2.7 Dialogue descriptions (the next words)
+
+above rule of invisibility (see: 13.2.5) (the next words)
+
 footnotes are not resetting on page switch (they're accumulating)
 
 IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
@@ -259,7 +267,7 @@ OVERALL FORMATTING STYLING:
     - [x] voice
     - [x] antagonists
     - [x] the first words
-    - [ ] the next words
+    - [x] the next words
     - [x] the last words
     - [x] writing devices
     - [x] editing
@@ -280,3 +288,6 @@ Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i><
     Also where it says 'CONTENT'
 
     - For sidebar scrolling, consider the pointer api, pulling the sidebar down. Check copies folder and fix so it runs the other way. Try to put a vertical arrow (either double headed or pointing down) with a vertical line which you grab and drag up and down (so user is not grabbing the links and hover white boxes)
+
+
+    there's an example missing in the next words, about tax department see "However, this rule is not always followed in real life. For instance, "
