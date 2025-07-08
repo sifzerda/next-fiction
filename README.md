@@ -279,7 +279,7 @@ OVERALL FORMATTING STYLING:
     - [x] story
     - [x] premise
     - [x] hero's journey
-    - [ ] plot
+    - [x] plot
     - [x] themes
     - [x] conflict
     - [x] scenes
