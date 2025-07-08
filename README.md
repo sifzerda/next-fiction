@@ -75,8 +75,8 @@ User authentication with JWTs allow users to create an account, which stores use
 - Zustand: store dynamically managing footnote assignment
 - Fuse: index site content to enable sitewide keyword search
 - Puppeteer: scrapes text content for indexing
-- Pointer Events API (for sidebar dragging on sm+ screens when height resized) OR
-- tailwind remove scrollbar
+- ~~Pointer Events API (for sidebar dragging on sm+ screens when height resized) ~~
+- tailwind-scrollbar: customized sidebar scrollbar
 
 ## Footnotes and Tooltips
 
