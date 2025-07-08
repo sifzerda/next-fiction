@@ -44,17 +44,19 @@ function Dialogue() {
           <p>You do not get dialogue from a verbatim transcription of human speech. Real speech is disordered, fractured and meandering. A large percentage is junk, noise, filler. Dialogue can never be passive background noise; it must be active, tight, abridged and filled with meaning and subtext. It can also reveal more by what is not said, than by what is.</p>
 
           <div className="custom-box">
-            <p>[Every bit of] dialogue has the obligation to advance the story[.]</p>
-            <p><i>— Hallie & Whit Burnett.</i></p>
+            <p>[Every bit of] <i>dialogue has the obligation to advance the story</i> [.]</p>
+            <p><i>— Hallie & Whit Burnett.</i>
+              <FootnoteRef text={`HALLIE BURNETT & WHIT BURNETT,\nThe Art of Fiction.`} />
+            </p>
           </div>
 
           <p>No word can be uttered in a vacuum; every word spoken must mean something to someone, i.e. create a reaction (even if silent). It must inform behaviour, now or later.</p>
           <p>For instance, if a character says the weather is hot, it must mean: </p>
-          <ol>
-            <li>he is speaking of a triviality to conceal what he really means; </li>
-            <li>since it is hot, something planned cannot take place, or the weather will affect the event; or </li>
-            <li>his complaint is somehow blaming someone else, or expressing his complaining nature.</li>
-          </ol>
+          <ul className="bullets">
+            <li>He is speaking of a triviality to conceal what he really means; </li>
+            <li>Since it is hot, something planned cannot take place, or the weather will affect the event; or </li>
+            <li>His complaint is somehow blaming someone else, or expressing his complaining nature.</li>
+          </ul>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -64,17 +66,17 @@ function Dialogue() {
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} /></p>
           <p>Here&#39;s an example of word-cutting:</p>
 
-          <u>A. Verbose Example:</u>
-          <ol>
+          <h4>A. Verbose Example:</h4>
+          <ul className="bullets">
             <li>Character A: “But you said that Joe would visit on Thursday.”</li>
             <li>Character B: “No, I didn&#39;t. I said that Joe would visit on Wednesday.”</li>
-          </ol>
+          </ul>
 
-          <u>B. Abridged Example:</u>
-          <ol>
+          <h4>B. Abridged Example:</h4>
+          <ul className="bullets">
             <li>Character A: “But you said that Joe would visit on Thursday.”</li>
             <li>Character B: “Wednesday.”</li>
-          </ol>
+          </ul>
 
           <p>Example A shows ‘echoing&#39;, which is how people speak in real life, but makes bad dialogue. Every word repeated is wasted. Example B says everything A does, and in less words.</p>
 
@@ -82,10 +84,10 @@ function Dialogue() {
 
           <p>Rarely, echoing might serve a function that would be lost if words were cut – this may be where Character B&#39;s dialogue is intended to be condescending and being explicit is effectively talking down to Character A. Cutting words is only a general rule and whichever style you go with will be a circumstance-based judgment. </p>
           <p>For instance, look at this example as an exception to the cutting words rule:</p>
-          <ol>
+          <ul className="bullets">
             <li>Character A: She isn&#39;t breathing she isn&#39;t breathing – ”</li>
             <li>Character B: “She&#39;s gone.”</li>
-          </ol>
+          </ul>
 
           <p>Character A&#39;s repetition isn&#39;t redundant here because it conveys that A is distressed and in denial, not thinking clearly and is caught in a loop – the dialogue is not short, sharp, focused and forward-looking because A&#39;s mental state is none of those things. </p>
 
@@ -101,59 +103,59 @@ function Dialogue() {
           <p>Stein says good dialogue is “confrontational” and “thrives on surprise and indirection,” and “raises more questions than it answers.”</p>
           <p>Dialogue that jumps out isn&#39;t necessarily ‘oblique&#39; – oblique dialogue suggests more than is actually said and elicits further interest. Dialogue that skirts around moves outside the bounds of expectation or social convention or expected phrasing. By eschewing polite expectations, you make the dialogue immediate and get out of the ‘wallflower&#39; stages of new social interaction as quickly as possible; polite, bland, forgettable and everything a character is not. Characters may sound as if they&#39;re presuming certain information possessed by the other character, and to the reader, it may have a sense that you&#39;re being sucked into a conversation midway through – this is what gives it dynamism.</p>
 
-          <u>Bad Dialogue:</u>
-          <ol>
+          <h4>Bad Dialogue:</h4>
+          <ul className="bullets">
             <li>Character A: "How are you today?"</li>
             <li>Character B: “Good, thank you. And you?”</li>
-          </ol>
+          </ul>
 
-          <u>More Bad Dialogue:</u>
-          <ol>
+          <h4>More Bad Dialogue:</h4>
+          <ul className="bullets">
             <li>One evening Ethel asked, "Katie, would you like to come to the barnyard?"</li>
             <li>"Yes, I would," I answered.
               <FootnoteRef text={`BEVERLY HOPWOOD,\nKatie and Ozzie.`} />
             </li>
-          </ol>
+          </ul>
 
-          <u>Good Dialogue (Dodgem dialogue) example #1</u>
-          <ol>
+          <h4>Good Dialogue Example #1</h4>
+          <ul className="bullets">
             <li>Character A: “How are you today?”</li>
             <li>Character B: “No, no, I&#39;m good.”</li>
-          </ol>
+          </ul>
 
-          <u>DD example #2</u>
-          <ol>
+          <h4>Good Dialogue Example #2</h4>
+          <ul className="bullets">
             <li>Character A: “How are you today?”</li>
             <li>Character B: “Ever woken up and you think, it's not enough?”</li>
-          </ol>
+          </ul>
 
-          <u>DD example #3</u>
-          <ol>
+          <h4>Good Dialogue Example  #3</h4>
+          <ul className="bullets">
             <li>Character A: “How are you today?”</li>
             <li>Character B: “The horse fell down the well. Terrible.”</li>
-          </ol>
+          </ul>
 
           <p>Here are some examples from Sol Stein:
             <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
           </p>
 
-          <u>Example of bad dialogue:</u>
-          <ol>
+          <h4>Bad Dialogue:</h4>
+          <ul className="bullets">
             <li>She: How are you?”</li>
             <li>He: I am fine.</li>
             <li>She: How&#39;s the family?</li>
-          </ol>
+          </ul>
 
-          <u>Example of oblique dialogue:</u>
-          <ol>
+          <h4>Oblique (Good) Dialogue:</h4>
+          <ul className="bullets">
             <li>She: Hello there! How are you?</li>
             <li>He: On my way to jail.</li>
             <li>She: Good God, what are you planning to do?</li>
             <li>He: It's done.</li>
-          </ol>
+          </ul>
 
-          <u>Example of oblique dialogue:</u>
-          <ol>
+          <h4>Oblique (Good) Dialogue:</h4>
+          <ul className="bullets">
             <li>She: It's marvelous outside. The leaves are changing color.</li>
             <li>He: I'm reading the paper.</li>
             <li>She: Read the paper later, John, the leaves may not wait till tomorrow.</li>
@@ -164,32 +166,33 @@ function Dialogue() {
             <li>He: Out of O'Hare. I've got to get away from here.</li>
             <li>She: I thought you loved this house.</li>
             <li>He: It's not the house, it's you.</li>
-          </ol>
+          </ul>
 
           <p>Characters don&#39;t give pre-rehearsed, automated sounding responses. They say what they&#39;re thinking (i.e. dialogue isn&#39;t necessarily oblique) but what they&#39;re thinking is not what you expect. This gives interaction a vibe of dodgem cars; the characters&#39; dialogue is heading into each other and veering or bumping off at the last second. Characters are never really interacting directly and equally at each other. </p>
           <p>Much of how I write dodgem dialogue comes from my own observations about interesting speech in real life, and examples of well-crafted dialogue in what I&#39;ve read. It&#39;s something you get a feel for writing and there are no solid rules, but I have a number of simple ways I create dodgem dialogue:</p>
 
-          <ol>
+          <ul className="bullets">
             <li>Write the generic response and then modify or remove the conventional parts – the ‘yes&#39; ‘no&#39; ‘good&#39; ‘okay&#39; ‘oh&#39; ‘sure&#39; ‘please&#39; and ‘thankyou&#39; </li>
             <ol>
-              <li>see example #1; the repetition of ‘no&#39; makes it unusual and more interesting</li>
+              <p>See example #1; the repetition of ‘no&#39; makes it unusual and more interesting</p>
             </ol>
             <li>Rearrange the order of dialogue </li>
-            <ol>
-              <li>e.g. in the example #2 above I put direct answer to the question ‘feel terrible last, instead of first, where you&#39;d expect it;</li>
-            </ol>
+            <p>
+              <p>In the example #2 above I put direct answer to the question ‘feel terrible last, instead of first, where you&#39;d expect it;</p>
+            </p>
             <li>Replace abstract responses with concrete ones. </li>
             <ol>
-              <li>e.g. in the above example #2, B replies with a question;</li>
+              <p>In the above example #2, B replies with a question;</p>
             </ol>
             <li>Rather than giving a direct answer, phrase the response into a different form; </li>
             <ol>
-              <li>E.g. in example #2 above – you could also do this in #3 by removing ‘terrible.</li>
+              <p>In example #2 above – you could also do this in #3 by removing ‘terrible.</p>
             </ol>
             <li>Have the character suggest the answer, but not say it </li>
-          </ol>
+          </ul>
 
-          <p>Stein says, “Non sequiturs, words that don't follow from what came before[…] add flavor in dialogue.” See the word ‘No&#39; in DD example #1.</p>
+          <p>Stein says, <i>“Non sequiturs, words that don't follow from what came before </i>[...]<i> add flavor in dialogue.”</i></p>
+          <p>See the word ‘No&#39; in Good Dialogue example #1.</p>
           <p>The main thing to remember is you&#39;re not locked into making exchanges fit convention. Dodgem dialogue does not hit back at the speaker head on; it gives a sideway reply and careens off in some other direction.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -207,26 +210,26 @@ function Dialogue() {
           <p>Also note that stressed people are more likely to accidentally expose truths – this can be another reason for burdening a character with tasks during conversation, not to mention a convenient and novel way of introducing information. An alternative is where a person does not directly answer a question, but performs an action in/consistent with a certain state of affairs, e.g. shaking or nodding, smiling, laughing, or joking, acting quickly (suggests eagerness), acting slowly (suggests reluctance), requesting more information (could suggest interest or alternatively, suspicion), or turning away or changing the subject, or paraphrasing the information in a way more agreeable to them (suggests disagreement).</p>
           <p>Another trap of writing redundant information you can fall into is where characters agree. Silence can be more powerful than a response because if a person doesn&#39;t say anything we generally take it as implied permission or affirmative. Example – </p>
 
-          <ol>
+          <ul className="bullets">
             <li>Character A:”I&#39;m heading off; you coming?”</li>
             <li>Character B: “Yeah. But I&#39;ve lost my wallet.”</li>
-          </ol>
+          </ul>
 
           <p>Amended version:</p>
 
-          <ol>
+          <ul className="bullets">
             <li>Character A: “I&#39;m heading off; you coming?”</li>
             <li>* Character B stands up and slides his hand into his pocket*</li>
             <li>Character B: “Shit.”</li>
-          </ol>
+          </ul>
 
           <p>The action of B standing up and feeling for his wallet implies he was prepared to go.</p>
           <p>Be careful when deleting a character&#39;s response as some people would not respond not because they agree but because they are shy or too afraid to argue. However, you may imply this through passive aggressive behavior, e.g. – </p>
 
-          <ol>
+          <ul className="bullets">
             <li>Character A: “I&#39;m heading off; you coming?”</li>
             <li>Character B nodded and took another sip of coffee.</li>
-          </ol>
+          </ul>
 
           <p>The above implies B is not coming or does not want to come; as the act of drinking a coffee is not something rushed, it implies B is passively defying A&#39;s desire to go. This form of introducing conflict is more effective in allowing conflict to build without release, than if you had A and B explicitly butt heads.</p>
 
@@ -264,31 +267,40 @@ function Dialogue() {
           <p>In acting they use Practical Aesthetics; knowing what the character's goal is and moving towards it against obstacles. You can use this in writing dialogue; your characters are always talking about their goals, and attempting to steer the conversation back to their goals, while attempts by other characters to derail are quickly shrugged off (obstacles). </p>
           <p>Sol Stein says provides several ways to create tension:</p>
 
-          <ol>
-            <li><u>Strong emotion: </u>“Character most reveals itself in dialogue under stress,” and “when angry,” as “[s]tressed characters will blurt things out that they never meant to say.”</li>
-            <li><u>The use of impatience</u> characters have multiple important things they have to do, or have brief windows of time in which to get things done;</li>
-            <li><u>Adding Misunderstandings: </u>information asymmetry, characters have reach different understandings, or arrive at different conclusions; </li>
-            <li><u>Clashing Intentions: </u>characters find themselves in undesirable or unfamiliar positions, talking about things or to people they don&#39;t feel comfortable with, people from a different social background, or who don&#39;t respect or challenge them, etc.</li>
-          </ol>
+          <h4>Strong emotion: </h4>
+          <p><i>“Character most reveals itself in dialogue under stress,”</i> and <i>“when angry,”</i> as “[s]<i>tressed characters will blurt things out that they never meant to say.”</i></p>
+          <h4>The use of impatience</h4>
+          <p>Characters have multiple important things they have to do, or have brief windows of time in which to get things done;</p>
+          <h4>Adding Misunderstandings:</h4>
+          <p>Information asymmetry, characters have reach different understandings, or arrive at different conclusions;</p>
+          <h4>Clashing Intentions:</h4>
+          <p>Characters find themselves in undesirable or unfamiliar positions, talking about things or to people they don&#39;t feel comfortable with, people from a different social background, or who don&#39;t respect or challenge them, etc.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-12-7">12.7: Information Asymmetry</h2>
           <p>Introducing even more complexity: Information asymmetry.</p>
           <p>This is a term I&#39;ve borrowed from economics, but the general concept is useful for writing purposes. In the context of fiction, information asymmetry is where different characters possess significant differences in information.</p>
-          <u>Example #1</u>
-          <p className='indent-8 mb-2'>Two friends, A and B, are talking on the phone about a third person, C. A knows B is infatuated with C, and tries to arrange a date between them by going out as a threesome, and then ducking out at the last minute (leaving B and C alone together). B knows he/she likes C (i.e. as a friend), but doesn&#39;t know he/she loves C (or self-denial). B also doesn&#39;t know that C is standing right next to A during the phone call, and the phone is on loudspeaker. C likes B but doesn&#39;t know how B feels about them. </p>
+
+          <h4>Example #1</h4>
+          <div className="custom-box">
+            <p className='indent-8 mb-2'>Two friends, A and B, are talking on the phone about a third person, C. A knows B is infatuated with C, and tries to arrange a date between them by going out as a threesome, and then ducking out at the last minute (leaving B and C alone together). B knows he/she likes C (i.e. as a friend), but doesn&#39;t know he/she loves C (or self-denial). B also doesn&#39;t know that C is standing right next to A during the phone call, and the phone is on loudspeaker. C likes B but doesn&#39;t know how B feels about them. </p>
+          </div>
           <p>Sol Stein calls this ‘The Actors Studio technique&#39;, and refers to ‘information&#39; as ‘scripts&#39;: </p>
 
-          <div className="custom-box">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">“That&#39;s what happens in life. Each of us enters into conversation with another person with a script that is different from the other person&#39;s script. The frequent result is disagreement and conflict—disagreeable in life and invaluable in writing, for conflict is the ingredient that makes action dramatic.”</p>
-            <p></p><i>— Sol Stein </i>
+            <p><i>— Sol Stein </i>
+              <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
+            </p>
           </div>
 
           <p>He also helpfully provides instructions for writing such a scene: </p>
-          <div className="custom-box">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">“You are imagining a scene with two characters. Before you write the scene, make a note as to the “script” or tack (keep it simple) of the first character and then of the second character. Make sure the scripts are different and at odds. Only you will be privy to the scripts of both characters. Let them play out the scene in front of you as you write. And if you have a third character in the scene, give that character a script different from the other two.” </p>
-            <p></p><i>— Sol Stein </i>
+            <p><i>— Sol Stein </i>
+              <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
+            </p>
           </div>
           <p>The ‘script&#39; is information or knowledge or maybe a mere suspicion; it may be something your character was previously told, or a conclusion from direct experience. It doesn&#39;t matter which character&#39;s information is ‘true&#39; – if either – only that they&#39;re not irrational for believing it. </p>
 
@@ -296,10 +308,11 @@ function Dialogue() {
 
           <h2 id="post-dialogue-tags">12.8: Dialogue Tags</h2>
 
-          <div className="custom-box">
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p className="mb-0">“Hello,” he lied. </p>
-            <p></p><i>— Don Carpenter (quoting a Hollywood agent) </i>
-            <FootnoteRef text={`MARK EDWARD,\nPsychic Blues.`} />
+            <p><i>— Don Carpenter (quoting a Hollywood agent) </i>
+              <FootnoteRef text={`MARK EDWARD,\nPsychic Blues.`} />
+            </p>
           </div>
 
           <p>Dialogue tags attribute speech to someone. They generally convey two bits of information:</p>
@@ -316,26 +329,30 @@ function Dialogue() {
           <h3>12.8.2 	Form of speech</h3>
           <p>The same rule applies to describing the form of speech – multiplied by ten. Do it as little as possible without compromising coherence. Try the above exercise with dialogue, taking speech descriptions out, but rather than reinsert them, see if you can alter the dialogue itself to emphasise how something is being said.</p>
 
-          <p><i><strong>What does ‘said&#39; mean and what does it do?</strong></i></p>
+          <h4>What does ‘said&#39; mean and what does it do?</h4>
           <p>Now you know how often to describe speech (rarely). But if it&#39;s imperative that you use a descriptive word, which word do you use? </p>
           <p>Poor writing has a habit of relying on words other than ‘said&#39;. It&#39;s as if the writer is too afraid to economise descriptive speech, and compromises by trying to make each instance sound distinct. And that&#39;s even worse than just using a ‘said&#39; a lot.</p>
           <p>Let&#39;s establish the basics: ‘Said&#39; (including tense-based variants: ‘says&#39;, ‘saying&#39;, ‘will say&#39; etc) means a character has uttered speech. That&#39;s all. It doesn&#39;t say how speech was conveyed. ‘Said&#39; is unique because it&#39;s transparent – you don&#39;t notice it, the eye&#39;s not consciously drawn to it. Not so with other ‘non-said&#39; (NS) alternatives (exclaimed, yelled, gushed, etc).</p>
           <p>When you read dialogue it potentially contains two kinds of information: the content (what is uttered), and the description (how it&#39;s uttered). </p>
-          <p>e.g – </p>
+          <p>e.g: </p>
 
-          <p className='indent-8 mb-2'><strong>"What are you doing?!"</strong>[(1) content]<strong> she screamed.</strong> [(2) NS description]</p>
+          <p className='indent-8 mb-2'><span className="bg-hYellow">"What are you doing?!" [(1) content] </span> <span className="bg-cyan">she screamed. [(2) NS description]</span></p>
           <p>In this example, the eye is drawn to two sources to get information (1) and (2) – and the second doesn&#39;t tell you anything you didn&#39;t already know. This is less efficient than if it only had to look at one source, which you can do (and should try to do) if you use said.</p>
           <p>e.g – </p>
-          <p className='indent-8 mb-2'>"What are you doing?!" she screamed.</p>
+          <p className='indent-8 mb-2'>"What are you doing?!" she said.</p>
           <p>In the above example, ‘said&#39; doesn&#39;t tell us anything so we&#39;re restricted to examining the dialogue itself for information. It already tells us she screams because you can&#39;t imagine someone saying the above without screaming or yelling or otherwise. So ‘she screamed&#39; – or similar – is redundant. </p>
           <p>You want to get into a mindset where NS are detrimental. For instance, imagine using ‘said&#39; is free, but NS cost money, $1.00 each, or $100.00, whatever makes you disinclined to use them. This will make you try to pack as many clues about the way speech is conveyed into the dialogue itself. This will make your dialogue more punchy and interesting. </p>
           <p>You should only use a NS when ‘said&#39; does not convey what you intend. This may be where a character is being ironic or humourous. But even that&#39;s debatable, e.g. – </p>
-          <p className='indent-8 mb-2'>“You should only use a NS when ‘said&#39; doesn&#39;t convey what you intend,” I said. “Or your character is called ‘Said&#39;.”</p>
-
-          <p>Here is a scene just in dialogue. Notice how you can hear the tones of voice just by the wording alone, absent attribution:
-            <FootnoteRef text={`MICHAEL CRICHTON,\nPrey.`} /></p>
 
           <div className="custom-box">
+            <p>“You should only use a NS when ‘said&#39; doesn&#39;t convey what you intend,” I said. “Or your character is called ‘Said&#39;.”</p>
+          </div>
+
+          <p>Here is a scene just in dialogue. Notice how you can hear the tones of voice just by the wording alone, absent attribution:
+            <FootnoteRef text={`MICHAEL CRICHTON,\nPrey.`} />
+          </p>
+
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
             <p><i>“I&#39;m sorry. I handle this kind of thing all day, and I guess-”</i></p>
             <p><i>“This really is a problem, Jack.”</i></p>
             <p><i>“I said I&#39;m sorry.”</i></p>
@@ -357,10 +374,12 @@ function Dialogue() {
           <h2 id="post-people-avoid-jinxing">12.9: People Avoid 'Jinxing'</h2>
           <p>Here&#39;s a mistake writers can tend to make: characters spelling out bad possibilities (mainly to escalate drama). </p>
           <p>Example:</p>
-          <p className="code-left">
-            <code><i>“Pirahnas! Get out of the water or they&#39;ll eat your legs off!” </i></code></p>
-
+          <div className="custom-box">
+            <p>
+              <i>“Pirahnas! Get out of the water or they&#39;ll eat your legs off!” </i></p>
+          </div>
           <p>There are 2 major problems with this: </p>
+
           <ol>
             <li>It attempts to escalate drama by spelling out the bad outcome, but by doing so, places a cap on the reader&#39;s imagination by implicitly excluding scenarios the author didn&#39;t consider (e.g. what if my personal fear is of drowning?); </li>
             <li>In reality, people tend not to mention things they don't like or don't want to happen, for fear of associating the thing with themselves, or jinxing the thing to happen just by saying it, or simply refusing to acknowledge that the thing can or is happening right in front of them. </li>
@@ -371,46 +390,58 @@ function Dialogue() {
           </p>
 
           <p>A man is vigorously trying to free a trapped woman, who screams in pain. Another man says:</p>
-          <p className="code-left">
-            <code><i>"Stop it! You'll kill her!" </i></code></p>
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>"Stop it! You'll kill her!" </i></p>
+          </div>
 
           <p>This dialogue would have been fine if you got rid of 'you'll kill her.' You could also have him say ‘Stop it&#39; twice, just to emphasise that whatever the man is doing, he really needs to cease doing it right now (and leave that bad thing to the viewer&#39;s imagination – e.g. will the woman get hurt? Will she die? Will the man injure himself too? Etc).</p>
           <p>It goes against human psychology for people to voice that possibility in front of the victim, and with emphasis. Lay people err on the side of optimism (or denial) and don't tend to assume someone will die from an injury until the person actually dies in front of them. It would also panic the woman to say this out loud.</p>
           <p>In general where people make this mistake, there are two possible scenarios, and neither of them need a bad happening to be spelled out:</p>
 
-          <p><u>The bad event is a mere future possibility</u>: people tend to avoid acknowledging the bad outcome, and hope for the good;</p>
-          <ol>
-            <li>E.g. a man doesn&#39;t go out to the casino and tell his wife, “I&#39;m going to play the slots and I might lose.” (he says, “I feel lucky.”) And you don&#39;t tell your friend, “My uncle is recovering in hospital from a heart attack. But he could still die.” (you say “He seems to be doing okay at the moment.”)</li>
-          </ol>
+          <h4>The bad event is a mere future possibility</h4>:
+          <p>People tend to avoid acknowledging the bad outcome, and hope for the good;</p>
 
-          <p><u>The bad event is actually happening: </u>then it&#39;s redundant for people to say so;  </p>
-          <ol>
-            <li>they will react to the situation as it unfolds, and then afterwards may report on the bad outcome (when they have no choice but to accept that it&#39;s happened). Even then, people are likely to still try to reinterpret the event as less bad than it was (e.g. “I lost at the slots. But not that much.” Or “My uncle passed away. He didn&#39;t suffer.”)</li>
-          </ol>
+          <p>For example, a man doesn&#39;t go out to the casino and tell his wife, “I&#39;m going to play the slots and I might lose.” (he says, “I feel lucky.”) And you don&#39;t tell your friend, “My uncle is recovering in hospital from a heart attack. But he could still die.” (you say “He seems to be doing okay at the moment.”)</p>
 
+          <h4>The bad event is actually happening: </h4>
+          <p>Then it&#39;s redundant for people to say so;  </p>
+          <p>They will react to the situation as it unfolds, and then afterwards may report on the bad outcome (when they have no choice but to accept that it&#39;s happened). Even then, people are likely to still try to reinterpret the event as less bad than it was (e.g. “I lost at the slots. But not that much.” Or “My uncle passed away. He didn&#39;t suffer.”)</p>
           <p>But a caveat: sometimes people do point out bad things and dramatise them. But usually they have some ulterior reason for doing so. For instance, consider why someone might say, “I lost my life savings on the slots,” as opposed to, “I didn&#39;t lose that much,” Or “My uncle spent his last moments in agonizing pain,” as opposed to, “my uncle passed away”. If there is a genuine reason for your character to talk like this, it may add character depth and pathos.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-concrete-abstract-statements">12.10: Concrete/Abstract Statements</h2>
-          <p>If you want dialogue to foster closeness between characters, have them use concrete statements (“I got robbed yesterday,” “I don&#39;t like hail,” “He lied.”). Avoid abstract statements (“I believe in justice,” “I hate awful weather,” “He&#39;s just like all the others,”).</p>
+          <p>If you want dialogue to foster closeness between characters, have them use concrete statements </p>
+          <ul className="bullets">
+            <li>“I got robbed yesterday,”</li>
+            <li>“I don&#39;t like hail,”</li>
+            <li>“He lied.”</li>
+          </ul>
+
+          <p>Avoid abstract statements </p>
+          <ul className="bullets">
+            <li>“I believe in justice,”</li>
+            <li>“I hate awful weather,”</li>
+            <li>“He&#39;s just like all the others.”</li>
+          </ul>
+
           <p>This not only fosters closeness and a sense of knowing characters better, but also fosters closeness between character and reader, and makes characters more interesting.</p>
           <p>Imagine a group of characters are asked, "What is the most important thing in the world?" Characters answer the obvious: love, family, friends, goals, etc – abstract answers. </p>
           <p>Some give more individualistic – but still abstract – answers:</p>
 
-          <ol>
+          <ul className="bullets">
             <li> Character 1: "Nature." </li>
             <li> Character 2: "Identity." </li>
             <li> Character 3: "Gainful employment." </li>
-          </ol>
+          </ul>
 
           <p>Contrast the same characters giving the same answers but in concrete form:</p>
 
-          <ol>
+          <ul className="bullets">
             <li> Character 1: "The apple tree in my front yard. I planted it last year and I need it to stay alive." </li>
             <li> Character 2: "My sense of self. I feel like I was a completely different person last week." </li>
             <li> Character 3: "My friend's job. I hope she finally keeps this one." </li>
-          </ol>
+          </ul>
 
           <p>You now have more of a sense of these characters. It also creates closeness because people only much such personal or vulnerable admissions if they like or feel close to the person they are talking to.</p>
           <p>Generating this closeness is helpful where you have to suggest that some time has passed and relative strangers have gotten to know each other better. </p>
@@ -418,20 +449,25 @@ function Dialogue() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-dont-take-sides">12.11: Don't Take Sides</h2>
-          <p>Sol Stein discourages taking sides with one party in dialogue exchange, and if <i>“you find yourself wedded to the beliefs of one of the characters, try your damndest to make the other character win the argument.”</i></p>
+          <p>Sol Stein discourages taking sides with one party in dialogue exchange, and if
+            <i>“you find yourself wedded to the beliefs of one of the characters, try your damndest to make the other character win the argument.”</i>
+            <FootnoteRef text={`SOL STEIN,\nStein on Writing.`} />
+          </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-when-to-avoid-dialogue">12.12: When To Avoid Dialogue</h2>
-          <p>Sometimes you might notice a story eschews dialogue and just summarises what a character has said. A well-known example is in Stephen King&#39;s ‘The Shining&#39;, where the bartender&#39;s dialogue is only summarized, not spoken. This implies the bartender does not literally speak; he is ghost, or an invention of the protagonist&#39;s psychosis. That&#39;s an extreme example.</p>
+          <p>Sometimes you might notice a story eschews dialogue and just summarises what a character has said. A well-known example is in Stephen King&#39;s
+            ‘The Shining&#39;, where the bartender&#39;s dialogue is only summarized, not spoken. This implies the bartender does not literally speak; he is ghost,
+            or an invention of the protagonist&#39;s psychosis. That&#39;s an extreme example.</p>
           <p>Here is another example:
             <FootnoteRef text={`KATE BRAVERMAN,\nTall Tales from the Mekong Delta.`} />
           </p>
-          <p className="code-left">
-            <code><i>“I&#39;m Lenny,” he said, extending his hand. “What&#39;s your name?”
+          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+            <p><i>“I&#39;m Lenny,” he said, extending his hand. “What&#39;s your name?”
               She told him. She was holding a bag with packages of cookies in it. After the meeting, she had an appointment with her psychiatrist, then a manicure. She kept walking.
-            </i></code></p>
-
+            </i></p>
+          </div>
           <p>The dialogue is summarized to convey that her response is standard and expected (e.g. she doesn&#39;t make up a name) and the author has wanted to get it out of the way without drawing attention to it. Also, you get ‘she&#39; is not interested in Lenny; her mind is elsewhere. By having the characters&#39; dialogue delivered differently than Lenny&#39;s it places the characters&#39; exchanges on unequal terms. Lenny is attentive and speaking directly, as if to us – the reader – while ‘she&#39; is disinterested and her dialogue is not distinguished from her other concerns.</p>
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
@@ -446,7 +482,7 @@ function Dialogue() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}

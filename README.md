@@ -288,7 +288,7 @@ OVERALL FORMATTING STYLING:
     - [x] setting
     - [x] subtext 
     - [x] description
-    - [ ] dialogue
+    - [x] dialogue
     - [x] suspense
     - [x] pov
     - [x] voice
