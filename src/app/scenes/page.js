@@ -352,7 +352,7 @@ function Scenes() {
           <p>Then readers got wise and so authors made the first chapter an ‘into the thick of the action&#39; chapter, and shifted the exposition down one chapter, to chapter two. Which is no better.</p>
           <p>Here&#39;s an extended example of how to smuggle details into a scene from ‘Under the Volcano&#39;</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">
               Hugh Firmin less than sauntered, so slowly did he move, up the drive towards his brother&#39;s house
               <Tooltip number={1} text="Hugh&#39;s slow pace suggests he is reluctant to see his brother" />,
@@ -431,7 +431,7 @@ function Scenes() {
           <p>The establishing shot is the reader&#39;s first impression of the story, and will stay with the reader as the progress through the rest of the story. Hart  provides an illustration of this with the start of the non-fiction story ‘Small-Town Cop&#39;:
             <FootnoteRef text={`TRACY KIDDER,\nSmall-Town Cop.`} />
           </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>“From the summit of Mount Holyoke, in western Massachusetts, you look out on the valley of the Connecticut River, a broad landscape of cultivated fields and of forest sweeping away across the horizon, and, at the center, the old town of Northampton. It nests within natural boundaries. To the east the wide river bends around fields, planted mostly in corn. To the north and west, the foothills of the Berkshires rise up in the distance, higher than Northampton&#39;s many steeples. . . . From the summit it seems, like the corn fields beside it, a dream of perfect order, entirely coherent and self-contained, a place where a person might live a whole life and consider it complete, a tiny civilization all its own. Forget the messiness of years and days—every work of human artifice has a proper viewing distance. The town below fits in the palm of your hand. Shake it and it snows.”</p>
           </div>
 
@@ -473,7 +473,7 @@ function Scenes() {
 
           <p>I think general consensus would find number (1) more unsatisfying than number (2).</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>“Keep one thing in mind when you&#39;re writing a dénouement: Falling action has drained all the dramatic tension from the story. Readers want to know the answers to a few questions, but the powerful engine of story has shut down, leaving little momentum to carry your audience farther forward. So don&#39;t push your luck. Wrap things up as quickly as possible and leave the stage Once you&#39;ve answered the necessary questions, you have one remaining task—bring the story to an end with what journalistic types call a “kicker.” A good one will sum up, surprise a little, perhaps bring things full circle, firmly planting your protagonists in their new status quo. It will leave absolutely no doubt that the story has ended.”</p>
             <p>— Jack Hart
               <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
@@ -597,7 +597,7 @@ function Scenes() {
             />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>
               “The night grew darker, and the captain fired up a massive spotlight, sending upriver a great silver cylinder that glittered with the confetti of confused insects. From the dark void ahead of us, rubies and emeralds came sparkling back off the reflectors of the navigational buoys. A full moon had risen over the east bank, and it moved slowly from one bracketed porch column to another, the ship serving as a sort of Victorian Stonehenge to mark the loopy curves of the river.”</p>
           </div>
@@ -742,7 +742,7 @@ function Scenes() {
           <p>Mittelmark and Newman provide some examples:
             <FootnoteRef text={`HOWARD MITTELMARK AND SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>She imagined the ballroom as it must once have been.</i></p>
             <p><i>I gazed out the window and remembered the purity of the Arctic snows.</i></p>
             <p><i>She imagined how it could have been if only Reynaldo were here.</i></p>

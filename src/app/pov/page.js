@@ -156,7 +156,7 @@ function POV() {
           <p>A big factor is the ‘how would the narrator know that?&#39; test. If you want to write something your narrator shouldn&#39;t/wouldn&#39;t know, you need to change the POV to suit.</p>
           <p>Bob Mayer observes:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='italic'>"Think of the Sherlock Holmes stories—who is narrating? Watson. Why? Because this allows Conan Doyle to withhold what Holmes is thinking from the audience."
               <FootnoteRef text={`BOB MAYER,\n70 Solutions to Common Writing Mistakes.`} />
             </p>
@@ -166,7 +166,7 @@ function POV() {
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='italic'>“Several years back a fuel tanker on the freeway east of downtown Portland hit a car and burst into furious fl ames. Smoke boiled into the sky, a dark column visible from my downtown perch in the Oregonian&#39;s newsroom. The next morning&#39;s newspaper described the smoke rising into the midsummer sky and “obscuring Mount Hood.”</p>
             <p className='italic'>The reporter who produced the truck- crash story simply assumed that everybody who saw the smoke viewed it from the same direction. Yes, the dark column obscured Mount Hood if you saw it from the expensive West Hills homes looming over downtown. But newspaper readers east of the crash site saw the smoke obscuring not Mount Hood, but the West Hills.”</p>
           </div>

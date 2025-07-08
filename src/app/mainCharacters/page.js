@@ -289,7 +289,7 @@ function MainCharacters() {
 
           <h2 id="post-the-trivia-model">7.10: The Trivia Model</h2>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>Ultimately, the purpose of character is to drive story. Any detail of appearance, any anecdote or personal possession, no matter how intrinsically interesting, is a distraction if it fails to move the story forward.</i></p>
             <p>— Jack Hart
               <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
@@ -696,7 +696,7 @@ function MainCharacters() {
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Style, Structure, Substance, and the Principles of Screenwriting.`} />
             makes a helpful point: For every event in your story, each character will have a different reaction. And – </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“If two characters in your cast share the same attitude and react in kind to whatever occurs, you must either collapse the two into one, or expel one from the story. When characters react the same, you minimize opportunities for conflict. Instead, the writer's strategy must be to maximize these opportunities.”</i></p>
           </div>
           <p>One way you can increase conflict using characters is for different characters to have something at stake in the main characters decisions. For example, protagonist must make decision X, which involves mutually exclusive choice 1 and 2. Character A wants Protagonist to make choice 1 because of personal impact it would have on them. Character B wants choice 2 because of same. </p>
@@ -767,7 +767,7 @@ function MainCharacters() {
             <li>Ensure the name is a legitimate name;</li>
           </ol>
 
-           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+           <div className="quote-box">
             <p className="italic">“It's [...] a good idea to avoid giving two important characters names that start with the same letter. The reader speeding ahead will have to slow down to register the right character. It's best to avoid any confusion or distraction that will divert the reader from his experience.”</p>
             <p>— Sol Stein
               <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
@@ -783,7 +783,7 @@ function MainCharacters() {
           <p>One way is to displace the feeling onto someone or something else (preferably a concrete thing, e.g. an outward behaviour). Suggestively, the character is quick to interpret another's behaviour as due to the relevant feeling, because it's the one that's on his/her mind. This is a psychological phenomenon called ‘transference.&#39;</p>
           
           <h4>Example:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p><i>The air was thin and still in the darkness. Some cats at a garbage can scurried in fright as he crossed toward the house.</i> 
             <FootnoteRef text={`"WILLIAM PETER BLATTY,\nThe Exorcist."`} />
           </p>

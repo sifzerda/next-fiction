@@ -230,7 +230,7 @@ function Editing() {
             says <i>“The next time you struggle with a sentence, see if you can rewrite it by placing subject and verb at the beginning,”</i> and letting subordinate elements ‘branch to the right.&#39; </p>
 
           <p>You normally see this kind of writing in journalism, e.g.</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">A reporter writes a lead sentence with subject and verb at the beginning, followed by other subordinate elements, creating what scholars call a "right-branching sentence."</p>
             <p className="italic">Rebels seized control of Cap Haitien, Haiti's second largest city, on Sunday, meeting little resistance as hundreds of residents cheered, burned the police station, plundered food from port warehouses and looted the airport, which was quickly closed.</p>
             <p className="italic">Police officers and armed supporters of President Jean-Bertrand Aristide fled.</p>
@@ -238,7 +238,7 @@ function Editing() {
 
           <p>An advantage of this sentence structure is that it keeps you anchored on the subject, so you don&#39;t go off topic midway, e.g. in the first sentence, the subject is the ‘reporter,&#39; the second, the ‘rebels [seizing] control,&#39; the third, the ‘police officers and armed supporters.&#39; Everything in the paragraph that follows should elaborate the subject.</p>
           <p>Don&#39;t separate subject and verb, or you risk confusing the reader, e.g.</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic"><span className="bg-hYellow">A bill </span> that would exclude tax income from the assessed value of new homes from the state education funding formula <span className="bg-hYellow">could mean </span> a loss of revenue for Chesapeake County schools.</p>
           </div>
           <p>Here, the subject ‘bill&#39; is too separate from the verb ‘could mean.&#39;</p>
@@ -258,7 +258,7 @@ function Editing() {
 
           <h2 id="post-guarding-word-territory">22.6: Guarding Word Territory</h2>
           <p>Roy Clark coined the useful concept ‘word territory&#39;. It basically means giving important words their own space. Don&#39;t repeat key words unless the emphasis is necessary. For instance, </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“Long sentences create a flow that carries the reader down a stream of understanding, creating an effect that Don Fry calls "steady advance."</i>
               <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} /></p>
           </div>

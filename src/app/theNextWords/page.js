@@ -243,7 +243,7 @@ function TheNextWords() {
             And maybe not even then.</p>
 
           <h3>18.1.6 	Starve the Ego, Feed the Soul</h3>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“Did I feel a twinge in my little toe, or didn&#39;t I?” </i> asks every character of Mr. Joyce or of Miss Richardson or M. Proust. . . .
               Through thousands and thousands of pages Mr. Joyce and Miss Richardson tear themselves to pieces, strip their smallest emotions to the finest threads,
               till you feel you are sewed inside a wool mattress that is being slowly shaken up, and you are turning to wool along with the rest of the woolliness.</p>
@@ -279,7 +279,7 @@ function TheNextWords() {
             about what your camera looks at.</p>
           <p>To illustrate what introspection is (and the damage is causes); example of starting sentences with 'I...' </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>I sniffed the air. I could detect a faint smell of chemical reagents and traces of something more acrid—chlorine? Instinctively I searched the
               ceiling for the grills over the air-vents: strips of paper attached to the bars were fluttering gently; the air was circulating normally. In order to make a
               relatively free space around the bed, between the bookshelves and the locker, I cleared two chairs of their litter of books, instruments, and tools, which I
@@ -296,7 +296,7 @@ function TheNextWords() {
             <FootnoteRef text={`SARAH BAILEY,\nThe Dark Lake.`} />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
 
             <p className="code-left-black">
               <i><span className='bg-hYellow'>There were a few minutes when I was alone with her in the autopsy room. I felt wild. Absent. Before I could stop myself I was
@@ -341,7 +341,7 @@ function TheNextWords() {
             <FootnoteRef text={`MICHAEL CRICHTON,\nSphere.`} />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="code-left-black">
               <i><span className='hYellow'>Norman felt a sudden chill. In his work with the FAA, he had been exposed to every sort of horror.  </span>
                 <span className='cyan-text-span'>Once, in Chicago, at a crash site that extended over a whole farm field, he had stepped on something squishy.
@@ -364,7 +364,7 @@ function TheNextWords() {
             not the protagonist – feel the correct emotion for the circumstance.</p>
           <p>Lastly, for interest, this is how you should write an autopsy scene:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>
               <i> The coroner rose from his seat and stood beside the dead man.    </i></p>
             <p>
@@ -411,7 +411,7 @@ function TheNextWords() {
           <h5>II.	Place the Reader</h5>
           <p>Another method to combat interior writing is to imagine the reader is a character in the story. Sometimes you hear this referred to as
             giving the reader/viewer an ‘access point.&#39; </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p> "Experiencing a work of fiction through one of its characters is the all-absorbing, self-obliterating joy of reading. It is the core
               of the child's experience. Who has never been Alice in Wonderland, or Winnie the Pooh, or Jim Hawkins in the apple barrel on his way to Treasure Island?"
               <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft of Writing.`} /></p>
@@ -421,7 +421,7 @@ function TheNextWords() {
           <p>Depending where you situate your reader, description will change.</p>
           <p>See this example: </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>
               <i>The Yala swamp is a huge mass of dense papyrus standing four metres high covering thousands of hectares of soggy ground where the river empties
                 into Africa's largest lake. Impenetrable except by boat down its narrow meandering water channels, the swamp is, or rather was, rich in wildlife.
@@ -480,7 +480,7 @@ function TheNextWords() {
             Use negative description only for necessary effect; i.e. it adds something essential which positive description does not provide. </p>
 
           <h4>Example:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='italic'>This is the way the world ends. Not with a bang but a whimper.
               <FootnoteRef text={`T. S. ELLIOT,\nThe Hollow.`} />
             </p>
@@ -491,7 +491,7 @@ function TheNextWords() {
             This conveys the sense that, while odd, the whimper did, in fact, happen. </p>
 
           <h4>Example:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='italic'>I must confess I hadn&#39;t done any fitness training, I was playing shit and we were 3–0 down and playing third from bottom–we are bottom.
               There was no singing from the crowd, just a bark from a random stray dog.
               <FootnoteRef text={`NICK EDWARDS,\nIn Stitches: The Highs and Lows of Life as an A & E Doctor.`} /></p>
@@ -501,7 +501,7 @@ function TheNextWords() {
           <p>For comparison, here are some bad examples of negative description:</p>
 
           <h4>Example of Bad Negative Description #1: </h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='italic'>For a minute he thought it was an optical illusion, because <i>instead of being thrown back onto the street </i>
               the woman melted into the wooden curlicues...
               <FootnoteRef text={`THOMAS OLDE HEUVELT,\nHEX.`} /> </p>
@@ -513,7 +513,7 @@ function TheNextWords() {
             the neg description does no work at all. </p>
 
           <h4>Example of Bad Negative Description #2: </h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='italic'>Although there wasn&#39;t a bump to be heard or a trickle of blood to be seen when Katherine was struck...
               <FootnoteRef text={`THOMAS OLDE HEUVELT,\nHEX.`} /> </p>
           </div>
@@ -522,7 +522,7 @@ function TheNextWords() {
             the reader in a guessing game.</p>
           <p>Try to remove the instances of neg description; alternatively, make negative description short and limited to one per sentence, for example:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>It was an optical illusion, he thought. The woman just seemed to melt into the wooden curlicues.<p>There was no sound when
               Katherine was struck. There was no blood.</p></i></p>
           </div>
@@ -548,7 +548,7 @@ function TheNextWords() {
           <p>Coincidence is a hallmark of bad fiction. Think of the car that breaks down in front of the haunted house, necessitating a night&#39;s stay.
             Compare to the protagonist in Stephen King&#39;s ‘1408,&#39; who voluntarily (insistently) stays in the haunted hotel for personal, character-driven gain.
             There is no coincidence in the latter story, and better for it.</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="mb-0">“...[S]earch for a way by which your character can set out seeking the desired event, person or information.
               If your character wants something, and works hard to get it, it isn&apos;t coincidence anymore. Having provided your characters with
               sufficient background and motivation for their actions, and then by making sure coincidence doesn&apos;t rule the day, you&apos;ll be well
@@ -568,7 +568,7 @@ function TheNextWords() {
             while only giving you ‘the facts&#39; that you need. Letters and diary entries cannot, without destroying the verisimilitude of reading an actual letter,
             or other.</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>
               <i>In any case, I was left to share the farm with the Poroths&#39; seven cats and the four hens they&#39;d bought last week. From my window
                 I could see Bwada and Phaedra chasing after something near the barn; lately they&#39;d taken to stalking grasshoppers. As I do every morning,
@@ -800,7 +800,7 @@ function TheNextWords() {
           <h3>18.2.2 	Punctuation: </h3>
           <p>What's the point of punctuation?</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>“If words are the flesh, muscle, and bone of prose, punctuation is the breath. In support of the words you&#39;ve carefully selected,
               punctuation is your best means of conveying to the reader how you mean your writing to be read, how you mean for it to sound. A comma sounds different
               than a semicolon; parentheses make a different noise than dashes.” </p>
@@ -887,7 +887,7 @@ function TheNextWords() {
             If things happen all at once, or the order of causation is ambiguous or linked, keep it all in the same sentence. </p>
           <p>For example:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>"I heard the drums coming down the street and then the fifes and the pipes and then they came around the corner, all dancing." </i>
               <FootnoteRef text={`ERNEST HEMINGWAY,\nIn Our Time.`} /></p>
           </div>
@@ -956,7 +956,7 @@ function TheNextWords() {
           <p>Ignoring Orwell&#39;s hyperbole, know where the passive voice is more appropriate: where you suggest the subject is not acting, but being acted upon.
             Roy Clark says: <i>“Active verbs move the action and reveal the actors. Passive verbs emphasize the receiver, the victim.”</i>
             <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies For Every Writer.`} />  For instance:</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='indent-8 mb-2'><i>“The night was loaded with omens.” </i>
               <FootnoteRef text={`JOHN STEINBECK,\nTravels with Charley: In Search of America.`} />
             </p>
@@ -1003,7 +1003,7 @@ function TheNextWords() {
             unprecedented to the extent of making characters sound mentally unbalanced (which I suspect was intentional). </p>
           <p>Here's an example of dialogue in a conversation:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p> <i>"Our good Mrs. Dudley likes doors, doesn't she? She can certainly” -- and their eyes met --
               "get out fast in any direction if she wants to."  </i>
               <FootnoteRef text={`SHIRLEY JACKSON,\nThe Haunting of Hill House.`} /></p>
@@ -1039,7 +1039,7 @@ function TheNextWords() {
           <p>Here&#39;s another example (from a different source)
             <FootnoteRef text={`TONYA HURLEY,\nGhostgirl.`} />
           </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p> <i>"But it's so farfetched. I keep trying to conjure up what kind of situation could produce this.”   </i> </p>
             <p> <i>“It couldn't be real," Lucy replied. "It'd have to be a group of some kind. A porn ring, maybe. Pedophiliacs?"    </i> </p>
             <p> <i>There was silence.    </i> </p>
@@ -1059,7 +1059,7 @@ function TheNextWords() {
             teacher ‘Mr Patch-Withers&#39;:
             <FootnoteRef text={`JOHN KNOWLES,\nA Separate Peace.`} /></p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>Mr. Patch-Withers&#39; laughter surprised us all, including himself. His face, whose shades we had often labeled, now achieved a new one.
               Phineas was very happy; sour and stern Mr. Patch-Withers had been given a good laugh for once, and he had done it! He broke into the charmed,
               thoughtless grin of a man fulfilled.</p>
@@ -1131,7 +1131,7 @@ function TheNextWords() {
           <h5>III. Deny reader alternate interpretations </h5>
           <p>Telling is more appropriate where you want to convey how unavoidably obvious an observation is, e.g.</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p> <i>Sanita looked shattered, utterly exhausted. Her face looked pale against the brightly coloured vest she wore, and her hair,
               usually one of her physical charms, was hanging limply across her face, stuck to her forehead and cheeks with dried sweat. She hadn&#39;t even wanted to
               come to India in the first place, but had finally agreed just to be with me. </i>
@@ -1163,7 +1163,7 @@ function TheNextWords() {
             (Hemingway – who else?) the context for this is that the characters are driving in a car which struggles to get up a hill:</p>
 
           <h5>Example #1: Bad Grammar: </h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p> <i>The woods were gone; the road had left the river to climb; the radiator was boiling; the young man looked annoyedly
               and suspiciously at the steam and rusty water; the engine was grinding, with both Guy&#39;s feet on the first-speed pedal, up and up, back and forth and up,
               and, finally, out level.
@@ -1177,7 +1177,7 @@ function TheNextWords() {
           <p>Here&#39;s another example, not breaking good grammar, but deliberately reading awkwardly:</p>
 
           <h5>Example #2: Awkward prose: </h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p> <i>She didn&#39;t say anything. He was wearing blue jeans, a black leather jacket zipped to his throat,
               a long red wool scarf around his neck, and a Dodgers baseball cap. It was too hot a day for the leather jacket and scarf. She didn&#39;t
               find that detail significant. It caught her attention, she touched it briefly and then let it go. She looked but did not see. They were standing on a curb.
@@ -1300,7 +1300,7 @@ function TheNextWords() {
           <p>This tip comes from David Carroll:
             <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
           </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i> “After making a strategic or dramatic point, move away from your subject for a moment, then return with sudden force.”</i></p>
           </div>
           <p>The ‘moment&#39; may only last a sentence.</p>
@@ -1363,7 +1363,7 @@ function TheNextWords() {
           <p>Sometimes sentence fragments convey something -- abrupt, paramount, solemn, busy -- that would be lost in a properly formed sentence.
             Here's an example:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>Fog everywhere. Fog up the river, where it flows among green aits and meadows; fog down the river, where it
               rolls defiled among the tiers of shipping, and the waterside pollutions of a great (and dirty) city. Fog on the Essex marshes, fog on the Kentish heights.
               Fog creeping into the cabooses of collier-brigs; fog lying out on the yards, and hovering in the rigging of great ships; fog drooping on the gunwales of
@@ -1415,7 +1415,7 @@ function TheNextWords() {
           <p>Here are a bunch of tips from Sol Stein:
             <FootnoteRef text={`SOL STEIN,\nStein On Writing.`} />
           </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <ol>
             <li>Read your story out loud (of have someone else read it out loud) in a monotone voice. This will not only allow you to hear your words in conversational pace, but the monotone reading will ensure that it&#39;s the words themselves which carry the meaning, not the inflections or punctuation;</li>
             <li>Strive for precision and clarity;</li>

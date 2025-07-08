@@ -80,7 +80,7 @@ function Marketing() {
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2 italic">“The display of current best sellers no doubt contains several titles by tin- eared pop novelists who wouldn&#39;t recognize a graceful sentence if it asked them to dance. The likes of Jean Auel and Tom Clancy sell books by the millions because they understand story structure, a point that&#39;s lost on the critics who savage their syntax.”</p>
           </div>
           <p>Hart also says: Structure is more visual than logical, a pattern of parts with its own rules for fitting pieces together, and most experienced writers create some sort of visual guide to the assembly of a story. Like an architect, they express their structural ideas as a kind of blueprint. They must see their structure in graphic terms.</p>
@@ -133,7 +133,7 @@ function Marketing() {
           <p>Side note: Whether your synopsis is any good doesn&#39;t just depend on the synopsis itself, but also, obviously, your actual product – the story. If you have the reputation you can convince the publisher to publish almost anything. The plot of your first novel needs to be like a flash-bang grenade (gets your attention instantly); subsequent novels can effect more like smoke grenades (subtler, more gradual, but just as powerful). There are some kinds of plots which are big smokers; about which a seasoned writer can get published (on the back of their reputation), and which a first time author cannot.</p>
 
           <p>Bob Mayer says:</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2">“Some best-selling authors can crank out anything—which would not get published if a no-name author did it—and have it become a best seller,” and “[…] just because you can go to the bookstore and buy a best-selling book written by so-and-so, the famous writer, that does not mean you can write a similar book and get it published[…] there are many book number 5's from best-selling authors that if they were book number 1 from a new author, would not get published.”
               <FootnoteRef text={`BOB MAYER,\nFiction Writers' Toolkit.`} />
             </p>
@@ -310,18 +310,18 @@ function Marketing() {
           <p>Using a logline for Harry Potter and the Philosopher&#39;s Stone as an example:</p>
 
           <h4>(1) Coincidental Logline:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>A young boy who lives with his magical relatives, discovers he is also a wizard.</p>
           </div>
           <h4>(2) Ironic Logline:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>A young boy who lives with his non-magical relatives, discovers he is also a wizard.</p>
           </div>
 
           <p>It&#39;s easy to see which logline is makes for a more interesting story.</p>
 
           <p>Here are some more examples of ironic loglines:</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="indent-8 mb-2">A cop comes to L.A. to visit his estranged wife and her office building is taken over by terrorists.
             <FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
           <p className="indent-8 mb-2">A businessman falls in love with a hooker he hires to be his date for the weekend.
@@ -337,7 +337,7 @@ function Marketing() {
           <h3>24.3.3 	Logline Template</h3>
           <p>Blake Snyder  has a ready template to construct a logline around a straightforward ‘A Story&#39;:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2"><span className="bg-hYellow">[On the verge]</span> of a <span className="bg-hYellow">[Stasis = Death moment]</span>, a flawed protagonist <span className="bg-hYellow">[Breaks into Two]</span>; but when the <span className="bg-hYellow">[Midpoint]</span> happens, he/she must learn the <span className="bg-hYellow">[Theme Stated]</span>, before <span className="bg-hYellow">[All Is Lost]</span>.</p>
           </div>
           <h4>"On the verge of"</h4>
@@ -359,18 +359,18 @@ function Marketing() {
           <p>what the story is about</p>
 
           <p>He provides some example loglines for famous films:</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2">On the verge of another "suit and tie" assignment, a tomboy FBI agent goes undercover as a contestant in the American Miss Pageant; but when the pageant receives a new threat, she must learn to be a woman and tough before she's thrown off the case and out of the bureau.
               <FootnoteRef text={<><em>Miss Congeniality</em>, Warner Bros., (2000).</>} />
             </p>
           </div>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2">On the verge of returning to Earth after another routine mission, a rules-obssessed warrant officer lets an unknown alien species onto the ship; but when the creature kills one member of the crew and begins to grow in power, she must do what is right rather than what she's been told or else all on board will meet the same deadly fate<FootnoteRef text={<><em> Alien</em>, 20th Century Fox, (1979).</>} /></p>
           </div>
 
           <p>You can also add some more elements to this ‘B Story&#39; logline template: </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2"><span className="bg-hYellow"> [On the verge]</span> of a <span className="bg-hYellow"> [Stasis = Death]</span> moment, a <span className="bg-hGreen"> [flawed protagonist]</span> has a <span className="bg-hYellow"> [Catalyst]</span> and <span className="bg-hYellow">[Breaks into Two]</span> with the <span className="bg-hGreen">[B Story]</span>; but when the <span className="bg-hYellow">[Midpoint]</span> happens, he/she must learn the <span className="bg-hYellow">[Theme Stated]</span>, before <span className="bg-hYellow">[All Is Lost]</span>, to defeat (or stop) the <span className="bg-hGreen">[flawed antagonist]</span> (from getting away with his/her plan).</p>
           </div>
           <h4>"The B Story"</h4>
@@ -380,10 +380,10 @@ function Marketing() {
           <h4>"The Flawed Antagonist"</h4>
           <p>The hero's nemesis or obstacle, and subject to his own flaw.</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2">On the verge of a divorce, a bullheaded street-smart cop is trapped in his wife's office building by terrorists and teams up with a 'desk cop' patrolman to thwart them; but when he taunts the terrorists, and risks exposing his hostage wife's identity, he must learn to adapt to change to outsmart the leader and stop what are really thieves from getting away with a billion-dollar heist.<FootnoteRef text={<><em>Die Hard</em>, 20th Century Fox, (1988).</>} /> </p>
           </div>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2">On the verge of losing the girl he loves, a super-powered young man's abilities start to wane as a demented criminal he helped create begins to rain havoc on the city; but when he gives up his crime-fighting ways, he must learn what it means to make a promise, before more innocents die, to save his city from the criminal's super weapon. <FootnoteRef text={<><em>Spider-Man 2</em>, Columbia Pictures, (2004).</>} /> </p>
           </div>
           <p>If you start with a logline you might want to reverse-engineer your story by structuring a plot around it, along with or in lieu of an E Chain or 3-turn structure. This means designing a couple of scenes to illustrate each element:</p>

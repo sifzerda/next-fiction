@@ -79,14 +79,14 @@ function Voice() {
           <p>Another term for this is the 'middle style'; sometimes it&#39;s claimed to be “transparent” prose. That&#39;s because it&#39;s clear, precise, and concise and doesn&#39;t call attention to itself.</p>
           <p>William Hazlitt gave it some other names, and a good characterization, back in 1821:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“To write a genuine familiar or truly English style, is to write as anyone would speak in common conversation, who had a thorough command and choice of words, or who could discourse with ease, force, and perspicuity.”</i>
               <FootnoteRef text={`WILLIAM HAZLITT.`} />
             </p>
           </div>
 
           <p>He also gives an example of voiceless – soulless – writing:</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>‘Not only do journalists possess an undying passion to uncover and showcase relevant information to enhance the public&#39;s knowledge on current events, but exhibit a willingness to go to great lengths to obtain stories fit to print.&#39; </i></p>
           </div>
 
@@ -119,7 +119,7 @@ function Voice() {
 
           <h2 id="post-be-quiet">15.3: Be Quiet</h2>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">One must be careful to distinguish between those who write beautiful things and those who write things beautifully
               <FootnoteRef text="SOMERSET MAUGHAM." />
             </p>
@@ -130,7 +130,7 @@ function Voice() {
           <p>Bickham says:
             <FootnoteRef text={`JACK BICKHAM,\nThe 38 Most Common Fiction Writing Mistakes (And How To Avoid Them).`} />
           </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“Your style and attitude in your stories should be like a clean pane of glass through which the reader sees the action. If </i>[your writing]<i> pose</i>[s] <i>and posture</i>[s]… [it'll] <i>draw attention to you as a writer, rather than to what's happening.” </i></p>
           </div>
 

@@ -84,7 +84,7 @@ function Suspense() {
             <FootnoteRef text={`STEPHEN KING,\nThe Dead Zone.`} />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">A thick feeling of tension had begun to creep into his body.</p>
           </div>
           <p>As with most writing effects, you cannot generate tension merely by telling your reader it&#39;s there. You have to create it.</p>
@@ -96,7 +96,7 @@ function Suspense() {
           <p>You slow pacing by adding detail. A way to speed pacing up is what Sol Stein calls ‘skipping for effect&#39;. This is where you selectively omit information. For example:
             <FootnoteRef text={`JOHN CHEEVER,\nThe Country Husband.`} /></p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">He washed his body, shaved his jaws, drank his coffee, and missed the seven-thirty-one.</p>
           </div>
 
@@ -160,7 +160,7 @@ function Suspense() {
           <p>There are two problems with this: (1) it&#39;s too formulaic and, (2) reminding your reader the passage of time in the story risks reminding them of the passage of time in real life, and that is the opposite of what a story – in trying to immerse someone – is aiming to do.</p>
           <p>Try to convey the passage of time by the activities your characters are doing, or observations going around them, e.g. </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>The dance floor eventually gets crowded, mostly with guys, but the vibe is good. I have about ninety beers as another incredible African sky turns from blue to orange to purple to black. The music gets louder and more insistent. I soldier through broken conversations with drunken strangers.
               <FootnoteRef text={`CHUCK THOMPSON,\nTo Hellholes and Back.`} />
             </i></p>

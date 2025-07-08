@@ -61,7 +61,7 @@ function TheLastWords() {
           <h2 id="post-ending-a-scene" >19.2: Ending a Scene</h2>
           <p>Your story may not have just one ending. If you raise live issues throughout your story (as you should) each of these will have endings, giving your story several ‘mini&#39; endings. These are also good practice for writing your ultimate ending.</p>
 
-           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+           <div className="quote-box">
             <p>Your endings will be better if you remember that other parts of your story need endings, too. Sentences have endings. Paragraphs have endings. [And]…each of these mini-endings anticipates your finale</p>
             <p></p><i>— Roy Clark
               <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} /></i>
@@ -87,7 +87,7 @@ function TheLastWords() {
           <p>To use a visual metaphor, it&#39;s like you&#39;re fishing with two rods at the same time; as you cast one line out, you&#39;re pulling the other in, and you&#39;re constantly alternating. As you conclude whether or not one line has caught something, the other is out there, yet unconfirmed. Never pull both lines in at the same time (even if you plan to cast them again at the start of the next chapter). If you lose your lines any time before the end of the story, you risk losing the reader as well. Reading a novel is work; the reader will take upon any excuse to stop reading at any point before the very end. Your ongoing goal is to prevent that – never be complacent that you have the reader now, you have them until the end. Always leave at least one ‘line,&#39; – or question/issue unanswered – for the reader to keep reading and wondering about. </p>
           <p>Look at the example of live issues raised by Sphere under section ‘2.3 Structuring the Plot with Interest.&#39; In Sphere, a single chapter never answers all of the questions by the end – and even the final chapter left some minor questions open.</p>
           <p>Look at this example of a chapter ending from ‘The Dead Zone&#39; by Stephen King:</p>
-         <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+         <div className="quote-box">
           <p className="italic">“I love you, Sarah,” Johnny said. So it was out, it couldn&#39;t be called back, it hung between them in the moving car waiting for someone to do something about it. She did what she could.   </p>
           <p className="italic">“Thank you, Johnny.” They drove on in a comfortable silence.   </p>
           </div>

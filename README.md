@@ -264,7 +264,7 @@ SEARCH:
 
 make text size of index box and also see box smaller to match about box
 
-remove blue box bottom space add '<p className="mb-1">
+remove blue box bottom space add to the div'<"m-1">
 
 potentially add height minimization scrollbar grabbing on sidebar for larger screens, using 'scrollbar hide' tailwind plugin
 

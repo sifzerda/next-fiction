@@ -65,14 +65,14 @@ function Setting() {
 
           <p>Physical objects should be given physical descriptions. </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>When we introduce a thing in a novel, the reader must be given a clear picture of it [...] When a place is introduced in a [story], the reader must see it with sufficient clarity to be able to form a mental image of it."
               <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} /></p>
           </div>
 
           <p>Descriptions of settings should be concrete, not emotional (i.e. how the place makes the character feel). Objective observations based on the senses are fine, however (e.g. 'hot' or 'silent'). In other words, characters should be able to agree on the observation.</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>"[T]he amount of wordage a novelist devotes to describing a character, a setting, a place, or a thing depends on their importance to the plot or story line."
               <FootnoteRef text={`ROBERT MEREDITH AND JOHN FITZGERALD,\nStructuring Your Novel: From Basic Idea to Finished Manuscript (Everyday Handbook).`} />
             </p>

@@ -54,11 +54,11 @@ function Description() {
           </p>
           
           <h4>I. Telling:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</i></p>
           </div>
           <h4>II. Showing:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>Michelle&#39;s elation evaporated in the intensive care unit when Frank suffered a seizure. She left moments later, tears streaming down her face.</i></p>
           </div>
           <p>The main point of description is to promote and further conflict. Its ability to provide background is secondary. Never force exposition out of the character&#39;s mouth (e.g: “As you know, we&#39;ve known each other for twenty years”) or slap it into the description self-consciously (e.g: a photograph on the mantelpiece showed the both of them twenty years younger).  </p>
@@ -258,7 +258,7 @@ function Description() {
           </ol>
 
           <p>Here&#39;s a clear example of a similie doing work direct description can not:</p>
-         <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+         <div className="quote-box">
           <p><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i>
             <FootnoteRef text={`LUCY GREALY,\nAutobiography of a Face.`} /></p>
           </div>
@@ -267,7 +267,7 @@ function Description() {
 
           <h3>11.5.1 	Metaphors alter, Similies add to</h3>
           <p>Generally, a metaphor does not need to be ‘like&#39; the thing you describe (it could even be starkly different), as long as it puts the right picture in your reader&#39;s mind. A metaphor can significantly change the way your reader might have otherwise imagined something. Similes, however, generally do need to be like the thing you describe, aiming to clarify it and add greater detail – </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i>
             <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
           </div>
@@ -275,7 +275,7 @@ function Description() {
 
           <h3>11.5.2 	High-fidelity</h3>
           <p>The similarity has to be crystal clear to the reader, not strained or contorted. By using a figure of speech instead of a plain description, you are implying that it is a higher fidelity description of the thing even than describing the thing itself directly. ‘Good enough&#39; is not good enough – </p>
-         <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+         <div className="quote-box">
           <p><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i>
             <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
          </div>
@@ -283,7 +283,7 @@ function Description() {
 
           <h3>11.5.3 	Tone consistency</h3>
           <p>A figure of speech should keep in tone with the thing being described:</p>
-           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+           <div className="quote-box">
           <p><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i>
             <FootnoteRef text={`ROBERT SABBAG,\nDown Around Midnight.`} /></p>
 </div>
@@ -293,7 +293,7 @@ function Description() {
 
           <h3>11.5.4 	Relatable</h3>
           <p>A figure of speech will fail if the reader doesn&#39;t know what you&#39;re talking about. Figures of speech should not contain exclusive, unusual things that only few people have experienced (least of all the writer): </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>I felt like I was wading into uncharted waters without a life raft.</i>
               <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
             </div>
@@ -400,11 +400,11 @@ function Description() {
           <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea or thought. However, in some circumstances you may find multiple sentences borrow the same ideas, or carry ideas over throughout a scene. In such a case, you can link sentences together using key words or motifs, i.e. a ‘nexus&#39;. This creates flow. Here is an example:
             <FootnoteRef text={`JOHN HOWARD GRIFFEN,\nBlack Like Me.`} /></p>
           <h4>Paragraph 1:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>I flicked the negatives, as he must have done, toward the comer, heard them scratch dryly against the wall and flap to the floor. One struck the dead globe, causing it to sing its strange filamental music of the spheres, fragile and high-pitched above the outside noises.   </i></p>
           </div>
           <h4>Paragraph 2:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>Music from the juke box, a grinding rhythm, ricocheted down the street.   </i></p>
           </div>
           <p>Here, the nexus is ‘sound.&#39; Notice the ‘filamental&#39; music of the light bulb in the first paragraph segues into the ‘music from the juke box&#39; in the second paragraph. Sound is transformed into music.</p>
@@ -503,11 +503,11 @@ function Description() {
 
           <p>He provides examples of each:</p>
           <h4>Summary narrative:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>After navigating the first ten miles and splashing through thirty-four rapids, McDougal&#39;s group pulled over at Klondike Creek to set up camp.</i></p>
           </div>
           <h4>Scenic narrative: </h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>McDougal and Byars pushed off. They negotiated the fifteen-foot behemoth but were swinging sideways when they hit the next set of waves. The raft capsized, catapulting Byars into the water. McDougal stayed in his seat, virtually upside down. As the raft rose with the next wave, McDougal yanked hard on an oar and righted his boat, a miraculous maneuver.</i></p>
           </div>
           <p>Hart provides a list contrasting the two narratives:</p>
@@ -625,7 +625,7 @@ function Description() {
             Even a small inconsequential action or gesture is preferable in present tense than something that has already happened. See below example: </p>
 
           <h4>Example:</h4>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>Her legs were crossed, one expensive leather heel aloft.</i>
               <FootnoteRef text={`paraphrased from MICHAEL CRICHTON,\nDisclosure.`} />
             </p>

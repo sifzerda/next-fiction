@@ -65,21 +65,21 @@ function TheFirstWords() {
           <p>Presuming you already have your general scene structure, the next question is: start wide or narrow? Think about the start of a film; does the camera pan over the broad setting (e.g. a city) before locating the main characters, or does it focus on the characters, or plot-relevant object, and then pan out to give you the setting? </p>
 
           <h5>Wide:</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man's...
               <FootnoteRef text={`H. G. WELLS,\nWar of the Worlds.`} />
             </p>
           </div>
 
           <h5>Narrow:</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">Mother died today. Or maybe yesterday; I can't be sure.
               <FootnoteRef text={`ALBERT CAMUS,\nThe Stranger.`} />
             </p>
           </div>
 
           <h5>Wide:</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">It was now lunch time and they were all sitting under the double green fly of the dining tent pretending that nothing had happened.
               <FootnoteRef text={`ERNEST HEMINGWAY,\nThe Short Happy Life of Francis Macomber.`} />
             </p>
@@ -92,7 +92,7 @@ function TheFirstWords() {
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
             You also can create a sense of narrative motion by describing the approach to a scene, moving from the long view to the scene itself, as here:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">In daylight, in an all but treeless, baked brown landscape, Sanmi Lasante makes a dramatic appearance, like a fortress on its mountainside, a large complex of concrete buildings, half covered with tropical greenery. Inside the walls, the world turns leafy. Tall trees stand beside courtyards and walkways and walls, artful constructions of concrete and stone, which mount the forested hillside.
               <FootnoteRef text={`TRACY KIDDER,\nMountains Beyond Mountains: The Quest of Dr. Paul Farmer, A Man Who Would Cure the World`} />
             </p>
@@ -148,19 +148,19 @@ function TheFirstWords() {
             <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft Of Writing.`} />
             says: </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“Those first sentences of a novel are a contract between the writer of fiction and the reader who commences to read him. The contract has to be clear almost at once.”</i></p>
           </div>
 
           <p>He recounts an article that said:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">“Granted, you can't tell a book by its cover. But you can tell a book worth reading by its title and the first sentences. Gushing onto the market this winter and spring—like an artesian well of printed words—are a mob of new literate voices babbling to be heard behind the brilliantly illustrated covers of hundreds of books.</p>
             <p className="italic">For the most part, these new novels . . . are destined for bargain table piles unsold at 50 cents a copy. Even at that reduced price they are no bargain. The authors, while quite able to put one English word after another, have, in total, nothing to say, and the people they write about are as worthless  and uninteresting as gum wrappers in the gutter.”</p>
           </div>
 
           <p>He goes on:</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">"The author of this blast goes on to cite a number of novels and their opening sentences, comparing them with the first sentences of books by the masters of fiction, Faulkner, Hemingway, and Algren, to name three. Not one of the openings cited as atrocious was by a writer who has subsequently achieved his or her own readership."</p>
           </div>
           <h3>17.6.2 	Features of a Strong First Line</h3>
@@ -177,7 +177,7 @@ function TheFirstWords() {
 
           <p>Daphne Du Maurier had a knack for writing engaging openers. Here are some examples:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">Last night I dreamt of Manderley again...
               <FootnoteRef text={`DAPHNE DU MAURIER,\nRebecca.`} /></p>
             <p className="italic">"Don't look now," John said to his wife, "but there are a couple of old girls two tables away who are trying to hypnotise me."
@@ -193,7 +193,7 @@ function TheFirstWords() {
           </div>
           <p>Another writer with a talent for first lines is the horror/weird fiction writer, Laird Barron. Some examples from his short stories:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">What is it Pilot John says right before we drop from the sky? Where is Molly&#39;s body?
               <FootnoteRef text={`LAIRD BARRON,\nArdor, Swift to Chase.`} /></p>
             <p className="italic">I write this: The cops don&#39;t know what really happened in Eagle Talon. Lies, all lies. Ask Jessica, if I ever see her again.
@@ -217,7 +217,7 @@ function TheFirstWords() {
           <p>A good starter might effect a ‘microcosm&#39;: it will sound deceptively simple, but in retrospect, says a lot about the coming story. </p>
           <p>Other good lines may contain a question which it takes the rest of the story to answer:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="italic">The Welcome Wagon lady, sixty if she was a day but working at youth and vivacity (ginger hair, red lips, a sunshine-yellow dress), twinkled her eyes and teeth at Joanna and said, ‘You&#39;re really going to like it here! It&#39;s a nice town with nice people! You couldn&#39;t have made a better choice!&#39;
               <FootnoteRef text={`IRA LEVIN,\nThe Stepford Wives.`} /></p>
           </div>
@@ -228,7 +228,7 @@ function TheFirstWords() {
           <p>Here are some examples of first lines from random stories, to give you a sense of the difference between good and bad first lines:</p>
 
           <h5>Bad Example #1</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">The girl&#39;s head rested on a small pile of orange-and-brown leaves.
             <FootnoteRef text={`C. J. TUDOR,\nThe Chalk Man.`} /></p>
           </div>
@@ -239,14 +239,14 @@ function TheFirstWords() {
           <p>But there are other issues with this line that suggest a bigger problem with the writing. For example ‘orange-and-brown&#39; should just be ‘orange and brown&#39; – or more symbolically appropriate ‘dead leaves.&#39; ‘Small pile&#39; could&#39;ve just been ‘pile.&#39; </p>
 
           <h5>Bad Example #2</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">The little girl's hair is fine as cornsilk.
             <FootnoteRef text={`NICOLE BAART,\nLittle Broken Things.`} /></p>
           </div>
           <p>This line is not interesting enough to induce the reader to continue. It doesn&#39;t raise a question. Description of physical appearance doesn&#39;t tend to make a good first line because it&#39;s superficial; it rarely tells you anything important. Of all the things you could say you start with the texture of a character&#39;s hair? What&#39;s unusual about this character? Why is she the first thing described in the story?</p>
 
           <h5>Bad Example #3</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">We are a tearless, tiny crowd, we survivors of David Shaw.
             <FootnoteRef text={`MICHELLE HODKIN,\nThe Becoming of Noah Shaw.`} /></p>
           </div>
@@ -256,7 +256,7 @@ function TheFirstWords() {
           <p className="italic">The survivors of David Shaw were a tiny crowd, and no one cried.</p>
 
           <h5>Bad Example #4</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Scott Carey knocked on the door of the Ellis condo unit, and Bob Ellis (everyone in Highland Acres still called him Doctor Bob, although he was five years retired) let him in.
             <FootnoteRef text={`STEPHEN KING,\nElevation.`} /></p>
          </div>
@@ -266,7 +266,7 @@ function TheFirstWords() {
           <p className="italic">Doctor Bob stood in the doorway of his condo unit, and for a long time, stared at Scott Carey.</p>
 
           <h5>Bad Example #5</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">First of all, it was October, a rare month for boys.
             <FootnoteRef text={`RAY BRADBURY,\nSomething Wicked This Way Comes.`} /></p>
          </div>
@@ -274,7 +274,7 @@ function TheFirstWords() {
           <p>The concept is that October is too infrequent for boys and/or it&#39;s over too fast. Why not girls, too? These are not questions generated by interest, but by misunderstanding; i.e. the wrong kind of questions. No one cares if what is said here is true. There is nothing you can do to fix this line, but a couple of paragraphs later, you have this line: <i>‘But one strange wild dark long year, Halloween came early.&#39;</i> Get rid of the adjectives until you have ‘One strange year, Halloween came early,&#39; and you have a solid first line.</p>
 
           <h5>Bad Example #6</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Sarah Shepherd watched her husband come down the stairs.
             <FootnoteRef text={`SARAH SHEPHERD,\nSpring Fever.`} /></p>
           </div>
@@ -284,7 +284,7 @@ function TheFirstWords() {
           <p className="italic">Sarah watched her husband come down the stairs and burst into laughter.</p>
 
           <h5>Bad Example #7</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Hargreaves did not speak until he had turned on two lamps.
             <FootnoteRef text={`CARTER DICKSON,\nNew Murders for Old.`} /></p>
           </div>
@@ -293,14 +293,14 @@ function TheFirstWords() {
           <p className="italic">Only once Hargreaves had lit his lamp, and all eyes were on him, did he speak. </p>
 
           <h5>Bad Example #8</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">The hands of the alarm clock on the table in front of Mr. Crangle stood at 3:47, on a summer afternoon.
             <FootnoteRef text={`PRICE DAY,\nFour O' Clock.`} /></p>
           </div>
           <p>This is almost a parodying example of a bad opener. It&#39;s not an unusual time, and the man isn&#39;t doing anything unusual. Also, the line ‘afternoon&#39; and the time ‘3:47&#39; are redundant. The concept is so bad there is nothing you can do to fix it.</p>
 
           <h5>Bad Example #9</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">The red-orange sun eased its way out of the Jamaican sky, then suspended itself halfway into the Caribbean horizon as though holding still for some divine time exposure.
             <FootnoteRef text={`MIKE MARMER,\nView From The Terrace.`} /></p>
           </div>
@@ -310,14 +310,14 @@ function TheFirstWords() {
           <p className="italic">The red sun dropped below the sky and then it was night in Jamaica.</p>
 
           <h5>Mediocre Example #1</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">I bounded over the gray, dusty terrain toward the huge dome of Conrad Bubble.
             <FootnoteRef text={`ANDY WEIR,\nArtemis.`} /></p>
           </div>
           <p>Okay, but not great. Normally we would want to know what the ‘huge dome&#39; is but if you know the book&#39;s sci-fi this line pretty much explains itself. There should be something unusual here even for a sci-fi, for instance, the character&#39;s oxygen is running out, or he is locked out of ‘Conrad Bubble.&#39;</p>
 
           <h5>Mediocre Example #2</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Later, Tom Russell would wonder if the very boards of that place—splintered, unpainted, unlovely—had leaked some sort of lethal courage into his blood and made him see things that could not be true.
             <FootnoteRef text={`JOY JORDAN-LAKE,\nA Tangled Mercy.`} /></p>
           </div>
@@ -330,7 +330,7 @@ function TheFirstWords() {
           <p className="italic">Later, Tom Russell would wonder if the splintered, unpainted boards of that place made him see things that could not be true.</p>
 
           <h5>Mediocre Example #3</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">He was an easy mark.
             <FootnoteRef text={`S. A. CHAKRABORTY,\nThe City of Brass.`} /></p>
           </div>
@@ -339,7 +339,7 @@ function TheFirstWords() {
           <p className="italic">He would be an easy mark.</p>
 
           <h5>Mediocre Example #4</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">The wind whistled through the valley, and the pyramidal tent that signified Outpost 1 quivered before the blast.
             <FootnoteRef text={`MATTHEW GRANT,\nThe Crate at Outpost 1.`} /></p>
           </div>
@@ -349,7 +349,7 @@ function TheFirstWords() {
           <p className="italic">The wind whistled through the valley and the tent called Outpost 7 quivered before the blast.</p>
 
           <h5>Mediocre Example #5</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">When Janine stopped talking, sometimes as now she seemed to stop breathing also, as if to listen.
             <FootnoteRef text={`JOAN VATSEK,\nThe Duel.`} /></p>
           </div>
@@ -358,7 +358,7 @@ function TheFirstWords() {
           <p className="italic">Now Janine stopped talking, in fact, she stopped breathing.</p>
 
           <h5>Mediocre Example #6</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">For the tenth time that day, in a voice that shook a little, Martha Halsey read aloud the item in the Dellville Weekly Call.
             <FootnoteRef text={`ROBERT ARTHUR,\nCall for Help.`} /></p>
           </div>
@@ -367,7 +367,7 @@ function TheFirstWords() {
           <p className="italic">Voice shaking, Martha Halsey read aloud the item in the Dellville Weekly Call.</p>
 
           <h5>Mediocre Example #7</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Henry Tolman got away with murder—he loved that phrase and often turned it over in his mind, gloating.
             <FootnoteRef text={`MIRIAM LYNCH,\nScott Free.`} /></p>
           </div>
@@ -376,7 +376,7 @@ function TheFirstWords() {
           <p className="italic">Henry Tolman got away with murder.</p>
 
           <h5>Mediocre Example #8</h5>
-           <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+           <div className="quote-box">
           <p className="italic">I was waiting on the courthouse steps when Norma Krueger, my stepmother, and Russ Tyson, her lover, came out of the building into the harsh November sunlight of Los Angeles.
             <FootnoteRef text={`ROBERT COLBY,\nThe Last Witness.`} /></p>
               </div>
@@ -385,7 +385,7 @@ function TheFirstWords() {
           <p className="italic">I was waiting on the courthouse steps when my stepmother came out.</p>
 
           <h5>Mediocre Example #9</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Fran came out of Lila's apartment, shoving the green-printed racing sheets into her apron pocket.
             <FootnoteRef text={`HENRY SLESAR,\nSomething Short of Murder.`} /></p>
             </div>
@@ -395,7 +395,7 @@ function TheFirstWords() {
           <p className="italic">Fran came out of Lila&#39;s apartment shoving the tiny box into her apron pocket.</p>
 
           <h5>Good Example #1</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">On the third morning I noticed that somebody had disabled the truck.
             <FootnoteRef text={`LAIRD BARRON,\nOld Virginia.`} /></p>
           </div>
@@ -404,7 +404,7 @@ function TheFirstWords() {
           <p>It&#39;s relatable, making us identify immediately with the protagonist. If this could happen so quickly and easily, we ask, if that was me, what would I do? Unlike the above example, this line starts generating ‘who/what/where/why/how&#39; questions. </p>
 
           <h5>Good Example #2</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">'Let's face it, Doctor, if an inmate's suicidal there ain't a hell of a lot you can do.&#39;
             <FootnoteRef text={`T. E. D. KLEIN,\nPetey.`} /></p>
           </div>
@@ -413,7 +413,7 @@ function TheFirstWords() {
           <p>That&#39;s even more effective because it has two points of interest: the suicide, and the idea of a doctor who feels helpless in being unable to treat some patients. </p>
 
           <h5>Good Example #3</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">On December the third the wind changed overnight and it was winter.
             <FootnoteRef text={`DAPHNE DU MAURIER,\nThe Birds.`} /></p>
             </div>
@@ -421,21 +421,21 @@ function TheFirstWords() {
           <p>The symbolism is permissible because it directly relates to the story&#39;s content; the temperature and direction of the wind directly relates to the path birds fly. The line gains foreboding knowing what the story is about, but even without the birds it is still effective to convey sudden change and harshness. </p>
 
           <h5>Good Example #4</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Rafferty was not the only one losing at the blackjack table, but he had been there the longest.
             <FootnoteRef text={`CHARLES EINSTEIN,\nThe New Deal.`} /></p>
           </div>
           <p>This works on several levels. Gambling is an exciting event in literature, and it&#39;s unusual because multiple players here are losing, raising the question; why are they still playing? This implies they are determined, even stubborn, or reckless. That&#39;s more interesting than watching conservative, rational players. Also our interest is focused on the most stubborn or reckless player; the one who has been there ‘the longest.&#39; We want to see whether he suffers a big loss, or whether he&#39;ll overturn the odds and triumph.</p>
 
           <h5>Good Example #5</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">The thin man on the witness stand fumbled with the edge of his necktie.
             <FootnoteRef text={`GUY FLEMING,\nBoomerang.`} /></p>
           </div>
           <p>Court proceedings are a cliché way of getting immediate interest, but nonetheless effective. This one is pretty simple, the guy fumbling with his tie suggests he is anxious or lying and that&#39;s interesting. A physical description such as ‘thin&#39; is essential here because it flags the guy (and not just the information he is about to say) as being important, i.e. you need to remember him.</p>
 
           <h5>Good Example #6</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">I've thought about it a lot, man; like why Victor and I made that terrible scene out there at San Quentin, putting ourselves on that it was just for kicks.
             <FootnoteRef text={`JOE GORES,\nThe Second Coming.`} /></p>
           </div>
@@ -446,35 +446,35 @@ function TheFirstWords() {
           <p>The problem is this is a false question which it itself answers: ‘for kicks.&#39; The line ‘putting ourselves on&#39; suggests the true answer was not for kicks, but it would be more effective if no reason was supplied, e.g. <i>I&#39;ve thought about it a lot; like why Victor and I made that terrible scene out there at San Quentin.&#39;</i></p>
 
           <h5>Good Example #7</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">It's midnight now.
             <FootnoteRef text={`MICHAEL CRICHTON,\nPrey.`} /></p>
           </div>
           <p>This is very simple, but shows you don&#39;t have to be a genius to write a good first line. Unusual time and makes us wonder why the character is still awake. Also, the present tense and short sentence creates immediacy, which is incongruent with the typically inactive, quiet late time.</p>
 
           <h5>Good Example #8</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">With dull curiosity he watched the crowds gathering far below on the sidewalk.
             <FootnoteRef text={`DONALD HONIG,\nMan With A Problem.`} /></p>
           </div>
           <p>Crowds gathering is interesting; if people are looking at something, we want to look also. Also interesting is a lone person watching others gather, why isn&#39;t he with them? The incongruence of the character&#39;s reaction ‘dull&#39; curiosity also makes us want to know why he isn&#39;t as interested in something that he should find interesting.</p>
 
           <h5>Good Example #9</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">There was no path, only the almost vertical ascent.
             <FootnoteRef text={`ANTHONY BOUCHER,\nThey Bite.`} /></p>
           </div>
           <p>A very simple, but effective line. This signifies a challenge; how will a character get up an almost vertical surface? It also asks, why is the character there in the first place? This is also an example of ‘showing&#39; description (rather than telling) because if a character is doing something difficult, it suggests their objective is really important, so we want to know what it is.</p>
 
           <h5>Good Example #10</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Don Cassidy first noticed her after he gave an open-ended assignment to the students enrolled in his English literature class at the Queens campus of St. John's University: Write a theme about something wonderful in your life that has happened to you.
             <FootnoteRef text={`JULIE SALAMON,\nFacing The Wind.`} /></p>
           </div>
           <p>This is an exception of my rule for short and concise first lines. It&#39;s exceptional because the line delivers its hook at the start (“first noticed her”), which allows the added length to draw us further along. The length is also justified by providing two promises; (1) the girl is special, and (2) her answer to the writing prompt will be interesting, thereby further eliciting our interest.</p>
 
           <h5>Good Example #11</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
           <p className="italic">Telephones and telephone bells have always made me uneasy.
             <FootnoteRef text={`GEORGE LANGELAAN,\nThe Fly.`} /></p>
           </div>

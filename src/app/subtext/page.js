@@ -43,7 +43,7 @@ function Subtext() {
           </p>
 
 
-<div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+<div className="quote-box">
           <p className='italic'>Father: Here we go, some nice peanut butter sandwiches.</p>
           <p className='italic'>Daughter: I&#39;m allergic to peanut butter.</p>
           <p className='italic'>Father: Since when?</p>

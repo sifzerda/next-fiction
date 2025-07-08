@@ -288,7 +288,7 @@ function Dialogue() {
           </div>
           <p>Sol Stein calls this ‘The Actors Studio technique&#39;, and refers to ‘information&#39; as ‘scripts&#39;: </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="mb-0">“That&#39;s what happens in life. Each of us enters into conversation with another person with a script that is different from the other person&#39;s script. The frequent result is disagreement and conflict—disagreeable in life and invaluable in writing, for conflict is the ingredient that makes action dramatic.”</p>
             <p><i>— Sol Stein </i>
               <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
@@ -296,7 +296,7 @@ function Dialogue() {
           </div>
 
           <p>He also helpfully provides instructions for writing such a scene: </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="mb-0">“You are imagining a scene with two characters. Before you write the scene, make a note as to the “script” or tack (keep it simple) of the first character and then of the second character. Make sure the scripts are different and at odds. Only you will be privy to the scripts of both characters. Let them play out the scene in front of you as you write. And if you have a third character in the scene, give that character a script different from the other two.” </p>
             <p><i>— Sol Stein </i>
               <FootnoteRef text={`SOL STEIN,\nHow To Grow A Novel.`} />
@@ -308,7 +308,7 @@ function Dialogue() {
 
           <h2 id="post-dialogue-tags">12.8: Dialogue Tags</h2>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="mb-0">“Hello,” he lied. </p>
             <p><i>— Don Carpenter (quoting a Hollywood agent) </i>
               <FootnoteRef text={`MARK EDWARD,\nPsychic Blues.`} />
@@ -352,7 +352,7 @@ function Dialogue() {
             <FootnoteRef text={`MICHAEL CRICHTON,\nPrey.`} />
           </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“I&#39;m sorry. I handle this kind of thing all day, and I guess-”</i></p>
             <p><i>“This really is a problem, Jack.”</i></p>
             <p><i>“I said I&#39;m sorry.”</i></p>
@@ -390,7 +390,7 @@ function Dialogue() {
           </p>
 
           <p>A man is vigorously trying to free a trapped woman, who screams in pain. Another man says:</p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>"Stop it! You'll kill her!" </i></p>
           </div>
 
@@ -463,7 +463,7 @@ function Dialogue() {
           <p>Here is another example:
             <FootnoteRef text={`KATE BRAVERMAN,\nTall Tales from the Mekong Delta.`} />
           </p>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p><i>“I&#39;m Lenny,” he said, extending his hand. “What&#39;s your name?”
               She told him. She was holding a bag with packages of cookies in it. After the meeting, she had an appointment with her psychiatrist, then a manicure. She kept walking.
             </i></p>

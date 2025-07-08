@@ -223,16 +223,18 @@ function Premise() {
           <p>What is the aforementioned &#39;something good&#39; that litters the story? Answer: a &#39;live issue&#39;.</p>
           <p>A live issue is a plot element which raises an issue that demands resolution. It&#39;s a plot detail that causes the reader to ask questions and demand answers (who, what, when, where, why, how).</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
-            <p className="mb-0">“Good stories need an engine, a question the story answers for the reader. Who done it? Guilty or not guilty? Who will win the race? Which man will she marry? Will the hero escape, or die trying? Good questions drive good stories.” </p>
-            <p></p><i>— Roy Clark</i>
+          <div className="quote-box">
+            <p>“Good stories need an engine, a question the story answers for the reader. Who done it? Guilty or not guilty? Who will win the race? Which man will she marry? Will the hero escape, or die trying? Good questions drive good stories.” </p>
+            <p><i>— Roy Clark</i>
               <FootnoteRef text={`ROY CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} />
+              </p>
             </div>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
-            <p className="mb-0">"Plant little queries along the way, little hints and teasers. Then answer them one by one, substituting new queries as you do." </p>
-            <p></p><i>— David Carroll</i>
+          <div className="quote-box">
+            <p>"Plant little queries along the way, little hints and teasers. Then answer them one by one, substituting new queries as you do." </p>
+            <p><i>— David Carroll</i>
               <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
+              </p>
             </div>
 
           <p>Live issues must accord with all of these criteria:</p>

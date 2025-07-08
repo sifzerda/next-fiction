@@ -54,7 +54,7 @@ function WritersDevices() {
 
           <p>This refers to story details making an implied promise to the audience that a particular idea will later unfold in a particular way. </p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p>“Make frequent promises that excitement or insight will soon be revealed to the reader. Sometimes an entire story can be made to turn on a single promise of things to come. In Treasure Island we are kept reading both by the tantalizing premise of buried treasure and the fact that somebody's going to find it. Will it be the pirates or Jim Hawkins's band?”</p>
             <p><i>— David Carroll</i>
               <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} />
@@ -93,13 +93,13 @@ function WritersDevices() {
           <p className="indent-8 mb-2">X: “Sounds like fun. I shuttle between Elmville and Mapledale regularly. Always pass the lake. But I&#39;ve never stopped there. Not once. Never seen anyone swimming either. It&#39;s interesting. You enjoy yourself.”</p>
 
           <h5>'Fortune Telling'</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-1">Tommy slid a Dunhill out of the packet, lit up and took a drag, all the while not knowing that he had less than six hours to live.
               <FootnoteRef text={`STEPHEN KING,\nCarrie.`} /></p>
           </div>
 
           <h5>'Cryptic Gobbledygook'</h5>
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className="indent-8 mb-2">“The Mother,” Marie said. </p>
             <p className="indent-8 mb-2">“What?”  </p>
             <p className="indent-8 mb-2">“The statue you&#39;re staring at. It&#39;s of the Mother.”   </p>
@@ -216,7 +216,7 @@ function WritersDevices() {
           <p>Arguably, it&#39;s also ‘verbal&#39; irony when a waiter drops and breaks a plate, and the chef claps in applause (sarcastically).</p>
           <p>Here is a written example of verbal irony:</p>
 
-          <div className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
+          <div className="quote-box">
             <p className='indent-8 mb-2 italic'>[…] whoever could find out a fair, cheap, and easy method of making [destitute] children sound, useful members of the commonwealth, would deserve so well of the public as to have his statue set up for a preserver of the nation.</p>
             <p className='indent-8 mb-2'><i>I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed is at a year old a most delicious, nourishing, and wholesome food, whether stewed, roasted, baked, or boiled; and I make no doubt that it will equally serve in a fricassee or a ragout.</i>
               <FootnoteRef text={`JONATHAN SWIFT,\nA Modest Proposal.`} />
