@@ -274,31 +274,7 @@ IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 
 
 
-OVERALL FORMATTING STYLING:
 
-    - [x] story
-    - [x] premise
-    - [x] hero's journey
-    - [x] plot
-    - [x] themes
-    - [x] conflict
-    - [x] scenes
-    - [x] main characters
-    - [x] secondary characters
-    - [x] setting
-    - [x] subtext 
-    - [x] description
-    - [x] dialogue
-    - [x] suspense
-    - [x] pov
-    - [x] voice
-    - [x] antagonists
-    - [x] the first words
-    - [x] the next words
-    - [x] the last words
-    - [x] writing devices
-    - [x] editing
-    - [x] MARKETING
 
 make text size of index box and also see box smaller to match about box
 
