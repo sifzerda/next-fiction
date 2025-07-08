@@ -54,11 +54,10 @@ function Sidebar() {
       <span className="flex-grow h-px bg-yellow"></span>
     </h2>
 
-    {/* Scrollable container with padding */}
-    <div
-      ref={scrollableRef}
-      className="flex-1 overflow-y-auto pr-1 px-4 pb-4" 
-    >
+    {/* custom tailwind scrollbar */}
+<div
+  ref={scrollableRef}
+  className="flex-1 overflow-y-auto pr-1 px-4 pb-4 scrollbar-thin scrollbar-thumb-yellow scrollbar-track-bootstrapDark">
       <ul className="flex flex-col items-center gap-0 sm:items-start sm:mt-0">
         {links.map(({ href, label }) => (
           <li key={href} className="w-full">
