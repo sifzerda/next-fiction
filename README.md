@@ -69,22 +69,34 @@ User authentication with JWTs allow users to create an account, which stores use
 # Tech <a name="tech"></a>
 
 - Next.js: SPA with app router
+- Tailwind
 - Prisma: queries on users and comments
 - Postgres, Vercel neon: stores user accounts and comments
 - Zustand: store dynamically managing footnote assignment
 - Fuse: index site content to enable sitewide keyword search
 - Puppeteer: scrapes text content for indexing
-- Pointer Events API (for sidebar dragging on sm+ screens when height resized)
+- Pointer Events API (for sidebar dragging on sm+ screens when height resized) OR
+- tailwind remove scrollbar
 
-## Footnotes
+## Footnotes and Tooltips
 
-New Footnotes can be added by pasting: 
+New Footnotes can be added by pasting right after a reference/quote (no space) and filling in the full citation. Paste before </ p>  to preserve formatting.: 
 
 ```bash
 <FootnoteRef text={`AUTHOR,\nBook Title.`} /> 
 ```
 
-Right after a reference/quote (no space) and filling in the full citation. Paste before </ p>  to preserve formatting.
+New film citations can be added by pasting:
+
+```bash
+<FootnoteRef text={<><em>Film Title</em>, Production Studio, (Release Date).</>} />
+```
+
+New Tooltips can be added by pasting after the word with footnote:
+
+```bash
+<Tooltip number={1} text="Inner Tooltip text." />
+```
 
 # Support <a name="support"></a>
 
@@ -264,13 +276,6 @@ similar to the 'strange sandwich' rule -- don't pile on double servings (descrip
 
 
 I noted under (XXXXX section) (description )
-
-
-
-
-
-
-IN THE FIRST WORDS CHAPTER, put the examples inside blue boxes (or other color)
 
 
 
