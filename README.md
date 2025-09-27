@@ -100,7 +100,7 @@ New Tooltips can be added by pasting after the word with footnote:
 
 # Support <a name="support"></a>
 
-For support, users can contact tydamon@hotmail.com. Links to my github and the app repo are also in the footer of the blog.
+For support, users can contact me through the contact page. Links to my github and the app repo are also in the footer of the blog.
 
 # Contributing <a name="contributing"></a>
 
@@ -160,7 +160,7 @@ banners are 1200 x 400
     - [x] secondary characters
     - [x] setting
     - [x] subtext 
-    - [ ] description
+    - [x] description
     - [ ] dialogue
     - [ ] suspense
     - [x] pov
@@ -205,7 +205,7 @@ banners are 1200 x 400
     - [ ] logline
     - [ ] synopsis
 
-- [ ] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
+- [x] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
 
 Changes:
@@ -254,7 +254,7 @@ SEARCH:
 - the ‘People avoid Jinxing&#39; rule. (main characters)
 - the strange sandwich Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). (main hcaraterts)
 - <p>At 11.9 I said ‘Make the Abstract Concrete.&#39;</p> (description)
- - <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea  (description)
+ - <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea (description)
 - similar to the 'strange sandwich' rule -- don't pile on double servings (description)
 - I noted under (XXXXX section) (description )
 
@@ -266,8 +266,6 @@ make text size of index box and also see box smaller to match about box
 
 remove blue box bottom space add to the div'<"m-1">
 
-potentially add height minimization scrollbar grabbing on sidebar for larger screens, using 'scrollbar hide' tailwind plugin
-
 Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i></i></code></p>
 
     Some content missing in chapter scenes:
@@ -275,8 +273,6 @@ Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i><
 
     B.	Different Thing, Same Place: (part A is missing)
     Also where it says 'CONTENT'
-
-    - For sidebar scrolling, consider the pointer api, pulling the sidebar down. Check copies folder and fix so it runs the other way. Try to put a vertical arrow (either double headed or pointing down) with a vertical line which you grab and drag up and down (so user is not grabbing the links and hover white boxes)
 
 
     there's an example missing in the next words, about tax department see "However, this rule is not always followed in real life. For instance, "
