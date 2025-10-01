@@ -16,10 +16,23 @@ function Scenes() {
         <h1>Scenes</h1>
 
         <blockquote>
-          “INSERT SCENES QUOTE HERE.”
+          "You should enter the scene as late as possible and get out as early as possible."
           <br />
-          <span className="font-rubik block text-right font-medium mt-1">— Attribution</span>
+          <span className="font-rubik block text-right font-medium mt-1">— David Mamet</span>
         </blockquote>
+
+        <blockquote>
+          "Nothing happens in a scene unless it's a fight."
+          <br />
+          <span className="font-rubik block text-right font-medium mt-1">— Kurt Vonnegut</span>
+        </blockquote>
+
+        <blockquote>
+          "When writing a scene, forget about what the scene is about and ask what it’s doing — is it advancing plot, deepening character, raising stakes?"
+          <br />
+          <span className="font-rubik block text-right font-medium mt-1">— Robert McKee</span>
+        </blockquote>
+
       </div>
 
       {/* 2nd Banner Box with Image */}

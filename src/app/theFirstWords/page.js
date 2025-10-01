@@ -20,9 +20,9 @@ function TheFirstWords() {
           <span className="font-rubik block text-right font-medium mt-1">— Ursula Le Guin</span>
         </blockquote>
         <blockquote>
-          “ADD QUOTE HERE.”
+          "The opening sentence should raise questions and set the tone, and you can spend the rest of the book answering them." 
           <br />
-          <span className="font-rubik block text-right font-medium mt-1">— Aristotle</span>
+          <span className="font-rubik block text-right font-medium mt-1">— Neil Gaiman</span>
         </blockquote>
       </div>
 

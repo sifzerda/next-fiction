@@ -15,9 +15,9 @@ function Subtext() {
         <h1>Subtext</h1>
 
         <blockquote>
-          “QUOTE.”
+          "...[T]he realm of what haunts the imagination: the implied, the half-visible, and the unspoken. That subterranean realm..."
           <br />
-          <span className="font-rubik block text-right font-medium mt-1">— ATTRIBUTION</span>
+          <span className="font-rubik block text-right font-medium mt-1">— Charles Baxter</span>
         </blockquote>
       </div>
 

@@ -71,7 +71,7 @@ User authentication with JWTs allow users to create an account, which stores use
 - Next.js: SPA with app router
 - Tailwind
 - Prisma: queries on users and comments
-- Postgres, Vercel neon: stores user accounts and comments
+- Postgres, Vercel neon database: stores user accounts and comments
 - Zustand: store dynamically managing footnote assignment
 - Fuse: index site content to enable sitewide keyword search
 - Puppeteer: scrapes text content for indexing
@@ -175,29 +175,7 @@ banners are 1200 x 400
 
 - [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
 
-- add quotes for each chapter:
-    - [x] story
-    - [x] premise
-    - [x] plot
-    - [x] themes
-    - [x] conflict
-    - [ ] scenes
-    - [x] main characters
-    - [x] secondary characters
-    - [x] setting
-    - [ ] subtext 
-    - [x] description
-    - [x] dialogue
-    - [x] suspense
-    - [x] pov
-    - [x] voice
-    - [x] antagonists
-    - [ ] the first words
-    - [x] the next words
-    - [x] the last words
-    - [x] writing devices
-    - [x] editing
-    - [x] marketing
+- [x] add quotes for each chapter:
 
 - [x] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
