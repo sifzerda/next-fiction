@@ -101,7 +101,9 @@ function Dialogue() {
           <h3>12.3.1 	Dialectical Dialogue / ‘Dodgem&#39; Dialogue</h3>
           <p>Dodgem dialogue is my technique for making dialogue 'jump' out at the reader. Normally, (bad) dialogue is written like a casual car ride, when it should be written like a dodgem car ride. This is related to combining conflict with dialogue (see 10.4 below). Sol Stein refers to a similar concept called 'oblique dialogue'.</p>
           <p>Stein says good dialogue is “confrontational” and “thrives on surprise and indirection,” and “raises more questions than it answers.”</p>
-          <p>Dialogue that jumps out isn&#39;t necessarily ‘oblique&#39; – oblique dialogue suggests more than is actually said and elicits further interest. Dialogue that skirts around moves outside the bounds of expectation or social convention or expected phrasing. By eschewing polite expectations, you make the dialogue immediate and get out of the ‘wallflower&#39; stages of new social interaction as quickly as possible; polite, bland, forgettable and everything a character is not. Characters may sound as if they&#39;re presuming certain information possessed by the other character, and to the reader, it may have a sense that you&#39;re being sucked into a conversation midway through – this is what gives it dynamism.</p>
+          <p>Dialogue that jumps out isn&#39;t necessarily ‘oblique&#39; – oblique dialogue suggests more than is actually said and elicits further interest. Dialogue that skirts around moves outside the bounds of expectation or social convention or expected phrasing. By eschewing polite expectations, you make the dialogue immediate and 
+            get out of the ‘wallflower&#39; stages of new social interaction as quickly as possible; polite, bland, forgettable and everything a character is not. Characters may sound as if they&#39;re presuming certain information possessed by the other character, and to the reader, it may have a sense that you&#39;re being sucked into 
+            a conversation midway through – this is what gives it dynamism.</p>
 
           <h4>Bad Dialogue:</h4>
           <ul className="bullets">
@@ -177,9 +179,7 @@ function Dialogue() {
               <p>See example #1; the repetition of ‘no&#39; makes it unusual and more interesting</p>
             </ol>
             <li>Rearrange the order of dialogue </li>
-            <p>
               <p>In the example #2 above I put direct answer to the question ‘feel terrible last, instead of first, where you&#39;d expect it;</p>
-            </p>
             <li>Replace abstract responses with concrete ones. </li>
             <ol>
               <p>In the above example #2, B replies with a question;</p>

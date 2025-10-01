@@ -15,9 +15,9 @@ function TheFirstWords() {
         <h1>The First Words</h1>
 
         <blockquote>
-          “ADD QUOTE HERE.”
+          “First sentences are doors to worlds.”
           <br />
-          <span className="font-rubik block text-right font-medium mt-1">— Herman Hesse</span>
+          <span className="font-rubik block text-right font-medium mt-1">— Ursula Le Guin</span>
         </blockquote>
         <blockquote>
           “ADD QUOTE HERE.”

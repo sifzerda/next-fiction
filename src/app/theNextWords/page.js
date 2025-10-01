@@ -28,12 +28,6 @@ function TheNextWords() {
         </blockquote>
       </div>
 
-      {/* 
-      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={nextWBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
-      </div>
-*/}
-
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
         <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
@@ -244,10 +238,13 @@ function TheNextWords() {
 
           <h3>18.1.6 	Starve the Ego, Feed the Soul</h3>
           <div className="quote-box">
-            <p><i>“Did I feel a twinge in my little toe, or didn&#39;t I?” </i> asks every character of Mr. Joyce or of Miss Richardson or M. Proust. . . .
+            <p>
+              <i>“Did I feel a twinge in my little toe, or didn&#39;t I?” </i> 
+              asks every character of Mr. Joyce or of Miss Richardson or M. Proust. . . .
               Through thousands and thousands of pages Mr. Joyce and Miss Richardson tear themselves to pieces, strip their smallest emotions to the finest threads,
               till you feel you are sewed inside a wool mattress that is being slowly shaken up, and you are turning to wool along with the rest of the woolliness.</p>
-            <br></br><p><i>It&#39;s awful. And it&#39;s childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p>
+            <br></br>
+            <p><i>It&#39;s awful. And it&#39;s childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p>
             <p><i>— D. H. LAWRENCE</i><FootnoteRef text="Surgery for the Novel — or a Bomb” (1923), D. H. Lawrence." />
             </p>
           </div>
@@ -257,8 +254,10 @@ function TheNextWords() {
           <p>Maybe more than any other writing sin, over-introspective writing flags amateur writing, as if the writing is yet to graduate from personal 'diary' writing.
             If you avoid it, you immediately set your writing skills apart. </p>
           <p>Contrast introspection with concrete description: </p>
+
           <h4>Introspection: </h4>
           <p>Introspection is inward-looking and concerned with thoughts and feelings. </p>
+
           <h4>Concrete Description: </h4>
           <p>Concrete description is outward-looking and concerned with facts and things.  </p>
           <p>When concrete description happens, the plot/action keeps moving. When introspection happens, the plot/action pauses (to allow the character to stop and think).
@@ -266,10 +265,12 @@ function TheNextWords() {
             introspection should not be a dominant form of conveying information. </p>
 
           <h5>Introspection has two forms:</h5>
+
           <h6>(1) Pure:</h6>
           <p>This is the worst form, also sometimes referred to as ‘inner monologue&#39;, where the narrative predominantly conveys the main character&#39;s thoughts and
             feelings through self-reflection, over all other ways of conveying that information (e.g. behaviour, events, dialogue, etc). Sadly, a lot of contemporary
             popular writing (‘airport literature&#39;) has just become long paragraphs of inner monologue. </p>
+          
           <h6>(2) Diluted:</h6>
           <p>The narrative is not necessarily trapped in the main character&#39;s head, but has a disproportionate fixation with the main character.</p>
 
@@ -300,8 +301,9 @@ function TheNextWords() {
 
             <p className="code-left-black">
               <i><span className='bg-hYellow'>There were a few minutes when I was alone with her in the autopsy room. I felt wild. Absent. Before I could stop myself I was
-                leaning close to her, telling her everything. The words draining out of me as she lay there. </span><span className="bg-hGreen">Her long damp hair
-                  hanging off the back of the steel table. Glassy eyes fixed blindly on the ceiling. </span>She was still so beautiful, even in death.</i></p>
+                leaning close to her, telling her everything. The words draining out of me as she lay there. </span>
+                <span className="bg-hGreen">Her long damp hair hanging off the back of the steel table. Glassy eyes fixed blindly on the ceiling. </span>
+                She was still so beautiful, even in death.</i></p>
             <p className="code-left-black">
               <i>Our secrets circled madly around the bright white room that morning. <span className="bg-hYellow"> Rocking back and forth on my heels as I stood next to her,
                 I knew how far in I was again, how comprehensively her death could undo me. I looked at Rosalind Ryan properly for the last time before breathing deeply,
@@ -523,8 +525,8 @@ function TheNextWords() {
           <p>Try to remove the instances of neg description; alternatively, make negative description short and limited to one per sentence, for example:</p>
 
           <div className="quote-box">
-            <p><i>It was an optical illusion, he thought. The woman just seemed to melt into the wooden curlicues.<p>There was no sound when
-              Katherine was struck. There was no blood.</p></i></p>
+            <p><i>It was an optical illusion, he thought. The woman just seemed to melt into the wooden curlicues. There was no sound when
+              Katherine was struck. There was no blood.</i></p>
           </div>
 
           <p>In fact, the fixed versions would make a great story opener:</p>
@@ -948,6 +950,7 @@ function TheNextWords() {
           <div className="custom-box">
             <p><i>The tents were taken by Jeff. The sleeping bags were taken by Mary.</i></p>
           </div>
+
           <h4>Active Voice:</h4>
           <div className="custom-box">
             <p><i>Jeff took the tents. Mary took the sleeping bags. </i></p>
@@ -1027,12 +1030,14 @@ function TheNextWords() {
           <div className="custom-box">
             <p> <i>"That and all the work I've done is just a make believe."  </i> </p>
           </div>
-          <p>There are two small grammatical errors in the above:
+          
+          <p>There are two small grammatical errors in the above: </p>
             <ol>
               <li>Starting ‘that and&#39; creates a sentence fragment;</li>
               <li>‘Make believe&#39; is preceded by ‘a&#39; when it is an abstract noun, not a concrete noun.</li>
             </ol>
 
+          <p>
             If you know this character is relatively intelligent,
             it makes more sense they are frustrated when they say this. In this way you create dialogue which could even avoid adverbs or
             dialogue tags which confirm his anger (e.g. ‘he said angrily&#39; or ‘he shouted&#39;).</p>

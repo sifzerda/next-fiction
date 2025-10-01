@@ -168,13 +168,10 @@ banners are 1200 x 400
     - [x] antagonists
     - [ ] the first words
     - [ ] the next words
-    - [ ] the last words
+    - [x] the last words
     - [ ] writing devices
-    - [ ] writing block
-    - [ ] editing
-    - [ ] title 
-    - [ ] logline
-    - [ ] synopsis
+    - [x] editing
+    - [ ] marketing
 
 - [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
 
@@ -198,12 +195,9 @@ banners are 1200 x 400
     - [ ] the first words
     - [x] the next words
     - [x] the last words
-    - [ ] writing devices
-    - [x] writing block
+    - [x] writing devices
     - [x] editing
-    - [x] title 
-    - [ ] logline
-    - [ ] synopsis
+    - [x] marketing
 
 - [x] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is

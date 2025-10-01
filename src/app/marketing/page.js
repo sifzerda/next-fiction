@@ -15,20 +15,11 @@ function Marketing() {
         <h1>Marketing</h1>
 
         <blockquote>
-          “Every story would be another story, and unrecognizable if it took up its characters and plot and happened somewhere else...Fiction depends for its life on place. Place is the crossroads of circumstance, the proving ground of, What happened? Who's here? Who's coming?...”
-          <br />
-          <span className="font-rubik block text-right font-medium mt-1">— Eudora Welty</span>
-        </blockquote>
-        <blockquote>
-          “One can find so many pains when the rain is falling.”
-          <br />
-          <span className="font-rubik block text-right font-medium mt-1">— John Steinbeck</span>
-        </blockquote>
-        <blockquote>
           “Let your mind be working on your title as you go along.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— F. Scott Fitzgerald</span>
         </blockquote>
+
       </div>
 
       {/* 2nd Banner Box with Image */}

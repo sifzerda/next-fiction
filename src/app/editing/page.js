@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
-import premiseBanner from '../assets/premisebanner.jpg'; // Adjust the path as necessary
+import editingBanner from '../assets/editingBanner.jpg'; // Adjust the path as necessary
 import Image from "next/image";
 
 function Editing() {
@@ -39,7 +39,7 @@ function Editing() {
 
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
+        <Image src={editingBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
       </div>
 
       {/* New Section Below Banners */}
