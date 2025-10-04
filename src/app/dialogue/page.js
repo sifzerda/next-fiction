@@ -21,12 +21,6 @@ function Dialogue() {
         </blockquote>
       </div>
 
-      {/* 
-      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={dialogueBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
-      </div>
-*/}
-
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
         <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
@@ -499,20 +493,19 @@ function Dialogue() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px"><a href="#post-what-is-dialogue" className="hover:underline hover:text-white">12.1: What is Dialogue?</a></li>
-              <li className="mb-px"><a href="#post-brevity" className="hover:underline hover:text-white">12.2: Brevity</a></li>
-              <li className="mb-px"><a href="#post-make-dialogue-oblique" className="hover:underline hover:text-white">12.3: Make Dialogue Oblique</a></li>
-              <li className="mb-px"><a href="#post-action-reaction" className="hover:underline hover:text-white">12.4: Action/Reaction</a></li>
-              <li className="mb-px"><a href="#post-adding-activity-to-dialogue" className="hover:underline hover:text-white">12.5: Adding Activity to Dialogue</a></li>
-              <li className="mb-px"><a href="#post-adding-conflict-to-dialogue" className="hover:underline hover:text-white">12.6: Adding Conflict to Dialogue</a></li>
-              <li className="mb-px"><a href="#post-information-asymmetry" className="hover:underline hover:text-white">12.7: Information Asymmetry</a></li>
-              <li className="mb-px"><a href="#post-dialogue-tags" className="hover:underline hover:text-white">12.8: Dialogue Tags</a></li>
-              <li className="mb-px"><a href="#post-people-avoid-jinxing" className="hover:underline hover:text-white">12.9: People Avoid 'Jinxing'</a></li>
-              <li className="mb-px"><a href="#post-concrete-abstract-statements" className="hover:underline hover:text-white">12.10: Concrete/Abstract Statements</a></li>
-              <li className="mb-px"><a href="#post-dont-take-sides" className="hover:underline hover:text-white">12.11: Don't Take Sides</a></li>
-              <li className="mb-px"><a href="#post-when-to-avoid-dialogue" className="hover:underline hover:text-white">12.12: When To Avoid Dialogue</a></li>
-              <li className="mb-px"><a href="#post-dialogue-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-dialogue" className="text-xs hover:underline hover:text-white">12.1: What is Dialogue?</a></li>
+              <li className="mb-px"><a href="#post-brevity" className="text-xs hover:underline hover:text-white">12.2: Brevity</a></li>
+              <li className="mb-px"><a href="#post-make-dialogue-oblique" className="text-xs hover:underline hover:text-white">12.3: Make Dialogue Oblique</a></li>
+              <li className="mb-px"><a href="#post-action-reaction" className="text-xs hover:underline hover:text-white">12.4: Action/Reaction</a></li>
+              <li className="mb-px"><a href="#post-adding-activity-to-dialogue" className="text-xs hover:underline hover:text-white">12.5: Adding Activity to Dialogue</a></li>
+              <li className="mb-px"><a href="#post-adding-conflict-to-dialogue" className="text-xs hover:underline hover:text-white">12.6: Adding Conflict to Dialogue</a></li>
+              <li className="mb-px"><a href="#post-information-asymmetry" className="text-xs hover:underline hover:text-white">12.7: Information Asymmetry</a></li>
+              <li className="mb-px"><a href="#post-dialogue-tags" className="text-xs hover:underline hover:text-white">12.8: Dialogue Tags</a></li>
+              <li className="mb-px"><a href="#post-people-avoid-jinxing" className="text-xs hover:underline hover:text-white">12.9: People Avoid 'Jinxing'</a></li>
+              <li className="mb-px"><a href="#post-concrete-abstract-statements" className="text-xs hover:underline hover:text-white">12.10: Concrete/Abstract Statements</a></li>
+              <li className="mb-px"><a href="#post-dont-take-sides" className="text-xs hover:underline hover:text-white">12.11: Don't Take Sides</a></li>
+              <li className="mb-px"><a href="#post-when-to-avoid-dialogue" className="text-xs hover:underline hover:text-white">12.12: When To Avoid Dialogue</a></li>
+              <li className="mb-px"><a href="#post-dialogue-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -522,9 +515,9 @@ function Dialogue() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/conflict" className="hover:underline hover:text-white">Conflict</a></li>
-              <li className="mb-px"><a href="/mainCharacters" className="hover:underline hover:text-white">Main Characters</a></li>
-              <li className="mb-px"><a href="/writingDevices" className="hover:underline hover:text-white">Writing Devices</a></li>
+              <li className="mb-px"><a href="/conflict" className="text-xs hover:underline hover:text-white">Conflict</a></li>
+              <li className="mb-px"><a href="/mainCharacters" className="text-xs hover:underline hover:text-white">Main Characters</a></li>
+              <li className="mb-px"><a href="/writingDevices" className="text-xs hover:underline hover:text-white">Writing Devices</a></li>
             </ol>
           </div>
 

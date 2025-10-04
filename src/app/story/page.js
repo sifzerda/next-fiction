@@ -468,15 +468,15 @@ function Story() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">1.1 Storytelling</a></li>
-              <li className="mb-px"><a href="#post-what-is-a-story" className="hover:underline hover:text-white">1.2 What Is A Story?</a></li>
-              <li className="mb-px"><a href="#post-main-elements-of-story" className="hover:underline hover:text-white">1.3 The Main Elements of a Story</a></li>
-              <li className="mb-px"><a href="#post-joseph-campbell-myths" className="hover:underline hover:text-white">1.4 Joseph Campbell&#39;s Myths</a></li>
-              <li className="mb-px"><a href="#post-myths-and-misconceptions" className="hover:underline hover:text-white">1.5 Myths and Misconceptions</a></li>
-              <li className="mb-px"><a href="#post-philosophy-of-story" className="hover:underline hover:text-white">1.6 The Philosophy of Storytelling</a></li>
-              <li className="mb-px"><a href="#post-medium" className="hover:underline hover:text-white">1.7 Medium</a></li>
-              <li className="mb-px"><a href="#post-pixar-storytelling" className="hover:underline hover:text-white">1.8 Pixar Storytelling</a></li>
-              <li className="mb-px"><a href="#post-story-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-storytelling" className="text-xs hover:underline hover:text-white">1.1 Storytelling</a></li>
+              <li className="mb-px"><a href="#post-what-is-a-story" className="text-xs hover:underline hover:text-white">1.2 What Is A Story?</a></li>
+              <li className="mb-px"><a href="#post-main-elements-of-story" className="text-xs hover:underline hover:text-white">1.3 The Main Elements of a Story</a></li>
+              <li className="mb-px"><a href="#post-joseph-campbell-myths" className="text-xs hover:underline hover:text-white">1.4 Joseph Campbell&#39;s Myths</a></li>
+              <li className="mb-px"><a href="#post-myths-and-misconceptions" className="text-xs hover:underline hover:text-white">1.5 Myths and Misconceptions</a></li>
+              <li className="mb-px"><a href="#post-philosophy-of-story" className="text-xs hover:underline hover:text-white">1.6 The Philosophy of Storytelling</a></li>
+              <li className="mb-px"><a href="#post-medium" className="text-xs hover:underline hover:text-white">1.7 Medium</a></li>
+              <li className="mb-px"><a href="#post-pixar-storytelling" className="text-xs hover:underline hover:text-white">1.8 Pixar Storytelling</a></li>
+              <li className="mb-px"><a href="#post-story-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -487,9 +487,9 @@ function Story() {
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
-              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Plot</a></li>
-              <li className="mb-px"><a href="/marketing" className="hover:underline hover:text-white">Marketing</a></li>
+              <li className="mb-px"><a href="/premise" className="text-xs hover:underline hover:text-white">Premise</a></li>
+              <li className="mb-px"><a href="/plot" className="text-xs hover:underline hover:text-white">Plot</a></li>
+              <li className="mb-px"><a href="/marketing" className="text-xs hover:underline hover:text-white">Marketing</a></li>
             </ol>
           </div>
 

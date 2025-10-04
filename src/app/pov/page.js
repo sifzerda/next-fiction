@@ -221,14 +221,14 @@ function POV() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-point-of-view" className="hover:underline hover:text-white">14.1: What is Point of View?</a></li>
-              <li className="mb-px"><a href="#post-first-person" className="hover:underline hover:text-white">14.2: First Person</a></li>
-              <li className="mb-px"><a href="#post-second-person" className="hover:underline hover:text-white">14.3: Second Person</a></li>
-              <li className="mb-px"><a href="#post-third-person" className="hover:underline hover:text-white">14.4: Third Person</a></li>
-              <li className="mb-px"><a href="#post-multiple-shifting-narrators" className="hover:underline hover:text-white">14.5: Multiple Shifting Narrators</a></li>
-              <li className="mb-px"><a href="#post-which-pov-to-use" className="hover:underline hover:text-white">14.6: Which POV to Use</a></li>
-              <li className="mb-px"><a href="#post-implied-change-of-pov" className="hover:underline hover:text-white">14.7: Implied Change of POV</a></li>
-              <li className="mb-px"><a href="#post-pov-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-point-of-view" className="text-xs hover:underline hover:text-white">14.1: What is Point of View?</a></li>
+              <li className="mb-px"><a href="#post-first-person" className="text-xs hover:underline hover:text-white">14.2: First Person</a></li>
+              <li className="mb-px"><a href="#post-second-person" className="text-xs hover:underline hover:text-white">14.3: Second Person</a></li>
+              <li className="mb-px"><a href="#post-third-person" className="text-xs hover:underline hover:text-white">14.4: Third Person</a></li>
+              <li className="mb-px"><a href="#post-multiple-shifting-narrators" className="text-xs hover:underline hover:text-white">14.5: Multiple Shifting Narrators</a></li>
+              <li className="mb-px"><a href="#post-which-pov-to-use" className="text-xs hover:underline hover:text-white">14.6: Which POV to Use</a></li>
+              <li className="mb-px"><a href="#post-implied-change-of-pov" className="text-xs hover:underline hover:text-white">14.7: Implied Change of POV</a></li>
+              <li className="mb-px"><a href="#post-pov-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -239,9 +239,9 @@ function POV() {
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/setting" className="hover:underline hover:text-white">Setting</a></li>
-              <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>
-              <li className="mb-px"><a href="/voice" className="hover:underline hover:text-white">Voice</a></li>
+              <li className="mb-px"><a href="/setting" className="text-xs hover:underline hover:text-white">Setting</a></li>
+              <li className="mb-px"><a href="/description" className="text-xs hover:underline hover:text-white">Description</a></li>
+              <li className="mb-px"><a href="/voice" className="text-xs hover:underline hover:text-white">Voice</a></li>
             </ol>
           </div>
 

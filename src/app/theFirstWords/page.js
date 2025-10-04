@@ -26,12 +26,6 @@ function TheFirstWords() {
         </blockquote>
       </div>
 
-      {/* 
-      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={firstWBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
-      </div>
-*/}
-
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
         <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
@@ -511,13 +505,13 @@ function TheFirstWords() {
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
               <li className="mb-px"><a href="#post-why-the-first-words-matter" className="hover:underline hover:text-white">17.1: Why the First Words Matter</a></li>
-              <li className="mb-px"><a href="#post-the-4-ws" className="hover:underline hover:text-white">17.2: The 4 'W's</a></li>
-              <li className="mb-px"><a href="#post-wide-or-narrow" className="hover:underline hover:text-white">17.3: Wide or Narrow</a></li>
-              <li className="mb-px"><a href="#post-close-or-distant" className="hover:underline hover:text-white">17.4: Close or Distant</a></li>
-              <li className="mb-px"><a href="#post-a-big-scene-and-a-small-scene" className="hover:underline hover:text-white">17.5: A Big Scene and a Small Scene</a></li>
-              <li className="mb-px"><a href="#post-order-of-information" className="hover:underline hover:text-white">17.5: Order of Information</a></li>
-              <li className="mb-px"><a href="#post-first-line" className="hover:underline hover:text-white">17.6: First Line</a></li>
-              <li className="mb-px"><a href="#post-first-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-the-4-ws" className="text-xs hover:underline hover:text-white">17.2: The 4 'W's</a></li>
+              <li className="mb-px"><a href="#post-wide-or-narrow" className="text-xs hover:underline hover:text-white">17.3: Wide or Narrow</a></li>
+              <li className="mb-px"><a href="#post-close-or-distant" className="text-xs hover:underline hover:text-white">17.4: Close or Distant</a></li>
+              <li className="mb-px"><a href="#post-a-big-scene-and-a-small-scene" className="text-xs hover:underline hover:text-white">17.5: A Big Scene and a Small Scene</a></li>
+              <li className="mb-px"><a href="#post-order-of-information" className="text-xs hover:underline hover:text-white">17.5: Order of Information</a></li>
+              <li className="mb-px"><a href="#post-first-line" className="text-xs hover:underline hover:text-white">17.6: First Line</a></li>
+              <li className="mb-px"><a href="#post-first-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -525,14 +519,11 @@ function TheFirstWords() {
           <div
             id="also-see-box"
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-
-              <li className="mb-px"><a href="/theNextWords" className="hover:underline hover:text-white">The Next Words</a></li>
-              <li className="mb-px"><a href="/theLastWords" className="hover:underline hover:text-white">The Last Words</a></li>
-              <li className="mb-px"><a href="/writingDevices" className="hover:underline hover:text-white">Writing Devices</a></li>
+              <li className="mb-px"><a href="/theNextWords" className="text-xs hover:underline hover:text-white">The Next Words</a></li>
+              <li className="mb-px"><a href="/theLastWords" className="text-xs hover:underline hover:text-white">The Last Words</a></li>
+              <li className="mb-px"><a href="/writingDevices" className="text-xs hover:underline hover:text-white">Writing Devices</a></li>
             </ol>
           </div>
 

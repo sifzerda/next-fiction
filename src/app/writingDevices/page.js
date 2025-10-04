@@ -26,12 +26,6 @@ function WritersDevices() {
         </blockquote>
       </div>
 
-      {/* 
-      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={writingDevicesBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
-      </div>
-*/}
-
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
         <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
@@ -378,23 +372,23 @@ function WritersDevices() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-general-info" className="hover:underline hover:text-white">20.1: General info</a></li>
-              <li className="mb-px"><a href="#post-offer/promise" className="hover:underline hover:text-white">20.2: Offer/Promise</a></li>
-              <li className="mb-px"><a href="#post-blocking" className="hover:underline hover:text-white">20.3: Blocking</a></li>
-              <li className="mb-px"><a href="#post-reincorporation" className="hover:underline hover:text-white">20.4: Reincorporation</a></li>
-              <li className="mb-px"><a href="#post-raising-the-stakes" className="hover:underline hover:text-white">20.5: Raising the Stakes</a></li>
-              <li className="mb-px"><a href="#post-setting-the-story" className="hover:underline hover:text-white">20.6: Setting the Story</a></li>
-              <li className="mb-px"><a href="#post-self-awareness" className="hover:underline hover:text-white">20.7: Self-Awareness</a></li>
-              <li className="mb-px"><a href="#post-irony" className="hover:underline hover:text-white">20.8: Irony</a></li>
-              <li className="mb-px"><a href="#post-irony" className="hover:underline hover:text-white">20.9: What Is Writer's Block?</a></li>
-              <li className="mb-px"><a href="#post-imagine-saying-it" className="hover:underline hover:text-white">20.10: Imagine Saying It</a></li>
-              <li className="mb-px"><a href="#post-the-right-idea-will-come" className="hover:underline hover:text-white">20.11: The Right Idea Will Come</a></li>
-              <li className="mb-px"><a href="#post-constrain-your-writing" className="hover:underline hover:text-white">20.12: Constrain Your Writing</a></li>
-              <li className="mb-px"><a href="#post-from-another-author" className="hover:underline hover:text-white">20.13: From Another Author's POV</a></li>
-              <li className="mb-px"><a href="#post-as-a-movie" className="hover:underline hover:text-white">20.14: As a Movie</a></li>
-              <li className="mb-px"><a href="#post-the-lovers-quarrel" className="hover:underline hover:text-white">20.15: The Lover's Quarrel</a></li>
-              <li className="mb-px"><a href="#post-write-what-you-love" className="hover:underline hover:text-white">20.16: Write What You Love</a></li>
-              <li className="mb-px"><a href="#post-wd-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-general-info" className="text-xs hover:underline hover:text-white">20.1: General info</a></li>
+              <li className="mb-px"><a href="#post-offer/promise" className="text-xs hover:underline hover:text-white">20.2: Offer/Promise</a></li>
+              <li className="mb-px"><a href="#post-blocking" className="text-xs hover:underline hover:text-white">20.3: Blocking</a></li>
+              <li className="mb-px"><a href="#post-reincorporation" className="text-xs hover:underline hover:text-white">20.4: Reincorporation</a></li>
+              <li className="mb-px"><a href="#post-raising-the-stakes" className="text-xs hover:underline hover:text-white">20.5: Raising the Stakes</a></li>
+              <li className="mb-px"><a href="#post-setting-the-story" className="text-xs hover:underline hover:text-white">20.6: Setting the Story</a></li>
+              <li className="mb-px"><a href="#post-self-awareness" className="text-xs hover:underline hover:text-white">20.7: Self-Awareness</a></li>
+              <li className="mb-px"><a href="#post-irony" className="text-xs hover:underline hover:text-white">20.8: Irony</a></li>
+              <li className="mb-px"><a href="#post-irony" className="text-xs hover:underline hover:text-white">20.9: What Is Writer's Block?</a></li>
+              <li className="mb-px"><a href="#post-imagine-saying-it" className="text-xs hover:underline hover:text-white">20.10: Imagine Saying It</a></li>
+              <li className="mb-px"><a href="#post-the-right-idea-will-come" className="text-xs hover:underline hover:text-white">20.11: The Right Idea Will Come</a></li>
+              <li className="mb-px"><a href="#post-constrain-your-writing" className="text-xs hover:underline hover:text-white">20.12: Constrain Your Writing</a></li>
+              <li className="mb-px"><a href="#post-from-another-author" className="text-xs hover:underline hover:text-white">20.13: From Another Author's POV</a></li>
+              <li className="mb-px"><a href="#post-as-a-movie" className="text-xs hover:underline hover:text-white">20.14: As a Movie</a></li>
+              <li className="mb-px"><a href="#post-the-lovers-quarrel" className="text-xs hover:underline hover:text-white">20.15: The Lover's Quarrel</a></li>
+              <li className="mb-px"><a href="#post-write-what-you-love" className="text-xs hover:underline hover:text-white">20.16: Write What You Love</a></li>
+              <li className="mb-px"><a href="#post-wd-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -402,14 +396,11 @@ function WritersDevices() {
           <div
             id="also-see-box"
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-
-              <li className="mb-px"><a href="/conflict" className="hover:underline hover:text-white">Conflict</a></li>
-              <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>
-              <li className="mb-px"><a href="/story" className="hover:underline hover:text-white">Story</a></li>
+              <li className="mb-px"><a href="/conflict" className="text-xs hover:underline hover:text-white">Conflict</a></li>
+              <li className="mb-px"><a href="/description" className="text-xs hover:underline hover:text-white">Description</a></li>
+              <li className="mb-px"><a href="/story" className="text-xs hover:underline hover:text-white">Story</a></li>
             </ol>
           </div>
 

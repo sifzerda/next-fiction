@@ -75,7 +75,6 @@ User authentication with JWTs allow users to create an account, which stores use
 - Zustand: store dynamically managing footnote assignment
 - Fuse: index site content to enable sitewide keyword search
 - Puppeteer: scrapes text content for indexing
-- ~~Pointer Events API (for sidebar dragging on sm+ screens when height resized) ~~
 - tailwind-scrollbar: customized sidebar scrollbar
 
 ## Footnotes and Tooltips
@@ -131,24 +130,16 @@ This project is substantially complete, with minor formalization and addition of
 
 # To Do <a name="to-do"></a>
 
-- [x] add basic formatting:
-  - [x] colours
-  - [x] links/nav
-- [x] add header component 
-- [x] footer content
-- [x] page elements (title/quote/banner/text sections)
-- [x] condense logline, synopsis and title as 'marketing'
-- [x] add a 'chapter' entry to prisma schema/db and link it to comment, so every comment not only is linked to a user, but also has a subject, so when you display comments, it doesn't display every comment, only the ones left on the relevant chapter page
-- [x] resize text or spacing in sidebar or alter so all the links fit
-
-Changes (for similarly updating horror map)
-- uppcase'd nav links
-- combined nav into header
-- added footnote system (component and utils/footnotestore)
-
+- [x] Basic formatting
+- [x] Basic components (header, footer, nav, etc) 
+- [x] template page elements (title, quote, banner, text sections)
+- [x] combine title, logline, and synopsis into one chapter ('marketing')
+- [x] link comments to chapter in prisma schema
+- [x] add footnote system (component and utils footnotestore)
 - [  ] User Account page with list of all comments user made
-- [ ] Fix up reference page, grab all footnotes
-- [ ] Give each subject page a proper image banner, remove post title 'continue reading' stuff:
+- [ ] Grab all footnotes and list on reference page
+- [ ] Give each subject page a banner image
+
 banners are 1200 x 400
     - [x] story
     - [x] premise
@@ -173,12 +164,15 @@ banners are 1200 x 400
     - [x] editing
     - [ ] marketing
 
-- [ ] make sure contact page works. Can maybe use the same program as used to send demo bookings in next.js site
+- [ ] Test that contact page works
 
-- [x] add quotes for each chapter:
+- [x] Add quotes for each chapter:
 
 - [x] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
+- add IDs to pages to find page section chunks via search (optional)
+
+- once page content all finished, reIndex with extract-text.js
 
 //============================================================//
 
@@ -188,21 +182,9 @@ npm install @fullcalendar/react @fullcalendar/daygrid @fullcalendar/interaction
 npm install react-big-calendar date-fns
 npm install react-big-calendar react-dnd react-dnd-html5-backend date-fns
 Code is in /scenes/page.js.
-
 npm install fuse.js
 
 //===========================================================//
-
-ADD IDs to pages to find chunks via search (optional)
-
-- once page content all finished, reIndex with extract-text.js
-
-Stuff to check:
-- [ ] every page has an index link to comments
-- [x] check all index links work and are correct
-
-- [ ] change all quote boxes to the blockquote br format
-- [ ] replace tailwind classname's with custom classes, e.g. shorten h2, h3....s to < h3 > and p.... to < p > 
 
 intertext links:
 
@@ -234,7 +216,7 @@ make text size of index box and also see box smaller to match about box
 
 remove blue box bottom space add to the div'<"m-1">
 
-Consider using 'code' for direct quotes (or something else); e.g.  <p><code><i></i></code></p>
+
 
     Some content missing in chapter scenes:
 

@@ -852,34 +852,34 @@ function MainCharacters() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-the-people-with-the-most-at-stake" className="hover:underline hover:text-white">7.1: The People with the Most at Stake</a></li>
-              <li className="mb-px"><a href="#post-ditch-the-wimp" className="hover:underline hover:text-white">7.2: Ditch the Wimp</a></li>
-              <li className="mb-px"><a href="#post-two-sources" className="hover:underline hover:text-white">7.3: Two Sources</a></li>
-              <li className="mb-px"><a href="#post-ingredients-of-a-character" className="hover:underline hover:text-white">7.4: Ingredients of a Character</a></li>
-              <li className="mb-px"><a href="#post-how-to-write-character" className="hover:underline hover:text-white">7.5: How to Write Character</a></li>
-              <li className="mb-px"><a href="#post-incentivization" className="hover:underline hover:text-white">7.6: Incentivization</a></li>
-              <li className="mb-px"><a href="#post-maximum-capacity" className="hover:underline hover:text-white">7.7: Maximum Capacity</a></li>
-              <li className="mb-px"><a href="#post-the-foil" className="hover:underline hover:text-white">7.8: The Foil</a></li>
-              <li className="mb-px"><a href="#post-the-rpa-method" className="hover:underline hover:text-white">7.9: The RPA Method</a></li>
-              <li className="mb-px"><a href="#post-character-vs-characterization" className="hover:underline hover:text-white">7.11: Character vs Characterization</a></li>
-              <li className="mb-px"><a href="#post-the-animal-vegetable-or-object-method" className="hover:underline hover:text-white">7.12: The 'Animal, Vegetable, or Object' Method</a></li>
-              <li className="mb-px"><a href="#post-murrays-psychological-needs" className="hover:underline hover:text-white">7.13: Murray's Psychological Needs</a></li>
-              <li className="mb-px"><a href="#post-poignant-character-building" className="hover:underline hover:text-white">7.14: Poignant Character-Building</a></li>
-              <li className="mb-px"><a href="#post-introducing-your-character" className="hover:underline hover:text-white">7.15: Introducing Your Character</a></li>
-              <li className="mb-px"><a href="#post-the-law-of-conservatism" className="hover:underline hover:text-white">7.16: The Law of Conservatism</a></li>
-              <li className="mb-px"><a href="#post-return-to-the-status-quo" className="hover:underline hover:text-white">7.17: Return to the Status Quo</a></li>
-              <li className="mb-px"><a href="#post-its-happened-before-itll-happen-again" className="hover:underline hover:text-white">7.18: It's Happened Before, It'll Happen Again</a></li>
-              <li className="mb-px"><a href="#post-better-never-than-late" className="hover:underline hover:text-white">7.19: Better Never Than Late</a></li>
-              <li className="mb-px"><a href="#post-depth" className="hover:underline hover:text-white">7.20: Depth</a></li>
-              <li className="mb-px"><a href="#post-multi-dimensionality" className="hover:underline hover:text-white">7.21: Multi-Dimensionality</a></li>
-              <li className="mb-px"><a href="#post-raising-the-stakes" className="hover:underline hover:text-white">7.22: Raising the Stakes</a></li>
-              <li className="mb-px"><a href="#post-number-of-characters" className="hover:underline hover:text-white">7.23: Number of Characters</a></li>
-              <li className="mb-px"><a href="#post-the-strange-sandwich" className="hover:underline hover:text-white">7.24: The 'Strange Sandwich'</a></li>
-              <li className="mb-px"><a href="#post-earn-what-you-learn" className="hover:underline hover:text-white">7.25: Earn What You Learn</a></li>
-              <li className="mb-px"><a href="#post-naming-your-character" className="hover:underline hover:text-white">7.26: Naming Your Character</a></li>
-              <li className="mb-px"><a href="#post-transference" className="hover:underline hover:text-white">7.27: Transference</a></li>
-              <li className="mb-px"><a href="#post-active-protagonist" className="hover:underline hover:text-white">7.28: Active Protagonist</a></li>
-              <li className="mb-px"><a href="#post-mainChar-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-the-people-with-the-most-at-stake" className="text-xs hover:underline hover:text-white">7.1: The People with the Most at Stake</a></li>
+              <li className="mb-px"><a href="#post-ditch-the-wimp" className="text-xs hover:underline hover:text-white">7.2: Ditch the Wimp</a></li>
+              <li className="mb-px"><a href="#post-two-sources" className="text-xs hover:underline hover:text-white">7.3: Two Sources</a></li>
+              <li className="mb-px"><a href="#post-ingredients-of-a-character" className="text-xs hover:underline hover:text-white">7.4: Ingredients of a Character</a></li>
+              <li className="mb-px"><a href="#post-how-to-write-character" className="text-xs hover:underline hover:text-white">7.5: How to Write Character</a></li>
+              <li className="mb-px"><a href="#post-incentivization" className="text-xs hover:underline hover:text-white">7.6: Incentivization</a></li>
+              <li className="mb-px"><a href="#post-maximum-capacity" className="text-xs hover:underline hover:text-white">7.7: Maximum Capacity</a></li>
+              <li className="mb-px"><a href="#post-the-foil" className="text-xs hover:underline hover:text-white">7.8: The Foil</a></li>
+              <li className="mb-px"><a href="#post-the-rpa-method" className="text-xs hover:underline hover:text-white">7.9: The RPA Method</a></li>
+              <li className="mb-px"><a href="#post-character-vs-characterization" className="text-xs hover:underline hover:text-white">7.11: Character vs Characterization</a></li>
+              <li className="mb-px"><a href="#post-the-animal-vegetable-or-object-method" className="text-xs hover:underline hover:text-white">7.12: The 'Animal, Vegetable, or Object' Method</a></li>
+              <li className="mb-px"><a href="#post-murrays-psychological-needs" className="text-xs hover:underline hover:text-white">7.13: Murray's Psychological Needs</a></li>
+              <li className="mb-px"><a href="#post-poignant-character-building" className="text-xs hover:underline hover:text-white">7.14: Poignant Character-Building</a></li>
+              <li className="mb-px"><a href="#post-introducing-your-character" className="text-xs hover:underline hover:text-white">7.15: Introducing Your Character</a></li>
+              <li className="mb-px"><a href="#post-the-law-of-conservatism" className="text-xs hover:underline hover:text-white">7.16: The Law of Conservatism</a></li>
+              <li className="mb-px"><a href="#post-return-to-the-status-quo" className="text-xs hover:underline hover:text-white">7.17: Return to the Status Quo</a></li>
+              <li className="mb-px"><a href="#post-its-happened-before-itll-happen-again" className="text-xs hover:underline hover:text-white">7.18: It's Happened Before, It'll Happen Again</a></li>
+              <li className="mb-px"><a href="#post-better-never-than-late" className="text-xs hover:underline hover:text-white">7.19: Better Never Than Late</a></li>
+              <li className="mb-px"><a href="#post-depth" className="text-xs hover:underline hover:text-white">7.20: Depth</a></li>
+              <li className="mb-px"><a href="#post-multi-dimensionality" className="text-xs hover:underline hover:text-white">7.21: Multi-Dimensionality</a></li>
+              <li className="mb-px"><a href="#post-raising-the-stakes" className="text-xs hover:underline hover:text-white">7.22: Raising the Stakes</a></li>
+              <li className="mb-px"><a href="#post-number-of-characters" className="text-xs hover:underline hover:text-white">7.23: Number of Characters</a></li>
+              <li className="mb-px"><a href="#post-the-strange-sandwich" className="text-xs hover:underline hover:text-white">7.24: The 'Strange Sandwich'</a></li>
+              <li className="mb-px"><a href="#post-earn-what-you-learn" className="text-xs hover:underline hover:text-white">7.25: Earn What You Learn</a></li>
+              <li className="mb-px"><a href="#post-naming-your-character" className="text-xs hover:underline hover:text-white">7.26: Naming Your Character</a></li>
+              <li className="mb-px"><a href="#post-transference" className="text-xs hover:underline hover:text-white">7.27: Transference</a></li>
+              <li className="mb-px"><a href="#post-active-protagonist" className="text-xs hover:underline hover:text-white">7.28: Active Protagonist</a></li>
+              <li className="mb-px"><a href="#post-mainChar-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -890,9 +890,9 @@ function MainCharacters() {
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/secondaryCharacters" className="hover:underline hover:text-white">Secondary Characters</a></li>
-              <li className="mb-px"><a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a></li>
-              <li className="mb-px"><a href="antagonists" className="hover:underline hover:text-white">Antagonists</a></li>
+              <li className="mb-px"><a href="/secondaryCharacters" className="text-xs hover:underline hover:text-white">Secondary Characters</a></li>
+              <li className="mb-px"><a href="/dialogue" className="text-xs hover:underline hover:text-white">Dialogue</a></li>
+              <li className="mb-px"><a href="antagonists" className="text-xs hover:underline hover:text-white">Antagonists</a></li>
             </ol>
           </div>
 

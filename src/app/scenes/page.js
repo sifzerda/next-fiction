@@ -797,19 +797,19 @@ function Scenes() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-anatomy-of-a-scene" className="hover:underline hover:text-white">6.1: Anatomy of a Scene</a></li>
-              <li className="mb-px"><a href="#post-sex-words" className="hover:underline hover:text-white">6.2: 'Sex Words'</a></li>
-              <li className="mb-px"><a href="#post-forums-for-raising-and-resolving-conflict" className="hover:underline hover:text-white">6.3: Forums for Raising and Resolving Conflict</a></li>
-              <li className="mb-px"><a href="#post-the-e-chain" className="hover:underline hover:text-white">6.4: The 'E Chain'</a></li>
-              <li className="mb-px"><a href="#post-diametrics" className="hover:underline hover:text-white">6.5: Diametrics</a></li>
-              <li className="mb-px"><a href="#post-the-first-scene" className="hover:underline hover:text-white">6.6: The First Scene</a></li>
-              <li className="mb-px"><a href="#post-the-last-scene" className="hover:underline hover:text-white">6.7: The Last Scene</a></li>
-              <li className="mb-px"><a href="#post-all-the-other-scenes" className="hover:underline hover:text-white">6.8: All the Other Scenes</a></li>
-              <li className="mb-px"><a href="#post-chronology" className="hover:underline hover:text-white">6.9: Chronology</a></li>
-              <li className="mb-px"><a href="#post-the-french-scene" className="hover:underline hover:text-white">6.10: The 'French Scene'</a></li>
-              <li className="mb-px"><a href="#post-progression" className="hover:underline hover:text-white">6.11: Progression</a></li>
-              <li className="mb-px"><a href="#post-bait-and-switch-scene" className="hover:underline hover:text-white">6.12: Bait-and-Switch Scene</a></li>
-              <li className="mb-px"><a href="#post-scenes-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-anatomy-of-a-scene" className="text-xs hover:underline hover:text-white">6.1: Anatomy of a Scene</a></li>
+              <li className="mb-px"><a href="#post-sex-words" className="text-xs hover:underline hover:text-white">6.2: 'Sex Words'</a></li>
+              <li className="mb-px"><a href="#post-forums-for-raising-and-resolving-conflict" className="text-xs hover:underline hover:text-white">6.3: Forums for Raising and Resolving Conflict</a></li>
+              <li className="mb-px"><a href="#post-the-e-chain" className="text-xs hover:underline hover:text-white">6.4: The 'E Chain'</a></li>
+              <li className="mb-px"><a href="#post-diametrics" className="text-xs hover:underline hover:text-white">6.5: Diametrics</a></li>
+              <li className="mb-px"><a href="#post-the-first-scene" className="text-xs hover:underline hover:text-white">6.6: The First Scene</a></li>
+              <li className="mb-px"><a href="#post-the-last-scene" className="text-xs hover:underline hover:text-white">6.7: The Last Scene</a></li>
+              <li className="mb-px"><a href="#post-all-the-other-scenes" className="text-xs hover:underline hover:text-white">6.8: All the Other Scenes</a></li>
+              <li className="mb-px"><a href="#post-chronology" className="text-xs hover:underline hover:text-white">6.9: Chronology</a></li>
+              <li className="mb-px"><a href="#post-the-french-scene" className="text-xs hover:underline hover:text-white">6.10: The 'French Scene'</a></li>
+              <li className="mb-px"><a href="#post-progression" className="text-xs hover:underline hover:text-white">6.11: Progression</a></li>
+              <li className="mb-px"><a href="#post-bait-and-switch-scene" className="text-xs hover:underline hover:text-white">6.12: Bait-and-Switch Scene</a></li>
+              <li className="mb-px"><a href="#post-scenes-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -819,9 +819,9 @@ function Scenes() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/setting" className="hover:underline hover:text-white">Setting</a></li>
-              <li className="mb-px"><a href="/suspense" className="hover:underline hover:text-white">Suspense</a></li>
-              <li className="mb-px"><a href="/pov" className="hover:underline hover:text-white">POV</a></li>
+              <li className="mb-px"><a href="/setting" className="text-xs hover:underline hover:text-white">Setting</a></li>
+              <li className="mb-px"><a href="/suspense" className="text-xs hover:underline hover:text-white">Suspense</a></li>
+              <li className="mb-px"><a href="/pov" className="text-xs hover:underline hover:text-white">POV</a></li>
             </ol>
           </div>
 

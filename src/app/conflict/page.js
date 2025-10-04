@@ -209,13 +209,13 @@ function Conflict() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-conflict" className="hover:underline hover:text-white">5.1. What is Conflict?</a></li>
-              <li className="mb-px"><a href="#post-why-is-it-important" className="hover:underline hover:text-white">5.2. Why Is It Important?</a></li>
-              <li className="mb-px"><a href="#post-types-of-conflict" className="hover:underline hover:text-white">5.3. Types of Conflict</a></li>
-              <li className="mb-px"><a href="#post-conflict-does-not-equal-fight" className="hover:underline hover:text-white">5.4. Conflict ≠ Fight</a></li>
-              <li className="mb-px"><a href="#post-how-to-create-conflict" className="hover:underline hover:text-white">5.5. How to Create Conflict</a></li>
-              <li className="mb-px"><a href="#post-plans-must-be-complicated" className="hover:underline hover:text-white">5.6 Plans Must Be Complicated</a></li>
-              <li className="mb-px"><a href="#post-conflict-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-conflict" className="text-xs hover:underline hover:text-white">5.1. What is Conflict?</a></li>
+              <li className="mb-px"><a href="#post-why-is-it-important" className="text-xs hover:underline hover:text-white">5.2. Why Is It Important?</a></li>
+              <li className="mb-px"><a href="#post-types-of-conflict" className="text-xs hover:underline hover:text-white">5.3. Types of Conflict</a></li>
+              <li className="mb-px"><a href="#post-conflict-does-not-equal-fight" className="text-xs hover:underline hover:text-white">5.4. Conflict ≠ Fight</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-conflict" className="text-xs hover:underline hover:text-white">5.5. How to Create Conflict</a></li>
+              <li className="mb-px"><a href="#post-plans-must-be-complicated" className="text-xs hover:underline hover:text-white">5.6 Plans Must Be Complicated</a></li>
+              <li className="mb-px"><a href="#post-conflict-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -225,9 +225,9 @@ function Conflict() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/dialogue" className="hover:underline hover:text-white">Dialogue</a></li>
-              <li className="mb-px"><a href="/suspense" className="hover:underline hover:text-white">Suspense</a></li>
-              <li className="mb-px"><a href="/antagonists" className="hover:underline hover:text-white">Antagonists</a></li>
+              <li className="mb-px"><a href="/dialogue" className="text-xs hover:underline hover:text-white">Dialogue</a></li>
+              <li className="mb-px"><a href="/suspense" className="text-xs hover:underline hover:text-white">Suspense</a></li>
+              <li className="mb-px"><a href="/antagonists" className="text-xs hover:underline hover:text-white">Antagonists</a></li>
             </ol>
           </div>
 

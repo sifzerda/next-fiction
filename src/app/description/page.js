@@ -659,27 +659,26 @@ function Description() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px"><a href="#post-show-dont-tell" className="hover:underline hover:text-white">11.1: Show Don't Tell</a></li>
-              <li className="mb-px"><a href="#post-a-common-pitfall" className="hover:underline hover:text-white">11.2: A Common Pitfall</a></li>
-              <li className="mb-px"><a href="#post-information-economy" className="hover:underline hover:text-white">11.3: Information Economy</a></li>
-              <li className="mb-px"><a href="#post-most-unusual-to-least-unusual" className="hover:underline hover:text-white">11.4: Most Unusual to Least Unusual</a></li>
-              <li className="mb-px"><a href="#post-metaphors-and-similies" className="hover:underline hover:text-white">11.5: Metaphors and Similies</a></li>
-              <li className="mb-px"><a href="#post-the-hierarchy-of-best-description" className="hover:underline hover:text-white">11.6: The Hierarchy of Best Description</a></li>
-              <li className="mb-px"><a href="#post-break-up-adjectives" className="hover:underline hover:text-white">11.7: Break Up Adjectives</a></li>
-              <li className="mb-px"><a href="#post-how-frequent-should-description-be" className="hover:underline hover:text-white">11.8: How Frequent Should Description Be?</a></li>
-              <li className="mb-px"><a href="#post-make-the-abstract-concrete" className="hover:underline hover:text-white">11.9: Make the Abstract Concrete</a></li>
-              <li className="mb-px"><a href="#post-describe-things-as-other-things" className="hover:underline hover:text-white">11.10: Describe Things as Other Things</a></li>
-              <li className="mb-px"><a href="#post-emphasize-by-contrast" className="hover:underline hover:text-white">11.11: Emphasize by Contrast</a></li>
-              <li className="mb-px"><a href="#post-chain-link-paragraphs" className="hover:underline hover:text-white">11.12: Chain Link Paragraphs</a></li>
-              <li className="mb-px"><a href="#post-drama-by-omission" className="hover:underline hover:text-white">11.13: Drama by Omission</a></li>
-              <li className="mb-px"><a href="#post-wide-and-narrow-description" className="hover:underline hover:text-white">11.14: Wide and Narrow Description</a></li>
-              <li className="mb-px"><a href="#post-the-ladder-of-abstraction" className="hover:underline hover:text-white">11.15: The Ladder of Abstraction</a></li>
-              <li className="mb-px"><a href="#post-description-foils" className="hover:underline hover:text-white">11.16: Description Foils</a></li>
-              <li className="mb-px"><a href="#post-time-markers" className="hover:underline hover:text-white">11.17: Time Markers</a></li>
-              <li className="mb-px"><a href="#post-gravity" className="hover:underline hover:text-white">11.18: Gravity</a></li>
-              <li className="mb-px"><a href="#post-description-in-action" className="hover:underline hover:text-white">11.19: Description in Action</a></li>
-              <li className="mb-px"><a href="#post-description-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-show-dont-tell" className="text-xs hover:underline hover:text-white">11.1: Show Don't Tell</a></li>
+              <li className="mb-px"><a href="#post-a-common-pitfall" className="text-xs hover:underline hover:text-white">11.2: A Common Pitfall</a></li>
+              <li className="mb-px"><a href="#post-information-economy" className="text-xs hover:underline hover:text-white">11.3: Information Economy</a></li>
+              <li className="mb-px"><a href="#post-most-unusual-to-least-unusual" className="text-xs hover:underline hover:text-white">11.4: Most Unusual to Least Unusual</a></li>
+              <li className="mb-px"><a href="#post-metaphors-and-similies" className="text-xs hover:underline hover:text-white">11.5: Metaphors and Similies</a></li>
+              <li className="mb-px"><a href="#post-the-hierarchy-of-best-description" className="text-xs hover:underline hover:text-white">11.6: The Hierarchy of Best Description</a></li>
+              <li className="mb-px"><a href="#post-break-up-adjectives" className="text-xs hover:underline hover:text-white">11.7: Break Up Adjectives</a></li>
+              <li className="mb-px"><a href="#post-how-frequent-should-description-be" className="text-xs hover:underline hover:text-white">11.8: How Frequent Should Description Be?</a></li>
+              <li className="mb-px"><a href="#post-make-the-abstract-concrete" className="text-xs hover:underline hover:text-white">11.9: Make the Abstract Concrete</a></li>
+              <li className="mb-px"><a href="#post-describe-things-as-other-things" className="text-xs hover:underline hover:text-white">11.10: Describe Things as Other Things</a></li>
+              <li className="mb-px"><a href="#post-emphasize-by-contrast" className="text-xs hover:underline hover:text-white">11.11: Emphasize by Contrast</a></li>
+              <li className="mb-px"><a href="#post-chain-link-paragraphs" className="text-xs hover:underline hover:text-white">11.12: Chain Link Paragraphs</a></li>
+              <li className="mb-px"><a href="#post-drama-by-omission" className="text-xs hover:underline hover:text-white">11.13: Drama by Omission</a></li>
+              <li className="mb-px"><a href="#post-wide-and-narrow-description" className="text-xs hover:underline hover:text-white">11.14: Wide and Narrow Description</a></li>
+              <li className="mb-px"><a href="#post-the-ladder-of-abstraction" className="text-xs hover:underline hover:text-white">11.15: The Ladder of Abstraction</a></li>
+              <li className="mb-px"><a href="#post-description-foils" className="text-xs hover:underline hover:text-white">11.16: Description Foils</a></li>
+              <li className="mb-px"><a href="#post-time-markers" className="text-xs hover:underline hover:text-white">11.17: Time Markers</a></li>
+              <li className="mb-px"><a href="#post-gravity" className="text-xs hover:underline hover:text-white">11.18: Gravity</a></li>
+              <li className="mb-px"><a href="#post-description-in-action" className="text-xs hover:underline hover:text-white">11.19: Description in Action</a></li>
+              <li className="mb-px"><a href="#post-description-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -689,9 +688,9 @@ function Description() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Voice</a></li>
-              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Writing Devices</a></li>
-              <li className="mb-px"><a href="/synopsis" className="hover:underline hover:text-white">Editing</a></li>
+              <li className="mb-px"><a href="/premise" className="text-xs hover:underline hover:text-white">Voice</a></li>
+              <li className="mb-px"><a href="/plot" className="text-xs hover:underline hover:text-white">Writing Devices</a></li>
+              <li className="mb-px"><a href="/synopsis" className="text-xs hover:underline hover:text-white">Editing</a></li>
             </ol>
           </div>
 

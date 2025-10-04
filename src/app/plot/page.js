@@ -649,16 +649,16 @@ function Plot() {
           <div id="index-box" className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">3.1: Plotting in a Vacuum</a></li>
-              <li className="mb-px"><a href="#post-types-of-plots" className="hover:underline hover:text-white">3.2: Types of Plots</a></li>
-              <li className="mb-px"><a href="#post-inciting-incident" className="hover:underline hover:text-white">3.3: The Inciting Incident</a></li>
-              <li className="mb-px"><a href="#post-three-act-structure" className="hover:underline hover:text-white">3.4: Three Act Structure</a></li>
-              <li className="mb-px"><a href="#post-three-right-angled-turns" className="hover:underline hover:text-white">3.5: Three Right-Angled Turns</a></li>
-              <li className="mb-px"><a href="#post-chiastic-structure" className="hover:underline hover:text-white">3.6: Chiastic Structure</a></li>
-              <li className="mb-px"><a href="#post-plots-with-problems" className="hover:underline hover:text-white">3.7: Plots with Problems</a></li>
-              <li className="mb-px"><a href="#post-story-planning" className="hover:underline hover:text-white">3.8: Story Planning</a></li>
-              <li className="mb-px"><a href="#post-romance-three-kinds" className="hover:underline hover:text-white">3.9: Romance: Three Kinds</a></li>
-              <li className="mb-px"><a href="#post-plot-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-storytelling" className="text-xs hover:underline hover:text-white">3.1: Plotting in a Vacuum</a></li>
+              <li className="mb-px"><a href="#post-types-of-plots" className="text-xs hover:underline hover:text-white">3.2: Types of Plots</a></li>
+              <li className="mb-px"><a href="#post-inciting-incident" className="text-xs hover:underline hover:text-white">3.3: The Inciting Incident</a></li>
+              <li className="mb-px"><a href="#post-three-act-structure" className="text-xs hover:underline hover:text-white">3.4: Three Act Structure</a></li>
+              <li className="mb-px"><a href="#post-three-right-angled-turns" className="text-xs hover:underline hover:text-white">3.5: Three Right-Angled Turns</a></li>
+              <li className="mb-px"><a href="#post-chiastic-structure" className="text-xs hover:underline hover:text-white">3.6: Chiastic Structure</a></li>
+              <li className="mb-px"><a href="#post-plots-with-problems" className="text-xs hover:underline hover:text-white">3.7: Plots with Problems</a></li>
+              <li className="mb-px"><a href="#post-story-planning" className="text-xs hover:underline hover:text-white">3.8: Story Planning</a></li>
+              <li className="mb-px"><a href="#post-romance-three-kinds" className="text-xs hover:underline hover:text-white">3.9: Romance: Three Kinds</a></li>
+              <li className="mb-px"><a href="#post-plot-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -666,9 +666,9 @@ function Plot() {
           <div id="also-see-box" className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/story" className="hover:underline hover:text-white">Story</a></li>
-              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
-              <li className="mb-px"><a href="/marketing" className="hover:underline hover:text-white">Marketing</a></li>
+              <li className="mb-px"><a href="/story" className="text-xs hover:underline hover:text-white">Story</a></li>
+              <li className="mb-px"><a href="/premise" className="text-xs hover:underline hover:text-white">Premise</a></li>
+              <li className="mb-px"><a href="/marketing" className="text-xs hover:underline hover:text-white">Marketing</a></li>
             </ol>
           </div>
 

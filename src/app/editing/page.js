@@ -31,12 +31,6 @@ function Editing() {
         </blockquote>
       </div>
 
-      {/* 
-      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={editingBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
-      </div>
-*/}
-
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
         <Image src={editingBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
@@ -291,14 +285,13 @@ function Editing() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px"><a href="#post-general-deadweights" className="hover:underline hover:text-white">21.1: General Deadweights</a></li>
-              <li className="mb-px"><a href="#post-exceptions-to-deadweights" className="hover:underline hover:text-white">21.2: Exceptions to Deadweights</a></li>
-              <li className="mb-px"><a href="#post-pronouns" className="hover:underline hover:text-white">21.3: Pronouns</a></li>
-              <li className="mb-px"><a href="#post-right-branching-sentences" className="hover:underline hover:text-white">21.4: Right-Branching Sentences</a></li>
-              <li className="mb-px"><a href="#post-start-and-end-strong" className="hover:underline hover:text-white">21.5: Start and End Strong</a></li>
-              <li className="mb-px"><a href="#post-guarding-word-territory" className="hover:underline hover:text-white">21.6: Guarding Word Territory</a></li>
-              <li className="mb-px"><a href="#post-editing-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-general-deadweights" className="text-xs hover:underline hover:text-white">21.1: General Deadweights</a></li>
+              <li className="mb-px"><a href="#post-exceptions-to-deadweights" className="text-xs hover:underline hover:text-white">21.2: Exceptions to Deadweights</a></li>
+              <li className="mb-px"><a href="#post-pronouns" className="text-xs hover:underline hover:text-white">21.3: Pronouns</a></li>
+              <li className="mb-px"><a href="#post-right-branching-sentences" className="text-xs hover:underline hover:text-white">21.4: Right-Branching Sentences</a></li>
+              <li className="mb-px"><a href="#post-start-and-end-strong" className="text-xs hover:underline hover:text-white">21.5: Start and End Strong</a></li>
+              <li className="mb-px"><a href="#post-guarding-word-territory" className="text-xs hover:underline hover:text-white">21.6: Guarding Word Territory</a></li>
+              <li className="mb-px"><a href="#post-editing-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -309,9 +302,9 @@ function Editing() {
 
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/themes" className="hover:underline hover:text-white">Themes</a></li>
-              <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>
-              <li className="mb-px"><a href="/marketing" className="hover:underline hover:text-white">Marketing</a></li>
+              <li className="mb-px"><a href="/themes" className="text-xs hover:underline hover:text-white">Themes</a></li>
+              <li className="mb-px"><a href="/description" className="text-xs hover:underline hover:text-white">Description</a></li>
+              <li className="mb-px"><a href="/marketing" className="text-xs hover:underline hover:text-white">Marketing</a></li>
             </ol>
           </div>
 

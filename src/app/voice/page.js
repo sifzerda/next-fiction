@@ -36,12 +36,6 @@ function Voice() {
         </blockquote>
       </div>
 
-      {/* 
-      <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={voiceBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
-      </div>
-*/}
-
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
         <Image src={premiseBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
@@ -183,11 +177,11 @@ function Voice() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-voice" className="hover:underline hover:text-white">15.1: What is Voice?</a></li>
-              <li className="mb-px"><a href="#post-how-to-create-voice" className="hover:underline hover:text-white">15.2: How to Create Voice</a></li>
-              <li className="mb-px"><a href="#post-be-quiet" className="hover:underline hover:text-white">15.3: Be Quiet</a></li>
-              <li className="mb-px"><a href="#post-contrast" className="hover:underline hover:text-white">15.4: Contrast</a></li>
-              <li className="mb-px"><a href="#post-voice-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-voice" className="text-xs hover:underline hover:text-white">15.1: What is Voice?</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-voice" className="text-xs hover:underline hover:text-white">15.2: How to Create Voice</a></li>
+              <li className="mb-px"><a href="#post-be-quiet" className="text-xs hover:underline hover:text-white">15.3: Be Quiet</a></li>
+              <li className="mb-px"><a href="#post-contrast" className="text-xs hover:underline hover:text-white">15.4: Contrast</a></li>
+              <li className="mb-px"><a href="#post-voice-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -196,9 +190,9 @@ function Voice() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/premise" className="hover:underline hover:text-white">Premise</a></li>
-              <li className="mb-px"><a href="/plot" className="hover:underline hover:text-white">Plot</a></li>
-              <li className="mb-px"><a href="/marketing" className="hover:underline hover:text-white">Marketing</a></li>
+              <li className="mb-px"><a href="/premise" className="text-xs hover:underline hover:text-white">Premise</a></li>
+              <li className="mb-px"><a href="/plot" className="text-xs hover:underline hover:text-white">Plot</a></li>
+              <li className="mb-px"><a href="/marketing" className="text-xs hover:underline hover:text-white">Marketing</a></li>
             </ol>
           </div>
 

@@ -1470,11 +1470,11 @@ function TheNextWords() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-dont-do-this" className="hover:underline hover:text-white">18.1: Don't Do This!</a></li>
-              <li className="mb-px"><a href="#post-do-this" className="hover:underline hover:text-white">18.2: Do This!</a></li>
-              <li className="mb-px"><a href="#post-writing-hacks" className="hover:underline hover:text-white">18.3: Writing 'Hacks'</a></li>
-              <li className="mb-px"><a href="#post-professional-advice" className="hover:underline hover:text-white">18.4: Professional Advice</a></li>
-              <li className="mb-px"><a href="#post-next-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-dont-do-this" className="text-xs hover:underline hover:text-white">18.1: Don't Do This!</a></li>
+              <li className="mb-px"><a href="#post-do-this" className="text-xs hover:underline hover:text-white">18.2: Do This!</a></li>
+              <li className="mb-px"><a href="#post-writing-hacks" className="text-xs hover:underline hover:text-white">18.3: Writing 'Hacks'</a></li>
+              <li className="mb-px"><a href="#post-professional-advice" className="text-xs hover:underline hover:text-white">18.4: Professional Advice</a></li>
+              <li className="mb-px"><a href="#post-next-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -1484,9 +1484,9 @@ function TheNextWords() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/theFirstWords" className="hover:underline hover:text-white">The First Words</a></li>
-              <li className="mb-px"><a href="/theLastWords" className="hover:underline hover:text-white">The Last Words</a></li>
-              <li className="mb-px"><a href="/editing" className="hover:underline hover:text-white">Editing</a></li>
+              <li className="mb-px"><a href="/theFirstWords" className="text-xs hover:underline hover:text-white">The First Words</a></li>
+              <li className="mb-px"><a href="/theLastWords" className="text-xs hover:underline hover:text-white">The Last Words</a></li>
+              <li className="mb-px"><a href="/editing" className="text-xs hover:underline hover:text-white">Editing</a></li>
             </ol>
           </div>
 

@@ -154,12 +154,12 @@ function Setting() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-a-setting" className="hover:underline hover:text-white">9.1: What is a Setting?</a></li>
-              <li className="mb-px"><a href="#post-enhance-interest-and-conflict" className="hover:underline hover:text-white">9.2: Enhance Interest and Conflict</a></li>
-              <li className="mb-px"><a href="#post-describing-setting" className="hover:underline hover:text-white">9.3: Describing Setting</a></li>
-              <li className="mb-px"><a href="#post-setting-as-character" className="hover:underline hover:text-white">9.4: Setting as Character</a></li>
-              <li className="mb-px"><a href="#post-sub-setting" className="hover:underline hover:text-white">9.5: Sub-Setting</a></li>
-              <li className="mb-px"><a href="#post-setting-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-a-setting" className="text-xs hover:underline hover:text-white">9.1: What is a Setting?</a></li>
+              <li className="mb-px"><a href="#post-enhance-interest-and-conflict" className="text-xs hover:underline hover:text-white">9.2: Enhance Interest and Conflict</a></li>
+              <li className="mb-px"><a href="#post-describing-setting" className="text-xs hover:underline hover:text-white">9.3: Describing Setting</a></li>
+              <li className="mb-px"><a href="#post-setting-as-character" className="text-xs hover:underline hover:text-white">9.4: Setting as Character</a></li>
+              <li className="mb-px"><a href="#post-sub-setting" className="text-xs hover:underline hover:text-white">9.5: Sub-Setting</a></li>
+              <li className="mb-px"><a href="#post-setting-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -169,9 +169,9 @@ function Setting() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/themes" className="hover:underline hover:text-white">Themes</a></li>
-              <li className="mb-px"><a href="/scenes" className="hover:underline hover:text-white">Scenes</a></li>
-              <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>
+              <li className="mb-px"><a href="/themes" className="text-xs hover:underline hover:text-white">Themes</a></li>
+              <li className="mb-px"><a href="/scenes" className="text-xs hover:underline hover:text-white">Scenes</a></li>
+              <li className="mb-px"><a href="/description" className="text-xs hover:underline hover:text-white">Description</a></li>
             </ol>
           </div>
 

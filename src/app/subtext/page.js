@@ -42,23 +42,22 @@ function Subtext() {
             <FootnoteRef text={<><em>War of the Worlds</em>, Paramount Pictures / DreamWorks Pictures, (2005).</>} />
           </p>
 
-
-<div className="quote-box">
-          <p className='italic'>Father: Here we go, some nice peanut butter sandwiches.</p>
-          <p className='italic'>Daughter: I&#39;m allergic to peanut butter.</p>
-          <p className='italic'>Father: Since when?</p>
-          <p className='italic'>Daughter: Birth.</p>
+          <div className="quote-box">
+            <p className='italic'>Father: Here we go, some nice peanut butter sandwiches.</p>
+            <p className='italic'>Daughter: I&#39;m allergic to peanut butter.</p>
+            <p className='italic'>Father: Since when?</p>
+            <p className='italic'>Daughter: Birth.</p>
           </div>
 
           <p>Subtext = bad father. This is conveyed more dynamically here in an interaction, than the daughter merely spinning off a cliché like "I hate you, you were never there."</p>
           <p>You can also convey subtext through action and description. For example, a game played between characters could be the arena for subtext of deadly opposition between rivals, or flirting between potential love interests. Just note the character saying, “You&#39;re good at chess. Also, you&#39;re cute. Let&#39;s go out,” is not subtext, it&#39;s just text, because there is only one way of reading it. Rather, it&#39;s subtext when dialogue or action acquires a secondary, implied meaning, that is, there are two (not necessarily opposing) ways of reading the situation; the textual and the subtextual, e.g.</p>
 
-<div className="custom-box">
-          <p className='italic'>She: “You haven&#39;t moved your King.”</p>
-          <p className='italic'>He: “I&#39;m waiting for the right moment.”</p>
-          <p className='italic'>She: “You&#39;ve had plenty of opportunities to get closer.”</p>
-          <p className='italic'>He: “I want to surprise you.”</p>
-</div>
+          <div className="custom-box">
+            <p className='italic'>She: “You haven&#39;t moved your King.”</p>
+            <p className='italic'>He: “I&#39;m waiting for the right moment.”</p>
+            <p className='italic'>She: “You&#39;ve had plenty of opportunities to get closer.”</p>
+            <p className='italic'>He: “I want to surprise you.”</p>
+          </div>
 
           <p>Another example: In Flowers for Algernon,
             <FootnoteRef text={`DANIEL KEYES,\nFlowers for Algernon.`} />
@@ -116,11 +115,11 @@ function Subtext() {
           <h3>10.2.1 	Types of Symbolism</h3>
           <p>There are generally two types of symbolism:</p>
 
-            <h5>I. External Imagery:</h5>
+          <h5>I. External Imagery:</h5>
 
           <p>This relies on an existing connection between image (logos) and meaning (semantic), e.g. spiders = fear; applies = temptation. The risk with this is if the reader doesn&#39;t make the connection (e.g. they don&#39;t fear spiders, or dislike apples) the effect fails. </p>
 
-            <h5>II. External Imagery:</h5>
+          <h5>II. External Imagery:</h5>
 
           <p>This creates a new connection between image and meaning, for instance, birds = anxiety; oranges = death. This is harder, relying more on organic writing ability, but can be memorably evocative if done right.</p>
 
@@ -136,7 +135,7 @@ function Subtext() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}
@@ -153,9 +152,9 @@ function Subtext() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-storytelling" className="hover:underline hover:text-white">10.1: What is subtext?</a></li>
-              <li className="mb-px"><a href="#post-whatisastory" className="hover:underline hover:text-white">10.2: Symbolism</a></li>
-              <li className="mb-px"><a href="#post-subtext-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-storytelling" className="text-xs hover:underline hover:text-white">10.1: What is subtext?</a></li>
+              <li className="mb-px"><a href="#post-whatisastory" className="text-xs hover:underline hover:text-white">10.2: Symbolism</a></li>
+              <li className="mb-px"><a href="#post-subtext-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -163,13 +162,11 @@ function Subtext() {
           <div
             id="also-see-box"
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px"><a href="/themes" className="hover:underline hover:text-white">Themes</a></li>
-              <li className="mb-px"><a href="/scenes" className="hover:underline hover:text-white">Scenes</a></li>
-              <li className="mb-px"><a href="/description" className="hover:underline hover:text-white">Description</a></li>
+              <li className="mb-px"><a href="/themes" className="text-xs hover:underline hover:text-white">Themes</a></li>
+              <li className="mb-px"><a href="/scenes" className="text-xs hover:underline hover:text-white">Scenes</a></li>
+              <li className="mb-px"><a href="/description" className="text-xs hover:underline hover:text-white">Description</a></li>
             </ol>
           </div>
 

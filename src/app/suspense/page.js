@@ -191,11 +191,11 @@ function Suspense() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-suspense" className="hover:underline hover:text-white">13.1 What is Suspense?</a></li>
-              <li className="mb-px"><a href="#post-how-to-create-suspense" className="hover:underline hover:text-white">13.2 How to Create Suspense</a></li>
-              <li className="mb-px"><a href="#post-tension" className="hover:underline hover:text-white">13.3 Tension</a></li>
-              <li className="mb-px"><a href="#post-pacing" className="hover:underline hover:text-white">13.4 Pacing</a></li>
-              <li className="mb-px"><a href="#post-suspense-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-suspense" className="text-xs hover:underline hover:text-white">13.1 What is Suspense?</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-suspense" className="text-xs hover:underline hover:text-white">13.2 How to Create Suspense</a></li>
+              <li className="mb-px"><a href="#post-tension" className="text-xs hover:underline hover:text-white">13.3 Tension</a></li>
+              <li className="mb-px"><a href="#post-pacing" className="text-xs hover:underline hover:text-white">13.4 Pacing</a></li>
+              <li className="mb-px"><a href="#post-suspense-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -205,9 +205,9 @@ function Suspense() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/conflict" className="hover:underline hover:text-white">Conflict</a></li>
-              <li className="mb-px"><a href="/subtext" className="hover:underline hover:text-white">Subtext</a></li>
-              <li className="mb-px"><a href="/writingDevices" className="hover:underline hover:text-white">Writing Devices</a></li>
+              <li className="mb-px"><a href="/conflict" className="text-xs hover:underline hover:text-white">Conflict</a></li>
+              <li className="mb-px"><a href="/subtext" className="text-xs hover:underline hover:text-white">Subtext</a></li>
+              <li className="mb-px"><a href="/writingDevices" className="text-xs hover:underline hover:text-white">Writing Devices</a></li>
             </ol>
           </div>
 

@@ -363,50 +363,25 @@ function Premise() {
           </div>
 
           {/* Index Box */}
-          <div
-            id="index-box"
-            className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
+          <div id="index-box" className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px">
-                <a href="#post-your-story-in-one-sentence" className="hover:underline hover:text-white">2.1: Your Story In One Sentence</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-ideas" className="hover:underline hover:text-white">2.2: Ideas</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-building-the-story-from-the-premise" className="hover:underline hover:text-white">2.3: Building the Story from the Premise</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-structuring-the-plot-with-live-issues" className="hover:underline hover:text-white">2.4: Structuring the plot with live issues</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-the-strange-sandwich" className="hover:underline hover:text-white">2.5: The 'Strange Sandwich'</a>
-              </li>
-              <li className="mb-px">
-                <a href="#post-premise-comments" className="hover:underline hover:text-white">Comments</a>
-              </li>
+              <li className="mb-px"><a href="#post-your-story-in-one-sentence" className="text-xs hover:underline hover:text-white">2.1: Your Story In One Sentence</a></li>
+              <li className="mb-px"><a href="#post-ideas" className="text-xs hover:underline hover:text-white">2.2: Ideas</a></li>
+              <li className="mb-px"><a href="#post-building-the-story-from-the-premise" className="text-xs hover:underline hover:text-white">2.3: Building the Story from the Premise</a></li>
+              <li className="mb-px"><a href="#post-structuring-the-plot-with-live-issues" className="text-xs hover:underline hover:text-white">2.4: Structuring the plot with live issues</a></li>
+              <li className="mb-px"><a href="#post-the-strange-sandwich" className="text-xs hover:underline hover:text-white">2.5: The 'Strange Sandwich'</a></li>
+              <li className="mb-px"><a href="#post-premise-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
           {/* Also See Box */}
-          <div
-            id="also-see-box"
-            className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
+          <div id="also-see-box" className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-              <li className="mb-px">
-                <a href="/marketing" className="hover:underline hover:text-white">Marketing</a>
-              </li>
-              <li className="mb-px">
-                <a href="/story" className="hover:underline hover:text-white">Story</a>
-              </li>
-              <li className="mb-px">
-                <a href="/plot" className="hover:underline hover:text-white">Plot</a>
-              </li>
+              <li className="mb-px"><a href="/marketing" className="text-xs hover:underline hover:text-white">Marketing</a></li>
+              <li className="mb-px"><a href="/story" className="text-xs hover:underline hover:text-white">Story</a></li>
+              <li className="mb-px"><a href="/plot" className="text-xs hover:underline hover:text-white">Plot</a></li>
             </ol>
           </div>
 

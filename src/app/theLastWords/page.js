@@ -55,7 +55,7 @@ function TheLastWords() {
           <h2 id="post-ending-a-scene" >19.2: Ending a Scene</h2>
           <p>Your story may not have just one ending. If you raise live issues throughout your story (as you should) each of these will have endings, giving your story several ‘mini&#39; endings. These are also good practice for writing your ultimate ending.</p>
 
-           <div className="quote-box">
+          <div className="quote-box">
             <p>Your endings will be better if you remember that other parts of your story need endings, too. Sentences have endings. Paragraphs have endings. [And]…each of these mini-endings anticipates your finale</p>
             <p></p><i>— Roy Clark
               <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies for Every Writer.`} /></i>
@@ -70,10 +70,10 @@ function TheLastWords() {
 
           <h3>19.1.2 	Callback </h3>
           <p>A callback is any reference to previous information. This may include a character remembering something (better that they encounter something in-story that causes them to remember), or a full on flashback. The first time the information comes in, it may be left unconcluded until you callback to it in a later scene, e.g.</p>
-         <div className="custom-box">
-          <p className="italic">The air siren split through the sky, like the first time it had played when I&#39;d arrived in the compound and Charlie&#39;s dead eyes had stared straight through me: “It&#39;s not real today. One day it will be.”</p>
-          <p className="italic">He did not know that the enemy had been killed three years ago. But the siren was as real today as it was then, because the enemy was already here. It was inside the perimeter, inside our minds. The siren went on, and on, and it never stopped.  </p>
-</div>
+          <div className="custom-box">
+            <p className="italic">The air siren split through the sky, like the first time it had played when I&#39;d arrived in the compound and Charlie&#39;s dead eyes had stared straight through me: “It&#39;s not real today. One day it will be.”</p>
+            <p className="italic">He did not know that the enemy had been killed three years ago. But the siren was as real today as it was then, because the enemy was already here. It was inside the perimeter, inside our minds. The siren went on, and on, and it never stopped.  </p>
+          </div>
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-ending-a-chapter">19.3: Ending a Chapter</h2>
@@ -81,9 +81,9 @@ function TheLastWords() {
           <p>To use a visual metaphor, it&#39;s like you&#39;re fishing with two rods at the same time; as you cast one line out, you&#39;re pulling the other in, and you&#39;re constantly alternating. As you conclude whether or not one line has caught something, the other is out there, yet unconfirmed. Never pull both lines in at the same time (even if you plan to cast them again at the start of the next chapter). If you lose your lines any time before the end of the story, you risk losing the reader as well. Reading a novel is work; the reader will take upon any excuse to stop reading at any point before the very end. Your ongoing goal is to prevent that – never be complacent that you have the reader now, you have them until the end. Always leave at least one ‘line,&#39; – or question/issue unanswered – for the reader to keep reading and wondering about. </p>
           <p>Look at the example of live issues raised by Sphere under section ‘2.3 Structuring the Plot with Interest.&#39; In Sphere, a single chapter never answers all of the questions by the end – and even the final chapter left some minor questions open.</p>
           <p>Look at this example of a chapter ending from ‘The Dead Zone&#39; by Stephen King:</p>
-         <div className="quote-box">
-          <p className="italic">“I love you, Sarah,” Johnny said. So it was out, it couldn&#39;t be called back, it hung between them in the moving car waiting for someone to do something about it. She did what she could.   </p>
-          <p className="italic">“Thank you, Johnny.” They drove on in a comfortable silence.   </p>
+          <div className="quote-box">
+            <p className="italic">“I love you, Sarah,” Johnny said. So it was out, it couldn&#39;t be called back, it hung between them in the moving car waiting for someone to do something about it. She did what she could.   </p>
+            <p className="italic">“Thank you, Johnny.” They drove on in a comfortable silence.   </p>
           </div>
           <p>Previously, love between these characters burgeoned throughout the chapter (and previous chapters). Now, abruptly, the issue is concluded; one character says ‘I love you,&#39; and the other conspicuously does not respond in kind. It resolves that she doesn&#39;t love him (yet), but keeps a live issue open that she may in future, rather than if she just said ‘I love you,&#39; back. This ensures the reader sticks around to find out if she changes her mind, and if she doesn&#39;t, how will the other react?</p>
 
@@ -109,7 +109,7 @@ function TheLastWords() {
           <div className="mt-6 text-right">
             <a href="#" className="inline-block px-4 py-2 bg-bootstrapDark text-llBlue rounded border border-llBlue shadow hover:text-yellow hover:border-yellow transition">Back to Top</a>
           </div>
-          
+
         </div>
 
         {/* Vertical Boxes on the Right */}
@@ -126,12 +126,12 @@ function TheLastWords() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-an-ending" className="hover:underline hover:text-white">19.1: What is an Ending?</a></li>
-              <li className="mb-px"><a href="#post-ending-a-scene" className="hover:underline hover:text-white">19.2: Ending a Scene</a></li>
-              <li className="mb-px"><a href="#post-ending-a-chapter" className="hover:underline hover:text-white">19.3: Ending a Chapter</a></li>
-              <li className="mb-px"><a href="#post-ending-an-act" className="hover:underline hover:text-white">19.4: Ending an Act</a></li>
-              <li className="mb-px"><a href="#post-ending-the-story" className="hover:underline hover:text-white">19.5: Ending the Story</a></li>
-              <li className="mb-px"><a href="#post-last-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-an-ending" className="text-xs hover:underline hover:text-white">19.1: What is an Ending?</a></li>
+              <li className="mb-px"><a href="#post-ending-a-scene" className="text-xs hover:underline hover:text-white">19.2: Ending a Scene</a></li>
+              <li className="mb-px"><a href="#post-ending-a-chapter" className="text-xs hover:underline hover:text-white">19.3: Ending a Chapter</a></li>
+              <li className="mb-px"><a href="#post-ending-an-act" className="text-xs hover:underline hover:text-white">19.4: Ending an Act</a></li>
+              <li className="mb-px"><a href="#post-ending-the-story" className="text-xs hover:underline hover:text-white">19.5: Ending the Story</a></li>
+              <li className="mb-px"><a href="#post-last-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -139,14 +139,11 @@ function TheLastWords() {
           <div
             id="also-see-box"
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
-
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-
-
-              <li className="mb-px"><a href="/theFirstWords" className="hover:underline hover:text-white">The First Words</a></li>
-              <li className="mb-px"><a href="/theNextWords" className="hover:underline hover:text-white">The Next Words</a></li>
-              <li className="mb-px"><a href="/editing" className="hover:underline hover:text-white">Editing</a></li>
+              <li className="mb-px"><a href="/theFirstWords" className="text-xs hover:underline hover:text-white">The First Words</a></li>
+              <li className="mb-px"><a href="/theNextWords" className="text-xs hover:underline hover:text-white">The Next Words</a></li>
+              <li className="mb-px"><a href="/editing" className="text-xs hover:underline hover:text-white">Editing</a></li>
             </ol>
           </div>
 

@@ -189,14 +189,14 @@ function Antagonists() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-an-antagonist" className="hover:underline hover:text-white">16.1: What is an Antagonist?</a></li>
-              <li className="mb-px"><a href="#post-importance-antagonist" className="hover:underline hover:text-white">16.2: The Importance of Antagonism</a></li>
-              <li className="mb-px"><a href="#post-antagonistic-forces" className="hover:underline hover:text-white">16.3: Antagonistic Forces</a></li>
-              <li className="mb-px"><a href="#post-degrees-of-antagonism" className="hover:underline hover:text-white">16.4: Degrees of Antagonism</a></li>
-              <li className="mb-px"><a href="#post-negation-of-negation" className="hover:underline hover:text-white">16.5: The Negation of a Negation</a></li>
-              <li className="mb-px"><a href="#post-protagonist=antagonist" className="hover:underline hover:text-white">16.6: Protagonist = Antagonist</a></li>
-              <li className="mb-px"><a href="#post-how-to-create-antagonist" className="hover:underline hover:text-white">16.7: How to Create an Antagonist</a></li>
-              <li className="mb-px"><a href="#post-antagonists-comments" className="hover:underline hover:text-white">Comments</a></li>
+              <li className="mb-px"><a href="#post-what-is-an-antagonist" className="text-xs hover:underline hover:text-white">16.1: What is an Antagonist?</a></li>
+              <li className="mb-px"><a href="#post-importance-antagonist" className="text-xs hover:underline hover:text-white">16.2: The Importance of Antagonism</a></li>
+              <li className="mb-px"><a href="#post-antagonistic-forces" className="text-xs hover:underline hover:text-white">16.3: Antagonistic Forces</a></li>
+              <li className="mb-px"><a href="#post-degrees-of-antagonism" className="text-xs hover:underline hover:text-white">16.4: Degrees of Antagonism</a></li>
+              <li className="mb-px"><a href="#post-negation-of-negation" className="text-xs hover:underline hover:text-white">16.5: The Negation of a Negation</a></li>
+              <li className="mb-px"><a href="#post-protagonist=antagonist" className="text-xs hover:underline hover:text-white">16.6: Protagonist = Antagonist</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-antagonist" className="text-xs hover:underline hover:text-white">16.7: How to Create an Antagonist</a></li>
+              <li className="mb-px"><a href="#post-antagonists-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
 
@@ -206,9 +206,9 @@ function Antagonists() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Also See</div>
             <ol className="font-source-code-pro flex flex-col list-disc list-inside text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="/conflict" className="hover:underline hover:text-white">Conflict</a></li>
-              <li className="mb-px"><a href="/mainCharacters" className="hover:underline hover:text-white">Main Characters</a></li>
-              <li className="mb-px"><a href="/secondaryCharacters" className="hover:underline hover:text-white">Secondary Characters</a></li>
+              <li className="mb-px"><a href="/conflict" className="text-xs hover:underline hover:text-white">Conflict</a></li>
+              <li className="mb-px"><a href="/mainCharacters" className="text-xs hover:underline hover:text-white">Main Characters</a></li>
+              <li className="mb-px"><a href="/secondaryCharacters" className="text-xs hover:underline hover:text-white">Secondary Characters</a></li>
             </ol>
           </div>
 
