@@ -162,7 +162,7 @@ banners are 1200 x 400
     - [x] subtext 
     - [x] description
     - [ ] dialogue
-    - [ ] suspense
+    - [x] suspense
     - [x] pov
     - [ ] voice
     - [x] antagonists
@@ -179,10 +179,6 @@ banners are 1200 x 400
 
 - [x] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
-
-Changes:
-
-- changed yellow border to ridge
 
 //============================================================//
 
