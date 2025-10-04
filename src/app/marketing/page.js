@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
-import settingBanner from '../assets/settingbanner.jpg';
+import marketingBanner from '../assets/marketingbanner.png';
 import Image from "next/image";
 
 function Marketing() {
@@ -24,7 +24,7 @@ function Marketing() {
 
       {/* 2nd Banner Box with Image */}
       <div className="bg-transparent border border-black rounded-b-md overflow-hidden w-full max-w-screen-xl mx-auto shadow -mt-8">
-        <Image src={settingBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
+        <Image src={marketingBanner} alt="story background banner" width={1600} height={400} className="w-full h-auto object-cover" priority />
       </div>
 
       {/* New Section Below Banners */}

@@ -152,23 +152,23 @@ banners are 1200 x 400
     - [x] setting
     - [x] subtext 
     - [x] description
-    - [ ] dialogue
+    - [x] dialogue
     - [x] suspense
     - [x] pov
-    - [ ] voice
+    - [x] voice
     - [x] antagonists
     - [ ] the first words
     - [ ] the next words
     - [x] the last words
     - [ ] writing devices
     - [x] editing
-    - [ ] marketing
+    - [x] marketing
 
-- [ ] Test that contact page works
-
+- [x] Test that contact page works
+- [ ] after submitting on contact page, page redirects to 'bedpage.com' - redirect back home and show successful message modal
 - [x] Add quotes for each chapter:
-
 - [x] change the <link rel="icon" type="image/svg+xml" href="/vite.svg" /> inside index.html 
+
 - [ ] there's a roy peter clark reference under conflict chapter -- look in original word doc to see what it is
 - add IDs to pages to find page section chunks via search (optional)
 
@@ -207,14 +207,6 @@ SEARCH:
  - <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea (description)
 - similar to the 'strange sandwich' rule -- don't pile on double servings (description)
 - I noted under (XXXXX section) (description )
-
-
-
-
-
-make text size of index box and also see box smaller to match about box
-
-remove blue box bottom space add to the div'<"m-1">
 
 
 
