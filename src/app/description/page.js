@@ -541,7 +541,11 @@ function Description() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-the-ladder-of-abstraction">11.15: The Ladder of Abstraction</h2>
-          <p>At 11.9 I said ‘Make the Abstract Concrete.&#39;</p>
+          <p>At 11.9 I said 
+
+            <Link href="/description#post-make-the-abstract-concrete" className="text-yellow-400 underline hover:text-yellow-300">
+              ‘Make the Abstract Concrete.&#39;</Link></p>
+
           <p>Here is a device for moving between concrete and abstract description. Where you bring in abstraction, let it come after establishing the concrete. Think of the concrete as a lamp, and the abstract as the genie. The genie is bound by the lamp. In order to summon the genie, you have to have the lamp.</p>
           <p>The abstract should spring from the concrete: <strong>abstract</strong> observations should spring from descriptions of <strong>concrete</strong> things.</p>
           <p>Here is an example of the Ladder of Abstraction for the above ‘McDougal kayaking summary:</p>

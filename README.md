@@ -166,8 +166,6 @@ SEARCH:
 - ly by the words, but their form and structure (for instance, see: ‘13.3.4 Deliberately awkward sentences,' and ‘10.1.1 When to not abridge'). (editing)
 - (see: 14.1.2 Desperate descriptive detailing of dialogic discourse does disservice). (the next words chapter)
 
-- (see 11.3 Information Economy) (the next words)
-
  - 13.2.7 Dialogue descriptions (the next words)
 - above rule of invisibility (see: 13.2.5) (the next words)
 - I also address this under ‘Cowardly or Courageous' under the Horror Section. (main charactetrs)
@@ -176,8 +174,6 @@ SEARCH:
 - reason for existence, possibly through a ‘Microcosmic&#39; scene (main characters)
 - the ‘People avoid Jinxing&#39; rule. (main characters)
 - the strange sandwich Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). (main hcaraterts)
-
-- <p>At 11.9 I said ‘Make the Abstract Concrete.&#39;</p> (description)
 
  - <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea (description)
 - similar to the 'strange sandwich' rule -- don't pile on double servings (description)
