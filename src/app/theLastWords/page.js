@@ -1,5 +1,6 @@
 // src/app/theLastWords.js
 "use client";
+import Link from "next/link";
 import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
@@ -66,7 +67,11 @@ function TheLastWords() {
 
           <h3>19.1.1 	Repetition  </h3>
           <p>Repeating key words (particularly when they appear nowhere else in the story) can be a good way to flag an ending.</p>
-          <p>See 18.3.10 Purposeful Repetition.</p>
+          <p>See
+            <Link href="/theNextWords#post-purposeful-repetition" className="text-yellow-400 underline hover:text-yellow-300">
+              18.3.10 Purposeful Repetition
+            </Link>
+            .</p> this should link to theNextWords page section on Purposeful Repetition
 
           <h3>19.1.2 	Callback </h3>
           <p>A callback is any reference to previous information. This may include a character remembering something (better that they encounter something in-story that causes them to remember), or a full on flashback. The first time the information comes in, it may be left unconcluded until you callback to it in a later scene, e.g.</p>

@@ -1,5 +1,6 @@
 // src/app/theNextWords.js
 "use client";
+import Link from "next/link";
 import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
@@ -1271,7 +1272,11 @@ function TheNextWords() {
             Aside from horror, this technique can be used in any genre. You might superimpose a love interest is royalty to get inside the protagonist's adoration of them.</p>
 
           <h3>18.3.10 	Purposeful Repetition</h3>
-          <p>9 times out of 10 you don&#39;t want your writing to repeat itself. Repetition devalues your writing by oversupply (see 11.3 Information Economy).
+          <p>9 times out of 10 you don&#39;t want your writing to repeat itself. Repetition devalues your writing by oversupply (
+                        <Link href="/description#post-11-3" className="text-yellow-400 underline hover:text-yellow-300">
+              see 11.3 Information Economy
+            </Link>). 
+            
             It can also be annoying and insipid, like a nursery rhyme. Repetition also isn&#39;t subtle, and 9 times out of 10 you don&#39;t
             want your writing to repeat itself.</p>
           <p>However, if used sparingly and effectively, repetition can:</p>

@@ -1,5 +1,6 @@
 // src/app/conflict.js
 "use client";
+import Link from "next/link";
 import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
@@ -46,7 +47,10 @@ function Conflict() {
            </p>
             </div>
 
-          <p>Notice how the conflict, by making the information harder to get, makes it seem more valuable and after the effort, will make the reader more interested to know what it is. This reinforces an economy of information (see 11.3 Information Economy).</p>
+          <p>Notice how the conflict, by making the information harder to get, makes it seem more valuable and after the effort, will make the reader more interested to know what it is. This reinforces an economy of information (
+            <Link href="/description#post-11-3" className="text-yellow-400 underline hover:text-yellow-300">
+              see 11.3 Information Economy
+            </Link>).</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 

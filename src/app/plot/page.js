@@ -1,5 +1,6 @@
 // src/app/plot.js
 "use client";
+import Link from "next/link";
 import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
@@ -188,7 +189,11 @@ function Plot() {
           <p>Aristotle
             <FootnoteRef text={`ARISTOTLE,\nPoetics.`} />
             wrote of the “peripeteia,” or “reversal of the situation.”</p>
-          <p>At the end of the first act, your protagonist makes a &#39;turn&#39; which sets them off from where they were. Ideally this will be a &#39;diametric&#39; turn (see 6.5 Diametrics). Normally they will end up in a worse position, but might not. Being set off in a different but equal position may be bad, as it requires time and energy for the protagonist to readjust.</p>
+          <p>At the end of the first act, your protagonist makes a &#39;turn&#39; which sets them off from where they were. Ideally this will be a &#39;diametric&#39; turn (
+            <Link href="/scenes#post-diametrics" className="text-yellow-400 underline hover:text-yellow-300">
+              see 6.5 Diametrics
+            </Link>
+            ). Normally they will end up in a worse position, but might not. Being set off in a different but equal position may be bad, as it requires time and energy for the protagonist to readjust.</p>
           <p>At the end of the second act, your protagonist makes another turn, which sets them off both from their previous position and the starting position. So you can&#39;t just turn them back where they were in starting position (otherwise there is no point to the first act). Take care your narrative doesn't just flip back and forth like this.</p>
           <p>The third turn is a special turn, because it designates the ending. Your protagonist can&#39;t just make a right turn into anywhere; they have to end up somewhere that completes the narrative. For the purpose of your third turn, note that, if you make three right-angled turns, you end up heading in the same direction you began:</p>
 
