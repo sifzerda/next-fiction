@@ -136,7 +136,7 @@ This project is substantially complete, with minor formalization and addition of
 - [x] combine title, logline, and synopsis into one chapter ('marketing')
 - [x] link comments to chapter in prisma schema
 - [x] add footnote system (component and utils footnotestore)
-- [  ] User Account page with list of all comments user made
+- [ ] User Account page with list of all comments user made
 - [ ] Grab all footnotes and list on reference page
 - [ ] Give each subject page a banner image
 

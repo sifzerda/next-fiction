@@ -48,7 +48,7 @@ function Sidebar() {
   `}
 >
   <nav className="w-full flex flex-col h-full">
-    <h2 className="flex items-center gap-2 text-yellow text-lg font-semibold ml-3 mr-3 mb-1 mt-8 sm:mt-12 sm:text-left">
+    <h2 className="flex items-center gap-2 text-yellow text-lg font-semibold ml-3 mr-3 mb-1 mt-1 sm:mt-12 sm:text-left">
       <span className="flex-grow h-px bg-yellow"></span>
       <span>Index</span>
       <span className="flex-grow h-px bg-yellow"></span>

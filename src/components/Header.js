@@ -22,7 +22,6 @@ function Header() {
 
   const links = [
     { href: "/", label: "About" },
-    { href: "/contact", label: "Contact" },
     { href: "https://horrormap.vercel.app", label: "Horror Map" },
   ];
 
