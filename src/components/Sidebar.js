@@ -36,9 +36,9 @@ function Sidebar() {
   ];
 
   return (
-<aside
-  role="complementary"
-  className={`
+    <aside
+      role="complementary"
+      className={`
     w-full bg-bootstrapDark text-llBlue z-10 flex flex-col items-center gap-4
     pt-52 
     sm:pt-4 
@@ -46,39 +46,39 @@ function Sidebar() {
     sm:h-[calc(100vh-5rem)] sm:items-start sm:border-r-2 sm:border-yellow
     border border-llBlue
   `}
->
-  <nav className="w-full flex flex-col h-full">
-    <h2 className="flex items-center gap-2 text-yellow text-lg font-semibold ml-3 mr-3 mb-1 mt-1 sm:mt-12 sm:text-left">
-      <span className="flex-grow h-px bg-yellow"></span>
-      <span>Index</span>
-      <span className="flex-grow h-px bg-yellow"></span>
-    </h2>
+    >
+      <nav className="w-full flex flex-col h-full">
+        <h2 className="flex items-center gap-2 text-yellow text-lg font-semibold ml-3 mr-3 mb-1 mt-1 sm:mt-12 sm:text-left">
+          <span className="flex-grow h-px bg-yellow"></span>
+          <span>Index</span>
+          <span className="flex-grow h-px bg-yellow"></span>
+        </h2>
 
-    {/* custom tailwind scrollbar */}
-<div
-  ref={scrollableRef}
-  className="flex-1 overflow-y-auto pr-1 px-4 pb-4 scrollbar-thin scrollbar-thumb-yellow scrollbar-track-bootstrapDark">
-      <ul className="flex flex-col items-center gap-0 sm:items-start sm:mt-0">
-        {links.map(({ href, label }) => (
-          <li key={href} className="w-full">
-            <Link
-              href={href}
-              className={`
+        {/* custom tailwind scrollbar */}
+        <div
+          ref={scrollableRef}
+          className="flex-1 overflow-y-auto pr-1 px-4 pb-4 scrollbar-thin scrollbar-thumb-yellow scrollbar-track-bootstrapDark">
+          <ul className="flex flex-col items-center gap-0 sm:items-start sm:mt-0">
+            {links.map(({ href, label }) => (
+              <li key={href} className="w-full">
+                <Link
+                  href={href}
+                  className={`
                 block w-full px-2 py-[1.6px] rounded-sm text-sm
                 hover:bg-white hover:text-bootstrapDark transition
                 ${pathname === href ? "font-semibold text-white uppercase" : ""}
               `}
-            >
-              {label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-       {/* Spacer div to ensure last link can scroll fully into view */}
-  <div className="h-10" />
-    </div>
-  </nav>
-</aside>
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          {/* Spacer div to ensure last link can scroll fully into view */}
+          <div className="h-10" />
+        </div>
+      </nav>
+    </aside>
 
   );
 }
