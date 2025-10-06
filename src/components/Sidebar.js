@@ -75,7 +75,7 @@ function Sidebar() {
             ))}
           </ul>
           {/* Spacer div to ensure last link can scroll fully into view */}
-          <div className="h-10" />
+          <div className="h-10 hidden sm:block" />
         </div>
       </nav>
     </aside>

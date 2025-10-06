@@ -1,5 +1,6 @@
 // src/app/description.js
 "use client";
+import Link from 'next/link';
 import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
@@ -46,7 +47,7 @@ function Description() {
           <p>Jack Hart provides this example:
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
           </p>
-          
+
           <h4>I. Telling:</h4>
           <div className="quote-box">
             <p><i>But Michelle&#39;s elation evaporated when she saw him in the intensive care unit. She came out moments later, distraught. Frank was suffering a seizure.</i></p>
@@ -192,27 +193,27 @@ function Description() {
           <h2 id="post-most-unusual-to-least-unusual">11.4: Most Unusual to Least Unusual</h2>
           <p>This follows on from the ‘unusual&#39; rule. You&#39;re aiming to work realism and naturalism into description. One way you effect this is to describe things in the order they&#39;d be noticed in real life.</p>
           <p>For instance, if a POV character walks into a big room where lots is going on all at the same time, what you describe first should be what your character notices first. This may require balancing up various sensory inputs; sight, smell, taste, sound, touch. If the room contains a big party the order of description might be:</p>
-         
+
           <ol className="numbered">
             <li>Music (may be heard even before character enters the room);</li>
             <li>Lighting (only if unusual, e.g. very dark);</li>
             <li>An estimate of the crowd size (big, small, spread out, densely packed, etc);
-            <ol>
-              <li>May also be implied by the freedom of movement, i.e. can the character move quickly or must they weave and brush past people?</li>
-            </ol>
+              <ol>
+                <li>May also be implied by the freedom of movement, i.e. can the character move quickly or must they weave and brush past people?</li>
+              </ol>
             </li>
             <li>The type of crowd (work colleagues, teenagers, adults, strangers);</li>
             <li>What the crowd is doing (dancing, talking, eating) and all doing the same activity or many different activities?</li>
             <li>What the room in general looks like (architecture, clean, disordered, etc);</li>
             <li>Particular people (if recognized);
-            <ol>
-              <li>What those particular people are doing and wearing.</li>
-            </ol>
+              <ol>
+                <li>What those particular people are doing and wearing.</li>
+              </ol>
             </li>
             <li>The location of character&#39;s person of interest, e.g. love interest/crush;
-            <ol>
-              <li>What the person of interest is doing/wearing, etc;</li>
-            </ol>
+              <ol>
+                <li>What the person of interest is doing/wearing, etc;</li>
+              </ol>
             </li>
             <li>POV character&#39;s action, e.g. approaches person of interest. </li>
           </ol>
@@ -224,19 +225,19 @@ function Description() {
 
           <h2 id="post-metaphors-and-similies">11.5: Metaphors and Similies</h2>
           <p>Metaphors and similes are figures of speech, but are not interchangeable literary devices:</p>
- 
-            <h4>A simile</h4> 
-            <p>Is a description which compares one thing to another thing;</p>
-            <ul className="bullets">
-              <li>What passing-bells for these who die as cattle?</li>
-              <li>Leaf-strewing gales utter low wails like violins.</li>
-            </ul>
-            <h4>A metaphor</h4> 
-            <p>Is a description which substitutes one thing for another thing;</p>
-            <ul className="bullets">
-              <li>The detective listened with a wooden face;</li>
-              <li>I was lost in a sea of nameless faces.</li>
-            </ul>
+
+          <h4>A simile</h4>
+          <p>Is a description which compares one thing to another thing;</p>
+          <ul className="bullets">
+            <li>What passing-bells for these who die as cattle?</li>
+            <li>Leaf-strewing gales utter low wails like violins.</li>
+          </ul>
+          <h4>A metaphor</h4>
+          <p>Is a description which substitutes one thing for another thing;</p>
+          <ul className="bullets">
+            <li>The detective listened with a wooden face;</li>
+            <li>I was lost in a sea of nameless faces.</li>
+          </ul>
 
           <p>You might wonder when – if ever – you should use a figure of speech. It should be borne in mind that these are descriptive devices. </p>
           <p>Burnett and Burnett says metaphors and similies must be unselfconscious and instinctive.
@@ -252,9 +253,9 @@ function Description() {
           </ol>
 
           <p>Here&#39;s a clear example of a similie doing work direct description can not:</p>
-         <div className="quote-box">
-          <p><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i>
-            <FootnoteRef text={`LUCY GREALY,\nAutobiography of a Face.`} /></p>
+          <div className="quote-box">
+            <p><i>Sunlight pushed in past the barred windows and lay down heavily on the green floor like an algae-infested lake.</i>
+              <FootnoteRef text={`LUCY GREALY,\nAutobiography of a Face.`} /></p>
           </div>
           <p>This provides a vivid picture of the room and the lighting and is more dynamic than saying the room is a dim, intrusive, murky, heavy, oppressive, yellowy-green.</p>
           <p>If you do decide to use figures of speech, here are some general rules for using them properly and effectively. </p>
@@ -262,25 +263,25 @@ function Description() {
           <h3>11.5.1 	Metaphors alter, Similies add to</h3>
           <p>Generally, a metaphor does not need to be ‘like&#39; the thing you describe (it could even be starkly different), as long as it puts the right picture in your reader&#39;s mind. A metaphor can significantly change the way your reader might have otherwise imagined something. Similes, however, generally do need to be like the thing you describe, aiming to clarify it and add greater detail – </p>
           <div className="quote-box">
-          <p><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i>
-            <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
+            <p><i>Isobel. It was the name of someone you wouldn't want to mess with. It even sounded ominous, like the tolling of a bell. </i>
+              <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
           </div>
           <p>Here, the thing (the name ‘Isobel&#39;) is not like the simile (the tolling of a bell). Even if you argue that the phoneme ‘bel&#39; onomatopoeically sounds like the clang of a bell, you have to selectively ignore the other two syllables ‘Is&#39; and ‘o&#39;. </p>
 
           <h3>11.5.2 	High-fidelity</h3>
           <p>The similarity has to be crystal clear to the reader, not strained or contorted. By using a figure of speech instead of a plain description, you are implying that it is a higher fidelity description of the thing even than describing the thing itself directly. ‘Good enough&#39; is not good enough – </p>
-         <div className="quote-box">
-          <p><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i>
-            <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
-         </div>
+          <div className="quote-box">
+            <p><i>Rory&#39;s teeth were clattering so loudly it sounded like coins falling onto a wooden floor.  </i>
+              <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
+          </div>
           <p>The sound of teeth clattering does not have enough fidelity to coins falling on a wooden floor to justify this simile. Coins falling on a wooden floor is a racket; teeth chattering is not. It&#39;s a simile that has to be contorted in the mind to work.</p>
 
           <h3>11.5.3 	Tone consistency</h3>
           <p>A figure of speech should keep in tone with the thing being described:</p>
-           <div className="quote-box">
-          <p><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i>
-            <FootnoteRef text={`ROBERT SABBAG,\nDown Around Midnight.`} /></p>
-</div>
+          <div className="quote-box">
+            <p><i>"And like the fingering of some Beethoven piece long left unrehearsed, my body remembered it for me..." </i>
+              <FootnoteRef text={`ROBERT SABBAG,\nDown Around Midnight.`} /></p>
+          </div>
           <p>Here, this overly-romantic similie is actually talking about being triggered by PTSD, inappropriately conveying that PTSD is pleasurable.</p>
           <p>A tonally dissonant figure of speech may convey satirical/ironic/humourous purpose – this is called ‘Bathos&#39;. Here&#39;s an intentional example: </p>
           <p>The ballerina rose gracefully en pointe and extended one slender leg behind her, like a dog at a fire hydrant.  </p>
@@ -290,9 +291,9 @@ function Description() {
           <div className="quote-box">
             <p><i>I felt like I was wading into uncharted waters without a life raft.</i>
               <FootnoteRef text={`ALEXANDRA ADORNETTO,\nGhost House.`} /></p>
-            </div>
-            <p>I&#39;ve never waded into ‘uncharted waters&#39; without a life raft (and I suspect the author never has, either), so this simile is already bad. It&#39;s also a cliché.</p>
-          
+          </div>
+          <p>I&#39;ve never waded into ‘uncharted waters&#39; without a life raft (and I suspect the author never has, either), so this simile is already bad. It&#39;s also a cliché.</p>
+
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -301,7 +302,7 @@ function Description() {
           <p>In order of best to less favourable – </p>
 
           <h3>11.6.1 	Behaviour:</h3>
-          
+
           <div className='custom-box'><p><i>He lifted the book and cradled it in one hand like it was an infant. His other hand he raised to the crowd seated before him, and cupped his fingers. He did this in silence for a full two minutes. His eyes penetrated the throng of people, and then gazed beyond them, at something no one else could see. He remained still as they went silent, then opened his mouth.   </i></p>
           </div>
           <p>This is description of characters doing things. Action without explanation is very compelling and effective; it drops you right into a scene, amidst the action. It doesn&#39;t presume your audience is dumb, because they are forced to work out the character&#39;s mental state based on what is happening – rather than simply being told. It&#39;s more realistic because in real life this is all the info you get: you aren&#39;t told what people are thinking, you have to make judgments.</p>
@@ -309,18 +310,18 @@ function Description() {
 
           <h3>11.6.2. 	Stuff: </h3>
           <div className='custom-box'>
-          <p><i>He towered over the pulpit. A fresh coat of paint mostly almost covered up the chipping pine underneath. Panes of golden dusty light fell onto the floor, broken up by the cracks in the windows. The carpet was scuffed, but not kinked. Never kinked. So many elderly parishioners that it would invite a lawsuit.    </i></p>
-         </div>
+            <p><i>He towered over the pulpit. A fresh coat of paint mostly almost covered up the chipping pine underneath. Panes of golden dusty light fell onto the floor, broken up by the cracks in the windows. The carpet was scuffed, but not kinked. Never kinked. So many elderly parishioners that it would invite a lawsuit.    </i></p>
+          </div>
           <p>This is description of things: a setting, a person&#39;s appearance, etc.</p>
 
           <h3>11.6.3. 	Dialogue: </h3>
-          <div className='custom-box'> 
-          <p><i>Looking at them all, he said: “If you live according to the Word as set out in Scripture, you have done better than to win the lottery, because your prize is eternal life in Heaven. And Heaven is a beautiful place decorated with gold and silver and forever the resting place of beautiful people. A life of luxury on Earth is only a small taste of what Heaven has to offer the devout.”    </i></p>
-</div>
+          <div className='custom-box'>
+            <p><i>Looking at them all, he said: “If you live according to the Word as set out in Scripture, you have done better than to win the lottery, because your prize is eternal life in Heaven. And Heaven is a beautiful place decorated with gold and silver and forever the resting place of beautiful people. A life of luxury on Earth is only a small taste of what Heaven has to offer the devout.”    </i></p>
+          </div>
           <h3>11.6.4. 	Introspection: </h3>
           <div className='custom-box'>
-          <p><i>Father X knew just by looking, who was saying their prayers, and who wasn&#39;t. If they prayed, they would glow. That&#39;s how he knew faith worked, because it made the members congregation look better each time they attended. How many times now had he suppressed a cringe, when he&#39;d seen yet another new congregation member shuffle through the double doors, looking like the dregs of the Earth? How many times now had he felt the thrill of pride, seeing them, a few weeks later, unrecognisably radiant with the inner peace that only true faith could bring?    </i></p>
-</div>
+            <p><i>Father X knew just by looking, who was saying their prayers, and who wasn&#39;t. If they prayed, they would glow. That&#39;s how he knew faith worked, because it made the members congregation look better each time they attended. How many times now had he suppressed a cringe, when he&#39;d seen yet another new congregation member shuffle through the double doors, looking like the dregs of the Earth? How many times now had he felt the thrill of pride, seeing them, a few weeks later, unrecognisably radiant with the inner peace that only true faith could bring?    </i></p>
+          </div>
           <h3>11.6.5.	Narration: </h3>
           <p><i>........    </i></p>
           <p>All of these forms of description are about the Father, his religion, and his church, however, the subtext in all of these paragraphs points to a preoccupation with exteriority and the appearance of things: beauty, gold and silver, ‘glow&#39;, etc. This suggests this church is superficial. Each form of description attempts to convey that implication in a different way. </p>
@@ -333,8 +334,8 @@ function Description() {
           <p>Let's say you want to describe something in particular detail and you need to use numerous adjectives to get the description sufficiently specific. Instead of saying: 'A forest of huge, gnarled, grey, straight, balding oak trees.' </p>
           <p>Let's say there's no adjective you can delete in that sentence without removing some essential meaning. You should break adjectives up into separate sentences, like this: </p>
           <div className='custom-box'>
-          <p><i>A forest of gnarled grey pine. Their branches reached up straight some twenty metres into the sky. Although mostly balding, a number of them still bore flowers.</i></p>
-         </div>
+            <p><i>A forest of gnarled grey pine. Their branches reached up straight some twenty metres into the sky. Although mostly balding, a number of them still bore flowers.</i></p>
+          </div>
           <p>Make sure each sentence refers to a separate sub-topic; for instance, above, the first sentence gives a general overview of what the collective looks like: an oak forest. The next sentence focuses on the height of the oaks. The third sentence focuses on the seasonal stage of the oaks; the fact they don't have many leaves is not due to being winter, but from age, because they still flower.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -541,7 +542,7 @@ function Description() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-the-ladder-of-abstraction">11.15: The Ladder of Abstraction</h2>
-          <p>At 11.9 I said 
+          <p>At 11.9 I said
 
             <Link href="/description#post-make-the-abstract-concrete" className="text-yellow-400 underline hover:text-yellow-300">
               ‘Make the Abstract Concrete.&#39;</Link></p>
@@ -634,6 +635,45 @@ function Description() {
           </div>
           <p>Rather than use the above description to punctuate a still, lifeless scene, a skilful writer will use such a description to further punctuate an already moving, changing scene, or charged dialogue, emphasizing a sense of direction change or momentum and motion.</p>
 
+          <hr /> {/* ---------------------------------------------------------*/}
+
+          <h2 id="post-who-cares">11.20: Who Cares?</h2>
+
+          <p>Writers attracts neurotic personalities with a tendency for precision and pedantry.
+            But the more you – the writer – take the wheel, the more you take over the reader’s
+            own interpretive journey. Give them the scene and let them imagine the details
+            themselves. This is a mark of good, evocative writing. </p>
+
+          <p>Wanting to ensure the reader sees exactly what you see, and telling them exactly
+            how to experience the story, is a mark of immaturity, egotism and contempt for the
+            reader’s intelligence or experience. You may write the story, but it is ultimately
+            the reader’s experience. Don’t control it, enhance it. Give the reader a map of the
+            story and let them explore, don’t take them hostage and force them to the destination.
+          </p>
+
+          <p>Here’s an example of pedantic ‘detail-inventorying’ which not only derogates from the reading
+            experience but confuses the narrative, complicating rather than clarifying:</p>
+
+          <h4>Example:</h4>
+          <div className="quote-box">
+            <p><i>She’d gifted her three remaining fish to a nine-year-old boy who lived in the unit below hers. He’d promised to keep them alive.
+              Vera didn’t give the fish great odds, but that wasn’t her business anymore.
+            </i>
+              <FootnoteRef text={`SARAH GAILEY,\nJust Like Home.`} />
+            </p>
+          </div>
+
+          <p>‘Gifted’ is overly formal. Just say ‘she gave’. Also ‘remaining’ implies she had more than three fish before giving the others away. This is needlessly pedantic and not clear what the author intended. Just say ‘three fish’. Even ‘three’ is pedantic.</p>
+          <p>‘He’d promised to keep them alive’ suggests the protagonist doesn’t really trust him. This is confirmed a sentence later ‘Vera didn’t give the fish great odds’. This expresses what was already effectively implied, removing the suggestive power and making the former sentence ‘he’d promised…’ redundant. ‘…that wasn’t her business anymore’ makes no sense. If Vera didn’t believe the boy could look after the fish, why did she give them to him? It actually makes her sound lazy and indifferent. If she didn’t care for her fish, why have them (let alone three or more)? </p>
+
+          <p>The narrative is harmed by this extra detail. Removing it, you could have:</p>
+          <h4>Fixed example:</h4>
+          <div className="custom-box">
+            <p><i>She gave three fish to her neighbour, a nine-year old boy. He promised to keep them alive.
+            </i></p>
+          </div>
+          <p>This keeps suggestive power; the promise to keep the fish alive is mitigated by the detail the boy is nine. Vera now does not sound lazy and indifferent. She sounds kind, if slightly naïve. She believes the boy’s word, or wants to, even as his word is suspect to the reader, which gives the situation an undertone of pathos. This makes Vera far more sympathetic and interesting.</p>
+
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -682,6 +722,7 @@ function Description() {
               <li className="mb-px"><a href="#post-time-markers" className="text-xs hover:underline hover:text-white">11.17: Time Markers</a></li>
               <li className="mb-px"><a href="#post-gravity" className="text-xs hover:underline hover:text-white">11.18: Gravity</a></li>
               <li className="mb-px"><a href="#post-description-in-action" className="text-xs hover:underline hover:text-white">11.19: Description in Action</a></li>
+              <li className="mb-px"><a href="#post-who-cares" className="text-xs hover:underline hover:text-white">11.20: Who Cares?</a></li>
               <li className="mb-px"><a href="#post-description-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
