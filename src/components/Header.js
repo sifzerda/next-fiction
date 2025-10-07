@@ -22,6 +22,7 @@ function Header() {
 
   const links = [
     { href: "/", label: "About" },
+    { href: "/bookreviews", label: "Book Reviews" },
     { href: "https://horrormap.vercel.app", label: "Horror Map" },
   ];
 
