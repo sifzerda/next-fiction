@@ -76,6 +76,7 @@ User authentication with JWTs allow users to create an account, which stores use
 - Fuse: index site content to enable sitewide keyword search
 - Puppeteer: scrapes text content for indexing
 - tailwind-scrollbar: customized sidebar scrollbar
+- Open Library Covers API (for book reviews page)
 
 ## Footnotes and Tooltips
 

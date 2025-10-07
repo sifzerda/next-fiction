@@ -110,12 +110,14 @@ function BookReviews() {
             className="w-full md:w-60 bg-bootstrapDark  border border-black text-llBlue flex flex-col items-start justify-center rounded shadow p-4 text-left">
             <div className="font-semibold mb-1 text-yellow">Index</div>
             <ol className="font-source-code-pro flex flex-col list-none text-xs leading-tight m-0 p-0 -ml-0">
-              <li className="mb-px"><a href="#post-what-is-conflict" className="text-xs hover:underline hover:text-white">5.1. What is Conflict?</a></li>
-              <li className="mb-px"><a href="#post-why-is-it-important" className="text-xs hover:underline hover:text-white">5.2. Why Is It Important?</a></li>
-              <li className="mb-px"><a href="#post-types-of-conflict" className="text-xs hover:underline hover:text-white">5.3. Types of Conflict</a></li>
-              <li className="mb-px"><a href="#post-conflict-does-not-equal-fight" className="text-xs hover:underline hover:text-white">5.4. Conflict ≠ Fight</a></li>
-              <li className="mb-px"><a href="#post-how-to-create-conflict" className="text-xs hover:underline hover:text-white">5.5. How to Create Conflict</a></li>
-              <li className="mb-px"><a href="#post-plans-must-be-complicated" className="text-xs hover:underline hover:text-white">5.6 Plans Must Be Complicated</a></li>
+              <li className="mb-px"><a href="#post-what-is-conflict" className="text-xs hover:underline hover:text-white">Fiction: Classical Literature</a></li>
+              <li className="mb-px"><a href="#post-what-is-conflict" className="text-xs hover:underline hover:text-white">Fiction: Mainstream</a></li>
+              <li className="mb-px"><a href="#post-why-is-it-important" className="text-xs hover:underline hover:text-white">NF: Science</a></li>
+              <li className="mb-px"><a href="#post-types-of-conflict" className="text-xs hover:underline hover:text-white">NF: Pseudoscience</a></li>
+              <li className="mb-px"><a href="#post-conflict-does-not-equal-fight" className="text-xs hover:underline hover:text-white">NF: Religion and Atheism</a></li>
+              <li className="mb-px"><a href="#post-how-to-create-conflict" className="text-xs hover:underline hover:text-white">Bio: Trauma</a></li>
+              <li className="mb-px"><a href="#post-plans-must-be-complicated" className="text-xs hover:underline hover:text-white">Bio: Celebrity</a></li>
+                            <li className="mb-px"><a href="#post-plans-must-be-complicated" className="text-xs hover:underline hover:text-white">LGBT</a></li>
               <li className="mb-px"><a href="#post-conflict-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
