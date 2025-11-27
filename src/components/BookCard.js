@@ -8,11 +8,11 @@ export default function BookCard({ title, author, image, status, type, review })
     <div className="bg-bootstrapDark border border-black text-llBlue rounded-sm shadow-sm overflow-hidden ">
       <div className="flex flex-col md:flex-row">
         {/* Book Cover */}
-        <div className="md:w-1/3 w-full border-b md:border-b-0 md:border-r border-black">
+        <div className="md:w-1/4 w-full border-b md:border-b-0 md:border-r border-black">
           <img
             src={image}
             alt={`${title} cover`}
-            className="w-full h-80 object-cover md:h-full" /* half height */
+            className="w-full h-60 object-cover md:h-full" /* half height */
           />
         </div>
 
