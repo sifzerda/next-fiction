@@ -1709,7 +1709,7 @@ export default function BookList() {
       author: "Yuval Harari",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
       type: "Non-Fiction, History, Anthropology",
-      status: "Read",
+      status: "Finished",
       review: "Author sets out to provide a summary of the origins of humans and how they got where they are today, from their evolutionary split from apes, and their development of technology, science, and culture. A really good book. A number of points: (1) this book has the simplest, most straightforward explanation of social constructions that I think could possibly exist – in the face of many books which really flounder around for metaphors and obfuscate the subject; (2) In addition, in seamlessly shifts between talking about objectively verified things, biological evolutionary things, and social constructions – another thing which many books struggle with or fail to do altogether; (3) just as an aside, I don’t think I’ve ever read a book that closer accords with my views on almost every topic this book addresses (at least, at the time of reading)."
     },
 
@@ -1722,7 +1722,7 @@ export default function BookList() {
 
 
 
-    
+
 
 
 
@@ -1730,72 +1730,72 @@ export default function BookList() {
       title: "Sudden Wealth: Blessing or Burden?",
       author: "David Rust and Shane Moore",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: "Read",
+      type: "Non-Fiction, Finance, Self-Help",
+      status: "Finished",
       review: "."
     },
     {
       title: "Confessions of a Funeral Director",
       author: "Caleb Wilde",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: "Read",
+      type: "Non-Fiction, Memoir, Death, Funeral Industry",
+      status: "Finished",
       review: "."
     },
     {
       title: "Hyperspace",
       author: "Miko Kaku",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: "Read",
+      type: "Non-Fiction, Science",
+      status: "Finished",
       review: "."
     },
     {
       title: "El Infierno",
       author: "Pieter Titton",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: "Read",
+      type: "Non-Fiction, History",
+      status: "Finished",
       review: "."
     },
     {
       title: "Surviving Hell: A POW's Journey",
       author: "Leo Thorsness",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: "Read",
+      type: "Non-Fiction, Memoir, War",
+      status: "Finished",
       review: "."
     },
     {
       title: "Trans Teen Survival Guide",
       author: "Fox Fisher",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: "Read",
+      type: "Non-Fiction, LGBT",
+      status: "Finished",
       review: "."
     },
     {
       title: "The Undertaking",
       author: "Thomas Lynch",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Memoir, Death, Funeral Industry",
+      status: "Finished",
       review: "."
     },
     {
       title: "Money for Nothing: One Man's Journey Through the Dark Side of Lottery Millions",
       author: "Edward Ugel",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Finance, Self-Help",
+      status: "Finished",
       review: "."
     },
     {
       title: "Buried Secrets: Anecdotes of a Funeral Director",
       author: "Harry Pope",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Memoir, Death, Funeral Industry",
+      status: "Finished",
       review: "."
     },
     {
@@ -1803,7 +1803,7 @@ export default function BookList() {
       author: "Brett Kahr",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
       type: "Book",
-      status: ".",
+      status: "Finished",
       review: "."
     },
     {
@@ -1811,7 +1811,7 @@ export default function BookList() {
       author: "Nancy Friday",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
       type: "Book",
-      status: ".",
+      status: "Finished",
       review: "."
     },
     {
@@ -1834,16 +1834,16 @@ export default function BookList() {
       title: "Mortuary Confidential",
       author: "Multiple Contributors; Kenneth McKenzie and Todd Harra (eds)",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Memoir, Death, Funeral Industry",
+      status: "Finished",
       review: "."
     },
     {
       title: "Writing Tools: 50 Essential Strategies for Every Writer",
       author: "Roy Peter Clark",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Writing, Reference",
+      status: "Finished",
       review: "."
     },
     {
@@ -1851,7 +1851,7 @@ export default function BookList() {
       author: "Henry Gordon",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
       type: "Book",
-      status: ".",
+      status: "Finished",
       review: "."
     },
     {
@@ -1859,7 +1859,7 @@ export default function BookList() {
       author: "Fred Pearce",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
       type: "Book",
-      status: ".",
+      status: "Finished",
       review: "."
     },
     {
@@ -1891,8 +1891,8 @@ export default function BookList() {
       title: "How To Give Her Absolute Pleasure",
       author: "Lou Paget",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Sex, Relationships",
+      status: "Finished",
       review: "."
     },
     {
@@ -1916,7 +1916,7 @@ export default function BookList() {
       author: "Alexander Frater",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
       type: "Book",
-      status: ".",
+      status: "Finished",
       review: "."
     },
     {
@@ -1924,39 +1924,39 @@ export default function BookList() {
       author: "Greg Child",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
       type: "Book",
-      status: ".",
+      status: "Finished",
       review: "."
     },
     {
       title: "Rebecca",
       author: "Daphne Du Maurier",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Fiction, Thriller",
+      status: "Finished",
       review: "."
     },
     {
       title: "There Was No Jesus, There Is No God",
       author: "Raphael Lataster",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Religion, Criticism",
+      status: "Finished",
       review: "."
     },
     {
       title: "Jesus, Interrupted",
       author: "Bart D. Ehrman",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Religion, Criticism",
+      status: "Finished",
       review: "."
     },
     {
       title: "The Missionary Position: Mother Teresa in Theory and Practice",
       author: "Christopher Hitchens",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Religion, Criticism",
+      status: "Finished",
       review: "."
     },
 
@@ -1964,8 +1964,8 @@ export default function BookList() {
       title: "The End of Art",
       author: "Donald Kuspit",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Art, Criticism",
+      status: "Finished",
       review: "."
     },
     {
@@ -1980,104 +1980,104 @@ export default function BookList() {
       title: "Unforgettable Fire: Pictures Drawn by Atomic Bomb Survivors",
       author: "Japan Broadcasting Corporation, Soji Matsumoto (eds)",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, History, Illustrated",
+      status: "Finished",
       review: "."
     },
     {
       title: "Gulp",
       author: "Mary Roach",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Science",
+      status: "Finished",
       review: "."
     },
     {
       title: "400 Things Cops Know",
       author: "Adam Plantinga",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Crime, Law Enforcement",
+      status: "Finished",
       review: "."
     },
     {
       title: "The Midas Paradox: Financial Markets, Government Policy Shocks, and the Great Depression",
       author: "Scott Sumner",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Economics, Finance, Politics",
+      status: "Finished",
       review: "."
     },
     {
       title: "50 Reasons People Give for Believing in a God",
       author: "Guy P. Harrison",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Religion, Criticism",
+      status: "Finished",
       review: "."
     },
     {
       title: "Why Genes Are Not Selfish And People Are Nice",
       author: "Colin Tudge",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Science",
+      status: "Finished",
       review: "."
     },
     {
       title: "Grunt",
       author: "Mary Roach",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Science",
+      status: "Finished",
       review: "."
     },
     {
       title: "Welcome To Hell: One Man's Fight For Life Inside The Bangkok Hilton",
       author: "Colin Martin",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Crime, Incarceration, Memoir",
+      status: "Finished",
       review: "."
     },
     {
       title: "The New Confessions Of An Economic Hitman",
       author: "John Perkins",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Economics, Politics",
+      status: "Finished",
       review: "."
     },
     {
       title: "Christopher Hitchens and His Critics: Terror, Iraq, and the Left",
       author: "Christopher Hitchens (auth), Simon Cottee and Thomas Cushman (eds)",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Religious Criticism, Politics",
+      status: "Finished",
       review: "."
     },
     {
       title: "Not After Midnight & Other Stories",
       author: "Daphne du Maurier",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Fiction, Short Story Collection",
+       status: "Finished",
       review: "."
     },
     {
       title: "The Doré Gallery: His 120 Greatest Illustrations",
       author: "Gustave Doré (illus), Carol Grafton (ed)",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Illustrated, Art",
+      status: "Finished",
       review: "."
     },
     {
       title: "The Sokal Hoax: The Sham That Shook The Academy",
       author: "The Editors of Lingua Franca",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Academia, Criticism",
+      status: "Finished",
       review: "."
     },
     {
@@ -2092,8 +2092,8 @@ export default function BookList() {
       title: "Crap Taxidermy",
       author: "Kat Su",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Taxidermy, Art, Photography",
+      status: "Finished",
       review: "."
     },
     {
@@ -2108,24 +2108,24 @@ export default function BookList() {
       title: "Brief Answers to the Big Questions",
       author: "Stephen Hawking",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Science",
+      status: "Finished",
       review: "."
     },
     {
       title: "Higher Superstition",
       author: "Paul R. Gross, Norman Levitt",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Science, Academia, Criticism",
+      status: "Finished",
       review: "."
     },
     {
       title: "The Backpacker",
       author: "John Harris",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Travel, Memoir",
+      status: "Finished",
       review: "."
     },
     {
@@ -2140,24 +2140,24 @@ export default function BookList() {
       title: "Beyond The Hoax",
       author: "Alan Sokal",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Academia, Criticism",
+      status: "Finished",
       review: "."
     },
     {
       title: "The Stars' Tennis Balls",
       author: "Stephen Fry",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Fiction",
+      status: "Not Finished",
       review: "."
     },
     {
       title: "Pedigree: How Elite Students Get Elite Jobs",
       author: "Lauren Rivera",
       image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Book",
-      status: ".",
+      type: "Non-Fiction, Sociology, Economics, Academia",
+      status: "Finished",
       review: "."
     },
     {
