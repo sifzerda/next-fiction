@@ -30,7 +30,7 @@ export default function BookList() {
     {
       title: "Brave New World",
       author: "Aldous Huxley",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012645086-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -41,7 +41,7 @@ export default function BookList() {
     {
       title: "Alice's Adventures in Wonderland",
       author: "Lewis Carroll",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012621899-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -52,7 +52,7 @@ export default function BookList() {
     {
       title: "To Kill A Mockingbird",
       author: "Harper Lee",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0008410839-L.jpg",
       type: "Fiction.",
       status: "Finished.",
       review: [
@@ -65,7 +65,7 @@ export default function BookList() {
     {
       title: "Catcher In The Rye",
       author: "J.D. Salinger",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0014577326-L.jpg",
       type: "Fiction.",
       status:
         "Unfinished.",
@@ -76,7 +76,7 @@ export default function BookList() {
     {
       title: "The Virgin Suicides",
       author: "Jeffrey Eugenides",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0008756175-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -87,7 +87,7 @@ export default function BookList() {
     {
       title: "Dracula",
       author: "Bram Stoker",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0010633801-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -105,7 +105,7 @@ export default function BookList() {
     {
       title: "Frankenstein",
       author: "Mary Shelley",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012679895-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -116,7 +116,7 @@ export default function BookList() {
     {
       title: "The Haunting of Hill House",
       author: "Shirley Jackson",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0008259842-L.jpg",
       type: "Fiction.",
       status: "Finished.",
       review: [
@@ -129,7 +129,7 @@ export default function BookList() {
     {
       title: "The Midwich Cuckoos",
       author: "John Wyndham",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0008695008-L.jpg",
       type: "Fiction.",
       status: "Finished.",
       review: [
@@ -139,9 +139,9 @@ export default function BookList() {
       ]
     },
     {
-      title: "Gulliver’s Travels ",
+      title: "Gulliver’s Travels",
       author: "Jonathan Swift",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012919096-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -152,7 +152,7 @@ export default function BookList() {
     {
       title: "Crime and Punishment",
       author: "Fyodor Dostoyevsky",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/14911181-L.jpg",
       type: "Fiction.",
       status: "Finished.",
       review: [
@@ -165,7 +165,7 @@ export default function BookList() {
     {
       title: "War and Peace",
       author: "Leo Tolstoy",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/14831645-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -176,7 +176,7 @@ export default function BookList() {
     {
       title: "Lolita",
       author: "Vladimir Nabokov",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/15007994-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -187,7 +187,7 @@ export default function BookList() {
     {
       title: "Johnny Got His Gun",
       author: "Dalton Trumbo",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012719037-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -198,7 +198,7 @@ export default function BookList() {
     {
       title: "Catch-22",
       author: "Joseph Heller",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0010141363-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -209,7 +209,7 @@ export default function BookList() {
     {
       title: "Life of Pi",
       author: "Yann Martel",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6526427-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -220,7 +220,7 @@ export default function BookList() {
     {
       title: "House of Leaves",
       author: "Mark Z. Danielewski",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/228503-L.jpg",
       type: "Fiction.",
       status: "Unfinished.",
       review: [
@@ -266,7 +266,7 @@ export default function BookList() {
     {
       title: "The Three Musketeers",
       author: "Alexandre Dumas",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012622205-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -283,7 +283,7 @@ export default function BookList() {
     {
       title: "The Count of Monte Cristo",
       author: "Alexandre Dumas",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0014566653-L.jpg",
       type: "Fiction.",
       status:
         "Finished.",
@@ -294,7 +294,7 @@ export default function BookList() {
     {
       title: "Cyrano De Bergerac",
       author: "Edmond Rostand",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0010745644-L.jpg",
       type: "Fiction, Play.",
       status:
         "Finished.",
@@ -305,7 +305,7 @@ export default function BookList() {
     {
       title: "The Elements: A Visual Exploration of Every Known Atom in the Universe ",
       author: "Theodore Gray",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/14830148-L.jpg",
       type: "Non-Fiction, Chemistry, Photographic Book.",
       status:
         "Finished.",
@@ -316,7 +316,7 @@ export default function BookList() {
     {
       title: "The Man Who Mistook His Wife For A Hat and Other Clinical Tales",
       author: "Oliver Sacks",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0010104627-L.jpg",
       type: "Non-Fiction.",
       status:
         "Finished.",
@@ -327,7 +327,7 @@ export default function BookList() {
     {
       title: "Stone Butch Blues",
       author: "Leslie Feinberg",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6938043-L.jpg",
       type: "Non-fiction.",
       status:
         "Finished.",
@@ -338,7 +338,7 @@ export default function BookList() {
     {
       title: "Complications: A Surgeon's Notes on an Imperfect Science",
       author: "Atul Gawande",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0011487111-L.jpg",
       type: "Non-Fiction.",
       status:
         "Finished.",
@@ -349,7 +349,7 @@ export default function BookList() {
     {
       title: "Better: A Surgeon's Notes on Performance",
       author: "Atul Gawande",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012071649-L.jpg",
       type: "Non-Fiction.",
       status:
         "Finished.",
@@ -360,7 +360,7 @@ export default function BookList() {
     {
       title: "The Cinema of Isolation: A History of Physical Disability in the Movies",
       author: "Martin F. Norden",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/3945262-L.jpg",
       type: "Non-Fiction, Film Studies, Photographic Book,",
       status:
         "Finished.",
@@ -371,7 +371,7 @@ export default function BookList() {
     {
       title: "A Short History of Nearly Everything",
       author: "Bill Bryson",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0012995805-L.jpg",
       type: "Non-Fiction.",
       status:
         "Finished.",
@@ -382,7 +382,7 @@ export default function BookList() {
     {
       title: "On Writing: A Memoir of the Craft",
       author: "Stephen King",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0014651562-L.jpg",
       type: "Non-Fiction, Writing Guide.",
       status:
         "Finished.",
@@ -393,18 +393,7 @@ export default function BookList() {
     {
       title: "Danse Macabre",
       author: "Stephen King",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-      type: "Non-Fiction, Writing Guide.",
-      status:
-        "Finished.",
-      review:
-        "Discusses horror literature. I have almost no memory of this book except that it tossed out some good recommendations for horror, like ‘August Heat’ (amongst very average recommendations, like ‘The Horla’). It’s not going to make you a masterful horror writer, though. If you hadn’t heard of Lovecraft before you read this, you probably weren’t destined to terrify anyone anyway. I’m a big fan of horror and I have no memory of reading a book about horror writing written by Stephen King – something is terribly wrong with that.",
-    },
-
-    {
-      title: "Danse Macabre",
-      author: "Stephen King",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0014652645-L.jpg",
       type: "Non-Fiction, Writing Guide.",
       status:
         "Finished.",
@@ -415,7 +404,7 @@ export default function BookList() {
     {
       title: "Stiff",
       author: "Mary Roach",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6900010-L.jpg",
       type: "Non-Fiction.",
       status: "Finished.",
       review: ".",
@@ -424,7 +413,7 @@ export default function BookList() {
     {
       title: "Spook",
       author: "Mary Roach",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6564973-L.jpg",
       type: "Non-Fiction.",
       status: "Finished.",
       review: ".",
@@ -433,7 +422,7 @@ export default function BookList() {
     {
       title: "Bonk",
       author: "Mary Roach",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/5880515-L.jpg",
       type: "Non-Fiction.",
       status: "Finished.",
       review: ".",
@@ -442,7 +431,7 @@ export default function BookList() {
     {
       title: "Packing for Mars",
       author: "Mary Roach",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6716449-L.jpg",
       type: "Non-Fiction.",
       status: "Finished.",
       review: ".",
@@ -451,7 +440,7 @@ export default function BookList() {
     {
       title: "Extraordinary Popular Delusions and the Madness of Crowds",
       author: "Charles Mackay",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0008804986-L.jpg",
       type: "Non-Fiction, History.",
       status: "Finished.",
       review: ".",
@@ -459,8 +448,8 @@ export default function BookList() {
 
     {
       title: "An Illustrated History of Britain",
-      author: "Various",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "David McDowall",
+      image: "https://covers.openlibrary.org/b/id/0013239362-L.jpg",
       type: "Non-Fiction, History.",
       status: "Finished.",
       review: ".",
@@ -468,8 +457,8 @@ export default function BookList() {
 
     {
       title: "An Illustrated History of the USA",
-      author: "Various",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "Bryn O'Callaghan",
+      image: "https://covers.openlibrary.org/b/id/0013773019-L.jpg",
       type: "Non-Fiction, History.",
       status: "Finished.",
       review: ".",
@@ -478,7 +467,7 @@ export default function BookList() {
     {
       title: "The Bible (International Version)",
       author: "Various",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0011595720-L.jpg",
       type: "Religious Text.",
       status: "Finished.",
       review: ".",
@@ -486,8 +475,8 @@ export default function BookList() {
 
     {
       title: "Year of the Intern",
-      author: "Nina Godiwalla",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "Robin Cook",
+      image: "https://covers.openlibrary.org/b/id/291614-L.jpg",
       type: "Non-Fiction, Memoir.",
       status: "Finished.",
       review: ".",
@@ -496,7 +485,7 @@ export default function BookList() {
     {
       title: "Believing Bullshit",
       author: "Stephen Law",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/7129676-L.jpg",
       type: "Non-Fiction, Philosophy.",
       status: "Finished.",
       review: ".",
@@ -505,7 +494,7 @@ export default function BookList() {
     {
       title: "The Selfish Gene",
       author: "Richard Dawkins",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/7891217-L.jpg",
       type: "Non-Fiction, Science.",
       status: "Finished.",
       review: ".",
@@ -514,7 +503,7 @@ export default function BookList() {
     {
       title: "The Extended Phenotype",
       author: "Richard Dawkins",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/119978-L.jpg",
       type: "Non-Fiction, Science.",
       status: "Finished.",
       review: ".",
@@ -523,7 +512,7 @@ export default function BookList() {
     {
       title: "The God Delusion",
       author: "Richard Dawkins",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0010758981-L.jpg",
       type: "Non-Fiction, Religion/Science.",
       status: "Finished.",
       review: ".",
@@ -532,7 +521,7 @@ export default function BookList() {
     {
       title: "The Good War",
       author: "Studs Terkel",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6621542-L.jpg",
       type: "Non-Fiction, History.",
       status: "Finished.",
       review: ".",
@@ -541,7 +530,7 @@ export default function BookList() {
     {
       title: "Conversations on Consciousness",
       author: "Susan Blackmore",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/118086-L.jpg",
       type: "Non-Fiction, Science.",
       status: "Finished.",
       review: ".",
@@ -549,8 +538,8 @@ export default function BookList() {
 
     {
       title: "Just Give Money to the Poor",
-      author: "Alfie Kohn",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "Joseph Hanlon, Armando Barrientos, and David Hulme",
+      image: "https://covers.openlibrary.org/b/id/0009588185-L.jpg",
       type: "Non-Fiction, Economics.",
       status: "Finished.",
       review: ".",
@@ -559,7 +548,7 @@ export default function BookList() {
     {
       title: "Intellectual Impostures",
       author: "Alan Sokal & Jean Bricmont",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/917833-L.jpg",
       type: "Non-Fiction, Science/Critique.",
       status: "Finished.",
       review: ".",
@@ -567,8 +556,8 @@ export default function BookList() {
 
     {
       title: "The Psychic Mafia",
-      author: "Bertrand Méheust",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "Lamar Keene",
+      image: "https://covers.openlibrary.org/b/id/825751-L.jpg",
       type: "Non-Fiction, Paranormal.",
       status: "Finished.",
       review: ".",
@@ -577,7 +566,7 @@ export default function BookList() {
     {
       title: "Flim-Flam! Pseudoscience and the Paranormal",
       author: "James Randi",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/0008557243-L.jpg",
       type: "Non-Fiction, Skepticism.",
       status: "Finished.",
       review: ".",
@@ -585,8 +574,8 @@ export default function BookList() {
 
     {
       title: "Scientific Paranormal Investigation: How to Solve Unexplained Phenomena",
-      author: "Ray Hyman",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "Benjamin Radford",
+      image: "https://covers.openlibrary.org/b/id/0012529123-L.jpg",
       type: "Non-Fiction, Skepticism.",
       status: "Finished.",
       review: ".",
@@ -594,8 +583,8 @@ export default function BookList() {
 
     {
       title: "The Religion Virus",
-      author: "Richard Dawkins",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "Craig James",
+      image: "https://covers.openlibrary.org/b/id/7685654-L.jpg",
       type: "Non-Fiction, Religion/Science.",
       status: "Finished.",
       review: ".",
@@ -603,8 +592,8 @@ export default function BookList() {
 
     {
       title: "What to Do With a Chocolate Jesus",
-      author: "Phil Zuckerman",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      author: "Thomas Quinn",
+      image: "https://covers.openlibrary.org/b/id/14805535-L.jpg",
       type: "Non-Fiction, Religion/Culture.",
       status: "Finished.",
       review: ".",
@@ -613,7 +602,7 @@ export default function BookList() {
     {
       title: "The Idiot",
       author: "Fyodor Dostoyevsky",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6944833-L.jpg",
       type: "Fiction.",
       status: "Finished.",
       review: ".",
@@ -622,7 +611,7 @@ export default function BookList() {
     {
       title: "Guns, Germs, and Steel",
       author: "Jared Diamond",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/15136130-L.jpg",
       type: "Non-Fiction, History/Science.",
       status: "Finished.",
       review: ".",
@@ -631,7 +620,7 @@ export default function BookList() {
     {
       title: "Misquoting Jesus",
       author: "Bart D. Ehrman",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6539975-L.jpg",
       type: "Non-Fiction, Religion/History.",
       status: "Finished.",
       review: ".",
@@ -640,7 +629,7 @@ export default function BookList() {
     {
       title: "Godless",
       author: "Dan Barker",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/6438744-L.jpg",
       type: "Non-Fiction, Religion.",
       status: "Finished.",
       review: ".",
@@ -649,15 +638,15 @@ export default function BookList() {
     {
       title: "The Age of Reason",
       author: "Thomas Paine",
-      image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+      image: "https://covers.openlibrary.org/b/id/585070-L.jpg",
       type: "Non-Fiction, Philosophy/Religion.",
       status: "Finished.",
       review: ".",
     },
     {
-  title: "The Qu'ran (Translated by Abdullah Yusuf Ali)",
+  title: "The Holy Qu'ran (Translated by Abdullah Yusuf Ali)",
   author: "Abdullah Yusuf Ali",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/902534-L.jpg",
   type: "Religious Text.",
   status: "Finished.",
   review: ".",
@@ -666,7 +655,7 @@ export default function BookList() {
 {
   title: "Infidel",
   author: "Ayaan Hirsi Ali",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/0008260036-L.jpg",
   type: "Non-Fiction, Memoir.",
   status: "Finished.",
   review: ".",
@@ -675,7 +664,7 @@ export default function BookList() {
 {
   title: "Breaking the Spell",
   author: "Daniel C. Dennett",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/111428-L.jpg",
   type: "Non-Fiction, Science/Religion.",
   status: "Finished.",
   review: ".",
@@ -683,17 +672,8 @@ export default function BookList() {
 
 {
   title: "A Military History of South Africa",
-  author: "John Keegan",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
-  type: "Non-Fiction, History.",
-  status: "Finished.",
-  review: ".",
-},
-
-{
-  title: "From the Dutch-Khoi Wars…",
-  author: "Unknown",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  author: "Timothy Joseph Stapleton",
+  image: "https://covers.openlibrary.org/b/id/0008695158-L.jpg",
   type: "Non-Fiction, History.",
   status: "Finished.",
   review: ".",
@@ -702,7 +682,7 @@ export default function BookList() {
 {
   title: "Mathematics and Humor",
   author: "John Allen Paulos",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/0013158077-L.jpg",
   type: "Non-Fiction, Science/Math.",
   status: "Finished.",
   review: ".",
@@ -711,7 +691,7 @@ export default function BookList() {
 {
   title: "Innumeracy: Mathematical Illiteracy and Its Consequences",
   author: "John Allen Paulos",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/6658687-L.jpg",
   type: "Non-Fiction, Math.",
   status: "Finished.",
   review: ".",
@@ -719,8 +699,8 @@ export default function BookList() {
 
 {
   title: "Irreligion",
-  author: "Richard Dawkins",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  author: "John Allen Paulos",
+  image: "https://covers.openlibrary.org/b/id/6300069-L.jpg",
   type: "Non-Fiction, Religion/Science.",
   status: "Finished.",
   review: ".",
@@ -729,7 +709,7 @@ export default function BookList() {
 {
   title: "A Brief History of Korea",
   author: "Michael J. Seth",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/0013240080-L.jpg",
   type: "Non-Fiction, History.",
   status: "Finished.",
   review: ".",
@@ -738,7 +718,7 @@ export default function BookList() {
 {
   title: "A Short History of Russia",
   author: "Mary Platt Parmele",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/0013137081-L.jpg",
   type: "Non-Fiction, History.",
   status: "Finished.",
   review: ".",
@@ -746,8 +726,8 @@ export default function BookList() {
 
 {
   title: "France: An Outline of History",
-  author: "G.P. Gooch",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  author: "Denis C. Meyer",
+  image: "/denismeyer.jpg",
   type: "Non-Fiction, History.",
   status: "Finished.",
   review: ".",
@@ -756,7 +736,7 @@ export default function BookList() {
 {
   title: "A Concise History of the Middle East",
   author: "Arthur Goldschmidt",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/0010576722-L.jpg",
   type: "Non-Fiction, History.",
   status: "Finished.",
   review: ".",
@@ -765,7 +745,7 @@ export default function BookList() {
 {
   title: "A History of the Middle East",
   author: "Peter Mansfield",
-  image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
+  image: "https://covers.openlibrary.org/b/id/111059-L.jpg",
   type: "Non-Fiction, History.",
   status: "Finished.",
   review: ".",
@@ -8073,11 +8053,11 @@ image: "https://covers.openlibrary.org/b/id/12919048-L.jpg",
 
   ];
 
-  return (
-    <div className="flex flex-col w-full max-w-screen-xl mx-auto mt-6 space-y-8">
-      {books.map((book, index) => (
-        <BookCard key={index} {...book} />
-      ))}
-    </div>
-  );
+return (
+  <div className="flex flex-col w-full max-w-screen-xl mx-auto mt-6 space-y-8">
+    {books.map((book, index) => (
+      <BookCard key={index} {...book} />
+    ))}
+  </div>
+);
 }
