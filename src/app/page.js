@@ -1,4 +1,5 @@
 // src/app/About.js
+"use client";
 import Layout from '../components/Layout';
 import splashPic from './assets/splashPic.jpg';
 import Image from "next/image";
