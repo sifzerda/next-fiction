@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import CommentForm from '../../components/CommentForm';
 import CommentList from '../../components/CommentList';
 import FootnoteRef from '../../components/FootnoteRef';
-import antagBanner from '../assets/antagbanner.jpg';
+import antagBanner from '../assets/antagBanner.jpg';
 import Image from "next/image";
 
 function Antagonists() {
