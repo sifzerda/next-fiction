@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
+import scrollbar from 'tailwind-scrollbar';
+
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       colors: {
@@ -14,7 +18,7 @@ export default {
         lRed: "#f02652",
         midBlue: "#006eff",
         midBluey: "#0055cc",
-        boldPurple: "#4845fd", 
+        boldPurple: "#4845fd",
         borderBlue: "#062c4c",
         blue: "#2684ff",
         lBlue: "#4f9bff",
@@ -26,24 +30,38 @@ export default {
         volt: "#c8ff00",
         hGreen: "#00ff00",
         darkBlue: "#072752",
-        yellow: "#e5dc15", 
-        darkYellow: "#c2bb11", 
-        bootstrapDark: "#212529", 
+        yellow: "#e5dc15",
+        darkYellow: "#c2bb11",
+        bootstrapDark: "#212529",
         bootstrapLighter: "#364459",
         bootstrapLightest: "#96a4b3",
         gold: "#ffc107",
         hYellow: "#FFFF00",
         hRed: "#F17078",
       },
+
       fontFamily: {
-        'source-code-pro': ['var(--font-source-code-pro)', 'monospace'],
-        'rubik': ['var(--font-rubik)', 'sans-serif'],
-        'edu': ['var(--font-edu-au)', 'cursive'],
-        'rock-salt': ['var(--font-rock-salt)', 'cursive'],
+        "source-code-pro": [
+          "var(--font-source-code-pro)",
+          "monospace",
+        ],
+        rubik: [
+          "var(--font-rubik)",
+          "sans-serif",
+        ],
+        edu: [
+          "var(--font-edu-au)",
+          "cursive",
+        ],
+        "rock-salt": [
+          "var(--font-rock-salt)",
+          "cursive",
+        ],
       },
     },
   },
+
   plugins: [
-    require('tailwind-scrollbar'),
+    scrollbar,
   ],
 };
