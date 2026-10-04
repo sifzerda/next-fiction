@@ -460,6 +460,7 @@ function Dialogue() {
           </p>
           <div className="quote-box">
             <p><i>“I'm Lenny,” he said, extending his hand. “What's your name?”
+              <br></br>
               She told him. She was holding a bag with packages of cookies in it. After the meeting, she had an appointment with her psychiatrist, then a manicure. She kept walking.
             </i></p>
           </div>
@@ -467,7 +468,7 @@ function Dialogue() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h2 id="post-when-to-avoid-dialogue">12.13: Mid-Sentence Attribution</h2>
+          <h2 id="post-mid-sentence-attribution">12.13: Mid-Sentence Attribution</h2>
 
           <p>Placing dialogue attribution mid-sentence forces the reader to slow down and deliberate over what is being said.</p>
           <p>This can be done to:</p>
@@ -485,14 +486,57 @@ function Dialogue() {
           <p> Because it tends to underscore extra meaningful, serious moments, the dialogue itself should not be couched
             in overly casual or colloquialism, otherwise it can have an unfortunate, accidental comic effect:</p>
 
+          <h2 id="post-rhetorical-questions">12.14: Rhetorical Questions</h2>
 
+          <p>These tend to be overused in fiction, because it's a quick, cheap way to create
+            a sense of wonder or mystery.
+            Rhetorical questions should be a last resort if other methods aren't appropriate.
+            The preferred way to build mystery should through thought-provoking description and
+            action. It should be built up by suggestion, not literally posed at the reader.</p>
 
+          <p>The worst use of rhetorical questions are those that redundantly state what the reader is thinking anyway:</p>
 
+          <div className="quote-box">
+            <p><i>"I can't tell you that!" he snapped.
+              <br></br>
+              Why did he snap at me? She wondered irritably.
+            </i></p>
+          </div>
 
+          <p>The dialogue is powerful and evocative on its own. It doesn't need the blandly obvious rhetorical question.
+            Let the reader wonder for themselves, rather than undermine their intelligence by telling them what to think.</p>
 
+          <p>If the above rhetorical question exists to show the character's irritated reaction,
+            you can instead imply this by showing the character acting irritated.
+            Her hand could clench or she turns away or sighs.
+            This allows the reader to experience the scene play out using their imagination,
+            rather than 'beam' the story into their head.</p>
 
+          <div className="quote-box">
+            <p><i>"I can't tell you that!" he snapped.
+              <br></br>
+              She stood, remembering to breathe. Finally she turned and left.
+            </i></p>
+          </div>
 
+          <h3>12.14.1 	Positive and Negative Rhetorical Questions</h3>
 
+          <p>A 'positive' rhetorical question is one which has an affirmative answer. The hypothetical it poses is true, or implied to be.
+            An negative rhetorical question is the opposite; the hypothetical is untrue.</p>
+
+          <p>Negative rhetorical questions bandied out recklessly can constitute a break of the story's promise (see: Promise).
+            If the rhetorical question is provocative, prepare for the reader to be disappointed and disillusioned by the story when it turns out the question was a complete confabulation.</p>
+
+          <p>Conversely, a poorly executed positive rhetorical question could spoil later plot points. </p>
+
+          <p>A well-executed rhetorical question should:</p>
+
+          <ul className="bullets">
+            <li>	Not be an outright lie, exaggeration, or red herring; </li>
+            <li>  Not be straightforwardly true as to constitute a spoiler; </li>
+            <li>	Raise a question the reader hadn't considered before, or; </li>
+            <li>	Reframe the urgency or importance of current plot issues </li>
+          </ul>
 
           {/* ------------------------------------------------- Comment Form footnotes --------------------------------------------- */}
 
@@ -535,6 +579,8 @@ function Dialogue() {
               <li className="mb-px"><a href="#post-concrete-abstract-statements" className="text-xs hover:underline hover:text-white">12.10: Concrete/Abstract Statements</a></li>
               <li className="mb-px"><a href="#post-dont-take-sides" className="text-xs hover:underline hover:text-white">12.11: Don't Take Sides</a></li>
               <li className="mb-px"><a href="#post-when-to-avoid-dialogue" className="text-xs hover:underline hover:text-white">12.12: When To Avoid Dialogue</a></li>
+              <li className="mb-px"><a href="#post-mid-sentence-attribution" className="text-xs hover:underline hover:text-white">12.13: Mid-Sentence Attribution</a></li>
+              <li className="mb-px"><a href="#post-rhetorical-questions" className="text-xs hover:underline hover:text-white">12.14: Rhetorical Questions</a></li>
               <li className="mb-px"><a href="#post-dialogue-comments" className="text-xs hover:underline hover:text-white">Comments</a></li>
             </ol>
           </div>
