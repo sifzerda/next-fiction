@@ -50,12 +50,12 @@ function Setting() {
           <p>Some basic rules:</p>
 
           <ol>
-            <li>Like characters and dialogue, story settings are not real places. They are patchworks of details and virtual ‘set pieces&#39; and ‘props&#39; calculated to enhance conflict and interest in the story;</li>
+            <li>Like characters and dialogue, story settings are not real places. They are patchworks of details and virtual ‘set pieces' and ‘props' calculated to enhance conflict and interest in the story;</li>
             <li>Another way of thinking of it is like lego; you can break up and add to any part of your scene how you need to for the story. Readers will forgive a strange setting for particularisation setting it apart from other scenes in other stories; e.g.</li>
             <li>A haunted mansion that is half bulldozed (meaning you can walk into a room leading directly to outside);</li>
             <li>An amusement park in the middle of the forest;</li>
-            <li>Another way to particularise or add new life to settings is to make the characters behave unexpectedly or unconventionally in them. The movie ‘The Terminal&#39; (starring Tom Hanks) is a great example of this, with a man living in an airport;</li>
-            <li>Think of a setting less like a location in a movie, and more like a set on a theatre stage: props and scenery flats economically selected to suggest a broader place; a door suggesting a room, a child&#39;s toy suggesting a play pen, a beach ball and floatie suggesting a pool, etc. Your setting isn&#39;t a pretty backdrop (after all, unlike in a movie, your reader won&#39;t be able to see it) it&#39;s a playground of ‘toys&#39; for your characters to interact with; with ‘let mot juste&#39; rule in mind, you only detail your setting with the relevant toys and details to make the story move. Your reader will always assume anything obvious which wasn&#39;t described;</li>
+            <li>Another way to particularise or add new life to settings is to make the characters behave unexpectedly or unconventionally in them. The movie ‘The Terminal' (starring Tom Hanks) is a great example of this, with a man living in an airport;</li>
+            <li>Think of a setting less like a location in a movie, and more like a set on a theatre stage: props and scenery flats economically selected to suggest a broader place; a door suggesting a room, a child's toy suggesting a play pen, a beach ball and floatie suggesting a pool, etc. Your setting isn't a pretty backdrop (after all, unlike in a movie, your reader won't be able to see it) it's a playground of ‘toys' for your characters to interact with; with ‘let mot juste' rule in mind, you only detail your setting with the relevant toys and details to make the story move. Your reader will always assume anything obvious which wasn't described;</li>
             <li>Scenes should provide obstacle to the protagonist, not provide obstacle to the story.</li>
           </ol>
 
@@ -82,9 +82,9 @@ function Setting() {
 
           <h2 id="post-setting-as-character">9.4: Setting as Character</h2>
 
-          <p>Your setting isn&#39;t just a landscape or backdrop; it can also be a character. Use your environment to suggest things which cannot be said in dialogue or description. Examples: </p>
+          <p>Your setting isn't just a landscape or backdrop; it can also be a character. Use your environment to suggest things which cannot be said in dialogue or description. Examples: </p>
           <ol>
-            <li>A character having to ‘climb stairs&#39; to get somewhere suggests the activity at the forthcoming place will be difficult or tiresome, and is not something looked forward to by the character;</li>
+            <li>A character having to ‘climb stairs' to get somewhere suggests the activity at the forthcoming place will be difficult or tiresome, and is not something looked forward to by the character;</li>
             <li>A thunderstorm during a party or get-together suggests underlying tensions between guests which might ignite;</li>
             <li>A house with furniture that is incredibly heavy or unmovable suggests the occupants are settled in for the long term, or maybe feel trapped there against their own preferences;</li>
             <li>Transport can be a setting, too – e.g. the inside of a car, train, houseboat, elevator, etc. Settings in motion can add an extra dimension of action and uncertainty because characters are only together for a finite period of time – the duration of the trip;</li>
@@ -93,13 +93,13 @@ function Setting() {
           <p>Example from Pet Sematary:</p>
 
           <div className="p-3 mb-3 rounded bg-gray-200 border border-gray-300 font-rubik shadow-md">
-            <p className="italic text-midBluey">Then there was a sound, and he remembered this from the last time as well: a high, gobbling laugh that became a sob. There was silence for a moment and then the laugh came again, this time rising to a maniacal shriek that froze Louis&#39;s blood. The mist drifted dreamily around him.</p>
+            <p className="italic text-midBluey">Then there was a sound, and he remembered this from the last time as well: a high, gobbling laugh that became a sob. There was silence for a moment and then the laugh came again, this time rising to a maniacal shriek that froze Louis's blood. The mist drifted dreamily around him.</p>
           </div>
 
           <p>Jumping from Louis's reaction (his blood froze) to the setting (the mist) creates an unspoken dialogue between protagonist and setting. The protagonist asks a question "what made that sound?" and the setting answers "I'll tell you nothing". See this example, rewritten to explicitly provide the same information:</p>
 
           <div className="p-3 mb-3 rounded bg-gray-200 border border-gray-300 font-rubik shadow-md">
-            <p className="italic text-midBluey">[...S]ilence for a moment and then the laugh came again, this time rising to a maniacal shriek that froze Louis&#39;s blood. 
+            <p className="italic text-midBluey">[...S]ilence for a moment and then the laugh came again, this time rising to a maniacal shriek that froze Louis's blood. 
               <u>Unable to move, Louis could only stare about into the forest for what had made that surreal sound. But he saw nothing.</u> The mist drifted dreamily around him.</p>
           </div>
 

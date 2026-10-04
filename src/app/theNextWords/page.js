@@ -43,76 +43,76 @@ function TheNextWords() {
 
           <h2 id="post-dont-do-this" className="mb-2 font-semibold">18.1: Don't Do This!</h2>
 
-          <p>Before detailing what to do, here&#39;s a general list of things not to do:</p>
+          <p>Before detailing what to do, here's a general list of things not to do:</p>
 
-          <h3>18.1.1 	Don&#39;t Be a ‘Said&#39; Dodger</h3>
-          <p>Using a plethora of synonyms for ‘said&#39; (exclaimed, cackled, ejaculated, yelled, responded, asked, answered, etc) instead of just using ‘said&#39;
+          <h3>18.1.1 	Don't Be a ‘Said' Dodger</h3>
+          <p>Using a plethora of synonyms for ‘said' (exclaimed, cackled, ejaculated, yelled, responded, asked, answered, etc) instead of just using ‘said'
             and making the dialogue, conduct and circumstances convey tone.</p>
 
-          <p>Related: following up ‘said&#39; with gratuitous adverbs, e.g. said nervously, said shyly, said angrily, said happily, etc;</p>
+          <p>Related: following up ‘said' with gratuitous adverbs, e.g. said nervously, said shyly, said angrily, said happily, etc;</p>
 
           <h3>18.1.2 	Desperate Descriptive Detailing of Dialogic Discourse Does Disservice </h3>
-          <p>Gratuitous descriptions of characters&#39; actions while they&#39;re talking.
-            Where this exists it&#39;s painfully obvious the author is self-conscious about filling in gaps between dialogue with any bit of verbiage they could think up:</p>
-          <p>E.g. “I don&#39;t know how,” he said, <i>licking his lips;</i></p>
+          <p>Gratuitous descriptions of characters' actions while they're talking.
+            Where this exists it's painfully obvious the author is self-conscious about filling in gaps between dialogue with any bit of verbiage they could think up:</p>
+          <p>E.g. “I don't know how,” he said, <i>licking his lips;</i></p>
 
           <ul className="bullets">
-            <li>Rule of thumb: You should not hear too much on a person&#39;s teeth and tongue while they&#39;re talking –
-              unless they&#39;re a crocodile or the observer has some weird oral fixation;</li>
-            <li>Remember the rule about only describing what&#39;s unusual – so this would imply the character has screwed up teeth or tongue –
+            <li>Rule of thumb: You should not hear too much on a person's teeth and tongue while they're talking –
+              unless they're a crocodile or the observer has some weird oral fixation;</li>
+            <li>Remember the rule about only describing what's unusual – so this would imply the character has screwed up teeth or tongue –
               is that really what you want to convey?</li>
           </ul>
 
-          <p>Characters ‘whistling&#39; after someone says something surprising;</p>
+          <p>Characters ‘whistling' after someone says something surprising;</p>
 
           <ul className="bullets">
-            <li>I can&#39;t remember the last time someone ever did this in real life. So why do I keep seeing it time and time again in fiction? </li>
+            <li>I can't remember the last time someone ever did this in real life. So why do I keep seeing it time and time again in fiction? </li>
           </ul>
 
           <p>Characters scratching themselves in public – particularly in weird places;</p>
 
           <ul className="bullets">
-            <li>Again, it&#39;s not just that characters would even do this, it&#39;s also that your observing character would bother to make a mental note of it; </li>
+            <li>Again, it's not just that characters would even do this, it's also that your observing character would bother to make a mental note of it; </li>
             <li>There may be an argument for it where you want to imply that (a) the character is astonishingly comfortable with the present company;
               or (b) the character is filled with vile disrespect for the present company; </li>
           </ul>
 
-          <p>See 13.2.7 Dialogue descriptions&#39; for the correct way to go about this.</p>
+          <p>See 13.2.7 Dialogue descriptions' for the correct way to go about this.</p>
 
           <h3>18.1.3 	Too Many Words </h3>
-          <p>Description which doesn&#39;t do any work, e.g.</p>
+          <p>Description which doesn't do any work, e.g.</p>
 
           <h5>[1] Announcing Your Writing</h5>
-          <p>Pointing out that you&#39;re introducing information,
-            e.g. ‘Also, I forgot to mention…&#39; ‘by the way…&#39; – just say what you what to say like a normal person.</p>
+          <p>Pointing out that you're introducing information,
+            e.g. ‘Also, I forgot to mention…' ‘by the way…' – just say what you what to say like a normal person.</p>
           <ol>
-            <li>It&#39;s too conversational – can pull reader out of the plot;</li>
-            <li>It&#39;s superfluous; you did not ‘forget to mention&#39; because you&#39;re mentioning it now.
-              If you had truly ‘forgotten&#39; you wouldn&#39;t have mentioned it at all.</li>
+            <li>It's too conversational – can pull reader out of the plot;</li>
+            <li>It's superfluous; you did not ‘forget to mention' because you're mentioning it now.
+              If you had truly ‘forgotten' you wouldn't have mentioned it at all.</li>
           </ol>
 
           <h5>[2] Describing Downtime</h5>
           <p>Describing periods of time in which nothing notable happens; </p>
 
           <ul className="bullets">
-            <li>E.g. ‘Nothing happened on Wednesday, or Thursday,&#39; or ‘Nothing especially worthy of mention occurred during that day&#39; </li>
+            <li>E.g. ‘Nothing happened on Wednesday, or Thursday,' or ‘Nothing especially worthy of mention occurred during that day' </li>
             <li>Cruise is relatively uneventful.
               <FootnoteRef text={`SARAH LOTZ,\nDay Four.`} />
             </li>
-            <li>If left undescribed, readers already assume periods of time are spent the usual way. You don&#39;t have to anxiously assure your reader that
-              ‘Wednesday&#39; and ‘Thursday&#39; didn&#39;t mysteriously disappear off the calendar.</li>
+            <li>If left undescribed, readers already assume periods of time are spent the usual way. You don't have to anxiously assure your reader that
+              ‘Wednesday' and ‘Thursday' didn't mysteriously disappear off the calendar.</li>
           </ul>
 
           <h5>[3] Describing the Nondescript</h5>
-          <p>Generic descriptions or terms in breach of the ‘only describe the unusual&#39; rule;</p>
+          <p>Generic descriptions or terms in breach of the ‘only describe the unusual' rule;</p>
 
           <ul className="bullets">
-            <li>Avoid words such as ‘average,&#39; ‘medium,&#39; ‘nondescript,&#39; etc</li>
-            <li>Also beware terms which equate with the average; Guys as ‘friendly,&#39; ‘easy-going,&#39; girls as ‘nice&#39; or ‘pretty,&#39; characters wearing
-              ‘blue jeans&#39; and ‘a plain shirt,&#39;</li>
+            <li>Avoid words such as ‘average,' ‘medium,' ‘nondescript,' etc</li>
+            <li>Also beware terms which equate with the average; Guys as ‘friendly,' ‘easy-going,' girls as ‘nice' or ‘pretty,' characters wearing
+              ‘blue jeans' and ‘a plain shirt,'</li>
           </ul>
 
-          <h5>[4] The ‘Transport Scene&#39;</h5>
+          <h5>[4] The ‘Transport Scene'</h5>
           <p>Where “characters are shown travelling to the place where something of interest finally occurs.”
             <FootnoteRef text={`HOWARD MITTELMARK and SANDRA NEWMAN,\nHow NOT to Write a Novel.`} />
           </p>
@@ -120,40 +120,40 @@ function TheNextWords() {
             <li>Transport or travelling scenes should only be included if something interesting and plot-relevant actually happens during the travel. </li>
           </ul>
 
-          <h5>[5] The ‘Dream Sequence&#39;</h5>
+          <h5>[5] The ‘Dream Sequence'</h5>
           <p>Where the protagonist has a dream to no effect;</p>
 
           <ul className="bullets">
-            <li>It&#39;s strongly discouraged to have dreams (or hallucinations, mirages, fantasies, etc) in your story, because they are imaginary
+            <li>It's strongly discouraged to have dreams (or hallucinations, mirages, fantasies, etc) in your story, because they are imaginary
               (fiction twice removed, because your story is fiction) but if you must have a dream sequence, it must say something other than the pure content
               of the dream, e.g. something about your character or the plot;</li>
             <li>The line becomes blurred where plot is contained in fictional media the protagonist consumes (a la a meta story);
-              <FootnoteRef text={<>Examples include &#39;The Neverending Story&#39;, MICHAEL ENDE, and <em>Nocturnal Animals</em>, and, possibly the
-                earliest known example, <em>Scheherazade</em> from <em>One Thousand and One Nights</em>, ANONYMOUS</>} />  it&#39;s possible but difficult to pull this off;
+              <FootnoteRef text={<>Examples include 'The Neverending Story', MICHAEL ENDE, and <em>Nocturnal Animals</em>, and, possibly the
+                earliest known example, <em>Scheherazade</em> from <em>One Thousand and One Nights</em>, ANONYMOUS</>} />  it's possible but difficult to pull this off;
               the story-in-story must affect the real world protagonist in a plot; you should also care more about the protagonist than the characters in the story-in-story;
             </li>
           </ul>
 
           <h5>[6] The 'Mirror Scene'</h5>
-          <p>Where you introduce your protagonist&#39;s appearance through them observing their reflection in the mirror;</p>
+          <p>Where you introduce your protagonist's appearance through them observing their reflection in the mirror;</p>
 
           <ul className="bullets">
             <li>This has the added detrimental implication of vanity;</li>
-            <li>Instead, devise to bring the protagonist&#39;s physical appearance into the story in some way
+            <li>Instead, devise to bring the protagonist's physical appearance into the story in some way
               (e.g. physical activity causes their hairstyle to fall out of place), and only describe those features relevant to the plot events; </li>
           </ul>
 
-          <h5>[7] The ‘Photograph Scene&#39;</h5>
-          <p>Where you introduce your protagonist&#39;s appearance through them observing a photo of themselves;</p>
+          <h5>[7] The ‘Photograph Scene'</h5>
+          <p>Where you introduce your protagonist's appearance through them observing a photo of themselves;</p>
 
           <ul className="bullets">
             <li>This has the added detrimental implication of vanity and sentimentality;</li>
-            <li>This applies to every character; bring characters into the story to introduce them; a photograph doesn&#39;t tell the reader
+            <li>This applies to every character; bring characters into the story to introduce them; a photograph doesn't tell the reader
               anything about who the character is. </li>
           </ul>
 
           <h5>[8] The Fashion Catalogue</h5>
-          <p>Cataloguing every single item of clothing characters&#39; are wearing; </p>
+          <p>Cataloguing every single item of clothing characters' are wearing; </p>
           <ul className="bullets">
             <li>A single, well-chosen item of clothing (that says something essential about your character) is preferable to an entire wardrobe of description.</li>
             <li>Take advantage of clothing which suggests a bigger outfit; e.g. if a character is wearing a raincoat, we assume they are also wearing gumboots
@@ -161,7 +161,7 @@ function TheNextWords() {
           </ul>
 
           <h5>[9] Look For The Bare Necessities</h5>
-          <p>Describing characters&#39; going about ordinary daily rituals: including washing, sleeping, eating, going to the toilet, etc; </p>
+          <p>Describing characters' going about ordinary daily rituals: including washing, sleeping, eating, going to the toilet, etc; </p>
           <ul className="bullets">
             <li>Again, describe these only if something of plot-relevant interest happens during these events.</li>
           </ul>
@@ -182,11 +182,11 @@ function TheNextWords() {
 
           <h3>18.1.4 	Never use Hyperbole</h3>
 
-          <p>Examples: ‘only&#39;, ‘always&#39;, ‘eternally&#39;; ‘forever&#39;; words ending in ‘-iest&#39; like ‘funniest&#39;.</p>
-          <p>Here&#39;s my tip: Avoid it...most of the time. </p>
-          <p>Note that hyperbole may be appropriate for certain dialogue, e.g. teenager-isms, or irony, or misleading information, e.g. ‘Big Brother knows everything.&#39;
+          <p>Examples: ‘only', ‘always', ‘eternally'; ‘forever'; words ending in ‘-iest' like ‘funniest'.</p>
+          <p>Here's my tip: Avoid it...most of the time. </p>
+          <p>Note that hyperbole may be appropriate for certain dialogue, e.g. teenager-isms, or irony, or misleading information, e.g. ‘Big Brother knows everything.'
             In other words, you can use hyperbole to convey something other than the factual truth of the statement. Some examples: You can use hyperbole if it reflects the
-            character&#39;s heightened mental state. Some general examples:</p>
+            character's heightened mental state. Some general examples:</p>
 
           <h4>Fear:</h4>
           <ul className="bullets">
@@ -196,9 +196,9 @@ function TheNextWords() {
 
           <h4>Love:</h4>
           <ul className="bullets">
-            <li><span className="bg-hGreen">YES:</span> I asked if she&#39;d be there. He nodded. That&#39;s when I realised getting an invitation to that party was everything.   </li>
-            <li><span className="bg-hRed">NO:</span> I asked if she&#39;d be there. He nodded. That&#39;s when I realised getting an invitation to that party was very important,
-              but if I didn&#39;t it wouldn&#39;t be the end of the world, either.    </li>
+            <li><span className="bg-hGreen">YES:</span> I asked if she'd be there. He nodded. That's when I realised getting an invitation to that party was everything.   </li>
+            <li><span className="bg-hRed">NO:</span> I asked if she'd be there. He nodded. That's when I realised getting an invitation to that party was very important,
+              but if I didn't it wouldn't be the end of the world, either.    </li>
           </ul>
 
           <h3>18.1.5 	Bombastic Behaviours and Grandiloquent Gesticulations</h3>
@@ -208,9 +208,9 @@ function TheNextWords() {
             <p><i>He threw back his head and burst into laughter [or] slapped his knee.</i></p>
           </div>
 
-          <p>Just another on bombastic laughter: you&#39;re implying what was said was really, extraordinarily funny, so you stand to embarrass yourself if
-            (and more likely) it&#39;s actually not. Conversely, sometimes understatement can be funnier than effectively pointing to a joke and saying
-            ‘look how funny that is&#39;.</p>
+          <p>Just another on bombastic laughter: you're implying what was said was really, extraordinarily funny, so you stand to embarrass yourself if
+            (and more likely) it's actually not. Conversely, sometimes understatement can be funnier than effectively pointing to a joke and saying
+            ‘look how funny that is'.</p>
           <div className="custom-box">
             <p><i>She opened her mouth in a silent scream;</i></p>
           </div>
@@ -220,7 +220,7 @@ function TheNextWords() {
           <div className="custom-box">
             <p><i>"It's all over!" he said, throwing his arms into the air;</i></p>
           </div>
-          <p>It&#39;s difficult to like people who inject such sarcastic drama into everyday speech;</p>
+          <p>It's difficult to like people who inject such sarcastic drama into everyday speech;</p>
 
           <div className="custom-box">
             <p>Eye-based pantomimes: eye rolling, winking, or eyebrow wiggling.</p>
@@ -234,23 +234,23 @@ function TheNextWords() {
 
           <p>This is cliche and cartoonish.</p>
 
-          <p>Many of the above rules (such as preferring ‘said&#39;) should only be broken in exceptional circumstances, i.e. you need a really compelling reason.
+          <p>Many of the above rules (such as preferring ‘said') should only be broken in exceptional circumstances, i.e. you need a really compelling reason.
             And maybe not even then.</p>
 
           <h3>18.1.6 	Starve the Ego, Feed the Soul</h3>
           <div className="quote-box">
             <p>
-              <i>“Did I feel a twinge in my little toe, or didn&#39;t I?” </i> 
+              <i>“Did I feel a twinge in my little toe, or didn't I?” </i> 
               asks every character of Mr. Joyce or of Miss Richardson or M. Proust. . . .
               Through thousands and thousands of pages Mr. Joyce and Miss Richardson tear themselves to pieces, strip their smallest emotions to the finest threads,
               till you feel you are sewed inside a wool mattress that is being slowly shaken up, and you are turning to wool along with the rest of the woolliness.</p>
             <br></br>
-            <p><i>It&#39;s awful. And it&#39;s childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p>
+            <p><i>It's awful. And it's childish. It really is childish, after a certain age, to be absorbedly self-conscious.</i></p>
             <p><i>— D. H. LAWRENCE</i><FootnoteRef text="Surgery for the Novel — or a Bomb” (1923), D. H. Lawrence." />
             </p>
           </div>
 
-          <p>Introspection has utility, however over-reliance positions the narrator (who may or may not also be the main character) as an obstacle to the reader&#39;s
+          <p>Introspection has utility, however over-reliance positions the narrator (who may or may not also be the main character) as an obstacle to the reader's
             engagement with the story. Your main character is not the story.</p>
           <p>Maybe more than any other writing sin, over-introspective writing flags amateur writing, as if the writing is yet to graduate from personal 'diary' writing.
             If you avoid it, you immediately set your writing skills apart. </p>
@@ -262,22 +262,22 @@ function TheNextWords() {
           <h4>Concrete Description: </h4>
           <p>Concrete description is outward-looking and concerned with facts and things.  </p>
           <p>When concrete description happens, the plot/action keeps moving. When introspection happens, the plot/action pauses (to allow the character to stop and think).
-            Concrete description is also referred to as ‘showing&#39;, whereas introspection is never ‘showing&#39; – it is always ‘telling&#39;.  For these reasons,
+            Concrete description is also referred to as ‘showing', whereas introspection is never ‘showing' – it is always ‘telling'.  For these reasons,
             introspection should not be a dominant form of conveying information. </p>
 
           <h5>Introspection has two forms:</h5>
 
           <h6>(1) Pure:</h6>
-          <p>This is the worst form, also sometimes referred to as ‘inner monologue&#39;, where the narrative predominantly conveys the main character&#39;s thoughts and
+          <p>This is the worst form, also sometimes referred to as ‘inner monologue', where the narrative predominantly conveys the main character's thoughts and
             feelings through self-reflection, over all other ways of conveying that information (e.g. behaviour, events, dialogue, etc). Sadly, a lot of contemporary
-            popular writing (‘airport literature&#39;) has just become long paragraphs of inner monologue. </p>
+            popular writing (‘airport literature') has just become long paragraphs of inner monologue. </p>
           
           <h6>(2) Diluted:</h6>
-          <p>The narrative is not necessarily trapped in the main character&#39;s head, but has a disproportionate fixation with the main character.</p>
+          <p>The narrative is not necessarily trapped in the main character's head, but has a disproportionate fixation with the main character.</p>
 
           <h4>POV isn't determinative: </h4>
-          <p>Introspection is not a curse exclusive to ‘1st person POV&#39;; it can happen with any POV. You can write a 1st person POV
-            story clean of most traces of introspection. Likewise, you can write a 3rd person POV story filled with it. It&#39;s not about what camera you use, it&#39;s
+          <p>Introspection is not a curse exclusive to ‘1st person POV'; it can happen with any POV. You can write a 1st person POV
+            story clean of most traces of introspection. Likewise, you can write a 3rd person POV story filled with it. It's not about what camera you use, it's
             about what your camera looks at.</p>
           <p>To illustrate what introspection is (and the damage is causes); example of starting sentences with 'I...' </p>
 
@@ -292,7 +292,7 @@ function TheNextWords() {
               reflected part of the room, and out of the corner of my eye I caught sight of something moving. I jumped, but it was only my own reflection.  </i>
               <FootnoteRef text={`STANISLAW LEM,\nSolaris.`} /></p>
           </div>
-          <p>There are arguments that a claustrophobic ‘I-obsessed&#39; style promotes the themes, or is ironic, but the practical reality is,
+          <p>There are arguments that a claustrophobic ‘I-obsessed' style promotes the themes, or is ironic, but the practical reality is,
             it makes the reading less enjoyable. Surely there is another way to convey the themes that is less tedious.</p>
           <p>Here's an egregious example:
             <FootnoteRef text={`SARAH BAILEY,\nThe Dark Lake.`} />
@@ -314,30 +314,30 @@ function TheNextWords() {
           <p>Imagine you are the above narrator/character. You walk out of the autopsy room. An investigating detective stops you in the hallway:</p>
 
           <div className="custom-box">
-            <p><strong>Detective: </strong>“I&#39;m required to ask you some questions concerning the identity of the deceased. Did you get a look at the body?”</p>
+            <p><strong>Detective: </strong>“I'm required to ask you some questions concerning the identity of the deceased. Did you get a look at the body?”</p>
             <p><strong>You: </strong>“Yes.”</p>
-            <p><strong>Det: </strong>“Can you tell me: what colour was the hair? What shade was the skin? The deceased&#39;s age, or your best estimate.
+            <p><strong>Det: </strong>“Can you tell me: what colour was the hair? What shade was the skin? The deceased's age, or your best estimate.
               Was the mouth open or closed? And was there a sheet covering any part of the body?” </p>
             <p><strong>*record scratch sound effect*</strong></p>
           </div>
 
           <p>Introspection is a technique somewhat removed from the reality of your story (as I said, the plot stops while it happens).
             This makes it enormously unforgiving – at worst, psychotic – during scenes where something highly unusual or interesting is happening.
-            ‘The Dark Lake&#39; example contains one of the most interest-grabbing, unusual set ups for a story, whether horror or any genre.
+            ‘The Dark Lake' example contains one of the most interest-grabbing, unusual set ups for a story, whether horror or any genre.
             Someone is alone in an autopsy room, with a dead body. If it were you, what is the first thing you would notice? </p>
           <ul className="bullets">
             <li>The body</li>
             <li>The face (the expression; do they look peaceful?)</li>
-            <li>The identity (if it&#39;s someone you know; how do you know it&#39;s really them?)</li>
+            <li>The identity (if it's someone you know; how do you know it's really them?)</li>
             <li>The condition of the hair (style, neatness, signs of damage)</li>
             <li>The condition of the body (skin colour; signs of trauma)</li>
             <li>Are they naked? Are they exposed or sheeted?</li>
             <li>Any unexpected observations</li>
           </ul>
 
-          <p>That&#39;s a lot of information, and all of it is best suited to concrete description, not introspection.
-            But if you look at the ‘Dark Lake&#39; example, the author jumps to the character&#39;s thoughts and feelings, briefly describes ‘long&#39; hair
-            (redundant anyway, as it was already implied by the hair ‘hanging&#39; off the back of the table), before jumping straight back to introspection again.
+          <p>That's a lot of information, and all of it is best suited to concrete description, not introspection.
+            But if you look at the ‘Dark Lake' example, the author jumps to the character's thoughts and feelings, briefly describes ‘long' hair
+            (redundant anyway, as it was already implied by the hair ‘hanging' off the back of the table), before jumping straight back to introspection again.
             The interior, emotional reaction should come later, when the main character has the time to think,
             and is not standing right in front of an object of interest. </p>
           <p>Compare the above with this excerpt:
@@ -358,11 +358,11 @@ function TheNextWords() {
 
           <p>This is what good description looks like. Notice the minimal personal description (yellow) sets up what the protagonist is feeling,
             and then launches into concrete description (blue) to back it up with facts, so that by end, you feel what the protagonist is feeling –
-            his ‘chill&#39; becomes your chill. Also notice once it has done this, the second (uncoloured) paragraph uses the second person pronoun
-            (‘you&#39;) effectively because now ‘you&#39; understand what it&#39;s like. </p>
-          <p>One last observation: recall in the Dark Lake example how many times the protagonist&#39;s personal feelings are explicated.
+            his ‘chill' becomes your chill. Also notice once it has done this, the second (uncoloured) paragraph uses the second person pronoun
+            (‘you') effectively because now ‘you' understand what it's like. </p>
+          <p>One last observation: recall in the Dark Lake example how many times the protagonist's personal feelings are explicated.
             Here, the author sidesteps around telling us directly how protagonist, Norman, personally feels about the described
-            events – not ‘tormented&#39;, ‘haunted&#39;, ‘horrified&#39;, or even ‘wild&#39; and ‘absent&#39; --
+            events – not ‘tormented', ‘haunted', ‘horrified', or even ‘wild' and ‘absent' --
             but, we are given more than enough concrete information to work it out for ourselves. The author is more concerned that we –
             not the protagonist – feel the correct emotion for the circumstance.</p>
           <p>Lastly, for interest, this is how you should write an autopsy scene:</p>
@@ -385,11 +385,11 @@ function TheNextWords() {
               <FootnoteRef text={`AMBROSE BIERCE,\nThat Damned Thing.`} /></p>
           </div>
 
-          <p>Obviously you don&#39;t have to write your autopsy scene exactly like that, but it&#39;s an example of what information is important
+          <p>Obviously you don't have to write your autopsy scene exactly like that, but it's an example of what information is important
             and should be foregrounded.</p>
 
           <h5>I.	Objects, Others and Outsides</h5>
-          <p>This is a mantra you can use to combat the temptation to write introspectively: ‘objects, others and outsides,&#39; meaning:</p>
+          <p>This is a mantra you can use to combat the temptation to write introspectively: ‘objects, others and outsides,' meaning:</p>
 
           <h4>(1) Objects:</h4>
           <p>What physical things are in the scene? What do they look like or what are they doing? Try describing inanimate objects and things as if they had
@@ -404,16 +404,16 @@ function TheNextWords() {
           </p>
 
           <h4>(3) Outsides:</h4>
-          <p>What sensory stimuli is your protagonist aware of? What is coming into your protagonist&#39;s world from ‘outside&#39; and how is it
-            shaping or changing your protagonist&#39;s behaviour or thoughts, or upsetting his/her plans?   </p>
+          <p>What sensory stimuli is your protagonist aware of? What is coming into your protagonist's world from ‘outside' and how is it
+            shaping or changing your protagonist's behaviour or thoughts, or upsetting his/her plans?   </p>
 
           <p>Build description from this information, making sure to remove all first person references (e.g. change “I saw a greenhouse on the hill…” to
-            “There was a greenhouse on the hill…”). This allows your reader to be the ‘first person&#39; experiencing, for themselves, the story, as if
-            they were a character. Don&#39;t self-refer to your protag unless strictly necessary – i.e. the sentence wouldn&#39;t make sense otherwise.</p>
+            “There was a greenhouse on the hill…”). This allows your reader to be the ‘first person' experiencing, for themselves, the story, as if
+            they were a character. Don't self-refer to your protag unless strictly necessary – i.e. the sentence wouldn't make sense otherwise.</p>
 
           <h5>II.	Place the Reader</h5>
           <p>Another method to combat interior writing is to imagine the reader is a character in the story. Sometimes you hear this referred to as
-            giving the reader/viewer an ‘access point.&#39; </p>
+            giving the reader/viewer an ‘access point.' </p>
           <div className="quote-box">
             <p> "Experiencing a work of fiction through one of its characters is the all-absorbing, self-obliterating joy of reading. It is the core
               of the child's experience. Who has never been Alice in Wonderland, or Winnie the Pooh, or Jim Hawkins in the apple barrel on his way to Treasure Island?"
@@ -440,32 +440,32 @@ function TheNextWords() {
           <h4>Analysis:</h4>
           <ul className="bullets">
             <li>In the first sentence we are placed outside the swamp, maybe even above it (as in a plane), given a view of its size –
-              which wouldn&#39;t be apparent to us if we were placed inside the swamp. This positions us as an outsider;</li>
+              which wouldn't be apparent to us if we were placed inside the swamp. This positions us as an outsider;</li>
             <li>The second sentence begins by telling us why we are outside the swamp: it is “impenetrable except by boat…”</li>
             <li>We then get description of things found in the swamp, suggesting passage has been made in, telling us the narrator has come in on boat.</li>
             <li>The sentence “Out there somewhere too...” suggests the narrator has not gone very far in the swamp; as the next paragraph explains,
-              the island inhabitants pose a threat to ‘invaders&#39;;</li>
+              the island inhabitants pose a threat to ‘invaders';</li>
             <li>In the final sentence, we get our first personal pronoun, yet even up to this point we have learned a lot about the character by relative placement.</li>
           </ul>
 
           <h5>III. 	Book Cover Placement</h5>
           <p>You can see the placement effect in action on book covers and movie posters. This is not relevant for most writers as the publisher chooses
-            the book cover artist and cover. But it&#39;s still worth knowing.</p>
-          <p>As a general rule, there should be a person on the book cover. That&#39;s the reader&#39;s first access point into the story. Even a suggestion
+            the book cover artist and cover. But it's still worth knowing.</p>
+          <p>As a general rule, there should be a person on the book cover. That's the reader's first access point into the story. Even a suggestion
             of a person (clothing, personal possessions, footprints, a shadow or a skeleton) works, for instance, a car driving on a road suggests a driving
-            occupant, even if we can&#39;t literally see them.</p>
+            occupant, even if we can't literally see them.</p>
           <p>Taking the above paragraph example: A picture of a swamp would not place the reader relative to the swamp. You need to show a person or even a
             \row boat to give the reader a sense of size and human presence. You need to make the reader wonder how they would feel going into the swamp.
-            The whole point of placement is to elicit the question: ‘How would you feel in this situation?&#39;</p>
+            The whole point of placement is to elicit the question: ‘How would you feel in this situation?'</p>
           <p>Placement in imagery can be very subtle, and still be powerfully effective. A poster for the movie <i>It Comes At Night</i>shows the back
             of an alarmed dog barking into a dark forest. There is no person in sight but the angle and rope leash suggests we are standing right behind the dog,
-            as if it&#39;s our dog. This gives us a visceral access point into the scene:</p>
+            as if it's our dog. This gives us a visceral access point into the scene:</p>
 
           <Image src={itComesAtNight}
             alt="It Comes At Night Poster"
             className="img-fluid" />
 
-          <p>This was likely ‘inspired&#39; by Dragan Bibin&#39;s 2015 painting, <i>Deimos</i>,  which illustrates the same effect:</p>
+          <p>This was likely ‘inspired' by Dragan Bibin's 2015 painting, <i>Deimos</i>,  which illustrates the same effect:</p>
 
           <Image src={deimos}
             alt="Deimos Painting"
@@ -477,9 +477,9 @@ function TheNextWords() {
             <FootnoteRef text={`DAVID CARROLL,\nA Manual of Writer's Tricks.`} /> says, <i>"our psyches prefer affirmation to disaffirmation.
               They prefer to learn what did happen, not what didn't." </i><a href="#f9"><sup>9</sup></a></p>
 
-          <p>But note, description can also be negative: describing something by telling you what it is <i>not</i> like, or how it <i>isn&#39;t,</i> or what
+          <p>But note, description can also be negative: describing something by telling you what it is <i>not</i> like, or how it <i>isn't,</i> or what
             <i>didn't</i> happen, or what is <i>not</i> there. It is then up to you to deduce what remains as what actually happened.</p>
-          <p>In almost every case, you want to use ‘pos&#39; description: just come out and say what something is, is like, or what happened.
+          <p>In almost every case, you want to use ‘pos' description: just come out and say what something is, is like, or what happened.
             Use negative description only for necessary effect; i.e. it adds something essential which positive description does not provide. </p>
 
           <h4>Example:</h4>
@@ -489,18 +489,18 @@ function TheNextWords() {
             </p>
           </div>
 
-          <p>The above negative works because if you remove the neg description, all you have is ‘the world ends with a whimper,&#39; which is vague by itself
+          <p>The above negative works because if you remove the neg description, all you have is ‘the world ends with a whimper,' which is vague by itself
             and does not carry the same weight. The neg description also suggests the commonly held belief, which is overturned with the positive description.
             This conveys the sense that, while odd, the whimper did, in fact, happen. </p>
 
           <h4>Example:</h4>
           <div className="quote-box">
-            <p className='italic'>I must confess I hadn&#39;t done any fitness training, I was playing shit and we were 3–0 down and playing third from bottom–we are bottom.
+            <p className='italic'>I must confess I hadn't done any fitness training, I was playing shit and we were 3–0 down and playing third from bottom–we are bottom.
               There was no singing from the crowd, just a bark from a random stray dog.
               <FootnoteRef text={`NICK EDWARDS,\nIn Stitches: The Highs and Lows of Life as an A & E Doctor.`} /></p>
           </div>
 
-          <p>The negative description here (‘There was no singing…&#39;) works to add humour. </p>
+          <p>The negative description here (‘There was no singing…') works to add humour. </p>
           <p>For comparison, here are some bad examples of negative description:</p>
 
           <h4>Example of Bad Negative Description #1: </h4>
@@ -511,17 +511,17 @@ function TheNextWords() {
           </div>
 
           <p>Here, the woman is hit by a big organ on wheels. The example is so bizarre there is no normal precedent for this situation
-            (what on earth normally happens to someone who is hit by a big organ on wheels?). I have no idea whether ‘being thrown back&#39; is what you&#39;d
-            normally expect in this situation, and there aren&#39;t enough details to specify anyway (speed and size of organ?). Therefore, being no more or less likely,
+            (what on earth normally happens to someone who is hit by a big organ on wheels?). I have no idea whether ‘being thrown back' is what you'd
+            normally expect in this situation, and there aren't enough details to specify anyway (speed and size of organ?). Therefore, being no more or less likely,
             the neg description does no work at all. </p>
 
           <h4>Example of Bad Negative Description #2: </h4>
           <div className="quote-box">
-            <p className='italic'>Although there wasn&#39;t a bump to be heard or a trickle of blood to be seen when Katherine was struck...
+            <p className='italic'>Although there wasn't a bump to be heard or a trickle of blood to be seen when Katherine was struck...
               <FootnoteRef text={`THOMAS OLDE HEUVELT,\nHEX.`} /> </p>
           </div>
 
-          <p>Here, two separate instances of negative description are used in the same sentence – this is too many (if even one is necessary). Don&#39;t try to engage
+          <p>Here, two separate instances of negative description are used in the same sentence – this is too many (if even one is necessary). Don't try to engage
             the reader in a guessing game.</p>
           <p>Try to remove the instances of neg description; alternatively, make negative description short and limited to one per sentence, for example:</p>
 
@@ -548,8 +548,8 @@ function TheNextWords() {
           </ol>
 
           <h3>18.1.8 	There are no Coincidences</h3>
-          <p>Coincidence is a hallmark of bad fiction. Think of the car that breaks down in front of the haunted house, necessitating a night&#39;s stay.
-            Compare to the protagonist in Stephen King&#39;s ‘1408,&#39; who voluntarily (insistently) stays in the haunted hotel for personal, character-driven gain.
+          <p>Coincidence is a hallmark of bad fiction. Think of the car that breaks down in front of the haunted house, necessitating a night's stay.
+            Compare to the protagonist in Stephen King's ‘1408,' who voluntarily (insistently) stays in the haunted hotel for personal, character-driven gain.
             There is no coincidence in the latter story, and better for it.</p>
           <div className="quote-box">
             <p className="mb-0">“...[S]earch for a way by which your character can set out seeking the desired event, person or information.
@@ -562,26 +562,26 @@ function TheNextWords() {
           </div>
 
           <h3>18.1.9 	Writing In Writing</h3>
-          <p>Avoid ‘recursive text&#39; -- transcriptions of forms of writing within your story, such as: diary entries, letters, emails, etc, unless absolutely necessary.</p>
+          <p>Avoid ‘recursive text' -- transcriptions of forms of writing within your story, such as: diary entries, letters, emails, etc, unless absolutely necessary.</p>
           <p>Why?</p>
-          <p>Firstly, you&#39;re already planning writing a story. Worry about your main writing before getting into writings in writings.
-            At worst it&#39;s a distraction, not only for you as author, but for your reader, who will get annoyed at jumping back and forth between different
-            ‘levels&#39; of text like it&#39;s Inception.</p>
+          <p>Firstly, you're already planning writing a story. Worry about your main writing before getting into writings in writings.
+            At worst it's a distraction, not only for you as author, but for your reader, who will get annoyed at jumping back and forth between different
+            ‘levels' of text like it's Inception.</p>
           <p>Secondly, Compare with the content of phone calls which, like face-to-face dialogue, can be severely abridged to create an artificial sense of realism,
-            while only giving you ‘the facts&#39; that you need. Letters and diary entries cannot, without destroying the verisimilitude of reading an actual letter,
+            while only giving you ‘the facts' that you need. Letters and diary entries cannot, without destroying the verisimilitude of reading an actual letter,
             or other.</p>
 
           <div className="quote-box">
             <p>
-              <i>In any case, I was left to share the farm with the Poroths&#39; seven cats and the four hens they&#39;d bought last week. From my window
-                I could see Bwada and Phaedra chasing after something near the barn; lately they&#39;d taken to stalking grasshoppers. As I do every morning,
-                I went into the farmhouse kitchen and made myself some breakfast, leafing through one of the Poroths&#39; religious magazines, and then returned
-                to my rooms out back for some serious reading. I picked up Dracula again, which I&#39;d started yesterday, but the soppy Victorian sentimentality
+              <i>In any case, I was left to share the farm with the Poroths' seven cats and the four hens they'd bought last week. From my window
+                I could see Bwada and Phaedra chasing after something near the barn; lately they'd taken to stalking grasshoppers. As I do every morning,
+                I went into the farmhouse kitchen and made myself some breakfast, leafing through one of the Poroths' religious magazines, and then returned
+                to my rooms out back for some serious reading. I picked up Dracula again, which I'd started yesterday, but the soppy Victorian sentimentality
                 began to annoy me; the book had begun so well, on such a frightening note — Jonathan Harker trapped in that Carpathian castle, inevitably the prey
-                of its terrible owner-that when Stoker switched the locale to England and his main characters to women, he simply couldn&#39;t sustain that initial tension. </i></p>
+                of its terrible owner-that when Stoker switched the locale to England and his main characters to women, he simply couldn't sustain that initial tension. </i></p>
             <p>
-              <i>With the Poroths gone I felt a little lonely and bored, something I hadn&#39;t felt out here yet. Though I&#39;d brought shelves of books to
-                entertain me, I felt restless and wished I owned a car; I&#39;d have gone for a drive, perhaps visited friends at Princeton. As things stood,
+              <i>With the Poroths gone I felt a little lonely and bored, something I hadn't felt out here yet. Though I'd brought shelves of books to
+                entertain me, I felt restless and wished I owned a car; I'd have gone for a drive, perhaps visited friends at Princeton. As things stood,
                 though, I had nothing to do except watch television or take a walk. </i></p>
             <p>
               <i>I followed the stream again into the woods and eventually came to the circular pool. There were some new animal tracks in the wet sand, and,
@@ -589,7 +589,7 @@ function TheNextWords() {
                 Feeling myself alone, I began to make some of the odd signs with face and hands that I had that evening in the tree —but I felt that these movements had been
                 unaccountably robbed of their power. Standing there up to my ankles in water, I felt foolish. </i></p>
             <p>
-              <i>Worse than that, upon leaving it I found a red-brown leech clinging to my right ankle. It wasn&#39;t large and I was able to scrape it off with a stone,
+              <i>Worse than that, upon leaving it I found a red-brown leech clinging to my right ankle. It wasn't large and I was able to scrape it off with a stone,
                 but it left me with a little round bite that oozed blood, and a feeling of-how shall I put it?-physical helplessness. I felt that the woods had somehow
                 become hostile to me and, more important, would forever remain hostile. Something had passed.
                 <FootnoteRef text={`T. E. D. KLEIN,\nThe Events At Poroth Farm.`} /></i></p>
@@ -607,15 +607,15 @@ function TheNextWords() {
               <i>A red leech got on my leg from the pond and left a bite mark. Makes me think twice about going in the woods again.   </i></p>
           </div>
 
-          <p>—And that&#39;s not good fiction writing.</p>
+          <p>—And that's not good fiction writing.</p>
           <p>The only reason the diary entry format is excused above is to allow the suggestion that protagonist has died since we learn of his story
-            (as if we have found his diary). Otherwise, he would have to be ‘alive&#39; to tell us directly.</p>
+            (as if we have found his diary). Otherwise, he would have to be ‘alive' to tell us directly.</p>
 
           <h3>18.1.10 	Clichés</h3>
           <p>Avoid ALL clichés. Avoid them even in dialogue, even if you think the character would say it in real life. Your story is not real life, and your
             character is not a real person.
             <FootnoteRef text={`WILLIAM SLOANE,\nThe Craft of Writing.`} /></p>
-          <p>As a general rule, if it sounds cliché, it probably is. If you wrote it on ‘autopilot&#39; it&#39;s probably a cliché. Clichés cannot be
+          <p>As a general rule, if it sounds cliché, it probably is. If you wrote it on ‘autopilot' it's probably a cliché. Clichés cannot be
             exhaustively list clichés; they are constantly coming into existence, therefore, watch out for less obvious clichés -- William Sloane  names a few, such as: </p>
 
           <ul className="bullets">
@@ -632,8 +632,8 @@ function TheNextWords() {
             <li>"dire consequences."</li>
           </ul>
 
-          <p>Ben Yagoda says that many clichés modernly derive from advertising and PR catchphrases, like ‘new and improved&#39; and
-            ‘the secret to [brand]...&#39; ‘reinvent&#39; ‘new strategy&#39; and ‘it changed my life.&#39; He provides a list of words and phrases
+          <p>Ben Yagoda says that many clichés modernly derive from advertising and PR catchphrases, like ‘new and improved' and
+            ‘the secret to [brand]...' ‘reinvent' ‘new strategy' and ‘it changed my life.' He provides a list of words and phrases
             to avoid which he identifies as – if not already clichés – quickly heading that way:
             <FootnoteRef text={`BEN YAGODA,\nHow to Not Write Bad.`} />
           </p>
@@ -662,7 +662,7 @@ function TheNextWords() {
             <li>Spoiler alert  </li>
             <li>The Man (as in working for)  </li>
             <li>Back in the day  </li>
-            <li>Not your father&#39;s [anything]  </li>
+            <li>Not your father's [anything]  </li>
             <li>Really? (to indicate skepticism)  </li>
             <li>Artisanal  </li>
             <li>Plated   </li>
@@ -689,7 +689,7 @@ function TheNextWords() {
             <li>grist to the mill;</li>
             <li>fishing in troubled waters;</li>
             <li>on the order of the day;</li>
-            <li>Achilles&#39; heel;</li>
+            <li>Achilles' heel;</li>
             <li>swan song;</li>
             <li>hotbed. </li>
           </ul>
@@ -742,14 +742,14 @@ function TheNextWords() {
           </ul>
 
           <h3>18.1.11 	Prologues and Epilogues</h3>
-          <p>Don&#39;t write prologues or epilogues. Prologues infringe the ‘start as late as possible&#39; rule and are too often abused as means of setting up your story.
+          <p>Don't write prologues or epilogues. Prologues infringe the ‘start as late as possible' rule and are too often abused as means of setting up your story.
             Similarly, Epilogues are abused as a way to cram a bunch of last-minute shit in after the story has ended – just end your story and keep the reader wondering.
             <FootnoteRef text={`LES EDGERTON,\nHooked: Write Fiction That Grabs Readers at Page One & Never Lets Them Go.`} /></p>
 
           <h3>18.1.12 	Expletives</h3>
           <p>Hart
             <FootnoteRef text={`JACK HART,\nStorycraft: Complete Guide to Writing Narrative Nonfiction.`} />
-            advises to avoid 'expletives' where possible. This doesn&#39;t refer to swear words (which also should be avoided) but refer to words which don&#39;t
+            advises to avoid 'expletives' where possible. This doesn't refer to swear words (which also should be avoided) but refer to words which don't
             add any meaning to a sentence, and include "there was," "it is," "it was," etc. Too many slow down your writing.</p>
 
           <p>For example:</p>
@@ -776,7 +776,7 @@ function TheNextWords() {
           </div>
 
           <p>Also see this version from the song 'Que será será' -- <i>Whatever will be, will be.</i> Ironically, as 'Que será será' itself means
-            ‘whatever will be, will be,&#39; it&#39;s a fourfold repetition. </p>
+            ‘whatever will be, will be,' it's a fourfold repetition. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -804,7 +804,7 @@ function TheNextWords() {
           <p>What's the point of punctuation?</p>
 
           <div className="quote-box">
-            <p>“If words are the flesh, muscle, and bone of prose, punctuation is the breath. In support of the words you&#39;ve carefully selected,
+            <p>“If words are the flesh, muscle, and bone of prose, punctuation is the breath. In support of the words you've carefully selected,
               punctuation is your best means of conveying to the reader how you mean your writing to be read, how you mean for it to sound. A comma sounds different
               than a semicolon; parentheses make a different noise than dashes.” </p>
             <p><i>— Benjamin Dreyer. </i>
@@ -812,8 +812,8 @@ function TheNextWords() {
             </p>
           </div>
 
-          <p>Punctuation is a set of rules denoting where to pause or provide emphasise to text. Burnett helpfully calls it ‘a breathing aid,&#39;
-            as well as for ‘emphasis in style, rhythm or emotion.&#39;
+          <p>Punctuation is a set of rules denoting where to pause or provide emphasise to text. Burnett helpfully calls it ‘a breathing aid,'
+            as well as for ‘emphasis in style, rhythm or emotion.'
             <FootnoteRef text={`HALLIE BURNETT and WHIT BURNETT,\nFiction Writer's Handbook.`} /></p>
 
           <p>Flesch provides a basic guide for using punctuation:
@@ -865,18 +865,18 @@ function TheNextWords() {
           </div>
 
           <p>No writer actually stringently adheres to the rules of punctuation. However, average and bad writers break the rules at the wrong times,
-            whereas good and great writers break the rules at the right times. Which rules you break identifies your writing ‘voice&#39;.</p>
+            whereas good and great writers break the rules at the right times. Which rules you break identifies your writing ‘voice'.</p>
 
           <h4>Punctuation:</h4>
           <p>It isn't just for neatness in fiction writing; it affects pacing. A comma will provide a short break in speech or events,
             a full stop will effect a longer break. Think about how fast things are happening (or how fast your POV – point of view – character is noticing events)
-            and in what order they&#39;re happening, and whether the events are causatively linked.</p>
-          <p>Commas create a pause, slowing down your writing to a measured pace. Don&#39;t slow down where you want to speed up, e.g:</p>
+            and in what order they're happening, and whether the events are causatively linked.</p>
+          <p>Commas create a pause, slowing down your writing to a measured pace. Don't slow down where you want to speed up, e.g:</p>
           <div className="custom-box">
             <p><i>Suddenly, he ran from the room.</i></p>
           </div>
 
-          <p>A ‘comma splice&#39; does the opposite, linking two separate sentences together, it increases pace, e.g.</p>
+          <p>A ‘comma splice' does the opposite, linking two separate sentences together, it increases pace, e.g.</p>
           <div className="custom-box">
             <p><i>Suddenly he ran from the room, making Mary jump.</i></p>
           </div>
@@ -896,8 +896,8 @@ function TheNextWords() {
           </div>
 
           <p>Because it's all a run-on sentence, there is a sense of a lot of activity all happening at once; that the sound of the
-            'drums and the fifes and the pipes' is inextricably combined with the ‘all dancing&#39; as in one big entity of noise and motion.
-            Also, the ‘all&#39; appears to refer to everything in the same sentence, i.e. the fifes and the pipes as well as the dancers.</p>
+            'drums and the fifes and the pipes' is inextricably combined with the ‘all dancing' as in one big entity of noise and motion.
+            Also, the ‘all' appears to refer to everything in the same sentence, i.e. the fifes and the pipes as well as the dancers.</p>
           <p>Compare with this version I've altered:</p>
 
           <div className="custom-box">
@@ -905,7 +905,7 @@ function TheNextWords() {
           </div>
 
           <p>Now it sounds more sequential. The drums are heard first. The fifes and pipes heard second, and separately. And then the dancing is seen.
-            Here the ‘all&#39; seems to refer only to the dancers.</p>
+            Here the ‘all' seems to refer only to the dancers.</p>
           <p>Where the order of events is certain, you still might take out full stops where the characters have no control over the events,
             and can't intervene as soon as the first begins. See the below example - </p>
 
@@ -913,7 +913,7 @@ function TheNextWords() {
             <p><i>The first domino. The second. Then the third. Then all of them. </i></p>
           </div>
           <p>Notice the full stops make the sentences sound silly. Each successive domino's fall is reliant upon the previous, so you need to link them;
-            splitting up the ‘action&#39; makes it sound artificial and over-dramatic as the individual dominos aren't important enough to warrant their own sentences.
+            splitting up the ‘action' makes it sound artificial and over-dramatic as the individual dominos aren't important enough to warrant their own sentences.
             See modified version -</p>
 
           <div className="custom-box">
@@ -926,16 +926,16 @@ function TheNextWords() {
           <h3>18.2.3 	Paragraphs</h3>
           <p>Each paragraph introduces a new thought and concludes it.</p>
 
-          <h3>18.2.4 	If it&#39;s not right, re-write:</h3>
+          <h3>18.2.4 	If it's not right, re-write:</h3>
           <p>Another general rule: avoid over-thinking your writing, and avoid cluttering your writing with intention. Go with a style and stick
-            with it – don&#39;t make a sentence try to achieve four different effects all at once. If, for whatever reason, it doesn&#39;t sound/read right,
-            even if that&#39;s the way you wanted/needed it to sound, change it. I haven&#39;t heard of many writers being condemned because
-            their writing is ‘too dumb&#39; or ‘too simple&#39;, but an inordinate number of writers fall upon the sword of over-description
-            because they are overly anxious to sound clever and ‘writerly&#39; or ‘lit&#39;ry&#39; (as Joe Hill would say).</p>
+            with it – don't make a sentence try to achieve four different effects all at once. If, for whatever reason, it doesn't sound/read right,
+            even if that's the way you wanted/needed it to sound, change it. I haven't heard of many writers being condemned because
+            their writing is ‘too dumb' or ‘too simple', but an inordinate number of writers fall upon the sword of over-description
+            because they are overly anxious to sound clever and ‘writerly' or ‘lit'ry' (as Joe Hill would say).</p>
 
           <h3>18.2.5 	The rule of invisibility: </h3>
           <p>As I stated about writing voice/style, good writing is invisible. Think of your writing like a window to some parallel universe,
-            the world of your story. People look through a window – they don&#39;t look at it. If your writing is so anxious and
+            the world of your story. People look through a window – they don't look at it. If your writing is so anxious and
             self-congratulatory that it makes people notice the words themselves, something is wrong
             (unless you are deliberately trying to alienate the reader, a la House of Leaves).
             Unless your writing is clear and transparent, in every other case – dirt-stained or a stained-glass masterpiece –
@@ -945,7 +945,7 @@ function TheNextWords() {
           <p>Always use the active voice where possible. George Orwell says:
             <FootnoteRef text={`GEORGE ORWELL,\nPolitics and The English Language.`} />
             <i>“Never use the passive where you can use the active.”</i>  The active voice will give your writing a sense of immediacy and flow,
-            facilitating the reader&#39;s engagement and interest. </p>
+            facilitating the reader's engagement and interest. </p>
 
           <h4>Passive Voice:</h4>
           <div className="custom-box">
@@ -957,7 +957,7 @@ function TheNextWords() {
             <p><i>Jeff took the tents. Mary took the sleeping bags. </i></p>
           </div>
 
-          <p>Ignoring Orwell&#39;s hyperbole, know where the passive voice is more appropriate: where you suggest the subject is not acting, but being acted upon.
+          <p>Ignoring Orwell's hyperbole, know where the passive voice is more appropriate: where you suggest the subject is not acting, but being acted upon.
             Roy Clark says: <i>“Active verbs move the action and reveal the actors. Passive verbs emphasize the receiver, the victim.”</i>
             <FootnoteRef text={`ROY PETER CLARK,\nWriting Tools: 50 Essential Strategies For Every Writer.`} />  For instance:</p>
           <div className="quote-box">
@@ -969,12 +969,12 @@ function TheNextWords() {
           <p>You would not write “Omens loaded the night,” because though the night is the subject, the omens are the active force.</p>
 
           <h3>18.2.7 	Dialogue Descriptions</h3>
-          <p>I said previously to avoid gratuitous descriptions of characters while they&#39;re talking (see: 14.1.2 Desperate descriptive detailing of dialogic
+          <p>I said previously to avoid gratuitous descriptions of characters while they're talking (see: 14.1.2 Desperate descriptive detailing of dialogic
             discourse does disservice).</p>
           <p>So when is description within exchanges of dialogue advised? In the following cases:</p>
 
           <h5>I.	Passages of Time between Utterances</h5>
-          <p>To create breaks in the rhythm of speech. You can use descriptions of a scene or characters&#39; behaviour to break up the metronymic flow of a
+          <p>To create breaks in the rhythm of speech. You can use descriptions of a scene or characters' behaviour to break up the metronymic flow of a
             conversation, for example:</p>
           <ul className="bullets">
             <li>Adding a description after lines of dialogue suggests a pause between utterances; this could reflect a hesitance to reply, waning interest in the
@@ -987,8 +987,8 @@ function TheNextWords() {
           <p>To suggest something about how the character/s are feeling about the conversation. Such description can provide subtext of two kinds:</p>
 
           <ul className="bullets">
-            <li>About how the listener is receiving the speaker (descriptions of the listener&#39;s behaviour);</li>
-            <li>About how the speaker is receiving the listener (descriptions of the speaker&#39;s behaviour). </li>
+            <li>About how the listener is receiving the speaker (descriptions of the listener's behaviour);</li>
+            <li>About how the speaker is receiving the listener (descriptions of the speaker's behaviour). </li>
           </ul>
 
           <p>Feelings can flicker around indecisively and switch in the course of a single exchange of dialogue. Description can catch that. </p>
@@ -1003,7 +1003,7 @@ function TheNextWords() {
 
           <p>The above is fairly basic and goes without saying, but descriptions can increasingly subtle or elaborate as you need them to be.
             Also, they should not attach to every single line of dialogue, otherwise the reader will fatigue of characters who read like they have attention deficits.
-            In Stendahl&#39;s <i>The Red and the Black</i> the frequency and specifity of detail in the descriptions surrounding dialogue are
+            In Stendahl's <i>The Red and the Black</i> the frequency and specifity of detail in the descriptions surrounding dialogue are
             unprecedented to the extent of making characters sound mentally unbalanced (which I suspect was intentional). </p>
           <p>Here's an example of dialogue in a conversation:</p>
 
@@ -1018,14 +1018,14 @@ function TheNextWords() {
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h2 id="post-writing-cheats-and-hacks">18.3 Writing ‘cheats&#39; and ‘hacks&#39;</h2>
+          <h2 id="post-writing-cheats-and-hacks">18.3 Writing ‘cheats' and ‘hacks'</h2>
           <p>I preface this by saying writing involves a lot of work, including reading, researching, redoing, and practising, and accepting criticism,
-            and learning. But it cannot be said there aren&#39;t shortcuts or insights which require less effort but create more effect.</p>
+            and learning. But it cannot be said there aren't shortcuts or insights which require less effort but create more effect.</p>
 
           <h3>18.3.1 	Adding frustration by taking away grammar</h3>
           <p>When people get really riled up, their articulation suffers, their grammar suffers, and they are more likely to use the wrong word.
             You can therefore, suggest frustration by making fairly small grammatical, and forgivable, almost unnoticeable grammatical errors.
-            It&#39;s more effective if the character normally speaks in an average or educated way.</p>
+            It's more effective if the character normally speaks in an average or educated way.</p>
           <p>This is a modified example from my own writing:</p>
 
           <div className="custom-box">
@@ -1034,15 +1034,15 @@ function TheNextWords() {
           
           <p>There are two small grammatical errors in the above: </p>
             <ol>
-              <li>Starting ‘that and&#39; creates a sentence fragment;</li>
-              <li>‘Make believe&#39; is preceded by ‘a&#39; when it is an abstract noun, not a concrete noun.</li>
+              <li>Starting ‘that and' creates a sentence fragment;</li>
+              <li>‘Make believe' is preceded by ‘a' when it is an abstract noun, not a concrete noun.</li>
             </ol>
 
           <p>
             If you know this character is relatively intelligent,
             it makes more sense they are frustrated when they say this. In this way you create dialogue which could even avoid adverbs or
-            dialogue tags which confirm his anger (e.g. ‘he said angrily&#39; or ‘he shouted&#39;).</p>
-          <p>Here&#39;s another example (from a different source)
+            dialogue tags which confirm his anger (e.g. ‘he said angrily' or ‘he shouted').</p>
+          <p>Here's another example (from a different source)
             <FootnoteRef text={`TONYA HURLEY,\nGhostgirl.`} />
           </p>
           <div className="quote-box">
@@ -1053,36 +1053,36 @@ function TheNextWords() {
           </div>
 
           <p>Here, the unusual pronunciation of 'paedophiles' emphasises how out of depth and familiarity 'Lucy' is with the subject matter –
-            paeodophiles evidently just don&#39;t happen in her home town.</p>
-          <p>Don&#39;t overdo it – these techniques shouldn&#39;t hit the reader in the face and cause them to read the sentence twice.</p>
+            paeodophiles evidently just don't happen in her home town.</p>
+          <p>Don't overdo it – these techniques shouldn't hit the reader in the face and cause them to read the sentence twice.</p>
 
-          <h3>18.3.2 	When to ‘tell&#39; rather than ‘show&#39;</h3>
-          <p>You hear the rule about ‘show don&#39;t tell&#39;. You know when to ‘show&#39; (always). But this raises a good question: when should you
-            ‘tell&#39;? I don&#39;t have an exhaustive rulebook for when telling is better. But I have some examples:</p>
+          <h3>18.3.2 	When to ‘tell' rather than ‘show'</h3>
+          <p>You hear the rule about ‘show don't tell'. You know when to ‘show' (always). But this raises a good question: when should you
+            ‘tell'? I don't have an exhaustive rulebook for when telling is better. But I have some examples:</p>
 
           <h5>I. Jump in Time </h5>
           <p>The characters in this example (Phineas – “Finny” – and main character, Gene) are school kids at a party “in a kind of sun porch” with
-            teacher ‘Mr Patch-Withers&#39;:
+            teacher ‘Mr Patch-Withers':
             <FootnoteRef text={`JOHN KNOWLES,\nA Separate Peace.`} /></p>
 
           <div className="quote-box">
-            <p>Mr. Patch-Withers&#39; laughter surprised us all, including himself. His face, whose shades we had often labeled, now achieved a new one.
+            <p>Mr. Patch-Withers' laughter surprised us all, including himself. His face, whose shades we had often labeled, now achieved a new one.
               Phineas was very happy; sour and stern Mr. Patch-Withers had been given a good laugh for once, and he had done it! He broke into the charmed,
               thoughtless grin of a man fulfilled.</p>
             <p>He had gotten away with everything. I felt a sudden stab of disappointment. That was because I just wanted to see some more excitement; that must have been it.</p>
             <p>We left the party, both of us feeling fine. I laughed along with Finny, my best friend, and also unique, able to get away with anything at all.
               And not because he was a conniver either; I was sure of that. He got away with everything because of the extraordinary kind of person he was.
               It was quite a compliment to me, as a matter of fact, to have such a person choose me for his best friend.</p>
-            <p>Finny never left anything alone, not when it was well enough, not when it was perfect. “Let&#39;s go jump in the river,” he said under
+            <p>Finny never left anything alone, not when it was well enough, not when it was perfect. “Let's go jump in the river,” he said under
               his breath as we went out of the sun porch. He forced compliance by leaning against me as we walked along, changing my direction; like a police car squeezing me to the side of the road, he directed me unwillingly toward the gym and the river. “We need to clear our heads of that party,” he said, “all that talk!”</p>
           </div>
 
           <p>Now, without reading any more, answer this question: Do you get the feeling a short passage of time has passed between the first half of this example,
-            and the second half? – a kind of ‘jump&#39; ahead, or quick fast-forward? </p>
-          <p>It occurs around the start of the fourth paragraph. I&#39;ll colour code the above to make the explanation more apparent:</p>
+            and the second half? – a kind of ‘jump' ahead, or quick fast-forward? </p>
+          <p>It occurs around the start of the fourth paragraph. I'll colour code the above to make the explanation more apparent:</p>
 
           <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik shadow-md">
-            <p><span className="text-red-600">Mr. Patch-Withers&#39; laughter surprised us all, including himself.</span> <span className="text-midBlue">His face,
+            <p><span className="text-red-600">Mr. Patch-Withers' laughter surprised us all, including himself.</span> <span className="text-midBlue">His face,
               whose shades we had often labeled, now achieved a new one. </span><span className="text-red-600">Phineas was very happy; sour and stern
                 Mr. Patch-Withers had been given a good laugh for once, and he had done it! </span><span className="text-midBlue">He broke into the charmed,
                   thoughtless grin of a man fulfilled.</span></p>
@@ -1091,7 +1091,7 @@ function TheNextWords() {
             <p><span className="text-midBlue"><span className="bg-hYellow"></span>We left the party,</span><span className="text-red-600"> both of us feeling fine.</span>
               <span className="text-midBlue">I laughed along with Finny, </span><span className="text-red-600">my best friend, and also unique, able to get away with anything at all. And not because he was a conniver either; I was sure of that. He got away with everything because of the extraordinary kind of person he was. It was quite a compliment to me, as a matter of fact, to have such a person choose me for his best friend.</span></p>
             <p><span className="text-red-600">Finny never left anything alone, not when it was well enough, not when it was perfect. </span>
-              <span className="text-midBlue"><span className="bg-hYellow">“Let&#39;s go jump in the river,” he said under his breath as we went out of the sun porch. </span>
+              <span className="text-midBlue"><span className="bg-hYellow">“Let's go jump in the river,” he said under his breath as we went out of the sun porch. </span>
                 He forced compliance by leaning against me as we walked along, changing my direction; like a police car squeezing me to the side of the road, he directed me
                 unwillingly toward the gym and the river. </span>“We need to clear our heads of that party,” he said, “all that talk!”</p>
           </div>
@@ -1100,38 +1100,38 @@ function TheNextWords() {
           <p><span className="text-midBlue">The blue text = information 'told';</span></p>
           <p><span className="bg-hYellow">The highlighted text = information alluding to passage of time.</span></p>
 
-          <p>Here&#39;s the funny thing – <strong>nowhere does it tell you that time jumped ahead. </strong>Even funnier; the yellow text repeats the same information.
-            Remember the characters begin in the sun porch, at a party. The next yellow bit says they leave the party. We feel like there&#39;s been a jump in time but
+          <p>Here's the funny thing – <strong>nowhere does it tell you that time jumped ahead. </strong>Even funnier; the yellow text repeats the same information.
+            Remember the characters begin in the sun porch, at a party. The next yellow bit says they leave the party. We feel like there's been a jump in time but
             it must be immediately after, because Gene is described as still laughing from the first paragraph. The second yellow text says the characters went out of the porch.
-            As the porch is impliedly right outside, there&#39;s nothing else there suggesting time jumped ahead. So where is that feeling coming from?</p>
-          <p><strong>Answer:</strong> it&#39;s coming from the huge slabs of information in red – information being told, rather than shown. </p>
-          <p>We can derive this principle: <strong>Information which is shown creates a sense of immediacy.</strong> It sounds like it&#39;s
+            As the porch is impliedly right outside, there's nothing else there suggesting time jumped ahead. So where is that feeling coming from?</p>
+          <p><strong>Answer:</strong> it's coming from the huge slabs of information in red – information being told, rather than shown. </p>
+          <p>We can derive this principle: <strong>Information which is shown creates a sense of immediacy.</strong> It sounds like it's
             happening right now before your eyes (this is why writers tend to prefer it, to create a sense of immersive presence). </p>
-          <p>Here&#39;s the paragraph again, with much the red removed:</p>
+          <p>Here's the paragraph again, with much the red removed:</p>
 
           <div className="p-3 mb-3 rounded bg-gray-100 border border-gray-300 font-rubik shadow-md">
-            <p><span className="text-red-600">Mr. Patch-Withers&#39; laughter surprised us all, including himself. His face, whose shades we had often labeled,
+            <p><span className="text-red-600">Mr. Patch-Withers' laughter surprised us all, including himself. His face, whose shades we had often labeled,
               now achieved a new one. Phineas was very happy; sour and stern Mr. Patch-Withers had been given a good laugh for once, and he had done it!</span></p>
             <p><span className="text-midBlue">We left the party, <span className="text-red-600">both of us feeling fine. </span>I laughed along with Finny.</span></p>
-            <p><span className="text-midBlue">“Let&#39;s go jump in the river,” he said under his breath as we went out of the sun porch. He forced compliance
+            <p><span className="text-midBlue">“Let's go jump in the river,” he said under his breath as we went out of the sun porch. He forced compliance
               by leaning against me as we walked along, changing my direction; like a police car squeezing me to the side of the road, he directed me unwillingly
               toward the gym and the river. “We need to clear our heads of that party,” he said, “all that talk!”</span></p>
           </div>
 
           <p>Now you see the jump in time is gone.</p>
-          <p>Information which is told reads more slowly, because it tends to unfold in the narrator&#39;s mind. If you have the luxury of time to reflect,
-            it&#39;s implied there isn&#39;t much going on to distract you. You might be doing nothing at the time, or you might be doing something on autopilot.
-            In this case, it&#39;s the latter; Finny and Gene are described as walking (leaving the party); we then get a slab of ‘telling&#39; information via
-            Gene&#39;s introspection. Then we&#39;re told the characters are still walking; ‘leaving the sun porch&#39;, but now we assume a minor jump in time has occurred,
+          <p>Information which is told reads more slowly, because it tends to unfold in the narrator's mind. If you have the luxury of time to reflect,
+            it's implied there isn't much going on to distract you. You might be doing nothing at the time, or you might be doing something on autopilot.
+            In this case, it's the latter; Finny and Gene are described as walking (leaving the party); we then get a slab of ‘telling' information via
+            Gene's introspection. Then we're told the characters are still walking; ‘leaving the sun porch', but now we assume a minor jump in time has occurred,
             because Gene had the time to reflect on things for a paragraph.</p>
-          <p>Therefore, you can ‘tell&#39; information rather than show it if you want to suggest a character has stood around not really doing anything, just thinking.
-            This is effective for breaking up or differentiating important ‘showing&#39; scenes.</p>
+          <p>Therefore, you can ‘tell' information rather than show it if you want to suggest a character has stood around not really doing anything, just thinking.
+            This is effective for breaking up or differentiating important ‘showing' scenes.</p>
 
-          <h5>II. Cut the reader off from ‘other&#39; characters </h5>
+          <h5>II. Cut the reader off from ‘other' characters </h5>
 
-          <p>In the short story, ‘The Way of the Cross,&#39; by Daphne Du Maurier, a number of misfortunes happen to various characters while visiting Jerusalem.
+          <p>In the short story, ‘The Way of the Cross,' by Daphne Du Maurier, a number of misfortunes happen to various characters while visiting Jerusalem.
             Meanwhile, the grandson of one of them, gets extended introspection as he imagines what Jesus's life was like, conveying how oblivious he is to the others' trouble.
-            Rather than ‘show&#39; the kid pretending to be Jesus and quoting Jesus, the narrative instead restricts itself to the kid&#39;s thoughts,
+            Rather than ‘show' the kid pretending to be Jesus and quoting Jesus, the narrative instead restricts itself to the kid's thoughts,
             this interiority cuts us off from the other characters and prevents us from knowing how much time is passing relative to the other characters'
             thereby creating suspense for when the kid finds out.</p>
           <h5>III. Deny reader alternate interpretations </h5>
@@ -1139,7 +1139,7 @@ function TheNextWords() {
 
           <div className="quote-box">
             <p> <i>Sanita looked shattered, utterly exhausted. Her face looked pale against the brightly coloured vest she wore, and her hair,
-              usually one of her physical charms, was hanging limply across her face, stuck to her forehead and cheeks with dried sweat. She hadn&#39;t even wanted to
+              usually one of her physical charms, was hanging limply across her face, stuck to her forehead and cheeks with dried sweat. She hadn't even wanted to
               come to India in the first place, but had finally agreed just to be with me. </i>
               <FootnoteRef text={`JOHN HARRIS,\nThe Backpacker.`} /></p>
           </div>
@@ -1149,19 +1149,19 @@ function TheNextWords() {
             description but its tied to the 'shattered' 'telling' description -- merely elaborating what being shattered looks like for Sanita, rather than allowing
             us to interpret her expression for ourselves. </p>
 
-          <h3>18.3.3 	The ‘Triangle&#39;</h3>
-          <p>Where a character gets in an argument (particularly involving a conflict of values/beliefs), it&#39;s more dynamic to subsequently bounce the character
-            over to a ‘support person&#39; in a ‘debrief&#39; scene to ‘make sense&#39; of the argument that&#39;s just occurred, to allow a different opinion. </p>
-          <p>An outside third person, who doesn&#39;t easily side with either character can prevent the argument being interpreted as an ‘either/or&#39; thing.</p>
+          <h3>18.3.3 	The ‘Triangle'</h3>
+          <p>Where a character gets in an argument (particularly involving a conflict of values/beliefs), it's more dynamic to subsequently bounce the character
+            over to a ‘support person' in a ‘debrief' scene to ‘make sense' of the argument that's just occurred, to allow a different opinion. </p>
+          <p>An outside third person, who doesn't easily side with either character can prevent the argument being interpreted as an ‘either/or' thing.</p>
 
           <h4>Example: </h4>
 
           <div className="custom-box">
             <p>X believes in abortion, Y does not. They argue. Subsequently, X hangs out with Z, who holds a more mediate position on abortion (sometimes okay,
-              sometimes not), giving X the opportunity to to defend his position in a more neutral setting, allowing exploration of X&#39;s position from another angle.</p>
+              sometimes not), giving X the opportunity to to defend his position in a more neutral setting, allowing exploration of X's position from another angle.</p>
           </div>
 
-          <p>In real life, some people withdraw following an argument, but that&#39;s not dynamic or interesting in a story, which should limit ‘narrative downtime&#39;.
+          <p>In real life, some people withdraw following an argument, but that's not dynamic or interesting in a story, which should limit ‘narrative downtime'.
             You can compromise by having X retreat somewhere and happen to bump into someone.</p>
 
           <h3>18.3.4 	Deliberately awkward sentences: </h3>
@@ -1171,37 +1171,37 @@ function TheNextWords() {
           <h5>Example #1: Bad Grammar: </h5>
           <div className="quote-box">
             <p> <i>The woods were gone; the road had left the river to climb; the radiator was boiling; the young man looked annoyedly
-              and suspiciously at the steam and rusty water; the engine was grinding, with both Guy&#39;s feet on the first-speed pedal, up and up, back and forth and up,
+              and suspiciously at the steam and rusty water; the engine was grinding, with both Guy's feet on the first-speed pedal, up and up, back and forth and up,
               and, finally, out level.
               <FootnoteRef text={`ERNEST HEMINGWAY,\nChe Ti Dice La Patria?.`} /></i></p>
           </div>
 
-          <p>This whole paragraph reads awkwardly, artificially, and laboriously (note the grammatically cumbersome ‘annoyedly and suspiciously&#39;).
-            But that&#39;s what makes it effective. The paragraph is describing a car having trouble, to the characters&#39; frustration.
+          <p>This whole paragraph reads awkwardly, artificially, and laboriously (note the grammatically cumbersome ‘annoyedly and suspiciously').
+            But that's what makes it effective. The paragraph is describing a car having trouble, to the characters' frustration.
             The effort and frustration evoked by reading this paragraph mirrors the effort and frustration felt by the characters trying to get the car up the hill.
             Similarly, there is a sense of relief once the prose returns to the usual straightforward style afterwards.</p>
-          <p>Here&#39;s another example, not breaking good grammar, but deliberately reading awkwardly:</p>
+          <p>Here's another example, not breaking good grammar, but deliberately reading awkwardly:</p>
 
           <h5>Example #2: Awkward prose: </h5>
           <div className="quote-box">
-            <p> <i>She didn&#39;t say anything. He was wearing blue jeans, a black leather jacket zipped to his throat,
-              a long red wool scarf around his neck, and a Dodgers baseball cap. It was too hot a day for the leather jacket and scarf. She didn&#39;t
+            <p> <i>She didn't say anything. He was wearing blue jeans, a black leather jacket zipped to his throat,
+              a long red wool scarf around his neck, and a Dodgers baseball cap. It was too hot a day for the leather jacket and scarf. She didn't
               find that detail significant. It caught her attention, she touched it briefly and then let it go. She looked but did not see. They were standing on a curb.
-              The meeting was in a community room across the boulevard. She wasn&#39;t afraid yet.
+              The meeting was in a community room across the boulevard. She wasn't afraid yet.
               <FootnoteRef text={`KATE BRAVERMAN,\nTall Tales from the Mekong Delta.`} /></i></p>
           </div>
 
-          <p>The awkward part comes from the ‘they were standing on a curb&#39; which seems to come out of nowhere. The paragraph describes a woman
-            being trailed by an odd and overly enthusiastic man, and the sentence ‘intrudes&#39; into the paragraph the way the man ‘intrudes&#39; into the woman&#39;s space,
+          <p>The awkward part comes from the ‘they were standing on a curb' which seems to come out of nowhere. The paragraph describes a woman
+            being trailed by an odd and overly enthusiastic man, and the sentence ‘intrudes' into the paragraph the way the man ‘intrudes' into the woman's space,
             evoking the sense of awkwardness and disquiet the woman feels.</p>
 
           <h5>Example #3: Irony </h5>
           <p>Bad grammar can be used to communicate humour or facetiousness, teasing, or otherwise that the speaker is not being serious, e.g.</p>
           <div className="custom-box">
-            <p> <i>“You&#39;re actually kind of beautiful/smart [etc].”    </i></p>
+            <p> <i>“You're actually kind of beautiful/smart [etc].”    </i></p>
           </div>
 
-          <p>The above phrasing could communicate sarcasm, because the qualifier (‘kind of&#39;) mitigates the compliment.
+          <p>The above phrasing could communicate sarcasm, because the qualifier (‘kind of') mitigates the compliment.
             This is also less obnoxious than the usual, tired technique of expressing sarcasm by italics.</p>
 
           <h3>18.3.5 	Projection  </h3>
@@ -1219,8 +1219,8 @@ function TheNextWords() {
             suggesting she may be going crazy.</p>
 
           <h3>18.3.8 	The Periodic Sentence  </h3>
-          <p>The Periodic Sentence is a type of sentence structure where the main point of the sentence comes right at the end, so the sentence doesn&#39;t
-            read as complete/meaningful until you reach the final word. It&#39;s a stylistic device for building suspense. You normally hear dramatic
+          <p>The Periodic Sentence is a type of sentence structure where the main point of the sentence comes right at the end, so the sentence doesn't
+            read as complete/meaningful until you reach the final word. It's a stylistic device for building suspense. You normally hear dramatic
             revelations delivered through periodic sentences. </p>
 
           <h5>Examples:</h5>
@@ -1228,14 +1228,14 @@ function TheNextWords() {
           <div className="custom-box">
             <p><i>That morning, after the thunder died and the hail stopped, and the bus made it along the rain-slicked roads, we finally got to school.</i></p>
             <p><i>Because of all the strange stories going around, I never went back to the house.</i></p>
-            <p><i>While waiting at the station, it finally occurred to Joe that the train wasn&#39;t going to arrive. </i></p>
+            <p><i>While waiting at the station, it finally occurred to Joe that the train wasn't going to arrive. </i></p>
             <p><i>In the park across the street, in front of a growing crowd, two men are fighting.</i></p>
-            <p><i>“If you didn&#39;t want me to do it, then why did you give me the gun?”</i></p>
+            <p><i>“If you didn't want me to do it, then why did you give me the gun?”</i></p>
             <p><i>The reason I acted the way I did, was because I was in love.</i></p>
           </div>
 
           <h3>18.3.11 	Long Sentences</h3>
-          <p>Shorter sentences are generally better. And brevity is increasingly desirable as the internet makes people&#39;s attention spans shorter.
+          <p>Shorter sentences are generally better. And brevity is increasingly desirable as the internet makes people's attention spans shorter.
             But sometimes length may convey something a short sentence cannot. </p>
           <p>Clark provides a guide for using long sentences:</p>
           <ul className="bullets">
@@ -1272,12 +1272,12 @@ function TheNextWords() {
             Aside from horror, this technique can be used in any genre. You might superimpose a love interest is royalty to get inside the protagonist's adoration of them.</p>
 
           <h3>18.3.10 	Purposeful Repetition</h3>
-          <p>9 times out of 10 you don&#39;t want your writing to repeat itself. Repetition devalues your writing by oversupply (
+          <p>9 times out of 10 you don't want your writing to repeat itself. Repetition devalues your writing by oversupply (
                         <Link href="/description#post-11-3" className="text-yellow-400 underline hover:text-yellow-300">
               see 11.3 Information Economy
             </Link>). 
             
-            It can also be annoying and insipid, like a nursery rhyme. Repetition also isn&#39;t subtle, and 9 times out of 10 you don&#39;t
+            It can also be annoying and insipid, like a nursery rhyme. Repetition also isn't subtle, and 9 times out of 10 you don't
             want your writing to repeat itself.</p>
           <p>However, if used sparingly and effectively, repetition can:</p>
           <ul className="bullets">
@@ -1290,11 +1290,11 @@ function TheNextWords() {
             <li>Create a sense of building suspense or dread, or build-up to something unavoidable.</li>
           </ul>
 
-          <p>Most commonly, repetition conveys thematic significance. In <i>In ‘The Haunting of Hill House&#39;</i> House&#39; by Shirley Jackson,
-            the Shakespearian quote <i>'Journeys end in lovers meeting&#39;</i> is repeated, and at various lengths throughout the story.</p>
+          <p>Most commonly, repetition conveys thematic significance. In <i>In ‘The Haunting of Hill House'</i> House' by Shirley Jackson,
+            the Shakespearian quote <i>'Journeys end in lovers meeting'</i> is repeated, and at various lengths throughout the story.</p>
 
           <h3>18.3.11 	Long Sentences</h3>
-          <p>Shorter sentences are generally better. And brevity is increasingly desirable as the internet makes people&#39;s attention spans shorter.
+          <p>Shorter sentences are generally better. And brevity is increasingly desirable as the internet makes people's attention spans shorter.
             But sometimes length may convey something a short sentence cannot. </p>
           <p>Clark provides a guide for using long sentences:</p>
           <ul className="bullets">
@@ -1313,7 +1313,7 @@ function TheNextWords() {
           <div className="quote-box">
             <p><i> “After making a strategic or dramatic point, move away from your subject for a moment, then return with sudden force.”</i></p>
           </div>
-          <p>The ‘moment&#39; may only last a sentence.</p>
+          <p>The ‘moment' may only last a sentence.</p>
 
           <h3>18.3.14 	Literalize Metaphors</h3>
           <p>You can build scenes and events from making literal metaphors; here's a really obvious example that you shouldn't actually use:</p>
@@ -1336,7 +1336,7 @@ function TheNextWords() {
 
           <h5>1. Never Begin a Sentence with 'And' or 'But' </h5>
           <p>Words like 'and' and 'but' are called 'conjunctions,' and the reason for this rule is because these words are designed to connect
-            sentences or ideas from a previous sentence. If you start with a conjunction, it doesn&#39;t connect to anything.</p>
+            sentences or ideas from a previous sentence. If you start with a conjunction, it doesn't connect to anything.</p>
           <p>But, start with a conjunction and you may give a sentence a slightly different feeling; maybe humourous, like a punchline, or solemnity;
             giving each sentence its own space for steady, serious contemplation. Maybe you want to use a separate sentence to contradict the reader's
             expectations, or convey a reversal of structure, or fortune. Generally you may want to split up connected ideas to convey the ideas, while similar,
@@ -1385,38 +1385,38 @@ function TheNextWords() {
           </div>
 
           <h5>7. A Person Must Be a 'Who' </h5>
-          <p>When you place a ‘that&#39; after a noun, you objectify it, alternatively, a ‘who&#39; after a noun personifies it.</p>
+          <p>When you place a ‘that' after a noun, you objectify it, alternatively, a ‘who' after a noun personifies it.</p>
           <ul className="bullets">
-            <li>‘The tree that was chopped down yesterday,&#39; not ‘The tree who was chopped down yesterday,&#39;
-              and ‘The man who was here yesterday,&#39; not ‘The man that was here yesterday.&#39;
+            <li>‘The tree that was chopped down yesterday,' not ‘The tree who was chopped down yesterday,'
+              and ‘The man who was here yesterday,' not ‘The man that was here yesterday.'
             </li>
-            <li>‘The tree that was chopped down yesterday,&#39; not ‘The tree who was chopped down yesterday,&#39;
-              and ‘The man who was here yesterday,&#39; not ‘The man that was here yesterday.</li>
+            <li>‘The tree that was chopped down yesterday,' not ‘The tree who was chopped down yesterday,'
+              and ‘The man who was here yesterday,' not ‘The man that was here yesterday.</li>
           </ul>
 
-          <p>However, this rule is not always followed in real life. For instance, in the following example, the speaker uses ‘that&#39; to refer to a person with:</p>
+          <p>However, this rule is not always followed in real life. For instance, in the following example, the speaker uses ‘that' to refer to a person with:</p>
           <p className="p-3 mb-3 rounded bg-llllBlue border border-gray-300 font-rubik shadow-md">
-            <i>PLACEHOLDER EXAMPLE: “I don&#39;t like that man.”</i>
+            <i>PLACEHOLDER EXAMPLE: “I don't like that man.”</i>
           </p>
           <p>Use of 'that' here could imply:</p>
 
-            <h4>(1) Dislike:</h4> <p>The speaker doesn&#39;t like representatives  of the tax department;</p>
-            <h4>(2) Importance:</h4> <p>The man&#39;s status in tax is more important to the story than his status as a person;</p>
-            <h4>(3) Anonymity:</h4> <p>the man&#39;s status as a person is unconfirmed, i.e. the speaker is mistaken that there was actually a person</p>
+            <h4>(1) Dislike:</h4> <p>The speaker doesn't like representatives  of the tax department;</p>
+            <h4>(2) Importance:</h4> <p>The man's status in tax is more important to the story than his status as a person;</p>
+            <h4>(3) Anonymity:</h4> <p>the man's status as a person is unconfirmed, i.e. the speaker is mistaken that there was actually a person</p>
 
           <h5>8. 'None' is Singular </h5>
-          <p>You should refer to individuals as ‘none&#39; not the groups they belong to. For instance, a single member of a single group says,
-            ‘None of us is going to let you pass,&#39; not ‘None of us are going to let you pass,&#39; as they are referring to the group as a single entity, i.e.
-            ‘no one in this group...&#39;</p>
-          <p>But if there are multiple groups, of which your individual is a member of one group, they would say ‘None of us are going to let you pass&#39;
-            not ‘none of us is going to let you pass,&#39; as they are referring to the groups in plural, i.e. ‘no one from any of these groups…&#39;</p>
+          <p>You should refer to individuals as ‘none' not the groups they belong to. For instance, a single member of a single group says,
+            ‘None of us is going to let you pass,' not ‘None of us are going to let you pass,' as they are referring to the group as a single entity, i.e.
+            ‘no one in this group...'</p>
+          <p>But if there are multiple groups, of which your individual is a member of one group, they would say ‘None of us are going to let you pass'
+            not ‘none of us is going to let you pass,' as they are referring to the groups in plural, i.e. ‘no one from any of these groups…'</p>
 
-          <h5>9. ‘Whether&#39; mustn&#39;t be accompanied by ‘Or Not&#39; </h5>
-          <p>This is a pedantic rule which ignores the fact that many sentences require the added ‘or not&#39; to work.
-            But if you delete the ‘or not&#39; and your sentence still makes sense, that&#39;s fine.</p>
+          <h5>9. ‘Whether' mustn't be accompanied by ‘Or Not' </h5>
+          <p>This is a pedantic rule which ignores the fact that many sentences require the added ‘or not' to work.
+            But if you delete the ‘or not' and your sentence still makes sense, that's fine.</p>
 
-          <h5>10. Never Introduce a List with ‘Like&#39; </h5>
-          <p>Form dictates you replace the ‘like&#39; with ‘such as.&#39; But this is a pedantic departure from how people use language in real life.</p>
+          <h5>10. Never Introduce a List with ‘Like' </h5>
+          <p>Form dictates you replace the ‘like' with ‘such as.' But this is a pedantic departure from how people use language in real life.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -1427,22 +1427,22 @@ function TheNextWords() {
           </p>
           <div className="quote-box">
           <ol>
-            <li>Read your story out loud (of have someone else read it out loud) in a monotone voice. This will not only allow you to hear your words in conversational pace, but the monotone reading will ensure that it&#39;s the words themselves which carry the meaning, not the inflections or punctuation;</li>
+            <li>Read your story out loud (of have someone else read it out loud) in a monotone voice. This will not only allow you to hear your words in conversational pace, but the monotone reading will ensure that it's the words themselves which carry the meaning, not the inflections or punctuation;</li>
             <li>Strive for precision and clarity;</li>
-            <li>Learn from the mistakes made by ‘painfully bad&#39; works, as well as from the occasional mistakes made in literary award winners</li>
+            <li>Learn from the mistakes made by ‘painfully bad' works, as well as from the occasional mistakes made in literary award winners</li>
             <li>Studies suggest book browsers decide whether they want to buy a book by page 3. Ideally you should be hooking the reader from page 1
               – from the first sentence even – but apparently page 3 is your final chance;</li>
             <li>The difference between an immediate scene (showing) and a narrative summary (telling) is that the former could be shot on film as a scene,
               and the latter could not;</li>
-            <li>If you want to convey information to the reader, describe it through a scene, characters, and action. Don&#39;t simply tell the reader; you are the author,
+            <li>If you want to convey information to the reader, describe it through a scene, characters, and action. Don't simply tell the reader; you are the author,
               not a character in your own story;</li>
             <li>The best characters are unusual enough to be distinctive and memorable, but not so unusual that they lack credibility or resemble cartoon characters;</li>
-            <li>In order for your story to have a plot, your main character needs to want something. It could be a positive want, i.e. wanting something they don&#39;t
+            <li>In order for your story to have a plot, your main character needs to want something. It could be a positive want, i.e. wanting something they don't
               have, or a negative want, i.e. wanting something to stop or not happen.</li>
             <li> If writing love scenes, pay special attention to both characters, particularly the perspective, thoughts and feelings of the character who is
               the opposite sex as you (the writer), or alternatively, the character who is not the protagonist (i.e. the second person);</li>
             <li> Another tip about love plots; writing a romance is about keeping the lovers apart (physically or psychologically) for as long as possible.
-              Once they are together, there&#39;s nowhere else for the story to go (quoth Shakespeare: ‘Journeys end in lovers meeting&#39;);</li>
+              Once they are together, there's nowhere else for the story to go (quoth Shakespeare: ‘Journeys end in lovers meeting');</li>
           </ol>
           </div>
 

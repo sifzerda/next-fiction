@@ -43,7 +43,7 @@ function Plot() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-plotting-in-a-vacuum">3.1: Plotting in a Vacuum</h2>
-          <p>You might have more stories than the Burj Khalifa. But stories aren&#39;t enough; you&#39;ve got to know what to do with them.</p>
+          <p>You might have more stories than the Burj Khalifa. But stories aren't enough; you've got to know what to do with them.</p>
           <p>At the front-end of story creation, writers tend to think: 'What do I already know, and how can I make a plot based on what I already know?'</p>
           <p>What you should be asking is, 'What is an ideal plot, and what do I need to know to write it?'</p>
 
@@ -51,20 +51,20 @@ function Plot() {
 
           <h2 id="post-how-to-create-suspense">13.2 How to Create Suspense</h2>
           <p>One way of providing suspense is, obviously, to stubbornly refuse to provide a resolution until the very end of the story.</p>
-          <p>The problem is your conflict risks going ‘cold&#39; for the reader; they might assume the conflict is of no importance and probably won&#39;t be resolved by the end, and subsequently stop reading.</p>
-          <p>Alternatively, you want to provide build ups of suspense on the way to the resolution; making small promises which add up to your resolution being really worthwhile, whilst reminding the reader that the conflict hasn&#39;t been forgotten, and teasing that the end will provide the answer.</p>
-          <p>I like Sol Stein&#39;s
+          <p>The problem is your conflict risks going ‘cold' for the reader; they might assume the conflict is of no importance and probably won't be resolved by the end, and subsequently stop reading.</p>
+          <p>Alternatively, you want to provide build ups of suspense on the way to the resolution; making small promises which add up to your resolution being really worthwhile, whilst reminding the reader that the conflict hasn't been forgotten, and teasing that the end will provide the answer.</p>
+          <p>I like Sol Stein's
             <FootnoteRef text={`SOL STEIN,\nOn Writing.`} />
-            workmanlike definition of suspense as where the reader wants something to happen and it isn&#39;t happening yet, or the reader wants something to stop, and it doesn&#39;t. However, it doesn&#39;t capture the variety of ways you can invite suspense into your story. The reader might: </p>
+            workmanlike definition of suspense as where the reader wants something to happen and it isn't happening yet, or the reader wants something to stop, and it doesn't. However, it doesn't capture the variety of ways you can invite suspense into your story. The reader might: </p>
           <ul className="bullets">
             <li>Want something to happen, or </li>
             <li>Want something to <i>not</i> happen, or  </li>
             <li>Not know, of multiple, terrible outcomes, which is worse, or  </li>
-            <li>Of a ‘too good to be true&#39; outcome, how it could go wrong, or  </li>
+            <li>Of a ‘too good to be true' outcome, how it could go wrong, or  </li>
             <li>Of a guaranteed confrontation, when the confrontation will actually occur, and under what circumstances, etc. </li>
           </ul>
 
-          <p>The layman definition of suspense tends to associate suspense building with raising the stakes. That is one form of suspense building but it&#39;s not the only one. In order to build suspense, all you need to do is supply information, or create events which lend the final outcome more weight.</p>
+          <p>The layman definition of suspense tends to associate suspense building with raising the stakes. That is one form of suspense building but it's not the only one. In order to build suspense, all you need to do is supply information, or create events which lend the final outcome more weight.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -75,13 +75,13 @@ function Plot() {
           </p>
 
           <ol>
-            <li>Archplot (the &#39;Hero&#39; story)</li>
-            <li>Miniplot (the &#39;journey&#39; story)</li>
-            <li>Antiplot (the &#39;not a logical story&#39; story)</li>
-            <li>Nonplot (the &#39;not a story&#39; story)</li>
+            <li>Archplot (the 'Hero' story)</li>
+            <li>Miniplot (the 'journey' story)</li>
+            <li>Antiplot (the 'not a logical story' story)</li>
+            <li>Nonplot (the 'not a story' story)</li>
           </ol>
 
-          <p>McKee strongly advises writers not to start writing plots (2) — (4) until they&#39;ve mastered the Archplot. This is because the other plots are subversions of the Archplot; they take its elements and alter or challenge or remove them. You can&#39;t do that effectively unless you&#39;re highly familiar and confident with use of those elements in the first place. In other words, you must pass the foundation course (the Archplot) before you can move on to the advanced course (Miniplot, Antiplot and Nonplot).</p>
+          <p>McKee strongly advises writers not to start writing plots (2) — (4) until they've mastered the Archplot. This is because the other plots are subversions of the Archplot; they take its elements and alter or challenge or remove them. You can't do that effectively unless you're highly familiar and confident with use of those elements in the first place. In other words, you must pass the foundation course (the Archplot) before you can move on to the advanced course (Miniplot, Antiplot and Nonplot).</p>
 
           <h3>3.2.1 	Archplot</h3>
           <p>Your standard kind of story.</p>
@@ -91,7 +91,7 @@ function Plot() {
             <li>Plots structured by physical events;</li>
             <li>Active protagonist</li>
             <li>A closed ending (story threads wrap up and resolve);</li>
-            <li>An identifiable protagonist (may be an everyman or larger than life &#39;hero,&#39; but in traits distinguished from the other characters);</li>
+            <li>An identifiable protagonist (may be an everyman or larger than life 'hero,' but in traits distinguished from the other characters);</li>
             <li>External Conflict (caused by other people, social institutions, or natural forces);</li>
             <li>No intellectual work required by the audience; </li>
             <li>Linear timeframe;</li>
@@ -107,7 +107,7 @@ function Plot() {
             <li>Minimalism;</li>
             <li>Plots structured by emotional events;</li>
             <li>An open ending (story threads unresolved, some remaining questions);</li>
-            <li>Internal Conflict (inner struggles and battles with one&#39;s self);</li>
+            <li>Internal Conflict (inner struggles and battles with one's self);</li>
             <li>Passive protagonist;</li>
             <li>Multiple protagonists; </li>
             <li>Intellectual work required by the audience</li>
@@ -133,7 +133,7 @@ function Plot() {
           </p>
 
           <h3>3.2.4 	Nonplot</h3>
-          <p>The Nonplot is basically is where there isn&#39;t a clear, satisfying conclusion to the events.</p>
+          <p>The Nonplot is basically is where there isn't a clear, satisfying conclusion to the events.</p>
           <p>Typified by:</p>
 
           <ul className="bullets">
@@ -151,36 +151,36 @@ function Plot() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-inciting-incident">3.3: The Inciting Incident</h2>
-          <p>This is the event which kicks off the plot. It&#39;s the first &#39;unusual&#39; thing which occurs to your protagonist, jarring them out of their normal routine and necessitating their pursuit of the plot-worthy goal in order to return to normal.</p>
-          <p>A story where the protagonist one day wakes up and changes their mind about the direction of their life, is weak, vague and lazy. We don&#39;t assume people just do this spontaneously in real life, we assume something happened to cause their change of mind. In real life, we don&#39;t take people&#39;s word for it when they tell us they&#39;ve suddenly decided to change their life; we tend to ask, &#39;why? What caused you to decide this?&#39; or, meaningfully, &#39;Did something happen?&#39;</p>
-          <p>The Inciting Incident also suggests your protagonist is not in control; control of their life has been wrestled away from them, and the story is about them reclaiming control. This is more interesting than a character who remains in the driver&#39;s seat of their life the whole time, whatever sudden decisions they make.</p>
-          <p>It goes without saying, the inciting incident should be zany, unusual, riveting. It should make the reader wonder what they would do if they found themselves in the same circumstances. It shouldn&#39;t be some throwaway event excused by the fact that more interesting things happen later. If anything, there&#39;s a good argument the inciting incident needs to be one of the most exciting parts of the entire story, because, like a stone hitting the surface of a pond, everything that happens from that point radiates out from the inciting incident.</p>
+          <p>This is the event which kicks off the plot. It's the first 'unusual' thing which occurs to your protagonist, jarring them out of their normal routine and necessitating their pursuit of the plot-worthy goal in order to return to normal.</p>
+          <p>A story where the protagonist one day wakes up and changes their mind about the direction of their life, is weak, vague and lazy. We don't assume people just do this spontaneously in real life, we assume something happened to cause their change of mind. In real life, we don't take people's word for it when they tell us they've suddenly decided to change their life; we tend to ask, 'why? What caused you to decide this?' or, meaningfully, 'Did something happen?'</p>
+          <p>The Inciting Incident also suggests your protagonist is not in control; control of their life has been wrestled away from them, and the story is about them reclaiming control. This is more interesting than a character who remains in the driver's seat of their life the whole time, whatever sudden decisions they make.</p>
+          <p>It goes without saying, the inciting incident should be zany, unusual, riveting. It should make the reader wonder what they would do if they found themselves in the same circumstances. It shouldn't be some throwaway event excused by the fact that more interesting things happen later. If anything, there's a good argument the inciting incident needs to be one of the most exciting parts of the entire story, because, like a stone hitting the surface of a pond, everything that happens from that point radiates out from the inciting incident.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-three-act-structure">3.4: Three Act Structure</h2>
-          <p>The Three Act Plot is a story formula involving three major changes or reversals of positions for the protagonist. For instance, things are good, then they&#39;re bad, then they&#39;re good again. The Acts are: Good, Bad, Good (if the climax is in the Third Act, you might find the third &#39;Good&#39; only spans the last half/quarter of the Act).</p>
+          <p>The Three Act Plot is a story formula involving three major changes or reversals of positions for the protagonist. For instance, things are good, then they're bad, then they're good again. The Acts are: Good, Bad, Good (if the climax is in the Third Act, you might find the third 'Good' only spans the last half/quarter of the Act).</p>
           <p>The first Act might be about 25% of the story. The Second Act will be longer, and then the Third Act will be the shortest, to create a sense of accelerating pace to the climax. Maybe max 25% of the story. The potential problem is that the Second Act drags. Rectifying that may involve adding a subplot/s or another Act (e.g. extending to Good, Bad, Worse, Good).</p>
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act&#39;s climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn&#39;t fit into the above categories: the Quidditch games, the spell classes, sorting hat — there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones — you give the reader that many more clues as to how you&#39;ve structured your story &#39;behind the curtain.&#39; The reader will think &#39;oh, this scene&#39;s fairly unmemorable, it mustn&#39;t be integral to the plot.&#39; Memorable &#39;in-between&#39; scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?
+            suggests a three Act plot needs four memorable scenes (the inciting incident, and each Act's climax). I would argue for more. The Harry Potter books had scores of memorable scenes which didn't fit into the above categories: the Quidditch games, the spell classes, sorting hat — there was no end to them. I would also argue that you risk transparency if your memorable scenes are the important ones — you give the reader that many more clues as to how you've structured your story 'behind the curtain.' The reader will think 'oh, this scene's fairly unmemorable, it mustn't be integral to the plot.' Memorable 'in-between' scenes throw the reader off your trail, because the reader is tempted to include them in a structured analysis of your plot, whereas you know those scenes are decoys for the integral stuff. Never let your reader become more of an expert on your story than you are. Besides, why stop at four? Why not try to make as many scenes memorable as possible?
           </p>
           <p>Blake Snyder
             <FootnoteRef text={`BLAKE SNYDER,\nSave The Cat! Strikes Back: More Trouble For Screenwriters To Get Into...And Out Of.`} />
-            says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It&#39;s the world and its rules set up for us. Antithesis is the reverse or &#39;upside-down&#39; version or &#39;funhouse mirror reflection&#39; of the world. Characters from &#39;Thesis&#39; may reappear in &#39;Antithesis&#39; in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the &#39;Third way&#39; in world 3. By this time, the hero has &#39;died&#39; and been &#39;reborn&#39;, so he can&#39;t go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn&#39;t have happen instantaneously, it should happen bit by bit — every scene in the structure changes the hero a little.</p>
+            says the 3 acts in a story represent 3 different worlds: Thesis, Antithesis, and Synthesis. Thesis is the world as is. It's the world and its rules set up for us. Antithesis is the reverse or 'upside-down' version or 'funhouse mirror reflection' of the world. Characters from 'Thesis' may reappear in 'Antithesis' in different forms. The Synthesis is a combination of the first two worlds. What the hero had in worlds 1 and 2, becomes the 'Third way' in world 3. By this time, the hero has 'died' and been 'reborn', so he can't go back to world 1 as the same person. He returns having learned and retained things from world 2, therefore combining the two in world 3. The change doesn't have happen instantaneously, it should happen bit by bit — every scene in the structure changes the hero a little.</p>
 
-          <p>There&#39;s another dimension to this structure, two intertwining forces: the hero&#39;s tangible goal (what he wants), and his spiritual goal (what he needs). For instance, the hero may be chased by a monster (tangible goal = to survive), realising that this means his mentor has failed to protect him from it (spiritual goal = security, trust). As the monster closes in, the hero&#39;s awful realisation crystallizes. The hero must ditch the defective belief (that mentor will protect him) to attain the spiritual goal, effecting his transformation (from dependent to self-sufficient), allowing him to ditch the monster, and gain the tangible goal.</p>
+          <p>There's another dimension to this structure, two intertwining forces: the hero's tangible goal (what he wants), and his spiritual goal (what he needs). For instance, the hero may be chased by a monster (tangible goal = to survive), realising that this means his mentor has failed to protect him from it (spiritual goal = security, trust). As the monster closes in, the hero's awful realisation crystallizes. The hero must ditch the defective belief (that mentor will protect him) to attain the spiritual goal, effecting his transformation (from dependent to self-sufficient), allowing him to ditch the monster, and gain the tangible goal.</p>
 
           <h3>3.4.1 	Sub-Plots</h3>
-          <p>Sub-plots are not only conceptually plots in miniature, they also resemble them in form. They have their own Act structure, Inciting Incidents, and climaxes. However, a sub plot may comprise of a single Act, or more. You can have multiple subplots, and they can overlap. You can also retire subplots for periods at a time, only to resolve them much later. Climaxes for sub-plots and the main plot can also happen in the same scene, e.g. the protagonist defeats the villain (climax of main plot) and by doing so, wins object of affection&#39;s love (climax of subplot).</p>
+          <p>Sub-plots are not only conceptually plots in miniature, they also resemble them in form. They have their own Act structure, Inciting Incidents, and climaxes. However, a sub plot may comprise of a single Act, or more. You can have multiple subplots, and they can overlap. You can also retire subplots for periods at a time, only to resolve them much later. Climaxes for sub-plots and the main plot can also happen in the same scene, e.g. the protagonist defeats the villain (climax of main plot) and by doing so, wins object of affection's love (climax of subplot).</p>
           <p>McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
             also says that main plots and subplots can have different protagonists . My caveat is, if you do this, ensure:</p>
 
           <ul className="bullets">
-            <li>The subplot/s tie back into the main plot&#39;s theme, i.e. the sub-plots are variations on a theme;</li>
-            <li>The subplot protagonist lives in the same world, or a connected world to the main protagonist. For example, Atreyu and Bastien in The Neverending Story lived in different worlds, but their worlds were interconnected enough for Bastien to be able to visit Atreyu&#39;s world, and for both characters to affect each other. </li>
-            <li>The subplot protagonist&#39;s character reflects the main protagonist&#39;s character, whether alike, a foil, an invert, a branching off parallelism, etc. I.e. the protagonists aren&#39;t completely unrelated people who could just be any random strangers in the street.</li>
+            <li>The subplot/s tie back into the main plot's theme, i.e. the sub-plots are variations on a theme;</li>
+            <li>The subplot protagonist lives in the same world, or a connected world to the main protagonist. For example, Atreyu and Bastien in The Neverending Story lived in different worlds, but their worlds were interconnected enough for Bastien to be able to visit Atreyu's world, and for both characters to affect each other. </li>
+            <li>The subplot protagonist's character reflects the main protagonist's character, whether alike, a foil, an invert, a branching off parallelism, etc. I.e. the protagonists aren't completely unrelated people who could just be any random strangers in the street.</li>
           </ul>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -189,13 +189,13 @@ function Plot() {
           <p>Aristotle
             <FootnoteRef text={`ARISTOTLE,\nPoetics.`} />
             wrote of the “peripeteia,” or “reversal of the situation.”</p>
-          <p>At the end of the first act, your protagonist makes a &#39;turn&#39; which sets them off from where they were. Ideally this will be a &#39;diametric&#39; turn (
+          <p>At the end of the first act, your protagonist makes a 'turn' which sets them off from where they were. Ideally this will be a 'diametric' turn (
             <Link href="/scenes#post-diametrics" className="text-yellow-400 underline hover:text-yellow-300">
               see 6.5 Diametrics
             </Link>
             ). Normally they will end up in a worse position, but might not. Being set off in a different but equal position may be bad, as it requires time and energy for the protagonist to readjust.</p>
-          <p>At the end of the second act, your protagonist makes another turn, which sets them off both from their previous position and the starting position. So you can&#39;t just turn them back where they were in starting position (otherwise there is no point to the first act). Take care your narrative doesn't just flip back and forth like this.</p>
-          <p>The third turn is a special turn, because it designates the ending. Your protagonist can&#39;t just make a right turn into anywhere; they have to end up somewhere that completes the narrative. For the purpose of your third turn, note that, if you make three right-angled turns, you end up heading in the same direction you began:</p>
+          <p>At the end of the second act, your protagonist makes another turn, which sets them off both from their previous position and the starting position. So you can't just turn them back where they were in starting position (otherwise there is no point to the first act). Take care your narrative doesn't just flip back and forth like this.</p>
+          <p>The third turn is a special turn, because it designates the ending. Your protagonist can't just make a right turn into anywhere; they have to end up somewhere that completes the narrative. For the purpose of your third turn, note that, if you make three right-angled turns, you end up heading in the same direction you began:</p>
 
           <Image
             src={threeRt}
@@ -206,17 +206,17 @@ function Plot() {
 
           <p>To ensure the turn is diametric, each time your protagonist makes a turn, work out where your protagonist is (their current position) and where they appear to be heading (their direction, motivation, goals, objectives), and either flip it, or contrast it in some major way.</p>
 
-          <h3>3.5.1 	Doubling: &#39;Doppelgängers and &#39;Flips&#39;</h3>
+          <h3>3.5.1 	Doubling: 'Doppelgängers and 'Flips'</h3>
           <p>For instance, a protagonist police officer may be framed for a crime, prosecuted by the police force, and get sentenced to prison, where he befriends some of the prison inmates. Previously he saw the police as good, and the prison inmates as bad, but after the right angle turn (he gets convicted for a crime) he begins to see the police as bad and prison inmates as good.</p>
-          <p>A &#39;doppleganger&#39; is where that character, setting, or story element remains the same, but is duplicated, and the double is contrastingly different, if not entirely the opposite (like the &#39;good twin, evil twin&#39; cliché).</p>
+          <p>A 'doppleganger' is where that character, setting, or story element remains the same, but is duplicated, and the double is contrastingly different, if not entirely the opposite (like the 'good twin, evil twin' cliché).</p>
           <p>For instance, a character finds a portal to a fantasy world, which contain vague doubles of their real world counterparts (the Wizard of Oz
             <FootnoteRef text={<><em>The Wizard of Oz</em>, Metro-Goldwyn-Mayer, (1939).</>} />
-            “…and you were there…and you were there…” idea). Often there is some kind of threshold dividing the doppelgängers, but there doesn&#39;t have to be. The more obvious the double, the more of a border exists between them — virtual twins are almost guaranteed to never meet. The more subtle a double, the more ability they can interact with their double. The point of this rule is, characters should not be aware they are doubles.</p>
-          <p>The double is a concept related specifically to right-angle turn plots (right angles bestow double status), compared to a foil who is not necessarily a double, nor do they require a right-angle to exist. A double&#39;s existence is predicated on their &#39;twin&#39; — apart from which, they don&#39;t really have a reason to exist. Whereas, a foil isn&#39;t dependent on its partner, rather, its traits have been adjusted to maximize contrast with another character.</p>
+            “…and you were there…and you were there…” idea). Often there is some kind of threshold dividing the doppelgängers, but there doesn't have to be. The more obvious the double, the more of a border exists between them — virtual twins are almost guaranteed to never meet. The more subtle a double, the more ability they can interact with their double. The point of this rule is, characters should not be aware they are doubles.</p>
+          <p>The double is a concept related specifically to right-angle turn plots (right angles bestow double status), compared to a foil who is not necessarily a double, nor do they require a right-angle to exist. A double's existence is predicated on their 'twin' — apart from which, they don't really have a reason to exist. Whereas, a foil isn't dependent on its partner, rather, its traits have been adjusted to maximize contrast with another character.</p>
           <p>In both cases, the effect is to give the protagonist a new perspective.</p>
 
           <h3>3.5.2 	Examples of Three Right Angle Turns</h3>
-          <p>To illustrate the concept in its entirety I&#39;ll use the examples of two very different stories: Beauty and the Beast,
+          <p>To illustrate the concept in its entirety I'll use the examples of two very different stories: Beauty and the Beast,
             <FootnoteRef text={<><em>Beauty and the Beast</em>, Walt Disney Pictures, (1991).</>} />
             and The Shawshank Redemption.
             <FootnoteRef text={<><em>The Shawshank Redemption</em>, Columbia Pictures, (1994). Based on the novella <em>Rita Hayworth and Shawshank Redemption</em> by <span className="uppercase font-bold text-yellow-400">STEPHEN KING</span>, from the collection <em>Different Seasons</em>, (1982).</>} />
@@ -252,14 +252,14 @@ function Plot() {
           <div className="custom-box">
             <h4>Act 1</h4>
             <ol className="numbered">
-              <li><span className="bg-yellow">[Protagonist&#39;s starting position]</span> Protagonist&#39;s wife cheating on him </li>
-              <li><span className="bg-llllBlue">[Protagonist&#39;s direction]</span> possibly leave her, try to get her back, or get revenge.</li>
+              <li><span className="bg-yellow">[Protagonist's starting position]</span> Protagonist's wife cheating on him </li>
+              <li><span className="bg-llllBlue">[Protagonist's direction]</span> possibly leave her, try to get her back, or get revenge.</li>
               <li><u>Act 1 right angle:</u> <span className="bg-volt">[New position]</span> Scary castle with monster.</li>
             </ol>
 
             <h4>Act 2: </h4>
             <ol className="numbered">
-              <li><span className="bg-yellow">[Position]</span> protagonist in prison, lowest standing on the prison&#39;s social hierarchy, not coping  </li>
+              <li><span className="bg-yellow">[Position]</span> protagonist in prison, lowest standing on the prison's social hierarchy, not coping  </li>
               <li><span className="underline">Act 2 right angle:</span> <span className="bg-volt">[New position]</span> protagonist makes friends and gets a better standing </li>
             </ol>
 
@@ -272,26 +272,26 @@ function Plot() {
           </div>
 
           <h3>3.5.3 	Sub- Three Right Angle Turns</h3>
-          <p>Beauty and the Beast is the poster child for the right-angle turn structure, and provides yet more examples. One example is in song themes. The songs &#39;Belle&#39;, &#39;Be Our Guest&#39; and &#39;Kill the Beast&#39; are all about belonging and exclusion (the remaining song) :</p>
+          <p>Beauty and the Beast is the poster child for the right-angle turn structure, and provides yet more examples. One example is in song themes. The songs 'Belle', 'Be Our Guest' and 'Kill the Beast' are all about belonging and exclusion (the remaining song) :</p>
 
           <div className="custom-box">
             <ol className="numbered">
-              <li><strong>Belle:</strong> the inhabitants of the setting (village) are telling an excluded/different character (Belle) she doesn&#39;t belong; </li>
+              <li><strong>Belle:</strong> the inhabitants of the setting (village) are telling an excluded/different character (Belle) she doesn't belong; </li>
               <li><strong>Be Our Guest:</strong> the inhabitants of the setting (castle) are telling the excluded/different character she does belong;</li>
               <li><strong>Kill the Beast:</strong> the inhabitants of the setting (village again) are once again reinforcing that an excluded/different character does not belong (now, the Beast);</li>
-              <li><strong>Bonus; &#39;Beauty and the Beast&#39;:</strong> the inhabitants (castle staff) reinforce the belonging of the two excluded/different characters (Belle, Beast) with each other. Symbolically, since they are the victors of the battle, their song is taken as the &#39;victory song&#39;; i.e. whatever they say is the &#39;truth&#39; or the winning argument.</li>
+              <li><strong>Bonus; 'Beauty and the Beast':</strong> the inhabitants (castle staff) reinforce the belonging of the two excluded/different characters (Belle, Beast) with each other. Symbolically, since they are the victors of the battle, their song is taken as the 'victory song'; i.e. whatever they say is the 'truth' or the winning argument.</li>
             </ol>
           </div>
 
           <p>Notice the structure of these songs as an argument: team 1 makes a claim; team 2 rejoinders; team 1 reinforces its claim; team 2 reinforces its rejoinder, and ultimately wins the argument.</p>
           <p>Also notice the strategic spacing of the songs: if the film was divided into four acts, each of these songs would roughly correspond to each of these acts: beginning, end of second act halfway point, climax, denouement.</p>
-          <p>Beauty and the Beast is a love story; you might ask where does the theme of love fit into this structure? Importantly, each of these songs is separated by an inciting incident which acts as the &#39;turn&#39;:</p>
+          <p>Beauty and the Beast is a love story; you might ask where does the theme of love fit into this structure? Importantly, each of these songs is separated by an inciting incident which acts as the 'turn':</p>
 
           <div className="custom-box">
             <ol className="numbered">
-              <li>Belle getting imprisoned in the castle (motivated by her love for her father) turns to &#39;Be Our Guest&#39;;</li>
+              <li>Belle getting imprisoned in the castle (motivated by her love for her father) turns to 'Be Our Guest';</li>
               <li>Belle staying at the castle after the wolf attack (motivated by her love for the Beast) turns to Kill the Beast;</li>
-              <li>Beast returning to human form (because of Belle&#39;s love for him) turns to&#39;Beauty and the Beast&#39;;</li>
+              <li>Beast returning to human form (because of Belle's love for him) turns to'Beauty and the Beast';</li>
             </ol>
           </div>
 
@@ -300,8 +300,8 @@ function Plot() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-chiastic-structure">3.6: Chiastic Structure</h2>
-          <p>A chiastic structure exists where the narrative creates a symmetrical pattern, e.g. if scenes include A,B, and C, then a chiastic structure might go: A, B, C, C, B, A. If you&#39;re musically inclined, this resembles counterpoint.</p>
-          <p>&#39;Chiastic&#39; originates from the Greek word &#39;Chiasmus&#39; meaning &#39;crosswise arrangement,&#39; i.e. —</p>
+          <p>A chiastic structure exists where the narrative creates a symmetrical pattern, e.g. if scenes include A,B, and C, then a chiastic structure might go: A, B, C, C, B, A. If you're musically inclined, this resembles counterpoint.</p>
+          <p>'Chiastic' originates from the Greek word 'Chiasmus' meaning 'crosswise arrangement,' i.e. —</p>
 
           <Image
             src={crossArrow}
@@ -310,7 +310,7 @@ function Plot() {
             height={100}
             className="my-4" />
 
-          <p>Chiastic structure can effect a sense of &#39;circularity,&#39; or going full circle, returning the reader back where they started. Elements are introduced, and then, as if a mirror reflection, are re-addressed and resolved in corresponding (backwards) order.</p>
+          <p>Chiastic structure can effect a sense of 'circularity,' or going full circle, returning the reader back where they started. Elements are introduced, and then, as if a mirror reflection, are re-addressed and resolved in corresponding (backwards) order.</p>
           <p>Here is an example of the Chiastic structure of the Genesis Flood Narrative:
             <FootnoteRef text={`The Bible,\nGen 1:1-50.`} />
           </p>

@@ -15,7 +15,7 @@ function POV() {
         <h1>Point Of View</h1>
 
         <blockquote>
-          “If you want to know what water is, don&#39;t ask the fish.”
+          “If you want to know what water is, don't ask the fish.”
           <br />
           <span className="font-rubik block text-right font-medium mt-1">— Mitch Stokes</span>
         </blockquote>
@@ -36,7 +36,7 @@ function POV() {
           <h2 id="post-what-is-point-of-view">14.1: What Is Point of View?</h2>
 
           <p>DEFINE POV</p>
-          <p>At this point, you may have already decided which Point of View (POV) you are going to use. In many cases it&#39;ll be an intuitive decision.</p>
+          <p>At this point, you may have already decided which Point of View (POV) you are going to use. In many cases it'll be an intuitive decision.</p>
           <p>The types of POVs are:</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
@@ -47,18 +47,18 @@ function POV() {
           </p>
 
           <div className="custom-box">
-            <p className="italic">I looked longingly at Mary, hoping she would notice me. She not only noticed me, she said: “I wish you would take me in your arms.” I noticed Mary&#39;s mother watching from the window, and hoped she thought we were a perfect match.</p>
+            <p className="italic">I looked longingly at Mary, hoping she would notice me. She not only noticed me, she said: “I wish you would take me in your arms.” I noticed Mary's mother watching from the window, and hoped she thought we were a perfect match.</p>
           </div>
 
           <p>Your main choice is between this and Third Person, but your default should be Third Person. However, there are a number of reasons why you might opt for this POV:</p>
 
           <ol>
             <li>To create immediacy; the eyewitness account of someone actually at an event, whereas Third Person has a sense of being a recount by the narrator of an interesting event;</li>
-            <li>To describe incredible, unbelievable things; readers tend to suspend more disbelief for 1st person POV because of the ‘I know, I was there&#39; vibe;</li>
+            <li>To describe incredible, unbelievable things; readers tend to suspend more disbelief for 1st person POV because of the ‘I know, I was there' vibe;</li>
             <li>To filter events through the subjective perception of an individual; this allows you to be more selective with what is shown and not shown to the particular character;</li>
-            <li>To filter events through someone&#39;s psychology; e.g. the perception of a drunk, paranoid, child, neurotic, autistic, infatuated, below average intelligent, or absent-minded character, etc;</li>
+            <li>To filter events through someone's psychology; e.g. the perception of a drunk, paranoid, child, neurotic, autistic, infatuated, below average intelligent, or absent-minded character, etc;</li>
             <li>You want the narrator to have a particular or stylized voice;</li>
-            <li>A character&#39;s actions are in opposition with their thoughts (e.g. a character doing horrible things thinking it&#39;s for good reasons)</li>
+            <li>A character's actions are in opposition with their thoughts (e.g. a character doing horrible things thinking it's for good reasons)</li>
           </ol>
 
           <p>I tend to think that a Third Person POV story is a story more about events, whereas a First Person POV story is a story more about a person, i.e. the personality who experienced events.</p>
@@ -67,7 +67,7 @@ function POV() {
           <p>A secondary character describes the protagonist, e.g.</p>
 
           <div className="custom-box">
-            <p className="italic">I noticed Kevin look longingly at Mary, as if hoping she would notice him. She not only noticed him, she said: “I wish you would take me in your arms.” Then I noticed Mary&#39;s mother watching from the window, and wondered if she thought they were a perfect match.</p>
+            <p className="italic">I noticed Kevin look longingly at Mary, as if hoping she would notice him. She not only noticed him, she said: “I wish you would take me in your arms.” Then I noticed Mary's mother watching from the window, and wondered if she thought they were a perfect match.</p>
           </div>
 
           <p>Applicable where: </p>
@@ -77,8 +77,8 @@ function POV() {
             <li>the plot is implausible or unbelievable; </li>
           </ol>
 
-          <p>The story is narrated by a supporting character, e.g. Stephen King&#39;s ‘Rita Hayworth and the Shawshank Redemption,&#39; or F. Scott Fitzgerald&#39;s ‘The Great Gatsby,&#39; or Harper Lee&#39;s ‘To Kill a Mockingbird,&#39; or Jeffrey Eugenides&#39; ‘The Virgin Suicides.&#39; You want the supporting character to have a less exciting life, or is modest, naïve, average intelligence (or slightly above average, but less than the protagonist), and other traits that tend the reader to believe they would be a more credible reporter of the protagonist than the protagonist himself. </p>
-          <p>It probably goes without saying, but the supporting character should be someone with a special relationship to the protagonist. They can&#39;t be anyone. Like you need to justify why the protagonist is the main character, you need to justify why the supporting character is the narrator. Do they have special information about the protagonist, or special access to the protagonist&#39;s thoughts, feelings or behaviour?</p>
+          <p>The story is narrated by a supporting character, e.g. Stephen King's ‘Rita Hayworth and the Shawshank Redemption,' or F. Scott Fitzgerald's ‘The Great Gatsby,' or Harper Lee's ‘To Kill a Mockingbird,' or Jeffrey Eugenides' ‘The Virgin Suicides.' You want the supporting character to have a less exciting life, or is modest, naïve, average intelligence (or slightly above average, but less than the protagonist), and other traits that tend the reader to believe they would be a more credible reporter of the protagonist than the protagonist himself. </p>
+          <p>It probably goes without saying, but the supporting character should be someone with a special relationship to the protagonist. They can't be anyone. Like you need to justify why the protagonist is the main character, you need to justify why the supporting character is the narrator. Do they have special information about the protagonist, or special access to the protagonist's thoughts, feelings or behaviour?</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -86,22 +86,22 @@ function POV() {
           <p>The narrator is not a character and speaks to the reader as if the reader was the main character, e.g.</p>
 
           <div className="custom-box">
-            <p className="italic">You looked longingly at Mary, hoping she would notice you. She not only noticed you, she said: “I wish you would take me in your arms.” You noticed Mary&#39;s mother, watching from the window, and hoped she thought you were a perfect match.</p>
+            <p className="italic">You looked longingly at Mary, hoping she would notice you. She not only noticed you, she said: “I wish you would take me in your arms.” You noticed Mary's mother, watching from the window, and hoped she thought you were a perfect match.</p>
           </div>
 
-          <p>You can probably avoid this one for most purposes. It doesn&#39;t read naturally and readers will find incongruence between their real self and their fictional ‘self&#39; jarring – however, you can get around this with hypotheticals, e.g. ‘If you visit that street today, you will find that the house has been knocked down…&#39;</p>
+          <p>You can probably avoid this one for most purposes. It doesn't read naturally and readers will find incongruence between their real self and their fictional ‘self' jarring – however, you can get around this with hypotheticals, e.g. ‘If you visit that street today, you will find that the house has been knocked down…'</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-third-person">14.4: Third Person</h2>
-          <p>The main character is described by the narrator, who is not themselves a character. This is the main POV, and should be your default if you don&#39;t know which POV to choose (you can always change it later, anyway). Use it unless you have a really good reason not to.</p>
+          <p>The main character is described by the narrator, who is not themselves a character. This is the main POV, and should be your default if you don't know which POV to choose (you can always change it later, anyway). Use it unless you have a really good reason not to.</p>
           <p>There are three kinds of 3rd person POV:</p>
 
           <h3>14.3.1 	Third Person Limited</h3>
-          <p>This is where the narrator&#39;s knowledge is restricted to your main character. The narrator can read the mind of the main character (if that) but no one else.</p>
+          <p>This is where the narrator's knowledge is restricted to your main character. The narrator can read the mind of the main character (if that) but no one else.</p>
 
           <div className="custom-box">
-            <p className="italic">Kevin looked longingly at Mary, hoping she would notice him. She not only noticed him, she said: “I wish you would take me in your arms.” Kevin noticed Mary&#39;s mother watching from the window, and hoped she thought they were a perfect match.</p>
+            <p className="italic">Kevin looked longingly at Mary, hoping she would notice him. She not only noticed him, she said: “I wish you would take me in your arms.” Kevin noticed Mary's mother watching from the window, and hoped she thought they were a perfect match.</p>
           </div>
 
           <p>This perspective can be used to show a protagonist how they really are, not how they see themselves.</p>
@@ -110,17 +110,17 @@ function POV() {
           <p>This perspective can be used to show a protagonist how they really are, not how they see themselves.</p>
 
           <div className="custom-box">
-            <p className="italic">Kevin looked longingly at Mary, hoping she would notice him. She not only noticed him, she wished he would take her in his arms. Mary&#39;s mother, watched from the window, and thought they were a perfect match.  </p>
+            <p className="italic">Kevin looked longingly at Mary, hoping she would notice him. She not only noticed him, she wished he would take her in his arms. Mary's mother, watched from the window, and thought they were a perfect match.  </p>
           </div>
 
-          <p>This perspective is quite common because, not only does it have access to every character&#39;s mind, but it doesn&#39;t require access to any character&#39;s mind. A description such as, “It was raining that morning,” can be used before any character is identified.  </p>
-          <p>Also notice the above example switches POVs in the same paragraph, from Kevin to the mother. Sometimes a POV will change chapter to chapter, so each chapter follows a different character. If you do this, you should aim to set the POV from the character who is most affected by the events in that scene, or has the most at stake. Interpret this rule loosely – it&#39;s largely how you define ‘affected&#39; – in a scene where a character gets hit by a car, the character who is hit is most affected, but I think the scene would be more interesting from the POV of an observer, or the driver, because the victim&#39;s perception will be so limited from the point of impact. </p>
+          <p>This perspective is quite common because, not only does it have access to every character's mind, but it doesn't require access to any character's mind. A description such as, “It was raining that morning,” can be used before any character is identified.  </p>
+          <p>Also notice the above example switches POVs in the same paragraph, from Kevin to the mother. Sometimes a POV will change chapter to chapter, so each chapter follows a different character. If you do this, you should aim to set the POV from the character who is most affected by the events in that scene, or has the most at stake. Interpret this rule loosely – it's largely how you define ‘affected' – in a scene where a character gets hit by a car, the character who is hit is most affected, but I think the scene would be more interesting from the POV of an observer, or the driver, because the victim's perception will be so limited from the point of impact. </p>
 
           <h3>14.3.3 	Third Person Supporting Character </h3>
           <p>Theoretically, you could also have a supporting character written in third person, e.g. </p>
 
           <div className="custom-box">
-            <p className="italic">Sarah saw Kevin look longingly at Mary, as if hoping she would notice him. Mary not only noticed him, she said: “I wish you would take me in your arms.” Then Sarah noticed Mary&#39;s mother watching from the window, and wondered if Mary&#39;s mother thought Kevin and Mary were a perfect match.
+            <p className="italic">Sarah saw Kevin look longingly at Mary, as if hoping she would notice him. Mary not only noticed him, she said: “I wish you would take me in your arms.” Then Sarah noticed Mary's mother watching from the window, and wondered if Mary's mother thought Kevin and Mary were a perfect match.
               <FootnoteRef text={`SOL STEIN,\nOn Writing.`} /></p>
           </div>
 
@@ -134,7 +134,7 @@ function POV() {
           <p>The introduction of a new narrator should mark the beginning of a chapter, for clarity. Once a narrator has been introduced, however, you can then shift back to them back in mid-chapter or mid-scene.</p>
 
           <h3>14.4.2 	POV consistency</h3>
-          <p>You can change the narrator, but don&#39;t change the type of POV mid-story. For instance, if your first narrator speaks in first person, and you want a second narrator, they must also speak in first person. Doing otherwise is annoying and confusing, but also raises unfortunate implications, like that your characters are less than equal, or one has more/less insight than the other, or one&#39;s thoughts and feelings are more important than the others, etc. </p>
+          <p>You can change the narrator, but don't change the type of POV mid-story. For instance, if your first narrator speaks in first person, and you want a second narrator, they must also speak in first person. Doing otherwise is annoying and confusing, but also raises unfortunate implications, like that your characters are less than equal, or one has more/less insight than the other, or one's thoughts and feelings are more important than the others, etc. </p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -149,11 +149,11 @@ function POV() {
             <li>Amount of intimacy with the events;</li>
             <li>What information the narrator has;</li>
             <li>Whether the story is more action-driven (concrete events) or character-driven (thoughts and feelings);</li>
-            <li>Impact on the story based on changes in the narrator&#39;s information (usually, either all-knowing, i.e. no change, or gradual increase in knowledge)</li>
+            <li>Impact on the story based on changes in the narrator's information (usually, either all-knowing, i.e. no change, or gradual increase in knowledge)</li>
             <li>How difficult writing will be (more POVs will be harder).</li>
           </ol>
 
-          <p>A big factor is the ‘how would the narrator know that?&#39; test. If you want to write something your narrator shouldn&#39;t/wouldn&#39;t know, you need to change the POV to suit.</p>
+          <p>A big factor is the ‘how would the narrator know that?' test. If you want to write something your narrator shouldn't/wouldn't know, you need to change the POV to suit.</p>
           <p>Bob Mayer observes:</p>
 
           <div className="quote-box">
@@ -167,27 +167,27 @@ function POV() {
           </p>
 
           <div className="quote-box">
-            <p className='italic'>“Several years back a fuel tanker on the freeway east of downtown Portland hit a car and burst into furious fl ames. Smoke boiled into the sky, a dark column visible from my downtown perch in the Oregonian&#39;s newsroom. The next morning&#39;s newspaper described the smoke rising into the midsummer sky and “obscuring Mount Hood.”</p>
+            <p className='italic'>“Several years back a fuel tanker on the freeway east of downtown Portland hit a car and burst into furious fl ames. Smoke boiled into the sky, a dark column visible from my downtown perch in the Oregonian's newsroom. The next morning's newspaper described the smoke rising into the midsummer sky and “obscuring Mount Hood.”</p>
             <p className='italic'>The reporter who produced the truck- crash story simply assumed that everybody who saw the smoke viewed it from the same direction. Yes, the dark column obscured Mount Hood if you saw it from the expensive West Hills homes looming over downtown. But newspaper readers east of the crash site saw the smoke obscuring not Mount Hood, but the West Hills.”</p>
           </div>
 
           <p>He concludes: "Bias aside, you ordinarily pick a stance to give readers the best angle on the unfolding story." </p>
-          <p>"Each story can be told from many points of view," said Don Murray, the dean of American newspaper writing coaches. “It is the writer&#39;s task to choose the point of view that will help the reader see the subject.”</p>
+          <p>"Each story can be told from many points of view," said Don Murray, the dean of American newspaper writing coaches. “It is the writer's task to choose the point of view that will help the reader see the subject.”</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-implied-change-of-pov">14.7: Implied Change of POV</h2>
-          <p>Ensure you don&#39;t accidentally change perspective. You may do this by describing characters thoughts and feelings which only they would be aware of. </p>
+          <p>Ensure you don't accidentally change perspective. You may do this by describing characters thoughts and feelings which only they would be aware of. </p>
           <p>If you do this deliberately, Mittelmark and Newman advise that, if your perspective change lasts less than one page, dump it.</p>
           <p>Also note certain terms can imply a change of perspective – i.e. a perspective shift can occur in a single word. For instance:</p>
 
           <div className="custom-box">
             <p className='italic'>I smiled <span className="underline">conceitedly</span> at the glowing reviews for my latest performance.</p>
-            <p className='italic'>He didn&#39;t like feeling left out. “I&#39;ve gone sky diving, too,”  <span className="underline">he boasted</span></p>
-            <p className='italic'>“That&#39;s not fair!”  <span className="underline">he sniveled</span></p>
+            <p className='italic'>He didn't like feeling left out. “I've gone sky diving, too,”  <span className="underline">he boasted</span></p>
+            <p className='italic'>“That's not fair!”  <span className="underline">he sniveled</span></p>
           </div>
 
-          <p>In all these cases, the characters themselves are unlikely to have described themselves like this, which necessitates an implied narrator to make sense of the description. This confuses the reader as it implies we&#39;ve jumped out of the character&#39;s head and are viewing them from some other perspective.</p>
+          <p>In all these cases, the characters themselves are unlikely to have described themselves like this, which necessitates an implied narrator to make sense of the description. This confuses the reader as it implies we've jumped out of the character's head and are viewing them from some other perspective.</p>
 
           {/* ------------------------------------------------- comment Form footnotes --------------------------------------------- */}
 

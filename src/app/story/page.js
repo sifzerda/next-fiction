@@ -62,11 +62,11 @@ function Story() {
 
           <h3>1.2.3 	More than a Series of Events</h3>
 
-          <p>A story is not simply a random series of events. A series of events becomes a &#39;story&#39; when there is some
+          <p>A story is not simply a random series of events. A series of events becomes a 'story' when there is some
             extra element —an overarching unifying factor— which transforms the events into a new thing in itself, with a whole greater than the sum of its
             parts, such that if you took away any piece, it would revert back to being a random series of events.</p>
 
-          <p>This unifying factor is what the story is &#39;really&#39; about, and should itself be simple; expressible in little
+          <p>This unifying factor is what the story is 'really' about, and should itself be simple; expressible in little
             more than a single sentence.</p>
 
           <div className="custom-box">
@@ -83,7 +83,7 @@ function Story() {
             <p>He got up early and went to the gym. Then he went into town and got a haircut. Then he bought a bottle of
               wine at the liquor store. Later, he washed his car, and picked up his clothes from the dry cleaners. That night he drove to the restaurant and
               went in. He greeted all the people, said happy birthday to the girl and gave her the wine. Everyone ate and drank, and talked. But he did not
-              talk to the girl at all. Then people began to leave. The girl refused to open his wine. They had it at her place, instead. But they didn&#39;t talk
+              talk to the girl at all. Then people began to leave. The girl refused to open his wine. They had it at her place, instead. But they didn't talk
               much there, either.</p>
           </div>
 
@@ -93,7 +93,7 @@ function Story() {
           </p>
 
           <p>
-            In other words, if someone asked you what (1) was about, you could say, a guy goes to a party. But if someone asks you what it meant, you don&#39;t know.
+            In other words, if someone asked you what (1) was about, you could say, a guy goes to a party. But if someone asks you what it meant, you don't know.
             If someone asks you what (2) was about, you can say, a guy goes to a party. If someone asks you what it meant, you can say, the guy likes the girl, and we
             find out she likes him back. All of the details are used to communicate this. More than pure chronological content, self-contained meaningfulness is the indicator of a story.
           </p>
@@ -106,30 +106,30 @@ function Story() {
             in others, muted and delayed. It may occur at the beginning, middle or end, or the fuse may be lit early and the explosion happen later, but by the end there must be some kind of resolution or meaning
             created, a sense of something new created from the previous, subverted status quo.</p>
 
-          <h3>1.2.5 	Difference Between &#39;Story&#39; and &#39;Idea&#39;</h3>
+          <h3>1.2.5 	Difference Between 'Story' and 'Idea'</h3>
 
           <p>Bob Mayer
             <FootnoteRef text={`BOB MAYER,\nFiction Writer's Toolkit.`} />
             makes a good point that “[an] idea is not [a] story.”  How you tell the idea is the story.
             Different writers can come up with the same idea, but tell different stories. Some good ideas cannot be made into good stories. Conversely, some bad ideas can be made into good stories (you may have
-            heard a critic/reviewer say something like, &#39;in the hands of another writer, this idea would not have worked...&#39;)</p>
+            heard a critic/reviewer say something like, 'in the hands of another writer, this idea would not have worked...')</p>
 
-          <h3>1.2.6 	Difference between &#39;Story&#39; and &#39;Plot&#39;</h3>
+          <h3>1.2.6 	Difference between 'Story' and 'Plot'</h3>
 
           <p>You start with an idea, figure out a story, and then work on the plot.</p>
-          <p>The terms &#39;story&#39; and &#39;plot&#39; are often used interchangeably, but don&#39;t mean the same things. The same stories tend to get told and retold, but they always have different plots.</p>
-          <p>A &#39;story&#39; refers to the sequence of events, arranged chronologically, which generate particular meaningfulness. The emphasis is on the events and the order they are arranged in, which creates
-            meaning. If visiting an old, decrepit house at night is a main event, we know this refers to the category &#39;ghost story.&#39;</p>
+          <p>The terms 'story' and 'plot' are often used interchangeably, but don't mean the same things. The same stories tend to get told and retold, but they always have different plots.</p>
+          <p>A 'story' refers to the sequence of events, arranged chronologically, which generate particular meaningfulness. The emphasis is on the events and the order they are arranged in, which creates
+            meaning. If visiting an old, decrepit house at night is a main event, we know this refers to the category 'ghost story.'</p>
           <p>Conversely, “[a] plot is what you do with that story,”
             <FootnoteRef text={`HALLIE BURNETT AND WHIT BURNETT,\nFiction Writer's Handbook.`} />
             — how you selectively arrange the events chronologically or artistically
             to create particular meaning, emotions or emphasis. Ten stories may all be ghost stories with the same events (haunted house, dead former tenants, cemetery, ghost, etc), but they will have different plots. One may happen within a single day,
-            or a single hour (like in Stephen King&#39;s 1408), and by direct first-person events, another may be spaced over hundreds of years and be uncovered through after-the-fact research done by the protagonist.</p>
+            or a single hour (like in Stephen King's 1408), and by direct first-person events, another may be spaced over hundreds of years and be uncovered through after-the-fact research done by the protagonist.</p>
 
-          <p>If asked, “what is your story?” you might say, “A ghost story.” If asked, “What&#39;s the plot?” you might then detail the sequence of events which distinguishes your ghost story from other ghost stories. Thus, &#39;story&#39;
-            emphasises the commonalities of your work with the broader category of similar &#39;stories&#39;. &#39;Plot&#39; distinguishes your work from the broader category of similar &#39;plots&#39;.</p>
+          <p>If asked, “what is your story?” you might say, “A ghost story.” If asked, “What's the plot?” you might then detail the sequence of events which distinguishes your ghost story from other ghost stories. Thus, 'story'
+            emphasises the commonalities of your work with the broader category of similar 'stories'. 'Plot' distinguishes your work from the broader category of similar 'plots'.</p>
 
-          <p>If your story is like other good stories, that&#39;s good. If your plot is like other good plots, that&#39;s bad.</p>
+          <p>If your story is like other good stories, that's good. If your plot is like other good plots, that's bad.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
@@ -144,8 +144,8 @@ function Story() {
             <li className="mb-2">THEME.</li>
           </ol>
 
-          <p>There are roughly two types of stories: (1) stories about people who &#39;rise&#39;
-            and end up better off at the end; (2) stories about people who &#39;fall&#39; and end up worse off at the end (even if a
+          <p>There are roughly two types of stories: (1) stories about people who 'rise'
+            and end up better off at the end; (2) stories about people who 'fall' and end up worse off at the end (even if a
             person ends up where they started, they still may be in a worse position; having lost time or opportunities, or
             not learned anything from their experiences).</p>
 
@@ -191,31 +191,31 @@ function Story() {
 
           <p>First, a tangential notion; appreciate your story is not the place for a jeremiad.
             Fiction is a forum for the exploration of viewpoints, not one-sided debate of controversial convictions. Your aim is not
-            to preach to your readers and &#39;convert&#39; them.</p>
+            to preach to your readers and 'convert' them.</p>
           <p>You can only support and develop arguments for non-controversial viewpoints which your
-            reader likely held anyway; truisms or even trite-isms are acceptable, such as &#39;love saves,&#39; &#39;misdeeds don&#39;t pay in the long term,&#39;
-            &#39;revenge is wrong,&#39; &#39;loyalty and honesty is rewarded in the long term,&#39; &#39;defying wrongful authority is a
-            virtue,&#39; &#39;integrity is better than duplicity,&#39; and &#39;stand up for your beliefs,&#39; etc. Your goal is not to present a novel, original,
+            reader likely held anyway; truisms or even trite-isms are acceptable, such as 'love saves,' 'misdeeds don't pay in the long term,'
+            'revenge is wrong,' 'loyalty and honesty is rewarded in the long term,' 'defying wrongful authority is a
+            virtue,' 'integrity is better than duplicity,' and 'stand up for your beliefs,' etc. Your goal is not to present a novel, original,
             controversial argument, but to portray a timeless argument in an original, novel way.</p>
 
-          <p>More relevantly, if your protagonist stands for timeless values, your story is justified in being a &#39;rise&#39; story,
-            because the protagonist&#39;s ultimate triumph validates those undisputed values. Conversely, if your protagonist stands for controversial or just plain wrong values,
-            it justifies a &#39;fall&#39; story.</p>
+          <p>More relevantly, if your protagonist stands for timeless values, your story is justified in being a 'rise' story,
+            because the protagonist's ultimate triumph validates those undisputed values. Conversely, if your protagonist stands for controversial or just plain wrong values,
+            it justifies a 'fall' story.</p>
 
-          <p>This creates an exception to my earlier point against jeremiads; your protagonist can be a &#39;preacher&#39; if they don&#39;t
-            ultimately triumph; in this way, you don&#39;t side with your protagonist, rather, you are proving the contrary by deduction (&#39;if the protagonist had not done that,
-            he would have succeeded...&#39;). Also, don&#39;t define &#39;triumph&#39; as black/white; think of it as a spectrum — the protagonist who ultimately obtains a large sum of
-            money paid with the life of their (innocent) love interest would not count as a &#39;triumph.&#39; Don&#39;t confuse the characters&#39; feelings with the readers&#39;.</p>
+          <p>This creates an exception to my earlier point against jeremiads; your protagonist can be a 'preacher' if they don't
+            ultimately triumph; in this way, you don't side with your protagonist, rather, you are proving the contrary by deduction ('if the protagonist had not done that,
+            he would have succeeded...'). Also, don't define 'triumph' as black/white; think of it as a spectrum — the protagonist who ultimately obtains a large sum of
+            money paid with the life of their (innocent) love interest would not count as a 'triumph.' Don't confuse the characters' feelings with the readers'.</p>
 
-          <p>Also, make the protagonist&#39;s rise/loss proportionate to the radicalism of their beliefs; a protagonist who is spectacularly polarised should
+          <p>Also, make the protagonist's rise/loss proportionate to the radicalism of their beliefs; a protagonist who is spectacularly polarised should
             fail spectacularly; a protagonist whose beliefs are more nuanced or equivocal may fail partly and win partly.</p>
 
           <hr /> {/* ---------------------------------------------------------*/}
 
-          <h2 id="post-joseph-campbell-myths">1.4 Joseph Campbell&#39;s Myths</h2>
+          <h2 id="post-joseph-campbell-myths">1.4 Joseph Campbell's Myths</h2>
 
-          <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being &#39;The Adventure of the Hero,&#39;
-            more commonly known as <i>&#39;The Hero&#39;s Journey.&#39;</i>
+          <p>No discussion of storytelling would be complete without mentioning Joseph Campbell's universal 'myths,'  his most known being 'The Adventure of the Hero,'
+            more commonly known as <i>'The Hero's Journey.'</i>
             <FootnoteRef text={`JOSEPH CAMPBELL,\nThe Hero With A Thousand Faces.`} />
           </p>
 
@@ -231,31 +231,31 @@ function Story() {
 
           <h2 id="post-myths-and-misconceptions">1.5 Myths and Misconceptions</h2>
           <h3>1.5.1 Write What You Know</h3>
-          <p>Writers are commonly instructed to &#39;Write what [they] know.&#39; But, as Alice LaPlante says, this can be limiting.
+          <p>Writers are commonly instructed to 'Write what [they] know.' But, as Alice LaPlante says, this can be limiting.
             <FootnoteRef text={`ALICE LaPLANTE,\nThe Making of a Story: A Norton Guide to Creative Writing.`} />
             <i>"Write about what you don't know about what you know," </i> Eudora Welty suggests. Take what you know and create a mystery from it; you might see your accountant
             neighbour leave at one in the morning every Saturday, but where is he/she going?</p>
 
-          <p>You can write anything you want. Stephen Crane wrote about the American Civil War in The Red Badge of Courage, even though he&#39;d never been to war.
-            Your writing will be better if you research your chosen topic/s first, or while writing. Don&#39;t let anyone discourage you from writing about something you have not personally experienced,
+          <p>You can write anything you want. Stephen Crane wrote about the American Civil War in The Red Badge of Courage, even though he'd never been to war.
+            Your writing will be better if you research your chosen topic/s first, or while writing. Don't let anyone discourage you from writing about something you have not personally experienced,
             otherwise you risk writing nothing more ambitious than what Robert Mckee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            calls &#39;the personal story,&#39; — basically a fictionalized diary entry.</p>
+            calls 'the personal story,' — basically a fictionalized diary entry.</p>
 
-          <h3>1.5.2 	Don&#39;t Take Ideas from Other Writers</h3>
-          <p>Anyone who gives a blanket proscription against &#39;stealing&#39; ideas (it&#39;s not really &#39;borrowing&#39; if you never give them back) is out of touch with writing practice.
-            99% of fiction writers are readers of other fiction writers, or &#39;fans&#39;, and hence get their ideas from someone else. However, some forms of &#39;copying&#39; (or more politically correct: &#39;drawing inspiration&#39;)
+          <h3>1.5.2 	Don't Take Ideas from Other Writers</h3>
+          <p>Anyone who gives a blanket proscription against 'stealing' ideas (it's not really 'borrowing' if you never give them back) is out of touch with writing practice.
+            99% of fiction writers are readers of other fiction writers, or 'fans', and hence get their ideas from someone else. However, some forms of 'copying' (or more politically correct: 'drawing inspiration')
             are more permissible than others:</p>
 
           <h5>(1) Steal More</h5>
 
-          <p>If your &#39;stealing&#39; is easily found out, ironically you&#39;re probably not stealing enough. There&#39;s a saying: <i>“If you steal from one person it&#39;s plagiarism, steal from many, it&#39;s research.”</i>
-            Just by reading many different authors on the same idea, or better, across many different kinds of ideas or themes, is going to enrichen your &#39;idea base&#39;, and when it comes to writing your own, the &#39;cross-fertilisation&#39; of ideas
-            will mask your tracks, burying the echoes of one author under the echoes of all the others, and making it less clear where one &#39;stolen&#39; idea begins and another ends;</p>
+          <p>If your 'stealing' is easily found out, ironically you're probably not stealing enough. There's a saying: <i>“If you steal from one person it's plagiarism, steal from many, it's research.”</i>
+            Just by reading many different authors on the same idea, or better, across many different kinds of ideas or themes, is going to enrichen your 'idea base', and when it comes to writing your own, the 'cross-fertilisation' of ideas
+            will mask your tracks, burying the echoes of one author under the echoes of all the others, and making it less clear where one 'stolen' idea begins and another ends;</p>
           <p>Note: Avoid slavishly copy-pasting ideas, even in mass volume. A ton of shit is no less shit than an ounce of shit. Borrow ideas lots of ideas, yes, but borrow selectively. If you think purely having read thousands of stories makes
             you a better writer, note what Robert McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
-            says about writing &#39;instinct&#39;:</p>
+            says about writing 'instinct':</p>
 
           <div className="quote-box">
             <p>"...[W]hat the novice mistakes for craft is simply his unconscious absorption of story elements from every novel, film, or play he's ever encountered. As he writes, he matches his work by trial and error against a model built up from accumulated
@@ -267,24 +267,24 @@ function Story() {
           </div>
 
           <h5>(2) Steal Further Back</h5>
-          <p>There&#39;s a variation on the above: <i>"If we steal thoughts from the moderns, it will be cried down as plagiarism; if from the ancients, it will cried up as erudition"</i>
+          <p>There's a variation on the above: <i>"If we steal thoughts from the moderns, it will be cried down as plagiarism; if from the ancients, it will cried up as erudition"</i>
             <FootnoteRef text={`REVEREND CHARLES CALEB COLTON.`} />
-            So if you want to take from &#39;Dracula&#39;, don&#39;t stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
+            So if you want to take from 'Dracula', don't stop with Dracula itself, but read the origin myths and real life historical background which gave rise to the story.</p>
 
           <h5>(3) Aim Lower</h5>
-          <p>Writers are most tempted to steal from the most widely-known, or idolized, &#39;untouchable&#39; works. For instance, in fantasy, Lord of the Rings. Hypocritically, the writer believes the work cannot be improved. If you cannot improve the original work,
+          <p>Writers are most tempted to steal from the most widely-known, or idolized, 'untouchable' works. For instance, in fantasy, Lord of the Rings. Hypocritically, the writer believes the work cannot be improved. If you cannot improve the original work,
             then why are you trying to get published? What will the public get from your work that Lord of the Rings did not already give them?</p>
-          <p>In contrast, do you remember a time you&#39;ve read a book and thought &#39;How did that turn out so bad? That could&#39;ve been really good.&#39; Those are the books you want to steal from. You want to rewrite the book the way you think it should&#39;ve gone. Even if the story is well
+          <p>In contrast, do you remember a time you've read a book and thought 'How did that turn out so bad? That could've been really good.' Those are the books you want to steal from. You want to rewrite the book the way you think it should've gone. Even if the story is well
             known, this form of copying is more permissible because you are making active changes to the story.</p>
 
           <h3>1.5.3 Slavishly adhere to good spelling and grammar</h3>
-          <p>I refer to this misconception later on, but for now I&#39;ll just say this is untrue. You should adhere to conventional grammar and spelling unless your story starts to not make sense if you don&#39;t. &#39;Flowers for Algernon&#39; by Daniel Keyes is a clear example, so much that the story would have been nonsensical
+          <p>I refer to this misconception later on, but for now I'll just say this is untrue. You should adhere to conventional grammar and spelling unless your story starts to not make sense if you don't. 'Flowers for Algernon' by Daniel Keyes is a clear example, so much that the story would have been nonsensical
             if perfect grammar had been used from the start.</p>
 
-          <h3>1.5.4 Show don&#39;t Tell</h3>
-          <p>As a basic rule, description which &#39;shows&#39; should be prioritized before description which &#39;tells&#39;. But there are exceptions, such as:</p>
+          <h3>1.5.4 Show don't Tell</h3>
+          <p>As a basic rule, description which 'shows' should be prioritized before description which 'tells'. But there are exceptions, such as:</p>
           <ol>
-            <li>To designate a passage of time separating critical &#39;showing&#39; scenes;</li>
+            <li>To designate a passage of time separating critical 'showing' scenes;</li>
             <li>To provide a break from the intensity of a scene;</li>
             <li>To provide a transition between scenes;</li>
             <li>To describe the character acting on autopilot (e.g. driving for a long period of time without much cognizance of surroundings);</li>
@@ -292,17 +292,17 @@ function Story() {
 
           <h3>1.5.5 	Characters are collections of assorted personality traits</h3>
           <p>There is writing advice which instructs that characters are basically a bunch of personality traits, as close to real people you know as possible. This is not a helpful way of thinking about character construction.</p>
-          <p>Characters are not meant to be &#39;real people on paper&#39;;  nor are they meant to be a collection of personality traits you think up one rainy day. Characters are motivation. You create characters out of necessity — because you need
+          <p>Characters are not meant to be 'real people on paper';  nor are they meant to be a collection of personality traits you think up one rainy day. Characters are motivation. You create characters out of necessity — because you need
             a character to do some particular thing in the story. They are not there, like so much human wallpaper at a high flying party, to stand around looking attractive and telling jokes and blending into the environment. Characters are instruments.</p>
 
           <h3>1.5.6 	Verisimilitude, not Truth</h3>
-          <p>It&#39;s no defence to a charge that your story is unbelievable or boring or poorly structured or nonsensical to say &#39;but it was like that in real life.&#39; Lots of things, all kinds of things, happen in real life, and most of them aren&#39;t story-worthy.
-            Stories aren&#39;t real life like characters aren&#39;t real people.</p>
+          <p>It's no defence to a charge that your story is unbelievable or boring or poorly structured or nonsensical to say 'but it was like that in real life.' Lots of things, all kinds of things, happen in real life, and most of them aren't story-worthy.
+            Stories aren't real life like characters aren't real people.</p>
 
           <hr />
 
           <h2 id="post-philosophy-of-story">1.6 The Philosophy of Storytelling</h2>
-          <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don&#39;t want to write about those things, or you can&#39;t, your story won&#39;t be worth telling.</p>
+          <p>Misery, Conflict and Struggle are the lifeblood of captivating story. If you don't want to write about those things, or you can't, your story won't be worth telling.</p>
 
           <p>Robert McKee
             <FootnoteRef text={`ROBERT MCKEE,\nStory: Substance, Structure, Style and the Principles of Screenwriting.`} />
@@ -324,16 +324,16 @@ function Story() {
           <hr /> {/* ---------------------------------------------------------*/}
 
           <h2 id="post-medium">1.7 Medium</h2>
-          <p>It&#39;s worth considering whether your story makes the most of your chosen medium (writing/literature). Your story might make a great film, or video game, but a poor novel. Right now, audiences love superhero comics, superhero films and superhero video games, but no one reads superhero novels. The superhero genre seems to need images to work.</p>
-          <p>Compare with horror. Most horror is uniquely suited to written media because it&#39;s largely &#39;visual-avoidant&#39; by undermining visual and direct information in favour of other forms (inference, sound, anecdote, etc). For instance, in horror, the last thing you want to do is give away the 'visual' or the 'sighting' prematurely (if at all). Not to say visual horror
-            is ineffective — it has the intensity of fireworks, but unfortunately, also has the lifespan of fireworks. The visual horror creator has to keep contriving to put the source of horror out of sight &#39;until later.&#39;</p>
+          <p>It's worth considering whether your story makes the most of your chosen medium (writing/literature). Your story might make a great film, or video game, but a poor novel. Right now, audiences love superhero comics, superhero films and superhero video games, but no one reads superhero novels. The superhero genre seems to need images to work.</p>
+          <p>Compare with horror. Most horror is uniquely suited to written media because it's largely 'visual-avoidant' by undermining visual and direct information in favour of other forms (inference, sound, anecdote, etc). For instance, in horror, the last thing you want to do is give away the 'visual' or the 'sighting' prematurely (if at all). Not to say visual horror
+            is ineffective — it has the intensity of fireworks, but unfortunately, also has the lifespan of fireworks. The visual horror creator has to keep contriving to put the source of horror out of sight 'until later.'</p>
           <p>The novel 'Bird Box'
             <FootnoteRef text={`JOSH MALERMAN,\nBird Box.`} />
-            is a perfect example of visual-avoidant horror&#39;s efficacy: the plot involves monsters invading earth which, if you look at, you go crazy. A film requires a lot of narrative and camera gymnastics to get around this glaringly visual-avoidant plot point. Whereas, the same concept has no problem in literature: if it's not seen,
+            is a perfect example of visual-avoidant horror's efficacy: the plot involves monsters invading earth which, if you look at, you go crazy. A film requires a lot of narrative and camera gymnastics to get around this glaringly visual-avoidant plot point. Whereas, the same concept has no problem in literature: if it's not seen,
             it's not described. End of story.</p>
-          <p>Same with crime fiction; it&#39;s purpose is to keep certain visual information (the criminal, the crime itself) hidden from you for as long as possible. This makes it literature-friendly.</p>
-          <p>Romance also has distinct literary appeal over visual media. You could argue it's a downside that you don't see the romantic interests, but on the positive side, you get to fill in their appearances with your own preferences — or yourself. Visual media cannot &#39;self-insert&#39;; and (as Hollywood&#39;s star system testifies) the actor&#39;s likeability is a huge barrier to engagement.</p>
-          <p>On the other hand, notice how the Verne-style 'adventure' novel has all but died in literature, but survives in film and video game? The &#39;Western&#39; has gone one step further, dying in literature and film, but surviving in video game.</p>
+          <p>Same with crime fiction; it's purpose is to keep certain visual information (the criminal, the crime itself) hidden from you for as long as possible. This makes it literature-friendly.</p>
+          <p>Romance also has distinct literary appeal over visual media. You could argue it's a downside that you don't see the romantic interests, but on the positive side, you get to fill in their appearances with your own preferences — or yourself. Visual media cannot 'self-insert'; and (as Hollywood's star system testifies) the actor's likeability is a huge barrier to engagement.</p>
+          <p>On the other hand, notice how the Verne-style 'adventure' novel has all but died in literature, but survives in film and video game? The 'Western' has gone one step further, dying in literature and film, but surviving in video game.</p>
           <p>Genres that work in writing:</p>
 
           <ol>
@@ -414,27 +414,27 @@ function Story() {
           <div className="quote-box">
             <ol className="numbered">
               <li>You admire a character for trying more than for their successes.</li>
-              <li>You gotta keep in mind what&#39;s interesting to you as an audience, not what&#39;s fun to do as a writer. They can be v. different.</li>
-              <li>Trying for theme is important, but you won&#39;t see what the story is actually about til you&#39;re at the end of it. Now rewrite.</li>
+              <li>You gotta keep in mind what's interesting to you as an audience, not what's fun to do as a writer. They can be v. different.</li>
+              <li>Trying for theme is important, but you won't see what the story is actually about til you're at the end of it. Now rewrite.</li>
               <li>Once upon a time there was ___. Every day, ___. One day ___. Because of that, ___. Because of that, ___. Until finally ___.</li>
-              <li>Simplify. Focus. Combine characters. Hop over detours. You&#39;ll feel like you&#39;re losing valuable stuff but it sets you free.</li>
+              <li>Simplify. Focus. Combine characters. Hop over detours. You'll feel like you're losing valuable stuff but it sets you free.</li>
               <li>What is your character good at, comfortable with? Throw the polar opposite at them. Challenge them. How do they deal?</li>
               <li>Come up with your ending before you figure out your middle. Seriously. Endings are hard, get yours working up front.</li>
-              <li>Finish your story, let go even if it&#39;s not perfect. In an ideal world you have both, but move on. Do better next time.</li>
-              <li>When you&#39;re stuck, make a list of what WOULDN&#39;T happen next. Lots of times the material to get you unstuck will show up.</li>
-              <li>Pull apart the stories you like. What you like in them is a part of you; you&#39;ve got to recognize it before you can use it.</li>
-              <li>Putting it on paper lets you start fixing it. If it stays in your head, a perfect idea, you&#39;ll never share it with anyone.</li>
+              <li>Finish your story, let go even if it's not perfect. In an ideal world you have both, but move on. Do better next time.</li>
+              <li>When you're stuck, make a list of what WOULDN'T happen next. Lots of times the material to get you unstuck will show up.</li>
+              <li>Pull apart the stories you like. What you like in them is a part of you; you've got to recognize it before you can use it.</li>
+              <li>Putting it on paper lets you start fixing it. If it stays in your head, a perfect idea, you'll never share it with anyone.</li>
               <li>Discount the 1st thing that comes to mind. And the 2nd, 3rd, 4th, 5th — get the obvious out of the way. Surprise yourself.</li>
-              <li>Give your characters opinions. Passive/malleable might seem likable to you as you write, but it&#39;s poison to the audience.</li>
-              <li>Why must you tell THIS story? What&#39;s the belief burning within you that your story feeds off of? That&#39;s the heart of it.</li>
+              <li>Give your characters opinions. Passive/malleable might seem likable to you as you write, but it's poison to the audience.</li>
+              <li>Why must you tell THIS story? What's the belief burning within you that your story feeds off of? That's the heart of it.</li>
               <li>If you were your character, in this situation, how would you feel? Honesty lends credibility to unbelievable situations.</li>
-              <li>What are the stakes? Give us reason to root for the character. What happens if they don&#39;t succeed? Stack the odds against.</li>
-              <li>No work is ever wasted. If it&#39;s not working, let go and move on - it&#39;ll come back around to be useful later.</li>
+              <li>What are the stakes? Give us reason to root for the character. What happens if they don't succeed? Stack the odds against.</li>
+              <li>No work is ever wasted. If it's not working, let go and move on - it'll come back around to be useful later.</li>
               <li>You have to know yourself: the difference between doing your best & fussing. Story is testing, not refining.</li>
               <li>Coincidences to get characters into trouble are great; coincidences to get them out of it are cheating.</li>
               <li>Exercise: take the building blocks of a movie you dislike. How do you rearrange them into what you DO like?</li>
-              <li>You gotta identify with your situation/characters, can&#39;t just write &#39;cool&#39;. What would make YOU act that way?</li>
-              <li>What&#39;s the essence of your story? Most economical telling of it? If you know that, you can build out from there.</li>
+              <li>You gotta identify with your situation/characters, can't just write 'cool'. What would make YOU act that way?</li>
+              <li>What's the essence of your story? Most economical telling of it? If you know that, you can build out from there.</li>
             </ol>
           </div>
 
@@ -471,7 +471,7 @@ function Story() {
               <li className="mb-px"><a href="#post-storytelling" className="text-xs hover:underline hover:text-white">1.1 Storytelling</a></li>
               <li className="mb-px"><a href="#post-what-is-a-story" className="text-xs hover:underline hover:text-white">1.2 What Is A Story?</a></li>
               <li className="mb-px"><a href="#post-main-elements-of-story" className="text-xs hover:underline hover:text-white">1.3 The Main Elements of a Story</a></li>
-              <li className="mb-px"><a href="#post-joseph-campbell-myths" className="text-xs hover:underline hover:text-white">1.4 Joseph Campbell&#39;s Myths</a></li>
+              <li className="mb-px"><a href="#post-joseph-campbell-myths" className="text-xs hover:underline hover:text-white">1.4 Joseph Campbell's Myths</a></li>
               <li className="mb-px"><a href="#post-myths-and-misconceptions" className="text-xs hover:underline hover:text-white">1.5 Myths and Misconceptions</a></li>
               <li className="mb-px"><a href="#post-philosophy-of-story" className="text-xs hover:underline hover:text-white">1.6 The Philosophy of Storytelling</a></li>
               <li className="mb-px"><a href="#post-medium" className="text-xs hover:underline hover:text-white">1.7 Medium</a></li>

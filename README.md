@@ -78,6 +78,25 @@ User authentication with JWTs allow users to create an account, which stores use
 - tailwind-scrollbar: customized sidebar scrollbar
 - Open Library Covers API (for book reviews page)
 
+    Authentication - Auth.js - Login with Google, GitHub, email, etc.
+disqus
+pagefind
+remark/rehype ecosystem
+
+Optional enhancements
+
+I'd also consider:
+
+Shiki for beautiful syntax highlighting if you include writing examples.
+KaTeX only if you'll have any formal notation (probably unnecessary for fiction writing).
+Framer Motion for subtle UI animations.
+Vercel Analytics (or Plausible) to see which topics are most read.
+Image optimization built into Next.js for diagrams or illustrations.
+
+Pagefind for fast full-text search
+
+remark/rehype plugins
+
 ## Footnotes and Tooltips
 
 New Footnotes can be added by pasting right after a reference/quote (no space) and filling in the full citation. Paste before </ p>  to preserve formatting.: 
@@ -170,10 +189,10 @@ SEARCH:
  - 13.2.7 Dialogue descriptions (the next words)
 - above rule of invisibility (see: 13.2.5) (the next words)
 - I also address this under ‘Cowardly or Courageous' under the Horror Section. (main charactetrs)
-- (remember Blake Snyder&#39;s ‘Stasis = Death&#39; concept) (main characters)
+- (remember Blake Snyder's ‘Stasis = Death' concept) (main characters)
 - footnotes are not resetting on page switch (they're accumulating)
-- reason for existence, possibly through a ‘Microcosmic&#39; scene (main characters)
-- the ‘People avoid Jinxing&#39; rule. (main characters)
+- reason for existence, possibly through a ‘Microcosmic' scene (main characters)
+- the ‘People avoid Jinxing' rule. (main characters)
 - the strange sandwich Remember this rule under Part 2? It also applies to characters (actually, it applies to everything). (main hcaraterts)
 
  - <p>Note 13.2.3 Paragraphs says every paragraph should cover a single idea (description)
@@ -190,3 +209,5 @@ SEARCH:
 
 
     there's an example missing in the next words, about tax department see "However, this rule is not always followed in real life. For instance, "
+
+
